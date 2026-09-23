@@ -12,6 +12,14 @@ These are prebuilt ZIPs. GitHub's **Code → Download ZIP** still downloads the 
 
 The working ZIP was extracted and checked: all 57 model source files retained; exact reproduction of the three saved nowcasts and 39 path rows; new nowcast/path/momentum input preparation passed. [Verification](distribution/SMALL_DOWNLOAD_VERIFICATION.json).
 
+## Offline operator package (R45, 23 September 2026) — start here on the Bloomberg computer
+
+Download **[czech-inflation-offline-r45.zip](https://github.com/Laguiar1993/czech-inflation/releases/download/r45-offline-2026-09-23/czech-inflation-offline-r45.zip)** from release [r45-offline-2026-09-23](https://github.com/Laguiar1993/czech-inflation/releases/tag/r45-offline-2026-09-23): 143,904,538 bytes, SHA-256 `1480a04e4cbab0ba84f756f0d36667832a0028c22842fb06dbc6f34744298dec`, built from commit `dca4ec19` (3,303 files; `PACKAGE_MANIFEST.json` inside lists every member hash).
+
+Extract it, read `START_HERE.txt`, then **`OFFLINE_OPERATOR_GUIDE.md`**. It is written for a machine with a Bloomberg Terminal and no AI assistant: Bloomberg captures for every series the Terminal holds, browser downloads and typed CSV/JSON templates for the rest, staged with an offline importer that validates them with the model's own parsers and journals them in a local SQLite database. It contains the model source, the inputs the production nowcast and path read, the R44 page (dated September 2026), the templates and the source catalog. No command in it calls the CNB ARAD API or any AI service. After extraction, `portable restore`, `doctor` and `verify --models` reproduce the recorded September forecasts offline; the release notes record the rehearsal.
+
+The full-project transfer below (`project/`, R35 release) is unchanged and remains the complete research archive.
+
 ## Open the page
 
 Clone this repository and double-click **open-dashboard.cmd**, or open **project/output/inflation_dashboard_r35/index.html** in Chrome. It works immediately without Bloomberg or Python.
