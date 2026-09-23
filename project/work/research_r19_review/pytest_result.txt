@@ -1,0 +1,46 @@
+....................FF                                                   [100%]
+================================== FAILURES ===================================
+____________ test_archiver_delay_over_completion_limit_is_rejected ____________
+
+recording = (<module 'tools.recording.verified_nowcast' from 'C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata...09', 'target': '2026-07', 'as_of': '2026-08-04T11:58:01+00:00', 'completed_at': '2026-08-04T11:58:02+00:00', ...}, ...)
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000020C624227E0>
+
+    def test_archiver_delay_over_completion_limit_is_rejected(recording, monkeypatch):
+        v, a, root, run, snapshot, forecast, seal, clock, archive_root = recording
+        collect = a._snapshot_artifacts
+    
+        def slow_archive_hash(*args, **kwargs):
+            result = collect(*args, **kwargs)
+            clock[0] += timedelta(seconds=3)
+            return result
+    
+        monkeypatch.setattr(a, "_snapshot_artifacts", slow_archive_hash)
+>       with pytest.raises(ValueError, match="[Ss]tale|[Cc]ompletion|window"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+tests\test_r19_recording_audit.py:110: Failed
+________________ test_all_verified_receipt_artifacts_are_bound ________________
+
+recording = (<module 'tools.recording.verified_nowcast' from 'C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata...09', 'target': '2026-07', 'as_of': '2026-08-04T11:58:01+00:00', 'completed_at': '2026-08-04T11:58:02+00:00', ...}, ...)
+
+    def test_all_verified_receipt_artifacts_are_bound(recording):
+        v, a, root, run, snapshot, forecast, seal, clock, archive_root = recording
+        dump(run / "path.json", {"paths": {"BRIDGE_HARD": [.3, .4]}})
+        dump(run / "path.csv", "model,h,mm_pct\nBRIDGE_HARD,0,0.3\n")
+        snapshot["include_path"] = True
+        seal(("path.json", "path.csv"))
+        bundle_dir = v.record_run(run, archive_root, mode="replay", root=root)
+        bundle = a.verify_bundle(bundle_dir, verify_artifacts=True)
+        originals = set(bundle["metadata"]["source_path_map"].values())
+>       assert str((run / "path.json").resolve()) in originals
+E       AssertionError: assert 'C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\work\\research_r19_review\\pytest_combined_v1\\test_all_verified_receipt_arti0\\repo\\run\\path.json' in {'C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\tools\\recor...ndent\\work\\research_r19_review\\pytest_combined_v1\\test_all_verified_receipt_arti0\\repo\\run\\components.csv', ...}
+E        +  where 'C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\work\\research_r19_review\\pytest_combined_v1\\test_all_verified_receipt_arti0\\repo\\run\\path.json' = str(WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/research_r19_review/pytest_combined_v1/test_all_verified_receipt_arti0/repo/run/path.json'))
+E        +    where WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/research_r19_review/pytest_combined_v1/test_all_verified_receipt_arti0/repo/run/path.json') = resolve()
+E        +      where resolve = (WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/research_r19_review/pytest_combined_v1/test_all_verified_receipt_arti0/repo/run') / 'path.json').resolve
+
+tests\test_r19_recording_audit.py:124: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_r19_recording_audit.py::test_archiver_delay_over_completion_limit_is_rejected
+FAILED tests/test_r19_recording_audit.py::test_all_verified_receipt_artifacts_are_bound
+2 failed, 20 passed in 1.10s

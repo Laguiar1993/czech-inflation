@@ -1,0 +1,16 @@
+{
+  "comparison_status": "ok",
+  "frozen_files_unchanged": true,
+  "frozen_sha256": {
+    "cz_struct.py": "276e69f480d32b9cad72003fb0e88cfc174d1126a72c70a56711ad18b8f48307",
+    "data/bloomberg_inputs_20260922_foodppi/MANIFEST.json": "3ab4d5971aa24bc6c2d9fd5d6650349c8b0b2584d2869497ac89355e6ccb00d5",
+    "data/release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+    "forecast_independent.py": "113a724c6a2bfeba2ca908b12ce9df5628093ad702d6ffd8d6fbc8e4353cfec0",
+    "tools/live_bundle_r32/adapter.py": "5a59901a96da38e9073f63703ee86f2465660f81743ba67aa46c8d023b064855",
+    "tools/live_bundle_r32/cli.py": "12522e4c51af506d7c60911d01d7289075a86b896c65080ca4d989ad4e4e48dc",
+    "tools/live_bundle_r32/runner.py": "290770471a5452628a2eb5f2863af6c6f751cf323dfc4dc29f35b269030b5eae"
+  },
+  "new_run": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\forecast_updates_r33\\runs\\20260922T173009883888Z_cce84a741ef9",
+  "old_run": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\forecast_updates_r33\\runs\\20260922T172954590002Z_c92d2a1fc7d0",
+  "recorded_at": "2026-09-22T17:30:22.141701+00:00"
+}

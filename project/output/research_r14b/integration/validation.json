@@ -1,0 +1,9 @@
+{
+  "unique_model_keys": true,
+  "n_origins": 90,
+  "n_models": 14,
+  "target_difference": 1.7763568394002505e-15,
+  "local_control_identical": true,
+  "history_policy": "84 missing historical import values, all original cells unchanged",
+  "interpretation": "Exploratory follow-up motivated by R14 outcomes; no new untouched holdout"
+}

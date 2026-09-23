@@ -1,0 +1,222 @@
+F.FFFFFFFFFxxx                                                           [100%]
+================================== FAILURES ===================================
+_________ test_scoreboard_import_does_not_read_data_or_write_outputs __________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x00000233AB137CE0>
+
+    def test_scoreboard_import_does_not_read_data_or_write_outputs(monkeypatch):
+        def forbidden(*args, **kwargs):
+            raise AssertionError('import must not load or score data')
+        monkeypatch.setattr(pd, 'read_csv', forbidden)
+        sys.modules.pop('scoreboards_codex_p0', None)
+>       importlib.import_module('scoreboards_codex_p0')
+
+work\r4_review\candidate\test_cleanup.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1342: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:938: in _load_unlocked
+    ???
+<frozen importlib._bootstrap_external>:759: in exec_module
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+work\r4_review\candidate\scoreboards_codex_p0.py:21: in <module>
+    bt = pd.read_csv("output/cz_struct_backtest.csv", index_col="period")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+args = ('output/cz_struct_backtest.csv',), kwargs = {'index_col': 'period'}
+
+    def forbidden(*args, **kwargs):
+>       raise AssertionError('import must not load or score data')
+E       AssertionError: import must not load or score data
+
+work\r4_review\candidate\test_cleanup.py:15: AssertionError
+_ test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes0-INELIGIBLE_ARCHIVE] _
+
+changes = {'archive_ok': False}, expected = 'INELIGIBLE_ARCHIVE'
+
+    @pytest.mark.parametrize('changes,expected', [
+        ({'archive_ok': False}, 'INELIGIBLE_ARCHIVE'),
+        ({'archive_ok': 'False'}, 'INELIGIBLE_ARCHIVE'),
+        ({'n_imputed': 2}, 'INCOMPLETE_INPUTS'),
+        ({'release_stage': 'pre_final'}, 'FINAL_RELEASE_ONLY'),
+        ({'release_stage': 'unknown'}, 'UNVERIFIED_STAGE'),
+        ({'run_ts': '2026-09-07 07:59'}, 'UNVERIFIED_CLOCK'),
+        ({'run_ts': '2026-09-07T08:00:00+00:00'}, 'RETROSPECTIVE'),
+        ({}, 'TIMELY_UNVERIFIED'),
+    ])
+    def test_first_release_evidence_is_not_inferred_from_timestamp_alone(changes, expected):
+>       from evaluation.prospective import classify_shadow_row
+E       ModuleNotFoundError: No module named 'evaluation'
+
+work\r4_review\candidate\test_cleanup.py:38: ModuleNotFoundError
+_ test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes1-INELIGIBLE_ARCHIVE] _
+
+changes = {'archive_ok': 'False'}, expected = 'INELIGIBLE_ARCHIVE'
+
+    @pytest.mark.parametrize('changes,expected', [
+        ({'archive_ok': False}, 'INELIGIBLE_ARCHIVE'),
+        ({'archive_ok': 'False'}, 'INELIGIBLE_ARCHIVE'),
+        ({'n_imputed': 2}, 'INCOMPLETE_INPUTS'),
+        ({'release_stage': 'pre_final'}, 'FINAL_RELEASE_ONLY'),
+        ({'release_stage': 'unknown'}, 'UNVERIFIED_STAGE'),
+        ({'run_ts': '2026-09-07 07:59'}, 'UNVERIFIED_CLOCK'),
+        ({'run_ts': '2026-09-07T08:00:00+00:00'}, 'RETROSPECTIVE'),
+        ({}, 'TIMELY_UNVERIFIED'),
+    ])
+    def test_first_release_evidence_is_not_inferred_from_timestamp_alone(changes, expected):
+>       from evaluation.prospective import classify_shadow_row
+E       ModuleNotFoundError: No module named 'evaluation'
+
+work\r4_review\candidate\test_cleanup.py:38: ModuleNotFoundError
+_ test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes2-INCOMPLETE_INPUTS] _
+
+changes = {'n_imputed': 2}, expected = 'INCOMPLETE_INPUTS'
+
+    @pytest.mark.parametrize('changes,expected', [
+        ({'archive_ok': False}, 'INELIGIBLE_ARCHIVE'),
+        ({'archive_ok': 'False'}, 'INELIGIBLE_ARCHIVE'),
+        ({'n_imputed': 2}, 'INCOMPLETE_INPUTS'),
+        ({'release_stage': 'pre_final'}, 'FINAL_RELEASE_ONLY'),
+        ({'release_stage': 'unknown'}, 'UNVERIFIED_STAGE'),
+        ({'run_ts': '2026-09-07 07:59'}, 'UNVERIFIED_CLOCK'),
+        ({'run_ts': '2026-09-07T08:00:00+00:00'}, 'RETROSPECTIVE'),
+        ({}, 'TIMELY_UNVERIFIED'),
+    ])
+    def test_first_release_evidence_is_not_inferred_from_timestamp_alone(changes, expected):
+>       from evaluation.prospective import classify_shadow_row
+E       ModuleNotFoundError: No module named 'evaluation'
+
+work\r4_review\candidate\test_cleanup.py:38: ModuleNotFoundError
+_ test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes3-FINAL_RELEASE_ONLY] _
+
+changes = {'release_stage': 'pre_final'}, expected = 'FINAL_RELEASE_ONLY'
+
+    @pytest.mark.parametrize('changes,expected', [
+        ({'archive_ok': False}, 'INELIGIBLE_ARCHIVE'),
+        ({'archive_ok': 'False'}, 'INELIGIBLE_ARCHIVE'),
+        ({'n_imputed': 2}, 'INCOMPLETE_INPUTS'),
+        ({'release_stage': 'pre_final'}, 'FINAL_RELEASE_ONLY'),
+        ({'release_stage': 'unknown'}, 'UNVERIFIED_STAGE'),
+        ({'run_ts': '2026-09-07 07:59'}, 'UNVERIFIED_CLOCK'),
+        ({'run_ts': '2026-09-07T08:00:00+00:00'}, 'RETROSPECTIVE'),
+        ({}, 'TIMELY_UNVERIFIED'),
+    ])
+    def test_first_release_evidence_is_not_inferred_from_timestamp_alone(changes, expected):
+>       from evaluation.prospective import classify_shadow_row
+E       ModuleNotFoundError: No module named 'evaluation'
+
+work\r4_review\candidate\test_cleanup.py:38: ModuleNotFoundError
+_ test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes4-UNVERIFIED_STAGE] _
+
+changes = {'release_stage': 'unknown'}, expected = 'UNVERIFIED_STAGE'
+
+    @pytest.mark.parametrize('changes,expected', [
+        ({'archive_ok': False}, 'INELIGIBLE_ARCHIVE'),
+        ({'archive_ok': 'False'}, 'INELIGIBLE_ARCHIVE'),
+        ({'n_imputed': 2}, 'INCOMPLETE_INPUTS'),
+        ({'release_stage': 'pre_final'}, 'FINAL_RELEASE_ONLY'),
+        ({'release_stage': 'unknown'}, 'UNVERIFIED_STAGE'),
+        ({'run_ts': '2026-09-07 07:59'}, 'UNVERIFIED_CLOCK'),
+        ({'run_ts': '2026-09-07T08:00:00+00:00'}, 'RETROSPECTIVE'),
+        ({}, 'TIMELY_UNVERIFIED'),
+    ])
+    def test_first_release_evidence_is_not_inferred_from_timestamp_alone(changes, expected):
+>       from evaluation.prospective import classify_shadow_row
+E       ModuleNotFoundError: No module named 'evaluation'
+
+work\r4_review\candidate\test_cleanup.py:38: ModuleNotFoundError
+_ test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes5-UNVERIFIED_CLOCK] _
+
+changes = {'run_ts': '2026-09-07 07:59'}, expected = 'UNVERIFIED_CLOCK'
+
+    @pytest.mark.parametrize('changes,expected', [
+        ({'archive_ok': False}, 'INELIGIBLE_ARCHIVE'),
+        ({'archive_ok': 'False'}, 'INELIGIBLE_ARCHIVE'),
+        ({'n_imputed': 2}, 'INCOMPLETE_INPUTS'),
+        ({'release_stage': 'pre_final'}, 'FINAL_RELEASE_ONLY'),
+        ({'release_stage': 'unknown'}, 'UNVERIFIED_STAGE'),
+        ({'run_ts': '2026-09-07 07:59'}, 'UNVERIFIED_CLOCK'),
+        ({'run_ts': '2026-09-07T08:00:00+00:00'}, 'RETROSPECTIVE'),
+        ({}, 'TIMELY_UNVERIFIED'),
+    ])
+    def test_first_release_evidence_is_not_inferred_from_timestamp_alone(changes, expected):
+>       from evaluation.prospective import classify_shadow_row
+E       ModuleNotFoundError: No module named 'evaluation'
+
+work\r4_review\candidate\test_cleanup.py:38: ModuleNotFoundError
+_ test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes6-RETROSPECTIVE] _
+
+changes = {'run_ts': '2026-09-07T08:00:00+00:00'}, expected = 'RETROSPECTIVE'
+
+    @pytest.mark.parametrize('changes,expected', [
+        ({'archive_ok': False}, 'INELIGIBLE_ARCHIVE'),
+        ({'archive_ok': 'False'}, 'INELIGIBLE_ARCHIVE'),
+        ({'n_imputed': 2}, 'INCOMPLETE_INPUTS'),
+        ({'release_stage': 'pre_final'}, 'FINAL_RELEASE_ONLY'),
+        ({'release_stage': 'unknown'}, 'UNVERIFIED_STAGE'),
+        ({'run_ts': '2026-09-07 07:59'}, 'UNVERIFIED_CLOCK'),
+        ({'run_ts': '2026-09-07T08:00:00+00:00'}, 'RETROSPECTIVE'),
+        ({}, 'TIMELY_UNVERIFIED'),
+    ])
+    def test_first_release_evidence_is_not_inferred_from_timestamp_alone(changes, expected):
+>       from evaluation.prospective import classify_shadow_row
+E       ModuleNotFoundError: No module named 'evaluation'
+
+work\r4_review\candidate\test_cleanup.py:38: ModuleNotFoundError
+_ test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes7-TIMELY_UNVERIFIED] _
+
+changes = {}, expected = 'TIMELY_UNVERIFIED'
+
+    @pytest.mark.parametrize('changes,expected', [
+        ({'archive_ok': False}, 'INELIGIBLE_ARCHIVE'),
+        ({'archive_ok': 'False'}, 'INELIGIBLE_ARCHIVE'),
+        ({'n_imputed': 2}, 'INCOMPLETE_INPUTS'),
+        ({'release_stage': 'pre_final'}, 'FINAL_RELEASE_ONLY'),
+        ({'release_stage': 'unknown'}, 'UNVERIFIED_STAGE'),
+        ({'run_ts': '2026-09-07 07:59'}, 'UNVERIFIED_CLOCK'),
+        ({'run_ts': '2026-09-07T08:00:00+00:00'}, 'RETROSPECTIVE'),
+        ({}, 'TIMELY_UNVERIFIED'),
+    ])
+    def test_first_release_evidence_is_not_inferred_from_timestamp_alone(changes, expected):
+>       from evaluation.prospective import classify_shadow_row
+E       ModuleNotFoundError: No module named 'evaluation'
+
+work\r4_review\candidate\test_cleanup.py:38: ModuleNotFoundError
+________________ test_database_and_x13_paths_can_be_configured ________________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x00000233AB2E1E00>
+tmp_path = WindowsPath('C:/Users/luis_/AppData/Local/Temp/pytest-of-luis_/pytest-0/test_database_and_x13_paths_ca0')
+
+    def test_database_and_x13_paths_can_be_configured(monkeypatch, tmp_path):
+        from data import local_adapter as la
+        monkeypatch.setenv('CZ_CPI_DB', str(tmp_path/'czechia.duckdb'))
+        monkeypatch.setenv('CZ_X13_PATH', str(tmp_path/'x13as.exe'))
+        try:
+            importlib.reload(la)
+>           assert la.DB_PATH==tmp_path/'czechia.duckdb'
+E           AssertionError: assert WindowsPath('C:/Users/luis_/economic_db/czechia.duckdb') == (WindowsPath('C:/Users/luis_/AppData/Local/Temp/pytest-of-luis_/pytest-0/test_database_and_x13_paths_ca0') / 'czechia.duckdb')
+E            +  where WindowsPath('C:/Users/luis_/economic_db/czechia.duckdb') = <module 'data.local_adapter' from 'C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\r4_review\\candidate\\data\\local_adapter.py'>.DB_PATH
+
+work\r4_review\candidate\test_cleanup.py:53: AssertionError
+=========================== short test summary info ===========================
+FAILED work/r4_review/candidate/test_cleanup.py::test_scoreboard_import_does_not_read_data_or_write_outputs
+FAILED work/r4_review/candidate/test_cleanup.py::test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes0-INELIGIBLE_ARCHIVE]
+FAILED work/r4_review/candidate/test_cleanup.py::test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes1-INELIGIBLE_ARCHIVE]
+FAILED work/r4_review/candidate/test_cleanup.py::test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes2-INCOMPLETE_INPUTS]
+FAILED work/r4_review/candidate/test_cleanup.py::test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes3-FINAL_RELEASE_ONLY]
+FAILED work/r4_review/candidate/test_cleanup.py::test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes4-UNVERIFIED_STAGE]
+FAILED work/r4_review/candidate/test_cleanup.py::test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes5-UNVERIFIED_CLOCK]
+FAILED work/r4_review/candidate/test_cleanup.py::test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes6-RETROSPECTIVE]
+FAILED work/r4_review/candidate/test_cleanup.py::test_first_release_evidence_is_not_inferred_from_timestamp_alone[changes7-TIMELY_UNVERIFIED]
+FAILED work/r4_review/candidate/test_cleanup.py::test_database_and_x13_paths_can_be_configured
+10 failed, 1 passed, 3 xfailed in 5.19s

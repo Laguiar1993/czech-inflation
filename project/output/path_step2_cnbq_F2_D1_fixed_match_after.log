@@ -1,0 +1,14 @@
+  3: n=15 | 3.31 / 3.23 / 3.26 / 4.26 | 1.52 / 1.95 | -1.22 / -1.10 | 5 of 15
+  4: n= 5 | 4.07 / 4.20 / 4.35 / 5.17 | 2.04 / 2.59 | -2.02 / -1.20 | 3 of 5
+
+reports 2022-2023: n=27 | RMSE CNB 3.50 ours(a) 3.62 naive 4.03 | bias CNB -1.41 ours -1.58 | ours closer in 10 of 27
+    1 ahead: n= 8 RMSE CNB 2.09 ours 2.19 naive 2.07
+    2 ahead: n= 8 RMSE CNB 2.50 ours 3.03 naive 3.53
+    3 ahead: n= 8 RMSE CNB 4.51 ours 4.39 naive 5.03
+    4 ahead: n= 3 RMSE CNB 5.24 ours 5.42 naive 5.84
+
+reports 2024+: n=26 | RMSE CNB 0.39 ours(a) 0.59 naive 2.51 | bias CNB +0.01 ours +0.06 | ours closer in 9 of 26
+    1 ahead: n= 9 RMSE CNB 0.32 ours 0.58 naive 1.33
+    2 ahead: n= 8 RMSE CNB 0.41 ours 0.69 naive 2.38
+    3 ahead: n= 7 RMSE CNB 0.41 ours 0.51 naive 3.18
+    4 ahead: n= 2 RMSE CNB 0.52 ours 0.39 naive 3.96

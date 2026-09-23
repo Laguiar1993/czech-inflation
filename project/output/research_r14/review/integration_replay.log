@@ -1,0 +1,25 @@
+        sample  h                  model  n_common   yy_rmse   yy_bias
+          full  6     INDEPENDENT_BRIDGE        65  2.784973 -0.788737
+          full  6 PIPELINE_FOOD_FUEL_R14        65  3.313095 -0.539566
+          full  6 PIPELINE_GAP_RIDGE_R14        65  3.511244 -0.135843
+          full  6    PIPELINE_GAP_RF_R14        65  3.382764 -0.069265
+          full 12     INDEPENDENT_BRIDGE        53  6.137928 -1.532171
+          full 12 PIPELINE_FOOD_FUEL_R14        53  9.417626  0.144573
+          full 12 PIPELINE_GAP_RIDGE_R14        53 11.094077  1.970437
+          full 12    PIPELINE_GAP_RF_R14        53  9.695956  1.545366
+recent_targets  6     INDEPENDENT_BRIDGE        31  0.747834  0.326731
+recent_targets  6 PIPELINE_FOOD_FUEL_R14        31  0.728450 -0.006778
+recent_targets  6 PIPELINE_GAP_RIDGE_R14        31  0.614123  0.184847
+recent_targets  6    PIPELINE_GAP_RF_R14        31  0.654953  0.263485
+recent_targets 12     INDEPENDENT_BRIDGE        31  1.892132  1.180037
+recent_targets 12 PIPELINE_FOOD_FUEL_R14        31  2.587156  0.844268
+recent_targets 12 PIPELINE_GAP_RIDGE_R14        31  3.781457  2.144145
+recent_targets 12    PIPELINE_GAP_RF_R14        31  4.239316  2.667918
+recent_origins  6     INDEPENDENT_BRIDGE        25  0.677710  0.253582
+recent_origins  6 PIPELINE_FOOD_FUEL_R14        25  0.693336 -0.030468
+recent_origins  6 PIPELINE_GAP_RIDGE_R14        25  0.569099  0.152438
+recent_origins  6    PIPELINE_GAP_RF_R14        25  0.500434  0.175808
+recent_origins 12     INDEPENDENT_BRIDGE        19  1.347309  0.729989
+recent_origins 12 PIPELINE_FOOD_FUEL_R14        19  1.252539  0.254786
+recent_origins 12 PIPELINE_GAP_RIDGE_R14        19  1.223240  1.034214
+recent_origins 12    PIPELINE_GAP_RF_R14        19  1.158288  1.024677

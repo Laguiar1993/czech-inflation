@@ -1,0 +1,191 @@
+{
+  "tool": "paper_tvwqrf_experiment",
+  "created_at": "2026-09-14T09:04:58.509866+00:00",
+  "arguments": {
+    "convention": "realtime",
+    "policy": "full",
+    "horizons": "[1, 3, 13]",
+    "first_edge": "2024-01",
+    "last_target": "2025-02",
+    "jobs": "2",
+    "lqr": "False",
+    "forest": "{\"n_estimators\":30}",
+    "panel_dir": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\paper_model_panel_20260912_luci",
+    "output": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\audit_fixes_20260914\\runner_smoke",
+    "limit_edges": "2",
+    "include_month": "True",
+    "tmh_benchmarks": "False",
+    "drop_rows": "[]"
+  },
+  "horizons": [
+    1,
+    3,
+    13
+  ],
+  "edges": [
+    "2024-01",
+    "2024-02"
+  ],
+  "tasks": 55,
+  "last_target": "2025-02",
+  "features": [
+    "a6_01",
+    "a6_02",
+    "a6_03",
+    "a6_04",
+    "a6_05",
+    "a6_06",
+    "a6_07",
+    "a6_08",
+    "a6_09",
+    "a6_10",
+    "a6_11",
+    "a6_12",
+    "a6_13",
+    "a6_14",
+    "a6_15",
+    "a6_16",
+    "a6_17",
+    "a6_18",
+    "a6_19",
+    "a6_20",
+    "a6_21",
+    "a6_22",
+    "a6_23",
+    "a6_24",
+    "a6_25",
+    "a6_26",
+    "a6_27",
+    "a6_28",
+    "a6_29",
+    "a6_30",
+    "a6_31",
+    "a6_32",
+    "a6_33",
+    "a6_34",
+    "a6_35",
+    "a6_36",
+    "a6_37",
+    "a6_38",
+    "a6_39",
+    "a6_40",
+    "a6_41",
+    "a6_42",
+    "a6_43",
+    "a6_44",
+    "a6_45",
+    "a6_46",
+    "a6_47",
+    "a6_48",
+    "a6_49",
+    "a6_50",
+    "a6_51",
+    "a6_52",
+    "a6_53",
+    "a6_54",
+    "a6_55",
+    "a6_56",
+    "a6_57",
+    "a6_58",
+    "a6_59",
+    "a6_60",
+    "a6_61",
+    "a6_62",
+    "a6_63",
+    "a6_64",
+    "a6_65",
+    "a6_66",
+    "a6_67",
+    "a6_68",
+    "a6_69",
+    "a6_70",
+    "a6_71",
+    "a6_72",
+    "month"
+  ],
+  "forest": {
+    "n_estimators": 30,
+    "min_samples_leaf": 5,
+    "max_features": 0.3333333333333333,
+    "bootstrap": true,
+    "random_state": 42,
+    "n_jobs": 1
+  },
+  "validation_window": 12,
+  "half_life": 6.0,
+  "schemes": {
+    "TVW1": [
+      [
+        0.25,
+        0.5,
+        0.75
+      ],
+      [
+        0.2,
+        0.4,
+        0.2
+      ],
+      [
+        0.4,
+        0.6,
+        0.4
+      ]
+    ],
+    "TVW2": [
+      [
+        0.3333333333333333,
+        0.5,
+        0.6666666666666666
+      ],
+      [
+        0.2,
+        0.3,
+        0.2
+      ],
+      [
+        0.4,
+        0.5,
+        0.4
+      ]
+    ],
+    "TVW3": [
+      [
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9
+      ],
+      [
+        0.0,
+        0.15,
+        0.3,
+        0.15,
+        0.0
+      ],
+      [
+        0.15,
+        0.35,
+        0.5,
+        0.35,
+        0.15
+      ]
+    ]
+  },
+  "calibration": "saved own-origin quantiles; twelve consecutive matured targets; fixed feasible weights if incomplete",
+  "first_distribution_edge_including_warmup": "2022-01",
+  "quantiles_include_warmup": true,
+  "panel_manifest_sha256": "408376e622deeec8beb7990ca39a44acf11b6b1b2a493d12685fd1dcf859877c",
+  "engine_sha256": "bb82e1a1c0c93190b8c7d2891db0509f725c040b2c4c3109d7c65aad1d099515",
+  "runner_sha256": "542f29b57da169ff3860917233603fc85795ded971391af2b19099095200ff47",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.1",
+    "scikit-learn": "1.9.0",
+    "quantile-forest": "1.4.2",
+    "statsmodels": "0.15.0",
+    "scipy": "1.18.1"
+  },
+  "git_head": "709d4b3449f83c4dbceb353d7d3468d94a62b9aa",
+  "seconds": 5.005056619644165
+}

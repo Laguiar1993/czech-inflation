@@ -1,0 +1,7 @@
+model,status,reason,rows
+FOOD_ASYMMETRIC_R17,estimated,,24
+FOOD_HALF_CORRECTION_R17,estimated,,24
+FOOD_OWN_R17,estimated,,24
+FOOD_PERSISTENCE_R17,control,own3,24
+FOOD_SEASONAL_R17,control,,24
+FOOD_SYMMETRIC_R17,estimated,,24

@@ -1,0 +1,32 @@
+[
+  {
+    "origin": "2019-02",
+    "as_of": "2019-03-10T23:59:00+01:00",
+    "selected": "STATE_FAST_R15",
+    "n_origins": 0,
+    "training_origins": [],
+    "losses": {},
+    "status": "fallback",
+    "reason": "fallback_insufficient_mature_validation"
+  },
+  {
+    "origin": "2019-03",
+    "as_of": "2019-04-09T23:59:00+02:00",
+    "selected": "STATE_FAST_R15",
+    "n_origins": 0,
+    "training_origins": [],
+    "losses": {},
+    "status": "fallback",
+    "reason": "fallback_insufficient_mature_validation"
+  },
+  {
+    "origin": "2019-04",
+    "as_of": "2019-05-12T23:59:00+02:00",
+    "selected": "STATE_FAST_R15",
+    "n_origins": 0,
+    "training_origins": [],
+    "losses": {},
+    "status": "fallback",
+    "reason": "fallback_insufficient_mature_validation"
+  }
+]

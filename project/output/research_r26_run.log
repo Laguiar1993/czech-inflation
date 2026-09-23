@@ -1,0 +1,107 @@
+{
+ "checks": {
+  "origins": 90,
+  "sa_ar_estimated": 450,
+  "fast_reassembly_max_abs_gap": 0.0,
+  "r24_food_reconstruction_max_abs_gap": 8.881784197001252e-16,
+  "constant_oracles_log_per_month": {
+   "administered": 0.6835792718900732,
+   "alcohol_tobacco": 0.5046488581762122,
+   "core": 0.440790641808211,
+   "food": 0.407481912834251,
+   "fuel": 0.201752897300124
+  }
+ },
+ "specificity": {
+  "candidate_rmse": 7.465822062938064,
+  "baseline_rmse": 7.949014658050488,
+  "best_constant_annual_pct": 4.75,
+  "best_constant_rmse": 7.149946099891624,
+  "n": 75,
+  "bootstrap_vs_best_constant": {
+   "n": 75,
+   "block": 12,
+   "draws": 2000,
+   "seed": 1509,
+   "mean_loss_difference": 4.616769844097321,
+   "bootstrap_mean": 4.50820673861277,
+   "ci_low": -11.248243618375245,
+   "ci_high": 25.977687310042967,
+   "bootstrap_probability_improvement": 0.3495,
+   "status": "ok"
+  },
+  "estimator_distinguishable": false,
+  "reconstruction_max_abs_gap": 8.881784197001252e-16,
+  "constants_below_baseline_full_h12": [
+   1.75,
+   2.0,
+   2.25,
+   2.5,
+   2.75,
+   3.0,
+   3.25,
+   3.5,
+   3.75,
+   4.0,
+   4.25,
+   4.5,
+   4.75
+  ],
+  "constants_passing_condition_1_every_cell": [
+   2.25,
+   2.5,
+   2.75,
+   3.0,
+   3.25,
+   3.5,
+   3.75,
+   4.0,
+   4.25
+  ],
+  "candidate_passes_condition_1": true,
+  "era_balanced_score_candidate": 0.9456391570369407,
+  "simplest_equivalent_annual_pct": 3.75,
+  "lowest_full_sample_rmse_in_passing_set_annual_pct": 4.25
+ },
+ "condition6": {
+  "cells": {
+   "full_h6": {
+    "candidate": 2.2727292490959163,
+    "baseline": 2.290294341334928
+   },
+   "origins_2019_2021_h6": {
+    "candidate": 2.760526141640275,
+    "baseline": 2.780483836236152
+   },
+   "origins_2022_2023_h6": {
+    "candidate": 2.6496865736313446,
+    "baseline": 2.6638770891698886
+   },
+   "origins_2024plus_h6": {
+    "candidate": 0.4912382873543518,
+    "baseline": 0.5357843828577382
+   },
+   "full_h12": {
+    "candidate": 4.800764598677102,
+    "baseline": 4.869472205001029
+   },
+   "origins_2019_2021_h12": {
+    "candidate": 6.634510916154379,
+    "baseline": 6.6752744804081505
+   },
+   "origins_2022_2023_h12": {
+    "candidate": 3.603371490550593,
+    "baseline": 3.755544610659127
+   },
+   "origins_2024plus_h12": {
+    "candidate": 0.6645998174267459,
+    "baseline": 0.8579638828422467
+   },
+   "cnb_pairs_2024plus": {
+    "candidate": 0.4385543724243261,
+    "baseline": 0.4734106810594962
+   }
+  },
+  "holds": true
+ }
+}

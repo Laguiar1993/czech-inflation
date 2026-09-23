@@ -1,0 +1,475 @@
+{
+  "as_of": "2026-09-22T17:27:09.7575112+00:00",
+  "calendar": {
+    "frozen_last_target": "2026-08",
+    "frozen_sha256": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+    "live_sha256": null,
+    "not_yet_available": []
+  },
+  "command": "readiness",
+  "decision_time_prague": "2026-09-22T19:27:09.757511200+02:00",
+  "forecast_available": false,
+  "fx": {
+    "last_fixing": "2026-09-11",
+    "n_fixings": 9,
+    "reason": "daily FX coverage fails the seven-calendar-day freshness guard",
+    "rule": "exclude Prague call day; prior monthly mean rounded to 3 dp",
+    "status": "unavailable",
+    "ticker": "EURCZK CNB Curncy"
+  },
+  "limitations": [
+    "Latest-vintage Bloomberg data with publication rules; historical clocks are reconstructed replay, not a prospective archive.",
+    "Readiness never extrapolates missing monthly observations or invents release dates.",
+    "Farm prices, documented energy announcements, basket weights and X13 remain external/static requirements.",
+    "This entry point calculates h0 only; it does not refresh sources or extend the monthly path."
+  ],
+  "main_model": "HARD_BASE",
+  "provenance": {
+    "bundle_files": {
+      "nowcast/alcohol_tobacco.csv": "609bfae64899c66c3b866c8ce854357b093f90a02a02ac4349d268b3068d5597",
+      "nowcast/cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+      "nowcast/cnb_regulated_mm.csv": "74773b38a1fea1f1ebb09d220aa90409eb3318a697b35ec2b8e1f20e781850db",
+      "nowcast/component_food_fuel_mm.csv": "da88dfc8e6241ac9a7d443ff1a82c43de80be542074afa5a1329ce364cf05448",
+      "nowcast/core_features.csv": "da207f723151b8102556acdfdaab567eed6a9cc332de4a5a58f028e521acad8a",
+      "nowcast/food_block_features.csv": "b7cee1dfe37c7a269d89441bee741d30ba0df998f8dc839b42ac42006a1eedd3",
+      "nowcast/fuel_weekly.csv": "a017a7bfd2054097752c0d18ab0d9c42a9a589280c22ae9fce87c6c1ddac8995",
+      "nowcast/fuel_weekly_variant_b.csv": "056b457c27d04a2b090218463165993f3b190bfe36eac0baac9ffb85bef46a04",
+      "nowcast/target_headline_cpi_mm.csv": "b184cc388d79f90219f73a2c2a430928a7908c38b0f366e0f925605a53fd8196",
+      "path/alcohol_tobacco_mm.csv": "609bfae64899c66c3b866c8ce854357b093f90a02a02ac4349d268b3068d5597",
+      "path/food_available_from.csv": "5f392e03580ddffb49cd3301bb7596b8a73c9d51484572b0f34ddd357763f713",
+      "path/food_log_levels.csv": "71e509a5b37ca741d30e912fc0f8e882e581c45919cfa6e8c699ec59422e5db0",
+      "path/headline_history.csv": "33952c3e3f4c5234b50ca9765a4f3647dc3a66689dab28830e1db4164510758a",
+      "path/pump_weekly.csv": "15be097f48e87c94975a37fe208aab9db7b80d7fa5c6241a50ed8cc8fc8d3b03",
+      "provenance.json": "97b12b7901939778d8b40fd35f7996871af4c3a9023aa7893befe44680bb97bc"
+    },
+    "bundle_manifest_sha256": "3ab4d5971aa24bc6c2d9fd5d6650349c8b0b2584d2869497ac89355e6ccb00d5",
+    "dropped_feature": "services_l1",
+    "fuel_ticker": "CP7FCZ Index",
+    "snapshot_hashes": {
+      "data/market_snapshots/20260912_bloomberg_probe/history_long.csv": "7d18e2afbf702e5d9d9a07bbd78af330ddb13e8641002bceec8058c24959d241",
+      "data/market_snapshots/20260912_bloomberg_probe10/history_long.csv": "6631d51ad352c32feca93e8f719cb37a13737f82fc72009af9ca6f507599668d",
+      "data/market_snapshots/20260912_bloomberg_probe11/history_long.csv": "294119cf563c7be0037f023262597f2003af08b82c0556df84cde307af50e06e",
+      "data/market_snapshots/20260912_bloomberg_probe12/history_long.csv": "08c8b7b56e0441cb69e860131bb139d6f415e8a6ba490ed85a4aa3346025237e",
+      "data/market_snapshots/20260912_bloomberg_probe14/history_long.csv": "e62ab19b4fe42e2b03cedc6894605fb26ee5e384d426b763c3b0a29f24449fde",
+      "data/market_snapshots/20260912_bloomberg_probe15/history_long.csv": "f3990e206ce9c2589368e697746e6a5f8273a5287c496c27ea8709ae4823e55e",
+      "data/market_snapshots/20260912_bloomberg_probe16/history_long.csv": "48aa73aaa53f093a12f2ec62a78ade741be7598652ecf0648b8fa55c1aec2c52",
+      "data/market_snapshots/20260912_bloomberg_probe2/history_long.csv": "e454ce893ae974656e6081d53adb3206acb103ef765af054eb94868f4f0eaecf",
+      "data/market_snapshots/20260912_bloomberg_probe3/history_long.csv": "eb00f4b051a3c2026b5dfeba092639d9300bfe9d5efdbbeac086d738be91127a",
+      "data/market_snapshots/20260912_bloomberg_probe4/history_long.csv": "9e88184b6173e0085df97bdae73c22e5f96fa6a69bc8a5094db1214a384e0261",
+      "data/market_snapshots/20260912_bloomberg_probe5/history_long.csv": "4203ebb67322a4de2d0c9ed6f1782e89053ad169c9539bfd4555b6f4af5fa344",
+      "data/market_snapshots/20260912_bloomberg_probe6/history_long.csv": "86e9858ce65dfd4052b7ce733b59fa717fd617c3d45f52b3b55a69cac38eb5cb",
+      "data/market_snapshots/20260912_bloomberg_probe7/history_long.csv": "1b40f9c31e6503b8476a2fa271b8c988a69ceb36fefa5216a144d94df90be72b",
+      "data/market_snapshots/20260912_bloomberg_probe8/history_long.csv": "6d104116c039c3f52bc10eafa534d30195873b5e11bf9c9cc14f914cba0edde9",
+      "data/market_snapshots/20260912_bloomberg_probe9/history_long.csv": "c0c5c0ad24c8d43cd96ca9647e552f7f1e10753bccec8f34116c7e89340764e6",
+      "data/market_snapshots/20260922_bloomberg_ppi_probe/history_long.csv": "4e6c3711baff839c6c4d8035fdf520130bfa96cc63b44a9b2b7c4cbb0d98b879",
+      "data/market_snapshots/20260922_bloomberg_ppi_probe2/history_long.csv": "0deee1c03b654d190c89ba88e9dfa74a33f3362061add8d8c301c92c334a340e"
+    },
+    "variant": "R31C_C123",
+    "vintage": "latest-vintage with publication rules; not prospective evidence",
+    "weekly_source": "EC bulletin from Bloomberg, CZK/l"
+  },
+  "readiness": {
+    "before_first_release": false,
+    "component_history_edges": {
+      "alcohol": {
+        "gap_months": 1,
+        "latest_released_value": "2026-07"
+      },
+      "core": {
+        "gap_months": 1,
+        "latest_released_value": "2026-07"
+      },
+      "food": {
+        "gap_months": 1,
+        "latest_released_value": "2026-07"
+      },
+      "headline": {
+        "gap_months": 1,
+        "latest_released_value": "2026-07"
+      },
+      "official_fuel": {
+        "gap_months": 1,
+        "latest_released_value": "2026-07"
+      },
+      "regulated": {
+        "gap_months": 1,
+        "latest_released_value": "2026-07"
+      }
+    },
+    "data_ready": false,
+    "first_release": null,
+    "missing_inputs": [
+      {
+        "column": "eurczk_mm",
+        "frame": "features",
+        "status": "NOT_DUE"
+      },
+      {
+        "column": "import_l2",
+        "frame": "features",
+        "status": "STALE"
+      },
+      {
+        "column": "core_l1",
+        "frame": "features",
+        "status": "STALE"
+      },
+      {
+        "column": "core_l2",
+        "frame": "features",
+        "status": "STALE"
+      },
+      {
+        "column": "core_l12",
+        "frame": "features",
+        "status": "STALE"
+      },
+      {
+        "column": "state",
+        "frame": "features",
+        "status": "STALE"
+      },
+      {
+        "column": "eurczk_mm_x_state",
+        "frame": "features",
+        "status": "NOT_DUE"
+      },
+      {
+        "column": "import_l2_x_state",
+        "frame": "features",
+        "status": "STALE"
+      },
+      {
+        "column": "food_l1",
+        "frame": "food_features",
+        "status": "STALE"
+      },
+      {
+        "column": "food_l12",
+        "frame": "food_features",
+        "status": "STALE"
+      },
+      {
+        "column": "agri_l0",
+        "frame": "food_features",
+        "status": "NOT_DUE"
+      },
+      {
+        "column": "agri_l1",
+        "frame": "food_features",
+        "status": "STALE"
+      },
+      {
+        "column": "food_ppi_l1",
+        "frame": "food_features",
+        "status": "STALE"
+      }
+    ],
+    "reasons": [
+      {
+        "code": "stale_mtd_fx",
+        "last_fixing": "2026-09-11",
+        "n_fixings": 9,
+        "reason": "daily FX coverage fails the seven-calendar-day freshness guard",
+        "rule": "exclude Prague call day; prior monthly mean rounded to 3 dp",
+        "status": "unavailable",
+        "ticker": "EURCZK CNB Curncy"
+      },
+      {
+        "code": "missing_release_calendar",
+        "required": "sourced first/detail release timestamps",
+        "target": "2026-09"
+      },
+      {
+        "code": "component_history_gap",
+        "component": "headline",
+        "gap_months": 1,
+        "latest_released_value": "2026-07",
+        "required_through": "2026-08"
+      },
+      {
+        "code": "component_history_gap",
+        "component": "core",
+        "gap_months": 1,
+        "latest_released_value": "2026-07",
+        "required_through": "2026-08"
+      },
+      {
+        "code": "component_history_gap",
+        "component": "regulated",
+        "gap_months": 1,
+        "latest_released_value": "2026-07",
+        "required_through": "2026-08"
+      },
+      {
+        "code": "component_history_gap",
+        "component": "alcohol",
+        "gap_months": 1,
+        "latest_released_value": "2026-07",
+        "required_through": "2026-08"
+      },
+      {
+        "code": "component_history_gap",
+        "component": "food",
+        "gap_months": 1,
+        "latest_released_value": "2026-07",
+        "required_through": "2026-08"
+      },
+      {
+        "code": "component_history_gap",
+        "component": "official_fuel",
+        "gap_months": 1,
+        "latest_released_value": "2026-07",
+        "required_through": "2026-08"
+      },
+      {
+        "code": "stale_feature",
+        "column": "import_l2",
+        "frame": "features",
+        "target": "2026-09"
+      },
+      {
+        "code": "stale_feature",
+        "column": "core_l1",
+        "frame": "features",
+        "target": "2026-09"
+      },
+      {
+        "code": "stale_feature",
+        "column": "core_l2",
+        "frame": "features",
+        "target": "2026-09"
+      },
+      {
+        "code": "stale_feature",
+        "column": "core_l12",
+        "frame": "features",
+        "target": "2026-09"
+      },
+      {
+        "code": "stale_feature",
+        "column": "state",
+        "frame": "features",
+        "target": "2026-09"
+      },
+      {
+        "code": "stale_feature",
+        "column": "import_l2_x_state",
+        "frame": "features",
+        "target": "2026-09"
+      },
+      {
+        "code": "stale_feature",
+        "column": "food_l1",
+        "frame": "food_features",
+        "target": "2026-09"
+      },
+      {
+        "code": "stale_feature",
+        "column": "food_l12",
+        "frame": "food_features",
+        "target": "2026-09"
+      },
+      {
+        "code": "stale_feature",
+        "column": "agri_l1",
+        "frame": "food_features",
+        "target": "2026-09"
+      },
+      {
+        "code": "stale_feature",
+        "column": "food_ppi_l1",
+        "frame": "food_features",
+        "target": "2026-09"
+      },
+      {
+        "code": "weekly_fuel_gap",
+        "missing_observation_dates": [
+          "2026-08-31",
+          "2026-09-07",
+          "2026-09-14"
+        ],
+        "rule": "Monday observation + 7 days"
+      }
+    ],
+    "weekly_fuel": {
+      "last_available": "2026-08-24T00:00:00",
+      "last_due": "2026-09-14T00:00:00"
+    }
+  },
+  "ready_for_calculation": false,
+  "ready_for_first_release": false,
+  "reasons": [
+    {
+      "code": "stale_mtd_fx",
+      "last_fixing": "2026-09-11",
+      "n_fixings": 9,
+      "reason": "daily FX coverage fails the seven-calendar-day freshness guard",
+      "rule": "exclude Prague call day; prior monthly mean rounded to 3 dp",
+      "status": "unavailable",
+      "ticker": "EURCZK CNB Curncy"
+    },
+    {
+      "code": "missing_release_calendar",
+      "required": "sourced first/detail release timestamps",
+      "target": "2026-09"
+    },
+    {
+      "code": "component_history_gap",
+      "component": "headline",
+      "gap_months": 1,
+      "latest_released_value": "2026-07",
+      "required_through": "2026-08"
+    },
+    {
+      "code": "component_history_gap",
+      "component": "core",
+      "gap_months": 1,
+      "latest_released_value": "2026-07",
+      "required_through": "2026-08"
+    },
+    {
+      "code": "component_history_gap",
+      "component": "regulated",
+      "gap_months": 1,
+      "latest_released_value": "2026-07",
+      "required_through": "2026-08"
+    },
+    {
+      "code": "component_history_gap",
+      "component": "alcohol",
+      "gap_months": 1,
+      "latest_released_value": "2026-07",
+      "required_through": "2026-08"
+    },
+    {
+      "code": "component_history_gap",
+      "component": "food",
+      "gap_months": 1,
+      "latest_released_value": "2026-07",
+      "required_through": "2026-08"
+    },
+    {
+      "code": "component_history_gap",
+      "component": "official_fuel",
+      "gap_months": 1,
+      "latest_released_value": "2026-07",
+      "required_through": "2026-08"
+    },
+    {
+      "code": "stale_feature",
+      "column": "import_l2",
+      "frame": "features",
+      "target": "2026-09"
+    },
+    {
+      "code": "stale_feature",
+      "column": "core_l1",
+      "frame": "features",
+      "target": "2026-09"
+    },
+    {
+      "code": "stale_feature",
+      "column": "core_l2",
+      "frame": "features",
+      "target": "2026-09"
+    },
+    {
+      "code": "stale_feature",
+      "column": "core_l12",
+      "frame": "features",
+      "target": "2026-09"
+    },
+    {
+      "code": "stale_feature",
+      "column": "state",
+      "frame": "features",
+      "target": "2026-09"
+    },
+    {
+      "code": "stale_feature",
+      "column": "import_l2_x_state",
+      "frame": "features",
+      "target": "2026-09"
+    },
+    {
+      "code": "stale_feature",
+      "column": "food_l1",
+      "frame": "food_features",
+      "target": "2026-09"
+    },
+    {
+      "code": "stale_feature",
+      "column": "food_l12",
+      "frame": "food_features",
+      "target": "2026-09"
+    },
+    {
+      "code": "stale_feature",
+      "column": "agri_l1",
+      "frame": "food_features",
+      "target": "2026-09"
+    },
+    {
+      "code": "stale_feature",
+      "column": "food_ppi_l1",
+      "frame": "food_features",
+      "target": "2026-09"
+    },
+    {
+      "code": "weekly_fuel_gap",
+      "missing_observation_dates": [
+        "2026-08-31",
+        "2026-09-07",
+        "2026-09-14"
+      ],
+      "rule": "Monday observation + 7 days"
+    }
+  ],
+  "runtime": {
+    "check": "module discovery only; binary import/execution is verified by run",
+    "packages": {
+      "duckdb": {
+        "found": true,
+        "version": "1.5.5"
+      },
+      "numpy": {
+        "found": true,
+        "version": "2.5.2"
+      },
+      "pandas": {
+        "found": true,
+        "version": "3.0.1"
+      },
+      "quantile-forest": {
+        "found": true,
+        "version": "1.4.2"
+      },
+      "requests": {
+        "found": true,
+        "version": "2.34.2"
+      },
+      "scikit-learn": {
+        "found": true,
+        "version": "1.9.0"
+      },
+      "scipy": {
+        "found": true,
+        "version": "1.18.1"
+      },
+      "statsmodels": {
+        "found": true,
+        "version": "0.15.0"
+      }
+    },
+    "python": "3.12.14",
+    "ready": true,
+    "reasons": [],
+    "x13_path": "C:\\Users\\luis_\\x13as\\x13as\\x13as.exe",
+    "x13_sha256": "2e43194361ee096797f0431765193c316196ea6776f11535e76281a413d49669"
+  },
+  "schema_version": "live_bundle_r32/v1",
+  "status": "blocked",
+  "target": "2026-09",
+  "variant": "R31C_C123"
+}

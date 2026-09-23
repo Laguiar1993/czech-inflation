@@ -1,0 +1,28 @@
+{
+  "completed_at": "2026-09-09T08:30:33.875966+00:00",
+  "origins": 90,
+  "rows": 1170,
+  "elapsed_seconds": 73.92754160007462,
+  "fingerprints": {
+    "independent_bridge_experiment.py": "9ab74be4cb7424ba160a38b31c79fe3d7c220cb82a4a2e65cc5c1da1d089bfd3",
+    "cz_struct.py": "276e69f480d32b9cad72003fb0e88cfc174d1126a72c70a56711ad18b8f48307",
+    "models/independent_nowcast.py": "7c031f70b2488b1427d17af4839e74a81e6444332a48b96f52deb2e139f9ddab",
+    "models/path_inputs.py": "7a649deac6f702981e7a680493513c8baf6750caf6eb11e5fc71314ea99e778e",
+    "output/independent_nowcast_forecasts.csv": "77ac26bc05906616a07d8f4b33ab6f2eb10b97141295022e172d53461f3e6e98",
+    "output/independent_path_forecasts.csv": "83cb8f37206af9a3a85f14c5d5875aca93a9a7442cb6d572024bd0b0c241b26e",
+    "data/cnb_mpr_cpi_quarterly.csv": "137cce6c715a358b85740302453e969c8313f1b39a6eeaed0b7e8698940f3a27",
+    "output/independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+    "data/admin_announcements_history.csv": "540bae32e0bd276999a779f753a1dd8515dcdbe61fdaf9927a9b36c145a968ac",
+    "data/release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+    "tests/fixtures/cleanup/MANIFEST.json": "0eaeaafd857fd914e237e792f0e8f006645a4a1286fee7b7cf80c9c2444557b1"
+  },
+  "fixture_manifest_sha256": "0eaeaafd857fd914e237e792f0e8f006645a4a1286fee7b7cf80c9c2444557b1",
+  "core_policy": "hard at every horizon; no slow blocks",
+  "food_policy": "origin-fitted X13/ridge h1..3; seasonal last5mean h4..12",
+  "weight_policy": "current origin weights unless future-regime basket already published",
+  "h0": "HARD_BASE",
+  "cnb_clock": "latest generated origin strictly before 00:00 Prague on report publication date",
+  "cnb_accounting": "complete-quarter mean of monthly YoY; actual only for months preceding chosen origin; exante forecasts thereafter",
+  "cnb_dependence": "report-quarter pairs overlap in realized targets; rows are not independent observations",
+  "vintage_limit": "cached statistical inputs/publication rules; no forecast expectations; not full historical vintages or untouched holdout"
+}

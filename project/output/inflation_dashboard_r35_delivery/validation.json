@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-09-22T21:39:35.435721+00:00",
+  "implementation_commit": "50d8779c760e1f5cd9edee921fff8c6507358ae2",
+  "command": "python -B -m pytest tools/momentum_r35 tools/inflation_dashboard_r35/test_build.py -q -p no:cacheprovider --import-mode=importlib --basetemp=work/momentum_r35_tests_final",
+  "result": "93 passed, 10 subtests passed in 89.44s",
+  "independent_review": {
+    "numerical_rehearsal": "37 full and 37 endpoint adjustments; independent rate discrepancy <=5.2e-13 pp, driver discrepancy <=7.8e-14 annualised log pp",
+    "resolved_findings": [
+      "Incomplete driver coverage now reflects only emitted category weights; full-basket total unavailable when incomplete",
+      "Semantic loading now checks source month, group and category roster, calendars, statuses, pinned input levels, archived D11 and recalculated results"
+    ],
+    "adjustment_scope": "Diagnostics remain warnings rather than a claim that every seasonal pattern has been removed"
+  }
+}

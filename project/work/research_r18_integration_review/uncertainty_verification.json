@@ -1,0 +1,29 @@
+{
+  "pool_groups": 990,
+  "pool_error_coordinates": 405210,
+  "error_coordinate_max": 2.213507155346406e-14,
+  "interval_rows": 7092,
+  "score_rows": 264,
+  "statuses": {
+    "insufficient_pool": 399,
+    "estimated": 591
+  },
+  "first_estimated_origin": "2022-02",
+  "last_estimated_origin": "2026-07",
+  "scored_calendar_rows": 11880,
+  "scores_have_n_intended": true,
+  "no_national_energy_probability_claim": true,
+  "limitations": [
+    "Current-vintage labels, not first-release CPI.",
+    "Overlapping source paths are dependent and crisis errors recur across many vectors.",
+    "Empirical equally weighted tails with24to60 whole vectors are coarse and uncalibrated.",
+    "These historical errors do not assign probabilities to new geopolitical shocks."
+  ],
+  "hashes": {
+    "work\\research_r18_integration_review\\audit_uncertainty.py": "90f9f6a51cba432644f514f77590062d9d1959ad9dd09f94df7c1502aecaf816",
+    "output\\research_r18\\uncertainty_verified\\manifest.json": "edcb156330083aaf4b478ff90093603c10eb813501dc18b048f6e7ab334c7f38",
+    "models\\path_uncertainty_r18.py": "3c92fca540e17a3e93c666669a6f7145ce87b7d1b1a6666fc884f7b71e6ff97a",
+    "models\\nowcast_reliability_r18_verified.py": "9d22df07a17d77959f7f0c57c6eaad6b8959fc66934c4c0ee08fe7257fa09584",
+    "tools\\research_r18\\path_uncertainty_verified.py": "5e738642af0eeef0b876debb44e21e6535d40be3077b83237b34abdadb5f849d"
+  }
+}

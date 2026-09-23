@@ -1,0 +1,16 @@
+{
+  "status": "checked",
+  "returncode": 0,
+  "stdout": "{\"recorded_at\": \"2026-09-22T17:24:58.704447+00:00\", \"versions\": {\"xbbg\": \"0.7.7\", \"blpapi\": \"3.25.5.1\", \"pandas\": \"1.4.4\"}, \"resolved_localhost\": [\"('::1', 8194, 0, 0)\", \"('127.0.0.1', 8194)\"]}\n{\"session_started\": true}\n",
+  "stderr": "",
+  "started_at": "2026-09-22T17:24:58.214630+00:00",
+  "completed_at": "2026-09-22T17:25:00.578292+00:00",
+  "bounded_seconds": 15,
+  "earlier_tcp_probe": {
+    "host": "127.0.0.1",
+    "port": 8194,
+    "timeout_seconds": 2,
+    "connect_ex": 10035,
+    "recorded_at": "2026-09-22T17:23:47.086294+00:00"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "checked_on": "2026-09-15",
+  "method": "Official public pages opened with web.run; references recorded as URLs, not archival release vintages",
+  "checks": [
+    {
+      "url": "https://csu.gov.cz/produkty/isc_ts",
+      "result": "Official CPI time-series page links COICOP2018 data, the CEN0101E CSV, schema and DataStat documentation. Archived pre-2018 and 2018-onward classifications are separately listed.",
+      "csv_link": "https://data.csu.gov.cz/opendata/sady/CEN0101E/distribuce/csv"
+    },
+    {
+      "url": "https://csu.gov.cz/spotrebni_kos_archiv",
+      "result": "Official basket archive lists annual baskets through 2026. The 2026 basket uses constant 2024 weights; 2024/2025 use 2022, 2022/2023 use 2020 and earlier even-year cycles follow the same basis pattern.",
+      "confirmed_2026_link": "https://csu.gov.cz/docs/107516/6b4e0d00-121e-0412-a640-6f80d1c65f46/spot_kos2026.xlsx?version=1.3",
+      "confirmed_2024_link": "https://csu.gov.cz/docs/107516/be24646b-7af2-a783-05bf-76c3f1e7b365/spot_kos2024.xlsx?version=1.0",
+      "confirmed_2014_link": "https://csu.gov.cz/docs/107516/d0efa1a4-ed4a-4599-457e-6f01dd32ef83/spot_kos2014.xlsx?version=1.0"
+    },
+    {
+      "url": "https://data.csu.gov.cz/opendata/sady/CEN0101E/schema/csv",
+      "result": "Live schema confirms index-type and household codes but now has split geography/time fields, including UZ02P.KRAJ and CASMKMQRM12.CAS_M, unlike the archived raw schema. It must not be applied silently to the frozen raw."
+    },
+    {
+      "url": "https://csu.gov.cz/what_is_it_inflation_resp_inflation_rate",
+      "result": "CZSO describes CPI weights as expenditure shares of representative goods/services, distinguishes index reference/base periods and links the current CPI user manual."
+    }
+  ],
+  "limits": "The web tool cannot render the CSV/XLSX/DOCX downloads, but confirms the official link destinations. Direct public urllib downloads were blocked by network sandbox, retained in verification_log.json. All actual numerical source bytes come from the previously audited full official raw CSV and basket workbooks, whose checksums are preserved."
+}

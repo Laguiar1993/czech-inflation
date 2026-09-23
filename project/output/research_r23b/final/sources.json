@@ -1,0 +1,38 @@
+[
+  {
+    "variable": "unemployment",
+    "a6_number": 11,
+    "source": "eurostat:une_rt_m:SA:TOTAL:T:PC_ACT:CZ",
+    "kind": "percent",
+    "frequency": "M",
+    "first": "1993-01",
+    "last": "2026-07"
+  },
+  {
+    "variable": "ulc",
+    "a6_number": 17,
+    "source": "bbg__nominal_ulc_quarterly__as_reported",
+    "kind": "quarterly",
+    "frequency": "Q-DEC",
+    "first": "2000Q1",
+    "last": "2026Q1"
+  },
+  {
+    "variable": "imports",
+    "a6_number": 26,
+    "source": "czso:CEN0303:sitc_total:mm_pct",
+    "kind": "mm_change_pct",
+    "frequency": "M",
+    "first": "2008-01",
+    "last": "2026-06"
+  },
+  {
+    "variable": "ppi",
+    "a6_number": 47,
+    "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:C:I21:CZ",
+    "kind": "index_level",
+    "frequency": "M",
+    "first": "1990-01",
+    "last": "2026-07"
+  }
+]

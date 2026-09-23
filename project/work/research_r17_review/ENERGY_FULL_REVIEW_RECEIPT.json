@@ -1,0 +1,11 @@
+{
+  "verified_at_utc": "2026-09-14T15:21:38.158858+00:00",
+  "status": "pass",
+  "sha256": {
+    "output/research_r17_energy/manifest.json": "0a0e421d448383936db59faaf1e838411275d68337450fd9615c782ba3538e39",
+    "models/energy_path_r17.py": "0e40953e92b6b1c32bef11c9c5b7e0606835d64967ef4145ef54b17f056144b5",
+    "energy_path_experiment_r17.py": "ab544e5eb7af3ca360f41f2bd12b4bace44704df1c27beb641a394c8ba954dc0",
+    "docs/implementation/R17_ENERGY_SPEC_2026-09-14.md": "c969e441f1b42b9c57f101eb154f1a17ee24aef331c22033fa6ef9bb4afb7ee8",
+    "work/research_r17_review/energy_full_verified_review.json": "e59ff87f729cfe773746b3a71a6118c6449b9b23bbcb8c2f0f376bb3941a0bfd"
+  }
+}

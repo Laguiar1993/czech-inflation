@@ -1,0 +1,152 @@
+{
+  "validation_future_label_perturbation": {
+    "first_validation_edge": "2022-01",
+    "only_training_labels_after_this_edge_changed": true,
+    "quantiles_before": [
+      -1.4440433212996373,
+      0.0,
+      0.6417112299465177,
+      1.037735849056598,
+      1.3369079535299422,
+      1.5801354401805856,
+      1.7763845350052376,
+      2.978235967926701,
+      2.978235967926701
+    ],
+    "quantiles_after": [
+      0.095573440643848,
+      0.3583916083916172,
+      1.2035010940919078,
+      1.5469613259668558,
+      9.277978339350181,
+      10.43859649122806,
+      11.172161172161168,
+      11.588524431820213,
+      11.76110260336908
+    ],
+    "max_abs_change": 9.39577663715593
+  },
+  "training_and_validation_dates": [
+    {
+      "horizon": 1,
+      "outer_edge": "2023-12",
+      "last_outer_label": "2023-12",
+      "first_validation_edge": "2022-12",
+      "last_validation_edge": "2023-11",
+      "last_held_training_label": "2022-12",
+      "unavailable_labels_at_first_validation_edge": 0
+    },
+    {
+      "horizon": 3,
+      "outer_edge": "2023-12",
+      "last_outer_label": "2023-12",
+      "first_validation_edge": "2022-10",
+      "last_validation_edge": "2023-09",
+      "last_held_training_label": "2022-12",
+      "unavailable_labels_at_first_validation_edge": 2
+    },
+    {
+      "horizon": 6,
+      "outer_edge": "2023-12",
+      "last_outer_label": "2023-12",
+      "first_validation_edge": "2022-07",
+      "last_validation_edge": "2023-06",
+      "last_held_training_label": "2022-12",
+      "unavailable_labels_at_first_validation_edge": 5
+    },
+    {
+      "horizon": 9,
+      "outer_edge": "2023-12",
+      "last_outer_label": "2023-12",
+      "first_validation_edge": "2022-04",
+      "last_validation_edge": "2023-03",
+      "last_held_training_label": "2022-12",
+      "unavailable_labels_at_first_validation_edge": 8
+    },
+    {
+      "horizon": 12,
+      "outer_edge": "2023-12",
+      "last_outer_label": "2023-12",
+      "first_validation_edge": "2022-01",
+      "last_validation_edge": "2022-12",
+      "last_held_training_label": "2022-12",
+      "unavailable_labels_at_first_validation_edge": 11
+    },
+    {
+      "horizon": 13,
+      "outer_edge": "2023-12",
+      "last_outer_label": "2023-12",
+      "first_validation_edge": "2021-12",
+      "last_validation_edge": "2022-11",
+      "last_held_training_label": "2022-12",
+      "unavailable_labels_at_first_validation_edge": 12
+    }
+  ],
+  "validation_imputation_perturbation": {
+    "training_feature_row": "2002-05",
+    "modified_validation_feature_rows": [
+      "2010-11",
+      "2011-10"
+    ],
+    "first_imputed_training_value_before": 1.0,
+    "first_imputed_training_value_after": 11.513274336283185
+  },
+  "realtime_future_transform_perturbation": {
+    "forecast_edge": "2007-05",
+    "changed_raw_period": "2012-04",
+    "before": 0.006230549750636527,
+    "after": 1.0
+  },
+  "outer_future_invariance_passes": true,
+  "tvw3_exact_scores": [
+    {
+      "h": 3,
+      "model": "TVW3",
+      "n": 175,
+      "rmse_recomputed": 0.7067828233426091,
+      "published": 0.669
+    },
+    {
+      "h": 6,
+      "model": "TVW3",
+      "n": 172,
+      "rmse_recomputed": 0.69474893988563,
+      "published": 0.661
+    },
+    {
+      "h": 9,
+      "model": "TVW3",
+      "n": 169,
+      "rmse_recomputed": 0.713807746569414,
+      "published": 0.712
+    },
+    {
+      "h": 12,
+      "model": "TVW3",
+      "n": 166,
+      "rmse_recomputed": 0.6498493516091416,
+      "published": 0.662
+    }
+  ],
+  "current_engine_matches_run_manifest": true,
+  "yoy6_cross_origin_example": {
+    "claimed_h6_target": "2023-12",
+    "common_decision_edge": "2023-06",
+    "forecast_target_months": [
+      "2023-07",
+      "2023-08",
+      "2023-09",
+      "2023-10",
+      "2023-11",
+      "2023-12"
+    ],
+    "forecast_edges_used": [
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04",
+      "2023-05",
+      "2023-06"
+    ]
+  }
+}

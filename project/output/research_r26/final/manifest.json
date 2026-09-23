@@ -1,0 +1,35 @@
+{
+  "created_at_utc": "2026-09-18T18:12:53.202588+00:00",
+  "run": "output/research_r24/final",
+  "inputs": {
+    "output/research_r24/final/manifest.json": "b586a08f5ad03fe3c019f40ccdfe6b29acdc1f2771dbbcc0570a0d266b2b07aa",
+    "output/research_r24/final/native_forecasts.csv": "1313155a31572f262f486afa09aaed26ddd8f72c470f9e5bde2c1e74a9222585",
+    "output/research_r24/final/forecasts.csv": "8915c7b32d8f213f2fa7418a42fa13ee4497e25249eb9b9537efe00916f59353",
+    "output/research_r24/final/drift_audit.csv": "dc83a17219d0a8b7d283dfd2562a343b154b0c20fb0d723687d923d93fbeaf23",
+    "output/research_r24/final/evaluation/cnb_pairs.csv": "4bedc65958f726dd668deb95fcae44733d88c443701085b33a02daeae0058496",
+    "output/research_r17/attribution/primary_support.csv": "149e4d4be70b8575033fcb21130beefc24495678eef65f66e34af49049770936",
+    "output/research_r14b/attribution/actual_component_targets.csv": "1418e4fb2c46467856fd0a6d86a4c7df122fde837484007f0b6c5ac7bf5fc810",
+    "output/independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+    "data/release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+    "models/benchmarks_r26.py": "3c51c2600ba56c3c2c5cce46ed57c12a655b153c90de576a8e1b1b5657194da2",
+    "tools/research_r26/evaluate.py": "0dfd96dca1eb5e13ad2f5b3c152154916cf3a986ba9d0e5f9ba4616483d99a5d",
+    "tools/path_diagnostics/benchmarks.py": "29b709446640c182119bb5d7ee8155bd5f2b872093e5217f5d1ca13c76e0bfbd",
+    "tools/path_diagnostics/bootstrap.py": "401cea03713c83a9fec9b03afa6372f3373beeb1f033ca7bb607c884400fba20",
+    "tools/path_diagnostics/gates.py": "3b83711ad4c82d51ffd18c227bf500782949927145a8d8a1d4637bf053232470",
+    "tools/path_diagnostics/standard.py": "2444b5eebfba720e45e14640528a359e6731988fa1dc9b62dd50cc5ae432b9f1",
+    "models/path_inputs.py": "7a649deac6f702981e7a680493513c8baf6750caf6eb11e5fc71314ea99e778e",
+    "r17_common.py": "b0cb5bf5702deec25e3ac5fd053d6dda788bea03e35156cc2ee4f3df0cb95f0e"
+  },
+  "outputs": {
+    "assembled_scores.csv": "b767e30c0ba4df6a08ace5cb55fa03754ad6edf2feddadc500bc4e33e4670e60",
+    "benchmark_paths.csv": "130581d0d4fb19e679156f8cd5328c31aad04af5234619c5052198f0cf35dd26",
+    "block_cumulative_table.csv": "92f925483e62e0386fd1383b06d7053e6a9f5f7e6aa587e9eb3b2cc08ee3a2ba",
+    "block_family_scores.csv": "0e6c99d1001ce45e68bf3c26dc7128c0f9633ed92aa6b1d701a4f07cfcae0baa",
+    "block_verdicts.csv": "4f33810c7f6e2718a0e3354458903773ed8d6b578512f44b762c64d21a4c59f1",
+    "checks.json": "10939a246be411ddfa7256a7149522f36475394555ed407bca716e14b3ed560a",
+    "food_constant_grid.csv": "69f8730b8a499d8bae9d63dad2f9726c9707bba9c16fe9eed77d4020b852938b",
+    "rule_r24_food.json": "63a7da5ff7c07e1c76950b1eb1bff63858bcf65361c359f815a477ad9d012cc9",
+    "sa_ar_diagnostics.csv": "369bdf8323f9974b2851ac6ff520a23190f6c9b445f54e599c5a9decef3e820e",
+    "sell_side_paths.csv": "c8bdd96158e5e259b68e9403cb12cd6d0d4d03662dddd4014ab21e8a7bf23d39"
+  }
+}

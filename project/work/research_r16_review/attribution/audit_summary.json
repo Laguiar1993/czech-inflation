@@ -1,0 +1,16 @@
+{
+  "verified_hashes": 19,
+  "models": [
+    "STATE_FAST_R15",
+    "DAMPED_P95_Q001_R16",
+    "DAMPED_P95_Q010_R16"
+  ],
+  "original_all15_support_h12_n": 75,
+  "rows_verified_all_horizons": 2907,
+  "maximum_export_difference": 1.9984014443252818e-13,
+  "maximum_retained_spread": 0.0,
+  "h0_window_flags_correct": true,
+  "maximum_h12_mean_square_identity_error": 1.4210854715202004e-14,
+  "units": "Annual-log headline percentage points; cross moment uncentered; weighted oracle effect distinct from unweighted core error.",
+  "status": "passed"
+}

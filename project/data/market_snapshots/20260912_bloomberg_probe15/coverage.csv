@@ -1,0 +1,2 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value
+control,CZCPH Index,2026-09-12T17:53:29.812908+00:00,Czech Republic CPI Housing Wat,Czech Statistical Office,Index NSA,Monthly,2026-08-31,ok,MONTHLY,140,2015-01-31,2026-08-31,101.9

@@ -1,0 +1,40 @@
+{
+ "variant_of": "aa7b0acf3902456283c37e4d2e0d1c49873485c6cc1a471a9c47acee7306c44b",
+ "snapshots": null,
+ "previous_sources": {
+  "tests/fixtures/cleanup": {
+   "alcohol_tobacco.csv": "1a3f7cfd8eeb3419077359f8a12968182d997495007b462418f5261c187fe115",
+   "cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+   "cnb_regulated_mm.csv": "74773b38a1fea1f1ebb09d220aa90409eb3318a697b35ec2b8e1f20e781850db",
+   "component_food_fuel_mm.csv": "21699e9cd2bc1c87848834113ff2933ab587901adc40616f3ba63384441a419b",
+   "core_features.csv": "09bdfeb3353eaaa2ab3b08d815480198ab1dde0d12f59fac08c8651e59dddf23",
+   "food_block_features.csv": "a34a50e425650eda7b9ca400f51cb191bba633e6ead07a12b46a75e4184c9537",
+   "fuel_weekly.csv": "a017a7bfd2054097752c0d18ab0d9c42a9a589280c22ae9fce87c6c1ddac8995",
+   "headline_extended_and_states.csv": "dab64ba59634410ee2a183724b5ee2463e24a8c20bb188dab0ab4bab2ad89e94",
+   "slow_block_features_h6h12.csv": "ea1bdff7aed5325193c91e34cd61c5ab40ca91a498e50e38e0a0213d89e99af3",
+   "smooth_features.csv": "96a2d7f4cfbf87410c4f2f692b688d3dbd313cda41e2f1cb0f854f601268703b",
+   "target_headline_cpi_mm.csv": "0f5f17def39668352b95d3e63278eec66016251d2d4296fb03e59b8a37e5c6eb"
+  },
+  "path_headline": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+  "food_levels": "11b95512b1feef65bdd835d4b4c6cf3789dd6bd176733f59e2a0738fc4462069",
+  "pump": "f9317b3b2d97d775fd1de122e04fcd8b4300a2aa2636e59f9769424c08dfd959"
+ },
+ "code": "42bcd949e798e152d07ea78bad7b7a9f793a2fc579134e26ab92de8a3cc4f476",
+ "files": {
+  "nowcast/alcohol_tobacco.csv": "609bfae64899c66c3b866c8ce854357b093f90a02a02ac4349d268b3068d5597",
+  "nowcast/cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+  "nowcast/cnb_regulated_mm.csv": "74773b38a1fea1f1ebb09d220aa90409eb3318a697b35ec2b8e1f20e781850db",
+  "nowcast/component_food_fuel_mm.csv": "da88dfc8e6241ac9a7d443ff1a82c43de80be542074afa5a1329ce364cf05448",
+  "nowcast/core_features.csv": "da207f723151b8102556acdfdaab567eed6a9cc332de4a5a58f028e521acad8a",
+  "nowcast/food_block_features.csv": "b7cee1dfe37c7a269d89441bee741d30ba0df998f8dc839b42ac42006a1eedd3",
+  "nowcast/fuel_weekly.csv": "a017a7bfd2054097752c0d18ab0d9c42a9a589280c22ae9fce87c6c1ddac8995",
+  "nowcast/fuel_weekly_variant_b.csv": "056b457c27d04a2b090218463165993f3b190bfe36eac0baac9ffb85bef46a04",
+  "nowcast/target_headline_cpi_mm.csv": "b184cc388d79f90219f73a2c2a430928a7908c38b0f366e0f925605a53fd8196",
+  "path/alcohol_tobacco_mm.csv": "609bfae64899c66c3b866c8ce854357b093f90a02a02ac4349d268b3068d5597",
+  "path/food_available_from.csv": "5f392e03580ddffb49cd3301bb7596b8a73c9d51484572b0f34ddd357763f713",
+  "path/food_log_levels.csv": "71e509a5b37ca741d30e912fc0f8e882e581c45919cfa6e8c699ec59422e5db0",
+  "path/headline_history.csv": "33952c3e3f4c5234b50ca9765a4f3647dc3a66689dab28830e1db4164510758a",
+  "path/pump_weekly.csv": "15be097f48e87c94975a37fe208aab9db7b80d7fa5c6241a50ed8cc8fc8d3b03",
+  "provenance.json": "97b12b7901939778d8b40fd35f7996871af4c3a9023aa7893befe44680bb97bc"
+ }
+}

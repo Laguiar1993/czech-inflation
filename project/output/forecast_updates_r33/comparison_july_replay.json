@@ -1,0 +1,52 @@
+{
+  "components": [
+    {
+      "delta": 0.0,
+      "name": "administered",
+      "new": 0.0,
+      "old": 0.0
+    },
+    {
+      "delta": 0.0,
+      "name": "alcohol_tobacco",
+      "new": 0.01732753404545455,
+      "old": 0.01732753404545455
+    },
+    {
+      "delta": 9.890868573358969e-05,
+      "name": "core",
+      "new": 0.4436401040675988,
+      "old": 0.4435411953818652
+    },
+    {
+      "delta": 0.0,
+      "name": "food",
+      "new": -0.09584749860870759,
+      "old": -0.09584749860870759
+    },
+    {
+      "delta": 0.027299595952002723,
+      "name": "fuel",
+      "new": 0.11131543893632036,
+      "old": 0.08401584298431763
+    },
+    {
+      "delta": 0.0,
+      "name": "wedge",
+      "new": -0.0030080848690516304,
+      "old": -0.0030080848690516304
+    }
+  ],
+  "delta": 0.027398504637736354,
+  "kind": "replay_revision",
+  "model": "HARD_BASE",
+  "new_as_of": "2026-08-04T23:59:00+02:00",
+  "new_point": 0.4734274935716145,
+  "old_as_of": "2026-07-28T12:00:00+02:00",
+  "old_point": 0.44602898893387816,
+  "path_changes": [],
+  "reason": "Same-target/model m/m component accounting in percentage points; not causal news attribution. Residual is unexplained numerical reconciliation. Historical/latest-vintage replay, not prospective evidence. No comparable optional paths.",
+  "residual": 4.163336342344337e-17,
+  "status": "ok",
+  "target": "2026-07"
+}

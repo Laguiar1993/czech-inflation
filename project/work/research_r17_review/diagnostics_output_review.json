@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "core_band_rows": 10800,
+  "core_band_manual_max_error": 0.0,
+  "strict_turn_rows": 5400,
+  "strict_turn_common_keys": 159,
+  "strict_hit_miss_false_calls_verified": true,
+  "leave_one_report_out_rows": 3472,
+  "leave_one_report_out_max_error": 0.0,
+  "large_CNB_departure_rows": 2280,
+  "capture_max_error": 0.0,
+  "bootstrap_calendar_support_rows": 1740,
+  "literal_capture_fixtures": [
+    {
+      "cnb": 5.0,
+      "actual": 3.0,
+      "model": 4.0,
+      "capture": 0.5
+    },
+    {
+      "cnb": 5.0,
+      "actual": 3.0,
+      "model": 3.0,
+      "capture": 1.0
+    },
+    {
+      "cnb": 5.0,
+      "actual": 3.0,
+      "model": 0.0,
+      "capture": 2.5
+    },
+    {
+      "cnb": 5.0,
+      "actual": 3.0,
+      "model": 6.0,
+      "capture": -0.5
+    }
+  ],
+  "reviewer_correction": "The initial suspected capture sign issue was a reviewer misreading. realised_cnb_error is actual minus CNB; existing implementation is correct and no output changes were needed."
+}

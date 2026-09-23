@@ -1,0 +1,59 @@
+{
+  "kind": "recorded_engineering_replay_not_current_forecast",
+  "suite": {
+    "command": "python -m pytest tools/live_bundle_r32/test_adapter.py -q -rs -p no:cacheprovider --tb=short",
+    "passed": 33,
+    "skipped": 0,
+    "failed": 0,
+    "elapsed_seconds": 18.76
+  },
+  "runtime_target": "C:\\Users\\luis_\\AppData\\Local\\Temp\\cpi-r32-runtime",
+  "imports": {
+    "duckdb": {
+      "version": "1.5.5",
+      "path": "C:\\Users\\luis_\\AppData\\Local\\Temp\\cpi-r32-runtime\\duckdb\\__init__.py"
+    },
+    "requests": {
+      "version": "2.34.2",
+      "path": "C:\\Users\\luis_\\AppData\\Local\\Temp\\cpi-r32-runtime\\requests\\__init__.py"
+    }
+  },
+  "as_of": "2026-08-04T23:59:00+02:00",
+  "target": "2026-07",
+  "points_mm_pct": {
+    "HARD_BASE": 0.4734274935716145,
+    "HARD_HALF": 0.5450927541467958,
+    "HARD_FULL": 0.6167580147219772
+  },
+  "point_differences_from_r31c": {
+    "HARD_BASE": 0.0,
+    "HARD_HALF": 0.0,
+    "HARD_FULL": 0.0
+  },
+  "contribution_differences_from_r31c": {
+    "core": 0.0,
+    "food": -8.326672684688674e-17,
+    "alcohol_tobacco": 4.85722573273506e-17,
+    "administered": 0.0,
+    "fuel": 5.551115123125783e-17,
+    "wedge": -3.0357660829594124e-17
+  },
+  "max_abs_point_difference": 0.0,
+  "max_abs_contribution_difference": 8.326672684688674e-17,
+  "absolute_parity_tolerance": 1e-10,
+  "food_method": "x13",
+  "hard_forest_fallback_used": false,
+  "preserved_file_hashes": {
+    "output/live_bundle_r32/readiness_20260922.json": "095b8165ee2b79d852e35e69fcc2ac8ac08e6dead679c639dd569ba42644751a",
+    "output/live_bundle_r32/readiness_recorded_202607.json": "6f587df950255c2489f2ab92871bf993d910fafa07be435de515eeb4c476feac",
+    "output/live_bundle_r32/run_recorded_202607_blocked.json": "6c799b6f6b275ab05bad668c7013a795cf6a1f1c775417d1363f2f0aed18b593",
+    "data/release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+    "forecast_independent.py": "113a724c6a2bfeba2ca908b12ce9df5628093ad702d6ffd8d6fbc8e4353cfec0",
+    "cz_struct.py": "276e69f480d32b9cad72003fb0e88cfc174d1126a72c70a56711ad18b8f48307"
+  },
+  "artifact_hashes": {
+    "run_recorded_202607_real_dependencies.json": "f41d9788bff4ed8a7a65e323b2acd2e731d5abaf334aa1e27b164eda8cdccb77",
+    "dependency_install_20260922.json": "b751b8471e9303117d799d3a339e96cbcdc74ba1c45262e905bc67861497879b"
+  },
+  "current_forecast_created": false
+}

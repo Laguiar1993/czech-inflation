@@ -1,0 +1,4 @@
+origin,model,field,max_abs,finite_mask_mismatches
+2019-02,DAMPED_P95_Q001_R16,mm_forecast,0.0,0
+2019-02,STABLE_LOCAL_CORE_R14B,mm_forecast,0.0,0
+2019-02,STATE_FAST_R15,mm_forecast,0.0,0

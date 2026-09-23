@@ -1,0 +1,19 @@
+{
+  "frozen_at_utc": "2026-09-09T09:37:25.694146+00:00",
+  "purpose": "Offline R10 bounded auxiliary core split and targeted services diagnostic",
+  "canonical_files": [
+    "monthly_levels.csv",
+    "broad_yoy.csv",
+    "selected_basket_weights.csv",
+    "canonical_metadata.json"
+  ],
+  "services_audit_retrieved_at_utc": "2026-09-09T09:22:59.597273+00:00",
+  "arad_retrievals": "raw/arad_retrievals.json",
+  "broad_transformation": "Select only SCPICLEM02YOYPECNA and SCPICLEM03YOYPECNA from the source CSV; discard outer months where both are absent; require both finite in every retained month; rename to goods/services. No index rebasing, percent conversion, interpolation, seasonal adjustment or tax adjustment.",
+  "source_arad_csv_sha256": "6b04d2733c37e9cc4abe0bf0b853fef15fc0e91c14d3fa9237d8d4356fda68d7",
+  "source_arad_retrievals_sha256": "8316ca54516f0023a7ba3816f7b4a16a5df5f46312b06615a48796df0ae03f72",
+  "level_transformation": "Copied the audit canonical 2015=100 five-group monthly levels unchanged; source audit verified all 695 observations against the full raw official file. raw/raw_cen0101e_selected.csv contains boundary excerpts, while raw/selected_category_levels.csv holds the read-only level extract; the complete 65 MB original file is represented by its source URL and SHA256 in audit/manifest.json.",
+  "weight_transformation": "Copied all 35 long-form canonical base basket weights unchanged. Old holiday code 09.6 (through 2024) maps to current 098; 2026 basket 09.8. No normalisation or price updating.",
+  "archive_note": "audit/ files retain original source-audit conclusions. The 09:00 recommendation in archived FINDINGS/canonical metadata is superseded for this approved experiment by the existing midnight date convention documented in the top-level canonical_metadata.json.",
+  "portable_note": "Absolute paths in archived extracts identify the source session only. load_frozen reads only the relative frozen manifest paths and needs no database or network."
+}

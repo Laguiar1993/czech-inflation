@@ -1,0 +1,6 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value
+labour_costs_wages,CZNWYOY Index,2026-09-12T17:19:55.504618+00:00,Czech Republic Average Gross M,Czech Statistical Office,YoY% NSA,Quarterly,2026-06-30,ok,MONTHLY,118,1997-03-31,2026-06-30,6.4
+labour_costs_wages,CZRWYOY Index,2026-09-12T17:19:56.185495+00:00,Czech Republic Average Gross M,Czech Statistical Office,YoY% NSA,Quarterly,2026-06-30,ok,MONTHLY,118,1997-03-31,2026-06-30,4.3
+labour_costs_wages,LNTNCZ Index,2026-09-12T17:19:56.733140+00:00,Eurostat Labor Costs Nominal V,Eurostat,Index WDA,Quarterly,2026-03-31,ok,MONTHLY,105,2000-03-31,2026-03-31,124.0
+labour_costs_wages,LCTQCZI Index,2026-09-12T17:19:57.249083+00:00,Eurostat Unit Labor Cost Nomin,Eurostat,Index NSA,Quarterly,2026-03-31,ok,MONTHLY,125,1995-03-31,2026-03-31,138.6
+housing,HOPICZI Index,2026-09-12T17:19:57.848377+00:00,Eurostat House Price Index Cze,Eurostat,Index NSA,Quarterly,2026-03-31,ok,MONTHLY,73,2008-03-31,2026-03-31,86.3

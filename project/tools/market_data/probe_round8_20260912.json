@@ -1,0 +1,12 @@
+{
+  "note": "Round 8 of the 12 Sep 2026 probe: searches for a Bloomberg CNB EUR/CZK fixing and the CNB financial-market inflation expectations survey (FMIE), plus wage, labour-cost and house-price tickers from the user's list that feed path-model drivers.",
+  "candidates": {
+    "labour_costs_wages": ["CZNWYOY Index", "CZRWYOY Index", "LNTNCZ Index", "LCTQCZI Index"],
+    "housing": ["HOPICZI Index"]
+  },
+  "daily": [],
+  "searches": ["Czech National Bank Fixing", "CZK Fixing", "EURCZK Fixing", "Czech Koruna CNB Fixing Rate",
+               "Czech Inflation Expectations Financial Market", "Czech National Bank Inflation Expectations",
+               "Czech Republic Average Wage", "Czech Republic Labour Cost Index", "Czech Republic House Price"],
+  "max_results": 30
+}

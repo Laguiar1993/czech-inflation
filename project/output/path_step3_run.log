@@ -1,0 +1,59 @@
+origin 2008-01 done (1/222)
+origin 2010-01 done (25/222)
+origin 2012-01 done (49/222)
+origin 2014-01 done (73/222)
+origin 2016-01 done (97/222)
+origin 2018-01 done (121/222)
+origin 2020-01 done (145/222)
+origin 2022-01 done (169/222)
+origin 2024-01 done (193/222)
+origin 2026-01 done (217/222)
+
+ESTIMATED PARAMETERS across origins (mean; share of origins with the expected sign):
+  E1_ML: rho 0.908 (half-life of the level deviation 7 months) | phi 0.11 | converged 1.00
+  E1_fixed: rho 0.931 (half-life of the level deviation 10 months) | phi 0.22 | converged 1.00
+  E2_ML: rho 0.911 (half-life of the level deviation 7 months) | phi 0.10 | converged 1.00 | gamma_fx_mm -0.007 (sign ok 0.32) | gamma_un_d -0.500 (sign ok 1.00) | gamma_rr_gap6 +0.013 (sign ok 0.18)
+  E2_fixed: rho 0.947 (half-life of the level deviation 13 months) | phi 0.17 | converged 1.00 | gamma_fx_mm -0.008 (sign ok 0.31) | gamma_un_d -0.475 (sign ok 1.00) | gamma_rr_gap6 +0.017 (sign ok 0.09)
+  E3_ML: rho 0.911 (half-life of the level deviation 7 months) | phi 0.10 | converged 1.00 | gamma_fx_mm -0.025 (sign ok 0.01) | gamma_un_d -0.497 (sign ok 1.00) | gamma_rr_gap6 +0.013 (sign ok 0.18) | gamma_reer_mm -0.021 (sign ok 0.89)
+  E3_fixed: rho 0.945 (half-life of the level deviation 12 months) | phi 0.17 | converged 0.99 | gamma_fx_mm -0.024 (sign ok 0.01) | gamma_un_d -0.476 (sign ok 1.00) | gamma_rr_gap6 +0.016 (sign ok 0.09) | gamma_reer_mm -0.018 (sign ok 0.77)
+
+VARIANT SELECTION (origins 2008-01..2018-12, h=12, y/y RMSE (b), n=132): E1_ML 1.335, E1_fixed 1.330, E2_ML 1.328, E2_fixed 1.378, E3_ML 1.325, E3_fixed 1.370 | E0 (RW level, no survey) 1.890 | F2 with survey 1.052 -> E3_ML
+
+LONG SPAN 2008-01..2026-07: survey-free variants, E0 control, F2 with survey: y/y RMSE (b) | naive | RW
+  h= 1 n=222 | E1_ML 0.572 (-0.01) E1_fixed 0.571 (+0.00) E2_ML 0.565 (-0.01) E2_fixed 0.565 (+0.01) E3_ML 0.566 (-0.01) E3_fixed 0.564 (+0.01) F2_D1_noFMIE 0.577 (+0.03) F2_D1_fixed 0.570 (-0.09) | naive 0.633 | RW 1.101
+  h= 3 n=220 | E1_ML 1.217 (-0.05) E1_fixed 1.205 (-0.00) E2_ML 1.196 (-0.04) E2_fixed 1.175 (+0.03) E3_ML 1.202 (-0.04) E3_fixed 1.176 (+0.03) F2_D1_noFMIE 1.240 (+0.09) F2_D1_fixed 1.206 (-0.29) | naive 1.367 | RW 1.828
+  h= 6 n=217 | E1_ML 2.022 (-0.13) E1_fixed 2.053 (-0.01) E2_ML 1.975 (-0.10) E2_fixed 2.015 (+0.07) E3_ML 1.991 (-0.09) E3_fixed 2.012 (+0.06) F2_D1_noFMIE 2.163 (+0.20) F2_D1_fixed 2.024 (-0.60) | naive 2.298 | RW 2.801
+  h= 9 n=214 | E1_ML 2.947 (-0.24) E1_fixed 3.042 (-0.04) E2_ML 2.875 (-0.19) E2_fixed 3.016 (+0.08) E3_ML 2.898 (-0.18) E3_fixed 3.010 (+0.07) F2_D1_noFMIE 3.244 (+0.30) F2_D1_fixed 2.931 (-0.90) | naive 3.206 | RW 3.714
+  h=12 n=211 | E1_ML 3.955 (-0.39) E1_fixed 4.119 (-0.09) E2_ML 3.929 (-0.31) E2_fixed 4.102 (+0.06) E3_ML 3.949 (-0.30) E3_fixed 4.092 (+0.05) F2_D1_noFMIE 4.448 (+0.38) F2_D1_fixed 3.839 (-1.23) | naive 4.094 | RW 4.473
+
+COMPONENT SPAN 2019-02..2026-07 (b: h0 = print): y/y RMSE (b) | naive | RW
+  h= 1 n= 88 | F1b 0.772 (-0.11) F2_D1_fixed 0.818 (-0.23) E 0.801 (-0.08) F2_D1_noFMIE 0.817 (-0.02) | naive 0.937 | RW 1.571
+  h= 3 n= 84 | F1b 1.556 (-0.34) F2_D1_fixed 1.831 (-0.72) E 1.791 (-0.27) F2_D1_noFMIE 1.829 (-0.04) | naive 2.095 | RW 2.697
+  h= 6 n= 78 | F1b 2.572 (-0.83) F2_D1_fixed 3.254 (-1.50) E 3.140 (-0.58) F2_D1_noFMIE 3.355 (-0.01) | naive 3.652 | RW 4.306
+  h= 9 n= 72 | F1b 4.054 (-1.45) F2_D1_fixed 4.887 (-2.37) E 4.753 (-1.00) F2_D1_noFMIE 5.209 (+0.02) | naive 5.278 | RW 5.916
+  h=12 n= 66 | F1b 5.788 (-2.36) F2_D1_fixed 6.664 (-3.42) E 6.792 (-1.59) F2_D1_noFMIE 7.470 (-0.00) | naive 6.990 | RW 7.427
+
+COMPONENT SPAN 2019-02..2026-07 (a: h0 = nowcast): y/y RMSE (a) | naive | RW
+  h= 1 n= 88 | F1b 0.925 (-0.15) F2_D1_fixed 0.940 (-0.26) E 0.934 (-0.12) | naive 0.937 | RW 1.571
+  h= 3 n= 84 | F1b 1.611 (-0.38) F2_D1_fixed 1.867 (-0.76) E 1.843 (-0.31) | naive 2.095 | RW 2.697
+  h= 6 n= 78 | F1b 2.680 (-0.88) F2_D1_fixed 3.313 (-1.55) E 3.221 (-0.63) | naive 3.652 | RW 4.306
+  h= 9 n= 72 | F1b 4.183 (-1.50) F2_D1_fixed 4.962 (-2.42) E 4.852 (-1.05) | naive 5.278 | RW 5.916
+  h=12 n= 66 | F1b 5.788 (-2.36) F2_D1_fixed 6.664 (-3.42) E 6.792 (-1.59) | naive 6.990 | RW 7.427
+
+REGIMES of the target, h 7-12, y/y RMSE (b): E (survey-free) / F2 with survey / E0 / naive | E bias
+  2008-2009 n= 87: 2.08 / 1.19 / 3.29 / 1.95 | +1.98
+  2010-2012 n=216: 1.00 / 0.84 / 0.95 / 0.96 | -0.19
+  2013-2016 n=288: 1.08 / 0.78 / 1.42 / 1.15 | +0.81
+  2017-2019 n=216: 0.72 / 1.00 / 0.97 / 1.13 | -0.53
+  2020-2021 n=144: 1.68 / 2.10 / 1.76 / 1.75 | -1.08
+  2022-2023 n=144: 8.39 / 8.76 / 8.49 / 8.45 | -3.55
+  2024-2026 n=186: 2.32 / 0.87 / 4.04 / 3.84 | +0.85
+
+SECOND-LINE RULE (long span h=12, n=211): survey-free E3_ML 3.949 vs survey version 3.839 (+2.9%); signs ok False -> survey version stays the second line; both reported
+
+PUBLISH RULE (component span, b) for E:
+  h3 gain +14.5% DM -1.59/-1.82 RW beat | h6 gain +14.0% DM -2.05/-2.06 RW beat | h12 gain +3.0% DM -0.39/-0.39 RW beat -> not publishable
+PRODUCT RULE: E vs F1b at h=12: full -17.3% | first half -11.7% | second half -142.8% -> F1b stays the product engine
+
+selected survey-free variant: E3_ML
+exit 0

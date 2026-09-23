@@ -1,0 +1,13 @@
+{
+  "manifest_files_verified": 21,
+  "full_raw_sha256_verified": true,
+  "historical_basket_hashes_verified": 7,
+  "raw_to_wide_cells_verified": 5143,
+  "raw_to_wide_max_abs_difference": 0.0,
+  "2026_division_weights_permille": 1000.0,
+  "basket_rows": 1156,
+  "primary_columns": 18,
+  "total_columns": 37,
+  "monthly_observations": 139,
+  "pytest": "4 passed"
+}

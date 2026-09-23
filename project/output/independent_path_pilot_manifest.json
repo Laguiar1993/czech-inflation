@@ -1,0 +1,58 @@
+{
+  "started_at": "2026-09-09T07:56:19.410061+00:00",
+  "fingerprints": {
+    "independent_path_experiment.py": "55e1513065511632f836fde2f3a5ddc733f3d17e01b44c6857170945a0e2e734",
+    "models/path_inputs.py": "7a649deac6f702981e7a680493513c8baf6750caf6eb11e5fc71314ea99e778e",
+    "models/trend_gap.py": "c8999591084a6f5411a316f223c28590a0554ee4c2013b0ba3e2c17b9df27568",
+    "models/bvar.py": "6bd8e696fabd7bc0574f01ec623fe3d48bdfcc2c608280c893d8ed5116a60ba6",
+    "data/vintages/unemployment.csv.gz": "37519e58db90ab0f9f026fcf2d62b44df46a512f58596ab3985e14787044657a",
+    "output/independent_nowcast_forecasts.csv": "77ac26bc05906616a07d8f4b33ab6f2eb10b97141295022e172d53461f3e6e98"
+  },
+  "origins_requested": [
+    "2019-02"
+  ],
+  "primary_models": [
+    "TARGET_ML",
+    "TARGET_FX_ML",
+    "TARGET_U_FX_ML",
+    "BVAR_U_FX",
+    "RF_U_FX",
+    "NAIVE"
+  ],
+  "references": [
+    "F1B_STORED_REF",
+    "SURVEY_TREND_STORED_REF"
+  ],
+  "primary_h0": "HARD_BASE from independent nowcast experiment",
+  "long_h0": "own target-model nowcast for origins before primary sample",
+  "clock": "release eve 23:59 Europe/Prague",
+  "target_mapping": "path h = model h+1 because released headline ends t-1",
+  "history": "all finite contiguous extended headline history from February1991",
+  "target_early_approximation": "existing target_path uses 4% before2002, including pre1998",
+  "destination_driver_lags": {
+    "unemployment_change": 1,
+    "fx_twelve_month_pct": 3
+  },
+  "seasonality": "origin-fitted centered same-calendar-month medians for ML/BVAR; RF target-month dummies",
+  "rf_options": {
+    "n_estimators": 200,
+    "min_samples_leaf": 5,
+    "max_features": 0.3333333333333333,
+    "random_state": 42,
+    "n_jobs": 1
+  },
+  "future_scenario": "FX last completed monthly level held; unpublished U changes zero",
+  "vintage_label": "historical unemployment releases; FX month-close assumption; historical CPI as stored; independent h0 inherits cached-driver limitations",
+  "inference_label": "exploratory retrospective comparison; no untouched historical holdout or tuning",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "statsmodels": "0.14.6"
+  },
+  "completed_at": "2026-09-09T07:56:21.728618+00:00",
+  "origins_completed": 1,
+  "forecast_rows": 104,
+  "forecast_sha256": "02eaab32896f20f6abc214650d95176b6c5a120f7e125b15189769f247084ae2",
+  "elapsed_seconds": 2.32073190016672
+}

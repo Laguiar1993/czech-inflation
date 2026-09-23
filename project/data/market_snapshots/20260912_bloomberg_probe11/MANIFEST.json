@@ -1,0 +1,14 @@
+{
+  "sha256": {
+    "coverage.csv": "75f92365c0a8e9131feb88c7ee04ca86810d9c41faf7ce40e4028a3b8e457627",
+    "errors.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "history_long.csv": "294119cf563c7be0037f023262597f2003af08b82c0556df84cde307af50e06e",
+    "instrument_search.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "metadata.json": "9e1545619323103b68070015fbfa7adf068bda593ad16802a5709ec4cb322bb0",
+    "raw/EUPPCZM_Index.csv": "1b4fc3412f562f282c244a780fc03e6b1c6f2a8a420d3b0e2d7f11a3636c5ac4",
+    "raw/USDCZK_BFIX_Curncy.csv": "e7cdab3f379ffd612bc05ccf9f8c859380461ca057769f272538a08b7ed86a96",
+    "raw/USDCZK_F143_Curncy.csv": "c35f4373fed6162399284232b8f03e7bc5376d368d297cad247602b34209c475",
+    "request.json": "bd1da85ab0f7cd844626d87c691a04ed0ad41e37b7d11c6e6dc373dcf97f1bb7"
+  },
+  "probe_script_sha256": "7d8f53a75df38b84cb95d2b0f6a7c4683f33e79b761f6e80bf132a154936be41"
+}

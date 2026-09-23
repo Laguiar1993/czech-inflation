@@ -1,0 +1,37 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value
+cnb_paper_surveys,EUI6CZ Index,2026-09-12T17:57:42.055674+00:00,European Commission Manufactur,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,15.6
+cnb_paper_surveys,EUI1CZ Index,2026-09-12T17:57:42.869826+00:00,European Commission Manufactur,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,3.0
+cnb_paper_surveys,EUS1CZ Index,2026-09-12T17:57:43.416295+00:00,EU Services Assessment of Busi,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,292,2002-05-31,2026-08-31,57.6
+cnb_paper_surveys,EUS2CZ Index,2026-09-12T17:57:43.986216+00:00,EU Services Evolution of Deman,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,292,2002-05-31,2026-08-31,18.8
+cnb_paper_surveys,EUR1CZ Index,2026-09-12T17:57:44.535820+00:00,European Commission Retail Con,European Commission,% Balance/Diffusion Index NSA,Monthly,2026-08-31,ok,MONTHLY,399,1993-06-30,2026-08-31,27.8
+cnb_paper_surveys,EUB1CZ Index,2026-09-12T17:57:45.025435+00:00,EC Consumer Construction Czech,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,30.5
+cnb_paper_surveys,EUB5F4CZ Index,2026-09-12T17:57:45.583738+00:00,EC Construction Main Factors S,European Commission,Percent SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,37.9
+cnb_paper_surveys,EUB5F5CZ Index,2026-09-12T17:57:46.102166+00:00,EC Construction Main Factors S,European Commission,Percent SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,4.2
+cnb_paper_surveys,EUB5F7CZ Index,2026-09-12T17:57:46.624246+00:00,EC Construction Main Factors F,European Commission,Percent SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,2.4
+cnb_paper_surveys,EUA2CZ Index,2026-09-12T17:57:47.223856+00:00,EC Consumer Confidence Czech F,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,380,1995-01-31,2026-08-31,2.1
+cnb_paper_surveys,EUICDE Index,2026-09-12T17:57:47.870423+00:00,European Commission Manufactur,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,500,1985-01-31,2026-08-31,-11.0
+cnb_paper_surveys,EUSCDE Index,2026-09-12T17:57:48.423754+00:00,European Commission Services C,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,377,1995-04-30,2026-08-31,5.5
+cnb_paper_surveys,EURTDE Index,2026-09-12T17:57:48.944736+00:00,European Commission Retail Tra,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,501,1984-01-31,2026-08-31,-25.8
+cnb_paper_surveys,EUCODE Index,2026-09-12T17:57:49.509671+00:00,European Commission Constructi,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,500,1985-01-31,2026-08-31,-14.3
+cnb_paper_surveys,EURTPL Index,2026-09-12T17:57:50.023263+00:00,European Commission Retail Tra,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,395,1993-10-31,2026-08-31,-1.5
+cnb_paper_surveys,EUA8EMU Index,2026-09-12T17:57:50.631903+00:00,EC Consumer Confidence Eurozon,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,500,1985-01-31,2026-08-31,33.0
+cnb_paper_surveys,EUA7EMU Index,2026-09-12T17:57:51.221008+00:00,EC Consumer Confidence Eurozon,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,500,1985-01-31,2026-08-31,54.9
+cnb_paper_surveys,EUICCZ Index,2026-09-12T17:57:51.807578+00:00,European Commission Manufactur,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,-2.2
+cnb_paper_surveys,EUS3CZ Index,2026-09-12T17:57:52.336733+00:00,EU Services Evolution of Deman,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,292,2002-05-31,2026-08-31,21.9
+cnb_paper_surveys,EUS5CZ Index,2026-09-12T17:57:52.894662+00:00,EU Services Evolution of Emplo,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,292,2002-05-31,2026-08-31,-11.0
+cnb_paper_surveys,EUSCCZ Index,2026-09-12T17:57:53.477878+00:00,European Commission Services C,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,292,2002-05-31,2026-08-31,32.8
+cnb_paper_surveys,EUR3CZ Index,2026-09-12T17:57:54.007772+00:00,EC Retail Trade Confidence Cze,European Commission,% Balance/Diffusion Index NSA,Monthly,2026-08-31,ok,MONTHLY,399,1993-06-30,2026-08-31,12.4
+cnb_paper_surveys,EUR4CZ Index,2026-09-12T17:57:54.587529+00:00,EC Retail Trade Confidence Cze,European Commission,% Balance/Diffusion Index NSA,Monthly,2026-08-31,ok,MONTHLY,399,1993-06-30,2026-08-31,27.1
+cnb_paper_surveys,EUR5CZ Index,2026-09-12T17:57:55.140980+00:00,European Commission Retail Tra,European Commission,% Balance/Diffusion Index NSA,Monthly,2026-08-31,ok,MONTHLY,399,1993-06-30,2026-08-31,4.7
+cnb_paper_surveys,EURTCZ Index,2026-09-12T17:57:55.706625+00:00,European Commission Retail Tra,European Commission,% Balance/Diffusion Index NSA,Monthly,2026-08-31,ok,MONTHLY,399,1993-06-30,2026-08-31,15.9
+cnb_paper_surveys,EUB3CZ Index,2026-09-12T17:57:56.269886+00:00,EC Construction Confidence Cze,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,3.6
+cnb_paper_surveys,EUCOCZ Index,2026-09-12T17:57:56.808324+00:00,European Commission Constructi,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,-5.2
+cnb_paper_surveys,EUA1CZ Index,2026-09-12T17:57:57.411916+00:00,EC Consumer Confidence Czech R,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,380,1995-01-31,2026-08-31,-4.6
+cnb_paper_surveys,EUA0CZ Index,2026-09-12T17:57:57.966503+00:00,EC Consumer Confidence Indicat,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,380,1995-01-31,2026-08-31,14.7
+cnb_paper_surveys,EUAUCZ Index,2026-09-12T17:57:58.505714+00:00,EC Consumer Confidence Czech R,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,380,1995-01-31,2026-08-31,22.3
+cnb_paper_surveys,EUA6CZ Index,2026-09-12T17:57:59.040055+00:00,EC Consumer Confidence Czech R,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,380,1995-01-31,2026-08-31,-13.1
+cnb_paper_surveys,EUI5CZ Index,2026-09-12T17:57:59.637961+00:00,European Commission Manufactur,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,13.8
+cnb_paper_surveys,EUB4CZ Index,2026-09-12T17:58:00.240103+00:00,EC Construction Confidence Cze,European Commission,% Balance/Diffusion Index SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,19.9
+cnb_paper_hard,UMRTDE Index,2026-09-12T17:58:00.878050+00:00,Eurostat Unemployment Germany,Eurostat,Percent SA,Monthly,2026-07-31,ok,MONTHLY,427,1991-01-31,2026-07-31,4.0
+cnb_paper_hard,GRCPHCPI Index,2026-09-12T17:58:01.385528+00:00,Germany Harmonized Consumer Pr,German Federal Statistical Off,Index NSA,Monthly,2026-08-31,ok,MONTHLY,368,1996-01-31,2026-08-31,103.4
+surveys,EUESCZ Index,2026-09-12T17:58:01.901108+00:00,European Commission Economic S,European Commission,Index SA,Monthly,2026-08-31,ok,MONTHLY,403,1993-02-28,2026-08-31,101.1

@@ -1,0 +1,7 @@
+{
+  "status": "post-score explanation, not a feasible forecast or trading strategy",
+  "identity": "headline error = other_error + core_difference; MSE = other MSE + core difference MSE + 2 mean(other_error*core_difference)",
+  "other_error": "Headline error after replacing h1..h12 core by realised core while preserving fixed h0, noncore blocks and basket approximation.",
+  "caveat": "Core difference is its exact compounded annual effect relative to that oracle, not an official additive CNB contribution. All models have identical oracle.",
+  "drivers": "Zero change is a fixed level benchmark for FX, Brent, metals, PPI and imports, not a persistent monthly growth forecast."
+}

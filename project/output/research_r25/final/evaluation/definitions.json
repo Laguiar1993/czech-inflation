@@ -1,0 +1,28 @@
+{
+  "roster": [
+    "STATE_FAST_R15",
+    "STABLE_LOCAL_CORE_R14B",
+    "DAMPED_P95_Q001_R16",
+    "CORE_PANEL_SHRINK_R25",
+    "CORE_PANEL_STATE_R25",
+    "CORE_OWN_SHRINK_R25",
+    "CORE_PANEL_SHRINK_FOODNORM_R25"
+  ],
+  "primary_calendar": "Original R16 annual-headline969row support, not filtered by a new model.",
+  "errors": "Forecast minus actual in percentage points. Show failures separately; matched comparisons require identical finite support.",
+  "core": "Monthly core and cumulative log core h1..h, original frozen target. Underlying bands subtract own-origin saved R15 seasonality.",
+  "bootstrap": "Circular blocks on consecutive monthly origins: 12 months from 48 observations, 6 from 24, no interval below 24; 2000 draws, seed 1509.",
+  "sustained": "Bands1to3 change>=.5pp annualized, without opposite adjacent>=.5pp. Additional to strict exact-turn test.",
+  "cnb": "Both clocks; same-origin quarter means;0.15pp absolute-error materiality; repeated quarters dependent; every-report omission.",
+  "limitations": [
+    "R25: the share of the FAST core trend deviation from a robust norm that survives to each three-month band, estimated in real time on an EU HICP-core panel that excludes Czechia, then applied to the saved Czech FAST path. Original 90 origins and 969 primary keys. Historical research, not a live or untouched holdout record.",
+    "Every panel country is filtered with the unchanged R15 filter and its own-origin seasonal pattern, exactly like Czech core. Only the persistence weight is borrowed from the panel; no level, forecast or Czech observation comes from it.",
+    "The norm is the median of overlapping twelve-month log changes available at the origin. The band weight is a pooled no-intercept regression of realised deviation on forecast deviation, clipped to [0, 1], using only bands published by the Czech clock.",
+    "Candidates: one weight per band; two weights split at the real-time median deviation; a Czech-only control; and the single-weight core combined with the separately declared R24 food drift. h0 and the other blocks are untouched.",
+    "The HICP aggregate is not the CNB core measure and the frozen panel ends in December 2025. No survey, CNB forecast or future realised driver enters the independent predictions.",
+    "Lead tables flag abs(model-CNB)>=0.30pp (0.50 sensitivity) against the immediately next CNB report for the same still-future quarter, with base-rate rows passed through the same rules.",
+    "Defaults show FAST with the single-weight panel candidate and the combination; no promotion is implied."
+  ],
+  "cnb_lead": ".30 and .50 ex-ante deviation thresholds; immediate next report, same target beyond next report quarter; .15pp closer CNB revision and separate eventual .15pp absolute-error improvement; first calls deduplicated by model/clock/target/direction streak; base-rate rows flagged is_baseline.",
+  "samples": "full; origins 2019-2021; origins 2022-2023; origins from 2024."
+}

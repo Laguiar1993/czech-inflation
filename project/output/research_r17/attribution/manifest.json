@@ -1,0 +1,25 @@
+{
+  "purpose": "Hindsight arithmetic only; no model fit, no future input made available to a forecast.",
+  "support": "Original R16 all15 annual-headline support. Missing component outcomes remain visible and have fewer oracle-valid rows.",
+  "weights": "Frozen origin projection weights, not exact chain-linked official contributions.",
+  "wedge": "Held fixed. No realised wedge manufactured; all-components oracle still includes reconciliation and h0 where in window.",
+  "units": "Ordinary annual-CPI percentage points, matching original R14 oracle definitions; not R16 annual-log attribution units.",
+  "nonadditivity": "Single-block oracle gains are conditional and nonadditive; joint noncore/all-components replacements are computed separately.",
+  "inputs": {
+    "output/research_r15/native_forecasts.csv": "014e49f353cb9dab047ff1549dd54bbebbf6f1b7c3af938e0c0e20aabb11cb32",
+    "output/research_r14b/integration/native_forecasts.csv": "f323b1795e8fc10f0ac898b899e0c8b82d128220c6b0654fe57e6f8d0999e330",
+    "output/research_r16/forecasts.csv": "4c32bcb2946f374c3dea54f5ab245f8acc5b2b715c0705c7bd8b3620f2aabcc0",
+    "output/research_r16/manifest.json": "25aba5e8a45921e3950a4c99b2234b101a7b60054db39c29d9b64f1d29877ab2",
+    "output/research_r14b/attribution/actual_component_targets.csv": "1418e4fb2c46467856fd0a6d86a4c7df122fde837484007f0b6c5ac7bf5fc810",
+    "output/independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+    "path_attribution_r14.py": "7a64305bdf41d3f3459f376ed4db6e51059b92443394525bcf239b9174f094dd",
+    "tools/review/r17_component_attribution.py": "f25a511eea988e2ead0e806c641fdf057a4c829e03eaa4df1aabb2f50c5c23d2"
+  },
+  "outputs": {
+    "component_errors.csv": "2a45ace78bf720379a2ab14f1a7a7f21b22ef34b8fceb9974e8ab93c2f3ce888",
+    "joint_oracles.csv": "b5eb204f82a84c69301ea0313809a7a42a73a8d05fcaa8874bd48aec85bf1f1c",
+    "primary_oracle_summary.csv": "e13c08e74af30923d25e19330cbffae7fab63f71a5e5c4ccdf6bbdbf6a6ca17d",
+    "primary_rows.csv": "1a7177b190491b25b624b0985dc53f788c9d3284586762065dad6f094ed6fa54",
+    "primary_support.csv": "149e4d4be70b8575033fcb21130beefc24495678eef65f66e34af49049770936"
+  }
+}

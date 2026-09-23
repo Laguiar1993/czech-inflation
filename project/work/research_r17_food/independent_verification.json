@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "source_hashes": 75,
+  "output_hashes": 14,
+  "audited_training_calendars": 1512,
+  "response_endpoint_checks": 163584,
+  "independently_rebuilt_fits": 8022,
+  "coefficient_max_error": 1.887379141862766e-15,
+  "fixed_forecast_max_error": 8.215650382226158e-15,
+  "chronological_path_selection_checks": 252,
+  "annual_product_max_error": 1.0658141036401503e-13,
+  "monthly_component_sum_max_error": 8.881784197001252e-16,
+  "all_h0_nonfood_values_weights_exact": true,
+  "outer_origins": 90,
+  "own_origin_snapshots": 126,
+  "outer_food_fallback_rows": 0,
+  "outer_food_missing_rows": 0
+}

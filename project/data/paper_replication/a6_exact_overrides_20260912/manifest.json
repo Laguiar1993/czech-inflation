@@ -1,0 +1,319 @@
+{
+  "tool": "build_exact_overrides",
+  "created_at": "2026-09-12T12:29:57.644909+00:00",
+  "downloads": {
+    "candidates": {
+      "file": "data\\paper_replication\\official_cnb_arad_20260912\\raw\\arad_a6_candidates_14codes.json",
+      "sha256": "864025fc3c2129b0e3afd102849f2c58ec93444ab8a99401698ee9a7e6758d04",
+      "url": "https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes?snList=&periodFrom=&periodTo=&roleId=U&type=single",
+      "body": [
+        "SVEVZM4",
+        "SFTP04M2106",
+        "SFTP04M2206",
+        "MEDACOMOILXXUSBVALM",
+        "MEDACOMGASXXL18INDM",
+        "MEDACOMMETXXL18INDM",
+        "MEDACOMFODXXL18INDM",
+        "MLULNULXXADJYOYPECQ",
+        "MOPAIMPXXNAJYOYPECM",
+        "MOPAAPPXXNAJYOYPECM",
+        "MOPACPPXXNAJYOYPECM",
+        "SZECSUM2005IR01",
+        "SUCM100311XXX101101",
+        "SUCM102211XXX101101"
+      ],
+      "retrieved_utc": "2026-09-12T12:11:34.684352+00:00"
+    },
+    "prices": {
+      "file": "data\\paper_replication\\official_cnb_arad_20260912\\raw\\arad_price_indices.json",
+      "sha256": "1e8cb91f9e6629369f1f5ebbcaec20686ad3a4b16cdb09b5375def5bad5b1000",
+      "url": "https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes?snList=&periodFrom=&periodTo=&roleId=U&type=single",
+      "body": [
+        "SIMCSUM2005IR01",
+        "SIMCSUM2005PM01",
+        "SIMCSUM2015IR01",
+        "SIMCSUM2015PM01",
+        "SZECSUM2005IR01",
+        "SZECSUM2005IR02",
+        "SZECSUM2005IR03",
+        "SZECSUM2005PM01",
+        "SZECSUM2005PM02",
+        "SZECSUM2005PM03",
+        "SZECSUM2010IR01",
+        "SZECSUM2010IR02",
+        "SZECSUM2010IR03",
+        "SZECSUM2010PM01",
+        "SZECSUM2010PM02",
+        "SZECSUM2010PM03",
+        "SZECSUM2015IR01",
+        "SZECSUM2015IR02",
+        "SZECSUM2015IR03",
+        "SZECSUM2015PM01",
+        "SZECSUM2015PM02",
+        "SZECSUM2015PM03",
+        "SZECSUM2020IR01",
+        "SZECSUM2020IR02",
+        "SZECSUM2020IR03",
+        "SZECSUM2020PM01",
+        "SZECSUM2020PM02",
+        "SZECSUM2020PM03"
+      ],
+      "retrieved_utc": "2026-09-12T12:16:01.776352+00:00"
+    },
+    "czso_permits": {
+      "file": "data\\paper_replication\\official_czso_20260912_permits\\raw\\bvzcr090726_06.xlsx",
+      "sha256": "34077de0e02cd10b1ff4840a5fbee6d108f8fbc3a8087695cedcb0c4cffac57f"
+    }
+  },
+  "arad_snapshot_ids": {
+    "MLULNULXXADJYOYPECQ": 95,
+    "SVEVZM4": 0,
+    "SIMCSUM2005PM01": 0,
+    "SIMCSUM2015PM01": 0,
+    "MOPAAPPXXNAJYOYPECM": 95,
+    "SFTP04M2106": 0,
+    "SUCM100311XXX101101": 0,
+    "SUCM102211XXX101101": 0,
+    "MEDACOMOILXXUSBVALM": 95,
+    "MEDACOMGASXXL18INDM": 95,
+    "MEDACOMMETXXL18INDM": 95,
+    "MEDACOMFODXXL18INDM": 95
+  },
+  "observed_to": {
+    "monthly_report_database": "2026-06",
+    "quarterly_report_database": "2026Q1"
+  },
+  "rows": {
+    "13": {
+      "source_id": "czso:bvzcr_tab6:building_permits_granted",
+      "description": "building permits granted, monthly count",
+      "first": "2002-01",
+      "last": "2026-07",
+      "observations": 295,
+      "lag_days": 41
+    },
+    "17": {
+      "source_id": "cnb_arad:MLULNULXXADJYOYPECQ",
+      "description": "nominal unit labour costs, y/y %, SA",
+      "first": "2002Q1",
+      "last": "2026Q1",
+      "observations": 97,
+      "lag_days": 75,
+      "missing_source_periods_dropped_with_earlier_history": [
+        "2001Q1",
+        "2001Q2",
+        "2001Q3",
+        "2001Q4"
+      ]
+    },
+    "25": {
+      "source_id": "cnb_arad:SVEVZM4",
+      "description": "balance of foreign trade (FOB/FOB)",
+      "first": "1993-01",
+      "last": "2026-07",
+      "observations": 403,
+      "lag_days": 40,
+      "missing_source_periods_dropped_with_earlier_history": []
+    },
+    "26": {
+      "source_id": "cnb_arad:SIMCSUM2005PM01+SIMCSUM2015PM01",
+      "description": "import prices, previous month = 100",
+      "first": "2000-01",
+      "last": "2026-07",
+      "observations": 319,
+      "lag_days": 45,
+      "missing_source_periods_dropped_with_earlier_history": []
+    },
+    "43": {
+      "source_id": "cnb_arad:MOPAAPPXXNAJYOYPECM",
+      "description": "agricultural producer prices, y/y %",
+      "first": "1996-01",
+      "last": "2026-06",
+      "observations": 366,
+      "lag_days": 26,
+      "missing_source_periods_dropped_with_earlier_history": []
+    },
+    "52": {
+      "source_id": "czso:CEN02032:0:IM; before 2010-01 rebuilt from cnb_arad:MOPAAPPXXNAJYOYPECM",
+      "description": "agricultural producer prices incl. fish, previous month = 100",
+      "first": "2002-05",
+      "last": "2026-07",
+      "observations": 291,
+      "lag_days": 26
+    },
+    "54": {
+      "source_id": "cnb_arad:SFTP04M2106",
+      "description": "PRIBOR 3M, end of month",
+      "first": "1993-01",
+      "last": "2026-08",
+      "observations": 404,
+      "lag_days": 1,
+      "missing_source_periods_dropped_with_earlier_history": []
+    },
+    "58": {
+      "source_id": "cnb_arad:SUCM100311XXX101101",
+      "description": "client loans, non-financial corporations",
+      "first": "1993-01",
+      "last": "2026-07",
+      "observations": 403,
+      "lag_days": 31,
+      "missing_source_periods_dropped_with_earlier_history": []
+    },
+    "59": {
+      "source_id": "cnb_arad:SUCM102211XXX101101",
+      "description": "client loans, households",
+      "first": "1993-01",
+      "last": "2026-07",
+      "observations": 403,
+      "lag_days": 31,
+      "missing_source_periods_dropped_with_earlier_history": []
+    },
+    "60": {
+      "source_id": "cnb_arad:MEDACOMOILXXUSBVALM",
+      "description": "Brent crude oil, USD/barrel",
+      "first": "1993-01",
+      "last": "2026-06",
+      "observations": 402,
+      "lag_days": 1,
+      "missing_source_periods_dropped_with_earlier_history": []
+    },
+    "61": {
+      "source_id": "cnb_arad:MEDACOMGASXXL18INDM",
+      "description": "average natural gas price in Europe, 2018 = 100",
+      "first": "1999-01",
+      "last": "2026-06",
+      "observations": 330,
+      "lag_days": 1,
+      "missing_source_periods_dropped_with_earlier_history": []
+    },
+    "62": {
+      "source_id": "cnb_arad:MEDACOMMETXXL18INDM",
+      "description": "industrial metals price index, 2018 = 100",
+      "first": "1999-01",
+      "last": "2026-06",
+      "observations": 330,
+      "lag_days": 1,
+      "missing_source_periods_dropped_with_earlier_history": []
+    },
+    "63": {
+      "source_id": "cnb_arad:MEDACOMFODXXL18INDM",
+      "description": "food commodity price index, 2018 = 100",
+      "first": "1999-01",
+      "last": "2026-06",
+      "observations": 330,
+      "lag_days": 1,
+      "missing_source_periods_dropped_with_earlier_history": []
+    }
+  },
+  "seasonal_policies": {
+    "17": "SA year-on-year rate published by the CNB (ARAD); do not re-adjust"
+  },
+  "checks": {
+    "13_vs_bloomberg_CZGRIDX": {
+      "months": 295,
+      "first": "2002-01",
+      "last": "2026-07",
+      "mae": 0.0,
+      "max_abs": 0.0,
+      "corr": 0.9999999999999998,
+      "median_ratio": 1.0
+    },
+    "25_vs_previous_local_trade_balance": {
+      "months": 258,
+      "first": "2005-01",
+      "last": "2026-06",
+      "mae": 10251.068611093024,
+      "max_abs": 20807.988991,
+      "corr": 0.9533220319425553,
+      "median_ratio": 1.609047936856977
+    },
+    "26_vs_czso_CEN0303_month_on_month_pct": {
+      "months": 222,
+      "first": "2008-01",
+      "last": "2026-06",
+      "mae": 9.25185853854297e-18,
+      "max_abs": 5.551115123125783e-17,
+      "corr": 1.0,
+      "median_ratio": 1.0
+    },
+    "43_vs_previous_czso_yoy": {
+      "months": 186,
+      "first": "2011-01",
+      "last": "2026-06",
+      "mae": 0.14104223801856788,
+      "max_abs": 2.5300000000000002,
+      "corr": 0.9994778411440306,
+      "median_ratio": 0.9999999999999992
+    },
+    "52_backcast_test_anchor_2015": {
+      "months": 59,
+      "window": [
+        "2010-02",
+        "2014-12"
+      ],
+      "mae_pp": 0.05328227395476462,
+      "max_abs_pp": 0.14864865216110446,
+      "corr": 0.9996276945643231
+    },
+    "54_vs_bloomberg_month_end": {
+      "months": 320,
+      "first": "2000-01",
+      "last": "2026-08",
+      "mae": 0.00024999999999999746,
+      "max_abs": 0.010000000000000231,
+      "corr": 0.9999996769764996,
+      "median_ratio": 1.0
+    },
+    "58_vs_previous_exact": {
+      "months": 258,
+      "first": "2005-01",
+      "last": "2026-06",
+      "mae": 983256610734.6497,
+      "max_abs": 1618544641453.7,
+      "corr": 0.9999999999999942,
+      "median_ratio": 1e-06
+    },
+    "59_vs_previous_exact": {
+      "months": 258,
+      "first": "2005-01",
+      "last": "2026-06",
+      "mae": 1409162290564.9758,
+      "max_abs": 2713222926774.4,
+      "corr": 0.9999999999999987,
+      "median_ratio": 1.000000004999126e-06
+    },
+    "60_vs_bloomberg_CO1_month_mean": {
+      "months": 318,
+      "first": "2000-01",
+      "last": "2026-06",
+      "mae": 0.0024864536404201696,
+      "max_abs": 0.005000000000009663,
+      "corr": 0.9999999946956288,
+      "median_ratio": 1.0
+    },
+    "61_vs_bloomberg_TTF_day_ahead": {
+      "months": 185,
+      "first": "2011-02",
+      "last": "2026-06",
+      "log_change_corr": 0.9058625250088512
+    },
+    "62_vs_bloomberg_industrial_metals": {
+      "months": 318,
+      "first": "2000-01",
+      "last": "2026-06",
+      "log_change_corr": 0.9845042892895037
+    },
+    "63_vs_bloomberg_agriculture": {
+      "months": 318,
+      "first": "2000-01",
+      "last": "2026-06",
+      "log_change_corr": 0.9167671464658469
+    }
+  },
+  "output": {
+    "file": "overrides_long.csv",
+    "sha256": "7e14bfbe141b9eb738e5c68a171d8812dfebd770d0c58179267f61dd810bd532",
+    "rows": 4373
+  },
+  "tool_sha256": "0e24fa5d0be8723e71f8604718e8558fe764218e544b4bd568ebe78a2554a849"
+}

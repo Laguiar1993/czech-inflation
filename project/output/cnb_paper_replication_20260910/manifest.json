@@ -1,0 +1,51 @@
+{
+  "target": "headline_mm_extended (NSA official national CPI m/m)",
+  "paper_target_seasonality": "unresolved; paper says all series X-13 adjusted, but no executable/vintaged SA target is bundled",
+  "panel_source": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\paper_predictor_panel.csv",
+  "a6_variables": 72,
+  "mapped_columns": 36,
+  "exact_declared": 15,
+  "proxy_declared": 21,
+  "missing": 36,
+  "market_snapshot": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\market_snapshots\\20260909_bloomberg_y1",
+  "source_aliases": {
+    "ip_level": "ip_level",
+    "bcs_cz_industrial_conf": "bcs_cz_industrial_conf",
+    "bcs_cz_services_conf": "bcs_cz_services_conf",
+    "bcs_cz_retail_conf": "bcs_cz_retail_conf",
+    "bcs_cz_construction_conf": "bcs_cz_construction_conf"
+  },
+  "train_start": "2002-05",
+  "fit_end": "2010-12",
+  "oos_start": "2011-01",
+  "oos_end": "2025-09",
+  "horizons": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "min_train": 72,
+  "trees": 100,
+  "stale_tolerance": 2,
+  "policies": [
+    "paper_independent",
+    "paper_sentiment",
+    "paper_full"
+  ],
+  "qrf_engine": "SklearnLeafTVWQRF (leaf-weighted approximation; quantile-forest package unavailable)",
+  "a6_audit_sha256": "07448e0e77d47e385ba878ce3e3bba28c43c1fa129cc8eadf2e8595c2388f634",
+  "input_snapshot_sha256": "787aa7f7237e1c2ff58570c3aa22de4093f69371e0fb73e8cb4d2753f2be1f99",
+  "paper_benchmark_tvw3_rmse": {
+    "h3": 0.669,
+    "h6": 0.661,
+    "h9": 0.712,
+    "h12": 0.662
+  },
+  "method_notes": [
+    "Target is NSA official Czech CPI m/m; paper's target X-13 status is unresolved.",
+    "Panel contains exact/proxy/missing A6 mappings; no claim of 72-variable replication.",
+    "A6 transforms are applied to mapped levels; source columns already carrying _mm/_yoy are retained to avoid double differencing.",
+    "No survey variable enters paper_independent; paper_full is a diagnostic comparison."
+  ]
+}

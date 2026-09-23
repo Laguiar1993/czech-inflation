@@ -1,0 +1,48 @@
+{
+ "created_at_utc": "2026-09-21T08:06:21.121102+00:00",
+ "inputs": {
+  "core": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+  "regulated": "74773b38a1fea1f1ebb09d220aa90409eb3318a697b35ec2b8e1f20e781850db",
+  "alc": "1a3f7cfd8eeb3419077359f8a12968182d997495007b462418f5261c187fe115",
+  "headline": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+  "pump": "f9317b3b2d97d775fd1de122e04fcd8b4300a2aa2636e59f9769424c08dfd959",
+  "calendar": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+  "support": "149e4d4be70b8575033fcb21130beefc24495678eef65f66e34af49049770936",
+  "long_food": "bc8d4139fc6ea3662d8a544f8a2832bb1d5827e62327c67d1782db953077502c",
+  "a6_exact": "cfd02def49bd5dd90f0e567e89bbba4ffc79701061ec58d5944dff7d82d3b23b",
+  "fuel_weekly_czso": "a017a7bfd2054097752c0d18ab0d9c42a9a589280c22ae9fce87c6c1ddac8995",
+  "contributions": "7a771c2ef454dba81e41179a0ca5e1a21b9f8c9b4ac2b33182c83ced3020909f",
+  "inventory": "a4a4f582fb5d20061736d0b2112543ff46da9664fb9b6e2fb2b96038d094bc6e",
+  "exactness": "a78deb1a295a65bcf0ef1ffde94cd5b3a4b860f78eeb66ad79e6fcb073417ba8",
+  "native_r27": "5352e2b85eb575ebfccb795250fc9d92b4cb6fd8f178bf8d29b4bc05a0413b4a",
+  "snapshots": {
+   "data\\market_snapshots\\20260912_bloomberg_probe10\\history_long.csv": "6631d51ad352c32feca93e8f719cb37a13737f82fc72009af9ca6f507599668d",
+   "data\\market_snapshots\\20260912_bloomberg_probe11\\history_long.csv": "294119cf563c7be0037f023262597f2003af08b82c0556df84cde307af50e06e",
+   "data\\market_snapshots\\20260912_bloomberg_probe12\\history_long.csv": "08c8b7b56e0441cb69e860131bb139d6f415e8a6ba490ed85a4aa3346025237e",
+   "data\\market_snapshots\\20260912_bloomberg_probe14\\history_long.csv": "e62ab19b4fe42e2b03cedc6894605fb26ee5e384d426b763c3b0a29f24449fde",
+   "data\\market_snapshots\\20260912_bloomberg_probe15\\history_long.csv": "f3990e206ce9c2589368e697746e6a5f8273a5287c496c27ea8709ae4823e55e",
+   "data\\market_snapshots\\20260912_bloomberg_probe16\\history_long.csv": "48aa73aaa53f093a12f2ec62a78ade741be7598652ecf0648b8fa55c1aec2c52",
+   "data\\market_snapshots\\20260912_bloomberg_probe2\\history_long.csv": "e454ce893ae974656e6081d53adb3206acb103ef765af054eb94868f4f0eaecf",
+   "data\\market_snapshots\\20260912_bloomberg_probe3\\history_long.csv": "eb00f4b051a3c2026b5dfeba092639d9300bfe9d5efdbbeac086d738be91127a",
+   "data\\market_snapshots\\20260912_bloomberg_probe4\\history_long.csv": "9e88184b6173e0085df97bdae73c22e5f96fa6a69bc8a5094db1214a384e0261",
+   "data\\market_snapshots\\20260912_bloomberg_probe5\\history_long.csv": "4203ebb67322a4de2d0c9ed6f1782e89053ad169c9539bfd4555b6f4af5fa344",
+   "data\\market_snapshots\\20260912_bloomberg_probe6\\history_long.csv": "86e9858ce65dfd4052b7ce733b59fa717fd617c3d45f52b3b55a69cac38eb5cb",
+   "data\\market_snapshots\\20260912_bloomberg_probe7\\history_long.csv": "1b40f9c31e6503b8476a2fa271b8c988a69ceb36fefa5216a144d94df90be72b",
+   "data\\market_snapshots\\20260912_bloomberg_probe8\\history_long.csv": "6d104116c039c3f52bc10eafa534d30195873b5e11bf9c9cc14f914cba0edde9",
+   "data\\market_snapshots\\20260912_bloomberg_probe9\\history_long.csv": "c0c5c0ad24c8d43cd96ca9647e552f7f1e10753bccec8f34116c7e89340764e6",
+   "data\\market_snapshots\\20260912_bloomberg_probe\\history_long.csv": "7d18e2afbf702e5d9d9a07bbd78af330ddb13e8641002bceec8058c24959d241"
+  }
+ },
+ "code": "34e04d924413595adacb99825ad5f5bdb99a3d8d4a6fbb73323d4f85aac8cd7d",
+ "outputs": {
+  "details.json": "d3f049d95f79f46937a542c3804d27680dd93e7b25753d77b9c263b690b51da5",
+  "register.csv": "254a5d83367613eb9e7684683e9c44350c5fed8d3abc6cfcb3cea06b38490133",
+  "T3_headline_substitution_rows.csv": "4c4f99ccd5a8a7ed1f84e56c6d55bdc1ae9d542f943d285333b02eb76b15176d",
+  "T4_fuel_block_rows.csv": "3a5c4d024742d19658481566218e0b7c7a03975f2121df1afe20cd3c5509412d",
+  "T5_food_block_rows.csv": "54a94b19823ca33cbae88c208b700cde483b8684de351bd766c7c9faeb8b000f",
+  "T6_alcohol_tobacco_block_rows.csv": "e8c7447d04f65b1578fb3af73cfe77f13018743d5d73c90700bb00e7e2cdaf55",
+  "T7_r29b_phase_rows.csv": "98d8dd7f0384818cb8d7ae95d1d3bd26bb44b7fd8c68576923414dd931e95859",
+  "T9_nowcast_fuel_block_rows.csv": "66afd3df0682bf58b152b31c67003b04d77f35938c059b083f50ab890dffa00d",
+  "tests.csv": "f47f966339834d7bba14b5478d742ca8447ab496ab9915dbe0f27caa10189ac2"
+ }
+}

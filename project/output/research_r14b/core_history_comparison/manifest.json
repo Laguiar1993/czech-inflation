@@ -1,0 +1,28 @@
+{
+  "inputs": {
+    "core_history_comparison_r14b.py": "3b8a5a57438705f40fb4d9e5e236e9630101947b2995ebfaf62567d0a3dc83c8",
+    "docs/implementation/R14B_CORE_HISTORY_DESIGN.md": "143da9a0f162178fe57c7ba66685fb39b39adfb3ebba4b7c3333f27e3db2558a",
+    "output/research_r14/core/core_outcomes.csv": "554fa7c378672180d23886d8c9df3e092cda40f0d6ada96f8bd44f8967140395",
+    "output/research_r14/core/forecasts.csv": "de2bf10dd837285d1019e66377ff1f7f503f20d484187b6f6b93274becc0a68b",
+    "output/research_r14/core/historical_states.json": "02ec67a4c0120ef8c84ac28f8f1d9e9ae5f73a768de91555a32dd8272b0837f1",
+    "output/research_r14/core/manifest.json": "98f9a3ef9033752f7bed9eda449031284e72a1bd501c1a76323a226dab4cd0dc",
+    "output/research_r14/core/selection_summary.csv": "b68b6b6b46dcbd0bf8becd636555baa1ad7fdd4fbc81276178c0448e7c7c0b9f",
+    "output/research_r14/core/sequential_candidates.csv": "24de12e43dc5ff01b793160350a1c756cfc81c801fc1b74f77d1120d81d26b91",
+    "output/research_r14b/core/core_outcomes.csv": "168e617bfa011ceb46251c28c0a3f0451bc32eaee2f9d6fb4b1f9e5223a33551",
+    "output/research_r14b/core/forecasts.csv": "2586bfc25418480e6b1fea287a3ed26443154ba2dee059032b7a34dcc5362c59",
+    "output/research_r14b/core/historical_states.json": "92711099b8ce32b578fe8dd84398aa08b1164da41f687470a39765492cd539cb",
+    "output/research_r14b/core/manifest.json": "39585e7dadb334173b173799609f7af7e84c03e34165748e4ccf66f65f38c9a4",
+    "output/research_r14b/core/selection_summary.csv": "2a8a001ed9fba238b8af08092a0b2836638b7634c42dab9b12ec3b61be769c11",
+    "output/research_r14b/core/sequential_candidates.csv": "d4f6a875d73f9296df55392153cd047bf65e852572ef4f011e057c3c42b0aaac",
+    "test_core_history_comparison_r14b.py": "fca31598e0fbfd8e227ac30d83a56fda7147a07f476b5e0e20a3cdf9f123bce6"
+  },
+  "interpretation": "Paired identical recipes on common support; own-coverage scores are distinct. Positive mse_gain favors extended history. Evaluation only.",
+  "outputs": {
+    "configuration_counts.csv": "955752b9a167e725d48be3fe79cc8968fb2fa0f2c71af396d95847ab7170a2b2",
+    "history_coverage.csv": "3e9c6bbfb5020a22d938600eaa17d4e93ab01a1fc4ef03037ef3cf2b5e8044e3",
+    "own_coverage_summary.csv": "ea69ce972943b7fe76e2e6816a62f0e0e0568b8bff89a68835b2c0a59cf9980b",
+    "paired_rows.csv": "57c9419eab28685f28186376e006c33dbc51be8b94a2b96445224843eb728148",
+    "paired_summary.csv": "70ea6c74af7c2d99943a688df08fff999b0977bd8410cae4faa21d609f2216f3",
+    "validation.json": "ae32d61011e47640c2c1f23eb9f37cb33a96ef85dba2e5903970d054ed7e8736"
+  }
+}

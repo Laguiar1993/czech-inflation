@@ -1,0 +1,29 @@
+foreign data 2014-02..2025-12; origins with data: 83 of 90
+harness: food max|diff| 2.22e-16, core 4.44e-16
+
+BLOCK RMSE (MAE) vs realised block m/m, clock B | HEADLINE RMSE vs first release
+split              n |  food inc   food+fx     d% |  core inc   core+fx     d% | head inc   +food   +core   +both | survey
+all 90            90 |     0.913     0.820 -10.2% |     0.308     0.311  +0.9% |   0.4068  0.4035  0.4100  0.4045 | 0.3815
+83 with data      83 |     0.936     0.828 -11.5% |     0.319     0.321  +0.6% |   0.4211  0.4174  0.4243  0.4185 | 0.3942
+ex-January        83 |     0.782     0.726  -7.2% |     0.306     0.300  -1.7% |   0.4041  0.4072  0.4040  0.4057 | 0.3801
+2024+             31 |     0.780     0.830  +6.4% |     0.182     0.178  -2.0% |   0.2166  0.2113  0.2162  0.2104 | 0.2410
+2024+ ex-Jan      28 |     0.682     0.680  -0.3% |     0.184     0.180  -2.1% |   0.1983  0.1987  0.1988  0.1984 | 0.2315
+2025+ flash era   19 |     0.567     0.656 +15.6% |     0.140     0.145  +3.9% |   0.1697  0.1829  0.1717  0.1838 | 0.1947
+  incumbent  big-surprise MAE 0.504 (n=23), W-L@0.15 7-1
+  +food fx   big-surprise MAE 0.477 (n=23), W-L@0.15 6-1
+  +core fx   big-surprise MAE 0.512 (n=23), W-L@0.15 7-3
+  +both      big-surprise MAE 0.485 (n=23), W-L@0.15 6-1
+
+DIAGNOSTICS: corr of foreign features with the CZ block m/m (same month, 2015+):
+  de_foodun  vs CZ food m/m +0.39
+  de_foodpr  vs CZ food m/m +0.55
+  ea_foodun  vs CZ food m/m +0.51
+  ea_foodpr  vs CZ food m/m +0.60
+  de_neig    vs CZ core m/m -0.28
+  de_serv    vs CZ core m/m +0.25
+  ea_neig    vs CZ core m/m -0.47
+  ea_serv    vs CZ core m/m +0.45
+core ridge coefficients on foreign features at the last origin (pp per pp): {'de_neig': -0.005, 'de_serv': -0.004, 'ea_neig': -0.027, 'ea_serv': 0.063}
+mean |aug-inc|: food 0.335 pp, core 0.030 pp
+
+STAGE-1 RULE: food features carry to stage 2: False; core features carry to stage 2: False

@@ -1,0 +1,24 @@
+{
+  "r15": {
+    "inputs": 26,
+    "outputs": 12
+  },
+  "r15_evaluation": {
+    "inputs": 12,
+    "outputs": 33
+  },
+  "r16": {
+    "inputs": 43,
+    "outputs": 16
+  },
+  "r16_evaluation": {
+    "inputs": 64,
+    "outputs": 44
+  },
+  "R16_RESULTS_2026-09-14.md": {
+    "links_verified": 8
+  },
+  "work/research_r16_review/VERIFICATION_2026-09-14.md": {
+    "links_verified": 3
+  }
+}

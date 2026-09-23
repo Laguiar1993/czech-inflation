@@ -1,0 +1,11 @@
+{
+  "origins": 223,
+  "primary_origins": 90,
+  "forecast_rows": 12818,
+  "all_code_input_hashes_match": true,
+  "all_origin_model_paths_have_13_months": true,
+  "all_primary_h0_matches_HARD_BASE": true,
+  "h12_exante_equals_conditional": true,
+  "keys_unique": true,
+  "combined_regression_tests_passed": 74
+}

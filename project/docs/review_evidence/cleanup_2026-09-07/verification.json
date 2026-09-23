@@ -1,0 +1,14 @@
+{
+  "rows": 90,
+  "columns": 42,
+  "cells": 3780,
+  "numeric_and_missing_value_identity": true,
+  "csv_byte_identity": true,
+  "replay_sha256": "d0c2ce6584347c29449923ea1c66dd3a033d3f1dae045890b81545461f7c93d8",
+  "historical_release_table_byte_identity": true,
+  "copied_loader_ast_identity": 5,
+  "existing_data_and_output_files_unchanged": 123,
+  "comparison_is_on_fixed_inputs_not_vintage_certification": true,
+  "replay_vs_supplied_r4_ridge_max_abs": 4.139797199487205e-08,
+  "replay_vs_supplied_r4_warm_max_abs": 4.139797199487205e-08
+}

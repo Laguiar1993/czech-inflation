@@ -1,0 +1,18 @@
+source_id,url,what_to_check,cadence,covers
+eru_price_decisions,https://eru.gov.cz/cenova-rozhodnuti,new or amended price decisions (cenova rozhodnuti / vymery) for electricity low voltage and gas households and POZE support; any correction or later version of a decision already recorded,every_call,electricity;gas;poze;heat
+eru_home_news,https://eru.gov.cz/,news items announcing changes to regulated components or their timing,every_call,electricity;gas;poze
+eru_ipnc,https://eru.gov.cz/ipnc,indicative price band for new offers (leading regressor candidate; also flags supplier repricing waves),monthly,electricity;gas
+gov_press,https://vlada.gov.cz/cz/media-centrum/tiskove-zpravy/,government decisions on energy caps credits VAT or excise; extensions or early terminations of measures already in the ledger,every_call,electricity;gas;heat;vat;excise
+law_energy_cap_298_2022,https://www.zakonyprolidi.cz/cs/2022-298,amendments to the household price-cap decree (a new amendment changes expiry or levels),monthly,electricity;gas
+law_vat_235_2004,https://www.zakonyprolidi.cz/cs/2004-235,VAT act amendments touching energy food or services rates,monthly,vat
+law_excise_353_2003,https://www.zakonyprolidi.cz/cs/2003-353,excise act amendments: tobacco and alcohol steps and their effective dates,monthly,excise
+law_tv_radio_fee_348_2005,https://www.zakonyprolidi.cz/cs/2005-348,broadcasting fee level and effective date,quarterly,admin_other
+law_health_48_1997,https://www.zakonyprolidi.cz/cs/1997-48,regulated health co-payments and fees,quarterly,admin_other
+mpo_energy,https://www.mpo.gov.cz/,ministry programmes: credits waivers support schemes and their expiry,every_call,electricity;gas;heat
+mf_press,https://www.mfcr.cz/cs/aktualne/tiskove-zpravy,tax changes (VAT excise) and their effective dates,monthly,vat;excise
+czso_cpi_notes,https://csu.gov.cz/inflace-spotrebitelske-ceny,methodological notes on how CZSO books a credit cap or waiver in the CPI (treatment_known_date),every_call,treatment
+cez_pricelists,https://www.cez.cz/cs/pro-media/tiskove-zpravy,MANUAL (JS-rendered page: the hash is uninformative; open in a browser or Firecrawl) CEZ press releases announcing household price-list changes and their effective dates (price-list PDFs are dated files under /file/edee/ceniky/),monthly,electricity;gas
+pre_pricelists,https://www.pre.cz/cs/domacnosti/elektrina/ceniky/,supplier commodity price lists and their effective dates,monthly,electricity
+eon_pricelists,https://www.eon.cz/domacnosti/zakaznicka-pece/ceniky/,supplier price lists page (PDFs per product and distribution area) and their effective dates,monthly,electricity;gas
+sovak_water,https://www.sovak.cz/,annual water and sewerage tariff announcements (December),quarterly,admin_other
+pid_fares,https://pid.cz/jizdne/,Prague integrated transport fare changes,quarterly,admin_other

@@ -1,0 +1,52 @@
+{
+  "r15": {
+    "inputs": 26,
+    "outputs": 12
+  },
+  "r15_evaluation": {
+    "inputs": 12,
+    "outputs": 33
+  },
+  "r16": {
+    "inputs": 43,
+    "outputs": 16
+  },
+  "r16_evaluation": {
+    "inputs": 64,
+    "outputs": 44
+  },
+  "interpretation": {
+    "inputs": 6,
+    "outputs": 2,
+    "sources": 2
+  },
+  "attribution": {
+    "inputs": 10,
+    "outputs": 9
+  },
+  "R16_RESULTS_2026-09-14.md": {
+    "links_verified": 11,
+    "sha256": "9ea51f466aac80509db036bdc7dae659eb2260995227f28ee21bb07361ba2491"
+  },
+  "work/research_r16_review/VERIFICATION_2026-09-14.md": {
+    "links_verified": 4,
+    "sha256": "c969447ee5314e45177f3d6c7509f0e25c7c76d3b1cb6285bb05bedcda80260e"
+  },
+  "replay_behavior": {
+    "sha256": "0dd96bdcdb4e9da38c8a79ecfcf4422919d00cf715fe141652d7c3f60372b59c",
+    "script_sha256": "e3883ba6ec5fb515704c3023ab31c9fd5f89dc45d66c466840040443b04641ec",
+    "checks": [
+      "all rounds both clocks",
+      "individual round selection",
+      "all models",
+      "checkbox off/on",
+      "reset",
+      "tooltip enter/leave",
+      "finite SVG geometry",
+      "score restore",
+      "no external resources"
+    ],
+    "limitation": "DOM-contract and SVG string checks; not browser layout or visual pixel inspection"
+  },
+  "verified_at_utc": "2026-09-14T14:25:00.566399+00:00"
+}

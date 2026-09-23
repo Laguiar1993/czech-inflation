@@ -1,0 +1,99 @@
+﻿{
+  "@context": ["http://www.w3.org/ns/csvw",{"@language": "cs"}],
+  "url": "010022-25data011326.csv",
+  "tableSchema": {
+    "columns": [{
+      "name": "idhod",
+      "titles": "idhod",
+      "dc:description":"unikátní identifikátor údaje Veřejné databáze ČSÚ",
+      "required": true,
+      "datatype": "string"
+    }, {
+      "name": "hodnota",
+      "titles": "hodnota",
+      "dc:description":"zjištěná hodnota",
+      "required": true,
+      "datatype": "number"
+    }, {
+      "name": "stapro_kod",
+      "titles": "stapro_kod",
+      "dc:description":"kód statistické proměnné ze systému SMS UKAZ",
+      "required": true,
+      "datatype": "string"
+    }, {
+      "name": "ucel_tep",
+      "titles": "ucel_tep",
+      "dc:description":"klasifikace individuální spotřeby podle účelu",
+      "required": true,
+      "datatype": "string"
+    },  {
+      "name": "ucel_cis",
+      "titles": "ucel_cis",
+      "dc:description":"kód klasifikace individuální spotřeby podle účelu",
+      "required": true,
+      "datatype": "string"
+    }, {
+      "name": "ucel_kod",
+      "titles": "ucel_kod",
+      "dc:description":"kód položky klasifikace individuální spotřeby podle účelu, pokud není uvedeno, jedná se o souhrnný index (za všechny oddíly) ",
+      "required": true,
+      "datatype": "string"
+    }, {
+      "name": "casz_kod",
+      "titles": "casz_kod",
+      "dc:description":"kód rozlišující základní období (typ indexu)",
+      "required": true,
+      "datatype": "string"
+    }, {
+      "name": "mesic",
+      "titles": "mesic",
+      "dc:description":"číslo měsíce referenčního období",
+      "required": true,
+      "datatype": "number"
+    }, {
+      "name": "rok",
+      "titles": "rok",
+      "dc:description":"rok referenčního období",
+      "required": true,
+      "datatype": "number"
+    }, {
+      "name": "obdobiod",
+      "titles": "obdobiod",
+      "dc:description":"referenční období počátek - ve formátu RRRR-MM-DD",
+      "required": true,
+      "datatype": "date"
+    }, {
+      "name": "obdobido",
+      "titles": "obdobido",
+      "dc:description":"referenční období konec - ve formátu RRRR-MM-DD",
+      "required": true,
+      "datatype": "date"
+    },  {
+      "name": "bazobdobiod",
+      "titles": "bazobdobiod",
+      "dc:description":"základní období počátek - ve formátu RRRR-MM-DD",
+      "required": true,
+      "datatype": "date"
+    }, {
+      "name": "bazobdobido",
+      "titles": "bazobdobido",
+      "dc:description":"základní období konec - ve formátu RRRR-MM-DD",
+      "required": true,
+      "datatype": "date"
+    }, {
+      "name": "ucel_txt",
+      "titles": "ucel_txt",
+      "dc:description":"text položky klasifikace individuální spotřeby",
+      "required": true,
+      "datatype": "string"
+    }, {
+      "name": "casz_txt",
+      "titles": "casz_txt",
+      "dc:description":"text položky rozlišující typ indexu",
+      "required": true,
+      "datatype": "string"
+    }
+    ],
+    "primaryKey": "idhod"
+  }
+}

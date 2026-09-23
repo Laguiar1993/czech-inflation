@@ -1,0 +1,73 @@
+number,group,description,transform,kind,source,source_column,status_declared,status_in_run,n_finite,first_available,last_available,note
+1,G1,Production observed over past 3 months,0,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+2,G1,Production expectations over next 3 months,0,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+3,G1,Business situation over past 3 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+4,G1,Demand evolution over past 3 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+5,G1,Business activity or sales over past 3 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+6,G1,Building activity over past 3 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+7,G1,Building activity limited by labour shortage,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+8,G1,Building activity limited by material or equipment shortage,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+9,G1,Building activity limited by financial constraints,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+10,G1,Financial situation expected over next 13 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+11,G1,Czech unemployment,0,hard,CZSO unemployment_ri,unemployment_rate,exact,exact,402,1993-03,2026-08,
+12,G1,Czech industrial production index,0,hard,CZSO PRU01C seasonally adjusted level,ip_level,exact,exact,317,2000-01,2026-05,
+13,G1,Czech building permits converted to monthly counts,0,hard,CZSO construction_ri permit index,building_permits_index,proxy,proxy,100,2014-12,2023-12,"Local table contains an index and a gap, not the paper's cumulative count history."
+14,G1,CNB Rushin activity index,0,hard,CNB Rushin XLS snapshot,rushin,proxy,proxy,218,2008-07,2026-08,Series is exact in concept but local history begins in 2008 and has no vintaged release archive.
+15,G1,CNB LUCI total,0,hard,CNB LUCI/ULC,,missing,missing,0,,,Quarterly LCI proxy exists but is not the named series.
+16,G1,CNB LUCI wages and labour costs,0,hard,CNB LUCI/ULC,,missing,missing,0,,,Quarterly LCI proxy exists but is not the named series.
+17,G1,Nominal unit labour costs,0,hard,CNB LUCI/ULC,,missing,missing,0,,,Quarterly LCI proxy exists but is not the named series.
+18,G2,German industrial confidence,0,survey,Eurostat BCS detailed DE question,de_esi,missing,proxy,320,2000-01,2026-08,
+19,G2,German services confidence,3,survey,Eurostat BCS detailed DE question,,missing,missing,0,,,
+20,G2,German retail confidence,3,survey,Eurostat BCS detailed DE question,de_retail_yoy,missing,proxy,319,2000-01,2026-07,
+21,G2,German construction confidence,3,survey,Eurostat BCS detailed DE question,,missing,missing,0,,,
+22,G2,Polish retail confidence,2,survey,GUS/Eurostat retail confidence,pl_retail_conf,proxy,proxy,88,2019-01,2026-04,"Frozen panel has a short Polish retail-confidence series, not the full paper vintage."
+23,G2,German HICP,2,hard,"ECB HICP mirror, DE total",de_hicp_total,proxy,proxy,144,2014-01,2025-12,Total HICP starts in 2014 in the local mirror; earlier history is unavailable.
+24,G2,German unemployment,0,hard,Eurostat/Destatis,,missing,missing,0,,,
+25,G2,"Czech balance of trade, FOB/FOB",2,hard,CZSO trade balance,trade_balance,proxy,proxy,258,2005-01,2026-06,Signed balance cannot be log-differenced without a paper-documented sign convention; a signed log transform is used.
+26,G2,Czech import prices,2,hard,CZSO import price index,import_price_mm,proxy,proxy,138,2015-01,2026-06,Frozen source stores the published m/m index change rather than the underlying level.
+27,G2,Euro-area domestic inflation expectations balance,0,expectation,Eurostat consumer survey,,missing,missing,0,,,
+28,G2,Euro-area perceived inflation balance,0,expectation,Eurostat consumer survey,,missing,missing,0,,,
+29,G3,Czech industrial confidence,3,survey,Eurostat BCS detailed CZ question,bcs_cz_industrial_conf,missing,proxy,379,1995-01,2026-07,
+30,G3,Czech demand expectations next 3 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+31,G3,Czech employment expectations next 3 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+32,G3,Czech services confidence,0,survey,Eurostat BCS detailed CZ question,bcs_cz_services_conf,missing,proxy,291,2002-05,2026-07,
+33,G3,Orders placed with suppliers next 3 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+34,G3,Business activity expectations next 3 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+35,G3,Employment expectations next 3 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+36,G3,Czech retail confidence,3,survey,Eurostat BCS detailed CZ question,bcs_cz_retail_conf,missing,proxy,379,1995-01,2026-07,
+37,G3,Construction employment expectations,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+38,G3,Czech construction confidence,0,survey,Eurostat BCS detailed CZ question,bcs_cz_construction_conf,missing,proxy,379,1995-01,2026-07,
+39,G3,Financial situation over last 13 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+40,G3,Savings over next 13 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+41,G3,Unemployment expectations over next 13 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+42,G3,Major purchases over next 13 months,3,survey,Eurostat BCS detailed CZ question,,missing,missing,0,,,
+43,G4,Agricultural PPI year-on-year,0,hard,CZSO agricultural PPI,agri_ppi_mm,exact,exact,127,2015-02,2026-07,
+44,G4,Industrial PPI year-on-year,0,hard,CZSO industrial PPI,ppi_mm_deep,exact,exact,307,2001-02,2026-08,
+45,G4,Total industrial PPI,2,hard,CZSO CEN0201A fixed-base PPI,ppi_total_level,exact,exact,139,2015-01,2026-07,
+46,G4,Industrial mineral resources,2,hard,CZSO CEN0201A fixed-base PPI,ppi_mineral_level,exact,exact,139,2015-01,2026-07,
+47,G4,Industrial manufactured goods,2,hard,CZSO CEN0201A fixed-base PPI,ppi_manufactured_level,exact,exact,139,2015-01,2026-07,
+48,G4,"Industrial electricity, gas and steam",2,hard,CZSO CEN0201A fixed-base PPI,ppi_energy_level,exact,exact,139,2015-01,2026-07,
+49,G4,Industrial water supply,2,hard,CZSO CEN0201A fixed-base PPI,ppi_water_level,exact,exact,139,2015-01,2026-07,
+50,G4,Agricultural animal-based products,2,hard,CZSO agricultural PPI,,missing,missing,0,,,Farm-gate proxy exists but is not the official aggregate PPI.
+51,G4,Agricultural plant-based products,2,hard,CZSO agricultural PPI,,missing,missing,0,,,Farm-gate proxy exists but is not the official aggregate PPI.
+52,G4,Agricultural production and fish,2,hard,CZSO agricultural PPI,,missing,missing,0,,,Farm-gate proxy exists but is not the official aggregate PPI.
+53,G5,Ten-year Czech government yield monthly average,0,hard,CNB ARAD SVSDM12,czgb_10y,exact,exact,316,2000-04,2026-07,
+54,G5,Three-month PRIBOR end-of-month,0,hard,CNB ARAD/Bloomberg PRIB03M,pribor_eom,proxy,proxy,320,2000-01,2026-08,Static Bloomberg end-of-month values are available; ARAD local series is monthly average.
+55,G5,Two-week CNB repo rate end-of-month,0,hard,CNB ARAD SFTP01M11,repo_rate,exact,exact,368,1995-12,2026-07,
+56,G5,REER deflated by PPI,2,hard,CNB ARAD SREERM101,reer_ppi_level,exact,exact,331,1999-01,2026-07,
+57,G5,REER deflated by CPI,2,hard,CNB ARAD SREERM103,reer_cpi_level,exact,exact,331,1999-01,2026-07,
+58,G5,NFC client-loan balance,2,hard,CNB ARAD client loans,nfc_loans_level,proxy,proxy,258,2005-01,2026-06,Local ARAD snapshot stores maturity buckets; their sum is used.
+59,G5,Household client-loan balance,2,hard,CNB ARAD SUCM102211XXX101101,hh_loans_level,exact,exact,258,2005-01,2026-06,
+60,G6,Brent crude spot USD/barrel,0,hard,Brent daily snapshot,brent_spot_bbg,exact,exact,320,2000-01,2026-08,
+61,G6,Average European natural-gas price,2,hard,TTF/European gas snapshot,gas_spot_proxy,proxy,proxy,161,2013-04,2026-08,Year-1 TTF forward is used as a market proxy; a historical spot series is not frozen.
+62,G6,Industrial-metals price index,2,hard,Global commodity index,,missing,missing,0,,,
+63,G6,Food-commodity price index,2,hard,Global commodity index,,missing,missing,0,,,
+64,G6,First principal component of four Czech fuel prices,2,hard,CZSO weekly petrol95/petrol98/diesel/LPG,fuel_pca_3type_level,proxy,proxy,128,2016-01,2026-08,"The frozen local file has petrol95, diesel and LPG; petrol98 is absent."
+65,G6,Refinitiv natural-gas forward,0,hard,Refinitiv/TTF forward,gas_fwd1y_level,proxy,proxy,161,2013-04,2026-08,TTFGCY1 Bloomberg Year-1 generic begins in 2013; exact Refinitiv vintages are unavailable.
+66,G6,Refinitiv Brent forward,0,hard,Refinitiv/ICE Brent forward,brent_fwd1y_level,proxy,proxy,158,2013-07,2026-08,FSBTY1 Bloomberg Year-1 generic begins in 2013; exact Refinitiv vintages are unavailable.
+67,G7,Selling-price expectations next 3 months,3,expectation,Eurostat BCS detailed question,,missing,missing,0,,,
+68,G7,Construction-price expectations next 3 months,3,expectation,Eurostat BCS detailed question,,missing,missing,0,,,
+69,G7,Financial-market inflation expectation at 3 years,0,expectation,CNB FMIE,price_expect_survey_36m,proxy,proxy,327,1999-05,2026-07,Frozen FMIE history is a survey-month snapshot without exact release timestamps.
+70,G7,Financial-market inflation expectation at 1 year,0,expectation,CNB FMIE,price_expect_survey,proxy,proxy,327,1999-05,2026-07,Frozen FMIE history is a survey-month snapshot without exact release timestamps.
+71,G7,Perceived inflation balance,0,expectation,Eurostat consumer survey,,missing,missing,0,,,
+72,G7,Expected domestic inflation balance,0,expectation,Eurostat consumer survey,household_price_expect,proxy,proxy,320,2000-01,2026-08,Household 12-month price-trend balance is not the paper's Euro-area balance.

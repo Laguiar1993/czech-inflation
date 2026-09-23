@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "snapshots_verified": 126,
+  "seasonal_scale_own_feature_max_error": 0.0,
+  "historical_weight_regimes_verified": 126,
+  "all_macro_features_equal_saved_r15": true,
+  "all_core_features_fast_baselines_equal_saved_r15": true,
+  "unreleased_and_future_category_levels_excluded": true
+}

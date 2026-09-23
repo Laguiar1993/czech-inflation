@@ -1,0 +1,79 @@
+{
+  "electricity": {
+    "rows": 330,
+    "months": [
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07",
+      "2026-08",
+      "2026-09"
+    ],
+    "segments": [
+      "D01d",
+      "D02d",
+      "D25d",
+      "D26d",
+      "D27d",
+      "D35d",
+      "D45d",
+      "D56d",
+      "D57d",
+      "D61d"
+    ],
+    "fix_months": [
+      12,
+      24,
+      36
+    ],
+    "source_headers": [
+      "M\u011bs\u00edc",
+      "Distribu\u010dn\u00ed sazba",
+      "D\u00e9lka fixace",
+      "Doln\u00ed hranice InP\u00e1sma (bez DPH)",
+      "Horn\u00ed hranice InP\u00e1sma (bez DPH)",
+      "Doln\u00ed hranice InP\u00e1sma (s DPH)",
+      "Horn\u00ed hranice InP\u00e1sma (s DPH)"
+    ]
+  },
+  "gas": {
+    "rows": 99,
+    "months": [
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07",
+      "2026-08",
+      "2026-09"
+    ],
+    "segments": [
+      "Oh\u0159ev",
+      "Rodinn\u00fd d\u016fm",
+      "Va\u0159en\u00ed"
+    ],
+    "fix_months": [
+      12,
+      24,
+      36
+    ],
+    "source_headers": [
+      "M\u011bs\u00edc",
+      "Z\u00f3na",
+      "D\u00e9lka fixace",
+      "Doln\u00ed hranice InP\u00e1sma (bez DPH)",
+      "Horn\u00ed hranice InP\u00e1sma (bez DPH)",
+      "Doln\u00ed hranice InP\u00e1sma (s DPH)",
+      "Horn\u00ed hranice InP\u00e1sma (s DPH)"
+    ]
+  }
+}

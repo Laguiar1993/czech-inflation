@@ -1,0 +1,20 @@
+{
+  "status": "pass_prefit_selector_and_accounting;component_scoring_gap_reported_separately",
+  "allowed_pool_weights": 7,
+  "latest_common_complete_validation_origins": 36,
+  "manual_objective_max_error": 0.0,
+  "unreleased_incomplete_future_label_poisoning_invariant": true,
+  "under12_default_FAST": true,
+  "monthly_contribution_identity_max_error": 1.1102230246251565e-16,
+  "mixture_h0_exact": true,
+  "annual_of_monthly_mixture_differs_from_average_annual": true,
+  "sustained_common_support_verified": true,
+  "original15_model_primary_support": 969,
+  "source_sha256": {
+    "models/path_components_r17.py": "bf00f7cade13003bcac2dbd1a7b765039b4008619a03a1efd2a02e1fb88e4c0a",
+    "path_component_experiment_r17.py": "d9394014b4682079f67cdabbc4534797d424446f798fbb153bf4f8dc0e27cfd5",
+    "tools/review/evaluate_r17.py": "9e9260875c1cca19419c508a8d097049db1854817ab59d8ddd58abe01dbadcc4",
+    "docs/implementation/R17_COMBINATION_SPEC_2026-09-14.md": "ebe2fbe856579b839d0f428a7ff4db79e44ba3627529b6989aa7681481346e06",
+    "tests/test_path_components_r17.py": "ecc8d4c585e8451e17d0cc503d7c13857460c7e8cf6dfa97b3a6588fa342b07f"
+  }
+}

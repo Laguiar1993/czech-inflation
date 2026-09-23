@@ -1,0 +1,41 @@
+{
+  "created_at_utc": "2026-09-17T07:37:47.113750+00:00",
+  "source_run": "output/research_r20/runs_final/20260915T082214Z_e1d40da2",
+  "capture_kind": "historical_fixture",
+  "target": "2026-07",
+  "as_of": "2026-08-04T23:59:00+02:00",
+  "food_model": "FOOD_NORM_SHIFT_R24",
+  "drifts": {
+    "mu_window": 0.34488777499417367,
+    "mu_robust": 0.3060036673508459,
+    "mu_long": 0.22134988805581676
+  },
+  "annual_pct": {
+    "mu_window": 4.138653299930084,
+    "mu_robust": 3.6720440082101504,
+    "mu_long": 2.656198656669801
+  },
+  "refit": {
+    "spectral_radius": 0.7889833955099825,
+    "contraction": 1.0,
+    "n_train": 96,
+    "train_start": "2018-07",
+    "train_end": "2026-06"
+  },
+  "inputs": {
+    "run/path.csv": "ec376ed939a1315480a6eba11128394ab00abf62e2b2e7a8d8a2b01a72d6a793",
+    "run/path_food_levels.csv": "11b95512b1feef65bdd835d4b4c6cf3789dd6bd176733f59e2a0738fc4462069",
+    "run/path_food_available.csv": "5f392e03580ddffb49cd3301bb7596b8a73c9d51484572b0f34ddd357763f713",
+    "run/headline.csv": "0f5f17def39668352b95d3e63278eec66016251d2d4296fb03e59b8a37e5c6eb",
+    "data/research_r14/food/coverage_extension/czso_cpi_1995_2025.csv": "bc8d4139fc6ea3662d8a544f8a2832bb1d5827e62327c67d1782db953077502c",
+    "models/food_drift_r24.py": "e462095f7977a2024a81b434114c0a65f305a5f51a5299c286c11cd7395ddb31",
+    "models/food_stable_r14b.py": "90166a6e65648fe6af1c811b9f7e84c8c2a4467d06e881dda82d914b94b144bf",
+    "models/food_path_r14.py": "dffc5151cdbdcf41f3bd6bf64451c40a8f27e54a467477849bb9df16cb95fc83",
+    "models/path_inputs.py": "7a649deac6f702981e7a680493513c8baf6750caf6eb11e5fc71314ea99e778e",
+    "tools/current_path_r24/extend.py": "ead20fdf8bc15c03408664656fb4987172bd09f3e9460fad04e25415ebb86f69"
+  },
+  "outputs": {
+    "path_r24.csv": "1ffcb1fd3ce4000e168c687a95a73bb7cc58739f64f7586777d89f51f5f47bfb"
+  },
+  "note": "Base rows are copied unchanged from the recorded run; rows with the suffix carry the R24 long-history food drift. Research status: historical evidence only."
+}

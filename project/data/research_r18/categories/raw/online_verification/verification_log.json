@@ -1,0 +1,26 @@
+[
+  {
+    "file": "time_series.html",
+    "url": "https://csu.gov.cz/produkty/isc_ts",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+  },
+  {
+    "file": "basket_archive.html",
+    "url": "https://csu.gov.cz/spotrebni_kos_archiv",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+  },
+  {
+    "file": "schema_current.json",
+    "url": "https://data.csu.gov.cz/opendata/sady/CEN0101E/schema/csv",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+  },
+  {
+    "file": "cpi_manual_2026.docx",
+    "url": "https://csu.gov.cz/docs/107516/97900e73-3d52-27ad-9ced-c700677dc842/manual_isc_2026en.docx?version=1.3",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+  }
+]

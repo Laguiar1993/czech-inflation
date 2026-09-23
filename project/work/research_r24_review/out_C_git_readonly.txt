@@ -1,0 +1,42 @@
+## git log (last 8, with commit times)
+d2fc609 2026-09-17 08:41:35 +0100 CNB revision tracker: panel builder, fixed models and out-of-sample evaluation (before the run)
+ec42d9d 2026-09-17 08:39:45 +0100 Declare the CNB revision tracker (separate conditioned lane) before any regression
+f297d22 2026-09-17 08:38:13 +0100 CNB tables archive, block attribution of gaps against CNB, R24 path extension and the disagreement ledger
+4634abd 2026-09-17 08:27:33 +0100 Freeze R23B and R24 run outputs and evaluations (single declared runs)
+b74136d 2026-09-17 08:24:16 +0100 R24: tests, drift estimators, runner, evaluator and the standard path evaluation (before the full run)
+a10939f 2026-09-17 08:20:43 +0100 Declare R24 food-drift round before any fit
+7ff8c9e 2026-09-17 08:10:48 +0100 R23B: tests, features, estimator, runner, evaluator and shared path diagnostics (before the full run)
+669f56a 2026-09-17 08:01:38 +0100 Declare R23B measurement repair of the cost-pressure correction before any fit
+
+## frozen baseline files: diff vs HEAD (empty = unmodified)
+(end)
+## last commits touching them
+ea547dc 2026-09-17 07:57:55 +0100 checkpoint: working tree through the R23 delivery, as found on 2026-09-17
+ea547dc 2026-09-17 07:57:55 +0100 checkpoint: working tree through the R23 delivery, as found on 2026-09-17
+
+## spec: commits touching it, and diff since declaration a10939f
+a10939f 2026-09-17 08:20:43 +0100 Declare R24 food-drift round before any fit
+(end)
+## R24 code: commits touching it; diff between the pre-run commit b74136d and HEAD, and working tree vs HEAD
+b74136d 2026-09-17 08:24:16 +0100 R24: tests, drift estimators, runner, evaluator and the standard path evaluation (before the full run)
+7ff8c9e 2026-09-17 08:10:48 +0100 R23B: tests, features, estimator, runner, evaluator and shared path diagnostics (before the full run)
+(end b74136d..HEAD)
+ tools/cnb_tracker/revisions.py | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+(end worktree vs HEAD)
+## what the declaration commit and the code commit contained
+a10939f 2026-09-17 08:20:43 +0100 Declare R24 food-drift round before any fit
+
+ .gitattributes                                     |  7 ++
+ .../R24_FOOD_DRIFT_SPEC_2026-09-17.md              | 81 ++++++++++++++++++++++
+ 2 files changed, 88 insertions(+)
+b74136d 2026-09-17 08:24:16 +0100 R24: tests, drift estimators, runner, evaluator and the standard path evaluation (before the full run)
+
+ models/food_drift_r24.py           | 109 +++++++++++++++++++++++++++++++++++++
+ tests/test_food_drift_r24.py       |  88 ++++++++++++++++++++++++++++++
+ tools/path_diagnostics/standard.py | 108 ++++++++++++++++++++++++++++++++++++
+ tools/research_r24/evaluate.py     |  45 +++++++++++++++
+ tools/research_r24/run.py          |  70 ++++++++++++++++++++++++
+ 5 files changed, 420 insertions(+)
+## untracked/modified under the R24 paths (status, read-only)
+ M tools/cnb_tracker/revisions.py

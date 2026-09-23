@@ -1,0 +1,14 @@
+{
+ "median": 0.3,
+ "mean": 0.3,
+ "high": 0.4,
+ "low": 0.3,
+ "n_respondents": 8,
+ "eco_release_dt": "2026-09-10",
+ "source": "bloomberg_ref_snapshot",
+ "target_month": "2026-08",
+ "captured_at": "2026-09-06T10:02:48",
+ "sha256": "9016762653c7f3225e68a7fe05c28b955b10f755b637339573d186db6ebd9419",
+ "release_type": "final",
+ "correction_note": "MISLABELED at capture as target 2026-09; eco_release_dt 2026-09-10 = the AUGUST FULL print. Caught by the user 2026-09-06. Original file retained unchanged as the record of the error; this corrected copy is the usable snapshot. The 'live Sep disagreement' claim built on the original is RETRACTED."
+}

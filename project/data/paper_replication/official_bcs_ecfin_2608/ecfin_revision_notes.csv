@@ -1,0 +1,865 @@
+archive,when,note
+building_total_nsa_nace2.zip,,"All the series are not available for all countries.
+
+The following updates have been implemented:"
+building_total_nsa_nace2.zip,July 2026,Services survey data have been revised for June 2026 for Romania and for January to June 2026 for France (see explanatory note in  Informations rapides - 178 | Insee). These revisions have an impact also on the European aggregates.
+building_total_nsa_nace2.zip,May 2026,Business surveys in Malta are temporarily suspended due to changes in partner institutes.
+building_total_nsa_nace2.zip,May 2026,Surveys in Estonia are temporarily suspended due to changes in partner institutes.
+building_total_nsa_nace2.zip,February 2026,"Portuguese balances for questions Q1, 3, 4 and 5 of the construction survey have been revised for the period 02/2003 to 04/2008. The balances are now in line with the underlying detailed data by answer category."
+building_total_nsa_nace2.zip,January 2026,"For the first time, Bulgaria is included in the euro-area aggregate. The historical values have been revised accordingly. Moreover, as in every January, the country weights used to calculate all EU and the euro-area aggregates were updated."
+building_total_nsa_nace2.zip,March 2025,Publication of business and consumer survey results for Ireland (IE) is resumed. Consistent time series for 39 monthly balances and 2 quarterly series on capacity utilisation have been restored based on new data collected since August 2024 and regression analysis. See methodological note on the BCS website for details. Re-inclusion of IE data has a small impact also on the EU and EA results.
+building_total_nsa_nace2.zip,July 2024,Quarterly question Q6 was withdrawn from dissemination.
+building_total_nsa_nace2.zip,January 2024,The country weights used to calculate the EU and the euro-area aggregates were updated
+building_total_nsa_nace2.zip,January 2024,Update of business survey weights for Italy: value added referring to 2021 instead of 2012 is used for the aggregation of division data from January 2021 onwards. This has an impact also on the EU/EA aggregates.
+building_total_nsa_nace2.zip,February 2023,Temporary discontinuation of the surveys in Ireland
+building_total_nsa_nace2.zip,January 2023,"For the first time, Croatia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+building_total_nsa_nace2.zip,May 2022,"Following the introduction of a new sampling method and weighting procedure, time-series related to the Portuguese building, services, retail trade and industrial survey has been backcasted."
+building_total_nsa_nace2.zip,April 2022,"Due to a change of the seasonal adjustment method, all seasonally-adjusted survey results have been revised."
+building_total_nsa_nace2.zip,January 2022,"Factors limiting production (Q2) have been revised for Czechia, Danemark, Hungary and Sweden."
+building_total_nsa_nace2.zip,January 2022,The country weights used to calculate the EU and the euro-area aggregates were updated
+building_total_nsa_nace2.zip,October 2021,Factors limiting production (Q2) have been revised for Belgium.
+building_total_nsa_nace2.zip,September 2021,Equipment & Material (F5) and other factors (F6) as factors limiting production (question Q2) have been revised for Finland and France.
+building_total_nsa_nace2.zip,March 2021,"Following the introduction of a new sampling method and weighting procedure in January 2021, time-series related to the Turkish services, construction survey has been backcasted for the period until (incl.) December 2020.
+For Latvian data, a misallocation of survey results to the answering categories of questions BUIL Q2 was remedied. Concretely, for BUIL Q2, the results reported under “factor 6” and “factor 7” were swapped."
+building_total_nsa_nace2.zip,January 2021,The country weights used to calculate the EU and the euro-area aggregates were updated.
+building_total_nsa_nace2.zip,August 2020,French business survey data for June were significantly revised compared to the original release.
+building_total_nsa_nace2.zip,May 2020,"French business survey data for April were significantly revised compared to the original release, owing to a methodological amendment of the treatment of non-response in April."
+building_total_nsa_nace2.zip,April 2020,"Response rates were lower than usual due to COVID-19 confinement measures. On average the number of responses was 20% lower than usually.
+For France, the deterioration of business survey results is likely underestimated due to the non-response completion design used by the French partner institute (INSEE), relying on past answers for non-responding firms."
+building_total_nsa_nace2.zip,March 2020,"In most countries, the large majority of survey responses were collected before strict containment measures were enacted to combat the spread of the Corona virus."
+building_total_nsa_nace2.zip,February 2020,"All EU aggregates are calculated on the basis of 27 Member States (i.e. excluding the UK, which withdrew from the EU on 31 January 2020).  The historical values of the EU series have been revised accordingly."
+building_total_nsa_nace2.zip,December 2019,"Following the stop of the UK building survey in November 2019, the European aggregate has been recalculated and excludes UK data."
+building_total_nsa_nace2.zip,January 2019,"Ireland is included in the European aggregates.
+The historical values, as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+building_total_nsa_nace2.zip,May 2018,"Past data for Germany for the period 1991 to 2010 were revised, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+building_total_nsa_nace2.zip,April 2018,"Past data for Germany were revised back to January 2011, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+building_total_nsa_nace2.zip,January 2018,"Correction of French data for the question 2 of the construction survey about factors limiting their building activity.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+building_total_nsa_nace2.zip,March 2016,"Correction of discrepancies between ISTAT and DG ECFIN data for the Industry, Services, Building and Retail trade surveys."
+building_total_nsa_nace2.zip,June 2015,Revision of Romanian Investment survey data between 2011 and 2015
+building_total_nsa_nace2.zip,May 2015,"With effect from May 2015, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Turkey and Serbia. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+building_total_nsa_nace2.zip,January 2015,Lithuania joined the euro area on 1 January 2015 and is included in the EA aggregates.
+building_total_nsa_nace2.zip,January 2014,Latvia joined the euro area on 1 January 2014 and is included in the EA aggregates.
+building_total_nsa_nace2.zip,July 2013,"For the first time, Croatia is included in the EU aggregate.
+The historical values, as well as the country weights, have been revised accordingly."
+building_total_nsa_nace2.zip,June 2013,The Italian partner institute (ISTAT) introduced some methodological improvements concerning sampling and survey techniques that could affect data comparability with previous months.
+building_total_nsa_nace2.zip,May 2011,"With effect from May 2011, a number of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys have changed; Denmark: Services, Retail trade; Spain: Consumers, Services, Retail trade; Portugal: Building. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+building_total_nsa_nace2.zip,January 2009,"For the first time, Slovakia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+building_total_nsa_nace2.zip,May 2008,"Change of partner institute in Greece, Spain and Cyprus; this may cause a break in some series of the survey.
+Temporary discontinuation of the survey in Ireland.
+The data for Q2-2008 in UK is based on fieldwork conducted in the second month of the quarter (one month later than usual)."
+building_total_nsa_nace2.zip,January 2008,"For the first time, Cyprus and Malta are included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+building_total_nsa_nace2.zip,January 2007,"For the first time, Bulgaria and Romania are included in the EU aggregate, whilst the euro-area aggregate includes Slovenia.
+The historical values (since 1985), as well as the country weights, have been revised accordingly."
+building_total_nsa_nace2.zip,September 2006,The countries weights used to calculate the EU and the euro area aggregates were updated.
+building_total_nsa_nace2.zip,January 2006,The series for Malta are now available.
+building_total_nsa_nace2.zip,December 2005,"The series for Italy / question 12 were revised for the period 1985-2005 (plus and minus answers were inverted).
+The European aggregates EU and EA were recomputed."
+building_total_nsa_nace2.zip,September 2005,Country weights used to calculate the EU and euro area aggregates were updated and the related series were recomputed.
+building_total_nsa_nace2.zip,May 2005,All the series for Luxembourg are now seasonally adjusted.
+building_total_nsa_nace2.zip,January 2005,All the series are now available with one decimal (not displayed).
+building_total_nsa_nace2.zip,September 2004,"All the series are seasonally adjusted for: CY, LV, LT, PL, SK, BG, RO."
+building_total_nsa_nace2.zip,May 2004,The EU aggregate is now calculated including the new Member states.
+building_total_nsa_nace2.zip,Every January as of 2007,The weighting scheme used to calculate composite indicators and the long-term average are revised in January. This can lead to slight revisions in past data (see User Guide for more information) during that month.
+building_total_sa_nace2.zip,,The following updates have been implemented:
+building_total_sa_nace2.zip,July 2026,Services survey data have been revised for June 2026 for Romania and for January to June 2026 for France (see explanatory note in  Informations rapides - 178 | Insee). These revisions have an impact also on the European aggregates.
+building_total_sa_nace2.zip,May 2026,Business surveys in Malta are temporarily suspended due to changes in partner institutes.
+building_total_sa_nace2.zip,May 2026,Surveys in Estonia are temporarily suspended due to changes in partner institutes.
+building_total_sa_nace2.zip,February 2026,"Portuguese balances for questions Q1, 3, 4 and 5 of the construction survey have been revised for the period 02/2003 to 04/2008. The balances are now in line with the underlying detailed data by answer category."
+building_total_sa_nace2.zip,January 2026,"For the first time, Bulgaria is included in the euro-area aggregate. The historical values have been revised accordingly. Moreover, as in every January, the country weights used to calculate all EU and the euro-area aggregates were updated."
+building_total_sa_nace2.zip,March 2025,Publication of business and consumer survey results for Ireland (IE) is resumed. Consistent time series for 39 monthly balances and 2 quarterly series on capacity utilisation have been restored based on new data collected since August 2024 and regression analysis. See methodological note on the BCS website for details. Re-inclusion of IE data has a small impact also on the EU and EA results.
+building_total_sa_nace2.zip,July 2024,Quarterly question Q6 was withdrawn from dissemination.
+building_total_sa_nace2.zip,January 2024,The country weights used to calculate the EU and the euro-area aggregates were updated
+building_total_sa_nace2.zip,January 2024,Update of business survey weights for Italy: value added referring to 2021 instead of 2012 is used for the aggregation of division data from January 2021 onwards. This has an impact also on the EU/EA aggregates.
+building_total_sa_nace2.zip,February 2023,Temporary discontinuation of the surveys in Ireland
+building_total_sa_nace2.zip,January 2023,"For the first time, Croatia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+building_total_sa_nace2.zip,May 2022,"Following the introduction of a new sampling method and weighting procedure, time-series related to the Portuguese building, services, retail trade and industrial survey has been backcasted."
+building_total_sa_nace2.zip,April 2022,"Due to a change of the seasonal adjustment method, all seasonally-adjusted survey results have been revised."
+building_total_sa_nace2.zip,January 2022,"Factors limiting production (Q2) have been revised for Czechia, Danemark, Hungary and Sweden."
+building_total_sa_nace2.zip,January 2022,The country weights used to calculate the EU and the euro-area aggregates were updated
+building_total_sa_nace2.zip,October 2021,Factors limiting production (Q2) have been revised for Belgium.
+building_total_sa_nace2.zip,September 2021,Equipment & Material (F5) and other factors (F6) as factors limiting production (question Q2) have been revised for Finland and France.
+building_total_sa_nace2.zip,March 2021,"Following the introduction of a new sampling method and weighting procedure in January 2021, time-series related to the Turkish services, construction survey has been backcasted for the period until (incl.) December 2020.
+For Latvian data, a misallocation of survey results to the answering categories of questions BUIL Q2 was remedied. Concretely, for BUIL Q2, the results reported under “factor 6” and “factor 7” were swapped."
+building_total_sa_nace2.zip,January 2021,The country weights used to calculate the EU and the euro-area aggregates were updated.
+building_total_sa_nace2.zip,August 2020,French business survey data for June were significantly revised compared to the original release.
+building_total_sa_nace2.zip,May 2020,"French business survey data for April were significantly revised compared to the original release, owing to a methodological amendment of the treatment of non-response in April."
+building_total_sa_nace2.zip,April 2020,"Response rates were lower than usual due to COVID-19 confinement measures. On average the number of responses was 20% lower than usually.
+For France, the deterioration of business survey results is likely underestimated due to the non-response completion design used by the French partner institute (INSEE), relying on past answers for non-responding firms."
+building_total_sa_nace2.zip,March 2020,"In most countries, the large majority of survey responses were collected before strict containment measures were enacted to combat the spread of the Corona virus."
+building_total_sa_nace2.zip,February 2020,"All EU aggregates are calculated on the basis of 27 Member States (i.e. excluding the UK, which withdrew from the EU on 31 January 2020).  The historical values of the EU series have been revised accordingly."
+building_total_sa_nace2.zip,December 2019,"Following the stop of the UK building survey in November 2019, the European aggregate has been recalculated and excludes UK data."
+building_total_sa_nace2.zip,January 2019,"Ireland is included in the European aggregates.
+The historical values, as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+building_total_sa_nace2.zip,May 2018,"Past data for Germany for the period 1991 to 2010 were revised, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+building_total_sa_nace2.zip,April 2018,"Past data for Germany were revised back to January 2011, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+building_total_sa_nace2.zip,January 2018,"Correction of French data for the question 2 of the construction survey about factors limiting their building activity.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+building_total_sa_nace2.zip,March 2016,"Correction of discrepancies between ISTAT and DG ECFIN data for the Industry, Services, Building and Retail trade surveys."
+building_total_sa_nace2.zip,June 2015,Revision of Romanian Investment survey data between 2011 and 2015
+building_total_sa_nace2.zip,May 2015,"With effect from May 2015, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Turkey and Serbia. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+building_total_sa_nace2.zip,January 2015,Lithuania joined the euro area on 1 January 2015 and is included in the EA aggregates.
+building_total_sa_nace2.zip,January 2014,Latvia joined the euro area on 1 January 2014 and is included in the EA aggregates.
+building_total_sa_nace2.zip,July 2013,"For the first time, Croatia is included in the EU aggregate.
+The historical values, as well as the country weights, have been revised accordingly."
+building_total_sa_nace2.zip,June 2013,The Italian partner institute (ISTAT) introduced some methodological improvements concerning sampling and survey techniques that could affect data comparability with previous months.
+building_total_sa_nace2.zip,May 2011,"With effect from May 2011, a number of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys have changed; Denmark: Services, Retail trade; Spain: Consumers, Services, Retail trade; Portugal: Building. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+building_total_sa_nace2.zip,January 2009,"For the first time, Slovakia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+building_total_sa_nace2.zip,May 2008,"Change of partner institute in Greece, Spain and Cyprus; this may cause a break in some series of the survey.
+Temporary discontinuation of the survey in Ireland.
+The data for Q2-2008 in UK is based on fieldwork conducted in the second month of the quarter (one month later than usual)."
+building_total_sa_nace2.zip,January 2008,"For the first time, Cyprus and Malta are included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+building_total_sa_nace2.zip,January 2007,"For the first time, Bulgaria and Romania are included in the EU aggregate, whilst the euro-area aggregate includes Slovenia.
+The historical values (since 1985), as well as the country weights, have been revised accordingly."
+building_total_sa_nace2.zip,September 2006,The countries weights used to calculate the EU and the euro area aggregates were updated.
+building_total_sa_nace2.zip,January 2006,The series for Malta are now available.
+building_total_sa_nace2.zip,December 2005,"The series for Italy / question 12 were revised for the period 1985-2005 (plus and minus answers were inverted).
+The European aggregates EU and EA were recomputed."
+building_total_sa_nace2.zip,September 2005,Country weights used to calculate the EU and euro area aggregates were updated and the related series were recomputed.
+building_total_sa_nace2.zip,May 2005,All the series for Luxembourg are now seasonally adjusted.
+building_total_sa_nace2.zip,January 2005,All the series are now available with one decimal (not displayed).
+building_total_sa_nace2.zip,September 2004,"All the series are seasonally adjusted for: CY, LV, LT, PL, SK, BG, RO."
+building_total_sa_nace2.zip,May 2004,The EU aggregate is now calculated including the new Member states.
+building_total_sa_nace2.zip,Every January as of 2007,The weighting scheme used to calculate composite indicators and the long-term average are revised in January. This can lead to slight revisions in past data (see User Guide for more information) during that month.
+consumer_total_nsa_nace2.zip,,"All the series are not available for all countries.
+
+The following updates have been implemented:"
+consumer_total_nsa_nace2.zip,July 2026,Services survey data have been revised for June 2026 for Romania and for January to June 2026 for France (see explanatory note in  Informations rapides - 178 | Insee). These revisions have an impact also on the European aggregates.
+consumer_total_nsa_nace2.zip,May 2026,"New provider for Polish Consumer survey data. Historical data going back to January 2018 have been replaced by data from the new provider. For periods before 2018, balances for totals and consumer categories were level-shifted to correct for potential breaks with respect to data collected by the previous data provider. The underlying data shares have not been shifted and might thus present a structural break in January 2018. The original data collected over the period Jan 2018-Apr 2026 are available on request to ECFIN-BCS-MAIL@ec.europa.eu. The changes do not only have an impact on Polish data, but also on the EU time-series."
+consumer_total_nsa_nace2.zip,May 2026,Surveys in Estonia are temporarily suspended due to changes in partner institutes.
+consumer_total_nsa_nace2.zip,January 2026,"For the first time, Bulgaria is included in the euro-area aggregate. The historical values have been revised accordingly. Moreover, as in every January, the country weights used to calculate all EU and the euro-area aggregates were updated."
+consumer_total_nsa_nace2.zip,December 2025,"Publication of consumer (CONS) survey results for Spain (ES) is resumed. Consistent time series for all monthly and quarterly balances have been restored using new data collected since May 2025 and econometric techniques for the missing period between Oct-2024 to Apr-2025. Due to the new sampling methodology, all ES series, except for Q3 and Q7, warranted a level-shift prior to May-2025. See methodological note on the BCS website for details. Re-inclusion of ES CONS data has an impact on the ES, euro area and EU ESIs and euro area and EU CONS results. ES time series for disaggregate results (CONS categories and detailed data by answer category) have not been restored consistently, and thus display a break in May 2025. All original data (pre-restoration process) are available on request to ECFIN-BCS-MAIL@ec.europa.eu."
+consumer_total_nsa_nace2.zip,March 2025,Publication of business and consumer survey results for Ireland (IE) is resumed. Consistent time series for 39 monthly balances and 2 quarterly series on capacity utilisation have been restored based on new data collected since August 2024 and regression analysis. See methodological note on the BCS website for details. Re-inclusion of IE data has a small impact also on the EU and EA results.
+consumer_total_nsa_nace2.zip,October 2024,"Surveys for Spain in services, retail trade and among consumers are temporarily suspended."
+consumer_total_nsa_nace2.zip,July 2024,Monthly question Q10 and quarterly questions Q10 and Q13 were withdrawn from dissemination.
+consumer_total_nsa_nace2.zip,April 2024,"Publication of consumer (CONS) survey results for Romania (RO) is resumed. Consistent time series for all monthly and quarterly balances have been restored using new data collected since May 2023 and econometric techniques. See methodological note on the BCS website for details. Re-inclusion of RO CONS data has an impact also on the RO and EU ESIs and EU CONS results. Concerning the latter, the inclusion of consistently restored series for RO fixes a mal-functioning level correction in place since April/May 2020. Impact on the EU confidence indicator is an upward correction by around 1.5 points since May 2020. RO time series for disaggregate results (CONS categories and data shares) have not been restored consistently. All original data (pre-restoration process) are available on request to ECFIN-BCS-MAIL@ec.europa.eu."
+consumer_total_nsa_nace2.zip,March 2024,"Correction of inverted results for Croatian income quartiles (RE1, RE2, RE3 and RE4)."
+consumer_total_nsa_nace2.zip,January 2024,The country weights used to calculate the EU and the euro-area aggregates were updated
+consumer_total_nsa_nace2.zip,February 2023,Temporary discontinuation of the surveys in Ireland
+consumer_total_nsa_nace2.zip,January 2023,"For the first time, Croatia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+consumer_total_nsa_nace2.zip,April 2022,"Due to a change of the seasonal adjustment method, all seasonally-adjusted survey results have been revised."
+consumer_total_nsa_nace2.zip,January 2022,The country weights used to calculate the EU and the euro-area aggregates were updated
+consumer_total_nsa_nace2.zip,March 2021,"The data collection method of the Slovenian consumer survey was changed in January 2016. A backcast of the time-series most affected by the change (Q6, Q9, Q11) has been made for the period until (incl.) December 2015."
+consumer_total_nsa_nace2.zip,January 2021,"Revision of the weighting scheme of the Italian Consumer Survey. All historical Italian consumer series have been recalculated accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+consumer_total_nsa_nace2.zip,November 2020,"There was a structural change in the way consumer data is collected in Sweden. The change does not only have an impact on Swedish data, but also on the EU time-series. Historical data for the aggregate series ('Total Consumer' balances) have been revised to correct for the level shift. All disaggregate data (consumer categories/breakdowns and datashares) have not been revised and might thus present a structural break in November 2020. Data collected during a 3-month overlapping period is available on request to ECFIN-BCS-MAIL@ec.europa.eu."
+consumer_total_nsa_nace2.zip,April 2020,"Due to confinement measures linked to coronavirus, some partner institutes had to change their mode of conducting their consumer survey. Face-to-face and Computer-Aided Personal Interviews (F2F/CAPI) switched to: 
+- Computer-Aided Telephone Interviews (CATI) in Croatia, Latvia, Slovak Republic, and Turkey;
+- Computer-Aided Web Interview (CAWI) in Hungary and Poland; and 
+- a mix of CAWI and CATI in Bulgaria and Lithuania."
+consumer_total_nsa_nace2.zip,April 2020,Temporary discontinuation of the consumer survey in Romania.
+consumer_total_nsa_nace2.zip,March 2020,"In most countries, the large majority of survey responses were collected before strict containment measures were enacted to combat the spread of the Corona virus."
+consumer_total_nsa_nace2.zip,February 2020,"All EU aggregates are calculated on the basis of 27 Member States (i.e. excluding the UK, which withdrew from the EU on 31 January 2020).  The historical values of the EU series have been revised accordingly."
+consumer_total_nsa_nace2.zip,January 2020,"Correction for a change in several questions on order books and stocks in the industry, construction and retail trade surveys in Denmark in 2014, in order to harmonise them with the BCS programme guidelines. In industry (Q2, Q3, Q4), the change occurred in July 2014, in construction (Q3) and retail trade (Q2) in August 2014. The series before these dates were revised based on an ARIMA-estimation of the breaks created by the changes. The correction has an impact on the long-term average of the series, and therefore on the current level of the ESI in Denmark. It also has a minor impact on EU data."
+consumer_total_nsa_nace2.zip,May 2019,"There was a structural change in the way consumer data is collected in Germany and Finland. The change does not only have an impact on German and Finnish data, but also on the aggregate euro-area and EU time-series. Historical data for the aggregate series ('Total Consumer' balances) have been revised to correct for the level shift. All disaggregate data (consumer categories/breakdowns and datashares) have not been revised and might thus present a structural break in May 2019.Data collected during a 3-month overlapping period are available on request to ECFIN-BCS-MAIL@ec.europa.eu. 
+Change of partner institute in Austria; this may cause a break in some series of the survey."
+consumer_total_nsa_nace2.zip,January 2019,"Ireland is included in the European aggregates.
+The historical values, as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+consumer_total_nsa_nace2.zip,January 2019,"The composition of the consumer confidence indicator is revised. More information on the new methodology can be found on  ""A revised Consumer Confidence Indicator""."
+consumer_total_nsa_nace2.zip,August 2017,"Revision of the design of the Dutch Consumer Survey. In order to limit the impact of the structural break, all the historical Dutch consumer series have been back casted accordingly."
+consumer_total_nsa_nace2.zip,May 2016,"- Due to a revision of the breakdown by occupation of the respondent as of May 2016, time series corresponding to consumer categories PR0 to PR9 are discontinued until further notice.
+- From May 2016 onwards, Statistics Portugal will report and publish the results for the Services, Construction, Industry and Trade surveys based on new samples and sampling frames. 
+The new samples are being surveyed since May 2015.  For the backcasting of the series, two samples (old and new) for each survey were collected simultaneously from May 2015 to April 2016. In general, for calculating the backcasted series (balances), the difference between the averages for the common period of the two samples was used. 
+- With effect from May 2016, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Ireland and Montenegro. These changes may cause a break in the series."
+consumer_total_nsa_nace2.zip,November 2015,"- Revision of the Bulgarian data for the five Investment surveys conducted between March/April 2013 and March/April 2015.
+- In November 2015, the British partner institute (CBI) updated the sampling weights for the Industry, Investment, Retail and Services surveys in line with changes in officially available data from various UK governmental sources. 
+- As of November 2015, the Portuguese consumer data is based on a new sample. For the backcasting of the series, the two samples were collected simultaneously between November 2014 and October 2015."
+consumer_total_nsa_nace2.zip,June 2015,Revision of Romanian Investment survey data between 2011 and 2015
+consumer_total_nsa_nace2.zip,May 2015,"With effect from May 2015, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Turkey and Serbia. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+consumer_total_nsa_nace2.zip,January 2015,Lithuania joined the euro area on 1 January 2015 and is included in the EA aggregates.
+consumer_total_nsa_nace2.zip,January 2014,Latvia joined the euro area on 1 January 2014 and is included in the EA aggregates.
+consumer_total_nsa_nace2.zip,July 2013,"For the first time, Croatia is included in the EU aggregate.
+The historical values, as well as the country weights, have been revised accordingly."
+consumer_total_nsa_nace2.zip,June 2013,The Italian partner institute (ISTAT) introduced some methodological improvements concerning sampling and survey techniques that could affect data comparability with previous months.
+consumer_total_nsa_nace2.zip,May 2011,"With effect from May 2011, a number of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys have changed; Denmark: Services, Retail trade; Spain: Consumers, Services, Retail trade; Portugal: Building. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+consumer_total_nsa_nace2.zip,June 2009,"Results for question 7 are not seasonally adjusted.
+Consumer survey data in Portugal for September 1997 to May 2009 has been revised by the partner institute to take account of a change of panel which occurred in May 2008 (the data became available in May 2009)."
+consumer_total_nsa_nace2.zip,January 2009,"For the first time, Slovakia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+consumer_total_nsa_nace2.zip,May 2008,"Change of partner institute in Greece, Spain and Cyprus; this may cause a break in some series of the survey.
+Temporary discontinuation of the survey in Ireland.
+The data for Q2-2008 in UK is based on fieldwork conducted in the second month of the quarter (one month later than usual)."
+consumer_total_nsa_nace2.zip,January 2008,"For the first time, Cyprus and Malta are included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+consumer_total_nsa_nace2.zip,January 2007,"For the first time, Bulgaria and Romania are included in the EU aggregate, whilst the euro-area aggregate includes Slovenia.
+The historical values (since 1985), as well as the country weights, have been revised accordingly."
+consumer_total_nsa_nace2.zip,September 2006,The countries weights used to calculate the EU and the euro area aggregates were updated.
+consumer_total_nsa_nace2.zip,January 2006,The series for Malta are now available.
+consumer_total_nsa_nace2.zip,December 2005,"The series for Italy / question 12 were revised for the period 1985-2005 (plus and minus answers were inverted).
+The European aggregates EU and EA were recomputed."
+consumer_total_nsa_nace2.zip,September 2005,Country weights used to calculate the EU and euro area aggregates were updated and the related series were recomputed.
+consumer_total_nsa_nace2.zip,May 2005,All the series for Luxembourg are now seasonally adjusted.
+consumer_total_nsa_nace2.zip,January 2005,All the series are now available with one decimal (not displayed).
+consumer_total_nsa_nace2.zip,September 2004,"All the series are seasonally adjusted for: CY, LV, LT, PL, SK, BG, RO."
+consumer_total_nsa_nace2.zip,May 2004,The EU aggregate is now calculated including the new Member states.
+consumer_total_nsa_nace2.zip,September 1997,"Due to a change of institute in September 1997, consumer data for Portugal previous to this date is not directly comparable with the rest of the series."
+consumer_total_nsa_nace2.zip,Every January as of 2007,The weighting scheme used to calculate composite indicators and the long-term average are revised in January. This can lead to slight revisions in past data (see User Guide for more information) during that month.
+consumer_total_sa_nace2.zip,,The following updates have been implemented:
+consumer_total_sa_nace2.zip,July 2026,Services survey data have been revised for June 2026 for Romania and for January to June 2026 for France (see explanatory note in  Informations rapides - 178 | Insee). These revisions have an impact also on the European aggregates.
+consumer_total_sa_nace2.zip,May 2026,"New provider for Polish Consumer survey data. Historical data going back to January 2018 have been replaced by data from the new provider. For periods before 2018, balances for totals and consumer categories were level-shifted to correct for potential breaks with respect to data collected by the previous data provider. The underlying data shares have not been shifted and might thus present a structural break in January 2018. The original data collected over the period Jan 2018-Apr 2026 are available on request to ECFIN-BCS-MAIL@ec.europa.eu. The changes do not only have an impact on Polish data, but also on the EU time-series."
+consumer_total_sa_nace2.zip,May 2026,Surveys in Estonia are temporarily suspended due to changes in partner institutes.
+consumer_total_sa_nace2.zip,January 2026,"For the first time, Bulgaria is included in the euro-area aggregate. The historical values have been revised accordingly. Moreover, as in every January, the country weights used to calculate all EU and the euro-area aggregates were updated."
+consumer_total_sa_nace2.zip,December 2025,"Publication of consumer (CONS) survey results for Spain (ES) is resumed. Consistent time series for all monthly and quarterly balances have been restored using new data collected since May 2025 and econometric techniques for the missing period between Oct-2024 to Apr-2025. Due to the new sampling methodology, all ES series, except for Q3 and Q7, warranted a level-shift prior to May-2025. See methodological note on the BCS website for details. Re-inclusion of ES CONS data has an impact on the ES, euro area and EU ESIs and euro area and EU CONS results. ES time series for disaggregate results (CONS categories and detailed data by answer category) have not been restored consistently, and thus display a break in May 2025. All original data (pre-restoration process) are available on request to ECFIN-BCS-MAIL@ec.europa.eu."
+consumer_total_sa_nace2.zip,March 2025,Publication of business and consumer survey results for Ireland (IE) is resumed. Consistent time series for 39 monthly balances and 2 quarterly series on capacity utilisation have been restored based on new data collected since August 2024 and regression analysis. See methodological note on the BCS website for details. Re-inclusion of IE data has a small impact also on the EU and EA results.
+consumer_total_sa_nace2.zip,October 2024,"Surveys for Spain in services, retail trade and among consumers are temporarily suspended."
+consumer_total_sa_nace2.zip,July 2024,Monthly question Q10 and quarterly questions Q10 and Q13 were withdrawn from dissemination.
+consumer_total_sa_nace2.zip,April 2024,"Publication of consumer (CONS) survey results for Romania (RO) is resumed. Consistent time series for all monthly and quarterly balances have been restored using new data collected since May 2023 and econometric techniques. See methodological note on the BCS website for details. Re-inclusion of RO CONS data has an impact also on the RO and EU ESIs and EU CONS results. Concerning the latter, the inclusion of consistently restored series for RO fixes a mal-functioning level correction in place since April/May 2020. Impact on the EU confidence indicator is an upward correction by around 1.5 points since May 2020. RO time series for disaggregate results (CONS categories and data shares) have not been restored consistently. All original data (pre-restoration process) are available on request to ECFIN-BCS-MAIL@ec.europa.eu."
+consumer_total_sa_nace2.zip,March 2024,"Correction of inverted results for Croatian income quartiles (RE1, RE2, RE3 and RE4)."
+consumer_total_sa_nace2.zip,January 2024,The country weights used to calculate the EU and the euro-area aggregates were updated
+consumer_total_sa_nace2.zip,February 2023,Temporary discontinuation of the surveys in Ireland
+consumer_total_sa_nace2.zip,January 2023,"For the first time, Croatia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+consumer_total_sa_nace2.zip,April 2022,"Due to a change of the seasonal adjustment method, all seasonally-adjusted survey results have been revised."
+consumer_total_sa_nace2.zip,January 2022,The country weights used to calculate the EU and the euro-area aggregates were updated
+consumer_total_sa_nace2.zip,March 2021,"The data collection method of the Slovenian consumer survey was changed in January 2016. A backcast of the time-series most affected by the change (Q6, Q9, Q11) has been made for the period until (incl.) December 2015."
+consumer_total_sa_nace2.zip,January 2021,"Revision of the weighting scheme of the Italian Consumer Survey. All historical Italian consumer series have been recalculated accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+consumer_total_sa_nace2.zip,November 2020,"There was a structural change in the way consumer data is collected in Sweden. The change does not only have an impact on Swedish data, but also on the EU time-series. Historical data for the aggregate series ('Total Consumer' balances) have been revised to correct for the level shift. All disaggregate data (consumer categories/breakdowns and datashares) have not been revised and might thus present a structural break in November 2020. Data collected during a 3-month overlapping period is available on request to ECFIN-BCS-MAIL@ec.europa.eu."
+consumer_total_sa_nace2.zip,April 2020,"Due to confinement measures linked to coronavirus, some partner institutes had to change their mode of conducting their consumer survey. Face-to-face and Computer-Aided Personal Interviews (F2F/CAPI) switched to: 
+- Computer-Aided Telephone Interviews (CATI) in Croatia, Latvia, Slovak Republic, and Turkey;
+- Computer-Aided Web Interview (CAWI) in Hungary and Poland; and 
+- a mix of CAWI and CATI in Bulgaria and Lithuania."
+consumer_total_sa_nace2.zip,April 2020,Temporary discontinuation of the consumer survey in Romania.
+consumer_total_sa_nace2.zip,March 2020,"In most countries, the large majority of survey responses were collected before strict containment measures were enacted to combat the spread of the Corona virus."
+consumer_total_sa_nace2.zip,February 2020,"All EU aggregates are calculated on the basis of 27 Member States (i.e. excluding the UK, which withdrew from the EU on 31 January 2020).  The historical values of the EU series have been revised accordingly."
+consumer_total_sa_nace2.zip,January 2020,"Correction for a change in several questions on order books and stocks in the industry, construction and retail trade surveys in Denmark in 2014, in order to harmonise them with the BCS programme guidelines. In industry (Q2, Q3, Q4), the change occurred in July 2014, in construction (Q3) and retail trade (Q2) in August 2014. The series before these dates were revised based on an ARIMA-estimation of the breaks created by the changes. The correction has an impact on the long-term average of the series, and therefore on the current level of the ESI in Denmark. It also has a minor impact on EU data."
+consumer_total_sa_nace2.zip,May 2019,"There was a structural change in the way consumer data is collected in Germany and Finland. The change does not only have an impact on German and Finnish data, but also on the aggregate euro-area and EU time-series. Historical data for the aggregate series ('Total Consumer' balances) have been revised to correct for the level shift. All disaggregate data (consumer categories/breakdowns and datashares) have not been revised and might thus present a structural break in May 2019.Data collected during a 3-month overlapping period are available on request to ECFIN-BCS-MAIL@ec.europa.eu. 
+Change of partner institute in Austria; this may cause a break in some series of the survey."
+consumer_total_sa_nace2.zip,January 2019,"Ireland is included in the European aggregates.
+The historical values, as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+consumer_total_sa_nace2.zip,January 2019,"The composition of the consumer confidence indicator is revised. More information on the new methodology can be found on  ""A revised Consumer Confidence Indicator""."
+consumer_total_sa_nace2.zip,August 2017,"Revision of the design of the Dutch Consumer Survey. In order to limit the impact of the structural break, all the historical Dutch consumer series have been back casted accordingly."
+consumer_total_sa_nace2.zip,May 2016,"- Due to a revision of the breakdown by occupation of the respondent as of May 2016, time series corresponding to consumer categories PR0 to PR9 are discontinued until further notice.
+- From May 2016 onwards, Statistics Portugal will report and publish the results for the Services, Construction, Industry and Trade surveys based on new samples and sampling frames. 
+The new samples are being surveyed since May 2015.  For the backcasting of the series, two samples (old and new) for each survey were collected simultaneously from May 2015 to April 2016. In general, for calculating the backcasted series (balances), the difference between the averages for the common period of the two samples was used. 
+- With effect from May 2016, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Ireland and Montenegro. These changes may cause a break in the series."
+consumer_total_sa_nace2.zip,November 2015,"- Revision of the Bulgarian data for the five Investment surveys conducted between March/April 2013 and March/April 2015.
+- In November 2015, the British partner institute (CBI) updated the sampling weights for the Industry, Investment, Retail and Services surveys in line with changes in officially available data from various UK governmental sources. 
+- As of November 2015, the Portuguese consumer data is based on a new sample. For the backcasting of the series, the two samples were collected simultaneously between November 2014 and October 2015."
+consumer_total_sa_nace2.zip,June 2015,Revision of Romanian Investment survey data between 2011 and 2015
+consumer_total_sa_nace2.zip,May 2015,"With effect from May 2015, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Turkey and Serbia. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+consumer_total_sa_nace2.zip,January 2015,Lithuania joined the euro area on 1 January 2015 and is included in the EA aggregates.
+consumer_total_sa_nace2.zip,January 2014,Latvia joined the euro area on 1 January 2014 and is included in the EA aggregates.
+consumer_total_sa_nace2.zip,July 2013,"For the first time, Croatia is included in the EU aggregate.
+The historical values, as well as the country weights, have been revised accordingly."
+consumer_total_sa_nace2.zip,June 2013,The Italian partner institute (ISTAT) introduced some methodological improvements concerning sampling and survey techniques that could affect data comparability with previous months.
+consumer_total_sa_nace2.zip,May 2011,"With effect from May 2011, a number of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys have changed; Denmark: Services, Retail trade; Spain: Consumers, Services, Retail trade; Portugal: Building. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+consumer_total_sa_nace2.zip,June 2009,"Results for question 7 are not seasonally adjusted.
+Consumer survey data in Portugal for September 1997 to May 2009 has been revised by the partner institute to take account of a change of panel which occurred in May 2008 (the data became available in May 2009)."
+consumer_total_sa_nace2.zip,January 2009,"For the first time, Slovakia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+consumer_total_sa_nace2.zip,May 2008,"Change of partner institute in Greece, Spain and Cyprus; this may cause a break in some series of the survey.
+Temporary discontinuation of the survey in Ireland.
+The data for Q2-2008 in UK is based on fieldwork conducted in the second month of the quarter (one month later than usual)."
+consumer_total_sa_nace2.zip,January 2008,"For the first time, Cyprus and Malta are included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+consumer_total_sa_nace2.zip,January 2007,"For the first time, Bulgaria and Romania are included in the EU aggregate, whilst the euro-area aggregate includes Slovenia.
+The historical values (since 1985), as well as the country weights, have been revised accordingly."
+consumer_total_sa_nace2.zip,September 2006,The countries weights used to calculate the EU and the euro area aggregates were updated.
+consumer_total_sa_nace2.zip,January 2006,The series for Malta are now available.
+consumer_total_sa_nace2.zip,December 2005,"The series for Italy / question 12 were revised for the period 1985-2005 (plus and minus answers were inverted).
+The European aggregates EU and EA were recomputed."
+consumer_total_sa_nace2.zip,September 2005,Country weights used to calculate the EU and euro area aggregates were updated and the related series were recomputed.
+consumer_total_sa_nace2.zip,May 2005,All the series for Luxembourg are now seasonally adjusted.
+consumer_total_sa_nace2.zip,January 2005,All the series are now available with one decimal (not displayed).
+consumer_total_sa_nace2.zip,September 2004,"All the series are seasonally adjusted for: CY, LV, LT, PL, SK, BG, RO."
+consumer_total_sa_nace2.zip,May 2004,The EU aggregate is now calculated including the new Member states.
+consumer_total_sa_nace2.zip,September 1997,"Due to a change of institute in September 1997, consumer data for Portugal previous to this date is not directly comparable with the rest of the series."
+consumer_total_sa_nace2.zip,Every January as of 2007,The weighting scheme used to calculate composite indicators and the long-term average are revised in January. This can lead to slight revisions in past data (see User Guide for more information) during that month.
+industry_total_nsa_nace2.zip,,"The series at the country level are not available.
+
+The following updates have been implemented:"
+industry_total_nsa_nace2.zip,July 2026,Services survey data have been revised for June 2026 for Romania and for January to June 2026 for France (see explanatory note in  Informations rapides - 178 | Insee). These revisions have an impact also on the European aggregates.
+industry_total_nsa_nace2.zip,May 2026,Business surveys in Malta are temporarily suspended due to changes in partner institutes.
+industry_total_nsa_nace2.zip,May 2026,Surveys in Estonia are temporarily suspended due to changes in partner institutes.
+industry_total_nsa_nace2.zip,March 2026,The country weights for the aggregation of the results by Main Industrial Groupings (MIGs) were updated.
+industry_total_nsa_nace2.zip,February 2026,"For periods starting in July 2023, inclusion of Dutch balance results for subsectors that could previously not be displayed due to confidentiality rules applying to the underlying percentage shares of answer options. The inclusion of the new Dutch balances leads to small revisions of the EA and EU aggregate results for concerned subsectors in the period July 2023-Jan 2026."
+industry_total_nsa_nace2.zip,February 2026,"Portuguese balances for questions Q1, 2, 5, 6, 11, 14, 15 and 16 of the industry survey have been revised for the periods 01/1987 to 12/2002 (Q1, 2, 5 and 6), Q1/1987 to Q4/1989 (Q11), and Q4/1994 - Q4/2002 (Q14, 15 and 16). The balances are now in line with the underlying detailed data by answer category."
+industry_total_nsa_nace2.zip,January 2026,"For the first time, Bulgaria is included in the euro-area aggregate. The historical values have been revised accordingly. Moreover, as in every January, the country weights used to calculate all EU and the euro-area aggregates were updated."
+industry_total_nsa_nace2.zip,March 2025,Publication of business and consumer survey results for Ireland (IE) is resumed. Consistent time series for 39 monthly balances and 2 quarterly series on capacity utilisation have been restored based on new data collected since August 2024 and regression analysis. See methodological note on the BCS website for details. Re-inclusion of IE data has a small impact also on the EU and EA results.
+industry_total_nsa_nace2.zip,July 2024,"Quarterly questions Q10, Q12 and Q14 were withdrawn from dissemination."
+industry_total_nsa_nace2.zip,January 2024,"On 2 February 2024, correction of erroneous results for the Italian industry survey for the period from January 2021 to December 2023. This has an impact also on the EU/EU aggregates."
+industry_total_nsa_nace2.zip,January 2024,The country weights used to calculate the EU and the euro-area aggregates were updated
+industry_total_nsa_nace2.zip,January 2024,Update of business survey weights for Italy: value added referring to 2021 instead of 2012 is used for the aggregation of division data from January 2021 onwards. This has an impact also on the EU/EA aggregates.
+industry_total_nsa_nace2.zip,March 2023,Correction of historical error in INDU question 13 (capacity utilisation) for Malta for the period 2003_q2
+industry_total_nsa_nace2.zip,February 2023,Temporary discontinuation of the surveys in Ireland
+industry_total_nsa_nace2.zip,January 2023,"For the first time, Croatia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+industry_total_nsa_nace2.zip,May 2022,"Following the introduction of a new sampling method and weighting procedure, time-series related to the Portuguese building, services, retail trade and industrial survey has been backcasted."
+industry_total_nsa_nace2.zip,April 2022,"Due to a change of the seasonal adjustment method, all seasonally-adjusted survey results have been revised."
+industry_total_nsa_nace2.zip,February 2022,Correction of the French industry survey results for “shortage of material and/or equipment” (Q8-F4) for October 2021.
+industry_total_nsa_nace2.zip,January 2022,"Factors limiting production (Q8) have been revised for Czechia, Danemark, Italy, Hungary, Montenegro and Sweden."
+industry_total_nsa_nace2.zip,January 2022,The country weights used to calculate the EU and the euro-area aggregates were updated
+industry_total_nsa_nace2.zip,October 2021,Factors limiting production (Q8) have been revised for Portugal for the period January 2020-July 2021.
+industry_total_nsa_nace2.zip,September 2021,"Equipment & Material (F4) as factor limiting production (question Q8) has been revised for Belgium, Finland and France. Other factors (F5) as factor limiting production (Q8) have been revised for Belgium and Finland."
+industry_total_nsa_nace2.zip,August 2021,Correction of Danish industry survey results for Q8 for July 2021.
+industry_total_nsa_nace2.zip,April 2021,Correction of Swedish survey for industry from May 2020 to March 2021.
+industry_total_nsa_nace2.zip,March 2021,"For Latvian data, a misallocation of survey results to the answering categories of questions INDU Q8 was remedied. Concretely, for INDU Q8, the results reported under “factor 5” and “factor 6” were swapped."
+industry_total_nsa_nace2.zip,January 2021,The country weights used to calculate the EU and the euro-area aggregates were updated.
+industry_total_nsa_nace2.zip,August 2020,Hungarian business survey data for July were significantly revised compared to the original release.
+industry_total_nsa_nace2.zip,May 2020,"French business survey data for April were significantly revised compared to the original release, owing to a methodological amendment of the treatment of non-response in April."
+industry_total_nsa_nace2.zip,April 2020,"Response rates were lower than usual due to COVID-19 confinement measures. On average the number of responses was 20% lower than usually.
+For France, the deterioration of business survey results is likely underestimated due to the non-response completion design used by the French partner institute (INSEE), relying on past answers for non-responding firms."
+industry_total_nsa_nace2.zip,March 2020,"In most countries, the large majority of survey responses were collected before strict containment measures were enacted to combat the spread of the Corona virus."
+industry_total_nsa_nace2.zip,February 2020,"All EU aggregates are calculated on the basis of 27 Member States (i.e. excluding the UK, which withdrew from the EU on 31 January 2020).  The historical values of the EU series have been revised accordingly."
+industry_total_nsa_nace2.zip,July 2019,Correction of Hungarian data for the question 8 of the industry survey about factors limiting their activity.
+industry_total_nsa_nace2.zip,January 2019,"Ireland is included in the European aggregates.
+The historical values, as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+industry_total_nsa_nace2.zip,May 2018,"Past data for Germany for the period 1991 to 2010 were revised, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+industry_total_nsa_nace2.zip,April 2018,"Past data for Germany were revised back to January 2011, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+industry_total_nsa_nace2.zip,May 2017,Change of the weighting procedure to compute the Industry survey results. All the historical Turkish manufacturing industry series have been back casted accordingly.
+industry_total_nsa_nace2.zip,October 2016,"- In October 2016, the French partner institute (INSEE) modified the industry capacity utilisation data (Q13) until October 2004 to correct a break in the series which had been introduced by the questionnaire harmonisation in 2004. Data of some other quarters was also corrected.
+- Data for Q10 of the Swedish industry survey (at total level) was corrected, mostly between 1996 and 2006 (this data was found incorrect due to a technical bug in the BCS data processing system)."
+industry_total_nsa_nace2.zip,July 2016,"Correction of Dutch data for the industry, retail trade and services surveys between January and June 2016, with revisions of quarterly data."
+industry_total_nsa_nace2.zip,May 2016,"- Due to a revision of the breakdown by occupation of the respondent as of May 2016, time series corresponding to consumer categories PR0 to PR9 are discontinued until further notice.
+- From May 2016 onwards, Statistics Portugal will report and publish the results for the Services, Construction, Industry and Trade surveys based on new samples and sampling frames. 
+The new samples are being surveyed since May 2015.  For the backcasting of the series, two samples (old and new) for each survey were collected simultaneously from May 2015 to April 2016. In general, for calculating the backcasted series (balances), the difference between the averages for the common period of the two samples was used. 
+- With effect from May 2016, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Ireland and Montenegro. These changes may cause a break in the series."
+industry_total_nsa_nace2.zip,April 2016,"In April 2016, the French partner institute (INSEE) introduced a modification of the secondary weights used when computing the Industry survey balances. This is causing a revision of past values as of February 1990 for monthly series and as of January 1992 for quarterly series."
+industry_total_nsa_nace2.zip,March 2016,"Correction of discrepancies between ISTAT and DG ECFIN data for the Industry, Services, Building and Retail trade surveys."
+industry_total_nsa_nace2.zip,November 2015,"- Revision of the Bulgarian data for the five Investment surveys conducted between March/April 2013 and March/April 2015.
+- In November 2015, the British partner institute (CBI) updated the sampling weights for the Industry, Investment, Retail and Services surveys in line with changes in officially available data from various UK governmental sources. 
+- As of November 2015, the Portuguese consumer data is based on a new sample. For the backcasting of the series, the two samples were collected simultaneously between November 2014 and October 2015."
+industry_total_nsa_nace2.zip,June 2015,Revision of Romanian Investment survey data between 2011 and 2015
+industry_total_nsa_nace2.zip,May 2015,"With effect from May 2015, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Turkey and Serbia. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+industry_total_nsa_nace2.zip,January 2015,Lithuania joined the euro area on 1 January 2015 and is included in the EA aggregates.
+industry_total_nsa_nace2.zip,January 2014,Latvia joined the euro area on 1 January 2014 and is included in the EA aggregates.
+industry_total_nsa_nace2.zip,July 2013,"For the first time, Croatia is included in the EU aggregate.
+The historical values, as well as the country weights, have been revised accordingly."
+industry_total_nsa_nace2.zip,June 2013,The Italian partner institute (ISTAT) introduced some methodological improvements concerning sampling and survey techniques that could affect data comparability with previous months.
+industry_total_nsa_nace2.zip,May 2011,"With effect from May 2011, a number of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys have changed; Denmark: Services, Retail trade; Spain: Consumers, Services, Retail trade; Portugal: Building. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+industry_total_nsa_nace2.zip,January 2009,"For the first time, Slovakia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+industry_total_nsa_nace2.zip,May 2008,"Change of partner institute in Greece, Spain and Cyprus; this may cause a break in some series of the survey.
+Temporary discontinuation of the survey in Ireland.
+The data for Q2-2008 in UK is based on fieldwork conducted in the second month of the quarter (one month later than usual)."
+industry_total_nsa_nace2.zip,January 2008,"For the first time, Cyprus and Malta are included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+industry_total_nsa_nace2.zip,January 2007,"For the first time, Bulgaria and Romania are included in the EU aggregate, whilst the euro-area aggregate includes Slovenia.
+The historical values (since 1985), as well as the country weights, have been revised accordingly."
+industry_total_nsa_nace2.zip,September 2006,The countries weights used to calculate the EU and the euro area aggregates were updated.
+industry_total_nsa_nace2.zip,January 2006,The series for Malta are now available.
+industry_total_nsa_nace2.zip,December 2005,"The series for Italy / question 12 were revised for the period 1985-2005 (plus and minus answers were inverted).
+The European aggregates EU and EA were recomputed."
+industry_total_nsa_nace2.zip,September 2005,Country weights used to calculate the EU and euro area aggregates were updated and the related series were recomputed.
+industry_total_nsa_nace2.zip,May 2005,All the series for Luxembourg are now seasonally adjusted.
+industry_total_nsa_nace2.zip,January 2005,All the series are now available with one decimal (not displayed).
+industry_total_nsa_nace2.zip,September 2004,"All the series are seasonally adjusted for: CY, LV, LT, PL, SK, BG, RO."
+industry_total_nsa_nace2.zip,May 2004,The EU aggregate is now calculated including the new Member states.
+industry_total_nsa_nace2.zip,Every January as of 2007,The weighting scheme used to calculate composite indicators and the long-term average are revised in January. This can lead to slight revisions in past data (see User Guide for more information) during that month.
+industry_total_sa_nace2.zip,,"The series at the country level are not available.
+
+The following updates have been implemented:"
+industry_total_sa_nace2.zip,July 2026,Services survey data have been revised for June 2026 for Romania and for January to June 2026 for France (see explanatory note in  Informations rapides - 178 | Insee). These revisions have an impact also on the European aggregates.
+industry_total_sa_nace2.zip,May 2026,Business surveys in Malta are temporarily suspended due to changes in partner institutes.
+industry_total_sa_nace2.zip,May 2026,Surveys in Estonia are temporarily suspended due to changes in partner institutes.
+industry_total_sa_nace2.zip,March 2026,The country weights for the aggregation of the results by Main Industrial Groupings (MIGs) were updated.
+industry_total_sa_nace2.zip,February 2026,"For periods starting in July 2023, inclusion of Dutch balance results for subsectors that could previously not be displayed due to confidentiality rules applying to the underlying percentage shares of answer options. The inclusion of the new Dutch balances leads to small revisions of the EA and EU aggregate results for concerned subsectors in the period July 2023-Jan 2026."
+industry_total_sa_nace2.zip,February 2026,"Portuguese balances for questions Q1, 2, 5, 6, 11, 14, 15 and 16 of the industry survey have been revised for the periods 01/1987 to 12/2002 (Q1, 2, 5 and 6), Q1/1987 to Q4/1989 (Q11), and Q4/1994 - Q4/2002 (Q14, 15 and 16). The balances are now in line with the underlying detailed data by answer category."
+industry_total_sa_nace2.zip,January 2026,"For the first time, Bulgaria is included in the euro-area aggregate. The historical values have been revised accordingly. Moreover, as in every January, the country weights used to calculate all EU and the euro-area aggregates were updated."
+industry_total_sa_nace2.zip,March 2025,Publication of business and consumer survey results for Ireland (IE) is resumed. Consistent time series for 39 monthly balances and 2 quarterly series on capacity utilisation have been restored based on new data collected since August 2024 and regression analysis. See methodological note on the BCS website for details. Re-inclusion of IE data has a small impact also on the EU and EA results.
+industry_total_sa_nace2.zip,July 2024,"Quarterly questions Q10, Q12 and Q14 were withdrawn from dissemination."
+industry_total_sa_nace2.zip,January 2024,"On 2 February 2024, correction of erroneous results for the Italian industry survey for the period from January 2021 to December 2023. This has an impact also on the EU/EU aggregates."
+industry_total_sa_nace2.zip,January 2024,The country weights used to calculate the EU and the euro-area aggregates were updated
+industry_total_sa_nace2.zip,January 2024,Update of business survey weights for Italy: value added referring to 2021 instead of 2012 is used for the aggregation of division data from January 2021 onwards. This has an impact also on the EU/EA aggregates.
+industry_total_sa_nace2.zip,March 2023,Correction of historical error in INDU question 13 (capacity utilisation) for Malta for the period 2003_q2
+industry_total_sa_nace2.zip,February 2023,Temporary discontinuation of the surveys in Ireland
+industry_total_sa_nace2.zip,January 2023,"For the first time, Croatia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+industry_total_sa_nace2.zip,May 2022,"Following the introduction of a new sampling method and weighting procedure, time-series related to the Portuguese building, services, retail trade and industrial survey has been backcasted."
+industry_total_sa_nace2.zip,April 2022,"Due to a change of the seasonal adjustment method, all seasonally-adjusted survey results have been revised."
+industry_total_sa_nace2.zip,February 2022,Correction of the French industry survey results for “shortage of material and/or equipment” (Q8-F4) for October 2021.
+industry_total_sa_nace2.zip,January 2022,"Factors limiting production (Q8) have been revised for Czechia, Danemark, Italy, Hungary, Montenegro and Sweden."
+industry_total_sa_nace2.zip,January 2022,The country weights used to calculate the EU and the euro-area aggregates were updated
+industry_total_sa_nace2.zip,October 2021,Factors limiting production (Q8) have been revised for Portugal for the period January 2020-July 2021.
+industry_total_sa_nace2.zip,September 2021,"Equipment & Material (F4) as factor limiting production (question Q8) has been revised for Belgium, Finland and France. Other factors (F5) as factor limiting production (Q8) have been revised for Belgium and Finland."
+industry_total_sa_nace2.zip,August 2021,Correction of Danish industry survey results for Q8 for July 2021.
+industry_total_sa_nace2.zip,April 2021,Correction of Swedish survey for industry from May 2020 to March 2021.
+industry_total_sa_nace2.zip,March 2021,"For Latvian data, a misallocation of survey results to the answering categories of questions INDU Q8 was remedied. Concretely, for INDU Q8, the results reported under “factor 5” and “factor 6” were swapped."
+industry_total_sa_nace2.zip,January 2021,The country weights used to calculate the EU and the euro-area aggregates were updated.
+industry_total_sa_nace2.zip,August 2020,Hungarian business survey data for July were significantly revised compared to the original release.
+industry_total_sa_nace2.zip,May 2020,"French business survey data for April were significantly revised compared to the original release, owing to a methodological amendment of the treatment of non-response in April."
+industry_total_sa_nace2.zip,April 2020,"Response rates were lower than usual due to COVID-19 confinement measures. On average the number of responses was 20% lower than usually.
+For France, the deterioration of business survey results is likely underestimated due to the non-response completion design used by the French partner institute (INSEE), relying on past answers for non-responding firms."
+industry_total_sa_nace2.zip,March 2020,"In most countries, the large majority of survey responses were collected before strict containment measures were enacted to combat the spread of the Corona virus."
+industry_total_sa_nace2.zip,February 2020,"All EU aggregates are calculated on the basis of 27 Member States (i.e. excluding the UK, which withdrew from the EU on 31 January 2020).  The historical values of the EU series have been revised accordingly."
+industry_total_sa_nace2.zip,July 2019,Correction of Hungarian data for the question 8 of the industry survey about factors limiting their activity.
+industry_total_sa_nace2.zip,January 2019,"Ireland is included in the European aggregates.
+The historical values, as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+industry_total_sa_nace2.zip,May 2018,"Past data for Germany for the period 1991 to 2010 were revised, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+industry_total_sa_nace2.zip,April 2018,"Past data for Germany were revised back to January 2011, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+industry_total_sa_nace2.zip,May 2017,Change of the weighting procedure to compute the Industry survey results. All the historical Turkish manufacturing industry series have been back casted accordingly.
+industry_total_sa_nace2.zip,October 2016,"- In October 2016, the French partner institute (INSEE) modified the industry capacity utilisation data (Q13) until October 2004 to correct a break in the series which had been introduced by the questionnaire harmonisation in 2004. Data of some other quarters was also corrected.
+- Data for Q10 of the Swedish industry survey (at total level) was corrected, mostly between 1996 and 2006 (this data was found incorrect due to a technical bug in the BCS data processing system)."
+industry_total_sa_nace2.zip,July 2016,"Correction of Dutch data for the industry, retail trade and services surveys between January and June 2016, with revisions of quarterly data."
+industry_total_sa_nace2.zip,May 2016,"- Due to a revision of the breakdown by occupation of the respondent as of May 2016, time series corresponding to consumer categories PR0 to PR9 are discontinued until further notice.
+- From May 2016 onwards, Statistics Portugal will report and publish the results for the Services, Construction, Industry and Trade surveys based on new samples and sampling frames. 
+The new samples are being surveyed since May 2015.  For the backcasting of the series, two samples (old and new) for each survey were collected simultaneously from May 2015 to April 2016. In general, for calculating the backcasted series (balances), the difference between the averages for the common period of the two samples was used. 
+- With effect from May 2016, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Ireland and Montenegro. These changes may cause a break in the series."
+industry_total_sa_nace2.zip,April 2016,"In April 2016, the French partner institute (INSEE) introduced a modification of the secondary weights used when computing the Industry survey balances. This is causing a revision of past values as of February 1990 for monthly series and as of January 1992 for quarterly series."
+industry_total_sa_nace2.zip,March 2016,"Correction of discrepancies between ISTAT and DG ECFIN data for the Industry, Services, Building and Retail trade surveys."
+industry_total_sa_nace2.zip,November 2015,"- Revision of the Bulgarian data for the five Investment surveys conducted between March/April 2013 and March/April 2015.
+- In November 2015, the British partner institute (CBI) updated the sampling weights for the Industry, Investment, Retail and Services surveys in line with changes in officially available data from various UK governmental sources. 
+- As of November 2015, the Portuguese consumer data is based on a new sample. For the backcasting of the series, the two samples were collected simultaneously between November 2014 and October 2015."
+industry_total_sa_nace2.zip,June 2015,Revision of Romanian Investment survey data between 2011 and 2015
+industry_total_sa_nace2.zip,May 2015,"With effect from May 2015, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Turkey and Serbia. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+industry_total_sa_nace2.zip,January 2015,Lithuania joined the euro area on 1 January 2015 and is included in the EA aggregates.
+industry_total_sa_nace2.zip,January 2014,Latvia joined the euro area on 1 January 2014 and is included in the EA aggregates.
+industry_total_sa_nace2.zip,July 2013,"For the first time, Croatia is included in the EU aggregate.
+The historical values, as well as the country weights, have been revised accordingly."
+industry_total_sa_nace2.zip,June 2013,The Italian partner institute (ISTAT) introduced some methodological improvements concerning sampling and survey techniques that could affect data comparability with previous months.
+industry_total_sa_nace2.zip,May 2011,"With effect from May 2011, a number of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys have changed; Denmark: Services, Retail trade; Spain: Consumers, Services, Retail trade; Portugal: Building. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+industry_total_sa_nace2.zip,January 2009,"For the first time, Slovakia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+industry_total_sa_nace2.zip,May 2008,"Change of partner institute in Greece, Spain and Cyprus; this may cause a break in some series of the survey.
+Temporary discontinuation of the survey in Ireland.
+The data for Q2-2008 in UK is based on fieldwork conducted in the second month of the quarter (one month later than usual)."
+industry_total_sa_nace2.zip,January 2008,"For the first time, Cyprus and Malta are included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+industry_total_sa_nace2.zip,January 2007,"For the first time, Bulgaria and Romania are included in the EU aggregate, whilst the euro-area aggregate includes Slovenia.
+The historical values (since 1985), as well as the country weights, have been revised accordingly."
+industry_total_sa_nace2.zip,September 2006,The countries weights used to calculate the EU and the euro area aggregates were updated.
+industry_total_sa_nace2.zip,January 2006,The series for Malta are now available.
+industry_total_sa_nace2.zip,December 2005,"The series for Italy / question 12 were revised for the period 1985-2005 (plus and minus answers were inverted).
+The European aggregates EU and EA were recomputed."
+industry_total_sa_nace2.zip,September 2005,Country weights used to calculate the EU and euro area aggregates were updated and the related series were recomputed.
+industry_total_sa_nace2.zip,May 2005,All the series for Luxembourg are now seasonally adjusted.
+industry_total_sa_nace2.zip,January 2005,All the series are now available with one decimal (not displayed).
+industry_total_sa_nace2.zip,September 2004,"All the series are seasonally adjusted for: CY, LV, LT, PL, SK, BG, RO."
+industry_total_sa_nace2.zip,May 2004,The EU aggregate is now calculated including the new Member states.
+industry_total_sa_nace2.zip,Every January as of 2007,The weighting scheme used to calculate composite indicators and the long-term average are revised in January. This can lead to slight revisions in past data (see User Guide for more information) during that month.
+main_indicators_sa_nace2.zip,,The following updates have been implemented:
+main_indicators_sa_nace2.zip,July 2026,Services survey data have been revised for June 2026 for Romania and for January to June 2026 for France (see explanatory note in  Informations rapides - 178 | Insee). These revisions have an impact also on the European aggregates.
+main_indicators_sa_nace2.zip,May 2026,Business surveys in Malta are temporarily suspended due to changes in partner institutes.
+main_indicators_sa_nace2.zip,May 2026,"New provider for Polish Consumer survey data. Historical data going back to January 2018 have been replaced by data from the new provider. For periods before 2018, balances for totals and consumer categories were level-shifted to correct for potential breaks with respect to data collected by the previous data provider. The underlying data shares have not been shifted and might thus present a structural break in January 2018. The original data collected over the period Jan 2018-Apr 2026 are available on request to ECFIN-BCS-MAIL@ec.europa.eu. The changes do not only have an impact on Polish data, but also on the EU time-series."
+main_indicators_sa_nace2.zip,May 2026,Surveys in Estonia are temporarily suspended due to changes in partner institutes.
+main_indicators_sa_nace2.zip,February 2026,"Portuguese balances for a range of business survey questions have been revised for periods prior to May 2008 (BUIL), May 2006 (SERV), January 2003 (INDU). The balances are now in line with the underlying detailed data by answer category. In RETA, balances were corrected for periods prior to May 2022."
+main_indicators_sa_nace2.zip,January 2026,"For the first time, Bulgaria is included in the euro-area aggregate. The historical values have been revised accordingly. Moreover, as in every January, the country weights used to calculate all EU and the euro-area aggregates were updated."
+main_indicators_sa_nace2.zip,December 2025,"Publication of consumer (CONS) survey results for Spain (ES) is resumed. Consistent time series for all monthly and quarterly balances have been restored using new data collected since May 2025 and econometric techniques for the missing period between Oct-2024 to Apr-2025. Due to the new sampling methodology, all ES series, except for Q3 and Q7, warranted a level-shift prior to May-2025. See methodological note on the BCS website for details. Re-inclusion of ES CONS data has an impact on the ES, euro area and EU ESIs and euro area and EU CONS results. ES time series for disaggregate results (CONS categories and detailed data by answer category) have not been restored consistently, and thus display a break in May 2025. All original data (pre-restoration process) are available on request to ECFIN-BCS-MAIL@ec.europa.eu."
+main_indicators_sa_nace2.zip,March 2025,Publication of business and consumer survey results for Ireland (IE) is resumed. Consistent time series for 39 monthly balances and 2 quarterly series on capacity utilisation have been restored based on new data collected since August 2024 and regression analysis. See methodological note on the BCS website for details. Re-inclusion of IE data has a small impact also on the EU and EA results.
+main_indicators_sa_nace2.zip,October 2024,"Surveys for Spain in services, retail trade and among consumers are temporarily suspended."
+main_indicators_sa_nace2.zip,January 2024,"On 2 February 2024, correction of erroneous results for the Italian industry survey for the period from January 2021 to December 2023. This has an impact also on the EU/EU aggregates."
+main_indicators_sa_nace2.zip,January 2024,The country weights used to calculate the EU and the euro-area aggregates were updated
+main_indicators_sa_nace2.zip,January 2024,Update of business survey weights for Italy: value added referring to 2021 instead of 2012 is used for the aggregation of division data from January 2021 onwards. This has an impact also on the EU/EA aggregates.
+main_indicators_sa_nace2.zip,February 2023,Temporary discontinuation of the surveys in Ireland
+main_indicators_sa_nace2.zip,January 2023,"For the first time, Croatia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+main_indicators_sa_nace2.zip,May 2022,"Following the introduction of a new sampling method and weighting procedure, time-series related to the Portuguese building, services, retail trade and industrial survey has been backcasted."
+main_indicators_sa_nace2.zip,April 2022,"Due to a change of the seasonal adjustment method, all seasonally-adjusted survey results have been revised."
+main_indicators_sa_nace2.zip,January 2022,The country weights used to calculate the EU and the euro-area aggregates were updated
+main_indicators_sa_nace2.zip,August 2021,Correction of Czech services survey results and Danish industry survey results (Q8)  for July 2021.
+main_indicators_sa_nace2.zip,June 2021,"In June 2021, a revised weighting scheme for the answers to the Financial Services Sector Survey was introduced. The new scheme attributes different weights to the answers of small, medium and large firms and aggregates the results of the three sub-sectors (NACE 64, 65, 66) to the global financial services sector by considering the sub-sectors’ shares in overall gross-value added of the financial sector. For the period April 2011 to May 2021, the time-series have been backcasted in accordance with the new weighting scheme."
+main_indicators_sa_nace2.zip,April 2021,Correction of Swedish survey for industry from May 2020 to March 2021.
+main_indicators_sa_nace2.zip,March 2021,"The data collection method of the Slovenian consumer survey was changed in January 2016. A backcast of the time-series most affected by the change (Q6, Q9, Q11) has been made for the period until (incl.) December 2015.
+For Latvian data, a misallocation of survey results to the answering categories of questions BUIL Q2 and INDU Q8 was remedied. Concretely, for BUIL Q2, the results reported under “factor 6” and “factor 7” were swapped. For INDU Q8, the results reported under “factor 5” and “factor 6” were swapped.
+Following the introduction of a new sampling method and weighting procedure in January 2021, time-series related to the Turkish services, retail trade and construction survey have been backcasted for the period until (incl.) December 2020."
+main_indicators_sa_nace2.zip,January 2021,"Revision of the weighting scheme of the Italian Consumer Survey. All historical Italian consumer series have been recalculated accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+main_indicators_sa_nace2.zip,November 2020,"There was a structural change in the way consumer data is collected in Sweden. The change does not only have an impact on Swedish data, but also on the EU time-series. Historical data for the aggregate series ('Total Consumer' balances) have been revised to correct for the level shift. All disaggregate data (consumer categories/breakdowns and datashares) have not been revised and might thus present a structural break in November 2020. Data collected during a 3-month overlapping period is available on request to ECFIN-BCS-MAIL@ec.europa.eu."
+main_indicators_sa_nace2.zip,August 2020,French business survey data for June were significantly revised compared to the original release.
+main_indicators_sa_nace2.zip,August 2020,Hungarian business survey data for July were significantly revised compared to the original release.
+main_indicators_sa_nace2.zip,May 2020,"French business survey data for April were significantly revised compared to the original release, owing to a methodological amendment of the treatment of non-response in April."
+main_indicators_sa_nace2.zip,April 2020,"Response rates were lower than usual due to COVID-19 confinement measures. On average the number of responses was 20% lower than usually.
+For France, the deterioration of business survey results is likely underestimated due to the non-response completion design used by the French partner institute (INSEE), relying on past answers for non-responding firms.
+Due to shorter available sample periods of data for candidates countries and the implied impact on the standardisation of the time series, past values of the ESI and EEI were revised to align the variability of the indicators to those of EU Member States.
+Due to confinement measures linked to coronavirus, some partner institutes had to change their mode of conducting their consumer survey. Face-to-face and Computer-Aided Personal Interviews (F2F/CAPI) switched to: 
+- Computer-Aided Telephone Interviews (CATI) in Croatia, Latvia, Slovak Republic, and Turkey;
+- Computer-Aided Web Interview (CAWI) in Hungary and Poland; and 
+- a mix of CAWI and CATI in Bulgaria and Lithuania."
+main_indicators_sa_nace2.zip,March 2020,"In most countries, the large majority of survey responses were collected before strict containment measures were enacted to combat the spread of the Corona virus."
+main_indicators_sa_nace2.zip,February 2020,"All EU aggregates are calculated on the basis of 27 Member States (i.e. excluding the UK, which withdrew from the EU on 31 January 2020).  The historical values of the EU series have been revised accordingly."
+main_indicators_sa_nace2.zip,February 2020,"The starting year of the standardisation window used for the construction of the ESI has been changed to 2000.
+A new 'Employment Expectations Indicator' (EEI) is launched. It condenses the employment expectations in industry, services, retail trade and construction into a composite indicator."
+main_indicators_sa_nace2.zip,January 2020,"Correction for a change in several questions on order books and stocks in the industry, construction and retail trade surveys in Denmark in 2014, in order to harmonise them with the BCS programme guidelines. In industry (Q2, Q3, Q4), the change occurred in July 2014, in construction (Q3) and retail trade (Q2) in August 2014. The series before these dates were revised based on an ARIMA-estimation of the breaks created by the changes. The correction has an impact on the long-term average of the series, and therefore on the current level of the ESI in Denmark. It also has a minor impact on EU data."
+main_indicators_sa_nace2.zip,December 2019,"Following the stop of the UK building survey in November 2019, the European aggregate has been recalculated and excludes UK data. This also has an impact on the ESI for the UK and the EU, where data from the building sector is no longer included."
+main_indicators_sa_nace2.zip,July 2019,Correction of Hungarian data for the question 8 of the industry survey about factors limiting their activity.
+main_indicators_sa_nace2.zip,May 2019,"There was a structural change in the way consumer data is collected in Germany and Finland. The change does not only have an impact on German and Finnish data, but also on the aggregate euro-area and EU time-series. Historical data for the aggregate series ('Total Consumer' balances) have been revised to correct for the level shift. All disaggregate data (consumer categories/breakdowns and datashares) have not been revised and might thus present a structural break in May 2019.Data collected during a 3-month overlapping period are available on request to ECFIN-BCS-MAIL@ec.europa.eu. 
+Change of partner institute in Austria; this may cause a break in some series of the survey."
+main_indicators_sa_nace2.zip,January 2019,"Ireland is included in the European aggregates.
+The historical values, as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+main_indicators_sa_nace2.zip,January 2019,"The composition of the consumer confidence indicator is revised. More information on the new methodology can be found on  ""A revised Consumer Confidence Indicator""."
+main_indicators_sa_nace2.zip,May 2018,"Past data for Germany for the period 1991 to 2010 were revised, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+main_indicators_sa_nace2.zip,April 2018,"Past data for Germany were revised back to January 2011, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+main_indicators_sa_nace2.zip,January 2018,"Correction of French data for the question 2 of the construction survey about factors limiting their building activity.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+main_indicators_sa_nace2.zip,August 2017,"Revision of the design of the Dutch Consumer Survey. In order to limit the impact of the structural break, all the historical Dutch consumer series have been back casted accordingly."
+main_indicators_sa_nace2.zip,May 2017,Change of the weighting procedure to compute the Industry survey results. All the historical Turkish manufacturing industry series have been back casted accordingly.
+main_indicators_sa_nace2.zip,April 2017,"Revision of Italian data for services between June 2013 (July 2013 in the case of quarterly series) to March 2017 (January 2017 in the case of quarterly series), due to the inclusion of the sub-sectors 75 and 90 to 96.
+Also correction of Italian data for question Q8 in the services survey between January 2010 to April 2013."
+main_indicators_sa_nace2.zip,November 2016,"Correction of Slovenian investment structure data for the two aggregates Food and beverages industry (FOBE) and Consumer goods (CONS), for 2013, 2014 and 2015."
+main_indicators_sa_nace2.zip,October 2016,"- In October 2016, the French partner institute (INSEE) modified the industry capacity utilisation data (Q13) until October 2004 to correct a break in the series which had been introduced by the questionnaire harmonisation in 2004. Data of some other quarters was also corrected.
+- Data for Q10 of the Swedish industry survey (at total level) was corrected, mostly between 1996 and 2006 (this data was found incorrect due to a technical bug in the BCS data processing system)."
+main_indicators_sa_nace2.zip,July 2016,"Correction of Dutch data for the industry, retail trade and services surveys between January and June 2016, with revisions of quarterly data."
+main_indicators_sa_nace2.zip,June 2016,"Correction of French data for the services survey between January 2013 and May 2016, with significant revisions mostly for three NACE2 sub-sectors (56, 68 et 96), in the aim of stabilising the sectoral classification of enterprises."
+main_indicators_sa_nace2.zip,May 2016,"- Due to a revision of the breakdown by occupation of the respondent as of May 2016, time series corresponding to consumer categories PR0 to PR9 are discontinued until further notice.
+- From May 2016 onwards, Statistics Portugal will report and publish the results for the Services, Construction, Industry and Trade surveys based on new samples and sampling frames. 
+The new samples are being surveyed since May 2015.  For the backcasting of the series, two samples (old and new) for each survey were collected simultaneously from May 2015 to April 2016. In general, for calculating the backcasted series (balances), the difference between the averages for the common period of the two samples was used. 
+- With effect from May 2016, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Ireland and Montenegro. These changes may cause a break in the series."
+main_indicators_sa_nace2.zip,April 2016,"In April 2016, the French partner institute (INSEE) introduced a modification of the secondary weights used when computing the Industry survey balances. This is causing a revision of past values as of February 1990 for monthly series and as of January 1992 for quarterly series."
+main_indicators_sa_nace2.zip,March 2016,"Correction of discrepancies between ISTAT and DG ECFIN data for the Industry, Services, Building and Retail trade surveys."
+main_indicators_sa_nace2.zip,November 2015,"- Revision of the Bulgarian data for the five Investment surveys conducted between March/April 2013 and March/April 2015.
+- In November 2015, the British partner institute (CBI) updated the sampling weights for the Industry, Investment, Retail and Services surveys in line with changes in officially available data from various UK governmental sources. 
+- As of November 2015, the Portuguese consumer data is based on a new sample. For the backcasting of the series, the two samples were collected simultaneously between November 2014 and October 2015."
+main_indicators_sa_nace2.zip,June 2015,Revision of Romanian Investment survey data between 2011 and 2015
+main_indicators_sa_nace2.zip,June 2015,"The historical consumer survey series for Ireland were revised from 2003 to 2015 for questions 1, 2, 4, 7, 8 and 10. Data is available for TOTAL and selected breakdowns.
+The mentioned questions will be updated on monthly basis; the other questions for Ireland are discontinued for the time being.
+The Irish confidence indicator is a proxy based on questions: 2, 4 and 7 (11 is missing)."
+main_indicators_sa_nace2.zip,May 2015,"With effect from May 2015, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Turkey and Serbia. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+main_indicators_sa_nace2.zip,January 2015,Lithuania joined the euro area on 1 January 2015 and is included in the EA aggregates.
+main_indicators_sa_nace2.zip,January 2014,Latvia joined the euro area on 1 January 2014 and is included in the EA aggregates.
+main_indicators_sa_nace2.zip,July 2013,"For the first time, Croatia is included in the EU aggregate.
+The historical values, as well as the country weights, have been revised accordingly."
+main_indicators_sa_nace2.zip,June 2013,The Italian partner institute (ISTAT) introduced some methodological improvements concerning sampling and survey techniques that could affect data comparability with previous months.
+main_indicators_sa_nace2.zip,February 2013,"German services data have been revised to be fully in line with the NACE rev.2 statistical classification of economic activities. This implies revisions of previous data also for the EU/euro-area services confidence indicator and the German, EU and euro-area ESI."
+main_indicators_sa_nace2.zip,May 2011,"With effect from May 2011, a number of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys have changed; Denmark: Services, Retail trade; Spain: Consumers, Services, Retail trade; Portugal: Building. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+main_indicators_sa_nace2.zip,May 2010,"Changeover to NACE Rev. 2, old NACE Rev. 1 sub-sectors 65, 66, 67 become respectively 64, 65, 66 in NACE Rev. 2 nomenclature."
+main_indicators_sa_nace2.zip,June 2009,"Results for question 7 are not seasonally adjusted.
+Consumer survey data in Portugal for September 1997 to May 2009 has been revised by the partner institute to take account of a change of panel which occurred in May 2008 (the data became available in May 2009)."
+main_indicators_sa_nace2.zip,January 2009,"For the first time, Slovakia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+main_indicators_sa_nace2.zip,May 2008,"Change of partner institute in Greece, Spain and Cyprus; this may cause a break in some series of the survey.
+Temporary discontinuation of the survey in Ireland.
+The data for Q2-2008 in UK is based on fieldwork conducted in the second month of the quarter (one month later than usual)."
+main_indicators_sa_nace2.zip,January 2008,"For the first time, Cyprus and Malta are included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+main_indicators_sa_nace2.zip,January 2007,"For the first time, Bulgaria and Romania are included in the EU aggregate, whilst the euro-area aggregate includes Slovenia.
+The historical values (since 1985), as well as the country weights, have been revised accordingly."
+main_indicators_sa_nace2.zip,September 2006,The countries weights used to calculate the EU and the euro area aggregates were updated.
+main_indicators_sa_nace2.zip,January 2006,The series for Malta are now available.
+main_indicators_sa_nace2.zip,December 2005,"The series for Italy / question 12 were revised for the period 1985-2005 (plus and minus answers were inverted).
+The European aggregates EU and EA were recomputed."
+main_indicators_sa_nace2.zip,September 2005,Country weights used to calculate the EU and euro area aggregates were updated and the related series were recomputed.
+main_indicators_sa_nace2.zip,May 2005,All the series for Luxembourg are now seasonally adjusted.
+main_indicators_sa_nace2.zip,January 2005,All the series are now available with one decimal (not displayed).
+main_indicators_sa_nace2.zip,September 2004,"All the series are seasonally adjusted for: CY, LV, LT, PL, SK, BG, RO."
+main_indicators_sa_nace2.zip,May 2004,The EU aggregate is now calculated including the new Member states.
+main_indicators_sa_nace2.zip,February 2004,The series for Portugal have been revised for the period Oct.2003 / Dec. 2003 due to a sample change.
+main_indicators_sa_nace2.zip,January 2004,"The French consumer questionnaire was modified in January 2004, in order to bring it into line with the EU harmonised programme.
+The series prior to and after this date are therefore not completely comparable.
+However, the breaks in French data series have a moderate impact on the European aggregates."
+main_indicators_sa_nace2.zip,December 2003,"As a consequence of a lack of harmonisation for question 10, the publication of the European aggregates is discontinued.
+For your information, the series at national level are still available. However, the results are not comparable among countries."
+main_indicators_sa_nace2.zip,August 2003,Country weights used to calculate the EU and Euro area aggregates (see related note on our website)
+main_indicators_sa_nace2.zip,September 1997,"Due to a change of institute in September 1997, consumer data for Portugal previous to this date is not directly comparable with the rest of the series."
+main_indicators_sa_nace2.zip,Every January as of 2007,The weighting scheme used to calculate composite indicators and the long-term average are revised in January. This can lead to slight revisions in past data (see User Guide for more information) during that month.
+retail_total_nsa_nace2.zip,,"The series at the country level are not available.
+
+The following updates have been implemented:"
+retail_total_nsa_nace2.zip,July 2026,Services survey data have been revised for June 2026 for Romania and for January to June 2026 for France (see explanatory note in  Informations rapides - 178 | Insee). These revisions have an impact also on the European aggregates.
+retail_total_nsa_nace2.zip,May 2026,Business surveys in Malta are temporarily suspended due to changes in partner institutes.
+retail_total_nsa_nace2.zip,May 2026,Surveys in Estonia are temporarily suspended due to changes in partner institutes.
+retail_total_nsa_nace2.zip,February 2026,"For periods starting in July 2023, inclusion of Dutch balance results for subsectors that could previously not be displayed due to confidentiality rules applying to the underlying percentage shares of answer options. The inclusion of the new Dutch balances leads to small revisions of the EA and EU aggregate results for concerned subsectors in the period July 2023-Jan 2026."
+retail_total_nsa_nace2.zip,February 2026,Correction of historical error in time-series related to the Portuguese retail trade survey. Balances for the period prior to May 2022 have been updated.
+retail_total_nsa_nace2.zip,January 2026,"For the first time, Bulgaria is included in the euro-area aggregate. The historical values have been revised accordingly. Moreover, as in every January, the country weights used to calculate all EU and the euro-area aggregates were updated."
+retail_total_nsa_nace2.zip,March 2025,Publication of business and consumer survey results for Ireland (IE) is resumed. Consistent time series for 39 monthly balances and 2 quarterly series on capacity utilisation have been restored based on new data collected since August 2024 and regression analysis. See methodological note on the BCS website for details. Re-inclusion of IE data has a small impact also on the EU and EA results.
+retail_total_nsa_nace2.zip,October 2024,"Surveys for Spain in services, retail trade and among consumers are temporarily suspended."
+retail_total_nsa_nace2.zip,January 2024,The country weights used to calculate the EU and the euro-area aggregates were updated
+retail_total_nsa_nace2.zip,January 2024,Update of business survey weights for Italy: value added referring to 2021 instead of 2012 is used for the aggregation of division data from January 2021 onwards. This has an impact also on the EU/EA aggregates.
+retail_total_nsa_nace2.zip,February 2023,Temporary discontinuation of the surveys in Ireland
+retail_total_nsa_nace2.zip,January 2023,"For the first time, Croatia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+retail_total_nsa_nace2.zip,May 2022,"Following the introduction of a new sampling method and weighting procedure, time-series related to the Portuguese building, services, retail trade and industrial survey has been backcasted."
+retail_total_nsa_nace2.zip,April 2022,"Due to a change of the seasonal adjustment method, all seasonally-adjusted survey results have been revised."
+retail_total_nsa_nace2.zip,January 2022,The country weights used to calculate the EU and the euro-area aggregates were updated
+retail_total_nsa_nace2.zip,March 2021,"Following the introduction of a new sampling method and weighting procedure in January 2021, time-series related to the Turkish services, retail trade survey has been backcasted for the period until (incl.) December 2020."
+retail_total_nsa_nace2.zip,January 2021,The country weights used to calculate the EU and the euro-area aggregates were updated.
+retail_total_nsa_nace2.zip,May 2020,"French business survey data for April were significantly revised compared to the original release, owing to a methodological amendment of the treatment of non-response in April."
+retail_total_nsa_nace2.zip,April 2020,"Response rates were lower than usual due to COVID-19 confinement measures. On average the number of responses was 20% lower than usually.
+For France, the deterioration of business survey results is likely underestimated due to the non-response completion design used by the French partner institute (INSEE), relying on past answers for non-responding firms."
+retail_total_nsa_nace2.zip,March 2020,"In most countries, the large majority of survey responses were collected before strict containment measures were enacted to combat the spread of the Corona virus."
+retail_total_nsa_nace2.zip,February 2020,"All EU aggregates are calculated on the basis of 27 Member States (i.e. excluding the UK, which withdrew from the EU on 31 January 2020).  The historical values of the EU series have been revised accordingly."
+retail_total_nsa_nace2.zip,January 2019,"Ireland is included in the European aggregates.
+The historical values, as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+retail_total_nsa_nace2.zip,May 2018,"Past data for Germany for the period 1991 to 2010 were revised, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+retail_total_nsa_nace2.zip,April 2018,"Past data for Germany were revised back to January 2011, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+retail_total_nsa_nace2.zip,May 2016,"- Due to a revision of the breakdown by occupation of the respondent as of May 2016, time series corresponding to consumer categories PR0 to PR9 are discontinued until further notice.
+- From May 2016 onwards, Statistics Portugal will report and publish the results for the Services, Construction, Industry and Trade surveys based on new samples and sampling frames. 
+The new samples are being surveyed since May 2015.  For the backcasting of the series, two samples (old and new) for each survey were collected simultaneously from May 2015 to April 2016. In general, for calculating the backcasted series (balances), the difference between the averages for the common period of the two samples was used. 
+- With effect from May 2016, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Ireland and Montenegro. These changes may cause a break in the series."
+retail_total_nsa_nace2.zip,March 2016,"Correction of discrepancies between ISTAT and DG ECFIN data for the Industry, Services, Building and Retail trade surveys."
+retail_total_nsa_nace2.zip,November 2015,"- Revision of the Bulgarian data for the five Investment surveys conducted between March/April 2013 and March/April 2015.
+- In November 2015, the British partner institute (CBI) updated the sampling weights for the Industry, Investment, Retail and Services surveys in line with changes in officially available data from various UK governmental sources. 
+- As of November 2015, the Portuguese consumer data is based on a new sample. For the backcasting of the series, the two samples were collected simultaneously between November 2014 and October 2015."
+retail_total_nsa_nace2.zip,June 2015,Revision of Romanian Investment survey data between 2011 and 2015
+retail_total_nsa_nace2.zip,May 2015,"With effect from May 2015, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Turkey and Serbia. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+retail_total_nsa_nace2.zip,January 2015,Lithuania joined the euro area on 1 January 2015 and is included in the EA aggregates.
+retail_total_nsa_nace2.zip,January 2014,Latvia joined the euro area on 1 January 2014 and is included in the EA aggregates.
+retail_total_nsa_nace2.zip,July 2013,"For the first time, Croatia is included in the EU aggregate.
+The historical values, as well as the country weights, have been revised accordingly."
+retail_total_nsa_nace2.zip,June 2013,The Italian partner institute (ISTAT) introduced some methodological improvements concerning sampling and survey techniques that could affect data comparability with previous months.
+retail_total_nsa_nace2.zip,May 2011,"With effect from May 2011, a number of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys have changed; Denmark: Services, Retail trade; Spain: Consumers, Services, Retail trade; Portugal: Building. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+retail_total_nsa_nace2.zip,May 2010,"Changeover to NACE Rev. 2, old NACE Rev. 1 sub-sectors 65, 66, 67 become respectively 64, 65, 66 in NACE Rev. 2 nomenclature."
+retail_total_nsa_nace2.zip,January 2009,"For the first time, Slovakia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+retail_total_nsa_nace2.zip,May 2008,"Change of partner institute in Greece, Spain and Cyprus; this may cause a break in some series of the survey.
+Temporary discontinuation of the survey in Ireland.
+The data for Q2-2008 in UK is based on fieldwork conducted in the second month of the quarter (one month later than usual)."
+retail_total_nsa_nace2.zip,January 2008,"For the first time, Cyprus and Malta are included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+retail_total_nsa_nace2.zip,January 2007,"For the first time, Bulgaria and Romania are included in the EU aggregate, whilst the euro-area aggregate includes Slovenia.
+The historical values (since 1985), as well as the country weights, have been revised accordingly."
+retail_total_nsa_nace2.zip,September 2006,The countries weights used to calculate the EU and the euro area aggregates were updated.
+retail_total_nsa_nace2.zip,January 2006,The series for Malta are now available.
+retail_total_nsa_nace2.zip,December 2005,"The series for Italy / question 12 were revised for the period 1985-2005 (plus and minus answers were inverted).
+The European aggregates EU and EA were recomputed."
+retail_total_nsa_nace2.zip,September 2005,Country weights used to calculate the EU and euro area aggregates were updated and the related series were recomputed.
+retail_total_nsa_nace2.zip,January 2005,All the series are now available with one decimal (not displayed).
+retail_total_nsa_nace2.zip,September 2004,"All the series are seasonally adjusted for: CY, LV, LT, PL, SK, BG, RO."
+retail_total_nsa_nace2.zip,May 2004,The EU aggregate is now calculated including the new Member states.
+retail_total_nsa_nace2.zip,Every January as of 2007,The weighting scheme used to calculate composite indicators and the long-term average are revised in January. This can lead to slight revisions in past data (see User Guide for more information) during that month.
+retail_total_sa_nace2.zip,,"The series at the country level are not available.
+
+The following updates have been implemented:"
+retail_total_sa_nace2.zip,July 2026,Services survey data have been revised for June 2026 for Romania and for January to June 2026 for France (see explanatory note in  Informations rapides - 178 | Insee). These revisions have an impact also on the European aggregates.
+retail_total_sa_nace2.zip,May 2026,Business surveys in Malta are temporarily suspended due to changes in partner institutes.
+retail_total_sa_nace2.zip,May 2026,Surveys in Estonia are temporarily suspended due to changes in partner institutes.
+retail_total_sa_nace2.zip,February 2026,"For periods starting in July 2023, inclusion of Dutch balance results for subsectors that could previously not be displayed due to confidentiality rules applying to the underlying percentage shares of answer options. The inclusion of the new Dutch balances leads to small revisions of the EA and EU aggregate results for concerned subsectors in the period July 2023-Jan 2026."
+retail_total_sa_nace2.zip,February 2026,Correction of historical error in time-series related to the Portuguese retail trade survey. Balances for the period prior to May 2022 have been updated.
+retail_total_sa_nace2.zip,January 2026,"For the first time, Bulgaria is included in the euro-area aggregate. The historical values have been revised accordingly. Moreover, as in every January, the country weights used to calculate all EU and the euro-area aggregates were updated."
+retail_total_sa_nace2.zip,March 2025,Publication of business and consumer survey results for Ireland (IE) is resumed. Consistent time series for 39 monthly balances and 2 quarterly series on capacity utilisation have been restored based on new data collected since August 2024 and regression analysis. See methodological note on the BCS website for details. Re-inclusion of IE data has a small impact also on the EU and EA results.
+retail_total_sa_nace2.zip,October 2024,"Surveys for Spain in services, retail trade and among consumers are temporarily suspended."
+retail_total_sa_nace2.zip,January 2024,The country weights used to calculate the EU and the euro-area aggregates were updated
+retail_total_sa_nace2.zip,January 2024,Update of business survey weights for Italy: value added referring to 2021 instead of 2012 is used for the aggregation of division data from January 2021 onwards. This has an impact also on the EU/EA aggregates.
+retail_total_sa_nace2.zip,February 2023,Temporary discontinuation of the surveys in Ireland
+retail_total_sa_nace2.zip,January 2023,"For the first time, Croatia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+retail_total_sa_nace2.zip,May 2022,"Following the introduction of a new sampling method and weighting procedure, time-series related to the Portuguese building, services, retail trade and industrial survey has been backcasted."
+retail_total_sa_nace2.zip,April 2022,"Due to a change of the seasonal adjustment method, all seasonally-adjusted survey results have been revised."
+retail_total_sa_nace2.zip,January 2022,The country weights used to calculate the EU and the euro-area aggregates were updated
+retail_total_sa_nace2.zip,March 2021,"Following the introduction of a new sampling method and weighting procedure in January 2021, time-series related to the Turkish services, retail trade survey has been backcasted for the period until (incl.) December 2020."
+retail_total_sa_nace2.zip,January 2021,The country weights used to calculate the EU and the euro-area aggregates were updated.
+retail_total_sa_nace2.zip,May 2020,"French business survey data for April were significantly revised compared to the original release, owing to a methodological amendment of the treatment of non-response in April."
+retail_total_sa_nace2.zip,April 2020,"Response rates were lower than usual due to COVID-19 confinement measures. On average the number of responses was 20% lower than usually.
+For France, the deterioration of business survey results is likely underestimated due to the non-response completion design used by the French partner institute (INSEE), relying on past answers for non-responding firms."
+retail_total_sa_nace2.zip,March 2020,"In most countries, the large majority of survey responses were collected before strict containment measures were enacted to combat the spread of the Corona virus."
+retail_total_sa_nace2.zip,February 2020,"All EU aggregates are calculated on the basis of 27 Member States (i.e. excluding the UK, which withdrew from the EU on 31 January 2020).  The historical values of the EU series have been revised accordingly."
+retail_total_sa_nace2.zip,January 2019,"Ireland is included in the European aggregates.
+The historical values, as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+retail_total_sa_nace2.zip,May 2018,"Past data for Germany for the period 1991 to 2010 were revised, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+retail_total_sa_nace2.zip,April 2018,"Past data for Germany were revised back to January 2011, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+retail_total_sa_nace2.zip,May 2016,"- Due to a revision of the breakdown by occupation of the respondent as of May 2016, time series corresponding to consumer categories PR0 to PR9 are discontinued until further notice.
+- From May 2016 onwards, Statistics Portugal will report and publish the results for the Services, Construction, Industry and Trade surveys based on new samples and sampling frames. 
+The new samples are being surveyed since May 2015.  For the backcasting of the series, two samples (old and new) for each survey were collected simultaneously from May 2015 to April 2016. In general, for calculating the backcasted series (balances), the difference between the averages for the common period of the two samples was used. 
+- With effect from May 2016, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Ireland and Montenegro. These changes may cause a break in the series."
+retail_total_sa_nace2.zip,March 2016,"Correction of discrepancies between ISTAT and DG ECFIN data for the Industry, Services, Building and Retail trade surveys."
+retail_total_sa_nace2.zip,November 2015,"- Revision of the Bulgarian data for the five Investment surveys conducted between March/April 2013 and March/April 2015.
+- In November 2015, the British partner institute (CBI) updated the sampling weights for the Industry, Investment, Retail and Services surveys in line with changes in officially available data from various UK governmental sources. 
+- As of November 2015, the Portuguese consumer data is based on a new sample. For the backcasting of the series, the two samples were collected simultaneously between November 2014 and October 2015."
+retail_total_sa_nace2.zip,June 2015,Revision of Romanian Investment survey data between 2011 and 2015
+retail_total_sa_nace2.zip,May 2015,"With effect from May 2015, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Turkey and Serbia. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+retail_total_sa_nace2.zip,January 2015,Lithuania joined the euro area on 1 January 2015 and is included in the EA aggregates.
+retail_total_sa_nace2.zip,January 2014,Latvia joined the euro area on 1 January 2014 and is included in the EA aggregates.
+retail_total_sa_nace2.zip,July 2013,"For the first time, Croatia is included in the EU aggregate.
+The historical values, as well as the country weights, have been revised accordingly."
+retail_total_sa_nace2.zip,June 2013,The Italian partner institute (ISTAT) introduced some methodological improvements concerning sampling and survey techniques that could affect data comparability with previous months.
+retail_total_sa_nace2.zip,May 2011,"With effect from May 2011, a number of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys have changed; Denmark: Services, Retail trade; Spain: Consumers, Services, Retail trade; Portugal: Building. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+retail_total_sa_nace2.zip,May 2010,"Changeover to NACE Rev. 2, old NACE Rev. 1 sub-sectors 65, 66, 67 become respectively 64, 65, 66 in NACE Rev. 2 nomenclature."
+retail_total_sa_nace2.zip,January 2009,"For the first time, Slovakia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+retail_total_sa_nace2.zip,May 2008,"Change of partner institute in Greece, Spain and Cyprus; this may cause a break in some series of the survey.
+Temporary discontinuation of the survey in Ireland.
+The data for Q2-2008 in UK is based on fieldwork conducted in the second month of the quarter (one month later than usual)."
+retail_total_sa_nace2.zip,January 2008,"For the first time, Cyprus and Malta are included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+retail_total_sa_nace2.zip,January 2007,"For the first time, Bulgaria and Romania are included in the EU aggregate, whilst the euro-area aggregate includes Slovenia.
+The historical values (since 1985), as well as the country weights, have been revised accordingly."
+retail_total_sa_nace2.zip,September 2006,The countries weights used to calculate the EU and the euro area aggregates were updated.
+retail_total_sa_nace2.zip,January 2006,The series for Malta are now available.
+retail_total_sa_nace2.zip,December 2005,"The series for Italy / question 12 were revised for the period 1985-2005 (plus and minus answers were inverted).
+The European aggregates EU and EA were recomputed."
+retail_total_sa_nace2.zip,September 2005,Country weights used to calculate the EU and euro area aggregates were updated and the related series were recomputed.
+retail_total_sa_nace2.zip,January 2005,All the series are now available with one decimal (not displayed).
+retail_total_sa_nace2.zip,September 2004,"All the series are seasonally adjusted for: CY, LV, LT, PL, SK, BG, RO."
+retail_total_sa_nace2.zip,May 2004,The EU aggregate is now calculated including the new Member states.
+retail_total_sa_nace2.zip,Every January as of 2007,The weighting scheme used to calculate composite indicators and the long-term average are revised in January. This can lead to slight revisions in past data (see User Guide for more information) during that month.
+services_total_nsa_nace2.zip,,The following updates have been implemented:
+services_total_nsa_nace2.zip,July 2026,Services survey data have been revised for June 2026 for Romania and for January to June 2026 for France (see explanatory note in  Informations rapides - 178 | Insee). These revisions have an impact also on the European aggregates.
+services_total_nsa_nace2.zip,May 2026,Business surveys in Malta are temporarily suspended due to changes in partner institutes.
+services_total_nsa_nace2.zip,May 2026,Surveys in Estonia are temporarily suspended due to changes in partner institutes.
+services_total_nsa_nace2.zip,February 2026,"For periods starting in July 2023, inclusion of Dutch balance results for subsectors that could previously not be displayed due to confidentiality rules applying to the underlying percentage shares of answer options. The inclusion of the new Dutch balances leads to small revisions of the EA and EU aggregate results for concerned subsectors in the period July 2023-Jan 2026."
+services_total_nsa_nace2.zip,February 2026,"Portuguese balances for questions Q1, 2, 3, 4, 5 and 6 of the services survey have been revised for the periods 04/2001 to 07/2006 (Q1), 04/2001 to 04/2002 (Q2), 04/2001 to 04/2006 (Q3), 04/2001 to 04/2006 (Q4), 04/2001 to 04/2003 (Q5) and 05/2003 to 12/2004 (Q6). The balances are now in line with the underlying detailed data by answer category."
+services_total_nsa_nace2.zip,January 2026,"For the first time, Bulgaria is included in the euro-area aggregate. The historical values have been revised accordingly. Moreover, as in every January, the country weights used to calculate all EU and the euro-area aggregates were updated."
+services_total_nsa_nace2.zip,March 2025,Publication of business and consumer survey results for Ireland (IE) is resumed. Consistent time series for 39 monthly balances and 2 quarterly series on capacity utilisation have been restored based on new data collected since August 2024 and regression analysis. See methodological note on the BCS website for details. Re-inclusion of IE data has a small impact also on the EU and EA results.
+services_total_nsa_nace2.zip,October 2024,"Surveys for Spain in services, retail trade and among consumers are temporarily suspended."
+services_total_nsa_nace2.zip,July 2024,Monthly question Q4 was withdrawn from dissemination.
+services_total_nsa_nace2.zip,April 2024,The methodology for calculating capacity utilisation in the Dutch services sector changed to make the data more comparable to those of the industry survey. The change applies retrospectively to the whole period available and to all sectoral series. It implies a small upward shift of the data with a proportional impact on the EU/EA aggregates.
+services_total_nsa_nace2.zip,January 2024,The country weights used to calculate the EU and the euro-area aggregates were updated
+services_total_nsa_nace2.zip,January 2024,Update of business survey weights for Italy: value added referring to 2021 instead of 2012 is used for the aggregation of division data from January 2021 onwards. This has an impact also on the EU/EA aggregates.
+services_total_nsa_nace2.zip,February 2023,Temporary discontinuation of the surveys in Ireland
+services_total_nsa_nace2.zip,January 2023,"For the first time, Croatia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+services_total_nsa_nace2.zip,May 2022,"Following the introduction of a new sampling method and weighting procedure, time-series related to the Portuguese building, services, retail trade and industrial survey has been backcasted."
+services_total_nsa_nace2.zip,April 2022,"Due to a change of the seasonal adjustment method, all seasonally-adjusted survey results have been revised."
+services_total_nsa_nace2.zip,January 2022,The country weights used to calculate the EU and the euro-area aggregates were updated
+services_total_nsa_nace2.zip,October 2021,Correction of Netherlands and Portugal services survey results (Q7) for July 2021 and for the period January 2020-July 2021 respectively.
+services_total_nsa_nace2.zip,August 2021,Correction of Czech services survey results for July 2021.
+services_total_nsa_nace2.zip,January 2021,The country weights used to calculate the EU and the euro-area aggregates were updated.
+services_total_nsa_nace2.zip,May 2020,"French business survey data for April were significantly revised compared to the original release, owing to a methodological amendment of the treatment of non-response in April."
+services_total_nsa_nace2.zip,April 2020,"Response rates were lower than usual due to COVID-19 confinement measures. On average the number of responses was 20% lower than usually.
+For France, the deterioration of business survey results is likely underestimated due to the non-response completion design used by the French partner institute (INSEE), relying on past answers for non-responding firms."
+services_total_nsa_nace2.zip,March 2020,"In most countries, the large majority of survey responses were collected before strict containment measures were enacted to combat the spread of the Corona virus."
+services_total_nsa_nace2.zip,February 2020,"All EU aggregates are calculated on the basis of 27 Member States (i.e. excluding the UK, which withdrew from the EU on 31 January 2020).  The historical values of the EU series have been revised accordingly."
+services_total_nsa_nace2.zip,January 2019,"Ireland is included in the European aggregates.
+The historical values, as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+services_total_nsa_nace2.zip,May 2018,"Past data for Germany for the period 1991 to 2010 were revised, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+services_total_nsa_nace2.zip,April 2018,"Past data for Germany were revised back to January 2011, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+services_total_nsa_nace2.zip,April 2017,"Revision of Italian data for services between June 2013 (July 2013 in the case of quarterly series) to March 2017 (January 2017 in the case of quarterly series), due to the inclusion of the sub-sectors 75 and 90 to 96.
+Also correction of Italian data for question Q8 in the services survey between January 2010 to April 2013."
+services_total_nsa_nace2.zip,June 2016,"Correction of French data for the services survey between January 2013 and May 2016, with significant revisions mostly for three NACE2 sub-sectors (56, 68 et 96), in the aim of stabilising the sectoral classification of enterprises."
+services_total_nsa_nace2.zip,May 2016,"- Due to a revision of the breakdown by occupation of the respondent as of May 2016, time series corresponding to consumer categories PR0 to PR9 are discontinued until further notice.
+- From May 2016 onwards, Statistics Portugal will report and publish the results for the Services, Construction, Industry and Trade surveys based on new samples and sampling frames. 
+The new samples are being surveyed since May 2015.  For the backcasting of the series, two samples (old and new) for each survey were collected simultaneously from May 2015 to April 2016. In general, for calculating the backcasted series (balances), the difference between the averages for the common period of the two samples was used. 
+- With effect from May 2016, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Ireland and Montenegro. These changes may cause a break in the series."
+services_total_nsa_nace2.zip,March 2016,"Correction of discrepancies between ISTAT and DG ECFIN data for the Industry, Services, Building and Retail trade surveys."
+services_total_nsa_nace2.zip,November 2015,"- Revision of the Bulgarian data for the five Investment surveys conducted between March/April 2013 and March/April 2015.
+- In November 2015, the British partner institute (CBI) updated the sampling weights for the Industry, Investment, Retail and Services surveys in line with changes in officially available data from various UK governmental sources. 
+- As of November 2015, the Portuguese consumer data is based on a new sample. For the backcasting of the series, the two samples were collected simultaneously between November 2014 and October 2015."
+services_total_nsa_nace2.zip,June 2015,Revision of Romanian Investment survey data between 2011 and 2015
+services_total_nsa_nace2.zip,May 2015,"With effect from May 2015, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Turkey and Serbia. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+services_total_nsa_nace2.zip,January 2015,Lithuania joined the euro area on 1 January 2015 and is included in the EA aggregates.
+services_total_nsa_nace2.zip,January 2014,Latvia joined the euro area on 1 January 2014 and is included in the EA aggregates.
+services_total_nsa_nace2.zip,July 2013,"For the first time, Croatia is included in the EU aggregate.
+The historical values, as well as the country weights, have been revised accordingly."
+services_total_nsa_nace2.zip,June 2013,The Italian partner institute (ISTAT) introduced some methodological improvements concerning sampling and survey techniques that could affect data comparability with previous months.
+services_total_nsa_nace2.zip,February 2013,"German services data have been revised to be fully in line with the NACE rev.2 statistical classification of economic activities. This implies revisions of previous data also for the EU/euro-area services confidence indicator and the German, EU and euro-area ESI."
+services_total_nsa_nace2.zip,May 2011,"With effect from May 2011, a number of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys have changed; Denmark: Services, Retail trade; Spain: Consumers, Services, Retail trade; Portugal: Building. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+services_total_nsa_nace2.zip,May 2010,"Changeover to NACE Rev. 2, old NACE Rev. 1 sub-sectors 65, 66, 67 become respectively 64, 65, 66 in NACE Rev. 2 nomenclature."
+services_total_nsa_nace2.zip,January 2009,"For the first time, Slovakia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+services_total_nsa_nace2.zip,May 2008,"Change of partner institute in Greece, Spain and Cyprus; this may cause a break in some series of the survey.
+Temporary discontinuation of the survey in Ireland.
+The data for Q2-2008 in UK is based on fieldwork conducted in the second month of the quarter (one month later than usual)."
+services_total_nsa_nace2.zip,January 2008,"For the first time, Cyprus and Malta are included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+services_total_nsa_nace2.zip,January 2007,"For the first time, Bulgaria and Romania are included in the EU aggregate, whilst the euro-area aggregate includes Slovenia.
+The historical values (since 1985), as well as the country weights, have been revised accordingly."
+services_total_nsa_nace2.zip,September 2006,The countries weights used to calculate the EU and the euro area aggregates were updated.
+services_total_nsa_nace2.zip,January 2006,The series for Malta are now available.
+services_total_nsa_nace2.zip,December 2005,"The series for Italy / question 12 were revised for the period 1985-2005 (plus and minus answers were inverted).
+The European aggregates EU and EA were recomputed."
+services_total_nsa_nace2.zip,September 2005,Country weights used to calculate the EU and euro area aggregates were updated and the related series were recomputed.
+services_total_nsa_nace2.zip,January 2005,All the series are now available with one decimal (not displayed).
+services_total_nsa_nace2.zip,September 2004,"All the series are seasonally adjusted for: CY, LV, LT, PL, SK, BG, RO."
+services_total_nsa_nace2.zip,May 2004,The EU aggregate is now calculated including the new Member states.
+services_total_nsa_nace2.zip,Every January as of 2007,The weighting scheme used to calculate composite indicators and the long-term average are revised in January. This can lead to slight revisions in past data (see User Guide for more information) during that month.
+services_total_sa_nace2.zip,,The following updates have been implemented:
+services_total_sa_nace2.zip,July 2026,Services survey data have been revised for June 2026 for Romania and for January to June 2026 for France (see explanatory note in  Informations rapides - 178 | Insee). These revisions have an impact also on the European aggregates.
+services_total_sa_nace2.zip,May 2026,Business surveys in Malta are temporarily suspended due to changes in partner institutes.
+services_total_sa_nace2.zip,May 2026,Surveys in Estonia are temporarily suspended due to changes in partner institutes.
+services_total_sa_nace2.zip,February 2026,"For periods starting in July 2023, inclusion of Dutch balance results for subsectors that could previously not be displayed due to confidentiality rules applying to the underlying percentage shares of answer options. The inclusion of the new Dutch balances leads to small revisions of the EA and EU aggregate results for concerned subsectors in the period July 2023-Jan 2026."
+services_total_sa_nace2.zip,February 2026,"Portuguese balances for questions Q1, 2, 3, 4, 5 and 6 of the services survey have been revised for the periods 04/2001 to 07/2006 (Q1), 04/2001 to 04/2002 (Q2), 04/2001 to 04/2006 (Q3), 04/2001 to 04/2006 (Q4), 04/2001 to 04/2003 (Q5) and 05/2003 to 12/2004 (Q6). The balances are now in line with the underlying detailed data by answer category."
+services_total_sa_nace2.zip,January 2026,"For the first time, Bulgaria is included in the euro-area aggregate. The historical values have been revised accordingly. Moreover, as in every January, the country weights used to calculate all EU and the euro-area aggregates were updated."
+services_total_sa_nace2.zip,March 2025,Publication of business and consumer survey results for Ireland (IE) is resumed. Consistent time series for 39 monthly balances and 2 quarterly series on capacity utilisation have been restored based on new data collected since August 2024 and regression analysis. See methodological note on the BCS website for details. Re-inclusion of IE data has a small impact also on the EU and EA results.
+services_total_sa_nace2.zip,October 2024,"Surveys for Spain in services, retail trade and among consumers are temporarily suspended."
+services_total_sa_nace2.zip,July 2024,Monthly question Q4 was withdrawn from dissemination.
+services_total_sa_nace2.zip,April 2024,The methodology for calculating capacity utilisation in the Dutch services sector changed to make the data more comparable to those of the industry survey. The change applies retrospectively to the whole period available and to all sectoral series. It implies a small upward shift of the data with a proportional impact on the EU/EA aggregates.
+services_total_sa_nace2.zip,January 2024,The country weights used to calculate the EU and the euro-area aggregates were updated
+services_total_sa_nace2.zip,January 2024,Update of business survey weights for Italy: value added referring to 2021 instead of 2012 is used for the aggregation of division data from January 2021 onwards. This has an impact also on the EU/EA aggregates.
+services_total_sa_nace2.zip,February 2023,Temporary discontinuation of the surveys in Ireland
+services_total_sa_nace2.zip,January 2023,"For the first time, Croatia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+services_total_sa_nace2.zip,May 2022,"Following the introduction of a new sampling method and weighting procedure, time-series related to the Portuguese building, services, retail trade and industrial survey has been backcasted."
+services_total_sa_nace2.zip,April 2022,"Due to a change of the seasonal adjustment method, all seasonally-adjusted survey results have been revised."
+services_total_sa_nace2.zip,January 2022,The country weights used to calculate the EU and the euro-area aggregates were updated
+services_total_sa_nace2.zip,October 2021,Correction of Netherlands and Portugal services survey results (Q7) for July 2021 and for the period January 2020-July 2021 respectively.
+services_total_sa_nace2.zip,August 2021,Correction of Czech services survey results for July 2021.
+services_total_sa_nace2.zip,January 2021,The country weights used to calculate the EU and the euro-area aggregates were updated.
+services_total_sa_nace2.zip,May 2020,"French business survey data for April were significantly revised compared to the original release, owing to a methodological amendment of the treatment of non-response in April."
+services_total_sa_nace2.zip,April 2020,"Response rates were lower than usual due to COVID-19 confinement measures. On average the number of responses was 20% lower than usually.
+For France, the deterioration of business survey results is likely underestimated due to the non-response completion design used by the French partner institute (INSEE), relying on past answers for non-responding firms."
+services_total_sa_nace2.zip,March 2020,"In most countries, the large majority of survey responses were collected before strict containment measures were enacted to combat the spread of the Corona virus."
+services_total_sa_nace2.zip,February 2020,"All EU aggregates are calculated on the basis of 27 Member States (i.e. excluding the UK, which withdrew from the EU on 31 January 2020).  The historical values of the EU series have been revised accordingly."
+services_total_sa_nace2.zip,January 2019,"Ireland is included in the European aggregates.
+The historical values, as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+services_total_sa_nace2.zip,May 2018,"Past data for Germany for the period 1991 to 2010 were revised, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+services_total_sa_nace2.zip,April 2018,"Past data for Germany were revised back to January 2011, reflecting changes in the aggregation of firm-level data and the inclusion of late responses implemented by the data provider (Ifo institute)."
+services_total_sa_nace2.zip,April 2017,"Revision of Italian data for services between June 2013 (July 2013 in the case of quarterly series) to March 2017 (January 2017 in the case of quarterly series), due to the inclusion of the sub-sectors 75 and 90 to 96.
+Also correction of Italian data for question Q8 in the services survey between January 2010 to April 2013."
+services_total_sa_nace2.zip,June 2016,"Correction of French data for the services survey between January 2013 and May 2016, with significant revisions mostly for three NACE2 sub-sectors (56, 68 et 96), in the aim of stabilising the sectoral classification of enterprises."
+services_total_sa_nace2.zip,May 2016,"- Due to a revision of the breakdown by occupation of the respondent as of May 2016, time series corresponding to consumer categories PR0 to PR9 are discontinued until further notice.
+- From May 2016 onwards, Statistics Portugal will report and publish the results for the Services, Construction, Industry and Trade surveys based on new samples and sampling frames. 
+The new samples are being surveyed since May 2015.  For the backcasting of the series, two samples (old and new) for each survey were collected simultaneously from May 2015 to April 2016. In general, for calculating the backcasted series (balances), the difference between the averages for the common period of the two samples was used. 
+- With effect from May 2016, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Ireland and Montenegro. These changes may cause a break in the series."
+services_total_sa_nace2.zip,March 2016,"Correction of discrepancies between ISTAT and DG ECFIN data for the Industry, Services, Building and Retail trade surveys."
+services_total_sa_nace2.zip,November 2015,"- Revision of the Bulgarian data for the five Investment surveys conducted between March/April 2013 and March/April 2015.
+- In November 2015, the British partner institute (CBI) updated the sampling weights for the Industry, Investment, Retail and Services surveys in line with changes in officially available data from various UK governmental sources. 
+- As of November 2015, the Portuguese consumer data is based on a new sample. For the backcasting of the series, the two samples were collected simultaneously between November 2014 and October 2015."
+services_total_sa_nace2.zip,June 2015,Revision of Romanian Investment survey data between 2011 and 2015
+services_total_sa_nace2.zip,May 2015,"With effect from May 2015, change of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys for Turkey and Serbia. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+services_total_sa_nace2.zip,January 2015,Lithuania joined the euro area on 1 January 2015 and is included in the EA aggregates.
+services_total_sa_nace2.zip,January 2014,Latvia joined the euro area on 1 January 2014 and is included in the EA aggregates.
+services_total_sa_nace2.zip,July 2013,"For the first time, Croatia is included in the EU aggregate.
+The historical values, as well as the country weights, have been revised accordingly."
+services_total_sa_nace2.zip,June 2013,The Italian partner institute (ISTAT) introduced some methodological improvements concerning sampling and survey techniques that could affect data comparability with previous months.
+services_total_sa_nace2.zip,February 2013,"German services data have been revised to be fully in line with the NACE rev.2 statistical classification of economic activities. This implies revisions of previous data also for the EU/euro-area services confidence indicator and the German, EU and euro-area ESI."
+services_total_sa_nace2.zip,May 2011,"With effect from May 2011, a number of partner institutes in the Joint Harmonised EU programme of Business and Consumer Surveys have changed; Denmark: Services, Retail trade; Spain: Consumers, Services, Retail trade; Portugal: Building. These changes may cause a break in the series and impact to some extent also the ESI figures in the above mentioned countries."
+services_total_sa_nace2.zip,May 2010,"Changeover to NACE Rev. 2, old NACE Rev. 1 sub-sectors 65, 66, 67 become respectively 64, 65, 66 in NACE Rev. 2 nomenclature."
+services_total_sa_nace2.zip,January 2009,"For the first time, Slovakia is included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+services_total_sa_nace2.zip,May 2008,"Change of partner institute in Greece, Spain and Cyprus; this may cause a break in some series of the survey.
+Temporary discontinuation of the survey in Ireland.
+The data for Q2-2008 in UK is based on fieldwork conducted in the second month of the quarter (one month later than usual)."
+services_total_sa_nace2.zip,January 2008,"For the first time, Cyprus and Malta are included in the euro-area aggregate.
+The historical values (since 1985), as well as the country weights, have been revised accordingly.
+The country weights used to calculate the EU and the euro-area aggregates were updated."
+services_total_sa_nace2.zip,January 2007,"For the first time, Bulgaria and Romania are included in the EU aggregate, whilst the euro-area aggregate includes Slovenia.
+The historical values (since 1985), as well as the country weights, have been revised accordingly."
+services_total_sa_nace2.zip,September 2006,The countries weights used to calculate the EU and the euro area aggregates were updated.
+services_total_sa_nace2.zip,January 2006,The series for Malta are now available.
+services_total_sa_nace2.zip,December 2005,"The series for Italy / question 12 were revised for the period 1985-2005 (plus and minus answers were inverted).
+The European aggregates EU and EA were recomputed."
+services_total_sa_nace2.zip,September 2005,Country weights used to calculate the EU and euro area aggregates were updated and the related series were recomputed.
+services_total_sa_nace2.zip,January 2005,All the series are now available with one decimal (not displayed).
+services_total_sa_nace2.zip,September 2004,"All the series are seasonally adjusted for: CY, LV, LT, PL, SK, BG, RO."
+services_total_sa_nace2.zip,May 2004,The EU aggregate is now calculated including the new Member states.
+services_total_sa_nace2.zip,Every January as of 2007,The weighting scheme used to calculate composite indicators and the long-term average are revised in January. This can lead to slight revisions in past data (see User Guide for more information) during that month.

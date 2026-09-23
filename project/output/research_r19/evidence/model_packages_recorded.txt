@@ -1,0 +1,8 @@
+# Recorded numerical packages, not a complete portable environment lock.
+# Python 3.12.14
+numpy==2.5.2
+pandas==3.0.1
+scipy==1.18.1
+scikit-learn==1.9.0
+statsmodels==0.15.0
+quantile-forest==1.4.2

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "origin_count": 90,
+  "models": [
+    "FOOD_H0_FAST_R18",
+    "FOOD_H0_SLOW_R18",
+    "FOOD_H0_SELECT_R18"
+  ],
+  "prediction_rows": 3240,
+  "native_rows": 3510,
+  "full_run": true,
+  "h0_unchanged": true,
+  "nonfood_weights_exact": true,
+  "six_component_monthly_sum_exact": true,
+  "pipeline_fast_max_abs": 0.0,
+  "original_primary_keys": 969,
+  "finite_future_food": 3240,
+  "source_first_eve_matches": 90,
+  "source_detail_eve_matches": 71,
+  "independent_replay_h0_max_abs": 2.3331787346592137e-07
+}

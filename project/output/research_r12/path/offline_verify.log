@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "source_hashes": 40,
+  "payload_hashes": 8,
+  "forecast_rows": 10530,
+  "summary_rows": 684,
+  "bootstrap_rows": 144,
+  "cnb_rows": 220,
+  "tolerance": 1e-12,
+  "refits": 0,
+  "clock": "saved frozen release-eve",
+  "checked_at": "2026-09-09T11:49:04.774218+00:00"
+}

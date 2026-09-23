@@ -1,0 +1,19 @@
+{
+  "explained_fits": 1440,
+  "maximum_reconstruction_error": 2.7755575615628914e-16,
+  "units": "Monthly log core pp; includes ridge constants and generated-predictor centering; not causal effects.",
+  "inputs": {
+    "fits.json": "3a0465d4cb412d7da9b1efda7a46d0f51a6caaa9c237cf31593e6b8599fe4ef9",
+    "states.json": "316f26c84670d064514e710492f6746fce89730ba2c3b040238f0b122812d929",
+    "stage2_features.csv": "471db71295295a1f6fd4a642ae9f299628184170919066a85a6c43a8c05aa941",
+    "core_predictions.csv": "8bacbb7e734b5000c25704907e9c50c7d4b81264a0118daeb3fd21a5e33a0879",
+    "signal_features_services.csv": "8338793a0cbc6fb1611b6385078b18243105472871efe5d410a13f37a3b71c46",
+    "signal_features_goods.csv": "60ad2f7faae875e35136fecf808174276c9322be749ae19e801749bf39def8f6"
+  },
+  "source_sha256": "270949ad1b0166f17340674e05d3b6a2d7031aa9b60cde1d21653f7b28c3441d",
+  "helper_sha256": "2d7f964d1ace2ce0b18fcb47699fe09f21901eb4c6505d2e71115170129d6e57",
+  "outputs": {
+    "source_contributions.csv": "3ed738aff4d45370d423ebb6c334bc5dbce402ba4570ed0b97b2275be530e204",
+    "latest_source_contributions.csv": "202a0528ea50fc57d2ec0be1cc9129f0c040d1274dd7b1caf7e0d6a574e58549"
+  }
+}

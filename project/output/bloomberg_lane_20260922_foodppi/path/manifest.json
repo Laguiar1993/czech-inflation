@@ -1,0 +1,22 @@
+{
+ "created_at_utc": "2026-09-22T13:39:52.767272+00:00",
+ "bundle": "data\\bloomberg_inputs_20260922_foodppi",
+ "bundle_manifest": "3ab4d5971aa24bc6c2d9fd5d6650349c8b0b2584d2869497ac89355e6ccb00d5",
+ "nowcast_run": "a97e207c4be89712e95670237db1593d3c696aad707728b0ea9f77c731d8cb39",
+ "inputs": {
+  "native": "5352e2b85eb575ebfccb795250fc9d92b4cb6fd8f178bf8d29b4bc05a0413b4a",
+  "forecasts": "3d651fb180949a95b5e3be3557f525f7ccb1ff6c7ba9e1b5dec8659919324cbf",
+  "pairs": "86d8c423697937bfc48bd3cbcde1f9d27c53898c82152f2036638c3943779efb",
+  "support": "149e4d4be70b8575033fcb21130beefc24495678eef65f66e34af49049770936",
+  "previous_headline": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+  "long_history": "bc8d4139fc6ea3662d8a544f8a2832bb1d5827e62327c67d1782db953077502c",
+  "calendar": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4"
+ },
+ "code": "e48bdc3ff521ae2d1ff6d878369c58687fe7560ea840e7f86ff6de8465441508",
+ "outputs": {
+  "audit.csv": "897cdee13b55373711999b683e9262eb74f26ead1ecd5d60f982f3c1cc0d6449",
+  "path_rows.csv": "3aa88b06d2e5faf7a4953f3e60ff812d68380f6b5914cbe02cdddfef91978ffc",
+  "scores.csv": "30e7654354dc0f044f3f7e92ad314cd4228e896f5426862983cbaada6d564151",
+  "summary.json": "0d1c3ba626ea314b096ff58afd1ab3259b851e33b9f3a610cbe206c6c51c0631"
+ }
+}

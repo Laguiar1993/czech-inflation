@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "files": {
+    ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "monthly_levels.csv": "df7be7e25f19b4e8ba7cfee599dfdecefe69d8a821143ff87e98b066585228ec",
+    "provenance.json": "0603bec74a266404bf9579a3623d579a67fdd818184e05d2bd6354eb17c86269",
+    "series_metadata.csv": "c79d1dc71a480974806898d40af6b0abcea94fadca50a997deace9a1a344c2eb",
+    "weights.csv": "90e4a6592cf16e3f40f6d28d762cd28e3f2d92ca80d9239a8c76db429b58b74e"
+  }
+}

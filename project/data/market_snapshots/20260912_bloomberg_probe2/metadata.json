@@ -1,0 +1,244 @@
+{
+  "CZCPMOM Index": {
+    "name": "Czech Republic CPI  Nominal Ch",
+    "security_des": "Czech Republic CPI  Nominal Ch",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPYOY Index": {
+    "name": "Czech Republic CPI Nominal Chn",
+    "security_des": "Czech Republic CPI Nominal Chn",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCIRM Index": {
+    "name": "Czech Inflation Regulated Pric",
+    "security_des": "Czech Inflation Regulated Pric",
+    "indx_source": "Czech National Bank",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCIRY Index": {
+    "name": "Czech Inflation Regulated Pric",
+    "security_des": "Czech Inflation Regulated Pric",
+    "indx_source": "Czech National Bank",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-02-28",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCIRCM Index": {
+    "name": "Czech Inflation Regulated Pric",
+    "security_des": "Czech Inflation Regulated Pric",
+    "indx_source": "Czech National Bank",
+    "seasonality_and_transformation": "Percentage Points NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CPEXCZ Index": {
+    "name": "Eurostat Czech Republic Core H",
+    "security_des": "Eurostat Czech Republic Core H",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CPEXCZM Index": {
+    "name": "Eurostat Czech Republic Core H",
+    "security_des": "Eurostat Czech Republic Core H",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CPAPCZ Index": {
+    "name": "EU CPI Administered Prices Cze",
+    "security_des": "EU CPI Administered Prices Cze",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CPAPCZMM Index": {
+    "name": "EU CPI Administered Prices Cze",
+    "security_des": "EU CPI Administered Prices Cze",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP7FCZ Index": {
+    "name": "EU CPI Fuels & Lubricants for",
+    "security_des": "EU CPI Fuels & Lubricants for",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP7FCZMM Index": {
+    "name": "EU CPI Fuels & Lubricants for",
+    "security_des": "EU CPI Fuels & Lubricants for",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZEIIMOM Index": {
+    "name": "Czech Republic Import Prices M",
+    "security_des": "Czech Republic Import Prices M",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIYOY Index": {
+    "name": "Czech Republic Import Prices Y",
+    "security_des": "Czech Republic Import Prices Y",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "ECOBETCZ Index": {
+    "name": "Czech Republic Euro-super 95 G",
+    "security_des": "Czech Republic Euro-super 95 G",
+    "indx_source": "European Commission",
+    "indx_freq": "Weekly on Friday",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ",
+    "des_notes": "SECTOR DESCRIPTION: European Commission Weekly Oil Bulletin Prices.  Weekly consumer prices for petroleum products in EU countries, prices include Automative Gas oil, Euro-super 95, Low Sulphur Fuel Oil, Heating Gas oil and LPG (prices for with and without tax).<p>NOTE: The European Commission ceased all United Kingdom coverage during 2020 <p>SOURCE: European Commission: {https://ec.europa.eu/energy/en/data-analysis/weekly-oil-bulletin}<p>UPDATE INFO: Data is updated on a weekly basis.<p>CALCULATIONS: The prices are taken directly from the source without any manipulation.<p>SOURCE METHODOLOGY: N/A<p>HISTORICAL CONSIDERATIONS: N/A<p>DATA DISCOVERY: {ALLX ECOB<GO>} for all Consumer Petroleum Prices in Europe.<p>RELATED SECTORS/FUNCTIONS:{BOIL<GO>} -> 5) Retail<p>As of January 1st 2023, Croatia has joined the Eurozone and HRK tickers have been discontinued. Please use the equivalent tickers in Euro.<P>USE AS A FINANCIAL BENCHMARK MAY BE RESTRICTED. SEE {DOCS #2084680<GO>}"
+  },
+  "ECOBOTCZ Index": {
+    "name": "Czech Republic Automotive Gas",
+    "security_des": "Czech Republic Automotive Gas",
+    "indx_source": "European Commission",
+    "indx_freq": "Weekly on Friday",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ",
+    "des_notes": "SECTOR DESCRIPTION: European Commission Weekly Oil Bulletin Prices.  Weekly consumer prices for petroleum products in EU countries, prices include Automative Gas oil, Euro-super 95, Low Sulphur Fuel Oil, Heating Gas oil and LPG (prices for with and without tax).<p>NOTE: The European Commission ceased all United Kingdom coverage during 2020 <p>SOURCE: European Commission: {https://ec.europa.eu/energy/en/data-analysis/weekly-oil-bulletin}<p>UPDATE INFO: Data is updated on a weekly basis.<p>CALCULATIONS: The prices are taken directly from the source without any manipulation.<p>SOURCE METHODOLOGY: N/A<p>HISTORICAL CONSIDERATIONS: N/A<p>DATA DISCOVERY: {ALLX ECOB<GO>} for all Consumer Petroleum Prices in Europe.<p>RELATED SECTORS/FUNCTIONS:{BOIL<GO>} -> 5) Retail<p>As of January 1st 2023, Croatia has joined the Eurozone and HRK tickers have been discontinued. Please use the equivalent tickers in Euro.<P>USE AS A FINANCIAL BENCHMARK MAY BE RESTRICTED. SEE {DOCS #2084680<GO>}"
+  },
+  "ECOBEFCZ Index": {
+    "name": "Czech Republic Euro-super 95 G",
+    "security_des": "Czech Republic Euro-super 95 G",
+    "indx_source": "European Commission",
+    "indx_freq": "Weekly on Friday",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ",
+    "des_notes": "SECTOR DESCRIPTION: European Commission Weekly Oil Bulletin Prices.  Weekly consumer prices for petroleum products in EU countries, prices include Automative Gas oil, Euro-super 95, Low Sulphur Fuel Oil, Heating Gas oil and LPG (prices for with and without tax).<p>NOTE: The European Commission ceased all United Kingdom coverage during 2020 <p>SOURCE: European Commission: {https://ec.europa.eu/energy/en/data-analysis/weekly-oil-bulletin}<p>UPDATE INFO: Data is updated on a weekly basis.<p>CALCULATIONS: The prices are taken directly from the source without any manipulation.<p>SOURCE METHODOLOGY: N/A<p>HISTORICAL CONSIDERATIONS: N/A<p>DATA DISCOVERY: {ALLX ECOB<GO>} for all Consumer Petroleum Prices in Europe.<p>RELATED SECTORS/FUNCTIONS:{BOIL<GO>} -> 5) Retail<p>As of January 1st 2023, Croatia has joined the Eurozone and HRK tickers have been discontinued. Please use the equivalent tickers in Euro.<P>USE AS A FINANCIAL BENCHMARK MAY BE RESTRICTED. SEE {DOCS #2084680<GO>}"
+  },
+  "ECOBOFCZ Index": {
+    "name": "Czech Republic Automotive Gas",
+    "security_des": "Czech Republic Automotive Gas",
+    "indx_source": "European Commission",
+    "indx_freq": "Weekly on Friday",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ",
+    "des_notes": "SECTOR DESCRIPTION: European Commission Weekly Oil Bulletin Prices.  Weekly consumer prices for petroleum products in EU countries, prices include Automative Gas oil, Euro-super 95, Low Sulphur Fuel Oil, Heating Gas oil and LPG (prices for with and without tax).<p>NOTE: The European Commission ceased all United Kingdom coverage during 2020 <p>SOURCE: European Commission: {https://ec.europa.eu/energy/en/data-analysis/weekly-oil-bulletin}<p>UPDATE INFO: Data is updated on a weekly basis.<p>CALCULATIONS: The prices are taken directly from the source without any manipulation.<p>SOURCE METHODOLOGY: N/A<p>HISTORICAL CONSIDERATIONS: N/A<p>DATA DISCOVERY: {ALLX ECOB<GO>} for all Consumer Petroleum Prices in Europe.<p>RELATED SECTORS/FUNCTIONS:{BOIL<GO>} -> 5) Retail<p>As of January 1st 2023, Croatia has joined the Eurozone and HRK tickers have been discontinued. Please use the equivalent tickers in Euro.<P>USE AS A FINANCIAL BENCHMARK MAY BE RESTRICTED. SEE {DOCS #2084680<GO>}"
+  },
+  "CZBRREPO Index": {
+    "name": "Czech Republic Ceska Narodni B",
+    "security_des": "Czech Republic Ceska Narodni B",
+    "indx_source": "PRIBOR PANEL BANK DATA",
+    "seasonality_and_transformation": "Percent NSA",
+    "indx_freq": "Intraday",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ",
+    "des_notes": "A target interest rate set by the central bank in its efforts to influence short-term interest rates as part of its monetary policy strategy. This indicator shows the new target interest rate on the date the new rate went into effect."
+  },
+  "BISBCZR Index": {
+    "name": "Czech Republic Real Effective",
+    "security_des": "Czech Republic Real Effective",
+    "indx_source": "Bank for International Settlem",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "An effective exchange rate (also known as a trade-weighted exchange rate) is a weighted average of the individual exchange rates of a particular country with its main trading partners. The bilateral exchange rates are weighted according to the importance of each partner country's share of trade with the reporting country. The real effective exchange rate (REER) is adjusted for inflation."
+  },
+  "OECZFRAA Index": {
+    "name": "OECD Czech Rep Real Effective",
+    "security_des": "OECD Czech Rep Real Effective",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ"
+  },
+  "BRERCZ Index": {
+    "name": "Bloomberg Economics Czech Rep",
+    "security_des": "Bloomberg Economics Czech Rep",
+    "indx_source": "Bloomberg Economics",
+    "indx_freq": "Daily",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  },
+  "CZCMTRBA Index": {
+    "name": "Czech Republic BoP Current Acc",
+    "security_des": "Czech Republic BoP Current Acc",
+    "indx_source": "Czech National Bank",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-06-30",
+    "country": "CZ",
+    "des_notes": "\"The current account is part of the balance of payments. It tracks all transactions, excluding financial transactions, that involve economic values and occur between residents of a country and nonresidents. Major components include trade in goods, trade in services, income and current transfers.The balance of payments is a record of a country's overall international transactions with the rest of the world (i.e. transactions between residents of a country and nonresidents). The balance of payments is divided into current, capital and financial accounts.\""
+  },
+  "CZPPAYOY Index": {
+    "name": "Czech Republic PPI Agricultura",
+    "security_des": "Czech Republic PPI Agricultura",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2017-03-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "LONSCZHH Index": {
+    "name": "Czech Republic Household & Non",
+    "security_des": "Czech Republic Household & Non",
+    "indx_source": "European Central Bank",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks the aggregate assets and liabilities of banks within an economy (including private or commercial banks, central banks or both)."
+  },
+  "CZHHHHTV Index": {
+    "name": "Czech Republic Volume of House",
+    "security_des": "Czech Republic Volume of House",
+    "indx_source": "Czech National Bank",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks the amount of new lending to consumers during the reference period. At its broadest, this concept can include everything from credit card lending, to auto loans, to lines of credit and mortgages."
+  }
+}

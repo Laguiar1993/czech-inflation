@@ -1,0 +1,12 @@
+pandas>=2.0
+numpy
+scipy
+statsmodels
+scikit-learn
+quantile-forest
+matplotlib
+requests
+pyarrow
+duckdb
+beautifulsoup4
+openpyxl

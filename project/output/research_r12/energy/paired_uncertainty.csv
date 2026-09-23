@@ -1,0 +1,15 @@
+frame,metric,n,block,replicates,seed,delta,lower,upper
+all,mae,90,6,2000,1209,0,0,0
+all,rmse,90,6,2000,1209,0,0,0
+recent2024+,mae,31,6,2000,1209,0,0,0
+recent2024+,rmse,31,6,2000,1209,0,0,0
+ex_jan,mae,83,6,2000,1209,0,0,0
+ex_jan,rmse,83,6,2000,1209,0,0,0
+flash2025+,mae,19,6,2000,1209,0,0,0
+flash2025+,rmse,19,6,2000,1209,0,0,0
+big,mae,23,6,2000,1209,0,0,0
+big,rmse,23,6,2000,1209,0,0,0
+big_up,mae,13,6,2000,1209,0,0,0
+big_up,rmse,13,6,2000,1209,0,0,0
+big_down,mae,10,6,2000,1209,0,0,0
+big_down,rmse,10,6,2000,1209,0,0,0

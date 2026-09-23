@@ -1,0 +1,15 @@
+{
+  "files": {
+    "manual_inputs.csv": "a9ffa47b397e81bc70b872bd9171da10e1dc0ea6997d4ad09bd2868c6f3c9efe",
+    "market/history_long.csv": "7b9051bf8c933472a099db19f07a39a6cbf1536fa5b5de7fe941f8c672cead67",
+    "nowcast/alcohol_tobacco.csv": "6829ab91d0fdd50e62c9f36cd343447c6c3bc72a2966f0746958b0b21102b796",
+    "nowcast/cnb_core_mm.csv": "6079b741ed18675030264f6326dbc45d428d587d2cba82e9cd1e6395452230df",
+    "nowcast/cnb_regulated_mm.csv": "8e6c153d109f56e93321749722407d6eb5bc2e5f65c78034739d14d271422fc7",
+    "nowcast/component_food_fuel_mm.csv": "d27a2e6f0b449f1808268d5931011599b09a29bd3512fa0b0d842e66cf85de22",
+    "nowcast/core_features.csv": "607cfc632319134e32857e42410e346d7f4961467d8b5a7fe243ba9e955f32ce",
+    "nowcast/food_block_features.csv": "3856e398469ea32292dd81f25f210199255d3c872b75c25eff2e770f223890c0",
+    "nowcast/fuel_weekly_variant_b.csv": "d6f2b28bea4d2dcb2e308b407ede137fdbb2125f83eb872b841f2b249529cb4f",
+    "nowcast/target_headline_cpi_mm.csv": "12423f67a548f47f48378f5232ee593041dce170564e474493e418c38c9e9c38",
+    "provenance.json": "1fb62084f400ea565e8839e06fae9b0e3cfd8933859eba252c26be9be38faaa5"
+  }
+}

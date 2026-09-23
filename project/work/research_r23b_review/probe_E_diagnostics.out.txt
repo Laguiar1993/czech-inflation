@@ -1,0 +1,52 @@
+##### E diagnostics package
+[PASS] E1 seasonal share = R2 of a period-of-year dummy regression, all 7 features x 2 scopes equal gate_feature_seasonality.csv :: max abs diff=2.220e-16
+   max share: 0.0665 for ['ppi_mom', 'quarter_end_origins'] (declared limit 0.25)
+   gate applied to the sealed R23 ulc_gap (expected about 0.44): 0.4379
+   ulc_sameq: share explained by ORIGIN calendar month (12 groups, n=194) = 0.0009; chance level about 0.0570
+   import_mom: share explained by ORIGIN calendar month (12 groups, n=199) = 0.0098; chance level about 0.0556
+   ppi_mom: share explained by ORIGIN calendar month (12 groups, n=199) = 0.0643; chance level about 0.0556
+   fx_news: share explained by ORIGIN calendar month (12 groups, n=199) = 0.0447; chance level about 0.0556
+[PASS] E1 coefficient gates (on-bound share for the signed fit, negative share otherwise) equal gate_coefficient_signs.csv
+   note: shares above pool applied fits and unapplied diagnostic fits (alpha fixed at 3). Wrong-sign share among APPLIED fits only, joint model:
+band  feature   
+   1     fx_news       1.000
+         import_mom    0.700
+         ppi_mom       0.000
+         tightening    0.250
+         ulc_sameq     0.000
+   2     fx_news       0.845
+         import_mom    1.000
+         ppi_mom       0.000
+         tightening    0.803
+         ulc_sameq     0.000
+[PASS] E2 block rule 12 / 6 / none
+[PASS] E2 the index rule gives every origin the same inclusion probability, also when n is not a multiple of the block (400,000 draws) :: max relative deviation=0.0039
+   at the delivered 2,000 draws and seed the realised inclusion still varies by up to 7.8% between origins (Monte Carlo noise, not bias)
+[PASS] E2 function reproduces from its declared index rule
+[PASS] E2 non-contiguous origins are refused
+[PASS] E2 reversed (unsorted) origins are refused rather than resampled as if contiguous
+[PASS] E2 delivered bootstrap table: block 12 iff n>=48, 6 iff 24<=n<48, no interval below 24; all supports contiguous
+[PASS] E2 mean loss differences at h3/h6/h12 equal own MSE differences on the primary support :: max abs diff=1.776e-15
+[PASS] E2 intervals agree with an own-seed replication within 15% of the interval width; no point estimate outside its own interval :: max endpoint gap / width=0.060; outside=0
+[PASS] E3 monthly parts (h0, five blocks, wedge) sum to the headline monthly error
+[PASS] E3 h0 is its own bucket: at h0 every block and the wedge are zero and e_h0 = e_total; zero elsewhere
+[PASS] E3 block error = weight x (forecast - realised block rate) on every h>0 row
+[PASS] E3 cumulative parts = running sums from h0, a missing month propagates
+   wedge (residual) monthly error: mean -0.0003, RMS 0.0842 pp; block table is of the cumulative price-LEVEL error, h0 included at every H
+   FAST h6: RMS annual-rate error 2.249 against RMS of summed monthly errors 2.072; RMS gap 0.196; correlation 0.9992
+   FAST h12: RMS annual-rate error 4.777 against RMS of summed monthly errors 4.430; RMS gap 0.362; correlation 0.9997
+[PASS] E4 quarter fully inside the path: mean of the three cumulative rows
+[PASS] E4 months before the origin contribute zero
+[PASS] E4 quarter beyond h12 returns None
+[PASS] E4 the h0 contribution is dropped at h12 only, and c_total is the sum of the parts
+   call attribution: 703 of 703 calls attributed; model_error vs approx_error correlation 0.9992, RMS gap 0.281 pp, RMS error 3.004 pp
+[PASS] E5 seasonal naive: own rebuild equal, and unchanged when every month at or after the origin or unpublished at the clock is poisoned :: []
+[PASS] E6 CONST_2 and RW_YY quarter values equal the delivered ones on every report-clock pair :: pairs=322, max abs diff=0.000e+00
+[PASS] E6 call, eligibility and realised flags equal
+   CONST_2: considered_pairs=40, all_calls=40, calls_without_eligible_revision=12, n_pairs=28, n_reports=12, n_target_quarters=21, calls=28, revision_direction_matches=16, revision_confirmations=9, mature_calls=19, material_gains=6, material_losses=12, joint_successes=3, unconfirmed_calls=19, mean_abs_error_gain=-0.8762
+   RW_YY: considered_pairs=55, all_calls=55, calls_without_eligible_revision=19, n_pairs=36, n_reports=9, n_target_quarters=22, calls=36, revision_direction_matches=28, revision_confirmations=18, mature_calls=25, material_gains=7, material_losses=17, joint_successes=6, unconfirmed_calls=18, mean_abs_error_gain=-2.9820
+[PASS] E6 CONST_2 and RW_YY first-call-episode summary rows (report clock, 0.30, full) equal cnb_lead_summary.csv on all 15 columns :: []
+[PASS] E7 model quarter values (FAST, joint, ULC) = mean of known history before the origin and the same-origin annual path :: max abs diff=0.000e+00
+[PASS] E7 all 224 rows of cnb_lead_summary.csv (14 models x 2 clocks x 2 thresholds x 2 samples x 2 scopes) reproduce with own call, eligibility, episode and outcome rules :: []
+[PASS] E6 base rates use only annual rates published at the snapshot clock (month origin-1 released before as_of) :: []
+##### E diagnostics package: 25 passed, 0 failed, 0 notes

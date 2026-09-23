@@ -1,0 +1,5 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value
+cpi_components,CP41CZ Index,2026-09-12T17:01:55.686599+00:00,EU CPI Actual Rentals for Hous,Eurostat,Index NSA,Monthly,2026-07-31,ok,MONTHLY,320,1999-12-31,2026-07-31,106.41
+cpi_components,CP41CZMM Index,2026-09-12T17:01:56.442926+00:00,EU CPI Actual Rentals for Hous,Eurostat,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,319,2000-01-31,2026-07-31,0.8
+cpi_components,CP96CZ Index,2026-09-12T17:01:56.992540+00:00,EU CPI Package Holidays Czech,Eurostat,Index NSA,Monthly,2026-07-31,ok,MONTHLY,320,1999-12-31,2026-07-31,122.02
+cpi_components,CP96CZMM Index,2026-09-12T17:01:57.567445+00:00,EU CPI Package Holidays Czech,Eurostat,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,319,2000-01-31,2026-07-31,23.0

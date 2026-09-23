@@ -1,0 +1,36 @@
+1. splice
+   CZSO base index: 1995-01..2025-12, n=372, min 63.4 max 153.4, decimals: [1]
+   overlap 2015-02..2025-12 (n=131): max |CZSO rate - model rate| = 1.07e-13 log points
+   months taken from CZSO: 1995-02..2015-01 ; from the model series: 2015-02..2026-07
+   latest CZSO-sourced month 2015-01 is stamped 2015-02-10 08:00:00+00:00 -> before every origin clock (first clock 2019-03-10 22:59:00+00:00)
+   model series after the CZSO file ends (2026-01..): 7 months, all from pipeline_log_levels.csv with recorded stamps
+   recorded food stamps: day-of-following-month range 8..15
+
+2. rounding Monte Carlo (2000 draws, every index level perturbed by U(-0.05,0.05), model-series months included since they are the same rounded index)
+   2019-02: mu_long 2.5587 a year (level-ratio recomputation 2.5587, windows 266); rounding MC 95% [2.5137, 2.5994], sd 0.0219
+   2021-12: mu_long 2.5587 a year (level-ratio recomputation 2.5587, windows 300); rounding MC 95% [2.5115, 2.6022], sd 0.0225
+   2022-06: mu_long 2.6391 a year (level-ratio recomputation 2.6391, windows 306); rounding MC 95% [2.5800, 2.6620], sd 0.0213
+   2024-06: mu_long 2.6784 a year (level-ratio recomputation 2.6784, windows 330); rounding MC 95% [2.6710, 2.7521], sd 0.0206
+   2026-07: mu_long 2.6562 a year (level-ratio recomputation 2.6562, windows 355); rounding MC 95% [2.6219, 2.6983], sd 0.0198
+
+3. same median from the published year-on-year index (casz C), available through 2025-12
+   2019-02: from y/y index 2.4693 (n=229, through 2019-01) vs mu_long 2.5587; gap -0.0895 a year
+   2021-12: from y/y index 2.4693 (n=263, through 2021-11) vs mu_long 2.5587; gap -0.0895 a year
+   2022-06: from y/y index 2.5668 (n=269, through 2022-05) vs mu_long 2.6391; gap -0.0723 a year
+   2024-06: from y/y index 2.6642 (n=293, through 2024-05) vs mu_long 2.6784; gap -0.0142 a year
+   2026-07: from y/y index 2.6642 (n=312, through 2025-12) vs mu_long 2.6562; gap +0.0080 a year
+
+4. wording: first change ending 1996-01 (start 1995-02) versus the code (start 1996-01)
+   2019-02: start 1995-02 -> 2.6562 (n=277); start 1996-01 -> 2.5587 (n=266); gap +0.0975 a year
+   2021-12: start 1995-02 -> 2.6562 (n=311); start 1996-01 -> 2.5587 (n=300); gap +0.0975 a year
+   2022-06: start 1995-02 -> 2.6866 (n=317); start 1996-01 -> 2.6391 (n=306); gap +0.0475 a year
+   2024-06: start 1995-02 -> 2.9414 (n=341); start 1996-01 -> 2.6784 (n=330); gap +0.2630 a year
+   2026-07: start 1995-02 -> 2.7935 (n=366); start 1996-01 -> 2.6562 (n=355); gap +0.1373 a year
+
+5. POST-HOC (not for selection): the long-run median by start year, log points a year
+ origin  1996  1998  2000  2002  2005  2010  mean_from_1996
+2019-02 2.559 2.254 2.559 2.460 2.747 3.582           2.033
+2021-12 2.559 2.319 2.559 2.463 2.678 3.332           2.079
+2022-06 2.639 2.429 2.660 2.519 2.810 3.516           2.570
+2024-06 2.678 2.519 2.810 2.678 3.233 3.721           2.732
+2026-07 2.656 2.486 2.687 2.646 2.981 3.554           2.615

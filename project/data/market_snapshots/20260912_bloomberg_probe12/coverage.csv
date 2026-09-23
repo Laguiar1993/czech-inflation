@@ -1,0 +1,2 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value
+cnb_fixing,EURCZKF Curncy,2026-09-12T17:29:58.731972+00:00,EUR-CZK X-RATE      6 MO,,,,2026-09-11,ok,DAILY,7111,1999-01-04,2026-09-11,101.25

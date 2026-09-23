@@ -1,0 +1,12 @@
+{
+ "median": 0.3,
+ "mean": 0.3,
+ "high": 0.4,
+ "low": 0.3,
+ "n_respondents": 8,
+ "eco_release_dt": "2026-09-10",
+ "source": "bloomberg_ref_snapshot",
+ "target_month": "2026-09",
+ "captured_at": "2026-09-06T10:02:48",
+ "sha256": "d819c7c60d7c75a51d3c80525277804bc55b10e0085528239d6f9dffdfb01d85"
+}

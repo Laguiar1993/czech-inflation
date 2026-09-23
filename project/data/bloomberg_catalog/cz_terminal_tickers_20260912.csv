@@ -1,0 +1,306 @@
+group,bbg_source,transformation,base,label,ticker
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,All items,CZCPI Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,Food and Nonalcoholic Beverages,CZCPF Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,Alcoholic beverages and tobacco,CZCPA Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,Clothing and Footwear,CZCPC Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,"Housing, Water, Electricity, Gas and Other Fuels",CZCPH Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,"Furnishings, Household Equipment and Maintenance",CZCPN Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,Health,CZCPHE Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,Transport,CZCPTR Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,Telecommunications equipment,CZCPP Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,Recreation and Culture,CZCPR Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,Education,CZCPE Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,Restaurants and Hotels,CZCPSH Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,Insurance and financial services,CZCP12 Index
+cpi_czso_index,Czech Statistical Office,Index NSA,2025=100,"Personal care, social protection and miscellaneous goods and services",CZCP13 Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,All Items,CPALCZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Food and non-alcoholic beverages,CPF1CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Food,CPFOCZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Cereals and cereal products,CP11CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,"Live animals, and meat and other parts of slaughtered land animals",CP12CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Fish and other seafood,CP13CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,"Milk, other dairy products and eggs",CP14CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Oils and fats,CP15CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Fruits and nuts,CP16CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,"Vegetables, tubers, plantains, cooking bananas and pulses",CP17CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,"Sugar, confectionery and desserts",CP18CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Ready-made food and other food products,CP19CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Non-alcoholic beverages,CPNACZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Fruit and vegetable juices,CP773CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Coffee and coffee substitutes,CP751CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,"Tea, mate and other plant-derived products for infusion",CP8F0CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Cocoa drinks,CP8C1CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Water,CP8W3CZ Index
+hicp_eurostat_index,Eurostat,Index NSA,2025=100,Soft drinks,CP8S4CZ Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,"Agriculture, Forestry and Fishing",CZPPAMOM Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Producer Prices (Output Prices),CZPPMOM Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Mining and quarrying,CZPPBM Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Black and Brown Coal and Lignite,CZPPB05M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Oil and Gas,CZPPB06M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Oil,CZPPB61M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Natural Gas and LNG,CZPPB62M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Other mining and quarrying,CZPPB08M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,"Stone, Sand, and Clay",CZPPB81M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Services and Products Manufacturing Industry,CZPPCM Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,"Food, beverages and tobacco",CZPPCAM Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Food products,CZPPA10M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Processing and preserving of meat,CZPPA01M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Processing and preserving of fruit and vegetables,CZPPA03M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Vegetable and Animal Oils and Fats,CZPPA04M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Dairy Products and Ice Cream,CZPPA05M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,Mill and Starch Products,CZPPA06M Index
+ppi_czso_mom,Czech Statistical Office,MoM% NSA,2005=100,"Bread, Cakes, and Other Flour Products",CZPPA07M Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,Producer Prices (Output Prices),EUPPCZY Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,"Ex. construction, sewerage, waste mngmt & remediation, foo…",EPYBE4CZ Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,"Mining & quarrying; manufacturing; electricity, gas, steam & …",EPY0BDCZ Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,Intermediate goods and capital goods,EPYIGKCZ Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,Intermediate goods,EPY0IGCZ Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,Energy,PPENCZY Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,"Energy, ex. Water Supply, Sewerage, Waste Management & …",EPYEN2CZ Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,Capital goods,PPCGCZY Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,Consumer goods,EPY0CGCZ Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,"Consumer goods (excluding food, beverages & tobacco)",EPYCG1CZ Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,Durable consumer goods,PPDGCZY Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,Nondurable consumer goods,PPNGCZY Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,"Manufacturing, mining and quarrying excluding energy",PPXECZY Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,"Mining and quarrying, manufacturing except energy, food, be…",EPYBC3CZ Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,"Manufacturing, mining and quarrying",EPY0BCCZ Index
+ppi_eurostat_yoy,Eurostat,YoY% NSA,,Mining and quarrying,EPY00BCZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Consumer goods,EPT0CGCZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,"Consumer goods (excluding food, beverages & tobacco)",EPTCG1CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Durable consumer goods,EPT0DGCZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Nondurable consumer goods,EPT0NDCZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,"Manufacturing, mining and quarrying excluding energy",EPTBC2CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,"Mining and quarrying, manufacturing except energy, food, b…",EPTBC3CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,"Manufacturing, mining and quarrying",EPT0BCCZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Mining and quarrying,EPT00BCZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Mining of coal and lignite,EPT0B5CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Extraction of crude petroleum and natural gas,EPT0B6CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Other mining and quarrying,EPT0B8CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Mining support service activities,EPT0B9CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Manufacturing,EPT00CCZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,"Manufacture of food products, beverage and tobacco pro…",EPTC10CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Manufacture of food products and beverages,EPTC11CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Manufacture of food products,EPT010CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Manufacture of beverages,EPT011CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Manufacture of tobacco products,EPT012CZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,"Manufacture of textiles, apparel, leather and related pro…",EPT12LCZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Manufacture of textiles and wearing apparel,EPT12MCZ Index
+ppi_eurostat_index,Eurostat,Index NSA,,Manufacture of textiles,EPT013CZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,"Excluding construction, sewerage, waste management and remedi…",EPNBE3CZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,"Ex. construction, sewerage, waste mngmt & remediation, food…",EPNBE4CZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,"Mining & quarrying; manufacturing; electricity, gas, steam & …",EPN0BDCZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,Intermediate goods and capital goods,EPNIGKCZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,Intermediate goods,EPN0IGCZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,Energy,EPN0ENCZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,"Energy, ex. Water Supply, Sewerage, Waste Management & R…",EPNEN2CZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,Capital goods,EPN0KGCZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,Consumer goods,EPN03GCZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,"Consumer goods (excluding food, beverages & tobacco)",EPNCG1CZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,Durable consumer goods,EPN0DGCZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,Nondurable consumer goods,EPN0NDCZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,"Manufacturing, mining and quarrying excluding energy",EPNBC2CZ Index
+ppi_eurostat_index_nondomestic,Eurostat,Index NSA,2015=100,"Mining and quarrying, manufacturing except energy, food, be…",EPNBC3CZ Index
+import_prices_czso_index,Czech Statistical Office,Index NSA,2015=100,Total,CZEIE Index
+import_prices_czso_index,Czech Statistical Office,Index NSA,2015=100,Food and Live Animals,CZEIEF Index
+import_prices_czso_index,Czech Statistical Office,Index NSA,2015=100,Beverages and Tobacco,CZEIEB Index
+import_prices_czso_index,Czech Statistical Office,Index NSA,2015=100,Crude Materials Inedible except Fuels,CZEIEI Index
+import_prices_czso_index,Czech Statistical Office,Index NSA,2015=100,"Mineral Fuels, Lubricants and Related Materials",CZEIEL Index
+import_prices_czso_index,Czech Statistical Office,Index NSA,2015=100,"Animal & Vegetable Oils, Fats & Waxes",CZEIEO Index
+import_prices_czso_index,Czech Statistical Office,Index NSA,2015=100,Chemicals & Related Products,CZEIEC Index
+import_prices_czso_index,Czech Statistical Office,Index NSA,2015=100,Manufactured Goods Classified by materials,CZEIEG Index
+import_prices_czso_index,Czech Statistical Office,Index NSA,2015=100,Machinery and Transport Equipment,CZEIET Index
+import_prices_czso_index,Czech Statistical Office,Index NSA,2015=100,Miscellaneous Manufactured Products,CZEIEM Index
+key_indicators,,,,"Real GDP (yoy %, sa)",CZGDPSAY Index
+key_indicators,,,,"Real GDP (yoy %, nsa)",CZGDPYOY Index
+key_indicators,,,,"Real GDP (qoq %, saar)",EUAPCZ Index
+key_indicators,,,,"Real GDP (qoq %, sa)",CZGDPSAQ Index
+key_indicators,,,,Consumer Price Index (yoy %),CZCPYOY Index
+key_indicators,,,,Consumer Price Index (mom %),CZCPMOM Index
+key_indicators,,,,HICP CPI (yoy %),ECCPCZY Index
+key_indicators,,,,Producer Price Index (yoy %),CZPPYOY Index
+key_indicators,,,,Producer Price Index (mom %),CZPPMOM Index
+key_indicators,,,,Unemployment Rate (%),CZJLUNR Index
+key_indicators,,,,"EU Czech Rep. Unemployment Rate (%, …",UMRTCZ Index
+key_indicators,,,,Unemployed (000s),CZUEL Index
+key_indicators,,,,Job Vacancies (000s),CZUEJV Index
+labour,Czech Statistical Office,Units/Persons NSA,,Labour force age 15 and over (thousands),CZLFAUN Index
+labour,Eurostat,Units/Persons SA,,Unemployment (thousands),UMLVCZ Index
+labour,Czech Statistical Office,Percent NSA,,Unemployment Rate,CZUEUR Index
+labour,Czech Statistical Office,Percent NSA,,Unemployment Rate - Male,CZUEURM Index
+labour,Czech Statistical Office,Percent NSA,,Unemployment Rate - Female,CZUEURF Index
+labour,Eurostat,Units/Persons NSA,,Employment LFS over 15 - all industries (thousands),EMPETTCZ Index
+labour,Eurostat,Units/Persons NSA,,Employment LFS over 15 - manufacturing (thousands),EMPECCZ Index
+labour,Eurostat,Units/Persons NSA,,Employment LFS 15-74 - all industries (thousands),EMPETCZ Index
+labour,Eurostat,QoQ% SWDA,,Employment (Labor Force Survey),EMEMCZQQ Index
+labour,Czech Statistical Office,Units/Persons NSA,,Age 15 and over (thousands),CZLFACT Index
+labour,Czech Statistical Office,Percent NSA,,Age 15 and over,CZLFTOTL Index
+labour,Czech Statistical Office,Units/Persons NSA,,Job Vacancies,CZUEJV Index
+labour,Czech Statistical Office,Units/Persons NSA,,Unemployment Claims (outstanding),CZUEL Index
+labour,Czech Statistical Office,Percent NSA,,Unemployment Claims Rate (share of unemployed persons),CZJLUNR Index
+labour,Czech Statistical Office,YoY% NSA,,Real wages (chained previous year prices),CZRWYOY Index
+labour,Czech Statistical Office,YoY% NSA,,Nominal wages,CZNWYOY Index
+labour,,,2012=100,Employment Cost Index,LNTNCZ Index
+labour,Eurostat,Index NSA,2010=100,Unit Labor Costs,LCTQCZI Index
+labour,Eurostat,Index Annual,2010=100,Unit Labor Costs,LCTOCZI Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Retail trade,CZRSCO Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Sale maintenance repair motor vehicles & motorcyc…,CZRS45ZO Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,"Sale, maintenance & repair of motor vehicles & m…",CZRSMO Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,"Sale of motor vehicles; sale, maintenance & rep…",CZRS454O Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Maintenance & repair of motor vehicles except o…,CZRS452O Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,"Retail trade, except of motor vehicles and motorcyc…",CZRS47O Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Retail sale all except automotive fuel,CZRS4NFO Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,"Retail sale of food, beverages and tobacco",CZRS46WO Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Other goods,CZRS4XXO Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Retail sale in non-specialised stores,CZRS471O Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Retail sale in non-specialised stores with food…,CZRS47IO Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Other retail sale in non-specialised stores,CZRS47JO Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,"Retail sale of food, beverages and tobacco in sp…",CZRS472O Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Retail sale of information and communication eq…,CZRS474O Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Retail sale of other household equipment in spe…,CZRS475O Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Retail sale of cultural and recreation goods in s…,CZRS476O Index
+retail_czso_index_o,Czech Statistical Office,Index NSA,2015=100,Retail sale of other goods in specialised stores,CZRS477O Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Retail trade,CZRSCU Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Sale maintenance repair motor vehicles …,CZRS45ZU Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,"Sale, maintenance & repair of motor ve…",CZRS45SU Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,"Sale of motor vehicles; sale, mainten…",CZRS454U Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Maintenance & repair of motor vehicl…,CZRS452U Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,"Retail trade, except of motor vehicles an…",CZRS47U Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Retail sale all except automotive fuel,CZRS4NFU Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,"Retail sale of food, beverages and to…",CZRS46WU Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Other goods,CZRS4XXU Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Retail sale in non-specialised stores,CZRS471U Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Retail sale in non-specialised store…,CZRS47IU Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Other retail sale in non-specialised …,CZRS47JU Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,"Retail sale of food, beverages and to…",CZRS472U Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Retail sale of information and commu…,CZRS474U Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Retail sale of other household equipm…,CZRS475U Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Retail sale of cultural and recreation …,CZRS476U Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,Retail sale of other goods in specialis…,CZRS477U Index
+retail_czso_index_u,Czech Statistical Office,Index NSA,2010=100,"Retail sales of clothing, footwear a…",CZRS4RZU Index
+vehicle_registrations,ACEA,Units/Persons NSA,,Passenger Cars,WCARCZ Index
+vehicle_registrations,ACEA,Units/Persons NSA,,Light Commercial Vehicles,LCVHCZI Index
+vehicle_registrations,ACEA,Units/Persons NSA,,Heavy Commercial Vehicles,HCVHCZI Index
+vehicle_registrations,ACEA,Units/Persons NSA,,Buses and Coaches over 3.5t,MBCHCZE Index
+vehicle_registrations,ACEA,Units/Persons NSA,,Medium & Heavy Commercial Vehicles,MHCVCZE Index
+industrial_production,Czech Statistical Office,Index NSA,2021=100,Industrial Production (Volume),CZIPITN Index
+industrial_production,Czech Statistical Office,Index NSA,2010=100,Mining and quarrying,CZIPIQN Index
+industrial_production,Czech Statistical Office,Index NSA,2010=100,Manufacturing,CZIPIMN Index
+industrial_production,Czech Statistical Office,Index NSA,2010=100,"Electricity, gas, steam and air conditioning supply",CZIPIUN Index
+industrial_production,Czech Statistical Office,Index WDA,2021=100,Industrial Production (Volume),CZIPITW Index
+industrial_production,Czech Statistical Office,Index WDA,2010=100,Mining and quarrying,CZIPIQW Index
+industrial_production,Czech Statistical Office,Index WDA,2010=100,Manufacturing,CZIPIMW Index
+industrial_production,Czech Statistical Office,Index WDA,2010=100,"Electricity, gas, steam and air conditioning supply",CZIPIUW Index
+construction,Czech Statistical Office,YoY% WDA,,Construction output,CZCSAYOY Index
+construction,Eurostat,Index WDA,2015=100,Construction output - total,CNTWCZ Index
+construction,Eurostat,Index WDA,2015=100,Construction output - buildings,CSBWCZ Index
+construction,Eurostat,Index WDA,2015=100,Construction output - civil engineering,CNCWCZ Index
+capacity_utilization,Eurostat,Percent SA,,Capacity Utilization,EUUCCZ Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Services sector - current prices,CZSSTOTN Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Services sector - constant prices,CZSSTOTR Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Transportation and storage,CZSSTRAN Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Land transport and transport via pipelines,CZSSLTRN Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Water transport,CZSSWTRN Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Air transport,CZSSATRN Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Warehousing and support activities for transport…,CZSSWSTN Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Postal and courier activities,CZSSPCAN Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Accommodation and food service activities,CZSSAFSN Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Accommodation,CZSSACON Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Food and beverage service activities,CZSSFBSN Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Information and communication,CZSSINCN Index
+services_czso_index,Czech Statistical Office,Index NSA,2005=100,Publishing activities,CZSSPUBN Index
+sentiment,Czech Statistical Office,% Balance/Diffusion,2005=100,Economic Sentiment Indicator (CZSO),CZCCCOM Index
+sentiment,European Commission,Index SA,Long Term Average=100,Economic Sentiment Indicator (EC),EUESCZ Index
+sentiment,Czech Statistical Office,Diffusion Index SA,,Business Conditions,CZCCBUS Index
+pmi,S&P Global,% Balance/Diffusion,,PMI surveys (headline),MPMICZMA Index
+pmi,S&P Global,% Balance/Diffusion,,PMI Index,KXCZMHE Index
+pmi,S&P Global,% Balance/Diffusion,,New Orders,KXCZMNI Index
+pmi,S&P Global,% Balance/Diffusion,,Output,KXCZMOB Index
+pmi,S&P Global,% Balance/Diffusion,,Employment,KXCZMEI Index
+pmi,S&P Global,% Balance/Diffusion,,Suppliers' Delivery Times,KXCZMSD Index
+pmi,S&P Global,% Balance/Diffusion,,Stocks of Purchases,KXCZMSP Index
+pmi,S&P Global,% Balance/Diffusion,,New Export Orders,KXCZMNE Index
+pmi,S&P Global,% Balance/Diffusion,,Backlogs of Work,KXCZMBW Index
+pmi,S&P Global,% Balance/Diffusion,,Quantity of Purchases,KXCZMQP Index
+pmi,S&P Global,% Balance/Diffusion,,Stocks of Finished Goods,KXCZMSF Index
+pmi,S&P Global,% Balance/Diffusion,,Input Prices,KXCZMIP Index
+pmi,S&P Global,% Balance/Diffusion,,Output Prices,KXCZMOP Index
+pmi,S&P Global,% Balance/Diffusion,,Future Output,KXCZMFB Index
+pmi,S&P Global,% Balance/Diffusion,,Capacity Utilization,KXCZMCU Index
+ec_survey_industry,European Commission,% Balance/Diffusion,,Industry Survey (confidence),EUICCZ Index
+ec_survey_industry,European Commission,% Balance/Diffusion,,Past Production,EUI6CZ Index
+ec_survey_industry,European Commission,% Balance/Diffusion,,Order Book Level,EUI2CZ Index
+ec_survey_industry,European Commission,% Balance/Diffusion,,Export Orders,EUI3CZ Index
+ec_survey_industry,European Commission,% Balance/Diffusion,,Inventory Levels of Finished Products,EUI4CZ Index
+ec_survey_industry,European Commission,% Balance/Diffusion,,Expected Production,EUI1CZ Index
+ec_survey_industry,European Commission,% Balance/Diffusion,,Expected Selling Prices,EUI5CZ Index
+ec_survey_industry,European Commission,% Balance/Diffusion,,Expected Employment,EUI7CZ Index
+ec_survey_construction,European Commission,% Balance/Diffusion,,Confidence Indicator,EUCOCZ Index
+ec_survey_construction,European Commission,% Balance/Diffusion,,Order Book Evolution,EUB2CZ Index
+ec_survey_construction,European Commission,% Balance/Diffusion,,Expected Employment,EUB3CZ Index
+ec_survey_construction,European Commission,% Balance/Diffusion,,Past Building Activity,EUB1CZ Index
+ec_survey_construction,European Commission,% Balance/Diffusion,,Expected Prices,EUB4CZ Index
+ec_survey_retail,European Commission,% Balance/Diffusion,,Retail Trade Survey (confidence),EURTCZ Index
+ec_survey_retail,European Commission,% Balance/Diffusion,,Past Business Activity,EUR1CZ Index
+ec_survey_retail,European Commission,% Balance/Diffusion,,Inventory Levels,EUR2CZ Index
+ec_survey_retail,European Commission,% Balance/Diffusion,,Future Business Activity,EUR4CZ Index
+ec_survey_retail,European Commission,% Balance/Diffusion,,Expected Orders,EUR3CZ Index
+ec_survey_retail,European Commission,% Balance/Diffusion,,Expected Employment,EUR5CZ Index
+ec_survey_retail,European Commission,% Balance/Diffusion,,Expected Prices,EUR6CZ Index
+ec_survey_services,European Commission,% Balance/Diffusion,,Confidence Indicator,EUSCCZ Index
+ec_survey_services,European Commission,% Balance/Diffusion,,Past Business Situation,EUS1CZ Index
+ec_survey_services,European Commission,% Balance/Diffusion,,Past Demand,EUS2CZ Index
+ec_survey_services,European Commission,% Balance/Diffusion,,Expected Demand,EUS3CZ Index
+ec_survey_services,European Commission,% Balance/Diffusion,,Past Employment,EUS4CZ Index
+ec_survey_services,European Commission,% Balance/Diffusion,,Expected Employment,EUS5CZ Index
+ec_survey_services,European Commission,% Balance/Diffusion,,Expected Prices,EUS6CZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Consumer Confidence,EUCCCZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Future Financial Situation,EUA2CZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Future Economic Situation,EUA4CZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Future Unemployment Expectations,EUAUCZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Future Capacity to Save,EUA0CZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Past Financial Situation,EUA1CZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Past Economic Situation,EUA3CZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Past Price Evolution,EUA7CZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Future Price Evolution,EUA8CZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Present Major Purchases,EUA5CZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Future Major Purchasing Intentions,EUA6CZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Current Savings,EUA9CZ Index
+ec_survey_consumer,European Commission,% Balance/Diffusion,,Current Financial Situation,EUAVCZ Index
+sentiment,Czech Statistical Office,% Balance/Diffusion,2005=100,Consumer Confidence (CZSO),CZCCCON Index
+financial_soundness,Czech National Bank,Percent Annual,,Coverage of Non-Performing Loans by Provisions,CZFSCNPL Index
+financial_soundness,Czech National Bank,Percent Annual,,Aggregate Loan-to-Value Ratio for Housing Mortgage,CZFSLTVH Index
+financial_soundness,Czech National Bank,Percent Annual,,Capital Adequacy Ratio,CZFSCAPA Index
+financial_soundness,Czech National Bank,Percent Annual,,Tier 1 Capital Adequacy,CZFSCAP1 Index
+financial_soundness,Czech National Bank,Percent Annual,,Return on Assets,CZFSROA Index
+financial_soundness,Czech National Bank,Percent Annual,,Return on Tier 1 Capital,CZFSROT1 Index
+nfc_ratios,Eurostat,Percent Annual,,Gross Return on Capital Employed before Taxes (NFC),ROCE11CZ Index
+nfc_ratios,Eurostat,Percent Annual,,Net Debt-Income Ratio after Taxes (NFC),NDIR11CZ Index
+nfc_ratios,Eurostat,Percent Annual,,Net Return on Equity after Taxes (NFC),ROES11CZ Index
+housing,Czech Statistical Office,Units/Persons NSA,,Building Permits (Number),CZGRIDX Index
+housing,OECD,QoQ% SA,,Building Permits (Number) quarterly,OECZOCAU Index
+housing,Czech Statistical Office,Units/Persons NSA,,Building (Housing) Starts,CZDWT Index
+housing,OECD,Units/Persons SA,,Building (Housing) Starts (thousands) quarterly,OECZICAH Index
+housing,Eurostat,Index NSA,2015=100,House Prices,HOPICZI Index
+cnb_loans_households,Czech National Bank,Value NSA,,"Loans to households and NPISH, all durations (CZK mn)",CZBLHPTV Index
+cnb_loans_households,Czech National Bank,Value NSA,,"Loans to households and NPISH, up to 1 year (CZK mn)",CZBLHP1V Index
+cnb_loans_households,Czech National Bank,Value NSA,,"Loans to households and NPISH, 1 to 5 years (CZK mn)",CZBLHP5V Index
+cnb_loans_households,Czech National Bank,Value NSA,,"Loans to households and NPISH, over 5 years (CZK mn)",CZBLP5OV Index
+cnb_loan_rates_households,Czech National Bank,Percent NSA,,"Interest rate, loans to households and NPISH, all durations",CZBLHPTR Index
+cnb_loan_rates_households,Czech National Bank,Percent NSA,,"Interest rate, loans to households and NPISH, up to 1 year",CZBLHP1R Index
+cnb_loan_rates_households,Czech National Bank,Percent NSA,,"Interest rate, loans to households and NPISH, 1 to 5 years",CZBLHP5R Index
+cnb_loan_rates_households,Czech National Bank,Percent NSA,,"Interest rate, loans to households and NPISH, over 5 years",CZBLP5OR Index
+cnb_new_business_rates_households,Czech National Bank,Percent NSA,,"New business rate, CZK loans to households, all durations",CZHHHPTR Index
+cnb_new_business_rates_households,Czech National Bank,Percent NSA,,"New business rate, CZK loans to households, up to 1 year",CZHHHP1R Index
+cnb_new_business_rates_households,Czech National Bank,Percent NSA,,"New business rate, CZK loans to households, 1 to 5 years",CZHHHP5R Index
+cnb_new_business_rates_households,Czech National Bank,Percent NSA,,"New business rate, CZK loans to households, 5 to 10 years",CZHHP5OR Index
+cnb_new_business_rates_households,Czech National Bank,Percent NSA,,"New business rate, CZK loans to households, over 10 years",CZHHP10R Index
+cnb_consumer_credit,Czech National Bank,Value NSA,,Consumer credit outstanding (total) (CZK mn),CZBLHHTV Index
+cnb_consumer_credit,Czech National Bank,Value NSA,,"Consumer credit outstanding, up to 1 year (CZK mn)",CZBLHH1V Index
+cnb_consumer_credit,Czech National Bank,Value NSA,,"Consumer credit outstanding, 1 to 5 years (CZK mn)",CZBLHH5V Index
+cnb_consumer_credit,Czech National Bank,Value NSA,,"Consumer credit outstanding, over 5 years (CZK mn)",CZBLH5OV Index
+ecb_household_lending,European Central Bank,Value NSA,,Consumer credit (EUR mn),LDHHCCCZ Index
+ecb_household_lending,European Central Bank,Value NSA,,Loans for house purchases (EUR mn),LDHHLHCZ Index
+ecb_household_lending,European Central Bank,Value NSA,,Other loans (EUR mn),LDHHOLCZ Index
+debt_service,Bank for International Settlements,Percent NSA,,Debt service ratio - non-financial private sector,BDSRCZP Index
+consumption,International Monetary Fund,Value NSA,,Consumer Spending (Nominal) (CZK bn),9359B24 Index

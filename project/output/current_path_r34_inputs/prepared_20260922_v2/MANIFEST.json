@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "files": {
+    "food_levels.csv": "f1af373e3623479afd20ee2ddd85c01d03473ff5f37b08b18cc63ad735f0249b",
+    "food_available.csv": "1df59504f4e2be133f344caffe8af9089233a8f1d527035b385e73b1b7acf23c",
+    "pump_weekly.csv": "14e8c24dc2240f47d90d30aea91996e00282c6c6f4d4c528786295ca6824c582",
+    "headline_history.csv": "e330008bd13e057dbc82953195806da8b4c7d5c569c8c2f1087b18ef115d0b3d",
+    "headline_levels.csv": "e8558458c86b79612db594e90d07056df562f5aaf9501dadf5eca24c3ac604dd",
+    "provenance.json": "31a9b541a2af51542c735682bf458b662de463b5b6c88511364c930861a33289",
+    ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  }
+}

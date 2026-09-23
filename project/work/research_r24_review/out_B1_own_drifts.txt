@@ -1,0 +1,19 @@
+Spliced history 1995-02 .. 2026-07 n 378
+Stamps monotone non-decreasing: True
+
+Origins: 90
+max |own - audit|   mu_window 8.327e-17   mu_robust 8.327e-17   mu_long 8.327e-17
+training window identical (n, start, end): True
+origin minus latest published food month (months): {1: np.int64(90)}
+min windows used  robust 31  long 266  (rule: >= 12)
+ origin                     clock latest_food_month_published  own_mu_window  audit_mu_window  own_mu_robust  audit_mu_robust  own_mu_long  audit_mu_long  own_n_train  n_windows_robust  n_windows_long
+2019-02 2019-03-10 22:59:00+00:00                     2019-01       0.143752         0.143752       0.198896         0.198896     0.213228       0.213228           42                31             266
+2020-06 2020-07-09 21:59:00+00:00                     2020-05       0.249890         0.249890       0.233007         0.233007     0.220425       0.220425           58                47             282
+2021-12 2022-01-11 22:59:00+00:00                     2021-11       0.191280         0.191280       0.203262         0.203262     0.213228       0.213228           76                65             300
+2022-06 2022-07-12 21:59:00+00:00                     2022-05       0.327478         0.327478       0.232573         0.232573     0.219921       0.219921           82                71             306
+2023-03 2023-04-12 21:59:00+00:00                     2023-02       0.452685         0.452685       0.285390         0.285390     0.222518       0.222518           91                80             315
+2024-06 2024-07-09 21:59:00+00:00                     2024-05       0.398950         0.398950       0.321004         0.321004     0.223200       0.223200           96                85             330
+2025-07 2025-08-04 21:59:00+00:00                     2025-06       0.407861         0.407861       0.263854         0.263854     0.222518       0.222518           96                85             343
+2026-07 2026-08-04 21:59:00+00:00                     2026-06       0.344888         0.344888       0.306004         0.306004     0.221350       0.221350           96                85             355
+
+mean of calendar means (spec mu_window) versus plain window mean, annualised pct: max abs gap 0.320

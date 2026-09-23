@@ -1,0 +1,36 @@
+{
+  "retrieved_at": "2026-09-11T06:43:20.909154+00:00",
+  "end_date": "2026-09-10",
+  "field": "PX_LAST",
+  "tickers": {
+    "EUS5CZ Index": "services_employment_expectations_next3m"
+  },
+  "historical_source": "Bloomberg Desktop API / xbbg.blp.bdh",
+  "history_options": {
+    "periodicitySelection": "DAILY",
+    "nonTradingDayFillOption": "ACTIVE_DAYS_ONLY"
+  },
+  "history_start": "2000-01-01; FX 1998-01-01",
+  "reference_fields": [
+    "NAME",
+    "SECURITY_DES",
+    "CRNCY",
+    "QUOTE_UNITS",
+    "INDX_SOURCE",
+    "DES_NOTES",
+    "PX_LAST",
+    "LAST_UPDATE_DT",
+    "LAST_UPDATE"
+  ],
+  "vintage_status": "Current-vintage historical download; not an original-vintage archive.",
+  "availability_rule": "Retrospective daily quotes assumed usable on next calendar day in Prague; no historical publication-time evidence.",
+  "live_quote_policy": "BDP PX_LAST may be intraday. Keep separate from BDH ending before pull day.",
+  "python_executable": "C:\\Users\\luis_\\anaconda3\\python.exe",
+  "versions": {
+    "xbbg": "0.7.7",
+    "blpapi": "3.25.5.1",
+    "pandas": "1.4.4"
+  },
+  "completed_at": "2026-09-11T06:43:21.777432+00:00",
+  "status": "partial"
+}

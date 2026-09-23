@@ -1,0 +1,195 @@
+{
+  "tool": "paper_tvwqrf_experiment",
+  "created_at": "2026-09-12T14:09:11.515182+00:00",
+  "arguments": {
+    "convention": "realtime",
+    "policy": "full",
+    "horizons": "None",
+    "first_edge": "2017-11",
+    "last_target": "2027-07",
+    "jobs": "20",
+    "lqr": "False",
+    "forest": "{}",
+    "panel_dir": "data\\paper_replication\\paper_model_panel_20260912_exact",
+    "output": "output\\paper_tvwqrf_20260912\\realtime_full_exact_month_no_rushin_luci",
+    "limit_edges": "None",
+    "include_month": "True",
+    "tmh_benchmarks": "False",
+    "drop_rows": "[14, 15, 16]"
+  },
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "edges": [
+    "2017-11",
+    "2027-06"
+  ],
+  "tasks": 1375,
+  "last_target": "2027-07",
+  "features": [
+    "a6_01",
+    "a6_02",
+    "a6_03",
+    "a6_04",
+    "a6_05",
+    "a6_06",
+    "a6_07",
+    "a6_08",
+    "a6_09",
+    "a6_10",
+    "a6_11",
+    "a6_12",
+    "a6_13",
+    "a6_17",
+    "a6_18",
+    "a6_19",
+    "a6_20",
+    "a6_21",
+    "a6_22",
+    "a6_23",
+    "a6_24",
+    "a6_25",
+    "a6_26",
+    "a6_27",
+    "a6_28",
+    "a6_29",
+    "a6_30",
+    "a6_31",
+    "a6_32",
+    "a6_33",
+    "a6_34",
+    "a6_35",
+    "a6_36",
+    "a6_37",
+    "a6_38",
+    "a6_39",
+    "a6_40",
+    "a6_41",
+    "a6_42",
+    "a6_43",
+    "a6_44",
+    "a6_45",
+    "a6_46",
+    "a6_47",
+    "a6_48",
+    "a6_49",
+    "a6_50",
+    "a6_51",
+    "a6_52",
+    "a6_53",
+    "a6_54",
+    "a6_55",
+    "a6_56",
+    "a6_57",
+    "a6_58",
+    "a6_59",
+    "a6_60",
+    "a6_61",
+    "a6_62",
+    "a6_63",
+    "a6_64",
+    "a6_65",
+    "a6_66",
+    "a6_67",
+    "a6_68",
+    "a6_69",
+    "a6_70",
+    "a6_71",
+    "a6_72",
+    "month"
+  ],
+  "forest": {
+    "n_estimators": 500,
+    "min_samples_leaf": 5,
+    "max_features": 0.3333333333333333,
+    "bootstrap": true,
+    "random_state": 42,
+    "n_jobs": 1
+  },
+  "validation_window": 12,
+  "half_life": 6.0,
+  "schemes": {
+    "TVW1": [
+      [
+        0.25,
+        0.5,
+        0.75
+      ],
+      [
+        0.2,
+        0.4,
+        0.2
+      ],
+      [
+        0.4,
+        0.6,
+        0.4
+      ]
+    ],
+    "TVW2": [
+      [
+        0.3333333333333333,
+        0.5,
+        0.6666666666666666
+      ],
+      [
+        0.2,
+        0.3,
+        0.2
+      ],
+      [
+        0.4,
+        0.5,
+        0.4
+      ]
+    ],
+    "TVW3": [
+      [
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9
+      ],
+      [
+        0.0,
+        0.15,
+        0.3,
+        0.15,
+        0.0
+      ],
+      [
+        0.15,
+        0.35,
+        0.5,
+        0.35,
+        0.15
+      ]
+    ]
+  },
+  "panel_manifest_sha256": "b1c3e084c3e1200adcaeceaa27fd2c0f5149610e12a2cee6b65806c389344e43",
+  "engine_sha256": "dc07cc1d203bed7105ea0cfe2cfef264130f16c75d8d66562ea76f4c26fcce48",
+  "runner_sha256": "e87d03af85d9e62967798c98381a5b55a61cf5dbcb7aadde674ac181a1806082",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "quantile-forest": "1.4.2",
+    "statsmodels": "0.14.6",
+    "scipy": "1.17.1"
+  },
+  "git_head": "709d4b3449f83c4dbceb353d7d3468d94a62b9aa",
+  "seconds": 270.87717604637146
+}

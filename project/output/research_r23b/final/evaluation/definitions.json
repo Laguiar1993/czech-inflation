@@ -1,0 +1,30 @@
+{
+  "roster": [
+    "STATE_FAST_R15",
+    "STABLE_LOCAL_CORE_R14B",
+    "DAMPED_P95_Q001_R16",
+    "CORE_FEEDBACK_R21",
+    "PRESS_ULC_R23B",
+    "PRESS_DOMESTIC_R23B",
+    "PRESS_MOMENTUM_R23B",
+    "PRESS_JOINT_R23B",
+    "PRESS_SIGNED_R23B",
+    "PRESS_LEVELS_R23B"
+  ],
+  "primary_calendar": "Original R16 annual-headline969row support, not filtered by a new model.",
+  "errors": "Forecast minus actual in percentage points. Show failures separately; matched comparisons require identical finite support.",
+  "core": "Monthly core and cumulative log core h1..h, original frozen target. Underlying bands subtract own-origin saved R15 seasonality.",
+  "bootstrap": "Circular blocks on consecutive monthly origins: 12 months from 48 observations, 6 from 24, no interval below 24; 2000 draws, seed 1509.",
+  "sustained": "Bands1to3 change>=.5pp annualized, without opposite adjacent>=.5pp. Additional to strict exact-turn test.",
+  "cnb": "Both clocks; same-origin quarter means;0.15pp absolute-error materiality; repeated quarters dependent; every-report omission.",
+  "limitations": [
+    "R23B: six declared cost-pressure candidates around the saved FAST core path, original 90 origins and 969 primary keys; h0 and noncore unchanged. Historical research, not a live or untouched holdout record.",
+    "Repairs of R23: a same-quarter unit-labour-cost gap that carries no seasonal; six-month momentum differentials in place of late-cycle level gaps; no intercept and no centering, so zero pressure gives zero correction.",
+    "Only h1-6 receive a learned correction, from two separate band equations with their own label maturity. h7-12 corrections are zero on average by construction.",
+    "A correction is applied only when nested chronological validation beats applying none. One training origin per calendar quarter; quarterly labour data are never interpolated.",
+    "No survey, CNB forecast or future realised driver enters the independent predictions. Current-vintage histories, assumed publication rules, repeated research on one inflation cycle and a transformation chosen after in-sample inspection remain limitations.",
+    "Lead tables flag abs(model-CNB)>=0.30pp (0.50 sensitivity) and compare the immediately next CNB report for the same still-future quarter. Base-rate rows (constant 2%, random-walk annual rate, previous CNB, CNB momentum) pass through the same rules.",
+    "Defaults show FAST with the joint free and signed candidates; no promotion is implied. Every control and candidate remains selectable."
+  ],
+  "cnb_lead": ".30 and .50 ex-ante deviation thresholds; immediate next report, same target beyond next report quarter; .15pp closer CNB revision and separate eventual .15pp absolute-error improvement; first calls deduplicated by model/clock/target/direction streak; base-rate rows flagged is_baseline."
+}

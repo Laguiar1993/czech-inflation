@@ -1,0 +1,23 @@
+CZ-STRUCT backtest: 102 origins 2018-02..2026-07
+  band 5-95%% coverage: 83%% (target ~90%%, n=66)
+
+n=90  2019-02..2026-07
+  core  block RMSE=0.308  MAE=0.241
+  food  block RMSE=0.913  MAE=0.678
+  adm   block RMSE=4.203  MAE=1.294
+  STRUCT         h0 RMSE=0.734  MAE=0.343
+  STRUCT_QRF     h0 RMSE=0.730  MAE=0.345
+  STRUCT_ST      h0 RMSE=0.735  MAE=0.346
+  STRUCT_PE      h0 RMSE=0.737  MAE=0.345
+  STRUCT_PE_WARM h0 RMSE=0.731  MAE=0.349
+  STRUCT_EVE         release-eve RMSE=0.732  MAE=0.342  (n=90)
+  STRUCT_PE_WARM_EVE release-eve RMSE=0.729  MAE=0.349  (n=90)
+  STRUCT_PEH_WARM_EVE release-eve RMSE=0.728  MAE=0.343  (n=90)
+  self-check max|STRUCT_PRE - STRUCT_EVE| = 0.00e+00
+  self-check max|STRUCT_PE_PRE - STRUCT_PE_EVE| = 0.00e+00
+  STRUCT_H1  RMSE=0.764  MAE=0.414  (n=88)
+  STRUCT_H3  RMSE=0.809  MAE=0.441  (n=84)
+  STRUCT_H6  RMSE=0.868  MAE=0.514  (n=78)
+  STRUCT_H12  RMSE=0.986  MAE=0.550  (n=66)
+Completed 90 origins, 56 columns
+Frozen reference: identical on all 42 reference columns; 14 new column(s) not covered by the reference: ['elig_edge_eom', 'STRUCT_EVE', 'STRUCT_QRF_EVE', 'STRUCT_PE_EVE', 'STRUCT_PE_WARM_EVE', 'STRUCT_PEH_WARM_EVE', 'fuel_eve', 'core_pred_eve', 'food_pred_eve', 'adm_pred_eve', 'alc_pred_eve', 'wedge_eve', 'elig_edge_eve', 'as_of_eve']

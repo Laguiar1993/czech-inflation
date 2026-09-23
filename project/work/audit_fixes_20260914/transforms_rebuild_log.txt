@@ -1,0 +1,56 @@
+{
+  "luci": {
+    "shape": [
+      292,
+      72
+    ],
+    "period_start": "2002-05",
+    "period_end": "2026-08",
+    "cells": 21024,
+    "same_runtime_changed_cells": 0,
+    "frozen_unequal_exact_cells": 163,
+    "frozen_changed_cells_above_1e_12": 0,
+    "frozen_max_abs_difference": 1.7763568394002505e-15,
+    "missing_mask_equal": true,
+    "nonpositive_T2_raw_rows": {
+      "22": {
+        "count": 254,
+        "first_period": "1993-10"
+      },
+      "25": {
+        "count": 82,
+        "first_period": "2005-04"
+      }
+    },
+    "protected_files_unchanged": true,
+    "output_sha256": "787b5a67e079fa13543dd70ff582f7ff4c7b891181688a5d6f30bbeb8acedb9b"
+  }
+}
+{
+  "exact": {
+    "shape": [
+      292,
+      72
+    ],
+    "period_start": "2002-05",
+    "period_end": "2026-08",
+    "cells": 21024,
+    "same_runtime_changed_cells": 0,
+    "frozen_unequal_exact_cells": 163,
+    "frozen_changed_cells_above_1e_12": 0,
+    "frozen_max_abs_difference": 1.7763568394002505e-15,
+    "missing_mask_equal": true,
+    "nonpositive_T2_raw_rows": {
+      "22": {
+        "count": 254,
+        "first_period": "1993-10"
+      },
+      "25": {
+        "count": 153,
+        "first_period": "1993-02"
+      }
+    },
+    "protected_files_unchanged": true,
+    "output_sha256": "cd59b93af72a868be75ecb9192fefc22b02ef34dd137f8d3c443b1bb0206d641"
+  }
+}

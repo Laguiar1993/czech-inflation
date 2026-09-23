@@ -1,0 +1,71 @@
+{
+ "T3c_paths_with_bloomberg_headline": {
+  "h3": {
+   "rmse_frozen": 1.4483370973482854,
+   "rmse_bbg": 1.4542411961269057,
+   "rmse_frozen_2024plus": 0.5071741605110427,
+   "rmse_bbg_2024plus": 0.5234673209297859,
+   "max_abs_forecast_change": 0.1802001887646143,
+   "max_abs_actual_change": 0.22940211972108404
+  },
+  "h6": {
+   "rmse_frozen": 2.244603126926088,
+   "rmse_bbg": 2.249193678144087,
+   "rmse_frozen_2024plus": 0.4629079450005251,
+   "rmse_bbg_2024plus": 0.4632169847936998,
+   "max_abs_forecast_change": 0.15135204805929536,
+   "max_abs_actual_change": 0.22940211972108404
+  },
+  "h12": {
+   "rmse_frozen": 4.768932868864873,
+   "rmse_bbg": 4.775464205875278,
+   "rmse_frozen_2024plus": 0.659033837640918,
+   "rmse_bbg_2024plus": 0.631327572358021,
+   "max_abs_forecast_change": 0.0,
+   "max_abs_actual_change": 0.194470959260018
+  }
+ },
+ "T9_nowcast_fuel_block_on_ec_bulletin": {
+  "all": {
+   "block_rmse_czso": 0.2167944656531085,
+   "block_rmse_ec_bbg": 0.20107625812117547,
+   "headline_rmse_pp_czso": 0.007203977503048906,
+   "headline_rmse_pp_ec_bbg": 0.006742579903486199
+  },
+  "prints_2024plus": {
+   "block_rmse_czso": 0.1581845959283036,
+   "block_rmse_ec_bbg": 0.18756510538431886,
+   "headline_rmse_pp_czso": 0.005184747353995033,
+   "headline_rmse_pp_ec_bbg": 0.006446083569831552
+  },
+  "flash_era": {
+   "block_rmse_czso": 0.1502543175400094,
+   "block_rmse_ec_bbg": 0.1509008609136175,
+   "headline_rmse_pp_czso": 0.0049190155709681205,
+   "headline_rmse_pp_ec_bbg": 0.004935811731792574
+  }
+ },
+ "counts": {
+  "register_rows": 107,
+  "by_same_results": {
+   "parity run pending (Bloomberg input lane in cz_struct)": 20,
+   "identical": 19,
+   "stays CZSO": 16,
+   "static": 15,
+   "stays": 9,
+   "follows the nowcast": 5,
+   "not identical: see T5c": 5,
+   "identical (T4d)": 5,
+   "not identical: see T6d": 5,
+   "not identical: see T3c": 5,
+   "switchable: see T9": 2,
+   "not identical: see T7c": 1
+  },
+  "by_lane": {
+   "path": 66,
+   "nowcast": 38,
+   "scoring": 2,
+   "CNB lane": 1
+  }
+ }
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "ticker": "EUS5CZ Index",
+    "stage": "bdp",
+    "error": "ValueError: Missing required CRNCY for EUS5CZ Index"
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-15T06:47:16.362604+00:00",
+  "purpose": "R18 broad national CPI statistical measurements, not an exact CNB-core decomposition",
+  "source_snapshot": {
+    "url": "https://data.csu.gov.cz/opendata/sady/CEN0101E/distribuce/csv",
+    "raw_sha256": "e81dc0dece758d0e89adc88e6f8c31f3ba97f8a68dfa67795a794dbe3b858880",
+    "bytes_uncompressed": 65786613,
+    "prior_audit_time_utc": "2026-09-09T09:22:59.597273+00:00",
+    "original_cache_mtime": "2026-09-07; not a certified source release timestamp",
+    "vintage_status": "frozen current-vintage history; no retained first-release observations"
+  },
+  "coverage": {
+    "first_month": "2015-01",
+    "last_month": "2026-07",
+    "months": 139,
+    "all_columns": 37,
+    "primary_columns": [
+      "actual_rent",
+      "imputed_rent",
+      "household_textiles",
+      "tableware_utensils",
+      "house_garden_tools",
+      "vehicle_purchases",
+      "ict_equipment",
+      "ict_services",
+      "recreation_durables",
+      "other_recreation_goods",
+      "garden_pets_goods",
+      "recreation_services",
+      "musical_instruments_media",
+      "cultural_services",
+      "books_stationery",
+      "package_holidays",
+      "catering",
+      "accommodation"
+    ],
+    "primary_counts": {
+      "goods": 10,
+      "services": 6,
+      "housing": 2
+    },
+    "primary_2026_base_weight_permille": 400.90823600000004,
+    "weight_meaning": "context only: 2024 expenditure base weights effective 2026, not historical/current shares or model loadings"
+  },
+  "selection": "Predetermined category definitions and composition; no realised outcomes, forecasting errors, fit, likelihood or correlation used",
+  "availability": {
+    "file": "availability.csv",
+    "time_zone": "Europe/Prague",
+    "time_of_day": "00:00:00",
+    "rule": "detailed CPI date <= origin; reference month strictly before origin month",
+    "calendar_provenance": "existing repo release calendar, largely bbg_eco_release_dt plus CZSO page overrides; no newly invented dates",
+    "vintage_caveat": "Calendar gates prevent use before assumed release but do not undo historical revisions or classification recoding"
+  },
+  "transformations": "Exact selection/pivot of positive IZ2015 levels. No rebasing, chain linking, filling, seasonal adjustment or tax correction. For monthly percent changes use 100*(level/level.shift(1)-1), after origin gating; rounded level changes can differ from published IM.",
+  "validation": {
+    "duplicate_keys": 0,
+    "missing_months": 0,
+    "missing_values": 0,
+    "old_five_comparison_cells": 695,
+    "old_five_max_abs_difference": 0.0
+  },
+  "weights": {
+    "file": "basket_weights_long.csv",
+    "unit": "per mille of headline national CPI basket",
+    "effective_years": [
+      2014,
+      2016,
+      2018,
+      2020,
+      2022,
+      2024,
+      2026
+    ],
+    "availability": "January detailed CPI release proxy; not verified workbook publication date",
+    "concordance": "2026 matching current codes; pre-2026 mapped only five previously audited groups; other native codes deliberately not equated to recoded history",
+    "limitations": "Odd-year baskets not included. Weights are base expenditure weights, not origin-current shares. No exact core aggregation; no unverified crosswalk, price updating or future-year weights used."
+  },
+  "alternatives": [
+    {
+      "source": "existing core_split package",
+      "result": "Only five service/housing groups; superseded for broad measurements by full raw extraction; old package untouched"
+    },
+    {
+      "source": "Firecrawl CLI",
+      "result": "Unavailable on PATH; public primary web tool and urllib used"
+    },
+    {
+      "source": "CZSO DataStat information page",
+      "result": "JavaScript-only text response; official time-series page directly confirms dataset download and schema links"
+    },
+    {
+      "source": "current CEN0101E schema",
+      "result": "Live schema has split time/geography columns differing from frozen CSV; retained as current evidence only, not parsed against old data"
+    },
+    {
+      "source": "Eurostat HICP",
+      "result": "Considered but not acquired: national CPI covers requested measurements and owner housing. HICP ECOICOP2/current recoding is not national CPI or CNB tax-adjusted core"
+    },
+    {
+      "source": "CNB ARAD broad goods/services yoy",
+      "result": "Already frozen in core_split but annual inflation is not a monthly category level; raw tax treatment differs from CNB adjusted core"
+    }
+  ]
+}

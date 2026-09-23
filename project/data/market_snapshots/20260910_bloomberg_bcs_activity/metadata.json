@@ -1,0 +1,198 @@
+{
+  "EUI6CZ Index": {
+    "retrieved_at": "2026-09-10T14:22:17.433127+00:00",
+    "fields": {
+      "EUI6CZ Index": {
+        "name": "European Commission Manufactur",
+        "security_des": "European Commission Manufactur",
+        "indx_source": "European Commission",
+        "des_notes": "This concept tracks business sentiment within the industry sector. The results are based on a survey conducted among a representative sample of businesses in industry.",
+        "px_last": 15.6,
+        "last_update_dt": "2026-08-31T00:00:00.000Z",
+        "last_update": "2026-08-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "EUI1CZ Index": {
+    "retrieved_at": "2026-09-10T14:22:18.062271+00:00",
+    "fields": {
+      "EUI1CZ Index": {
+        "name": "European Commission Manufactur",
+        "security_des": "European Commission Manufactur",
+        "indx_source": "European Commission",
+        "des_notes": "This concept tracks business sentiment within the industry sector. The results are based on a survey conducted among a representative sample of businesses in industry.",
+        "px_last": 3.0,
+        "last_update_dt": "2026-08-31T00:00:00.000Z",
+        "last_update": "2026-08-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "EUS1CZ Index": {
+    "retrieved_at": "2026-09-10T14:22:18.737856+00:00",
+    "fields": {
+      "EUS1CZ Index": {
+        "name": "EU Services Assessment of Busi",
+        "security_des": "EU Services Assessment of Busi",
+        "indx_source": "European Commission",
+        "des_notes": "This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector.",
+        "px_last": 57.6,
+        "last_update_dt": "2026-08-31T00:00:00.000Z",
+        "last_update": "2026-08-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "EUS2CZ Index": {
+    "retrieved_at": "2026-09-10T14:22:19.476818+00:00",
+    "fields": {
+      "EUS2CZ Index": {
+        "name": "EU Services Evolution of Deman",
+        "security_des": "EU Services Evolution of Deman",
+        "indx_source": "European Commission",
+        "des_notes": "This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector.",
+        "px_last": 18.8,
+        "last_update_dt": "2026-08-31T00:00:00.000Z",
+        "last_update": "2026-08-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "EUR1CZ Index": {
+    "retrieved_at": "2026-09-10T14:22:20.119144+00:00",
+    "fields": {
+      "EUR1CZ Index": {
+        "name": "European Commission Retail Con",
+        "security_des": "European Commission Retail Con",
+        "indx_source": "European Commission",
+        "des_notes": "This concept tracks business sentiment within the retail trade industry. The results are based on a survey conducted among a representative sample of businesses in the retail sector.",
+        "px_last": 27.8,
+        "last_update_dt": "2026-08-31T00:00:00.000Z",
+        "last_update": "2026-08-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "EUB1CZ Index": {
+    "retrieved_at": "2026-09-10T14:22:20.811754+00:00",
+    "fields": {
+      "EUB1CZ Index": {
+        "name": "EC Consumer Construction Czech",
+        "security_des": "EC Consumer Construction Czech",
+        "indx_source": "European Commission",
+        "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector.",
+        "px_last": 30.5,
+        "last_update_dt": "2026-08-31T00:00:00.000Z",
+        "last_update": "2026-08-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "EUB5F4CZ Index": {
+    "retrieved_at": "2026-09-10T14:22:21.431216+00:00",
+    "fields": {
+      "EUB5F4CZ Index": {
+        "name": "EC Construction Main Factors S",
+        "security_des": "EC Construction Main Factors S",
+        "indx_source": "European Commission",
+        "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector.",
+        "px_last": 37.9,
+        "last_update_dt": "2026-08-31T00:00:00.000Z",
+        "last_update": "2026-08-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "EUB5F5CZ Index": {
+    "retrieved_at": "2026-09-10T14:22:22.106549+00:00",
+    "fields": {
+      "EUB5F5CZ Index": {
+        "name": "EC Construction Main Factors S",
+        "security_des": "EC Construction Main Factors S",
+        "indx_source": "European Commission",
+        "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector.",
+        "px_last": 4.2,
+        "last_update_dt": "2026-08-31T00:00:00.000Z",
+        "last_update": "2026-08-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "EUB5F6CZ Index": {
+    "retrieved_at": "2026-09-10T14:22:22.654050+00:00",
+    "fields": {
+      "EUB5F6CZ Index": {
+        "name": "EC Construction Main Factors O",
+        "security_des": "EC Construction Main Factors O",
+        "indx_source": "European Commission",
+        "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector.",
+        "px_last": 19.3,
+        "last_update_dt": "2026-08-31T00:00:00.000Z",
+        "last_update": "2026-08-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "EUB5F7CZ Index": {
+    "retrieved_at": "2026-09-10T14:22:23.332036+00:00",
+    "fields": {
+      "EUB5F7CZ Index": {
+        "name": "EC Construction Main Factors F",
+        "security_des": "EC Construction Main Factors F",
+        "indx_source": "European Commission",
+        "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector.",
+        "px_last": 2.4,
+        "last_update_dt": "2026-08-31T00:00:00.000Z",
+        "last_update": "2026-08-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "EUCCCZ Index": {
+    "retrieved_at": "2026-09-10T14:22:23.968794+00:00",
+    "fields": {
+      "EUCCCZ Index": {
+        "name": "European Commission Consumer C",
+        "security_des": "European Commission Consumer C",
+        "indx_source": "European Commission",
+        "des_notes": "Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households.",
+        "px_last": -8.1,
+        "last_update_dt": "2026-08-31T00:00:00.000Z",
+        "last_update": "2026-08-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "UMRTCZ Index": {
+    "retrieved_at": "2026-09-10T14:22:24.540086+00:00",
+    "fields": {
+      "UMRTCZ Index": {
+        "name": "Eurostat Unemployment Czech Re",
+        "security_des": "Eurostat Unemployment Czech Re",
+        "quote_units": "%",
+        "indx_source": "Eurostat",
+        "des_notes": "The unemployment rate tracks the number of unemployed persons as a percentage of the labor force (the total number of employed plus unemployed). These figures generally come from a household labor force survey.",
+        "px_last": 3.3,
+        "last_update_dt": "2026-07-31T00:00:00.000Z",
+        "last_update": "2026-07-31T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "CZRUSHIN Index": {
+    "retrieved_at": "2026-09-10T14:22:25.897060+00:00",
+    "fields": {
+      "CZRUSHIN Index": {
+        "name": "Czech Republic Rushin Weekly E",
+        "security_des": "Czech Republic Rushin Weekly E",
+        "indx_source": "Czech National Bank",
+        "des_notes": "This concept provides an estimate of overall economic activity in an economy. It is typically a monthly measure of value added by industry (sometimes referred to as monthly GDP) that is released in advance of quarterly GDP estimates. The Rushin Index tracks the real-time dynamics of the Czech GDP on a weekly basis. It combines alternative high-frequency indicators with standard low-frequency macroeconomic data. The index, capturing q-o-q GDP growth in per cent, is developed and maintained by the Czech National Bank.",
+        "px_last": 0.64,
+        "last_update_dt": "2026-08-10T00:00:00.000Z",
+        "last_update": "2026-08-10T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  }
+}

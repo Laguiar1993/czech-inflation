@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html  lang="cs" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><link rel="canonical" href="https://eru.gov.cz/vzory-sablon-xlsx-json-souboru-pro-predkladani-souhrnnych-informaci-podle-monitorovaci-vyhlasky-0" />
+<meta property="og:title" content="Vzory šablon XLSX a JSON souborů pro předkládání souhrnných informací podle monitorovací vyhlášky – plynárenství" />
+<meta property="og:image" content="https://eru.gov.cz/sites/default/files/styles/facebook/public/obsah/novinky/13247/soubory/aktualita-plyn.png?itok=zhbWClCN" />
+<meta property="og:image" content="https://eru.gov.cz/sites/default/files/default_images/aktualita_obecna_1.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Vzory šablon XLSX a JSON souborů pro předkládání souhrnných informací podle monitorovací vyhlášky – plynárenství" />
+<meta name="twitter:image" content="https://eru.gov.cz/sites/default/files/styles/facebook/public/obsah/novinky/13247/soubory/aktualita-plyn.png?itok=zhbWClCN/sites/default/files/default_images/aktualita_obecna_1.png" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+        <title>Vzory šablon XLSX a JSON souborů pro předkládání souhrnných informací podle monitorovací vyhlášky – plynárenství | eru.gov.cz</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="profiles/kraken/themes/kraken_theme/favicons/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="profiles/kraken/themes/kraken_theme/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="profiles/kraken/themes/kraken_theme/favicons/favicon-64x64.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="profiles/kraken/themes/kraken_theme/favicons/favicon-512x512.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="profiles/kraken/themes/kraken_theme/favicons/favicon-512x512.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" media="all" href="/modules/contrib/ajax_loader/css/throbber-general.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/autocomplete.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/menu.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/misc/components/progress.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/misc/components/ajax-progress.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/misc/components/autocomplete-loading.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/modules/contrib/antibot/css/antibot.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/libraries/cookiesjsr/dist/cookiesjsr.min.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/modules/contrib/formtips/css/formtips.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/profiles/kraken/modules/core/kraken_datepicker/css/bootstrap-datetimepicker.min.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/profiles/kraken/modules/core/kraken_datepicker/css/bootstrap-datetimepicker-standalone.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/profiles/kraken/modules/core/kraken_gdpr/css/kraken_gdpr.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?tk07lg" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/gh/jackocnr/intl-tel-input@v17.0.19/build/css/intlTelInput.min.css" />
+<link rel="stylesheet" media="all" href="/modules/contrib/webform/css/webform.element.details.toggle.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/modules/contrib/webform/css/webform.element.message.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/modules/contrib/webform/css/webform.form.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/theme.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/modules/contrib/ajax_loader/css/wave.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/modules/contrib/captcha/css/captcha.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/css/extlink.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/modules/contrib/paragraphs/css/paragraphs.unpublished.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/modules/contrib/search_api_autocomplete/css/search_api_autocomplete.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/modules/contrib/share_everywhere/css/share_everywhere.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/modules/contrib/webform/css/webform.ajax.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/profiles/kraken/themes/kraken_theme/css/default.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/profiles/kraken/themes/kraken_theme/css/component.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/profiles/kraken/themes/kraken_theme/css/slick.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/profiles/kraken/themes/kraken_theme/css/select2.min.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/profiles/kraken/themes/kraken_theme/css/jquery.mCustomScrollbar.min.css?tk07lg" />
+<link rel="stylesheet" media="all" href="/profiles/kraken/themes/kraken_theme/css/kraken.css?tk07lg" />
+<link rel="stylesheet" media="print" href="/profiles/kraken/themes/kraken_theme/css/print.css?tk07lg" />
+
+            <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/13104","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"cs"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1UeGa4yAIfCGrj5SPJJzSqHhA2u3bn7kmbbfb_QPDDIKOcIavITPMKAGe2FsSHkcUB9VoZAt79n9YihuZTU2ghQcamuBAlexFbNz40mdM0GxKEEZQdBPzQqhhz2eVD5RXu2XUQxmiQQxb6IxgoGooFbI__11RbvdL4ZdlqkuYZW1d2ku3aUZNwwGeTNput82q5iJzzDg89rzVfjPnO1ncIrBgHWYwbDQt3cINGpW9PBri3CS84IO3hAWfFp50Emqm3-WYeYR82gyhGg9tpfDy9tMFMvXdLK6BQOzDkh5GPBm_1raOmTTh7BRBpjRAowFW44lLy2gYfuGdJug_jN2x2zVh_4R3wk-qTm9qWO4_batUNcoYHuhu4ydBsHDfciG8avgffeF5zeiuOG5vDHu-j3gnMXevqvkZDSirV7j8PPneZBzjhwVHW0FViL_r1kFLXH92bOEf7V5RhQ","theme":"kraken_theme","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/vzory-sablon-xlsx-json-souboru-pro-predkladani-souhrnnych-informaci-podle-monitorovaci-vyhlasky-0?ajax_form=1":true,"\/vyhledat":true},"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"google\nnonGooglePixels\nnonGoogleScripts\nnonGoogleIframes","blocklist_classes":"customScripts\ncustomPixels","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-KFHCR4H"]},"formtips":{"selectors":[".krakendrupalkraken-main-information-pageformwebmaininformationform .description",".form-item-lightweight-access-key .description",".webform-element-help-container--title .description"],"interval":0,"sensitivity":3,"timeout":0,"max_width":"500px","trigger_action":"hover"},"ajaxLoader":{"markup":"\u003Cdiv class=\u0022ajax-throbber sk-wave\u0022\u003E\n              \u003Cdiv class=\u0022sk-wave-rect\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-wave-rect\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-wave-rect\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-wave-rect\u0022\u003E\u003C\/div\u003E\n            \u003C\/div\u003E","hideAjaxMessage":false,"alwaysFullscreen":true,"throbberPosition":"body"},"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":".*\\.pdf|.*\\.PDF","extInclude":"","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"Tento odkaz v\u00e1s zavede na extern\u00ed webov\u00e9 str\u00e1nky. Nejsme zodpov\u011bdni za jejich obsah.","extHideIcons":false,"mailtoClass":"0","telClass":"tel","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"append","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","whitelistedDomains":null,"extExcludeNoreferrer":""}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click"},"cookies":{"cookiesjsr":{"config":{"cookie":{"name":"cookiesjsr","expires":31536000000,"domain":"","sameSite":"Lax","secure":false},"library":{"libBasePath":"\/libraries\/cookiesjsr\/dist","libPath":"\/libraries\/cookiesjsr\/dist\/cookiesjsr.min.js","scrollLimit":0},"callback":{"method":"post","url":"\/cookies\/consent\/callback.json","headers":[]},"interface":{"openSettingsHash":"#editCookieSettings","showDenyAll":true,"denyAllOnLayerClose":false,"settingsAsLink":false,"availableLangs":["cs","en"],"defaultLang":"cs","groupConsent":true,"cookieDocs":true}},"services":{"functional":{"id":"functional","services":[{"key":"functional","type":"functional","name":"Cookie vy\u017eadovan\u00e9 pro fuk\u010dnost webu","info":{"value":"\u003Ctable\u003E\r\n\t\u003Cthead\u003E\r\n\t\t\u003Ctr\u003E\r\n\t\t\t\u003Cth width=\u002215%\u0022\u003EJm\u00e9no Cookie\u003C\/th\u003E\r\n\t\t\t\u003Cth width=\u002215%\u0022\u003EV\u00fdchoz\u00ed doba platnosti\u003C\/th\u003E\r\n\t\t\t\u003Cth\u003EPopis\u003C\/th\u003E\r\n\t\t\u003C\/tr\u003E\r\n\t\u003C\/thead\u003E\r\n\t\u003Ctbody\u003E\r\n\t\t\u003Ctr\u003E\r\n\t\t\t\u003Ctd\u003E\u003Ccode dir=\u0022ltr\u0022\u003ESSESS\u0026lt;ID\u0026gt;\u003C\/code\u003E\u003C\/td\u003E\r\n\t\t\t\u003Ctd\u003E1 m\u011bs\u00edc\u003C\/td\u003E\r\n\t\t\t\u003Ctd\u003EPokud jste na t\u011bchto webov\u00fdch str\u00e1nk\u00e1ch p\u0159ihl\u00e1\u0161eni, je k identifikaci a p\u0159ipojen\u00ed va\u0161eho prohl\u00ed\u017ee\u010de k va\u0161emu u\u017eivatelsk\u00e9mu \u00fa\u010dtu na serveru t\u011bchto webov\u00fdch str\u00e1nek vy\u017eadov\u00e1n soubor session cookie.\u003C\/td\u003E\r\n\t\t\u003C\/tr\u003E\r\n\t\t\u003Ctr\u003E\r\n\t\t\t\u003Ctd\u003E\u003Ccode dir=\u0022ltr\u0022\u003Ecookiesjsr\u003C\/code\u003E\u003C\/td\u003E\r\n\t\t\t\u003Ctd\u003E1 rok\u003C\/td\u003E\r\n\t\t\t\u003Ctd\u003EKdy\u017e jste poprv\u00e9 nav\u0161t\u00edvili tyto webov\u00e9 str\u00e1nky, byli jste po\u017e\u00e1d\u00e1ni o souhlas s pou\u017e\u00edv\u00e1n\u00edm n\u011bkolika slu\u017eeb (v\u010detn\u011b slu\u017eeb t\u0159et\u00edch stran), kter\u00e9 vy\u017eaduj\u00ed ukl\u00e1d\u00e1n\u00ed \u00fadaj\u016f do va\u0161eho prohl\u00ed\u017ee\u010de (soubory cookie, m\u00edstn\u00ed \u00falo\u017ei\u0161t\u011b). Va\u0161e rozhodnut\u00ed o ka\u017ed\u00e9 slu\u017eb\u011b (povolit, zam\u00edtnout) se ukl\u00e1d\u00e1 do tohoto souboru cookie a je znovu pou\u017eito p\u0159i ka\u017ed\u00e9 n\u00e1v\u0161t\u011bv\u011b t\u011bchto webov\u00fdch str\u00e1nek.\u003C\/td\u003E\r\n\t\t\u003C\/tr\u003E\r\n\t\u003C\/tbody\u003E\r\n\u003C\/table\u003E\r\n","format":"ckeditor_full"},"uri":"","needConsent":false}],"weight":1},"performance":{"id":"performance","services":[{"key":"gtag","type":"performance","name":"Google Tag Manager","info":{"value":"","format":"ckeditor_full"},"uri":"","needConsent":true}],"weight":30}},"translation":{"_core":{"default_config_hash":"r0JMDv27tTPrhzD4ypdLS0Jijl0-ccTUdlBkqvbAa8A"},"langcode":"cs","bannerText":"Na str\u00e1nk\u00e1ch tohoto webu pou\u017e\u00edv\u00e1me vybran\u00e9 vlastn\u00ed soubory cookie a soubory cookie t\u0159et\u00edch stran: Soubory cookie, kter\u00e9 jsou nezbytn\u00e9 pro pou\u017e\u00edv\u00e1n\u00ed webov\u00fdch str\u00e1nek, funk\u010dn\u00ed soubory cookie, kter\u00e9 umo\u017e\u0148uj\u00ed snadn\u011bj\u0161\u00ed pou\u017e\u00edv\u00e1n\u00ed webov\u00fdch str\u00e1nek, v\u00fdkonnostn\u00ed soubory cookie, kter\u00e9 pou\u017e\u00edv\u00e1me k vytv\u00e1\u0159en\u00ed souhrnn\u00fdch \u00fadaj\u016f o pou\u017e\u00edv\u00e1n\u00ed webov\u00fdch str\u00e1nek a statistik. Pokud zvol\u00edte \u0022P\u0159ijmout v\u0161e\u0022, souhlas\u00edte s pou\u017e\u00edv\u00e1n\u00edm v\u0161ech soubor\u016f cookie.","privacyPolicy":"Z\u00e1sady ochrany osobn\u00edch \u00fadaj\u016f","privacyUri":"","imprint":"Imprint","imprintUri":"","cookieDocs":"Dokumentace Cookie","cookieDocsUri":"\/cookies\/documentation","officialWebsite":"Official website","denyAll":"Zak\u00e1zat v\u0161e","alwaysActive":"V\u017edy aktivn\u00ed","settings":"Nastaven\u00ed cookie","acceptAll":"P\u0159ijmout v\u0161e","requiredCookies":"Vy\u017eadovan\u00e9 cookie","cookieSettings":"Nastaven\u00ed cookie","close":"Close","readMore":"\u010c\u00edst d\u00e1l","allowed":"povoleno","denied":"odm\u00edtnut\u00fd","settingsAllServices":"Nastaven\u00ed pro v\u0161echny slu\u017eby","saveSettings":"Ulo\u017eit","default_langcode":"en","disclaimerText":" ","disclaimerTextPosition":"above","processorDetailsLabel":"Podrobnosti o zpracovateli","processorLabel":"Company","processorWebsiteUrlLabel":"Company Website","processorPrivacyPolicyUrlLabel":"Company Privacy Policy","processorCookiePolicyUrlLabel":"Z\u00e1sady pro pou\u017eit\u00ed soubor\u016f cookie","processorContactLabel":"Data Protection Contact Details","placeholderAcceptAllText":"Accept All Cookies","functional":{"title":"Vy\u017eadovan\u00e9 cookie","details":"Soubory cookie jsou mal\u00e9 textov\u00e9 soubory, kter\u00e9 prohl\u00ed\u017ee\u010d ukl\u00e1d\u00e1 do va\u0161eho za\u0159\u00edzen\u00ed za \u00fa\u010delem ulo\u017een\u00ed ur\u010dit\u00fdch informac\u00ed. Na z\u00e1klad\u011b ulo\u017een\u00fdch a vr\u00e1cen\u00fdch informac\u00ed m\u016f\u017ee webov\u00e1 str\u00e1nka rozpoznat, \u017ee jste ji ji\u017e d\u0159\u00edve nav\u0161t\u00edvili pomoc\u00ed prohl\u00ed\u017ee\u010de ve va\u0161em koncov\u00e9m za\u0159\u00edzen\u00ed. Tyto informace pou\u017e\u00edv\u00e1me k optim\u00e1ln\u00edmu uspo\u0159\u00e1d\u00e1n\u00ed a zobrazen\u00ed webov\u00fdch str\u00e1nek v souladu s va\u0161imi preferencemi. V r\u00e1mci tohoto procesu je ve va\u0161em za\u0159\u00edzen\u00ed identifikov\u00e1n pouze samotn\u00fd soubor cookie. Osobn\u00ed \u00fadaje jsou ukl\u00e1d\u00e1ny pouze na z\u00e1klad\u011b va\u0161eho v\u00fdslovn\u00e9ho souhlasu nebo v p\u0159\u00edpadech, kdy je to nezbytn\u011b nutn\u00e9 k tomu, aby bylo mo\u017en\u00e9 vyu\u017e\u00edvat n\u00e1mi poskytovan\u00e9 slu\u017eby, ke kter\u00fdm m\u00e1te p\u0159\u00edstup."},"performance":{"title":"Cookie pro v\u00fdkon","details":"V\u00fdkonnostn\u00ed soubory cookie shroma\u017e\u010fuj\u00ed souhrnn\u00e9 informace o tom, jak jsou na\u0161e webov\u00e9 str\u00e1nky pou\u017e\u00edv\u00e1ny. \u00da\u010delem je zlep\u0161it jejich atraktivitu, obsah a funk\u010dnost. Tyto soubory cookie n\u00e1m pom\u00e1haj\u00ed zjistit, zda, jak \u010dasto a jak dlouho jsou nav\u0161t\u011bvov\u00e1ny jednotliv\u00e9 podstr\u00e1nky na\u0161ich webov\u00fdch str\u00e1nek a o jak\u00fd obsah maj\u00ed u\u017eivatel\u00e9 zvl\u00e1\u0161tn\u00ed z\u00e1jem. Zaznamen\u00e1vaj\u00ed se tak\u00e9 vyhled\u00e1van\u00e9 v\u00fdrazy, zem\u011b, region a (p\u0159\u00edpadn\u011b) m\u011bsto, z n\u011bho\u017e se na webov\u00e9 str\u00e1nky p\u0159istupuje, a pod\u00edl mobiln\u00edch za\u0159\u00edzen\u00ed, kter\u00e1 se k p\u0159\u00edstupu na webov\u00e9 str\u00e1nky pou\u017e\u00edvaj\u00ed. Tyto informace pou\u017e\u00edv\u00e1me k sestavov\u00e1n\u00ed statistick\u00fdch p\u0159ehled\u016f, kter\u00e9 n\u00e1m pom\u00e1haj\u00ed p\u0159izp\u016fsobit obsah na\u0161ich webov\u00fdch str\u00e1nek va\u0161im pot\u0159eb\u00e1m a optimalizovat na\u0161i nab\u00eddku."}}},"cookiesTexts":{"_core":{"default_config_hash":"r0JMDv27tTPrhzD4ypdLS0Jijl0-ccTUdlBkqvbAa8A"},"langcode":"cs","bannerText":"Na str\u00e1nk\u00e1ch tohoto webu pou\u017e\u00edv\u00e1me vybran\u00e9 vlastn\u00ed soubory cookie a soubory cookie t\u0159et\u00edch stran: Soubory cookie, kter\u00e9 jsou nezbytn\u00e9 pro pou\u017e\u00edv\u00e1n\u00ed webov\u00fdch str\u00e1nek, funk\u010dn\u00ed soubory cookie, kter\u00e9 umo\u017e\u0148uj\u00ed snadn\u011bj\u0161\u00ed pou\u017e\u00edv\u00e1n\u00ed webov\u00fdch str\u00e1nek, v\u00fdkonnostn\u00ed soubory cookie, kter\u00e9 pou\u017e\u00edv\u00e1me k vytv\u00e1\u0159en\u00ed souhrnn\u00fdch \u00fadaj\u016f o pou\u017e\u00edv\u00e1n\u00ed webov\u00fdch str\u00e1nek a statistik. Pokud zvol\u00edte \u0022P\u0159ijmout v\u0161e\u0022, souhlas\u00edte s pou\u017e\u00edv\u00e1n\u00edm v\u0161ech soubor\u016f cookie.","privacyPolicy":"Z\u00e1sady ochrany osobn\u00edch \u00fadaj\u016f","privacyUri":"","imprint":"Imprint","imprintUri":"","cookieDocs":"Dokumentace Cookie","cookieDocsUri":"\/cookies\/documentation","officialWebsite":"Official website","denyAll":"Zak\u00e1zat v\u0161e","alwaysActive":"V\u017edy aktivn\u00ed","settings":"Nastaven\u00ed cookie","acceptAll":"P\u0159ijmout v\u0161e","requiredCookies":"Vy\u017eadovan\u00e9 cookie","cookieSettings":"Nastaven\u00ed cookie","close":"Close","readMore":"\u010c\u00edst d\u00e1l","allowed":"povoleno","denied":"odm\u00edtnut\u00fd","settingsAllServices":"Nastaven\u00ed pro v\u0161echny slu\u017eby","saveSettings":"Ulo\u017eit","default_langcode":"en","disclaimerText":" ","disclaimerTextPosition":"above","processorDetailsLabel":"Podrobnosti o zpracovateli","processorLabel":"Company","processorWebsiteUrlLabel":"Company Website","processorPrivacyPolicyUrlLabel":"Company Privacy Policy","processorCookiePolicyUrlLabel":"Z\u00e1sady pro pou\u017eit\u00ed soubor\u016f cookie","processorContactLabel":"Data Protection Contact Details","placeholderAcceptAllText":"Accept All Cookies"},"services":{"functional":{"uuid":"5e830561-af5f-40b1-b2c7-e8a966a982a7","langcode":"cs","status":true,"dependencies":[],"id":"functional","label":"Cookie vy\u017eadovan\u00e9 pro fuk\u010dnost webu","group":"functional","info":{"value":"\u003Ctable\u003E\r\n\t\u003Cthead\u003E\r\n\t\t\u003Ctr\u003E\r\n\t\t\t\u003Cth width=\u002215%\u0022\u003EJm\u00e9no Cookie\u003C\/th\u003E\r\n\t\t\t\u003Cth width=\u002215%\u0022\u003EV\u00fdchoz\u00ed doba platnosti\u003C\/th\u003E\r\n\t\t\t\u003Cth\u003EPopis\u003C\/th\u003E\r\n\t\t\u003C\/tr\u003E\r\n\t\u003C\/thead\u003E\r\n\t\u003Ctbody\u003E\r\n\t\t\u003Ctr\u003E\r\n\t\t\t\u003Ctd\u003E\u003Ccode dir=\u0022ltr\u0022\u003ESSESS\u0026lt;ID\u0026gt;\u003C\/code\u003E\u003C\/td\u003E\r\n\t\t\t\u003Ctd\u003E1 m\u011bs\u00edc\u003C\/td\u003E\r\n\t\t\t\u003Ctd\u003EPokud jste na t\u011bchto webov\u00fdch str\u00e1nk\u00e1ch p\u0159ihl\u00e1\u0161eni, je k identifikaci a p\u0159ipojen\u00ed va\u0161eho prohl\u00ed\u017ee\u010de k va\u0161emu u\u017eivatelsk\u00e9mu \u00fa\u010dtu na serveru t\u011bchto webov\u00fdch str\u00e1nek vy\u017eadov\u00e1n soubor session cookie.\u003C\/td\u003E\r\n\t\t\u003C\/tr\u003E\r\n\t\t\u003Ctr\u003E\r\n\t\t\t\u003Ctd\u003E\u003Ccode dir=\u0022ltr\u0022\u003Ecookiesjsr\u003C\/code\u003E\u003C\/td\u003E\r\n\t\t\t\u003Ctd\u003E1 rok\u003C\/td\u003E\r\n\t\t\t\u003Ctd\u003EKdy\u017e jste poprv\u00e9 nav\u0161t\u00edvili tyto webov\u00e9 str\u00e1nky, byli jste po\u017e\u00e1d\u00e1ni o souhlas s pou\u017e\u00edv\u00e1n\u00edm n\u011bkolika slu\u017eeb (v\u010detn\u011b slu\u017eeb t\u0159et\u00edch stran), kter\u00e9 vy\u017eaduj\u00ed ukl\u00e1d\u00e1n\u00ed \u00fadaj\u016f do va\u0161eho prohl\u00ed\u017ee\u010de (soubory cookie, m\u00edstn\u00ed \u00falo\u017ei\u0161t\u011b). Va\u0161e rozhodnut\u00ed o ka\u017ed\u00e9 slu\u017eb\u011b (povolit, zam\u00edtnout) se ukl\u00e1d\u00e1 do tohoto souboru cookie a je znovu pou\u017eito p\u0159i ka\u017ed\u00e9 n\u00e1v\u0161t\u011bv\u011b t\u011bchto webov\u00fdch str\u00e1nek.\u003C\/td\u003E\r\n\t\t\u003C\/tr\u003E\r\n\t\u003C\/tbody\u003E\r\n\u003C\/table\u003E\r\n","format":"ckeditor_full"},"consentRequired":false,"purpose":"Technick\u00e9 cookies nutn\u00e9 pro spr\u00e1vnou funk\u010dnost webu","processor":"","processorContact":"","processorUrl":"","processorPrivacyPolicyUrl":"","processorCookiePolicyUrl":"","placeholderMainText":"This content is blocked because required functional cookies have not been accepted.","placeholderAcceptText":"Only accept required functional cookies"},"gtag":{"uuid":"77489793-a92d-4c69-bf88-26d20269a68e","langcode":"cs","status":true,"dependencies":{"enforced":{"module":["cookies_gtag"]}},"_core":{"default_config_hash":"IyQS406QuLa6fAnbDgux4OI6Y6fsu_-J_bZDtoXExEI"},"id":"gtag","label":"Google Tag Manager","group":"performance","info":{"value":"","format":"ckeditor_full"},"consentRequired":true,"purpose":"","processor":"","processorContact":"","processorUrl":"","processorPrivacyPolicyUrl":"","processorCookiePolicyUrl":"https:\/\/support.google.com\/analytics\/answer\/6004245","placeholderMainText":"This content is blocked because google tag manager cookies have not been accepted.","placeholderAcceptText":"Only accept google tag manager cookies"}},"groups":{"functional":{"uuid":"53e5bbe0-b012-45bc-aa42-9def131d3889","langcode":"cs","status":true,"dependencies":[],"id":"functional","label":"Vy\u017eadovan\u00e9 cookie","weight":1,"title":"Vy\u017eadovan\u00e9 cookie","details":"Soubory cookie jsou mal\u00e9 textov\u00e9 soubory, kter\u00e9 prohl\u00ed\u017ee\u010d ukl\u00e1d\u00e1 do va\u0161eho za\u0159\u00edzen\u00ed za \u00fa\u010delem ulo\u017een\u00ed ur\u010dit\u00fdch informac\u00ed. Na z\u00e1klad\u011b ulo\u017een\u00fdch a vr\u00e1cen\u00fdch informac\u00ed m\u016f\u017ee webov\u00e1 str\u00e1nka rozpoznat, \u017ee jste ji ji\u017e d\u0159\u00edve nav\u0161t\u00edvili pomoc\u00ed prohl\u00ed\u017ee\u010de ve va\u0161em koncov\u00e9m za\u0159\u00edzen\u00ed. Tyto informace pou\u017e\u00edv\u00e1me k optim\u00e1ln\u00edmu uspo\u0159\u00e1d\u00e1n\u00ed a zobrazen\u00ed webov\u00fdch str\u00e1nek v souladu s va\u0161imi preferencemi. V r\u00e1mci tohoto procesu je ve va\u0161em za\u0159\u00edzen\u00ed identifikov\u00e1n pouze samotn\u00fd soubor cookie. Osobn\u00ed \u00fadaje jsou ukl\u00e1d\u00e1ny pouze na z\u00e1klad\u011b va\u0161eho v\u00fdslovn\u00e9ho souhlasu nebo v p\u0159\u00edpadech, kdy je to nezbytn\u011b nutn\u00e9 k tomu, aby bylo mo\u017en\u00e9 vyu\u017e\u00edvat n\u00e1mi poskytovan\u00e9 slu\u017eby, ke kter\u00fdm m\u00e1te p\u0159\u00edstup."},"performance":{"uuid":"5e1e8d78-787a-4e82-b383-050ec715cc88","langcode":"cs","status":true,"dependencies":[],"_core":{"default_config_hash":"Jv3uIJviBj7D282Qu1ZpEQwuOEb3lCcDvx-XVHeOJpw"},"id":"performance","label":"Cookie pro v\u00fdkon","weight":30,"title":"Cookie pro v\u00fdkon","details":"V\u00fdkonnostn\u00ed soubory cookie shroma\u017e\u010fuj\u00ed souhrnn\u00e9 informace o tom, jak jsou na\u0161e webov\u00e9 str\u00e1nky pou\u017e\u00edv\u00e1ny. \u00da\u010delem je zlep\u0161it jejich atraktivitu, obsah a funk\u010dnost. Tyto soubory cookie n\u00e1m pom\u00e1haj\u00ed zjistit, zda, jak \u010dasto a jak dlouho jsou nav\u0161t\u011bvov\u00e1ny jednotliv\u00e9 podstr\u00e1nky na\u0161ich webov\u00fdch str\u00e1nek a o jak\u00fd obsah maj\u00ed u\u017eivatel\u00e9 zvl\u00e1\u0161tn\u00ed z\u00e1jem. Zaznamen\u00e1vaj\u00ed se tak\u00e9 vyhled\u00e1van\u00e9 v\u00fdrazy, zem\u011b, region a (p\u0159\u00edpadn\u011b) m\u011bsto, z n\u011bho\u017e se na webov\u00e9 str\u00e1nky p\u0159istupuje, a pod\u00edl mobiln\u00edch za\u0159\u00edzen\u00ed, kter\u00e1 se k p\u0159\u00edstupu na webov\u00e9 str\u00e1nky pou\u017e\u00edvaj\u00ed. Tyto informace pou\u017e\u00edv\u00e1me k sestavov\u00e1n\u00ed statistick\u00fdch p\u0159ehled\u016f, kter\u00e9 n\u00e1m pom\u00e1haj\u00ed p\u0159izp\u016fsobit obsah na\u0161ich webov\u00fdch str\u00e1nek va\u0161im pot\u0159eb\u00e1m a optimalizovat na\u0161i nab\u00eddku."},"social":{"uuid":"80d7b4ce-d556-4489-a97d-d9d8b681ef9c","langcode":"cs","status":true,"dependencies":[],"_core":{"default_config_hash":"vog2tbqqQHjVkue0anA0RwlzvOTPNTvP7_JjJxRMVAQ"},"id":"social","label":"Pluginy soci\u00e1ln\u00edch s\u00edt\u00ed","weight":20,"title":"Pluginy soci\u00e1ln\u00edch s\u00edt\u00ed","details":"Spr\u00e1vci koment\u00e1\u0159\u016f zaji\u0161\u0165uj\u00ed vypl\u0148ov\u00e1n\u00ed koment\u00e1\u0159\u016f a bojuj\u00ed proti \u0161\u00ed\u0159en\u00ed spamu."},"tracking":{"uuid":"a205a068-3c98-4d26-84a9-0127256aa5e6","langcode":"cs","status":true,"dependencies":[],"_core":{"default_config_hash":"_gYDe3qoEc6L5uYR6zhu5V-3ARLlyis9gl1diq7Tnf4"},"id":"tracking","label":"Sledov\u00e1n\u00ed","weight":10,"title":"Cookie pro sledov\u00e1n\u00ed","details":"Marketingov\u00e9 soubory cookie poch\u00e1zej\u00ed od extern\u00edch reklamn\u00edch spole\u010dnost\u00ed (\u0022soubory cookie t\u0159et\u00edch stran\u0022) a slou\u017e\u00ed ke shroma\u017e\u010fov\u00e1n\u00ed informac\u00ed o webov\u00fdch str\u00e1nk\u00e1ch, kter\u00e9 u\u017eivatel nav\u0161t\u00edvil. Jejich \u00fa\u010delem je vytv\u00e1\u0159et a zobrazovat u\u017eivateli obsah a reklamu zam\u011b\u0159enou na c\u00edlovou skupinu."},"video":{"uuid":"78bd57ae-b79c-4fe6-a3da-faedb58f5df0","langcode":"cs","status":true,"dependencies":[],"_core":{"default_config_hash":"w1WnCmP2Xfgx24xbx5u9T27XLF_ZFw5R0MlO-eDDPpQ"},"id":"video","label":"Videa","weight":40,"title":"Video","details":"Video-hostingov\u00e9 slu\u017eby pom\u00e1haj\u00ed p\u0159idat na str\u00e1nku bohat\u00e9 medi\u00e1ln\u00ed prvky."}}},"antibot":{"forms":{"webform-submission-zpetna-vazba-node-13104-add-form":{"id":"webform-submission-zpetna-vazba-node-13104-add-form","key":"4Yq2jww-Gt1fz3yyerz0Y2GWW28Rr_AU4iHhPT3s5Wa"}}},"ajax":{"edit-submit":{"callback":"::submitAjaxForm","event":"click","effect":"fade","speed":500,"progress":{"type":"throbber","message":""},"disable-refocus":true,"url":"\/vzory-sablon-xlsx-json-souboru-pro-predkladani-souhrnnych-informaci-podle-monitorovaci-vyhlasky-0?ajax_form=1","httpMethod":"POST","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Odeslat"}}},"webform":{"intlTelInput":{"utilsScript":"https:\/\/cdn.jsdelivr.net\/gh\/jackocnr\/intl-tel-input@v17.0.19\/build\/js\/utils.js"}},"search_api_autocomplete":{"vyhledavani_db_search":{"auto_submit":true}},"user":{"uid":0,"permissionsHash":"37585941d7babfbb6117824c959c5383fded9f94d52b2688aa0eb5a4a8e654b5"}}</script>
+<script src="/sites/default/files/languages/cs_IvsH3bxRXEngrvHA2f4AW4JL2qIvDIBpIwjITAhOAyw.js?tk07lg"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.6.10"></script>
+<script src="/core/misc/drupal.js?v=10.6.10"></script>
+<script src="/core/misc/drupal.init.js?v=10.6.10"></script>
+<script src="/core/misc/debounce.js?v=10.6.10"></script>
+<script src="/core/misc/announce.js?v=10.6.10"></script>
+<script src="/core/misc/message.js?v=10.6.10"></script>
+<script src="/themes/contrib/bootstrap/js/misc/message.js?tk07lg"></script>
+<script src="/modules/contrib/cookies/js/cookiesjsr.conf.js?v=10.6.10" defer></script>
+<script src="/libraries/cookiesjsr/dist/cookiesjsr-preloader.min.js?v=10.6.10" defer></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?tk07lg" type="text/plain" id="cookies_gtag_gtag" data-cookieconsent="gtag"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?tk07lg" type="text/plain" id="cookies_gtag_gtm" data-cookieconsent="gtag"></script>
+
+                </head>
+<body class="page-node-13104 node-type-aktualita not-front lang-cs lang-direction-ltr path-node page-node-type-aktualita has-glyphicons" data-node-type="aktualita">
+<a href="#main-content" class="visually-hidden focusable skip-link">
+    Přejít k hlavnímu obsahu
+</a>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFHCR4H"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div id="wrapper" class="main-wrapper">
+
+    
+    
+    
+    <div id="informacni-hlaska">
+        
+    </div>
+
+    <header class="header">
+        <div class="container">
+
+            <div id="header">
+                                                            <div id="logo"><a href="/"><img
+                                        src="/profiles/kraken/themes/kraken_theme/images/logo.svg"
+                                        alt="Úvodní stránka"/>                            </a></div>
+                                                    
+            </div>
+
+            <div class="mobile-header">
+
+                                    <div id="jazyky">
+                          <div class="region region-jazyky">
+    <section id="block-prepinacjazyka" class="block block-kraken-language block-kraken-lang-switch clearfix">
+  
+    
+
+      <div class="language-switcher language-switcher-actual-cs dropdown" id="language-switcher-2043cdef2fdabc18ae0d58282a19bcf7"><button class="btn btn-language-switcher dropdown-toggle" data-toggle="dropdown"><span class="language-name language-cs language-flag">CS</span>
+<span class="caret"></span>
+</button>
+<div class="language-label">Jazyk</div>
+<ul class="dropdown-menu" aria-labelledby="language-switcher-2043cdef2fdabc18ae0d58282a19bcf7"><li><a href="/vzory-sablon-xlsx-json-souboru-pro-predkladani-souhrnnych-informaci-podle-monitorovaci-vyhlasky-0" class="language-cs language-flag" hreflang="cs">CS</a></li>
+<li><a href="/en" class="language-en language-flag" hreflang="en">EN</a></li>
+</ul>
+</div>
+
+  </section>
+
+
+  </div>
+
+                    </div>
+                
+                <div id="search-button">
+                    <a href="#" class="hledej"><span>Hledat</span></a>
+                </div>
+
+                <div id="top-menu">
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav id="main-menu">
+        <div class="container">
+              <div class="region region-menu">
+    <div class="main-nav">
+
+      
+<div id="dl-menu">
+    <div class="mlm-toggle-button" id="mobile-menu-button" aria-controls="mobile-menu" role="button" tabindex="0">
+        <div class="menu-cross">
+            <div class="bit-1"></div>
+            <div class="bit-2"></div>
+            <div class="bit-3"></div>
+        </div>
+        <div class="menu-label">Menu</div>
+    </div>
+    <div id="main-menu-wrapper">
+        <div class="main-menu-content">
+                            <ul class="dl-menu">
+                                                    <li>
+                <a href="/urad" data-drupal-link-system-path="node/91">Úřad</a>
+                                    </li>
+                                                <li>
+                <a href="/uredni-deska" data-drupal-link-system-path="node/934">Úřední deska</a>
+                                    </li>
+                                                <li>
+                <a href="/kariera" data-drupal-link-system-path="node/854">Kariéra</a>
+                                    </li>
+                                                <li>
+                <a href="/media" data-drupal-link-system-path="node/933">Média</a>
+                                    </li>
+                                                <li>
+                <a href="/kontakty" data-drupal-link-system-path="node/704">Kontakty</a>
+                                    </li>
+                                                <li class="mobile-only">
+                <a href="/spotrebitel" data-drupal-link-system-path="node/836">Spotřebitel</a>
+                                    </li>
+                                                <li class="mobile-only">
+                <a href="/regulace" data-drupal-link-system-path="node/702">Regulace</a>
+                                    </li>
+                                                <li class="mobile-only">
+                <a href="/licence" data-drupal-link-system-path="node/713">Licence</a>
+                                    </li>
+                                                <li class="mobile-only">
+                <a href="/zprostredkovatel" data-drupal-link-system-path="node/9725">Zprostředkovatel</a>
+                                    </li>
+                                                <li class="mobile-only">
+                <a href="/legislativa-a-spravni-cinnost" data-drupal-link-system-path="node/1106">Legislativa a správní činnost</a>
+                                    </li>
+                                                <li class="mobile-only">
+                <a href="/energetika-v-cislech" data-drupal-link-system-path="node/1107">Energetika v číslech</a>
+                                    </li>
+            </ul>
+        
+        </div>
+    </div>
+
+    <div id="mobile-main-menu-wrapper">
+        <div class="mobile-main-menu-content">
+                            <ul class="mlm-root" data-menu-parent-id="root" id="mobile-menu" role="menu" aria-labelledby="mobile-menu-button">
+                                    
+
+                                    <li>
+                    <a href="/urad" data-drupal-link-system-path="node/91">Úřad</a>
+                                                </li>
+                            
+
+                                    <li>
+                    <a href="/uredni-deska" data-drupal-link-system-path="node/934">Úřední deska</a>
+                                                </li>
+                            
+
+                                    <li>
+                    <a href="/kariera" data-drupal-link-system-path="node/854">Kariéra</a>
+                                                </li>
+                            
+
+                                    <li>
+                    <a href="/media" data-drupal-link-system-path="node/933">Média</a>
+                                                </li>
+                            
+
+                                    <li>
+                    <a href="/kontakty" data-drupal-link-system-path="node/704">Kontakty</a>
+                                                </li>
+                            
+
+                                    <li class="mobile-only">
+                    <a href="/spotrebitel" data-drupal-link-system-path="node/836">Spotřebitel</a>
+                                                </li>
+                            
+
+                                    <li class="mobile-only">
+                    <a href="/regulace" data-drupal-link-system-path="node/702">Regulace</a>
+                                                </li>
+                            
+
+                                    <li class="mobile-only">
+                    <a href="/licence" data-drupal-link-system-path="node/713">Licence</a>
+                                                </li>
+                            
+
+                                    <li class="mobile-only">
+                    <a href="/zprostredkovatel" data-drupal-link-system-path="node/9725">Zprostředkovatel</a>
+                                                </li>
+                            
+
+                                    <li class="mobile-only">
+                    <a href="/legislativa-a-spravni-cinnost" data-drupal-link-system-path="node/1106">Legislativa a správní činnost</a>
+                                                </li>
+                            
+
+                                    <li class="mobile-only">
+                    <a href="/energetika-v-cislech" data-drupal-link-system-path="node/1107">Energetika v číslech</a>
+                                                </li>
+                    </ul>
+        
+        </div>
+        <div class="mlm-generated-menu"></div>
+    </div>
+</div>
+
+    
+  </div>
+
+  </div>
+
+        </div>
+    </nav>
+
+    
+            <div id="search">
+            <div class="container">
+                  <div class="region region-search">
+    <section class="views-exposed-form block block-views block-views-exposed-filter-blockvyhledavani-db-search-page-1 clearfix" novalidate="novalidate" data-drupal-selector="views-exposed-form-vyhledavani-db-search-page-1" id="block-exposedformvyhledavani-db-searchpage-1">
+  
+  	  <h2 class="block-title"><span>Vyhledejte, co vás zajímá</span></h2>
+    
+
+      <form action="/vyhledat" method="get" id="views-exposed-form-vyhledavani-db-search-page-1" accept-charset="UTF-8">
+  <div class="form--inline form-inline clearfix">
+  <div class="form-item js-form-item form-type-search-api-autocomplete js-form-type-search-api-autocomplete form-item-dotaz js-form-item-dotaz form-group form-autocomplete">
+      <label for="edit-dotaz" class="control-label"><span class="label-span"><span>Vyhledávaný dotaz</span></span></label>
+  
+  
+  <div class="input-group"><input placeholder="Zadejte hledaný výraz" data-drupal-selector="edit-dotaz" data-search-api-autocomplete-search="vyhledavani_db_search" class="form-autocomplete form-text form-control" data-autocomplete-path="/search_api_autocomplete/vyhledavani_db_search?display=page_1&amp;&amp;filter=dotaz" type="text" id="edit-dotaz" name="dotaz" value="" size="30" maxlength="128" /><span class="input-group-addon"><span class="icon glyphicon glyphicon-refresh ajax-progress ajax-progress-throbber" aria-hidden="true"></span></span></div>
+
+  
+  
+  </div>
+<div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions"><button data-drupal-selector="edit-submit-vyhledavani-db-search" class="button js-form-submit form-submit btn-info btn" type="submit" id="edit-submit-vyhledavani-db-search" value="Použít">Použít</button></div>
+
+</div>
+
+</form>
+
+  </section>
+
+
+  </div>
+
+            </div>
+        </div>
+    
+    
+            <div id="breadcrumbs">
+            <div class="container">
+                <div class="breadcrumb-header"><a href="#breadcrumb">Kde nyní jsem?</a></div>
+                  <div class="region region-breadcrumbs">
+        <ul class="breadcrumb">
+          <li >
+                  <a href="/">Domů</a>
+              </li>
+          <li  class="active">
+                  Vzory šablon XLSX a JSON souborů pro předkládání souhrnných informací podle monitorovací vyhlášky – plynárenství
+              </li>
+      </ul>
+
+
+  </div>
+
+            </div>
+        </div>
+    
+        <main role="main">
+                            <div id="top-nadpis">
+                <div class="container">
+                      <div class="region region-nadpis">
+        <h1 class="page-header">
+<span>Vzory šablon XLSX a JSON souborů pro předkládání souhrnných informací podle monitorovací vyhlášky – plynárenství</span>
+</h1>
+
+<section class="views-element-container block block-views block-views-blockdetail-atributy-block-1 clearfix" id="block-views-block-detail-atributy-block-1">
+  
+    
+
+      <div class="form-group"><div class="view view-detail-atributy view-id-detail_atributy view-display-id-block_1 js-view-dom-id-cab5ed563ca152efb43a712950a34967cf30bc411cba060de1e13c4d11dc3e57">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-fieldset-1"><span class="field-content">  <div  class="views-row-fieldset">
+    <div class="views-field views-field-fieldset"><span class="field-content">  <div  class="fieldset-tags">
+    <div class="views-field views-field-fieldset-2"><span class="field-content">  <div  class="fieldset-dates">
+    <div class="views-field views-field-field-aktualita-datum-aktuality"><div class="field-content">17.04.2026, aktualizováno <time datetime="2026-06-25T12:43:37+02:00">25.06.2026</time>
+</div></div>  </div>
+</span></div><div class="views-field views-field-field-utvar"><div class="field-content"><ul><li><span>Oddělení monitoringu trhu</span></li></ul></div></div><div class="views-field views-field-field-aktualita-stitky"><div class="field-content"><ul><li><span>Vykazování</span></li><li><span>Statistické výkazy</span></li><li><span>Výkaz</span></li><li><span>Monitoring trhu</span></li><li><span>Hospodářská soutěž</span></li></ul></div></div>  </div>
+</span></div>  </div>
+</span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+                </div>
+            </div>
+        
+        
+        <div id="main-content" class="container">
+
+            
+            <div id="main-column">
+                
+                <section class="main-section">
+                                                                <a id="main-content"></a>
+                          <div class="region region-content">
+      <article about="/vzory-sablon-xlsx-json-souboru-pro-predkladani-souhrnnych-informaci-podle-monitorovaci-vyhlasky-0" class="aktualita is-promoted full clearfix">
+
+	
+	
+
+	
+	<div class="content">
+		
+      <div class="field field--name-field-aktualita-bile-bloky field--type-entity-reference-revisions field--label-hidden field--items">
+              <div class="field--item">  <div class="paragraph paragraph--type--bily-blok paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="view view-eva view-kotva view-id-kotva view-display-id-entity_view_1 js-view-dom-id-34ef081678ef0666003c11f64833bc5842387d49ab07ce7fb17bfc8fc3172afe">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-field-bily-blok-kotva"><div class="field-content"><div id="drzitele-licenci-pro-obchod-s-plynem-a-vyrobu-plynu"></div></div></div></div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+            <div class="field field--name-field-bily-blok-nadpis field--type-heading field--label-hidden field--item"><h2>Držitelé licencí pro obchod s plynem a výrobu plynu</h2>
+</div>
+      
+      <div class="field field--name-field-bily-blok-dynamicky-obsah field--type-entity-reference-revisions field--label-hidden field--items">
+              <div class="field--item">  <div class="paragraph paragraph--type--bezny-text paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="bezny-text-zakladni view view-eva view-dynamicky-obsah-bezny-text view-id-dynamicky_obsah_bezny_text view-display-id-entity_view_1 js-view-dom-id-9191316ad587321ee8995a37d620741dffcd2530bfa358fb581fcc5c0d5464c3">
+    
+        
+
+    
+    
+    <div class="view-content">
+            <div class="pocet-sloupcu-1 par-60246-286890 views-row"><div class="views-field views-field-field-bezny-text"><div class="field-content"><p class="text-align-justify">ERÚ v souladu s <a href="https://e-sbirka.gov.cz/sb/2025/346?zalozka=text">monitorovací vyhláškou</a>&nbsp;zveřejňuje vzory šablon XLSX a JSON souborů pro předkládání souhrnných informací podle této vyhlášky a metodickou příručku k jejich vyplnění.</p>
+<p class="text-align-justify">Obchodník s plynem nebo výrobce plynu, který k poslednímu dni kalendářního pololetí dodává plyn alespoň do 1 000 odběrných míst zákazníků v postavení spotřebitele nebo podnikající fyzické osoby s roční spotřebou plynu do 63 MWh, předkládá v souladu s <a href="https://e-sbirka.gov.cz/sb/2025/346/0000-00-00#par_2-odst_2">monitorovací vyhláškou</a> ERÚ za kalendářní pololetí souhrnné informace dle příloh č. 5 až 8 této vyhlášky.</p>
+<p class="text-align-justify"><span><span>První předkládání souhrnných informací, tj. za první kalendářní pololetí roku 2026 nejpozději do 25. srpna 2026, proběhne odesláním datové zprávy do datové schránky ERÚ (</span></span>eeuaau7).&nbsp;</p>
+<p>&nbsp;</p>
+</div></div></div>
+
+        
+        
+    </div>
+
+    
+    
+
+    
+    </div>
+</div>
+
+      </div>
+</div>
+          </div>
+  
+      </div>
+</div>
+              <div class="field--item">  <div class="paragraph paragraph--type--bily-blok paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="view view-eva view-kotva view-id-kotva view-display-id-entity_view_1 js-view-dom-id-656f73815b42362900e9f09a14c93e3c668b1b27239d03f3de9fbcf563f1fa0c">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-field-bily-blok-kotva"><div class="field-content"><div id="vzor-sablon"></div></div></div></div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+            <div class="field field--name-field-bily-blok-nadpis field--type-heading field--label-hidden field--item"><h2>Vzory XLSX šablon</h2>
+</div>
+      
+      <div class="field field--name-field-bily-blok-dynamicky-obsah field--type-entity-reference-revisions field--label-hidden field--items">
+              <div class="field--item">  <div class="paragraph paragraph--type--priloha paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_1 js-view-dom-id-2e62b1d50c6048d959c30e9ccb2fbe0a9feee4864dd57bd5f98620bc455b5729">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-fieldset"><span class="field-content">  <div  class="fieldset-content">
+    <div class="views-field views-field-field-priloha-nazev"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/mvg5_3.xlsx">mvG5: Šablona k předkládání informací o portfoliu odběrných míst obchodníka s plynem a výrobce plynu pro monitorování stavu hospodářské soutěže na maloobchodním trhu s plynem a úrovně maloobchodních cen plynu</a></div></div><div class="views-field views-field-field-priloha-popis"><div class="field-content"></div></div><div class="views-field views-field-fieldset-2"><span class="field-content">  <div  class="fieldset-atributes">
+    <div class="views-field views-field-extension"><span class="views-label views-label-extension">Typ: </span><span class="field-content">xlsx</span></div><div class="views-field views-field-filesize"><span class="views-label views-label-filesize">Velikost: </span><span class="field-content">47.52 KB</span></div><div class="views-field views-field-field-priloha-datum-aktualizace"><span class="views-label views-label-field-priloha-datum-aktualizace">Aktualizováno: </span><span class="field-content"><time datetime="2026-04-27T12:00:00Z">27.04.2026</time>
+</span></div>  </div>
+</span></div>  </div>
+</span></div><div class="views-field views-field-fieldset-1"><span class="field-content">  <div  class="fieldset-link">
+    <div class="views-field views-field-field-priloha-soubor"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/mvg5_3.xlsx">Stáhnout</a></div></div>  </div>
+</span></div></div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+<div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_2 js-view-dom-id-dd6a210eccffcb09f6e47740855d61000981c11353fff62db4b6cd2bd35fc41b">
+  
+    
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+      </div>
+</div>
+              <div class="field--item">  <div class="paragraph paragraph--type--priloha paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_1 js-view-dom-id-8bea292575db87cacdfe08f47dbbd2948b86ba3dbe91dc81a15312996382506b">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-fieldset"><span class="field-content">  <div  class="fieldset-content">
+    <div class="views-field views-field-field-priloha-nazev"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/mvg6.xlsx">mvG6_Trzby: Šablona k předkládání informací o o tržbách obchodníka s plynem a výrobce plynu pro monitorování stavu hospodářské soutěže na maloobchodním trhu s plynem</a></div></div><div class="views-field views-field-field-priloha-popis"><div class="field-content"></div></div><div class="views-field views-field-fieldset-2"><span class="field-content">  <div  class="fieldset-atributes">
+    <div class="views-field views-field-extension"><span class="views-label views-label-extension">Typ: </span><span class="field-content">xlsx</span></div><div class="views-field views-field-filesize"><span class="views-label views-label-filesize">Velikost: </span><span class="field-content">30.03 KB</span></div><div class="views-field views-field-field-priloha-datum-aktualizace"><span class="views-label views-label-field-priloha-datum-aktualizace">Aktualizováno: </span><span class="field-content"><time datetime="2026-03-13T12:00:00Z">13.03.2026</time>
+</span></div>  </div>
+</span></div>  </div>
+</span></div><div class="views-field views-field-fieldset-1"><span class="field-content">  <div  class="fieldset-link">
+    <div class="views-field views-field-field-priloha-soubor"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/mvg6.xlsx">Stáhnout</a></div></div>  </div>
+</span></div></div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+<div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_2 js-view-dom-id-1a9b8d0a73021f5be6df674573fa96d586647c47ef32400d8745c00305f0f30c">
+  
+    
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+      </div>
+</div>
+              <div class="field--item">  <div class="paragraph paragraph--type--priloha paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_1 js-view-dom-id-7f2a1651775e68c8952b5480647bc087b15e72bb975415a41948f2bf51cd9952">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-fieldset"><span class="field-content">  <div  class="fieldset-content">
+    <div class="views-field views-field-field-priloha-nazev"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/mvg7_3.xlsx">mvG7: Šablona k předkládání informací o přírůstku odběrných míst obchodníka s plynem a výrobce plynu pro monitorování stavu hospodářské soutěže na maloobchodním trhu s plynem a úrovně maloobchodních cen plynu</a></div></div><div class="views-field views-field-field-priloha-popis"><div class="field-content"></div></div><div class="views-field views-field-fieldset-2"><span class="field-content">  <div  class="fieldset-atributes">
+    <div class="views-field views-field-extension"><span class="views-label views-label-extension">Typ: </span><span class="field-content">xlsx</span></div><div class="views-field views-field-filesize"><span class="views-label views-label-filesize">Velikost: </span><span class="field-content">46.11 KB</span></div><div class="views-field views-field-field-priloha-datum-aktualizace"><span class="views-label views-label-field-priloha-datum-aktualizace">Aktualizováno: </span><span class="field-content"><time datetime="2026-04-27T12:00:00Z">27.04.2026</time>
+</span></div>  </div>
+</span></div>  </div>
+</span></div><div class="views-field views-field-fieldset-1"><span class="field-content">  <div  class="fieldset-link">
+    <div class="views-field views-field-field-priloha-soubor"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/mvg7_3.xlsx">Stáhnout</a></div></div>  </div>
+</span></div></div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+<div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_2 js-view-dom-id-3dc165cc45afb901e0363b9b394df8de153ce725bf62ef8a09f570add201a5e0">
+  
+    
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+      </div>
+</div>
+              <div class="field--item">  <div class="paragraph paragraph--type--priloha paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_1 js-view-dom-id-1ce6e2657204866f43cfa75d62ea33cf24fe024624de0946f0116203794e5c54">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-fieldset"><span class="field-content">  <div  class="fieldset-content">
+    <div class="views-field views-field-field-priloha-nazev"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/mvg8.xlsx">mvG8: Šablona k předkládání informací o uplatňovaných smluvních podmínkách na maloobchodním trhu s plynem</a></div></div><div class="views-field views-field-field-priloha-popis"><div class="field-content"></div></div><div class="views-field views-field-fieldset-2"><span class="field-content">  <div  class="fieldset-atributes">
+    <div class="views-field views-field-extension"><span class="views-label views-label-extension">Typ: </span><span class="field-content">xlsx</span></div><div class="views-field views-field-filesize"><span class="views-label views-label-filesize">Velikost: </span><span class="field-content">33.42 KB</span></div><div class="views-field views-field-field-priloha-datum-aktualizace"><span class="views-label views-label-field-priloha-datum-aktualizace">Aktualizováno: </span><span class="field-content"><time datetime="2026-03-13T12:00:00Z">13.03.2026</time>
+</span></div>  </div>
+</span></div>  </div>
+</span></div><div class="views-field views-field-fieldset-1"><span class="field-content">  <div  class="fieldset-link">
+    <div class="views-field views-field-field-priloha-soubor"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/mvg8.xlsx">Stáhnout</a></div></div>  </div>
+</span></div></div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+<div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_2 js-view-dom-id-0db367c36ce9b5959b6be992b8e367debfa57021ce9b726a1fdc196a1ae1ba34">
+  
+    
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+      </div>
+</div>
+          </div>
+  
+      </div>
+</div>
+              <div class="field--item">  <div class="paragraph paragraph--type--bily-blok paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="view view-eva view-kotva view-id-kotva view-display-id-entity_view_1 js-view-dom-id-0975be9755f21296a1444067e4f4253d29830e0c27924c05439bb4697d1d4132">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-field-bily-blok-kotva"><div class="field-content"><div id="json-schema"></div></div></div></div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+            <div class="field field--name-field-bily-blok-nadpis field--type-heading field--label-hidden field--item"><h2>JSON schéma</h2>
+</div>
+      
+      <div class="field field--name-field-bily-blok-dynamicky-obsah field--type-entity-reference-revisions field--label-hidden field--items">
+              <div class="field--item">  <div class="paragraph paragraph--type--priloha paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_1 js-view-dom-id-80ebdc1fe81c9b0fdddb271dddd20155827bf4df1322ab06f2e02bd7709e691b">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-fieldset"><span class="field-content">  <div  class="fieldset-content">
+    <div class="views-field views-field-field-priloha-nazev"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/jsonschema-monitorovacivyhlaskagv0json_2.txt">JSON schémata – plynárenství</a></div></div><div class="views-field views-field-field-priloha-popis"><div class="field-content"></div></div><div class="views-field views-field-fieldset-2"><span class="field-content">  <div  class="fieldset-atributes">
+    <div class="views-field views-field-extension"><span class="views-label views-label-extension">Typ: </span><span class="field-content">txt</span></div><div class="views-field views-field-filesize"><span class="views-label views-label-filesize">Velikost: </span><span class="field-content">28.07 KB</span></div><div class="views-field views-field-field-priloha-datum-aktualizace"><span class="views-label views-label-field-priloha-datum-aktualizace">Aktualizováno: </span><span class="field-content"><time datetime="2026-04-27T12:00:00Z">27.04.2026</time>
+</span></div>  </div>
+</span></div>  </div>
+</span></div><div class="views-field views-field-fieldset-1"><span class="field-content">  <div  class="fieldset-link">
+    <div class="views-field views-field-field-priloha-soubor"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/jsonschema-monitorovacivyhlaskagv0json_2.txt">Stáhnout</a></div></div>  </div>
+</span></div></div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+<div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_2 js-view-dom-id-29ef77458c6fee31ccda2b7fa628666f16cf2dd693ca2cd431dc5ddd8aecf2a3">
+  
+    
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+      </div>
+</div>
+          </div>
+  
+      </div>
+</div>
+              <div class="field--item">  <div class="paragraph paragraph--type--bily-blok paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="view view-eva view-kotva view-id-kotva view-display-id-entity_view_1 js-view-dom-id-57ddebfd2098a05f66481bb4d1a7c88e9aa4508e349800dee325619ed587f2c4">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-field-bily-blok-kotva"><div class="field-content"><div id="metodicka-prirucka"></div></div></div></div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+            <div class="field field--name-field-bily-blok-nadpis field--type-heading field--label-hidden field--item"><h2>Metodická příručka</h2>
+</div>
+      
+      <div class="field field--name-field-bily-blok-dynamicky-obsah field--type-entity-reference-revisions field--label-hidden field--items">
+              <div class="field--item">  <div class="paragraph paragraph--type--priloha paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_1 js-view-dom-id-a5c52318c8826fefdbf0d1f32e73e744cdd5d1276b8239560e7defe2a608093f">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-fieldset"><span class="field-content">  <div  class="fieldset-content">
+    <div class="views-field views-field-field-priloha-nazev"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/metodickapriruckavyplnovanisablonv31_1.pdf">Metodická příručka pro vyplňovaní šablon</a></div></div><div class="views-field views-field-field-priloha-popis"><div class="field-content"></div></div><div class="views-field views-field-fieldset-2"><span class="field-content">  <div  class="fieldset-atributes">
+    <div class="views-field views-field-extension"><span class="views-label views-label-extension">Typ: </span><span class="field-content">pdf</span></div><div class="views-field views-field-filesize"><span class="views-label views-label-filesize">Velikost: </span><span class="field-content">436.82 KB</span></div><div class="views-field views-field-field-priloha-datum-aktualizace"><span class="views-label views-label-field-priloha-datum-aktualizace">Aktualizováno: </span><span class="field-content"><time datetime="2026-04-17T12:00:00Z">17.04.2026</time>
+</span></div>  </div>
+</span></div>  </div>
+</span></div><div class="views-field views-field-fieldset-1"><span class="field-content">  <div  class="fieldset-link">
+    <div class="views-field views-field-field-priloha-soubor"><div class="field-content"><a href="/sites/default/files/obsah/prilohy/metodickapriruckavyplnovanisablonv31_1.pdf">Stáhnout</a></div></div>  </div>
+</span></div></div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+<div class="views-element-container form-group"><div class="view view-eva view-priloha view-id-priloha view-display-id-entity_view_2 js-view-dom-id-ace04ff4bcb03fb4ce7e8234a8104eb9788b6677c9950a4fbf0026d03d3f7a7d">
+  
+    
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+      </div>
+</div>
+          </div>
+  
+      </div>
+</div>
+              <div class="field--item">  <div class="paragraph paragraph--type--bily-blok paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="view view-eva view-kotva view-id-kotva view-display-id-entity_view_1 js-view-dom-id-97c9ce2fc401f8b7ff8ee04d5dbdbc79066da3eae2ce5ca7c4b972b30e660d70">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-field-bily-blok-kotva"><div class="field-content"><div id="kontakty"></div></div></div></div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+            <div class="field field--name-field-bily-blok-nadpis field--type-heading field--label-hidden field--item"><h2>Kontakty</h2>
+</div>
+      
+      <div class="field field--name-field-bily-blok-dynamicky-obsah field--type-entity-reference-revisions field--label-hidden field--items">
+              <div class="field--item">  <div class="paragraph paragraph--type--bezny-text paragraph--view-mode--default">
+          <div class="views-element-container form-group"><div class="bezny-text-zakladni view view-eva view-dynamicky-obsah-bezny-text view-id-dynamicky_obsah_bezny_text view-display-id-entity_view_1 js-view-dom-id-2e637ac833381c5a04573b118a111f3b493ea6f8de701462409bc5e7fc596d81">
+    
+        
+
+    
+    
+    <div class="view-content">
+            <div class="pocet-sloupcu-1 par-60260-286901 views-row"><div class="views-field views-field-field-bezny-text"><div class="field-content"><p>V případě potřeby je možné kontaktovat ERÚ e-mailem:</p>
+<p><a href="mailto:data@eru.gov.cz">data@eru.gov.cz</a></p>
+</div></div></div>
+
+        
+        
+    </div>
+
+    
+    
+
+    
+    </div>
+</div>
+
+      </div>
+</div>
+          </div>
+  
+      </div>
+</div>
+          </div>
+  
+            <div class="field field--name-field-aktualita-obrazek-vypis field--type-image field--label-hidden field--item">  <img loading="lazy" src="/sites/default/files/styles/facebook/public/obsah/novinky/13247/soubory/aktualita-plyn.png?itok=zhbWClCN" width="200" height="200" alt="" typeof="foaf:Image" class="img-responsive" />
+
+
+</div>
+      
+	</div>
+
+</article>
+
+
+  </div>
+
+                                    </section>
+
+                            </div>
+
+
+                            <div id="left-column">
+                      <div class="region region-left-column">
+    <section class="views-element-container block block-views block-views-blockkotvy-block-3 clearfix" id="block-views-block-kotvy-block-3">
+  
+  	  <h2 class="block-title"><span>Obsah</span></h2>
+    
+
+      <div class="form-group"><div class="view view-kotvy view-id-kotvy view-display-id-block_3 js-view-dom-id-664ea27e75d4f0b115f91f9099a7f4434f5309da163eabfce73dca6ae29a177e">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-field-bily-blok-kotva-nadpis"><div class="field-content"><a href="#drzitele-licenci-pro-obchod-s-plynem-a-vyrobu-plynu">Držitelé licencí pro obchod s plynem a výrobu plynu</a></div></div></li>
+          <li><div class="views-field views-field-field-bily-blok-kotva-nadpis"><div class="field-content"><a href="#vzor-sablon">Vzory XLSX šablon</a></div></div></li>
+          <li><div class="views-field views-field-field-bily-blok-kotva-nadpis"><div class="field-content"><a href="#json-schema">JSON schéma</a></div></div></li>
+          <li><div class="views-field views-field-field-bily-blok-kotva-nadpis"><div class="field-content"><a href="#metodicka-prirucka">Metodická příručka</a></div></div></li>
+          <li><div class="views-field views-field-field-bily-blok-kotva-nadpis"><div class="field-content"><a href="#kontakty">Kontakty</a></div></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blocksdileni-block-1 clearfix" id="block-views-block-sdileni-block-1">
+  
+  	  <h2 class="block-title"><span>Sdílejte</span></h2>
+    
+
+      <div class="form-group"><div class="view view-sdileni view-id-sdileni view-display-id-block_1 js-view-dom-id-97dedf6b64298450a85eda84501571f52ef9fe1c5d4f4b92c83870d89086fc05">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-share-everywhere-field"><span class="field-content"><div class="se-block se-align-left"  class="se-align-left">
+    <div class="block-content">
+        <div class="se-container">
+      <div id="se-trigger-node13104" class="se-trigger se-disabled">
+        <img src="https://eru.gov.cz/modules/contrib/share_everywhere/img/share-icon.svg" alt="Share icon">
+      </div>
+      <div class="se-links-container">
+        <ul id="se-links-node13104" class="se-links se-active">
+                      <li class="se-link facebook_share"> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feru.gov.cz%2Fvzory-sablon-xlsx-json-souboru-pro-predkladani-souhrnnych-informaci-podle-monitorovaci-vyhlasky-0" target="_blank" rel="noreferrer"><img src="https://eru.gov.cz/modules/contrib/share_everywhere/img/facebook-share.svg" title="Sdílet přes Facebook" alt="Sdílet přes Facebook" />
+</a>
+ </li>
+                      <li class="se-link linkedin"> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Feru.gov.cz%2Fvzory-sablon-xlsx-json-souboru-pro-predkladani-souhrnnych-informaci-podle-monitorovaci-vyhlasky-0" target="_blank" rel="noreferrer"><img src="https://eru.gov.cz/modules/contrib/share_everywhere/img/linkedin.svg" title="Sdílet přes LinkedIn" alt="Sdílet přes LinkedIn" />
+</a>
+ </li>
+                      <li class="se-link twitter">  </li>
+                  </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+                </div>
+            
+        </div>
+
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+    </main>
+</div>
+
+    <div id="popup">
+        <div class="popup-in">
+            <div class="popup-in-in">
+                <div class="close-popup"></div>
+                  <div class="region region-popup">
+    <section id="block-webform" class="block block-webform block-webform-block clearfix">
+  
+  	  <h2 class="block-title"><span>Zpětná vazba</span></h2>
+    
+
+      <span id="webform-submission-zpetna-vazba-node-13104-form-ajax-content"></span><div id="webform-submission-zpetna-vazba-node-13104-form-ajax" class="webform-ajax-form-wrapper" data-effect="fade" data-progress-type="throbber"><form class="webform-submission-form webform-submission-add-form webform-submission-zpetna-vazba-form webform-submission-zpetna-vazba-add-form webform-submission-zpetna-vazba-node-13104-form webform-submission-zpetna-vazba-node-13104-add-form js-webform-details-toggle webform-details-toggle antibot" data-drupal-selector="webform-submission-zpetna-vazba-node-13104-add-form" novalidate="novalidate" data-action="/vzory-sablon-xlsx-json-souboru-pro-predkladani-souhrnnych-informaci-podle-monitorovaci-vyhlasky-0" action="/antibot" method="post" id="webform-submission-zpetna-vazba-node-13104-add-form" accept-charset="UTF-8">
+  
+  <noscript>
+  <div class="antibot-no-js antibot-message antibot-message-warning">You must have JavaScript enabled to use this form.</div>
+</noscript>
+<div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-jmeno js-form-item-jmeno form-group">
+      <label for="edit-jmeno" class="control-label js-form-required form-required"><span class="label-span"><span>Jméno a příjmení</span></span></label>
+  
+  
+  <input data-drupal-selector="edit-jmeno" class="form-text required form-control" type="text" id="edit-jmeno" name="jmeno" value="" size="60" maxlength="255" required="required" aria-required="true" />
+
+  
+  
+  </div>
+<div class="form-item js-form-item form-type-email js-form-type-email form-item-e-mail js-form-item-e-mail form-group">
+      <label for="edit-e-mail" class="control-label js-form-required form-required"><span class="label-span"><span>E-mail</span></span></label>
+  
+  
+  <input data-drupal-selector="edit-e-mail" class="form-email required form-control" type="email" id="edit-e-mail" name="e_mail" value="" size="60" maxlength="254" required="required" aria-required="true" />
+
+  
+  
+  </div>
+<div class="form-inline form-item js-form-item form-type-tel js-form-type-tel form-item-telefon js-form-item-telefon form-group">
+      <label for="edit-telefon" class="control-label"><span class="label-span"><span>Telefon</span></span></label>
+  
+  
+  <input class="js-webform-telephone-international webform-webform-telephone-international form-tel form-control" data-webform-telephone-international-initial-country="CZ" data-drupal-selector="edit-telefon" type="tel" id="edit-telefon" name="telefon" value="" size="30" maxlength="128" />
+
+  
+  
+  </div>
+<div class="form-item js-form-item form-type-textarea js-form-type-textarea form-item-zprava js-form-item-zprava form-group">
+      <label for="edit-zprava" class="control-label js-form-required form-required"><span class="label-span"><span>Zpráva</span></span></label>
+  
+  
+  <div class="form-textarea-wrapper">
+  <textarea data-drupal-selector="edit-zprava" class="form-textarea required form-control resize-vertical" id="edit-zprava" name="zprava" rows="5" cols="60" required="required" aria-required="true"></textarea>
+</div>
+
+
+  
+  
+  </div>
+  <div class="form-item js-form-item form-type-checkbox form-type-gdpr js-form-type-checkbox checkbox">
+    <label for="edit-gdpr"
+           class="control-label option gdpr-checkbox">
+          <input data-drupal-selector="gdpr" class="form-checkbox" type="checkbox"
+             id="edit-gdpr" name="gdpr"
+                          value="1" required="required">
+
+    <span>Odesláním formuláře berete na vědomí <a href="/ochrana-osobnich-udaju" target="_blank">zpracování osobních údajů</a>.</span>
+    <div class="kraken_gdpr_tooltip_text"></div>
+  </label>
+  </div>
+
+
+                    <fieldset  data-drupal-selector="edit-captcha" class="captcha captcha-type-challenge--turnstile" data-nosnippet>
+          <legend class="captcha__title js-form-required form-required">
+            CAPTCHA
+          </legend>
+                  <div class="captcha__element">
+            <input data-drupal-selector="edit-captcha-sid" type="hidden" name="captcha_sid" value="13085646" /><input data-drupal-selector="edit-captcha-token" type="hidden" name="captcha_token" value="0kZryGwRFroX1qCRkBJbUBXYZP_jLF7rse3ztg--CBM" /><input data-drupal-selector="edit-captcha-response" type="hidden" name="captcha_response" value="Turnstile no captcha" /><div class="cf-turnstile" data-sitekey="0x4AAAAAAAdkFFUAv1Z9nTjr" data-theme="light" data-size="normal" data-language="auto" data-retry="auto" interval="3000" data-appearance="always"></div><input data-drupal-selector="edit-captcha-cacheable" type="hidden" name="captcha_cacheable" value="1" />
+          </div>
+                              </fieldset>
+            <input autocomplete="off" data-drupal-selector="form-lgfa-gmbrcyn2qt1ks8t9cb8m7ujmhdjdnjday8k1js" type="hidden" name="form_build_id" value="form-Lgfa_GmbrcYn2QT1KS8t9Cb8M7UJmhDJdnJdaY8k1js" /><input data-drupal-selector="edit-webform-submission-zpetna-vazba-node-13104-add-form" type="hidden" name="form_id" value="webform_submission_zpetna_vazba_node_13104_add_form" /><input data-drupal-selector="edit-antibot-key" type="hidden" name="antibot_key" value="" /><div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions--2"><button class="webform-button--submit button button--primary js-form-submit form-submit btn-primary btn" data-drupal-selector="edit-submit" data-disable-refocus="true" type="submit" id="edit-submit" name="op" value="Odeslat">Odeslat</button>
+</div>
+
+
+  
+</form>
+</div>
+  </section>
+
+
+  </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" role="contentinfo">
+                                    <div class="footer-links">
+                <div class="container">
+                      <div class="region region-footer-links">
+    <section class="views-element-container block block-views block-views-blockpaticka-sloupky-block-1 clearfix" id="block-views-block-paticka-sloupky-block-1">
+  
+    
+
+      <div class="form-group"><div class="view view-paticka-sloupky view-id-paticka_sloupky view-display-id-block_1 js-view-dom-id-c4f6229311800fa531425582807c4727ba308316ef7fe63c7849f9705b6ec3b6">
+  
+    
+      <div class="view-header">
+      <div class="scroll-top">
+</div>
+
+    </div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-fieldset"><span class="field-content">  <div  class="views-row-fieldset">
+    <h2 class="views-field views-field-field-paticka-nadpis-sloupek-obe sloupec-nadpis"><div class="field-content">Sídlo úřadu</div></h2><div class="views-field views-field-field-paticka-obecny-sloupek"><div class="field-content"><p>Energetický regulační úřad<br>
+<a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x470d1a6cf9177169:0xf8702e57767d62d6?source=g.page.share">Masarykovo náměstí 91/5<br>
+586 01 Jihlava</a><br>
+IČO 70894451</p>
+</div></div><h2 class="views-field views-field-field-paticka-nadpis-socialni-si sloupec-nadpis"><div class="field-content">Sledujte naše sociální sítě</div></h2><div class="views-field views-field-fieldset-5"><span class="field-content">  <div  class="fieldset-socialni-site">
+    <div class="views-field views-field-field-paticka-facebook"><div class="field-content"><a href="https://www.facebook.com/energetickyregulacniurad/" aria-label="Facebook">Facebook</a></div></div><div class="views-field views-field-field-paticka-linkedin"><div class="field-content"><a href="https://cz.linkedin.com/company/energetickyregulacniurad" aria-label="Linkedin">Linkedin</a></div></div><div class="views-field views-field-field-paticka-youtube"><div class="field-content"><a href="https://www.youtube.com/@energetickyregulacniurad7014" aria-label="Youtube">Youtube</a></div></div>  </div>
+</span></div>  </div>
+</span></div><div class="views-field views-field-fieldset-4"><span class="field-content">  <div  class="views-row-fieldset">
+    <h2 class="views-field views-field-field-paticka-nadpis-obe-sloup-2 sloupec-nadpis"><div class="field-content">Kontaktní údaje</div></h2><div class="views-field views-field-field-paticka-obecny-sloupek-2"><div class="field-content"><p><strong>Ústředna</strong><br>
++420 564 578 666</p>
+<p><strong>Elektronická podatelna</strong><br>
+<a href="mailto:podatelna@eru.gov.cz">podatelna@eru.gov.cz</a></p>
+<p><strong>ID datové schránky ERÚ</strong><br>
+eeuaau7</p>
+</div></div><div class="views-field views-field-field-paticka-sloupek-3"><div class="field-content"><ul><li><span><a href="/kontakty">Všechny kontakty</a></span></li></ul></div></div>  </div>
+</span></div><div class="views-field views-field-fieldset-1"><span class="field-content">  <div  class="views-row-fieldset">
+    <h2 class="views-field views-field-field-paticka-nadpis-sloupek-1 sloupec-nadpis"><div class="field-content">Informace</div></h2><div class="views-field views-field-field-paticka-sloupek-1"><div class="field-content"><ul><li><span><a href="/odber-tiskovych-zprav">Odběr tiskových zpráv</a></span></li><li><span><a href="/ochrana-osobnich-udaju">Ochrana osobních údajů</a></span></li><li><span><a href="/povinne-informace">Povinné informace</a></span></li><li><span><a href="/prohlaseni-o-pristupnosti">Prohlášení o přístupnosti</a></span></li><li><span><a href="/aktualni-sdeleni/rss">RSS</a></span></li></ul></div></div>  </div>
+</span></div><div class="views-field views-field-fieldset-2"><span class="field-content">  <div  class="views-row-fieldset">
+    <h2 class="views-field views-field-field-paticka-nadpis-sloupek-2 sloupec-nadpis"><div class="field-content">Užitečné odkazy</div></h2><div class="views-field views-field-field-paticka-sloupek-2"><div class="field-content"><ul><li><span><a href="/kontaktni-osoba/dataportal">Dataportál</a></span></li><li><span><a href="/ipnc">Indikativní ceny</a></span></li><li><span><a href="/kalkulator-kapacity-plynu">Kalkulátor kapacity plynu </a></span></li><li><span><a href="/registr-energetickych-spolecenstvi">Registr energetických společenství</a></span></li><li><span><a href="/registr-zprostredkovatelu">Registr zprostředkovatelů</a></span></li><li><span><a href="/srovnavace">Srovnávače</a></span></li><li><span><a href="/vyhledavac-licenci">Vyhledávač licencí</a></span></li></ul></div></div>  </div>
+</span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+                </div>
+            </div>
+                <div class="footer">
+            <div class="container">
+                  <div class="region region-footer">
+    <section id="block-copyright" class="block block-block-content block-block-content5d6fae89-4ab1-4784-a7a6-58b0ab84ce8a clearfix">
+  
+    
+
+      
+            <div class="field field--name-field-simple-block-obsah field--type-text-long field--label-hidden field--item"><div class="footer-copyright"><span>2026 © Energetický regulační úřad</span> • Informace jsou poskytovány v souladu se zákonem č. 106/1999 Sb., o svobodném přístupu k informacím.</div>
+</div>
+      
+  </section>
+
+<section id="block-cookiesui" class="block block-cookies block-cookies-ui-block clearfix">
+  
+    
+
+        
+<div id="cookiesjsr"></div>
+
+  </section>
+
+
+  </div>
+
+            </div>
+        </div>
+    </footer>
+
+  </div>
+
+
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.8"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/autocomplete-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/menu-min.js?v=10.6.10"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.3.0"></script>
+<script src="/core/misc/autocomplete.js?v=10.6.10"></script>
+<script src="/core/misc/progress.js?v=10.6.10"></script>
+<script src="/themes/contrib/bootstrap/js/misc/progress.js?tk07lg"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
+<script src="/core/misc/ajax.js?v=10.6.10"></script>
+<script src="/themes/contrib/bootstrap/js/misc/ajax.js?tk07lg"></script>
+<script src="/modules/contrib/ajax_loader/js/ajax-throbber.js?v=1.x"></script>
+<script src="/modules/contrib/antibot/js/antibot.js?tk07lg"></script>
+<script src="/themes/contrib/bootstrap/js/bootstrap-pre-init.js?tk07lg"></script>
+<script src="/themes/contrib/bootstrap/js/drupal.bootstrap.js?tk07lg"></script>
+<script src="/themes/contrib/bootstrap/js/attributes.js?tk07lg"></script>
+<script src="/themes/contrib/bootstrap/js/theme.js?tk07lg"></script>
+<script src="/themes/contrib/bootstrap/js/popover.js?tk07lg"></script>
+<script src="/modules/contrib/cookies/modules/cookies_gtag/js/cookies_gtag.js?v=10.6.10"></script>
+<script src="/core/misc/jquery.form.js?v=4.3.0"></script>
+<script src="/modules/contrib/extlink/js/extlink.js?v=10.6.10"></script>
+<script src="/modules/contrib/formtips/js/formtips.js?tk07lg"></script>
+<script src="/modules/contrib/formtips/js/hoverintent.min.js?v=1.x"></script>
+<script src="/modules/contrib/google_tag/js/gtag.ajax.js?tk07lg" type="text/plain" id="cookies_gtag_gtag_ajax" data-cookieconsent="gtag"></script>
+<script src="/profiles/kraken/modules/core/kraken_ui/js/moment-with-locales.min.js?v=2.29.4"></script>
+<script src="/profiles/kraken/modules/core/kraken_datepicker/datetimepicker/build/jquery.datetimepicker.full.js?tk07lg"></script>
+<script src="/profiles/kraken/modules/core/kraken_datepicker/js/bootstrap-datetimepicker.js?tk07lg"></script>
+<script src="/profiles/kraken/modules/core/kraken_datepicker/js/drupal.kraken_datepicker.js?tk07lg"></script>
+<script src="/profiles/kraken/modules/core/kraken_gdpr/js/kraken_gdpr.js?v=1.x"></script>
+<script src="/profiles/kraken/themes/kraken_theme/bootstrap/js/affix.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/bootstrap/js/alert.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/bootstrap/js/button.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/bootstrap/js/collapse.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/bootstrap/js/dropdown.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/bootstrap/js/modal.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/bootstrap/js/tooltip.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/bootstrap/js/transition.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/jquery.matchHeight.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/modernizr.custom.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/jquery.once.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/slick.min.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/mlm.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/select2.min.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/jquery.mCustomScrollbar.concat.min.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/jquery.lazy-master/jquery.lazy.min.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/jquery.lazy-master/plugins/jquery.lazy.picture.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/lazyLoad/imageLazyLoad.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/jquery.countdown.min.js?tk07lg"></script>
+<script src="/profiles/kraken/themes/kraken_theme/js/control.js?tk07lg"></script>
+<script src="/profiles/kraken/modules/core/kraken_ui/js/jquery.form-validator.min.js?v=2.3.26"></script>
+<script src="/profiles/kraken/modules/core/kraken_ui/js/formValidation.js?v=2.3.26"></script>
+<script src="/core/misc/jquery.tabbable.shim.js?v=10.6.10"></script>
+<script src="/core/misc/position.js?v=10.6.10"></script>
+<script src="/themes/contrib/bootstrap/js/misc/autocomplete.js?tk07lg"></script>
+<script src="/modules/contrib/search_api_autocomplete/js/search_api_autocomplete.js?tk07lg"></script>
+<script src="/modules/contrib/turnstile/turnstile.ajax.js?v=10.6.10"></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer async></script>
+<script src="/modules/contrib/webform/js/webform.scroll.js?v=10.6.10"></script>
+<script src="/modules/contrib/webform/js/webform.ajax.js?v=10.6.10"></script>
+<script src="/modules/contrib/webform/js/webform.element.details.save.js?v=10.6.10"></script>
+<script src="/modules/contrib/webform/js/webform.element.details.toggle.js?v=10.6.10"></script>
+<script src="/modules/contrib/webform/js/webform.element.message.js?v=10.6.10"></script>
+<script src="https://cdn.jsdelivr.net/gh/jackocnr/intl-tel-input@v17.0.19/build/js/intlTelInput.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/jackocnr/intl-tel-input@v17.0.19/build/js/intlTelInput-jquery.min.js"></script>
+<script src="/modules/contrib/webform/js/webform.element.telephone.js?v=10.6.10"></script>
+<script src="/core/misc/form.js?v=10.6.10"></script>
+<script src="/themes/contrib/bootstrap/js/misc/form.js?tk07lg"></script>
+<script src="/modules/contrib/webform/js/webform.behaviors.js?v=10.6.10"></script>
+<script src="/core/misc/states.js?v=10.6.10"></script>
+<script src="/themes/contrib/bootstrap/js/misc/states.js?tk07lg"></script>
+<script src="/modules/contrib/webform/js/webform.states.js?v=10.6.10"></script>
+<script src="/modules/contrib/webform/js/webform.form.js?v=10.6.10"></script>
+
+</body>
+</html>

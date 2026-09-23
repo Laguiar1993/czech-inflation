@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "data/research_r14/benchmarks/fmie_official_panel.csv": "3dde9eb63840cea86c7b9fe4b3e1438a24fd0354cc494ef71a0d101fa9102f2a",
+    "output/independent_nowcast_forecasts.csv": "77ac26bc05906616a07d8f4b33ab6f2eb10b97141295022e172d53461f3e6e98"
+  },
+  "output_sha256": "f02e59ea8c6a56eb08e2bfe85a5dc7adb6635d445d2cefcba286bbcb3f224995",
+  "role": "Descriptive archived clock brackets, not the primary custom-clock h12 comparison.",
+  "rules": {
+    "FIRST_AFTER": "first saved model clock at or after reconstructed availability",
+    "LAST_BEFORE": "latest saved model clock strictly before reconstructed availability"
+  },
+  "target": "survey_month+12, never rolled forward",
+  "value_authority": "OFFICIAL_PDF_PUBLISHED_TABLE"
+}

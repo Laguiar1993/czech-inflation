@@ -1,0 +1,515 @@
+PAGE 1
+Metodická příručka pro vyplňování 
+šablon ERÚ 
+ 
+Verze dokumentu: 3.1 
+Datum vydání: Duben 2026 
+Určeno pro: Obchodníky s elektřinou a plynem, výrobce elektřiny a plynu 
+  
+PAGE 2
+Obsah 
+1. Úvod 
+2. Obecné pokyny 
+3. Struktura Excel šablon 
+4. Vyplnění krycího listu 
+5. Šablony pro elektřinu (ELE) 
+6. Šablony pro plyn (PLYN) 
+7. Datové typy a formáty 
+8. Typy smluv A–F 
+9. Číselníky 
+10. Časté chyby a jejich řešení 
+  
+PAGE 3
+1. Úvod 
+Tato metodická příručka poskytuje návod pro správné vyplňování Excel šablon pro sběr dat 
+Energetického regulačního úřadu (ERÚ). Šablony slouží k pravidelnému vykazování údajů o 
+portfoliu zákazníků, tržbách, nově uzavřených smlouvách a smluvních podmínkách. 
+Kdo je povinen šablony vyplňovat? 
+V souladu s § 2 odst. 1 a 2 monitorovací vyhlášky jsou povinni za kalendářní pololetí 
+předkládat Úřadu souhrnné informace: 
+• V elektroenergetice: 
+• Obchodník s elektřinou 
+• Výrobce elektřiny (pokud dodává elektřinu koncovým zákazníkům) 
+ 
+a to pokud poslední den kalendářního pololetí dodává elektřinu alespoň do 1000 odběrných 
+míst zákazníků, kteří jsou v postavení spotřebitele nebo podnikající fyzické osoby s ročním 
+odběrem elektřiny do 20 MWh. 
+• V plynárenství: 
+• Obchodník s plynem 
+• Výrobce plynu (pokud dodává plyn koncovým zákazníkům) 
+ 
+a to pokud poslední den kalendářního pololetí dodává plyn alespoň do 1000 odběrných 
+míst zákazníků, kteří jsou v postavení spotřebitele nebo podnikající fyzické osoby s roční 
+spotřebou plynu do 63 MWh. 
+Periodicita vykazování 
+Šablony se předkládají za každé kalendářní pololetí: 
+• RRRR-01 = 1. pololetí (leden–červen) 
+• RRRR-02 = 2. pololetí (červenec–prosinec) 
+2. Obecné pokyny 
+Před vyplněním šablony 
+• Neměňte strukturu šablony – nepřidávejte ani neodstraňujte sloupce 
+• Vyplňujte pouze do datového listu (např. E1_DATA, G5_DATA) a krycí list na listu 
+POPIS_SUBJEKTU 
+• Používejte rozbalovací seznamy (dropdown) tam, kde jsou k dispozici 
+Zásady vyplňování 
+Pravidlo Popis 
+Používejte dropdown seznamy Kde je k dispozici rozbalovací seznam, 
+PAGE 4
+vyberte hodnotu z něj 
+Dodržujte formát období Vždy ve tvaru RRRR-01 nebo RRRR-02 
+(např. 2026-01) 
+Používejte desetinnou čárku Pro desetinná čísla použijte čárku, nikoli 
+tečku 
+Celá čísla bez desetinných míst Počty OM, počty zákazníků atd. zadávejte 
+jako celá čísla 
+ 
+ 
+Validace dat 
+Šablony obsahují vestavěné validace, které vás upozorní na nesprávně zadané hodnoty: 
+• Chybné datum zobrazí chybovou hlášku s očekávaným formátem 
+• Neplatná hodnota v číselníku bude odmítnuta 
+• Záporná čísla tam, kde se očekávají kladná, budou označena 
+3. Struktura Excel šablon 
+Každá šablona obsahuje následující listy: 
+List Účel 
+POPIS_SUBJEKTU Informace o šabloně + krycí list s údaji o 
+subjektu 
+[X]_METADATA Definice sloupců, datových typů a validací 
+(neupravovat!) 
+_LISTY (Skrytý) pomocný list s číselníky pro 
+rozbalovací seznamy 
+[X]_DATA Hlavní list pro zadávání dat 
+ 
+Pozn.: [X] značí prefix šablony (mvE1, mvE2, mvE3, mvE4 pro elektřinu; mvG5, mvG6, 
+mvG7, mvG8 pro plyn). 
+Postup vyplnění 
+1. Otevřete šablonu 
+2. Přejděte na list POPIS_SUBJEKTU → vyplňte krycí list 
+3. Přejděte na list [X]_DATA → zadejte data 
+4. Uložte soubor 
+5. Proveďte kontrolu 
+4. Vyplnění krycího listu 
+Krycí list se nachází na listu POPIS_SUBJEKTU a obsahuje identifikační údaje vykazujícího 
+subjektu. 
+PAGE 5
+Pole Povinné Formát Příklad 
+IČO Ano 8 číslic 12345678 
+Název firmy Ano Text Energetická 
+společnost a.s. 
+Kontaktní osoba Ano Text Jan Novák 
+Email Ano Email jan.novak@firma.cz 
+Telefon Ano Číslo +420 123 456 789 
+Období Ano RRRR-01/02 2026-01 
+Obchodní tajemství Ano ano/ne ne 
+ 
+Důležité:  
+Subjekt bere na vědomí, že informace poskytnuté prostřednictvím excelových souborů 
+mohou podléhat režimu zákona č. 106/1999 Sb., o svobodném přístupu k informacím. 
+Pokud některé z poskytovaných informací mají povahu obchodního tajemství ve smyslu § 
+504 zákona č. 89/2012 Sb., občanského zákoníku, nebo jiných zákonem chráněných 
+informací, subjekt tuto skutečnost označí v prvním listu POPIS_SUBJEKTU v tabulce Krycí 
+list u atributu „Obchodní tajemství“ hodnotou „ano“. 
+V případě označení hodnoty „ano“ subjekt předloží Úřadu dva soubory s výkazem: 
+• kompletní verzi výkazu, která obsahuje všechny požadované informace včetně 
+údajů tvořících obchodní tajemství, a 
+• anonymizovanou verzi výkazu, ve které budou odstraněny informace tvořící 
+obchodní tajemství. 
+Anonymizovaná verze výkazu se předkládá za účelem splnění povinnosti podle § 2 odst. 6 
+monitorovací vyhlášky. 
+ 
+Nezařaditelná odběrná místa 
+V případech, kdy nelze odběrné místo kategorizovat podle členění stanoveného ve vyhlášce, 
+postupuje vykazující subjekt podle příslušných ustanovení monitorovací vyhlášky, 
+konkrétně: 
+• příloha č. 1, část B, odst. 5 (mvE1), 
+• příloha č. 3, část B, odst. 6 (mvE3), 
+• příloha č. 5, část B, odst. 5 (mvG5), 
+• příloha č. 7, část B, odst. 6 (mvG7). 
+V těchto případech vykazující subjekt ponechá příslušnou buňku v šabloně nevyplněnou 
+(prázdnou).  Tím je splněna povinnost uvést skutečnost, že dané odběrné místo nelze 
+kategorizovat podle členění stanoveného vyhláškou. 
+PAGE 6
+5. Šablony pro elektřinu (ELE) 
+5.1 mvE1 
+Účel: Souhrnné informace o odběrných místech (OM) k rozhodnému dni. 
+Povinné subjekty: Obchodník s elektřinou, Výrobce elektřiny (pokud dodává koncovým 
+zákazníkům) 
+Rozsah: OM zákazníků (spotřebitel / podnikající FO) s ročním odběrem elektřiny do 20 
+MWh. 
+Sloupce pro všechny typy smluv (společné) 
+Sloupec Datový typ Popis 
+obdobi varchar(250)  Pololetí (RRRR-
+01/02) 
+typZakaznika ciselnik Typ zákazníka dle 
+přílohy 
+monitorovací 
+vyhlášky (C nebo D) 
+distribucniSazba varchar(250) Kód distribuční 
+sazby (např. D01d, 
+D25d) 
+sdileniAgregaceVyrobaNeboUkladani ciselnik  Zda je v místě 
+připojení OM 
+zohledněno sdílení 
+elektřiny, agregátor, 
+výrobna nebo 
+ukládání elektřiny. 
+(ano nebo ne) 
+typSmlouvy ciselnik Typ smlouvy dle 
+přílohy 
+(A,B,C,D1,D2,D3,E,F) 
+pocetOm int Počet odběrných 
+míst 
+planovanaSpotrebaMwh float Součet plánovaných 
+ročních odběrů v 
+MWh 
+ 
+Upřesnění pole planovanaSpotrebaMwh: 
+Vykazuje se součet plánovaných ročních odběrů nebo spotřeb k rozhodnému dni. Pokud 
+nejsou plánované hodnoty známé, vykazuje se součet predikovaných ročních odběrů nebo 
+spotřeb odpovídající součtu hodnot sjednaných ve smlouvě nebo součtu spotřeb za 
+posledních 12 kalendářních měsíců. 
+ 
+PAGE 7
+Sloupce pouze pro smlouvy typu A 
+Sloupec Datový typ Popis 
+idProduktu varchar(250) Interní identifikátor 
+produktu 
+platnostCenikuOd date Datum počátku platnosti 
+ceníku (DD.MM.RRRR) 
+kratkodobyTrh varchar(250) Označení krátkodobého 
+trhu (spot/forward/jiný 
+trh) 
+prirazkaProcenta float Procentuální přirážka k 
+ceně trhu 
+prirazkaAbsolutni float Absolutní přirážka k ceně 
+trhu 
+prirazkaMinimalni float Minimální cena (pokud je 
+sjednána) 
+stalyPlat float Stálý plat za OM 
+ 
+Upřesnění pro idProduktu: 
+Identifikace produktu podle vlastní evidence obchodníka s elektřinou nebo výrobce 
+elektřiny. Identifikátor musí být v rámci výkazu unikátní a musí umožnit jednoznačné 
+dohledání produktu v evidenci dodavatele. 
+ 
+Sloupce pouze pro smlouvy typu B–F 
+Sloupec Datový typ Popis 
+stalyPlatPrumer float Průměr stálého platu 
+(bez slev) – ne vážený 
+stalyPlatMedian float Medián stálého platu 
+obchodniSlozkaCenyPrumer float Průměr obchodní 
+složky ceny 
+obchodniSlozkaCenyMedian float Medián obchodní 
+složky ceny 
+obchodniSlozkaCenySoucetMocnin float Součet druhých 
+mocnin hodnot 
+obchodní složky ceny 
+obchodniSlozkaCenyPocetJedinecnych int Počet jedinečných 
+hodnot obchodní 
+složky ceny 
+ 
+Upřesnění pro VT/NT tarify: 
+obchodniSlozkaCenySoucetMocnin: Pokud je obchodní složka ceny sjednána odlišně pro VT 
+a NT, použije se náhrada sjednané ceny váženým průměrem ceny VT a NT s vahami podle 
+tarifní statistiky v poslední dostupné roční zprávě o provozu elektrizační soustavy. 
+PAGE 8
+obchodniSlozkaCenyPocetJedinecnych: U VT a NT se nepovažují VT a NT automaticky za dvě 
+samostatné ceny, ale použije se náhrada váženým průměrem VT a NT podle tarifní statistiky 
+v poslední dostupné roční zprávě o provozu elektrizační soustavy. 
+5.2 mvE2 
+Účel: Souhrnné informace o tržbách za pololetí a počtech OM. 
+Povinné subjekty: Pouze pokud subjekt dodává alespoň do 15 000 OM zákazníků s roční 
+spotřebou do 20 MWh. 
+Sloupec Datový typ Popis 
+obdobi varchar(250)  Pololetí (RRRR-01/02) 
+typZakaznika ciselnik Kategorie odběratele (C 
+nebo D) 
+spotrebniPasmo ciselnik Interval roční spotřeby v 
+MWh 
+pocetOm int Počet OM k poslednímu dni 
+pololetí 
+dodavkaMwh float Dodávka elektřiny v MWh 
+trzbyObchodniSlozka float Tržby za obchodní složku 
+ceny 
+trzbyRegulovanaSlozka float Tržby za regulovanou 
+složku ceny 
+trzbyDph float Tržby za DPH 
+trzbyPodporaPoze float Tržby za podporu POZE 
+trzbyDanElektrina float Tržby za daň z elektřiny 
+trzbyOstatniPoplatky float Tržby za ostatní poplatky 
+ 
+Spotřební pásma pro elektřinu: 
+• do 0,999 
+• od 1,000 do 2,499 
+• od 2,500 do 4,999 
+• od 5,000 do 14,999 
+• od 15,000 
+5.3 mvE3 
+Účel: Informace o počtu OM s nově uzavřeným nebo prodlouženým závazkem, který nastal 
+v daném pololetí, třebaže OM nemusí být k poslednímu dni pololetí evidováno v portfoliu. 
+Povinné subjekty: Obchodník s elektřinou, výrobce elektřiny (pokud dodává koncovým 
+zákazníkům). 
+Rozsah: OM zákazníků (spotřebitel / podnikající FO) s ročním odběrem elektřiny do 20 
+MWh, u kterých v daném pololetí došlo k uzavření smlouvy nebo prodloužení závazku ze 
+smlouvy. 
+PAGE 9
+Sloupce pro všechny typy smluv (společné) 
+Sloupec Datový typ Popis 
+obdobi varchar(250) Pololetí (RRRR-01/02) 
+typZakaznika ciselnik Kategorie odběratele (C 
+nebo D) 
+distribucniSazba varchar(250) Kód distribuční sazby 
+(např. D01d, D02d, D25d) 
+sdileniAgregaceVyrobaNeboUkladani ciselnik Zda je v místě připojení 
+OM zohledněno sdílení 
+elektřiny, agregátor, 
+výrobna nebo ukládání 
+elektřiny. 
+typSmlouvy ciselnik Typ smlouvy dle přílohy 
+(A,B,C,D1,D2,D3,E,F) 
+ruzneCenyVDilcichUsecich ciselnik Zda byly sjednány různé 
+výše ceny pro dílčí úseky 
+(ano nebo ne) 
+zdrojVahTarifu varchar(250) Zdroj vah pro VT/NT. 
+Pouze u dvoutarifních 
+sazeb. 
+pocetOm int Počet OM s novou 
+smlouvou nebo 
+prodloužením v pololetí 
+(≥0) 
+Důležité pole – ruzneCenyVDilcichUsecich: 
+Pole ruzneCenyVDilcichUsecich indikuje, zda byly ve smlouvě sjednány různé výše ceny pro 
+dílčí úseky období dodávky (časové dílčí úseky v rámci doby trvání závazku). 
+• Hodnota "ne" se použije v případě, kdy: 
+• byla po celou dobu trvání závazku sjednána jedna výše ceny, nebo 
+• byly sjednány dvě výše ceny odpovídající pásmu VT a NT (neměnné po celou dobu 
+závazku). 
+• Hodnota "ano" se použije ve všech ostatních případech, kdy byla sjednána různá výše 
+ceny pro časové dílčí úseky období dodávky: 
+• sezónní členění ceny 
+• členění ceny podle kalendářních roků 
+• jiné časové úseky v rámci doby trvání závazku 
+• kombinace uvedených přístupů 
+Pole sdileniAgregaceVyrobaNeboUkladani (stejně jako v mvE1): 
+Souhrnná informace o odběrném místě podle přílohy č. 3 část B odst. 1 písm. c) vyhlášky, 
+zda je v předávacím místě odběrného místa nebo v místě připojení odběrného místa 
+PAGE 10
+zohledňováno sdílení elektřiny, registrován agregátor, připojena výrobna elektřiny nebo 
+připojeno zařízení pro ukládání elektřiny. 
+• Hodnota „ano“ znamená, že je v daném místě zohledňováno sdílení elektřiny, je 
+registrován agregátor nebo je připojena výrobna elektřiny či zařízení pro ukládání 
+elektřiny. 
+• Hodnota „ne“ znamená, že v daném místě není zohledňováno sdílení elektřiny ani 
+registrován agregátor a je připojeno pouze odběrné elektrické zařízení. 
+Pole zdrojVahTarifu: 
+Vyplňuje se pouze v případech, kdy se pracuje s náhradou ceny váženým průměrem VT a 
+NT. Zdrojem vah je poslední dostupná roční zpráva o provozu elektrizační soustavy. 
+Sloupce pouze pro smlouvy typu A 
+Sloupec Datový typ Popis 
+idProduktu varchar(250) Identifikace produktu dle 
+vlastní evidence 
+platnostCenikuOd date Datum počátku platnosti 
+ceníku (DD.MM.RRRR) 
+kratkodobyTrh varchar(250) Označení krátkodobého 
+trhu (denní/spot, 
+vnitrodenní) 
+prirazkaProcenta float Procentuální přirážka k 
+ceně trhu [%] 
+prirazkaAbsolutni float Absolutní přirážka 
+[Kč/MWh] (může být 
+záporná) 
+prirazkaMinimalni float Minimální absolutní 
+přirážka [Kč/MWh] 
+stalyPlat float Výše stálého platu 
+[Kč/OM/měsíc] 
+Sloupce pouze pro smlouvy typu B–F 
+Sloupec Datový typ Popis 
+stalyPlatPrumer float Průměr stálého platu 
+[Kč/OM/měsíc] (bez 
+slev/bonusů) 
+stalyPlatMedian float Medián stálého platu 
+[Kč/OM/měsíc] 
+obchodniSlozkaCenyPrumer float Průměr obchodní složky 
+ceny [Kč/MWh] 
+obchodniSlozkaCenyMedian float Medián obchodní složky 
+ceny [Kč/MWh] 
+obchodniSlozkaCenySoucetMocnin float Součet mocnin obchodní 
+složky [Kč²/MWh²]. U 
+VT/NT vážený průměr. 
+obchodniSlozkaCenyPocetJedinecnych int Počet jedinečných hodnot 
+[Kč/MWh]. VT a NT = 
+PAGE 11
+jedna cena. 
+ 
+5.4 mvE4 
+Účel: Informace o smluvních pokutách, upozorněních, přerušeních dodávky apod. 
+Členění: Pouze typ zákazníka C/D. 
+Sloupec Datový typ Popis 
+obdobi varchar(250
+)  
+Pololetí (RRRR-01/02) 
+typZakaznika ciselnik Kategorie odběratele (C nebo D) 
+pocetZakaznikuPokuta int Počet zákazníků s uplatněnou 
+smluvní pokutou (≥0) 
+prumernaPokutaKc float Průměrná výše pokuty v Kč (≥0) 
+pocetOmPrvniUpozorneni int Počet OM s prvním upozorněním 
+na neplnění platebních 
+povinností (≥0) 
+pocetOmPreruseniOmezUkonceni int Počet OM s 
+přerušením/omezením/ukončení
+m dodávky (≥0) 
+pocetOmPreruseniNeplneniPlateb int Z toho: počet OM s 
+přerušením/ukončením z důvodu 
+neplnění plateb (≥0) 
+pocetOmZahajenaDodavka int Počet OM, do kterých byla 
+zahájena dodávka (≥0) 
+pocetOmZahajenaDistanMimoProstory int Z toho: počet OM na základě 
+smlouvy uzavřené 
+distančně/mimo prostory (≥0) 
+pocetOmJenOze int Počet OM s dodávkou pouze z 
+OZE (≥0) 
+mnozstviMwhJenOze float Množství elektřiny dodané z OZE 
+[MWh] (≥0) 
+pocetOmZmenaProduktuNeboProdlouz
+eni 
+int Počet OM se změnou produktu 
+nebo prodloužením závazku (≥0) 
+ 
+Upřesnění polí: 
+pocetOmZahajenaDodavka: Počet odběrných míst, do kterých byla v daném pololetí 
+zahájena dodávka elektřiny. Zahrnuje všechny případy zahájení dodávky do odběrného 
+místa – neomezuje se pouze na opětovné zahájení po odpojení, ale zahrnuje i zahájení 
+dodávky po změně dodavatele a zahájení dodávky do nově připojeného odběrného místa. 
+pocetOmZmenaProduktuNeboProdlouzeni: Počet odběrných míst, u kterých došlo od 
+předchozího pololetí ke změně produktu nebo k prodloužení doby trvání závazku ze 
+smlouvy. Do této hodnoty se nezahrnují případy, které byly důsledkem prodloužení doby 
+trvání závazku ze smlouvy bez výslovného souhlasu zákazníka, ani případy, které byly 
+PAGE 12
+důsledkem změny zákazníka v odběrném místě. Tento ukazatel se netýká režimu 
+dodavatele poslední instance (DPI). 
+6. Šablony pro plyn (PLYN) 
+6.1 mvG5 
+Účel: Souhrnné informace o odběrných místech k rozhodnému dni. 
+Rozsah: OM zákazníků s roční spotřebou plynu do 63 MWh. 
+Struktura sloupců je obdobná jako u mvE1, ale typ zákazníka je „maloodberatel" nebo 
+„domacnost" (místo C/D) a neobsahuje sloupce pro sdílení elektřiny, agregátora, výrobnu 
+ani ukládání. 
+Spotřební pásma pro plyn: 
+• do 1,88 
+• od 1,89 do 5,55 
+• od 5,56 do 7,56 
+• od 7,57 do 15 
+• od 15,01 do 25 
+• od 25,01 do 45 
+• od 45,01 do 55,55 
+• od 55,56 do 63 
+• od 63,01 
+6.2 mvG6 
+Účel: Souhrnné informace o tržbách za pololetí. 
+Povinné subjekty: Pouze pokud subjekt dodává alespoň do 10 000 OM zákazníků s roční 
+spotřebou do 63 MWh. 
+Struktura je obdobná jako mvE2, ale obsahuje trzbyDanPlyn místo trzbyDanElektrina a 
+neobsahuje trzbyPodporaPoze. 
+6.3 mvG7 
+Účel: Informace o počtu OM s nově uzavřeným nebo prodlouženým závazkem, který nastal 
+v daném pololetí, třebaže OM nemusí být k poslednímu dni pololetí evidováno v portfoliu. 
+Struktura je podobná mvE3, ale neobsahuje sloupce sdileniAgregaceVyrobaNeboUkladani a 
+zdrojVahTarifu. Místo distribucniSazba obsahuje spotrebniPasmo. 
+6.4 mvG8 
+Účel: Informace o smluvních pokutách, upozorněních, přerušeních dodávky. 
+PAGE 13
+Členění: Typ zákazníka (maloodberatel / domacnost). Struktura je shodná s mvE4 – 
+obsahuje stejné sloupce. 
+7. Datové typy a formáty 
+Formát období 
+Období se zadává ve formátu RRRR-01 nebo RRRR-02: 
+• 2026-01 = 1. pololetí roku 2026 (leden–červen) 
+• 2026-02 = 2. pololetí roku 2026 (červenec–prosinec) 
+Formát data 
+Datum se zadává ve formátu DD.MM.RRRR: 
+• 01.01.2026 
+• 15.06.2026 
+Číselné hodnoty 
+Typ Formát Příklad 
+Celé číslo Bez desetinných míst 15000 
+Desetinné číslo S desetinnou čárkou 1234,56 
+Procenta Desetinné číslo 5,5 (= 5,5 %) 
+Měna (Kč) Na 2 desetinná místa 12345,67 
+ 
+Hodnoty ano/ne 
+Pro logické hodnoty (boolean) používejte rozbalovací seznam: 
+• ano 
+• ne 
+Upozornění: Nepište „Ano", „ANO", „yes", „true" apod. – používejte pouze malá písmena 
+„ano" nebo „ne". 
+8. Typy smluv A–F 
+Rozdíly ve vyplňování podle typu smlouvy 
+Pro smlouvy typu A vyplňujte: idProduktu, platnostCenikuOd, kratkodobyTrh, 
+prirazkaProcenta, prirazkaAbsolutni, prirazkaMinimalni, stalyPlat (jednotlivá hodnota). 
+Pro smlouvy typu B–F vyplňujte: stalyPlatPrumer, stalyPlatMedian, 
+obchodniSlozkaCenyPrumer, obchodniSlozkaCenyMedian, 
+obchodniSlozkaCenySoucetMocnin, obchodniSlozkaCenyPocetJedinecnych. 
+PAGE 14
+Tip: Sloupce, které se nevztahují k danému typu smlouvy, ponechte prázdné. 
+9. Číselníky 
+Typ zákazníka – elektřina 
+Hodnota Popis 
+C odběratel kategorie C 
+D odběratel kategorie D 
+ 
+Typ zákazníka – plyn 
+Hodnota Popis 
+domacnost zákazník kategorie domácnost 
+maloodberatel zákazník kategorie maloodběratel 
+ 
+Typ smlouvy 
+Hodnota 
+A 
+B 
+C 
+D1 
+D2 
+D3 
+E 
+F 
+ 
+sdileniAgregaceVyrobaNeboUkladani (pouze elektřina) 
+Hodnota 
+ano 
+ne 
+ 
+Spotřební pásma pro elektřinu 
+Hodnota 
+do 0,999 
+od 1,000 do 2,499 
+od 2,500 do 4,999 
+od 5,000 do 14,999 
+od 15,000 
+ 
+Spotřební pásma pro plyn 
+Hodnota 
+PAGE 15
+do 1,88 
+od 1,89 do 5,55 
+od 5,56 do 7,56 
+od 7,57 do 15 
+od 15,01 do 25 
+od 25,01 do 45 
+od 45,01 do 55,55 
+od 55,56 do 63 
+od 63,01 
+ 
+10. Časté chyby a jejich řešení 
+Chyba: „Neplatná hodnota" 
+Příčina: Zadaná hodnota neodpovídá povolenému číselníku. 
+Řešení: Použijte rozbalovací seznam (dropdown) v buňce. 
+Chyba: „Neplatný formát období" 
+Příčina: Období není ve formátu RRRR-01 nebo RRRR-02. 
+Řešení: Zadejte např. „2026-01" (nikoli „2026/01", „1/2026" apod.). 
+Chyba: „Očekáváno celé číslo" 
+Příčina: V poli pro celé číslo (např. počet OM) je zadáno desetinné číslo nebo text. 
+Řešení: Zadejte celé číslo bez desetinné čárky, např. „15000". 
+Chyba: „Hodnota musí být ≥ 0" 
+Příčina: Zadána záporná hodnota tam, kde je povolena pouze kladná. 
+Řešení: Zkontrolujte, zda je hodnota kladná. Výjimkou je prirazkaAbsolutni, která může být 
+záporná (sleva). 

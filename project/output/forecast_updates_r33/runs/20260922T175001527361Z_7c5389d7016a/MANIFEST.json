@@ -1,0 +1,18 @@
+{
+  "files": {
+    "adapter.json": "d3b3649dde032bd2b75cbf2b990a774868c235027e37e3602d0dfe097477ad4a",
+    "adapter.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "adapter.stdout": "cda4d90fc2e1496a9d354adc1b8d6efe3cdb3828f74dda6213a5cf6b5920e38d",
+    "inputs.json": "30572ab72c24d2f7ba7dbd445cad9fdc1e2015c86becd43130b007438e9b6c13",
+    "live_calendar.csv": "149298cf4bb71743dcca4016a1550f4b92297b8dc35bd51665e204903f6f5ce7",
+    "request.json": "c31ce67b65dd2dfcbeb404c6b2028ff352d9baca45789d910227523a06d22200",
+    "result.json": "f5c79e1b461c24f3483b27350acc060136af352708ee25361ccd3407ecb017b2",
+    "scratch/tmpzgfb71xa.d11": "7d2620310ca23e453b80f33024d017611f74511e58cd58190660211f4291e206",
+    "scratch/tmpzgfb71xa.d12": "828609327bb9e0190fb76b4e914dc7582ff18ef7fa6ec7719ee5f90f36919b0e",
+    "scratch/tmpzgfb71xa.d13": "0522d70cc4f24fb73c58f24bc8941e41d90ec3d21445427e9fdeb485b8e7bb38",
+    "scratch/tmpzgfb71xa.err": "1ca4d574309b90590c7878e1838f57bbee96d01503267bdb347aac3a618a9018",
+    "scratch/tmpzgfb71xa.log": "4ffc9ee8785bcd21982f074214a534106ea865e138fabcc41b9dcc052edb4324",
+    "scratch/tmpzgfb71xa.out": "46501e86a79894d0e62b7723708a4ccb373e59fd7a87bd4a6ab9e6b21593d267"
+  },
+  "schema_version": "forecast_updates_r33/run-v1"
+}

@@ -1,0 +1,16 @@
+{
+  "note": "Round 16 of the 12 Sep 2026 probe: full Bloomberg histories (from 1980) for the CNB-paper survey tickers, German unemployment and HICP, and the Czech ESI, so equality with the paper model's inputs can be tested before 2000 (the 11 Sep snapshot started in 2000).",
+  "candidates": {
+    "cnb_paper_surveys": ["EUI6CZ Index", "EUI1CZ Index", "EUS1CZ Index", "EUS2CZ Index", "EUR1CZ Index", "EUB1CZ Index", "EUB5F4CZ Index",
+                          "EUB5F5CZ Index", "EUB5F7CZ Index", "EUA2CZ Index", "EUICDE Index", "EUSCDE Index", "EURTDE Index", "EUCODE Index",
+                          "EURTPL Index", "EUA8EMU Index", "EUA7EMU Index", "EUICCZ Index", "EUS3CZ Index", "EUS5CZ Index", "EUSCCZ Index",
+                          "EUR3CZ Index", "EUR4CZ Index", "EUR5CZ Index", "EURTCZ Index", "EUB3CZ Index", "EUCOCZ Index", "EUA1CZ Index",
+                          "EUA0CZ Index", "EUAUCZ Index", "EUA6CZ Index", "EUI5CZ Index", "EUB4CZ Index"],
+    "cnb_paper_hard": ["UMRTDE Index", "GRCPHCPI Index"],
+    "surveys": ["EUESCZ Index"]
+  },
+  "daily": [],
+  "searches": [],
+  "max_results": 15,
+  "history_start": "1980-01-01"
+}

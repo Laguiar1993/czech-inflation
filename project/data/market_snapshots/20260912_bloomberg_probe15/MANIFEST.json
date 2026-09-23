@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "coverage.csv": "4399a47284aa09045839d9119656846331be5a3c094cef197475492886db1e34",
+    "errors.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "history_long.csv": "f3990e206ce9c2589368e697746e6a5f8273a5287c496c27ea8709ae4823e55e",
+    "instrument_search.json": "98cfe54846d9af21ed6033e1f96c1fc6b2c44d7a9482d8ea30b3ad23e0b3e4d9",
+    "metadata.json": "73684107bf870afc3ec26a0876e8cc6b914567e07afccaf7d586025d20eff214",
+    "raw/CZCPH_Index.csv": "8c695772e3b724848ac766f44363e60b7ba5b1c3bf17171cbba807aa41512fe9",
+    "request.json": "95dbc4b81aee54a9063d3e46911e6357126d3fc7126bad3680c4f0b8d80390a3"
+  },
+  "probe_script_sha256": "7d8f53a75df38b84cb95d2b0f6a7c4683f33e79b761f6e80bf132a154936be41"
+}

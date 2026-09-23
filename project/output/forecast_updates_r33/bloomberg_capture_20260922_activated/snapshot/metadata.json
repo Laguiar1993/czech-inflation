@@ -1,0 +1,116 @@
+{
+  "CZCPMOM Index": {
+    "name": "Czech Republic CPI  Nominal Ch",
+    "security_des": "Czech Republic CPI  Nominal Ch",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPYOY Index": {
+    "name": "Czech Republic CPI Nominal Chn",
+    "security_des": "Czech Republic CPI Nominal Chn",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPFMOM Index": {
+    "name": "Czech Republic CPI Food & Non",
+    "security_des": "Czech Republic CPI Food & Non",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPAMOM Index": {
+    "name": "Czech Republic CPI Alcoholic B",
+    "security_des": "Czech Republic CPI Alcoholic B",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCIXM Index": {
+    "name": "Czech Inflation Overall Items",
+    "security_des": "Czech Inflation Overall Items",
+    "indx_source": "Czech National Bank",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCIRM Index": {
+    "name": "Czech Inflation Regulated Pric",
+    "security_des": "Czech Inflation Regulated Pric",
+    "indx_source": "Czech National Bank",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP7FCZ Index": {
+    "name": "EU CPI Fuels & Lubricants for",
+    "security_des": "EU CPI Fuels & Lubricants for",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZEIIMOM Index": {
+    "name": "Czech Republic Import Prices M",
+    "security_des": "Czech Republic Import Prices M",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZPPA10M Index": {
+    "name": "Czech Republic PPI Food Produc",
+    "security_des": "Czech Republic PPI Food Produc",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "ECOBETCZ Index": {
+    "name": "Czech Republic Euro-super 95 G",
+    "security_des": "Czech Republic Euro-super 95 G",
+    "indx_source": "European Commission",
+    "indx_freq": "Weekly on Friday",
+    "last_update_dt": "2026-09-18",
+    "country": "CZ",
+    "des_notes": "SECTOR DESCRIPTION: European Commission Weekly Oil Bulletin Prices.  Weekly consumer prices for petroleum products in EU countries, prices include Automative Gas oil, Euro-super 95, Low Sulphur Fuel Oil, Heating Gas oil and LPG (prices for with and without tax).<p>NOTE: The European Commission ceased all United Kingdom coverage during 2020 <p>SOURCE: European Commission: {https://ec.europa.eu/energy/en/data-analysis/weekly-oil-bulletin}<p>UPDATE INFO: Data is updated on a weekly basis.<p>CALCULATIONS: The prices are taken directly from the source without any manipulation.<p>SOURCE METHODOLOGY: N/A<p>HISTORICAL CONSIDERATIONS: N/A<p>DATA DISCOVERY: {ALLX ECOB<GO>} for all Consumer Petroleum Prices in Europe.<p>RELATED SECTORS/FUNCTIONS:{BOIL<GO>} -> 5) Retail<p>As of January 1st 2023, Croatia has joined the Eurozone and HRK tickers have been discontinued. Please use the equivalent tickers in Euro.<P>USE AS A FINANCIAL BENCHMARK MAY BE RESTRICTED. SEE {DOCS #2084680<GO>}"
+  },
+  "ECOBOTCZ Index": {
+    "name": "Czech Republic Automotive Gas",
+    "security_des": "Czech Republic Automotive Gas",
+    "indx_source": "European Commission",
+    "indx_freq": "Weekly on Friday",
+    "last_update_dt": "2026-09-18",
+    "country": "CZ",
+    "des_notes": "SECTOR DESCRIPTION: European Commission Weekly Oil Bulletin Prices.  Weekly consumer prices for petroleum products in EU countries, prices include Automative Gas oil, Euro-super 95, Low Sulphur Fuel Oil, Heating Gas oil and LPG (prices for with and without tax).<p>NOTE: The European Commission ceased all United Kingdom coverage during 2020 <p>SOURCE: European Commission: {https://ec.europa.eu/energy/en/data-analysis/weekly-oil-bulletin}<p>UPDATE INFO: Data is updated on a weekly basis.<p>CALCULATIONS: The prices are taken directly from the source without any manipulation.<p>SOURCE METHODOLOGY: N/A<p>HISTORICAL CONSIDERATIONS: N/A<p>DATA DISCOVERY: {ALLX ECOB<GO>} for all Consumer Petroleum Prices in Europe.<p>RELATED SECTORS/FUNCTIONS:{BOIL<GO>} -> 5) Retail<p>As of January 1st 2023, Croatia has joined the Eurozone and HRK tickers have been discontinued. Please use the equivalent tickers in Euro.<P>USE AS A FINANCIAL BENCHMARK MAY BE RESTRICTED. SEE {DOCS #2084680<GO>}"
+  },
+  "EURCZK CNB Curncy": {
+    "name": "EUR-CZK X-RATE",
+    "security_des": "EURCZK Curncy",
+    "last_update_dt": "2026-09-22",
+    "country": "CZ"
+  }
+}

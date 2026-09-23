@@ -1,0 +1,199 @@
+{
+  "EPA00CCZ Index": {
+    "name": "Eurostat PPI Manufacturing Cze",
+    "security_des": "Eurostat PPI Manufacturing Cze",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPT00CCZ Index": {
+    "name": "Eurostat PPI Manufacturing Cze",
+    "security_des": "Eurostat PPI Manufacturing Cze",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPN00CCZ Index": {
+    "name": "Eurostat Non Domestic PPI Manu",
+    "security_des": "Eurostat Non Domestic PPI Manu",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPC00CCZ Index": {
+    "name": "Eurostat Non Domestic PPI Manu",
+    "security_des": "Eurostat Non Domestic PPI Manu",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPD00CCZ Index": {
+    "name": "Eurostat Non Domestic PPI Manu",
+    "security_des": "Eurostat Non Domestic PPI Manu",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPB00CCZ Index": {
+    "name": "Eurostat PPI Manufacturing Cze",
+    "security_des": "Eurostat PPI Manufacturing Cze",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPM0BCCZ Index": {
+    "name": "Eurostat Domestic PPI Manufact",
+    "security_des": "Eurostat Domestic PPI Manufact",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPP0BCCZ Index": {
+    "name": "Eurostat Domestic PPI Manufact",
+    "security_des": "Eurostat Domestic PPI Manufact",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPM0BDCZ Index": {
+    "name": "Eurostat Domestic PPI Mining a",
+    "security_des": "Eurostat Domestic PPI Mining a",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EP30BDCZ Index": {
+    "name": "EU Domestic PPI Mining and Qua",
+    "security_des": "EU Domestic PPI Mining and Qua",
+    "indx_source": "Eurostat",
+    "indx_freq": "Monthly",
+    "country": "CZ"
+  },
+  "EPA0BCCZ Index": {
+    "name": "Eurostat PPI Manufacturing Min",
+    "security_des": "Eurostat PPI Manufacturing Min",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPNBC2CZ Index": {
+    "name": "Eurostat Non Domestic PPI Manu",
+    "security_des": "Eurostat Non Domestic PPI Manu",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "OECZPEBQ Index": {
+    "name": "OECD Czech Rep Producer Prices",
+    "security_des": "OECD Czech Rep Producer Prices",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2022-11-30",
+    "country": "CZ"
+  },
+  "OECZPEBR Index": {
+    "name": "OECD Czech Rep Producer Prices",
+    "security_des": "OECD Czech Rep Producer Prices",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2022-11-30",
+    "country": "CZ"
+  },
+  "OECZPEBS Index": {
+    "name": "OECD Czech Rep Producer Prices",
+    "security_des": "OECD Czech Rep Producer Prices",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2022-11-30",
+    "country": "CZ"
+  },
+  "OECZPEBU Index": {
+    "name": "OECD Czech Rep Producer Prices",
+    "security_des": "OECD Czech Rep Producer Prices",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2022-12-31",
+    "country": "CZ"
+  },
+  "OECZPEBV Index": {
+    "name": "OECD Czech Rep Producer Prices",
+    "security_des": "OECD Czech Rep Producer Prices",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2022-12-31",
+    "country": "CZ"
+  },
+  "CZPPCM Index": {
+    "name": "Czech Republic PPI Services &",
+    "security_des": "Czech Republic PPI Services &",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPCY Index": {
+    "name": "Czech Republic PPI Services &",
+    "security_des": "Czech Republic PPI Services &",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPCMOM Index": {
+    "name": "Czech Republic PPI Constructio",
+    "security_des": "Czech Republic PPI Constructio",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2017-03-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPCYOY Index": {
+    "name": "Czech Republic PPI Constructio",
+    "security_des": "Czech Republic PPI Constructio",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2017-03-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  }
+}

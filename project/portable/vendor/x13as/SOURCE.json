@@ -1,0 +1,6 @@
+{
+  "source": "https://www.census.gov/data/software/x13as.html",
+  "description": "Exact Census X-13 executable used for the recorded R35 snapshot; original installation retained unchanged",
+  "sha256": "2e43194361ee096797f0431765193c316196ea6776f11535e76281a413d49669",
+  "bytes": 4347904
+}

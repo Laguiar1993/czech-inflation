@@ -1,0 +1,43 @@
+1/90 2019-02: h0 0.325 (recorded 0.318), food h6 -0.405 (recorded -0.453), 0s
+16/90 2020-05: h0 0.200 (recorded 0.176), food h6 0.122 (recorded 0.200), 1s
+31/90 2021-08: h0 0.201 (recorded 0.225), food h6 0.306 (recorded 0.331), 2s
+46/90 2022-11: h0 0.765 (recorded 0.759), food h6 0.792 (recorded 0.779), 3s
+61/90 2024-02: h0 0.280 (recorded 0.271), food h6 -0.428 (recorded -0.450), 4s
+76/90 2025-05: h0 0.282 (recorded 0.262), food h6 0.137 (recorded 0.158), 5s
+90/90 2026-07: h0 0.474 (recorded 0.448), food h6 2.352 (recorded 2.365), 6s
+ h           sample  n  rmse_recorded  rmse_lane_forecast_previous_history  rmse_lane_vs_previous_truth  rmse_lane_vs_bbg_truth  rmse_recorded_vs_bbg_truth  max_abs_forecast_change  mean_abs_forecast_change
+ 3             full 84         1.4483                               1.4436                       1.4395                  1.4496                      1.4627                   0.1899                    0.0675
+ 3 origins_2024plus 28         0.5072                               0.5088                       0.5225                  0.5255                      0.5285                   0.1899                    0.0782
+ 6             full 81         2.2446                               2.2397                       2.2427                  2.2443                      2.2482                   0.1689                    0.0536
+ 6 origins_2024plus 25         0.4629                               0.4589                       0.4806                  0.4595                      0.4545                   0.1402                    0.0600
+12             full 75         4.7689                               4.7668                       4.7668                  4.7734                      4.7755                   0.0242                    0.0070
+12 origins_2024plus 19         0.6590                               0.6551                       0.6551                  0.6280                      0.6313                   0.0242                    0.0093
+{
+ "blocks": {
+  "food": {
+   "max_abs_change_pp": 0.08419312991232572,
+   "mean_abs_change_pp": 0.023116053234954297
+  },
+  "alc": {
+   "max_abs_change_pp": 0.04936173901394736,
+   "mean_abs_change_pp": 0.009742103759391654
+  },
+  "fuel": {
+   "max_abs_change_pp": 1.8088905671342914e-05,
+   "mean_abs_change_pp": 2.6489446069687446e-07
+  },
+  "h0": {
+   "max_abs_change_pp": 0.04376961895943321,
+   "mean_abs_change_pp": 0.012278787842718233
+  }
+ },
+ "cnb": {
+  "pairs": 34,
+  "rmse_lane": 0.40626594715258785,
+  "rmse_recorded": 0.40526570179672317,
+  "rmse_cnb": 0.37178899761039697,
+  "rmse_lane_4q": 0.5384451572066007,
+  "rmse_recorded_4q": 0.5366410118546802,
+  "rmse_cnb_4q": 0.426250199997777
+ }
+}

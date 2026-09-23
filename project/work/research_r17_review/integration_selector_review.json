@@ -1,0 +1,15 @@
+{
+  "status": "integration_pass_evaluation_pending",
+  "input_output_hashes_verified": 372,
+  "origins": 90,
+  "models": 30,
+  "h0_weights_and_clocks_exact": true,
+  "fixed_mixture_max_error": 0.0,
+  "annual_ordinary_product_max_error": 1.3100631690576847e-13,
+  "cumulative_max_error": 0.0,
+  "candidate_mixture_max_error": 0.0,
+  "selection_rows": 180,
+  "selector_objective_max_error": 0.0,
+  "selected_paths_exact": true,
+  "early_FAST_defaults": 48
+}

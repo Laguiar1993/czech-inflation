@@ -1,0 +1,12 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value
+reer,BRERCZ Index,2026-09-12T16:55:16.532626+00:00,Bloomberg Economics Czech Rep,Bloomberg Economics,,Daily,2026-09-11,ok,DAILY,8530,1994-01-03,2026-09-11,126.4
+reer,BISBCZR Index,2026-09-12T16:55:17.703743+00:00,Czech Republic Real Effective,Bank for International Settlem,Index NSA,Monthly,2026-07-31,ok,MONTHLY,391,1994-01-31,2026-07-31,126.71
+reer,935.028 Index,2026-09-12T16:55:18.223718+00:00,IMF Czech Rep Real Effective E,International Monetary Fund,,Monthly,2026-06-30,ok,MONTHLY,438,1990-01-31,2026-06-30,124.66
+reer,BREERCZK Index,2026-09-12T16:55:18.839531+00:00,Bloomberg Intelligence REER In,Bloomberg Intelligence,,Daily,2026-09-09,ok,DAILY,2790,2015-12-31,2026-09-09,121.48
+reer,OECZFRAA Index,2026-09-12T16:55:19.566647+00:00,OECD Czech Rep Real Effective,Organisation for Economic Co-o,,Monthly,2026-08-31,ok,MONTHLY,405,1992-12-31,2026-08-31,140.02
+labour,CZLFTOTL Index,2026-09-12T16:55:20.193073+00:00,Czech Labor Force Total as % o,Czech Statistical Office,Percent NSA,Quarterly,2026-03-31,ok,MONTHLY,133,1993-03-31,2026-03-31,61.3
+labour,CZLFACT Index,2026-09-12T16:55:20.773975+00:00,Czech Republic Economically Ac,Czech Statistical Office,Units/Persons NSA,Quarterly,2026-03-31,ok,MONTHLY,133,1993-03-31,2026-03-31,5454.7
+labour,CZLFAUN Index,2026-09-12T16:55:21.398703+00:00,Czech Republic Economically Ac,Czech Statistical Office,Units/Persons NSA,Quarterly,2026-03-31,ok,MONTHLY,133,1993-03-31,2026-03-31,170.8
+labour,CZUEURM Index,2026-09-12T16:55:22.003114+00:00,Czech Unemployment Rate Males,Czech Statistical Office,Percent NSA,Quarterly,2024-12-31,ok,MONTHLY,80,2005-03-31,2024-12-31,2.1
+labour,CZUEURF Index,2026-09-12T16:55:22.594641+00:00,Czech Unemployment Rate Female,Czech Statistical Office,Percent NSA,Quarterly,2024-12-31,ok,MONTHLY,80,2005-03-31,2024-12-31,3.0
+labour,UMLVCZ Index,2026-09-12T16:55:23.097982+00:00,Eurostat Unemployment Level Cz,Eurostat,Units/Persons SA,Monthly,2026-07-31,ok,MONTHLY,403,1993-01-31,2026-07-31,180.0

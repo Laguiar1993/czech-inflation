@@ -1,0 +1,2 @@
+ticker,name,security_des,quote_units,indx_source,des_notes,px_last,last_update_dt,last_update,seasonality_and_transformation,country
+UMRTCZ Index,Eurostat Unemployment Czech Re,Eurostat Unemployment Czech Re,%,Eurostat,The unemployment rate tracks the number of unemployed persons as a percentage of the labor force (the total number of employed plus unemployed). These figures generally come from a household labor force survey.,3.3,2026-07-31,2026-07-31,Percent SA,CZ

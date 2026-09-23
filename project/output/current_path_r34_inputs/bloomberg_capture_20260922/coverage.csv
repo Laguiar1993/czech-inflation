@@ -1,0 +1,6 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value
+path_levels,CZCPI Index,2026-09-22T18:43:32.700009+00:00,Czech Republic CPI,Czech Statistical Office,Index NSA,Monthly,2026-08-31,ok,MONTHLY,140,2015-01-31,2026-08-31,102.6
+path_levels,CZCPF Index,2026-09-22T18:43:33.467340+00:00,Czech Republic CPI Food & Non,Czech Statistical Office,Index NSA,Monthly,2026-08-31,ok,MONTHLY,140,2015-01-31,2026-08-31,96.3
+path_ppi,CZPPA10M Index,2026-09-22T18:43:34.034658+00:00,Czech Republic PPI Food Produc,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,ok,MONTHLY,140,2015-01-31,2026-08-31,-0.1
+reconciliation,CZCPYOY Index,2026-09-22T18:43:34.589441+00:00,Czech Republic CPI Nominal Chn,Czech Statistical Office,YoY% NSA,Monthly,2026-08-31,ok,MONTHLY,140,2015-01-31,2026-08-31,1.9
+reconciliation,CZCPMOM Index,2026-09-22T18:43:35.088592+00:00,Czech Republic CPI  Nominal Ch,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,ok,MONTHLY,140,2015-01-31,2026-08-31,0.3

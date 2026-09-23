@@ -1,0 +1,2 @@
+ticker,name,security_des,indx_source,des_notes,px_last,last_update_dt,last_update,seasonality_and_transformation,country
+EUA2CZ Index,EC Consumer Confidence Czech F,EC Consumer Confidence Czech F,European Commission,Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households.,2.1,2026-08-31,2026-08-31,% Balance/Diffusion Index SA,CZ

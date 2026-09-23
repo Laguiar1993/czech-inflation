@@ -1,0 +1,34 @@
+{
+  "built_at_utc": "2026-09-22T16:56:06.330260+00:00",
+  "snapshot_date": "2026-09-22",
+  "live_forecast": false,
+  "inputs": {
+    "output/inflation_monitor_20260922/monitor_data.json": "cf243ecbcf15dd8ade2073f6136a094dee33f489a076cbd26899ffcd226f5234",
+    "output/inflation_monitor_20260922/contributions.csv": "59e5823b8210eee070dc17d02502211ce9753b8748d2311ed60b900498d26a5e",
+    "output/cnb_rounds_v3/replay_data.json": "a92a641e911065fdf31d9716a6b6ff35fd9c5b720b9dc0a208d7d7e49782ac86",
+    "output/bloomberg_lane_20260922_r31c/scores.csv": "881441618c47073bb3ee6d54e6e9e94176efb40b7dacb11ab61fab2003af922f",
+    "output/bloomberg_lane_20260922_r31c/run_C123.csv": "ab91b28501b114a1c7fb1a1f85a8736d6112b0e83f9303f68488f7eac2e4b39e",
+    "output/bloomberg_lane_20260922_foodppi/path/summary.json": "0d1c3ba626ea314b096ff58afd1ab3259b851e33b9f3a610cbe206c6c51c0631",
+    "output/bloomberg_lane_20260922_foodppi/path/path_rows.csv": "3aa88b06d2e5faf7a4953f3e60ff812d68380f6b5914cbe02cdddfef91978ffc",
+    "output/inflation_monitor_20260922/manifest.json": "d4163d122d48d07de35d3dd0b003156233744a9d83cd3488b6b1ca1ed3b9630e",
+    "output/cnb_rounds_v3/manifest.json": "e429947684a6715ed1ab3e7691eb29d5db241b60a5d6331648cc3222763eb66d",
+    "output/bloomberg_lane_20260922_r31c/manifest.json": "bdd3ca9f6aa83b038f6036c117cb31ef6bea1ad57b826e0c78446aec64e8351c",
+    "output/bloomberg_lane_20260922_foodppi/path/manifest.json": "17c625490126e491077806ac65fa52a7652311c14816833bd08a7d1352a889a2"
+  },
+  "code": {
+    "tools/inflation_dashboard_r32/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "tools/inflation_dashboard_r32/app.js": "87c12f5be9e60d6cce8638b508ff358e1ac70aea4879f7ecba62c2fd6a13453c",
+    "tools/inflation_dashboard_r32/browser_check.cjs": "58db1a234581cd7693c03d4c15a0b7cdb4c7b34796600aa3b1c855af9d203b57",
+    "tools/inflation_dashboard_r32/build.py": "bb35c789af77aa05c1348ef9d402a6b2bb61e30a2dbae08eccb1570026283ca7",
+    "tools/inflation_dashboard_r32/README.md": "7d34fa1153c6937a28885618e3652ca888895b5354ca56089e89c931f8a4fb57",
+    "tools/inflation_dashboard_r32/REVIEW.md": "bb3763f094a2231cb8ad5c3157e4550761d0227151c769641428ea59d7ac50b2",
+    "tools/inflation_dashboard_r32/style.css": "acf9f6bbc75a430993cadd60de4cc4dabaeeda92b5aadb071a101aae182449cf",
+    "tools/inflation_dashboard_r32/template.html": "5326617b9bc5f79e000b99cd6284913e6e302ad71578c59abff957f7bf7c0bce",
+    "tools/inflation_dashboard_r32/test_data.py": "ea99ecb46bedd2f2e0f101391432a0bc8e0d17553e061fec72f4893c642cf57f"
+  },
+  "outputs": {
+    ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "dashboard_data.json": "1f4ab3250744cdfbadb15c1a25e1a0eca19fb4dd1db9ec4a8da6cc4c67d1ff17",
+    "index.html": "a43c35dcb37a517eb6df2e5ac3c8dd93cf55b51156675c7a93533077f7e05942"
+  }
+}

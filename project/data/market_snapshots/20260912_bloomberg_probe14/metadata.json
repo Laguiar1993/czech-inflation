@@ -1,0 +1,14 @@
+{
+  "EURCZK CNB Curncy": {
+    "name": "EUR-CZK X-RATE",
+    "security_des": "EURCZK Curncy",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  },
+  "USDCZK CNB Curncy": {
+    "name": "USD-CZK X-RATE",
+    "security_des": "USDCZK Curncy",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  }
+}

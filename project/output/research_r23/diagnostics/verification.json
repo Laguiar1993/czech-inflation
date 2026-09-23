@@ -1,0 +1,54 @@
+{
+  "verified_at_utc": "2026-09-16T06:49:12.465540+00:00",
+  "runs": [
+    {
+      "command": [
+        "C:\\Users\\luis_\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "pytest",
+        "tests/test_cost_gaps_r23.py",
+        "tests/test_transmission_r22.py",
+        "tests/test_released_error_research_r21.py",
+        "tests/test_policy_anchor_r21.py",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "work/pytest_r23_seal"
+      ],
+      "returncode": 0,
+      "stdout": ".........................                                                [100%]\n25 passed in 1.75s\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\luis_\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "work/research_r23_review/probes.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"strict_consecutive_quarters\": \"pass\",\n  \"interpolation_100_random_vectors\": \"pass\",\n  \"outer_and_nested_maturity\": \"pass\",\n  \"unpublished_interior_falls_back\": true,\n  \"small_same_sign_direction_agrees\": true,\n  \"unmatured_actual_still_counts_as_call\": \"pass\",\n  \"overshoot_direction_vs_confirmation\": \"pass\",\n  \"episode_noncall_missing_report_and_sign_reset\": \"pass\",\n  \"real_features\": [\n    {\n      \"complete\": false,\n      \"size\": 14,\n      \"min\": \"2010-01\",\n      \"max\": \"2011-02\"\n    },\n    {\n      \"complete\": true,\n      \"size\": 185,\n      \"min\": \"2011-03\",\n      \"max\": \"2026-07\"\n    }\n  ],\n  \"target_exact_log_error_and_all_publication_gate\": \"pass\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\luis_\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "work/research_r23_review/output_checks.py",
+        "output/research_r23/final"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"path\": \"C:\\\\Users\\\\luis_\\\\Documents\\\\Codex\\\\2026-09-05\\\\c-users-luis-appdata-local-temp\\\\work\\\\cpi-independent\\\\output\\\\research_r23\\\\final\",\n  \"origins\": 90,\n  \"models\": 11,\n  \"native_rows\": 12870,\n  \"fits\": 90,\n  \"checks\": [\n    \"fixed h0 and noncore\",\n    \"quarterly outer labels\",\n    \"all twelve target publications\",\n    \"own-clock inner maturity\",\n    \"selected minimum cumulative loss\",\n    \"positive coefficients\",\n    \"coefficient reconstruction\",\n    \"monthly log corrections\",\n    \"half correction\"\n  ],\n  \"status\": \"pass\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\luis_\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "work/research_r23_review/evaluation_checks.py",
+        "output/research_r23/final"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"manifest_hashes_verified\": 206,\n  \"primary_keys_per_model\": 969,\n  \"lead_rows\": 7084,\n  \"summary_rows\": 176,\n  \"episode_rows\": 1360,\n  \"checks\": [\n    \"immediate next report\",\n    \"same still-future target\",\n    \"all projection support\",\n    \"direction vs distance\",\n    \"all-call and mature denominators\",\n    \"episode resets\",\n    \"missing comparison coverage\"\n  ]\n}\n",
+      "stderr": ""
+    }
+  ],
+  "all_passed": true
+}

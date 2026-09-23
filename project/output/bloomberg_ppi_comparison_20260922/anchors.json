@@ -1,0 +1,22 @@
+{
+ "row45_total_vs_PPTXCZ": {
+  "n": 439,
+  "first": "1990-01",
+  "last": "2026-07",
+  "exact_share": 1.0,
+  "within_tol_share": 1.0,
+  "max_abs_gap": 0.0,
+  "mean_abs_gap": 0.0,
+  "corr": 1.0
+ },
+ "row47_vs_row45_mom6": {
+  "n": 433,
+  "first": "1990-07",
+  "last": "2026-07",
+  "exact_share": 0.013856812933025405,
+  "within_tol_share": 0.12933025404157045,
+  "max_abs_gap": 6.337247157178865,
+  "mean_abs_gap": 0.7506823500867704,
+  "corr": 0.9833302685158436
+ }
+}

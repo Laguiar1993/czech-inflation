@@ -1,0 +1,38 @@
+{
+  "retrieved_at_utc": "2026-09-09T13:07:12.317061+00:00",
+  "purpose": "Primary evidence; no model estimation",
+  "sources": [
+    {
+      "file": "ecb_wp1168.pdf",
+      "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1168.pdf",
+      "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1168.pdf",
+      "status": 200,
+      "bytes": 1063099,
+      "sha256": "f3d08d45148f7953f2c20958aeb499925ea7caca4a086a6578ef6fe13c036537"
+    },
+    {
+      "file": "cnb_food_prices_2020.html",
+      "url": "https://www.cnb.cz/en/monetary-policy/inflation-reports/boxes-and-annexes-contained-in-inflation-reports/What-drives-food-prices/",
+      "resolved_url": "https://www.cnb.cz/en/monetary-policy/inflation-reports/boxes-and-annexes-contained-in-inflation-reports/What-drives-food-prices/",
+      "status": 200,
+      "bytes": 64717,
+      "sha256": "9ccf5b7c0c907b80f0f45ae7cb67b1ca36beb3b4abbcefac561da4e761cf2412"
+    },
+    {
+      "file": "ecb_food_pipeline_2024.html",
+      "url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2024/html/ecb.ebbox202402_04~9b36bced23.en.html",
+      "resolved_url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2024/html/ecb.ebbox202402_04~9b36bced23.en.html",
+      "status": 200,
+      "bytes": 121868,
+      "sha256": "df01302fcff4612b48b852af4d0a363069e801797a6c0d26657e990fd10b04ef"
+    },
+    {
+      "file": "worldbank_commodity_data.html",
+      "url": "https://www.worldbank.org/en/research/commodity-markets",
+      "resolved_url": "https://www.worldbank.org/en/research/commodity-markets",
+      "status": 200,
+      "bytes": 56214,
+      "sha256": "123196d1e9f6198c28448b30deaa2dccd6f74b4d7616f674d334a85b20fcbcb5"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-14T09:11:32.835109+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.1",
+    "scikit-learn": "1.9.0",
+    "quantile-forest": "1.4.2",
+    "statsmodels": "0.15.0",
+    "scipy": "1.18.1"
+  },
+  "test_logs": {
+    "path_final.log": {
+      "passed": 132,
+      "sha256": "48195079857bdf0fb11ffe3b7db25b67be022c013c05dbb09ee48dd0d4457216"
+    },
+    "forest_scoring_final.log": {
+      "passed": 92,
+      "sha256": "1a3100274ff4fd50f9eab11bef92df56f859421858585755588a3260b0bdcdef"
+    }
+  },
+  "targeted_tests_passed": 224,
+  "actual_forest_runner_smoke": true,
+  "final_files": {
+    "models/paper_tvwqrf.py": "bb82e1a1c0c93190b8c7d2891db0509f725c040b2c4c3109d7c65aad1d099515",
+    "paper_tvwqrf_experiment.py": "3cb0f316730ef73f0a9d4b7a37bf8d7457db77432ab3ab4946e2ab9c28101da1",
+    "tools/paper_replication/build_paper_panel.py": "932e3331f1c3c648c30c7a682c4a6a84300f6445d5f37e070995977ac53047b3",
+    "independent_nowcast_experiment.py": "c9f066fa607da44fa4c1aa12eeda9b7730507a9cceddf7bd711e001f35d68602",
+    "tools/review/nowcast_vs_consensus_20260914.py": "f7690e1ea8854d79aeca24eb5fc9c92b901eecb79dfea6577b60b9833bf3ec13",
+    "tools/cnb_rounds/build_cnb_rounds.py": "0112aea157cd9f72cf80b94a61dbb77887cfe1ead7d89c987f607a39e9540e9f",
+    "tools/cnb_rounds/cnb_rounds_template.html": "c2810d305126098173a6ab0ef0185b93a619c3f8e3ed50831693e2389f7dae7c",
+    "tools/review/recalibrate_tvw_20260914.py": "352521a03e1696315ef5a30ee49c29d0ba336ddd3d9fad7bf4ad412caac77ff0",
+    "tools/review/refresh_import_manifest_20260914.py": "79d49544a1a56319ea3e43d07e117f133558c74aecdff83d70a56e9efac4fe53",
+    "IMPLEMENTED_AUDIT_FIXES_2026-09-14.md": "0937d4807d9965752425ef6b389ad6008615b75020ac5d3ad0a5c42e3ab233fb",
+    "HANDOFF_TO_CODEX_2026-09-14.md": "6ce7d16dcfde9df4737406ebcdcb25c16234751d3fc2ce913cd4dcb76389cdec",
+    "docs/implementation/PAPER_TVWQRF_SPEC_2026-09-12.md": "49069fc4fb05bf63f4dabce975b35bbc796b08cee3069e7cfd45b6fbdfc89a41"
+  },
+  "nowcast_original_files_preserved": 11,
+  "causal_replay_sources_verified": 12,
+  "causal_replay_outputs_verified": 12,
+  "input_panels_preserved": true,
+  "original_import_manifest_preserved": true,
+  "import_outputs_byte_identical": 5,
+  "strict_import_loader_unchanged": true,
+  "corrected_artifact_sha256": "cb75b8ae97420e23d4c0c1be74f0fcbbc0a537cf7837d5aac1f56b727a93322f",
+  "basket_hour_changed": false,
+  "forecast_promotion": false,
+  "commit_created": false,
+  "pinned_python314_full_forest_refit": false,
+  "limitation": "Frozen current-vintage inputs retained; no prospective performance claim. Separate HTML retains archived TVW curves with visible disclosure; corrected TVW scores are in causal_tvw_common."
+}

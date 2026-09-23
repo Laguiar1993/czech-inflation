@@ -1,0 +1,848 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/DRAFT_monitorovaci_vyhlaska_G_v4.json",
+  "title": "Monitorovací vyhláška - Plyn (MV-G)",
+  "description": "JSON schéma pro sběr dat dle monitorovací vyhlášky pro plyn. Verze 4.0 - sjednocené označení výkazů MV-G5 až MV-G8.",
+  "version": "0.0",
+  "definitions": {
+    "dateFormat": {
+      "type": "string",
+      "pattern": "^(?:(?:31(.)(?:0?[13578]|1[02]))\\1|(?:(?:29|30)(.)(?:0?[13-9]|1[0-2])\\2))(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$|^(?:29(.)0?2\\3(?:(?:(?:1[6-9]|[2-9]\\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\\d|2[0-8])(.)(?:(?:0?[1-9])|(?:1[0-2]))\\4(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$",
+      "description": "Datový typ pro datum ve formátu dd.mm.yyyy",
+      "examples": [
+        "1.1.2021",
+        "01.01.2021"
+      ]
+    },
+    "anoNeEnum": {
+      "type": "string",
+      "enum": [
+        "ano",
+        "ne"
+      ],
+      "description": "Standardní ano/ne hodnota"
+    },
+    "typZakaznikaPlynEnum": {
+      "type": "string",
+      "enum": [
+        "maloodberatel",
+        "domacnost"
+      ],
+      "description": "Kategorie zákazníka plynu podle vyhlášky"
+    },
+    "typSmlouvyEnum": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "description": "Typ smlouvy dle vyhlášky (A–F, případně D1/D2/D3)"
+    },
+    "spotrebniPasmoPlynEnum": {
+      "type": "string",
+      "enum": [
+        "do 1,89",
+        "od 1,89 do 5,55",
+        "od 5,56 do 7,56",
+        "od 7,57 do 15",
+        "od 15,01 do 25",
+        "od 25,01 do 45",
+        "od 45,01 do 63",
+        "nad 63"
+      ],
+      "description": "Spotřební pásma plynu dle vyhlášky [MWh/rok]"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "typVykazu": {
+      "type": "string",
+      "enum": [
+        "MV_G"
+      ],
+      "description": "Identifikátor typu výkazu - Monitorovací Vyhláška Plyn"
+    },
+    "vykazy": {
+      "type": "array",
+      "description": "Pole výkazů (typicky jeden výkaz za pololetí)",
+      "items": {
+        "type": "object",
+        "required": [
+          "identifikacniUdajeVykazu",
+          "obchodniTajemstvi",
+          "mvG5",
+          "mvG6",
+          "mvG7",
+          "mvG8"
+        ],
+        "properties": {
+          "identifikacniUdajeVykazu": {
+            "type": "object",
+            "title": "Identifikační údaje výkazu",
+            "description": "Metadata a identifikace subjektu odevzdávajícího výkaz. Povinná pole: ico, typVykazu, typPeriody, cisloLicence, vykazovanyRok, datovaSchranka, drzitelLicence, vykazovanaPerioda.",
+            "required": [
+              "ico",
+              "typVykazu",
+              "typPeriody",
+              "cisloLicence",
+              "vykazovanyRok",
+              "datovaSchranka",
+              "drzitelLicence",
+              "vykazovanaPerioda"
+            ],
+            "properties": {
+              "ico": {
+                "type": "string",
+                "pattern": "^([0-9]{8}|[Mm][Ii][Mm][Oo][Čč][Rr]|)$",
+                "title": "IČO",
+                "description": "Identifikační číslo osoby (8 číslic), 'MIMOČR' pro zahraniční subjekty (case-insensitive), nebo prázdný řetězec",
+                "examples": [
+                  "12345678",
+                  "MIMOČR",
+                  "mimočr",
+                  ""
+                ]
+              },
+              "typVykazu": {
+                "type": "string",
+                "enum": [
+                  "MV_G"
+                ],
+                "title": "Typ výkazu",
+                "description": "Identifikátor typu výkazu"
+              },
+              "typPeriody": {
+                "type": "string",
+                "enum": [
+                  "HALF_YEAR"
+                ],
+                "title": "Typ periody",
+                "description": "Periodicita výkazu - pololetní"
+              },
+              "cisloLicence": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "title": "Čísla licencí",
+                "description": "Pole čísel licencí subjektu"
+              },
+              "vykazovanyRok": {
+                "type": "integer",
+                "minimum": 2024,
+                "title": "Vykazovaný rok",
+                "description": "Rok, za který je výkaz podáván"
+              },
+              "vykazovanaPerioda": {
+                "type": "integer",
+                "enum": [
+                  1,
+                  2
+                ],
+                "title": "Vykazovaná perioda",
+                "description": "Pololetí (1 = první pololetí, 2 = druhé pololetí)"
+              },
+              "datovaSchranka": {
+                "type": "string",
+                "title": "Datová schránka",
+                "description": "ID datové schránky subjektu"
+              },
+              "drzitelLicence": {
+                "type": "string",
+                "title": "Držitel licence",
+                "description": "Název držitele licence"
+              },
+              "kontaktniTelefon": {
+                "type": "string",
+                "title": "Kontaktní telefon",
+                "description": "Telefonní kontakt na odpovědnou osobu"
+              },
+              "odpovednyPracovnik": {
+                "type": "string",
+                "title": "Odpovědný pracovník",
+                "description": "Jméno a příjmení odpovědného pracovníka"
+              },
+              "datumVytvoreniVykazu": {
+                "type": "string",
+                "format": "date-time",
+                "title": "Datum vytvoření výkazu",
+                "description": "Datum a čas vytvoření výkazu ve formátu ISO 8601"
+              }
+            }
+          },
+          "obchodniTajemstvi": {
+            "$ref": "#/definitions/anoNeEnum",
+            "title": "Obchodní tajemství [ano/ne]",
+            "description": "Indikace, zda výkaz obsahuje obchodní tajemství"
+          },
+          "mvG5": {
+            "type": "array",
+            "title": "MV-G5: Portfolio zákazníků",
+            "description": "Přehled portfolia odběrných míst dle typu zákazníka, spotřebního pásma a typu smlouvy.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "obdobi": {
+                  "title": "obdobi",
+                  "description": "Společné",
+                  "allOf": [
+                    {
+                      "$ref": "#/definitions/dateFormat"
+                    }
+                  ]
+                },
+                "typZakaznika": {
+                  "type": "string",
+                  "title": "typZakaznika",
+                  "description": "Společné",
+                  "enum": [
+                    "maloodberatel",
+                    "domacnost"
+                  ]
+                },
+                "spotrebniPasmo": {
+                  "type": "string",
+                  "title": "spotrebniPasmo",
+                  "description": "Společné",
+                  "enum": [
+                    "do 1,88",
+                    "od 1,89 do 5,55",
+                    "od 5,56 do 7,56",
+                    "od 7,57 do 15",
+                    "od 15,01 do 25",
+                    "od 25,01 do 45",
+                    "od 45,01 do 55,55",
+                    "od 55,56 do 63",
+                    "od 63,01"
+                  ]
+                },
+                "typSmlouvy": {
+                  "type": "string",
+                  "title": "typSmlouvy",
+                  "description": "Společné",
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D1",
+                    "D2",
+                    "D3",
+                    "E",
+                    "F"
+                  ]
+                },
+                "pocetOm": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "pocetOm",
+                  "description": "Společné"
+                },
+                "planovanaSpotrebaMwh": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "planovanaSpotrebaMwh",
+                  "description": "Společné"
+                },
+                "idProduktu": {
+                  "type": "string",
+                  "title": "idProduktu",
+                  "description": "Pouze A"
+                },
+                "platnostCenikuOd": {
+                  "title": "platnostCenikuOd",
+                  "description": "Pouze A",
+                  "allOf": [
+                    {
+                      "$ref": "#/definitions/dateFormat"
+                    }
+                  ]
+                },
+                "kratkodobyTrh": {
+                  "type": "string",
+                  "title": "kratkodobyTrh",
+                  "description": "Pouze A"
+                },
+                "prirazkaProcenta": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "prirazkaProcenta",
+                  "description": "Pouze A"
+                },
+                "prirazkaAbsolutni": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "prirazkaAbsolutni",
+                  "description": "Pouze A"
+                },
+                "prirazkaMinimalni": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "prirazkaMinimalni",
+                  "description": "Pouze A"
+                },
+                "stalyPlat": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "stalyPlat",
+                  "description": "Pouze A"
+                },
+                "stalyPlatPrumer": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "stalyPlatPrumer",
+                  "description": "Pouze B–F"
+                },
+                "stalyPlatMedian": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "stalyPlatMedian",
+                  "description": "Pouze B–F"
+                },
+                "obchodniSlozkaCenyPrumer": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "obchodniSlozkaCenyPrumer",
+                  "description": "Pouze B–F"
+                },
+                "obchodniSlozkaCenyMedian": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "obchodniSlozkaCenyMedian",
+                  "description": "Pouze B–F"
+                },
+                "obchodniSlozkaCenySoucetMocnin": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "obchodniSlozkaCenySoucetMocnin",
+                  "description": "Pouze B–F"
+                },
+                "obchodniSlozkaCenyPocetJedinecnych": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "obchodniSlozkaCenyPocetJedinecnych",
+                  "description": "Pouze B–F"
+                }
+              },
+              "required": [
+                "typZakaznika",
+                "spotrebniPasmo",
+                "typSmlouvy",
+                "pocetOm",
+                "planovanaSpotrebaMwh"
+              ],
+              "if": {
+                "properties": {
+                  "typSmlouvy": {
+                    "const": "A"
+                  }
+                },
+                "required": [
+                  "typSmlouvy"
+                ]
+              },
+              "then": {
+                "required": [
+                  "idProduktu",
+                  "platnostCenikuOd",
+                  "kratkodobyTrh",
+                  "prirazkaProcenta",
+                  "prirazkaAbsolutni",
+                  "prirazkaMinimalni",
+                  "stalyPlat"
+                ]
+              },
+              "else": {
+                "required": [
+                  "stalyPlatPrumer",
+                  "stalyPlatMedian",
+                  "obchodniSlozkaCenyPrumer",
+                  "obchodniSlozkaCenyMedian",
+                  "obchodniSlozkaCenySoucetMocnin",
+                  "obchodniSlozkaCenyPocetJedinecnych"
+                ]
+              },
+              "additionalProperties": false
+            }
+          },
+          "mvG6": {
+            "type": "array",
+            "title": "MV-G6: Tržby",
+            "description": "Tržby za dodávku plynu v pololetí.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "obdobi": {
+                  "title": "obdobi",
+                  "description": "",
+                  "allOf": [
+                    {
+                      "$ref": "#/definitions/dateFormat"
+                    }
+                  ]
+                },
+                "typZakaznika": {
+                  "type": "string",
+                  "title": "typZakaznika",
+                  "description": "",
+                  "enum": [
+                    "maloodberatel",
+                    "domacnost"
+                  ]
+                },
+                "spotrebniPasmo": {
+                  "type": "string",
+                  "title": "spotrebniPasmo",
+                  "description": "",
+                  "enum": [
+                    "do 1,88",
+                    "od 1,89 do 5,55",
+                    "od 5,56 do 7,56",
+                    "od 7,57 do 15",
+                    "od 15,01 do 25",
+                    "od 25,01 do 45",
+                    "od 45,01 do 55,55",
+                    "od 55,56 do 63",
+                    "od 63,01"
+                  ]
+                },
+                "pocetOm": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "pocetOm",
+                  "description": ""
+                },
+                "dodavkaMwh": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "dodavkaMwh",
+                  "description": ""
+                },
+                "trzbyObchodniSlozka": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "trzbyObchodniSlozka",
+                  "description": ""
+                },
+                "trzbyRegulovanaSlozka": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "trzbyRegulovanaSlozka",
+                  "description": ""
+                },
+                "trzbyDph": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "trzbyDph",
+                  "description": ""
+                },
+                "trzbyDanPlyn": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "trzbyDanPlyn",
+                  "description": ""
+                },
+                "trzbyOstatniPoplatky": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "trzbyOstatniPoplatky",
+                  "description": ""
+                }
+              },
+              "required": [
+                "typZakaznika",
+                "spotrebniPasmo",
+                "pocetOm",
+                "dodavkaMwh",
+                "trzbyObchodniSlozka",
+                "trzbyRegulovanaSlozka",
+                "trzbyDph",
+                "trzbyDanPlyn",
+                "trzbyOstatniPoplatky"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "mvG7": {
+            "type": "array",
+            "title": "MV-G7: Přírůstky",
+            "description": "Nově uzavřené smlouvy a prodloužení závazků v pololetí.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "obdobi": {
+                  "type": "string",
+                  "title": "obdobi",
+                  "description": "Společné"
+                },
+                "typZakaznika": {
+                  "type": "string",
+                  "title": "typZakaznika",
+                  "description": "Společné",
+                  "enum": [
+                    "maloodberatel",
+                    "domacnost"
+                  ]
+                },
+                "spotrebniPasmo": {
+                  "type": "string",
+                  "title": "spotrebniPasmo",
+                  "description": "Společné",
+                  "enum": [
+                    "do 1,88",
+                    "od 1,89 do 5,55",
+                    "od 5,56 do 7,56",
+                    "od 7,57 do 15",
+                    "od 15,01 do 25",
+                    "od 25,01 do 45",
+                    "od 45,01 do 55,55",
+                    "od 55,56 do 63",
+                    "od 63,01"
+                  ]
+                },
+                "typSmlouvy": {
+                  "type": "string",
+                  "title": "typSmlouvy",
+                  "description": "Společné",
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D1",
+                    "D2",
+                    "D3",
+                    "E",
+                    "F"
+                  ]
+                },
+                "ruzneCenyVDilcichUsecich": {
+                  "type": "string",
+                  "title": "ruzneCenyVDilcichUsecich",
+                  "description": "Společné",
+                  "enum": [
+                    "ano",
+                    "ne"
+                  ]
+                },
+                "pocetOm": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "pocetOm",
+                  "description": "Společné"
+                },
+                "idProduktu": {
+                  "type": "string",
+                  "title": "idProduktu",
+                  "description": "Pouze A"
+                },
+                "platnostCenikuOd": {
+                  "title": "platnostCenikuOd",
+                  "description": "Pouze A",
+                  "allOf": [
+                    {
+                      "$ref": "#/definitions/dateFormat"
+                    }
+                  ]
+                },
+                "kratkodobyTrh": {
+                  "type": "string",
+                  "title": "kratkodobyTrh",
+                  "description": "Pouze A"
+                },
+                "prirazkaProcenta": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "prirazkaProcenta",
+                  "description": "Pouze A"
+                },
+                "prirazkaAbsolutni": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "prirazkaAbsolutni",
+                  "description": "Pouze A"
+                },
+                "prirazkaMinimalni": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "prirazkaMinimalni",
+                  "description": "Pouze A"
+                },
+                "stalyPlat": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "stalyPlat",
+                  "description": "Pouze A"
+                },
+                "stalyPlatPrumer": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "stalyPlatPrumer",
+                  "description": "Pouze B–F"
+                },
+                "stalyPlatMedian": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "stalyPlatMedian",
+                  "description": "Pouze B–F"
+                },
+                "obchodniSlozkaCenyPrumer": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "obchodniSlozkaCenyPrumer",
+                  "description": "Pouze B–F"
+                },
+                "obchodniSlozkaCenyMedian": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "obchodniSlozkaCenyMedian",
+                  "description": "Pouze B–F"
+                },
+                "obchodniSlozkaCenySoucetMocnin": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "obchodniSlozkaCenySoucetMocnin",
+                  "description": "Pouze B–F"
+                },
+                "obchodniSlozkaCenyPocetJedinecnych": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "obchodniSlozkaCenyPocetJedinecnych",
+                  "description": "Pouze B–F"
+                }
+              },
+              "required": [
+                "typZakaznika",
+                "spotrebniPasmo",
+                "typSmlouvy",
+                "ruzneCenyVDilcichUsecich",
+                "pocetOm"
+              ],
+              "if": {
+                "properties": {
+                  "typSmlouvy": {
+                    "const": "A"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "idProduktu",
+                  "platnostCenikuOd",
+                  "kratkodobyTrh",
+                  "prirazkaProcenta",
+                  "prirazkaAbsolutni",
+                  "prirazkaMinimalni",
+                  "stalyPlat"
+                ]
+              },
+              "else": {
+                "required": [
+                  "stalyPlatPrumer",
+                  "stalyPlatMedian",
+                  "obchodniSlozkaCenyPrumer",
+                  "obchodniSlozkaCenyMedian",
+                  "obchodniSlozkaCenySoucetMocnin",
+                  "obchodniSlozkaCenyPocetJedinecnych"
+                ]
+              },
+              "additionalProperties": false
+            }
+          },
+          "mvG8": {
+            "type": "array",
+            "title": "MV-G8: Smluvní podmínky",
+            "description": "Události spojené se smluvními podmínkami a dodávkami v pololetí.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "obdobi": {
+                  "title": "obdobi",
+                  "description": "",
+                  "allOf": [
+                    {
+                      "$ref": "#/definitions/dateFormat"
+                    }
+                  ]
+                },
+                "typZakaznika": {
+                  "type": "string",
+                  "title": "typZakaznika",
+                  "description": "",
+                  "enum": [
+                    "maloodberatel",
+                    "domacnost"
+                  ]
+                },
+                "pocetZakaznikuPokuta": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "pocetZakaznikuPokuta",
+                  "description": ""
+                },
+                "prumernaPokutaKc": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "prumernaPokutaKc",
+                  "description": ""
+                },
+                "pocetOmPrvniUpozorneni": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "pocetOmPrvniUpozorneni",
+                  "description": ""
+                },
+                "pocetOmPreruseniOmezUkonceni": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "pocetOmPreruseniOmezUkonceni",
+                  "description": ""
+                },
+                "pocetOmPreruseniNeplneniPlateb": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "pocetOmPreruseniNeplneniPlateb",
+                  "description": ""
+                },
+                "pocetOmZahajenaDodavka": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "pocetOmZahajenaDodavka",
+                  "description": ""
+                },
+                "pocetOmZahajenaDistanMimoProstory": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "pocetOmZahajenaDistanMimoProstory",
+                  "description": ""
+                },
+                "pocetOmJenOze": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "pocetOmJenOze",
+                  "description": ""
+                },
+                "mnozstviMwhJenOze": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "title": "mnozstviMwhJenOze",
+                  "description": ""
+                },
+                "pocetOmZmenaProduktuNeboProdlouzeni": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "title": "pocetOmZmenaProduktuNeboProdlouzeni",
+                  "description": ""
+                }
+              },
+              "required": [
+                "typZakaznika",
+                "pocetZakaznikuPokuta",
+                "prumernaPokutaKc",
+                "pocetOmPrvniUpozorneni",
+                "pocetOmPreruseniOmezUkonceni",
+                "pocetOmPreruseniNeplneniPlateb",
+                "pocetOmZahajenaDodavka",
+                "pocetOmZahajenaDistanMimoProstory",
+                "pocetOmJenOze",
+                "mnozstviMwhJenOze",
+                "pocetOmZmenaProduktuNeboProdlouzeni"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "typVykazu",
+    "vykazy"
+  ],
+  "additionalProperties": false
+}

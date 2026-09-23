@@ -1,0 +1,2 @@
+ticker,name,security_des,indx_source,des_notes,px_last,last_update_dt,last_update,seasonality_and_transformation,country
+EUR4CZ Index,EC Retail Trade Confidence Cze,EC Retail Trade Confidence Cze,European Commission,This concept tracks business sentiment within the retail trade industry. The results are based on a survey conducted among a representative sample of businesses in the retail sector.,27.1,2026-08-31,2026-08-31,% Balance/Diffusion Index NSA,CZ

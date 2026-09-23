@@ -1,0 +1,9 @@
+{
+  "note": "Round 4 of the 12 Sep 2026 probe: HICP services, the only services aggregate the searches found (no CZSO CPI services ticker surfaced).",
+  "candidates": {
+    "services": ["CPSVCZ Index", "CPSVCZM Index", "CPSVCZY Index"]
+  },
+  "daily": [],
+  "searches": [],
+  "max_results": 15
+}

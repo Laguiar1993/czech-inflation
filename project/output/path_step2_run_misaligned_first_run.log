@@ -1,0 +1,80 @@
+origin 2008-01 done (1/223)
+origin 2010-01 done (25/223)
+origin 2012-01 done (49/223)
+origin 2014-01 done (73/223)
+origin 2016-01 done (97/223)
+origin 2018-01 done (121/223)
+origin 2020-01 done (145/223)
+origin 2022-01 done (169/223)
+origin 2024-01 done (193/223)
+origin 2026-01 done (217/223)
+
+F2 VARIANT SELECTION (origins 2008-01..2018-12, h=12, y/y RMSE, n=132): F2_D1_ML 1.055, F2_D1_fixed 1.054, F2_D1_noFMIE 1.882, F2_D2_ML 1.073, F2_D2_fixed 1.072 -> F2_D1_fixed
+
+LONG SPAN origins 2008-01..2026-07, F2 variants: y/y RMSE (b) by horizon on the common sample | naive | RW
+  h= 1 n=222 | F2_D1_ML 0.809 (bias -0.07) F2_D1_fixed 0.803 (bias -0.07) F2_D1_noFMIE 0.819 (bias +0.03) F2_D2_ML 0.810 (bias -0.07) F2_D2_fixed 0.804 (bias -0.08) | naive 0.633 | RW 1.101
+  h= 3 n=220 | F2_D1_ML 1.328 (bias -0.25) F2_D1_fixed 1.314 (bias -0.27) F2_D1_noFMIE 1.352 (bias +0.09) F2_D2_ML 1.327 (bias -0.27) F2_D2_fixed 1.320 (bias -0.28) | naive 1.367 | RW 1.828
+  h= 6 n=217 | F2_D1_ML 2.074 (bias -0.54) F2_D1_fixed 2.055 (bias -0.57) F2_D1_noFMIE 2.202 (bias +0.20) F2_D2_ML 2.066 (bias -0.58) F2_D2_fixed 2.069 (bias -0.59) | naive 2.298 | RW 2.801
+  h= 9 n=214 | F2_D1_ML 2.994 (bias -0.85) F2_D1_fixed 2.969 (bias -0.88) F2_D1_noFMIE 3.261 (bias +0.29) F2_D2_ML 2.989 (bias -0.90) F2_D2_fixed 2.989 (bias -0.92) | naive 3.206 | RW 3.714
+  h=12 n=211 | F2_D1_ML 3.849 (bias -1.17) F2_D1_fixed 3.815 (bias -1.21) F2_D1_noFMIE 4.441 (bias +0.38) F2_D2_ML 3.846 (bias -1.24) F2_D2_fixed 3.841 (bias -1.25) | naive 4.094 | RW 4.473
+
+LONG SPAN origins 2013-01..2026-07, F2 (selected) vs F3: y/y RMSE (b) by horizon on the common sample | naive | RW
+  h= 1 n=160 | F2 0.843 (bias -0.11) F3 0.660 (bias -0.07) | naive 0.722 | RW 1.202
+  h= 3 n=158 | F2 1.459 (bias -0.38) F3 1.440 (bias -0.22) | naive 1.573 | RW 2.011
+  h= 6 n=155 | F2 2.366 (bias -0.81) F3 2.401 (bias -0.45) | naive 2.657 | RW 3.099
+  h= 9 n=152 | F2 3.448 (bias -1.27) F3 3.513 (bias -0.78) | naive 3.721 | RW 4.119
+  h=12 n=149 | F2 4.487 (bias -1.74) F3 4.627 (bias -1.23) | naive 4.765 | RW 5.002
+
+COMPONENT SPAN origins 2019-02..2026-07 (b: h0 = print): y/y RMSE (b) by horizon on the common sample | naive | RW
+  h= 1 n= 88 | F1a 0.772 (bias -0.11) F1b 0.772 (bias -0.11) F2 1.049 (bias -0.20) F3 0.837 (bias -0.18) | naive 0.937 | RW 1.571
+  h= 3 n= 84 | F1a 1.556 (bias -0.34) F1b 1.556 (bias -0.34) F2 1.898 (bias -0.67) F3 1.885 (bias -0.60) | naive 2.095 | RW 2.697
+  h= 6 n= 78 | F1a 2.619 (bias -1.04) F1b 2.572 (bias -0.83) F2 3.254 (bias -1.46) F3 3.271 (bias -1.26) | naive 3.652 | RW 4.306
+  h= 9 n= 72 | F1a 4.157 (bias -1.93) F1b 4.054 (bias -1.45) F2 4.889 (bias -2.32) F3 4.954 (bias -2.09) | naive 5.278 | RW 5.916
+  h=12 n= 66 | F1a 5.931 (bias -3.14) F1b 5.788 (bias -2.36) F2 6.619 (bias -3.37) F3 6.783 (bias -3.25) | naive 6.990 | RW 7.427
+
+COMPONENT SPAN origins 2019-02..2026-07 (a: h0 = nowcast): y/y RMSE (a) by horizon on the common sample | naive | RW
+  h= 1 n= 88 | F1a 0.925 (bias -0.15) F1b 0.925 (bias -0.15) F2 1.100 (bias -0.23) F3 0.955 (bias -0.22) | naive 0.937 | RW 1.571
+  h= 3 n= 84 | F1a 1.611 (bias -0.38) F1b 1.611 (bias -0.38) F2 1.889 (bias -0.72) F3 1.924 (bias -0.64) | naive 2.095 | RW 2.697
+  h= 6 n= 78 | F1a 2.720 (bias -1.09) F1b 2.680 (bias -0.88) F2 3.305 (bias -1.50) F3 3.335 (bias -1.30) | naive 3.652 | RW 4.306
+  h= 9 n= 72 | F1a 4.278 (bias -1.98) F1b 4.183 (bias -1.50) F2 4.955 (bias -2.38) F3 5.039 (bias -2.14) | naive 5.278 | RW 5.916
+  h=12 n= 66 | F1a 5.931 (bias -3.14) F1b 5.788 (bias -2.36) F2 6.619 (bias -3.37) F3 6.783 (bias -3.25) | naive 6.990 | RW 7.427
+
+REGIMES of the target (long span), y/y RMSE (b): F2 / F3 / naive / RW and F2 bias, by horizon group
+  2008-2009 h 1-3  n= 66: F2 0.73 / F3   --  / naive 0.56 / RW 1.51 | F2 bias +0.18
+  2008-2009 h 4-6  n= 57: F2 0.88 / F3   --  / naive 1.14 / RW 2.64 | F2 bias +0.52
+  2008-2009 h 7-12 n= 87: F2 1.43 / F3   --  / naive 1.95 / RW 4.56 | F2 bias +1.17
+  2010-2012 h 1-3  n=108: F2 0.80 / F3   --  / naive 0.38 / RW 0.58 | F2 bias -0.09
+  2010-2012 h 4-6  n=108: F2 0.94 / F3   --  / naive 0.56 / RW 0.85 | F2 bias -0.27
+  2010-2012 h 7-12 n=216: F2 1.06 / F3   --  / naive 0.96 / RW 1.19 | F2 bias -0.49
+  2013-2016 h 1-3  n=144: F2 0.62 / F3 0.57 / naive 0.47 / RW 0.57 | F2 bias +0.06
+  2013-2016 h 4-6  n=144: F2 0.70 / F3 0.99 / naive 0.80 / RW 0.79 | F2 bias +0.20
+  2013-2016 h 7-12 n=288: F2 0.83 / F3 1.61 / naive 1.15 / RW 1.08 | F2 bias +0.46
+  2017-2019 h 1-3  n=108: F2 0.62 / F3 0.36 / naive 0.36 / RW 0.52 | F2 bias -0.17
+  2017-2019 h 4-6  n=108: F2 0.81 / F3 0.49 / naive 0.67 / RW 0.77 | F2 bias -0.47
+  2017-2019 h 7-12 n=216: F2 1.09 / F3 0.57 / naive 1.13 / RW 1.08 | F2 bias -0.90
+  2020-2021 h 1-3  n= 72: F2 0.90 / F3 0.73 / naive 0.71 / RW 1.02 | F2 bias -0.44
+  2020-2021 h 4-6  n= 72: F2 1.53 / F3 1.41 / naive 1.31 / RW 1.45 | F2 bias -1.07
+  2020-2021 h 7-12 n=144: F2 2.10 / F3 1.87 / naive 1.75 / RW 1.55 | F2 bias -1.68
+  2022-2023 h 1-3  n= 72: F2 2.59 / F3 2.51 / naive 2.59 / RW 3.52 | F2 bias -1.05
+  2022-2023 h 4-6  n= 72: F2 4.87 / F3 4.86 / naive 4.99 / RW 6.11 | F2 bias -3.07
+  2022-2023 h 7-12 n=144: F2 8.76 / F3 8.73 / naive 8.45 / RW 8.97 | F2 bias -6.75
+  2024-2026 h 1-3  n= 93: F2 0.63 / F3 0.49 / naive 1.14 / RW 1.71 | F2 bias +0.03
+  2024-2026 h 4-6  n= 93: F2 0.63 / F3 0.70 / naive 2.21 / RW 2.54 | F2 bias +0.12
+  2024-2026 h 7-12 n=186: F2 0.92 / F3 1.83 / naive 3.84 / RW 4.86 | F2 bias +0.42
+
+B4 FMIE at h=12 (long span, n=211): FMIE 3.682 | F2 3.815 | naive 4.094; component span: FMIE 6.375 | F2 6.619 | F1a 5.931 (n=66)
+
+PUBLISH RULE (component span 2019-02..2026-07, object b): beat naive by >=10% at h 3, 6, 12 AND RW at 6, 12; DM<0 at lag h-1 and 12; block-bootstrap p (block 12)
+  F1a: h3: gain +25.7% DM -1.93/-1.87 boot p 0.06 RW beat | h6: gain +28.3% DM -2.47/-2.52 boot p 0.03 RW beat | h12: gain +15.1% DM -3.14/-3.21 boot p 0.00 RW beat -> PUBLISHABLE
+  F1b: h3: gain +25.7% DM -1.93/-1.87 boot p 0.07 RW beat | h6: gain +29.6% DM -2.51/-2.50 boot p 0.02 RW beat | h12: gain +17.2% DM -2.86/-2.93 boot p 0.01 RW beat -> PUBLISHABLE
+  F2: h3: gain +9.2% DM -1.88/-1.94 boot p 0.02 RW beat | h6: gain +10.7% DM -2.36/-2.07 boot p 0.00 RW beat | h12: gain +5.2% DM -0.78/-0.76 boot p 0.14 RW beat -> not publishable
+  F3: h3: gain +10.1% DM -2.16/-2.01 boot p 0.02 RW beat | h6: gain +10.5% DM -2.09/-2.19 boot p 0.01 RW beat | h12: gain +3.1% DM -0.52/-0.51 boot p 0.18 RW beat -> not publishable
+
+QUARTERLY AVERAGES (component span, b): quarters fully inside h<=12; RMSE by quarters ahead: F1a / F1b / F2 / F3 / naive
+  1 ahead (n=84): 1.60 / 1.59 / 1.88 / 1.88 / 2.10
+  2 ahead (n=78): 2.68 / 2.62 / 3.27 / 3.28 / 3.65
+  3 ahead (n=72): 4.16 / 4.05 / 4.88 / 4.95 / 5.24
+  4 ahead (n=23): 5.39 / 5.27 / 6.16 / 6.08 / 6.37
+
+F2 selected variant: F2_D1_fixed; mean estimated level (m/m) over component-span origins +0.228, phi 0.40, survey bias term +0.006
+exit 0

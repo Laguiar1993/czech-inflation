@@ -1,0 +1,17 @@
+{
+  "rows": 60,
+  "january_2022_headline_gross_range_pp": [
+    1.314698100921556,
+    3.2672526019759864
+  ],
+  "october_credit_scenario_headline_range_pp": [
+    -3.057670808913542,
+    -1.752994910601638
+  ],
+  "january_credit_expiry_headline_range_pp": [
+    2.4364646711636513,
+    11.64851375554247
+  ],
+  "rejected_negative_bill_scenarios": 1,
+  "evidence_status": "scenario_only"
+}

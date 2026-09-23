@@ -1,0 +1,19 @@
+subgroup_code,subgroup_label_cs,base,first_date,last_date,row_count,unique_months,expected_months
+041,Nájemné za bydlení,base_2015_eq_100,2015-01-31,2026-07-31,139,139,139
+041,Nájemné za bydlení,base_2025_eq_100,2015-01-31,2026-07-31,139,139,139
+041,Nájemné za bydlení,yoy_pct,2015-01-31,2026-07-31,139,139,139
+042,Imputované nájemné za bydlení (náklady vlastnického bydlení),base_2015_eq_100,2015-01-31,2026-07-31,139,139,139
+042,Imputované nájemné za bydlení (náklady vlastnického bydlení),base_2025_eq_100,2015-01-31,2026-07-31,139,139,139
+042,Imputované nájemné za bydlení (náklady vlastnického bydlení),yoy_pct,2015-01-31,2026-07-31,139,139,139
+096,Kulturní služby,base_2015_eq_100,2015-01-31,2026-07-31,139,139,139
+096,Kulturní služby,base_2025_eq_100,2015-01-31,2026-07-31,139,139,139
+096,Kulturní služby,yoy_pct,2016-01-31,2026-07-31,127,127,127
+098,Organizovaná dovolená a zájezdy,base_2015_eq_100,2015-01-31,2026-07-31,139,139,139
+098,Organizovaná dovolená a zájezdy,base_2025_eq_100,2015-01-31,2026-07-31,139,139,139
+098,Organizovaná dovolená a zájezdy,yoy_pct,2015-01-31,2026-07-31,139,139,139
+111,Stravovací služby,base_2015_eq_100,2015-01-31,2026-07-31,139,139,139
+111,Stravovací služby,base_2025_eq_100,2015-01-31,2026-07-31,139,139,139
+111,Stravovací služby,yoy_pct,2015-01-31,2026-07-31,139,139,139
+112,Ubytovací služby,base_2015_eq_100,2015-01-31,2026-07-31,139,139,139
+112,Ubytovací služby,base_2025_eq_100,2015-01-31,2026-07-31,139,139,139
+112,Ubytovací služby,yoy_pct,2015-01-31,2026-07-31,139,139,139

@@ -1,0 +1,82 @@
+{
+ "zero_benchmark": {
+  "h3_full": {
+   "own": 2.8496,
+   "theirs": 2.8496
+  },
+  "h3_origins_2019_2021": {
+   "own": 2.6039,
+   "theirs": 2.6039
+  },
+  "h3_origins_2022_2023": {
+   "own": 4.1502,
+   "theirs": 4.1502
+  },
+  "h3_origins_2024plus": {
+   "own": 1.3595,
+   "theirs": 1.3595
+  },
+  "h6_full": {
+   "own": 5.1459,
+   "theirs": 5.1459
+  },
+  "h6_origins_2019_2021": {
+   "own": 5.3544,
+   "theirs": 5.3544
+  },
+  "h6_origins_2022_2023": {
+   "own": 6.7658,
+   "theirs": 6.7658
+  },
+  "h6_origins_2024plus": {
+   "own": 2.2703,
+   "theirs": 2.2703
+  },
+  "h12_full": {
+   "own": 8.9102,
+   "theirs": 8.9102
+  },
+  "h12_origins_2019_2021": {
+   "own": 10.3163,
+   "theirs": 10.3163
+  },
+  "h12_origins_2022_2023": {
+   "own": 9.7671,
+   "theirs": 9.7671
+  },
+  "h12_origins_2024plus": {
+   "own": 3.6936,
+   "theirs": 3.6936
+  }
+ },
+ "zero_max_abs_diff": 0.0,
+ "other_blocks_max_abs_diff": {
+  "value_core": 0.0,
+  "value_administered": 0.0,
+  "value_alcohol_tobacco": 0.0,
+  "value_fuel": 0.0,
+  "value_wedge": 0.0,
+  "weight_food": 0.0,
+  "weight_core": 0.0,
+  "h0_exante": 0.0
+ },
+ "food_h0_max_abs_diff": 0.0,
+ "food_h7_12_max_abs_diff": 8.881784197001252e-16,
+ "mm_forecast_identity": 2.42861286636753e-16,
+ "estimator_vs_fixed_025": {
+  "max_abs_path_diff": 0.18431668277296764,
+  "note": "A025 is not in the declared grid; probe 4 shows the estimator equals a fixed -0.25 at every origin (zero loss difference, no interval)"
+ },
+ "expectations": {
+  "alpha_negative_share": 1.0,
+  "alpha_median": -0.25,
+  "expected_median": "between -0.03 and -0.10",
+  "gap_seasonal_share_raw_median": 0.34849475890508635,
+  "expected_raw": "above 0.25",
+  "centred_median": 2.3877219352380382e-33,
+  "h12_full_change_pct": -4.6,
+  "expected_h12": "within +/-2%",
+  "h6_2019_21_change_pct": -6.4,
+  "expected_2019_21": "within +3% of baseline, most likely to fail"
+ }
+}

@@ -1,0 +1,315 @@
+FFFFFFFFFFFFFFF                                                          [100%]
+================================== FAILURES ===================================
+_________________ test_future_values_and_dates_are_irrelevant _________________
+
+    def test_future_values_and_dates_are_irrelevant():
+>       y,a=sample(); before=forecast(); y.loc['2014-01':]=1e12; a.loc['2014-01':]=pd.Timestamp('1999-01-01')
+                             ^^^^^^^^^^
+
+test_food_stable_r14b.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_food_stable_r14b.py:14: in forecast
+    return model().forecast_origin(levels if y is None else y,dates if a is None else a,
+           ^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+______________ test_rate_requires_both_endpoint_levels_released _______________
+
+    def test_rate_requires_both_endpoint_levels_released():
+        y,a=sample(); a.loc['2013-11','agri4']=pd.NaT
+>       before=forecast(y,a); y.loc['2013-11','agri4']=1e12
+               ^^^^^^^^^^^^^
+
+test_food_stable_r14b.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_food_stable_r14b.py:14: in forecast
+    return model().forecast_origin(levels if y is None else y,dates if a is None else a,
+           ^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+___________ test_rolling_response_dates_and_food_means_are_matched ____________
+
+    def test_rolling_response_dates_and_food_means_are_matched():
+>       f=forecast()['fits']; assert f[0]['training_dates']==f[1]['training_dates']
+          ^^^^^^^^^^
+
+test_food_stable_r14b.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_food_stable_r14b.py:14: in forecast
+    return model().forecast_origin(levels if y is None else y,dates if a is None else a,
+           ^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+_____________________ test_minimum36_missing_not_fallback _____________________
+
+    def test_minimum36_missing_not_fallback():
+>       y,a=sample(); r=model().forecast_origin(y,a,'2002-01','2002-02-09')
+                        ^^^^^^^
+
+test_food_stable_r14b.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+________________________ test_first_rate_not_invented _________________________
+
+    def test_first_rate_not_invented():
+>       y,a,meta=model().load_inputs(); rates=model().released_rates(y,a,'2019-02','2019-03-10')[0]
+                 ^^^^^^^
+
+test_food_stable_r14b.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+_________________ test_zero_lag_priors_decay_and_no_intercept _________________
+
+    def test_zero_lag_priors_decay_and_no_intercept():
+>       m=model(); v=m.prior_variance(np.array([2.,1.]),0)
+          ^^^^^^^
+
+test_food_stable_r14b.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+_________________ test_training_only_center_scales_covariance _________________
+
+    def test_training_only_center_scales_covariance():
+>       m=model(); y,_=sample(); rates=y.diff(); dates=rates.index[-96:]
+          ^^^^^^^
+
+test_food_stable_r14b.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+__________________ test_root_contraction_exact_scaled_roots ___________________
+
+    def test_root_contraction_exact_scaled_roots():
+>       m=model(); rng=np.random.default_rng(41); beta=rng.normal(size=(18,3))*.2
+          ^^^^^^^
+
+test_food_stable_r14b.py:66: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+_____________________ test_stable_coefficients_unchanged ______________________
+
+    def test_stable_coefficients_unchanged():
+>       m=model(); beta=np.zeros((6,1)); beta[0,0]=.5
+          ^^^^^^^
+
+test_food_stable_r14b.py:75: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+_______________ test_zero_state_returns_explicit_seasonal_mean ________________
+
+    def test_zero_state_returns_explicit_seasonal_mean():
+>       m=model(); means=np.arange(36).reshape(12,3)/100
+          ^^^^^^^
+
+test_food_stable_r14b.py:80: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+____________________ test_delayed_cost_effect_is_recursive ____________________
+
+    def test_delayed_cost_effect_is_recursive():
+>       m=model(); beta=np.zeros((18,3)); beta[0,0]=.5; beta[0,1]=.5; beta[1,2]=.5
+          ^^^^^^^
+
+test_food_stable_r14b.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+_______________ test_all_fitted_roots_stable_and_no_fixed_ratio _______________
+
+    def test_all_fitted_roots_stable_and_no_fixed_ratio():
+>       r=forecast()
+          ^^^^^^^^^^
+
+test_food_stable_r14b.py:91: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_food_stable_r14b.py:14: in forecast
+    return model().forecast_origin(levels if y is None else y,dates if a is None else a,
+           ^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+_________________ test_rate_reconstruction_compounds_exactly __________________
+
+    def test_rate_reconstruction_compounds_exactly():
+>       r=forecast()
+          ^^^^^^^^^^
+
+test_food_stable_r14b.py:96: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_food_stable_r14b.py:14: in forecast
+    return model().forecast_origin(levels if y is None else y,dates if a is None else a,
+           ^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+__________ test_ragged_conditioning_keeps_observed_coordinate_exact ___________
+
+    def test_ragged_conditioning_keeps_observed_coordinate_exact():
+        y,a=sample(); a.loc['2013-12','agri4']=pd.NaT
+>       r=forecast(y,a); update=r['fits'][0]['conditioning_updates'][-1]
+          ^^^^^^^^^^^^^
+
+test_food_stable_r14b.py:103: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_food_stable_r14b.py:14: in forecast
+    return model().forecast_origin(levels if y is None else y,dates if a is None else a,
+           ^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+________________ test_existing_nonfood_and_h0_contract_reused _________________
+
+    def test_existing_nonfood_and_h0_contract_reused():
+>       m=model(); assert m.replace_food.__module__=='models.food_path_r14'
+          ^^^^^^^
+
+test_food_stable_r14b.py:109: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def model():
+>       assert importlib.util.find_spec('models.food_stable_r14b') is not None, 'R14B food not implemented'
+E       AssertionError: R14B food not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x0000025B71039430>('models.food_stable_r14b')
+E        +    where <function find_spec at 0x0000025B71039430> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+test_food_stable_r14b.py:9: AssertionError
+=========================== short test summary info ===========================
+FAILED test_food_stable_r14b.py::test_future_values_and_dates_are_irrelevant
+FAILED test_food_stable_r14b.py::test_rate_requires_both_endpoint_levels_released
+FAILED test_food_stable_r14b.py::test_rolling_response_dates_and_food_means_are_matched
+FAILED test_food_stable_r14b.py::test_minimum36_missing_not_fallback - Assert...
+FAILED test_food_stable_r14b.py::test_first_rate_not_invented - AssertionErro...
+FAILED test_food_stable_r14b.py::test_zero_lag_priors_decay_and_no_intercept
+FAILED test_food_stable_r14b.py::test_training_only_center_scales_covariance
+FAILED test_food_stable_r14b.py::test_root_contraction_exact_scaled_roots - A...
+FAILED test_food_stable_r14b.py::test_stable_coefficients_unchanged - Asserti...
+FAILED test_food_stable_r14b.py::test_zero_state_returns_explicit_seasonal_mean
+FAILED test_food_stable_r14b.py::test_delayed_cost_effect_is_recursive - Asse...
+FAILED test_food_stable_r14b.py::test_all_fitted_roots_stable_and_no_fixed_ratio
+FAILED test_food_stable_r14b.py::test_rate_reconstruction_compounds_exactly
+FAILED test_food_stable_r14b.py::test_ragged_conditioning_keeps_observed_coordinate_exact
+FAILED test_food_stable_r14b.py::test_existing_nonfood_and_h0_contract_reused
+15 failed in 1.26s

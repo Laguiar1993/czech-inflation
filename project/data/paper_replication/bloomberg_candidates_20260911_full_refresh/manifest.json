@@ -1,0 +1,45 @@
+{
+  "tool": "import_bloomberg_candidates",
+  "created_at": "2026-09-12T09:09:10.399060+00:00",
+  "snapshot": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\market_snapshots\\20260911_bloomberg_full_refresh",
+  "snapshot_end_date": "2026-09-10",
+  "snapshot_retrieved_at": "2026-09-11T10:27:41.024666+00:00",
+  "snapshot_status": "partial",
+  "snapshot_manifest_sha256": "97392f6d7f81bb2badceb08348c1d301f25456d78f986eaf654dd699d6b6f71d",
+  "snapshot_files_verified": 137,
+  "snapshot_errors": [
+    {
+      "ticker": "EEUR3CZ Index",
+      "stage": "bdh",
+      "error": "ValueError: No historical data returned for EEUR3CZ Index"
+    },
+    {
+      "ticker": "EEUR3CZ Index",
+      "stage": "bdp",
+      "error": "ValueError: No reference data returned for EEUR3CZ Index"
+    }
+  ],
+  "status": "candidate panel; no series is an exact Table A6 input until validated and admitted",
+  "vintage": "current-vintage Bloomberg histories; not original publication vintages",
+  "tickers_requested": 66,
+  "tickers_with_data": 65,
+  "outputs": {
+    "long": {
+      "file": "candidate_periods_long.csv",
+      "sha256": "3271f6d1c6820d5011c9ee238e35daf8e4cd9fa0224df0da7aba41f5d05bd910"
+    },
+    "wide_monthly": {
+      "file": "candidate_monthly_wide.csv",
+      "sha256": "136b22a914e28747c57804274e11996472f2171e908e43a25a0ed623bccccad3"
+    },
+    "catalog": {
+      "file": "candidate_catalog.csv",
+      "sha256": "2a0724e1079f471c8c6e7f2dace0bb512ad0a766bb17282dfe38b8843f57e2ad"
+    },
+    "rules": {
+      "file": "availability_rules.csv",
+      "sha256": "3b3d726340f77171f6e3acd144a00cac6052ad70c610f1bff00fb0389fb621e0"
+    }
+  },
+  "tool_sha256": "ff8e34bc783a1f3271745e53632122905fe7ac7a4d3a99442cd1ee35611189c0"
+}

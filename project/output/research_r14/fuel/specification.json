@@ -1,0 +1,19 @@
+{
+  "primary": "FUEL_ECM_R14",
+  "models": [
+    "INDEPENDENT_BRIDGE",
+    "FUEL_ZERO_R14",
+    "FUEL_CONSTANT_PUMP_R14",
+    "FUEL_ECM_R14"
+  ],
+  "n_origins": 90,
+  "status_counts": {
+    "estimated": 90
+  },
+  "fallback_origins": [],
+  "source_vintage": "Current frozen primary histories with reconstructed publication clocks; no archived vintages.",
+  "scenario": "Latest origin-observable oil, FX, effective tax/reconciliation wedge and VAT held unchanged.",
+  "target_delta": 1.7763568394002505e-15,
+  "no_promotion": true,
+  "selection_status": "Reused historical sample; intervals are not selection-adjusted."
+}

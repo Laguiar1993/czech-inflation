@@ -1,0 +1,14 @@
+{
+  "states_sha256": "bb91819329e4f68a6cf55a31857e040ee19f639bf5f9d49760b89aa53ff6fd0e",
+  "predictions_sha256": "a389d50e5e677f092eefac4b2aba4cc633c092db3964e5ad3631bdb00aec502f",
+  "features": [
+    "unemployment_change3",
+    "ip_growth3",
+    "ulc_growth12",
+    "fx3",
+    "cost_26_mean3",
+    "cost_45_mean3",
+    "breadth3",
+    "goods_minus_services"
+  ]
+}

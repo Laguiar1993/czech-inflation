@@ -1,0 +1,132 @@
+{
+  "frozen_at_utc": "2026-09-09T09:37:25.694146+00:00",
+  "levels": {
+    "file": "monthly_levels.csv",
+    "index_base": "2015=100",
+    "unit": "index",
+    "seasonal_adjustment": "NSA",
+    "households": "total, code 0",
+    "geography": "Czechia, CZ",
+    "first_month": "2015-01",
+    "last_month": "2026-07",
+    "months": 139,
+    "source_table": "cpi_czso.cpi_long",
+    "source_dataset": "CEN0101E",
+    "raw_source_sha256": "e81dc0dece758d0e89adc88e6f8c31f3ba97f8a68dfa67795a794dbe3b858880",
+    "raw_to_frozen_validation": {
+      "matched_rows": 695,
+      "duplicate_keys": 0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    "source_url": "https://data.csu.gov.cz/opendata/sady/CEN0101E/distribuce/csv",
+    "source_csv_classification_columns": [
+      "Klasifikace COICOP 2018-Oddíl",
+      "Klasifikace COICOP 2018-Skupina a třída"
+    ],
+    "series": {
+      "041": "actual_rent",
+      "042": "imputed_rent",
+      "111": "catering",
+      "112": "accommodation",
+      "098": "package_holidays"
+    },
+    "conversion_to_mom": "100*(index_t/index_(t-1)-1), 138 observations from 2015-02",
+    "vintage_status": "latest retrieved history; no retained historical source vintages",
+    "classification_continuity": "Current raw official file directly carries current group codes and labels in 2015 and 2026. This is evidence of a current recoded history, not independent verification of an item-level concordance or historical real-time availability.",
+    "tax_and_regulation_status": "Raw national CPI service groups. No tax-first-round correction or CNB-core/regulated membership flags are supplied.",
+    "scope_notes": {
+      "111": "Catering includes restaurants, canteens and school canteens; not a restaurant-only history.",
+      "112": "Accommodation includes hotels, recreation accommodation, school and university dormitories.",
+      "042": "Imputed rent / owner housing costs; 2026 basket item is acquisition, reconstruction and maintenance of owner housing.",
+      "098": "Package holidays; current subgroup 096 is cultural services."
+    }
+  },
+  "weights": {
+    "file": "selected_basket_weights.csv",
+    "unit": "per mille of total national CPI basket",
+    "effective_years": [
+      2014,
+      2016,
+      2018,
+      2020,
+      2022,
+      2024,
+      2026
+    ],
+    "basis_year_relation": "Each saved workbook header states constant weights for effective_year - 2.",
+    "source_archive_from_existing_repo_documentation": "https://csu.gov.cz/spotrebni_kos_archiv",
+    "publication_status": "Dates are the existing January detailed CPI release proxy, with February 15 fallback. They are not verified historical publication timestamps for these workbook files.",
+    "availability_calendar": "data/release_calendar_cz_cpi.csv",
+    "intraday_note": "Preserve the user-approved existing date convention: available at midnight Europe/Prague on availability_assumption_date, without imposing the 09:00 release hour suggested by the archived audit. These are assumed basket availability dates, not recorded historical publication timestamps.",
+    "classification_mapping": "For current 098, use historical basket 09.6 through 2024 and basket 09.8 in 2026. Strip optional E prefix. Other selected group codes are stable at this level.",
+    "not_current_shares": "Base expenditure weights in fractions of the headline basket after division by 1000. An aggregation using these frozen coefficients is a projected diagnostic, not an exact current contribution. Official current shares require appropriate prior-month price updating, origin eligibility, and scope/tax reconciliation; normalising the five groups does not give official core-services shares.",
+    "selection_rule": "Select the latest even effective_year no later than origin.year whose shared availability_assumption_date is no later than the origin clock, interpreted in Europe/Prague. Never borrow a future-year regime, even if published early.",
+    "publication_date_column": "availability_assumption_date"
+  },
+  "source_evidence": [
+    "audit/manifest.json",
+    "audit/basket_manifest.json",
+    "raw/raw_cen0101e_selected.csv",
+    "raw/selected_category_levels.csv",
+    "raw/basket_selected_rows.csv",
+    "audit/selected_calendar_audit.csv",
+    "raw/arad_retrievals.json"
+  ],
+  "broad_yoy": {
+    "file": "broad_yoy.csv",
+    "series": {
+      "SCPICLEM02YOYPECNA": "goods",
+      "SCPICLEM03YOYPECNA": "services"
+    },
+    "unit": "percent year-on-year inflation (gross factor is 1 + value / 100)",
+    "frequency": "monthly observations of annual inflation; not monthly inflation rates",
+    "seasonal_adjustment": "NSA",
+    "first_month": "2003-01",
+    "last_month": "2026-07",
+    "months": 283,
+    "concepts": {
+      "goods": "Other tradables excluding food and fuel prices",
+      "services": "Nontradables excluding regulated prices"
+    },
+    "tax_treatment": "CPI_CLE retains first-round tax effects; these concepts are not an exact partition of tax-corrected CNB core inflation.",
+    "vintage_status": "Latest retrieved history; no recorded historical observation vintages.",
+    "availability_rule": "Historical eligibility uses the existing detailed-CPI publication convention in the experiment; retrieval time is real, assumed historical availability is not an archived source vintage.",
+    "source_url": "https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes",
+    "source_retrievals": "raw/arad_retrievals.json",
+    "methodology": [
+      "raw/cpi_cle_en.pdf",
+      "raw/cpi_mz_en.pdf"
+    ],
+    "excluded_from_consumed_data": [
+      "DPSZ seasonally adjusted series",
+      "MCPICPNTRNAJYOYPECM macro series",
+      "MCPICPTRANAJYOYPECM macro series",
+      "SCPIMZM09YOYPECNA",
+      "SCPIMZM09MOMPECNA"
+    ],
+    "core_monthly_fixture": "tests/fixtures/cleanup/cnb_core_mm.csv (existing experiment source; not replaced by this snapshot)"
+  },
+  "services_proxy_audit": {
+    "official_services_index": false,
+    "construction": "Unweighted arithmetic mean of six broad division indices, followed by monthly percentage change.",
+    "division_codes": [
+      "06",
+      "08",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "source_table": "cpi_czso.cpi_services",
+    "arithmetic_rows": 834,
+    "maximum_absolute_difference": 5.684341886080802e-14,
+    "maximum_base_rebasing_mom_difference_pp": 0.22395538301271944,
+    "meaning": "Contains mixed goods/services divisions, omits services in housing/transport/recreation and has no core, tax or regulation filter.",
+    "evidence": [
+      "audit/FINDINGS.md",
+      "audit/numeric_summary.json",
+      "audit/arithmetic_proof.csv",
+      "audit/source_excerpts.txt"
+    ]
+  }
+}

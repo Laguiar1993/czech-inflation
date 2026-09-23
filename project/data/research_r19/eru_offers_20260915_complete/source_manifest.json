@@ -1,0 +1,37 @@
+{
+  "electricity": {
+    "url": "https://eru.gov.cz/sites/default/files/obsah/prilohy/elektrina_4.csv",
+    "file": "electricity.csv",
+    "retrieved_at_utc": "2026-09-15T07:58:43.185598+00:00",
+    "sha256": "7808fc49b1be1ec69c6a23a0eab0921b79fad217f34ad9655c225f3e5b2357af",
+    "bytes": 34139
+  },
+  "gas": {
+    "url": "https://eru.gov.cz/sites/default/files/obsah/prilohy/plyn_3.csv",
+    "file": "gas.csv",
+    "retrieved_at_utc": "2026-09-15T07:58:43.348889+00:00",
+    "sha256": "8641ea3d6da93e97d7ba44375b9dd820243e96a8f2c12b964595d63756f2a35a",
+    "bytes": 10926
+  },
+  "methodology": {
+    "url": "https://eru.gov.cz/metodika-stanoveni-ipnc",
+    "file": "methodology.html",
+    "retrieved_at_utc": "2026-09-15T07:58:43.953223+00:00",
+    "sha256": "a873c1833266de1943164fd29e4ae205fca98d9101a93b1840154b80fb00a75f",
+    "bytes": 73344
+  },
+  "overview": {
+    "url": "https://eru.gov.cz/ipnc",
+    "file": "overview.html",
+    "retrieved_at_utc": "2026-09-15T07:58:44.175173+00:00",
+    "sha256": "41631e54c562924e2af48f3a6716117a6f8fb7b1b85292208e01663e704fb22c",
+    "bytes": 94089
+  },
+  "methodology_pdf": {
+    "url": "https://eru.gov.cz/sites/default/files/obsah/prilohy/metodika-ipnc.pdf",
+    "file": "methodology.pdf",
+    "retrieved_at_utc": "2026-09-15T08:00:12.047654+00:00",
+    "sha256": "b2883c309f95708420e6abf50cf500ca4db06dbadb4e0d45f66e12d36a76e7b1",
+    "bytes": 285923
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "note": "Round 9 of the 12 Sep 2026 probe: EUR/CZK reference-rate fixings found by the round-8 search (Bank of Portugal and Belgium publish the ECB reference rate), the CZSO average-wage level, and searches for M3, construction prices and the CZSO domestic PPI sections used by the CNB-paper model.",
+  "candidates": {
+    "eurczk_fixings": ["BOPCECZK Index", "BFCFCZK Index", "DKCFCZK Index", "SSEFCZK Index"],
+    "wages": ["CZNWWAGE Index"]
+  },
+  "daily": ["BOPCECZK Index", "BFCFCZK Index", "DKCFCZK Index", "SSEFCZK Index"],
+  "searches": ["ECB Reference Rate Czech Koruna", "Czech Republic Money Supply M3", "Czech Republic M3 YoY",
+               "Czech Republic PPI Electricity", "Czech Republic PPI Water Supply", "Czech Republic Construction Prices",
+               "Czech Republic PPI Industrial Domestic"],
+  "max_results": 30
+}

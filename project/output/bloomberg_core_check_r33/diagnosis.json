@@ -1,0 +1,84 @@
+{
+  "retrieved_at": "2026-09-22T17:53:44.389623+00:00",
+  "purpose": "Verify latest reference values and daily/native histories; does not alter model inputs.",
+  "tickers": {
+    "CZCIXM Index": {
+      "reference": {
+        "CZCIXM Index": {
+          "name": "Czech Inflation Overall Items",
+          "security_des": "Czech Inflation Overall Items",
+          "indx_source": "Czech National Bank",
+          "seasonality_and_transformation": "MoM% NSA",
+          "indx_freq": "Monthly",
+          "last_update_dt": "2026-07-31",
+          "country": "CZ",
+          "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate.",
+          "px_last": 1.0
+        }
+      },
+      "daily_history": "{\"columns\":[[\"index\",\"\"],[\"CZCIXM Index\",\"PX_LAST\"]],\"index\":[0],\"data\":[[\"2026-07-31T00:00:00.000Z\",1.0]]}"
+    },
+    "CZCIRM Index": {
+      "reference": {
+        "CZCIRM Index": {
+          "name": "Czech Inflation Regulated Pric",
+          "security_des": "Czech Inflation Regulated Pric",
+          "indx_source": "Czech National Bank",
+          "seasonality_and_transformation": "MoM% NSA",
+          "indx_freq": "Monthly",
+          "last_update_dt": "2026-07-31",
+          "country": "CZ",
+          "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate.",
+          "px_last": 0.2
+        }
+      },
+      "daily_history": "{\"columns\":[[\"index\",\"\"],[\"CZCIRM Index\",\"PX_LAST\"]],\"index\":[0],\"data\":[[\"2026-07-31T00:00:00.000Z\",0.2]]}"
+    }
+  },
+  "search": {
+    "Czech Inflation Overall Items": [
+      {
+        "security": "CZCIXCY<index>",
+        "description": "Czech Inflation Overall Items Excluding Fuel Contribution YoY"
+      },
+      {
+        "security": "CZCIPM<index>",
+        "description": "Czech Inflation Overall Items MoM"
+      },
+      {
+        "security": "CZCIPY<index>",
+        "description": "Czech Inflation Overall Items YoY"
+      },
+      {
+        "security": "CZCIXCM<index>",
+        "description": "Czech Inflation Overall Items Excluding Fuel Contribution MoM"
+      },
+      {
+        "security": "CZCIXM<index>",
+        "description": "Czech Inflation Overall Items Excluding Fuel MoM"
+      },
+      {
+        "security": "CZCIXY<index>",
+        "description": "Czech Inflation Overall Items Excluding Fuel YoY"
+      }
+    ],
+    "Czech Inflation Regulated": [
+      {
+        "security": "CZCIRCM<index>",
+        "description": "Czech Inflation Regulated Prices Contribution MoM"
+      },
+      {
+        "security": "CZCIRCY<index>",
+        "description": "Czech Inflation Regulated Prices Contribution YoY"
+      },
+      {
+        "security": "CZCIRM<index>",
+        "description": "Czech Inflation Regulated Prices MoM"
+      },
+      {
+        "security": "CZCIRY<index>",
+        "description": "Czech Inflation Regulated Prices YoY"
+      }
+    ]
+  }
+}

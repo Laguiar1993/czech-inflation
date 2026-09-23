@@ -1,0 +1,43 @@
+{
+  "as_of": "2026-09-22T17:50:01.527361+00:00",
+  "bloomberg_reachable": true,
+  "capture_status": "completed",
+  "forecast_available": true,
+  "forecast_run": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\forecast_updates_r33\\runs\\20260922T175001527361Z_7c5389d7016a",
+  "limitations": [
+    "Latest-vintage Bloomberg data with publication rules; historical clocks are reconstructed replay, not a prospective archive.",
+    "Readiness never extrapolates missing monthly observations or invents release dates.",
+    "Farm prices, documented energy announcements, basket weights and X13 remain external/static requirements.",
+    "This entry point calculates h0 only; it does not refresh sources or extend the monthly path."
+  ],
+  "model": "HARD_BASE",
+  "point_mm_pct": -0.2042311894134946,
+  "prepared_bundle": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\forecast_updates_r33\\current_bundle_20260922_v2",
+  "prior_diagnoses_preserved": [
+    "current_refresh_feasibility.json",
+    "runs/20260922T174143114813Z_7196f01956df",
+    "runs/20260922T174639265415Z_5be5d4c69974"
+  ],
+  "prospective_success": true,
+  "published": true,
+  "ready_for_calculation": true,
+  "reasons": [],
+  "record_metadata": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\forecast_updates_r33\\current_record_metadata_v2.json",
+  "recorded_at": "2026-09-22T17:53:33.093890+00:00",
+  "revision_state": "One validated prospective baseline; a second comparable run is required for a prospective revision.",
+  "source_gates": {
+    "as_of_not_future_at_recording": true,
+    "calendar_known_by_as_of": true,
+    "completed_before_first_release": true,
+    "component_conservation": true,
+    "manual_observations_available_by_as_of": true,
+    "no_hard_residual_fallback": true,
+    "prospective_recording_within_300_seconds": true,
+    "published": true,
+    "real_model_ready": true,
+    "snapshot_completed_by_as_of": true,
+    "x13_no_food_fallback": true
+  },
+  "status": "successful",
+  "target": "2026-09"
+}

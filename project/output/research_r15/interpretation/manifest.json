@@ -1,0 +1,12 @@
+{
+  "max_reconstruction_error": 8.881784197001252e-16,
+  "linear_models_explained": 1440,
+  "meaning": "Additive fitted residual contributions in monthly log core pp. Intercept and transformed predictors sum to residual; not causal estimates.",
+  "inputs": {
+    "fits.json": "29cefbd07a918828253558331bb7acff4387a9e7488a7753a1da9ccc2ea3c991",
+    "states.json": "316f26c84670d064514e710492f6746fce89730ba2c3b040238f0b122812d929",
+    "features_by_origin.csv": "14bed17bb537d6bf1b753122e754ba53cdb0d52b63e8d5a9c6b9bc9f4ba45149",
+    "core_predictions.csv": "311740d9eca7ed49699dca612c1e034f1ebfa27c6af0ad2425c74d1152b1e23f"
+  },
+  "tool_sha256": "2d7f964d1ace2ce0b18fcb47699fe09f21901eb4c6505d2e71115170129d6e57"
+}

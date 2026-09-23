@@ -1,0 +1,2465 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-09-09T07:37:34.579879+00:00",
+  "requested_start": "2018-01",
+  "requested_end": "2026-07",
+  "availability_policy": "date_only_next_local_midnight",
+  "coverage": [
+    {
+      "series": "unemployment_nsa",
+      "releases": 16,
+      "rows": 6328,
+      "first_available": "2025-06-02T22:00:00+00:00",
+      "last_available": "2026-08-31T22:00:00+00:00",
+      "reference_start": "1993-01",
+      "reference_end": "2026-07"
+    },
+    {
+      "series": "unemployment_sa",
+      "releases": 87,
+      "rows": 29928,
+      "first_available": "2018-03-01T23:00:00+00:00",
+      "last_available": "2025-05-02T22:00:00+00:00",
+      "reference_start": "1993-01",
+      "reference_end": "2025-03"
+    },
+    {
+      "series": "unemployment_trend_cycle",
+      "releases": 16,
+      "rows": 6328,
+      "first_available": "2025-06-02T22:00:00+00:00",
+      "last_available": "2026-08-31T22:00:00+00:00",
+      "reference_start": "1993-01",
+      "reference_end": "2026-07"
+    }
+  ],
+  "releases": [
+    {
+      "reference_release": "2018-01",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-leden-2018",
+      "page_file": "raw/2018-01.html",
+      "page_sha256": "d6855e68ffe1b8b6bd24621bc530199964f0a358bfe8ab7d6c9d137438551440",
+      "release_date": "2018-03-01",
+      "available_from": "2018-03-01T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/264c7d4d-0adc-7914-ea07-317c9cc26062/nez030118_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 55.68 kB",
+          "raw_file": "raw/2018-01-sa.xlsx",
+          "sha256": "e01b285842fc93fc26a92ef87354da51e82b44d14d0588461f756b06c50fb109",
+          "rows": 301,
+          "reference_start": "1993-01",
+          "reference_end": "2018-01"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2018-02",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-unor-2018",
+      "page_file": "raw/2018-02.html",
+      "page_sha256": "e503e88fc41e5c988f120036d9332ab1598cdd9aa7a926c6a21154e090f8bef2",
+      "release_date": "2018-04-04",
+      "available_from": "2018-04-04T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/73fd1cec-b19a-4fb3-32a2-55835ab3d734/nez040418_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 55.68 kB",
+          "raw_file": "raw/2018-02-sa.xlsx",
+          "sha256": "36d39c52cc425881a1fd524f203f8f520ce4f57d3947fe5d984239b708bb9ad4",
+          "rows": 302,
+          "reference_start": "1993-01",
+          "reference_end": "2018-02"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2018-03",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-brezen-2018",
+      "page_file": "raw/2018-03.html",
+      "page_sha256": "2807f600a296a8a582951e3a2ff0e1d095cf440811b3a27f4af1580e3cd36f97",
+      "release_date": "2018-05-02",
+      "available_from": "2018-05-02T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/7931548b-ede8-38ea-aed7-c2c1dbd8cf16/nez050218_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56 kB",
+          "raw_file": "raw/2018-03-sa.xlsx",
+          "sha256": "83db1a749fcafc6d898939280adbc315b64d6c6fddd371656cdc7d22ae091ba9",
+          "rows": 303,
+          "reference_start": "1993-01",
+          "reference_end": "2018-03"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2018-04",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-duben-2018",
+      "page_file": "raw/2018-04.html",
+      "page_sha256": "2a027226346eb727e5c9a088adff91929621bf78e27c5b2b5f43fa5637d6a148",
+      "release_date": "2018-05-31",
+      "available_from": "2018-05-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/6fa0b5d0-52b7-f8e5-af71-112528c67f25/nez053118_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.01 kB",
+          "raw_file": "raw/2018-04-sa.xlsx",
+          "sha256": "55396a3ce4c47b1d79d1500b1df0a06eab66a62807e00450f03556a3e35298ee",
+          "rows": 304,
+          "reference_start": "1993-01",
+          "reference_end": "2018-04"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2018-05",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-kveten-2018",
+      "page_file": "raw/2018-05.html",
+      "page_sha256": "3f4ead03b01137887426b377fe2d8fc5bad80030a85679434aa8b083de88a576",
+      "release_date": "2018-07-02",
+      "available_from": "2018-07-02T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/4165ddb2-2b39-22f5-36cb-cefa647c98a6/nez070218_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.23 kB",
+          "raw_file": "raw/2018-05-sa.xlsx",
+          "sha256": "2a976d8ee911f14dff1a6557b2a7c048ac286645e1b6ba28b0d80e85d4cda396",
+          "rows": 305,
+          "reference_start": "1993-01",
+          "reference_end": "2018-05"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2018-06",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cerven-2018",
+      "page_file": "raw/2018-06.html",
+      "page_sha256": "ff913839407a167d5199bce3164b2b765f8b32dfa3ffaa8c5a588256a97f712d",
+      "release_date": "2018-07-31",
+      "available_from": "2018-07-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/267b56dd-3c2a-ed5f-7a4f-e94bedd6dd37/nez073118_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.33 kB",
+          "raw_file": "raw/2018-06-sa.xlsx",
+          "sha256": "961e6a7d75444707f639a93178db0117ef06128c80836ba894b4ca619c75aed0",
+          "rows": 306,
+          "reference_start": "1993-01",
+          "reference_end": "2018-06"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2018-07",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cervenec-2018",
+      "page_file": "raw/2018-07.html",
+      "page_sha256": "09694b3feec5868d9afe6395dff5113f306209f9643bd0196003158796e90c62",
+      "release_date": "2018-08-30",
+      "available_from": "2018-08-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/f837a34d-ffaa-f35e-7710-e54a3bf64444/nez083018_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.42 kB",
+          "raw_file": "raw/2018-07-sa.xlsx",
+          "sha256": "7b09df4b676bd3c1ac0a7ecc336d7bc72f69d0fdcd1ed5652f34a7adc4e63da4",
+          "rows": 307,
+          "reference_start": "1993-01",
+          "reference_end": "2018-07"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2018-08",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-srpen-2018",
+      "page_file": "raw/2018-08.html",
+      "page_sha256": "532a7ef5927706d4eb24219f348fea7935af689e53e2f0f2bdc9a3db165c9e3e",
+      "release_date": "2018-10-01",
+      "available_from": "2018-10-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/1e7d698e-ef07-4ff8-ac3b-19f0e74b9d30/nez100118_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.68 kB",
+          "raw_file": "raw/2018-08-sa.xlsx",
+          "sha256": "7be16fe9f55a814fc832af9aa31ae37e949340f0170704c3cac00a401b4f0865",
+          "rows": 308,
+          "reference_start": "1993-01",
+          "reference_end": "2018-08"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2018-09",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-zari-2018",
+      "page_file": "raw/2018-09.html",
+      "page_sha256": "eeef82707101cc4fccfec386cc1983c133049b2d30c38ac142c26fe69c8807d9",
+      "release_date": "2018-10-31",
+      "available_from": "2018-10-31T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/a47c98b0-f07a-e469-76be-93b8a13e0178/nez103118_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.81 kB",
+          "raw_file": "raw/2018-09-sa.xlsx",
+          "sha256": "6a228c7a3f6efb1d812dce4bfcbf134b80854d3232987e52b826fbc7e07bd6d9",
+          "rows": 309,
+          "reference_start": "1993-01",
+          "reference_end": "2018-09"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2018-10",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-rijen-2018",
+      "page_file": "raw/2018-10.html",
+      "page_sha256": "f57397c62040f795839ba40249e01ec452f1ffeecba3969653a9a96b3436d8cd",
+      "release_date": "2018-11-30",
+      "available_from": "2018-11-30T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/34079e6b-f8d1-bd88-6e66-a211b0fa8eb1/nez113018_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 54.68 kB",
+          "raw_file": "raw/2018-10-sa.xlsx",
+          "sha256": "5517b888d1a5108641d4481a3c3248b08678ea5a6e55aaabf308ee55e439c140",
+          "rows": 310,
+          "reference_start": "1993-01",
+          "reference_end": "2018-10"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2018-11",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-listopad-2018",
+      "page_file": "raw/2018-11.html",
+      "page_sha256": "1858f08a6aeae9a955969311025fb3e3b0ad5c3b313c1781b25558a590a57260",
+      "release_date": "2019-01-09",
+      "available_from": "2019-01-09T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/3ec7ffe7-544e-2bcc-63d1-7e049cd999cb/nez010919_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 54.67 kB",
+          "raw_file": "raw/2018-11-sa.xlsx",
+          "sha256": "839c8cd833ac00886b4f35021cbfe3fa00207e924d5dc0491501abe69b66b47d",
+          "rows": 311,
+          "reference_start": "1993-01",
+          "reference_end": "2018-11"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2018-12",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-prosinec-2018",
+      "page_file": "raw/2018-12.html",
+      "page_sha256": "44a429517ab828c0f295f19e0b1c8c27829ce1dc9b9f09459eeeefeef2ee966a",
+      "release_date": "2019-01-31",
+      "available_from": "2019-01-31T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/e0fd3af1-f8cf-5a9c-cdd6-3f8364ab6ecc/nez013119_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 54.86 kB",
+          "raw_file": "raw/2018-12-sa.xlsx",
+          "sha256": "cdde0ba676ad31781ae9b614c387b7ab22d3e2dcb4fd85ebb1ffbc67869f6d1a",
+          "rows": 312,
+          "reference_start": "1993-01",
+          "reference_end": "2018-12"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-01",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-leden-2019",
+      "page_file": "raw/2019-01.html",
+      "page_sha256": "44df1ed49070ad42c20fb8bd854db444c4112a7123d4a0fe17f7f5221a086f9c",
+      "release_date": "2019-03-01",
+      "available_from": "2019-03-01T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/f93c8e7a-a9cb-f395-aff6-fdcb6a2f30e9/nez030119_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 55.02 kB",
+          "raw_file": "raw/2019-01-sa.xlsx",
+          "sha256": "f9bf98266c28a5ac54a12b232422e76af01ac941ee8129f626fbe02b4c799c02",
+          "rows": 313,
+          "reference_start": "1993-01",
+          "reference_end": "2019-01"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-02",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-unor-2019",
+      "page_file": "raw/2019-02.html",
+      "page_sha256": "a7d4b2c111f6f9ad0028c6ec66e2548a2c647d1b9eee794b3a221e0186dadbe0",
+      "release_date": "2019-04-01",
+      "available_from": "2019-04-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/4b7a433c-bbdd-49f3-0f15-ea15478b71b8/nez040119_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 55.17 kB",
+          "raw_file": "raw/2019-02-sa.xlsx",
+          "sha256": "cbf5724fce37d91bb62427519f3a2de7365fafa7616092b6383fc361ab9482ae",
+          "rows": 314,
+          "reference_start": "1993-01",
+          "reference_end": "2019-02"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-03",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-brezen-2019",
+      "page_file": "raw/2019-03.html",
+      "page_sha256": "1d26a7f8c5b4c39e8b64316a4f53f654ac36d948721362dcae89e63a20780f2b",
+      "release_date": "2019-04-30",
+      "available_from": "2019-04-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/aa474abd-7cb4-3b41-012c-2267e2d24b6e/nez043019_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 55.35 kB",
+          "raw_file": "raw/2019-03-sa.xlsx",
+          "sha256": "48c6b354564d7db9b834b554222a072cb2f16ec2c596df12b64e2d7948298330",
+          "rows": 315,
+          "reference_start": "1993-01",
+          "reference_end": "2019-03"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-04",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-duben-2019",
+      "page_file": "raw/2019-04.html",
+      "page_sha256": "a5aa6425d62fbe1ffc1b1a645a801d3dbd69682678b591f34575d68619a550ee",
+      "release_date": "2019-05-31",
+      "available_from": "2019-05-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/150bed88-acab-c0e6-cfd0-eaac7de43ded/nez053119_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 55.46 kB",
+          "raw_file": "raw/2019-04-sa.xlsx",
+          "sha256": "919306c636757d9814f6a6e5fc67bab3503bb2b3a70fc6c95e35abdf8dad3fc9",
+          "rows": 316,
+          "reference_start": "1993-01",
+          "reference_end": "2019-04"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-05",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-kveten-2019",
+      "page_file": "raw/2019-05.html",
+      "page_sha256": "d080320dba3f0c0e763d8c3d32166e6108efb00d78147c4434fe213797f61f9d",
+      "release_date": "2019-07-01",
+      "available_from": "2019-07-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/2eb4e50e-112c-8209-e01d-514af895c59b/nez070119_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 55.55 kB",
+          "raw_file": "raw/2019-05-sa.xlsx",
+          "sha256": "230986efc74749fae8018501399bdeb64b77e0131093e11b0de7639a7eadc1e7",
+          "rows": 317,
+          "reference_start": "1993-01",
+          "reference_end": "2019-05"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-06",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cerven-2019",
+      "page_file": "raw/2019-06.html",
+      "page_sha256": "c9d1f91193b0c28b69667edbbe124a550d44e5fd199c572f8f837f0de99adf63",
+      "release_date": "2019-07-31",
+      "available_from": "2019-07-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/beae4cf9-276a-c5f2-0599-98858a5eacf7/nez073119_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 55.76 kB",
+          "raw_file": "raw/2019-06-sa.xlsx",
+          "sha256": "c99b6fdc1a9688ae6e3e2810b05cc450f8f747dd1e30d585d00cd7d4f8efffd1",
+          "rows": 318,
+          "reference_start": "1993-01",
+          "reference_end": "2019-06"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-07",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cervenec-2019",
+      "page_file": "raw/2019-07.html",
+      "page_sha256": "0dc28ab0122a1d7763b2cad0a67acdaf99fb0e314a7a2cec6e460c17ed427e54",
+      "release_date": "2019-08-29",
+      "available_from": "2019-08-29T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/4915a824-8e79-6574-34f6-e247dee45b7e/nez082919_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 55.93 kB",
+          "raw_file": "raw/2019-07-sa.xlsx",
+          "sha256": "b7eb3e6d8e7fe43fd83db57356d36b7a2c959c6a952d53c483feb06ced65f339",
+          "rows": 319,
+          "reference_start": "1993-01",
+          "reference_end": "2019-07"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-08",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-srpen-2019",
+      "page_file": "raw/2019-08.html",
+      "page_sha256": "af3002ada5235dd23b0c4f03db1352709a3d3124bd009d99f77a26c155a1ce42",
+      "release_date": "2019-09-30",
+      "available_from": "2019-09-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/eb56ec32-ec53-cf85-72c3-62a29a5595b6/nez093019_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.01 kB",
+          "raw_file": "raw/2019-08-sa.xlsx",
+          "sha256": "53b46e2e80e93d886c291635caeb09d95caea1ee32240b4de5999effe2ac2460",
+          "rows": 320,
+          "reference_start": "1993-01",
+          "reference_end": "2019-08"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-09",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-zari-2019",
+      "page_file": "raw/2019-09.html",
+      "page_sha256": "e91905b450e2874a4b2a04efd194aa7277a100eb0177f117578eb1a76b134b83",
+      "release_date": "2019-10-31",
+      "available_from": "2019-10-31T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/3b5608c4-28ec-855c-93d9-c915a63f543c/nez103119_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.12 kB",
+          "raw_file": "raw/2019-09-sa.xlsx",
+          "sha256": "b22311b5533ace2a0ab52c9f240ece03e76db549bf2f985ea87c5a95d2ef1b7e",
+          "rows": 321,
+          "reference_start": "1993-01",
+          "reference_end": "2019-09"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-10",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-rijen-2019",
+      "page_file": "raw/2019-10.html",
+      "page_sha256": "89acacd27d282e04f675de851e26e2a628423c7bf07b899981db323abfc61b65",
+      "release_date": "2019-11-29",
+      "available_from": "2019-11-29T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/0ad8ef9b-603b-f19c-7fc8-31581442530d/nez112919_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.31 kB",
+          "raw_file": "raw/2019-10-sa.xlsx",
+          "sha256": "589d053e9e51939dd34fcc6d3b0523fcaa9034a5e17dcb14e3a88f8c601f5b1e",
+          "rows": 322,
+          "reference_start": "1993-01",
+          "reference_end": "2019-10"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-11",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-listopad-2019",
+      "page_file": "raw/2019-11.html",
+      "page_sha256": "071b36d5748daefa8d9dde988a9fb8e86e260714f49f47a551c3433de07dafcf",
+      "release_date": "2020-01-09",
+      "available_from": "2020-01-09T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/1749fda6-2ce1-51db-d98a-a3e01719feae/nez010920_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.52 kB",
+          "raw_file": "raw/2019-11-sa.xlsx",
+          "sha256": "fb735ed79bdd74c234da83a20598a5b62677cd1d35c30c5f7438932a7078258c",
+          "rows": 323,
+          "reference_start": "1993-01",
+          "reference_end": "2019-11"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2019-12",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-prosinec-2019",
+      "page_file": "raw/2019-12.html",
+      "page_sha256": "b2eeddde0ec5166c13a8c07cc560771383a621eb8b34eae5aaf676a5a75f7e9e",
+      "release_date": "2020-01-30",
+      "available_from": "2020-01-30T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/36bdff86-28be-fcd9-1513-c2f937fec2ae/nez013020_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.61 kB",
+          "raw_file": "raw/2019-12-sa.xlsx",
+          "sha256": "6270454f33fb7bde65c3ea9852d40341b39da98f17043acf3e45d960f653433f",
+          "rows": 324,
+          "reference_start": "1993-01",
+          "reference_end": "2019-12"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-01",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-leden-2020",
+      "page_file": "raw/2020-01.html",
+      "page_sha256": "78acf3a053fce1ff90c1f7219c9f83fe565c0218d31042db2be8c3b98215979c",
+      "release_date": "2020-03-03",
+      "available_from": "2020-03-03T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/f5388778-41b7-3f04-ac8d-2838320b45f0/nez030320_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.65 kB",
+          "raw_file": "raw/2020-01-sa.xlsx",
+          "sha256": "1313351e08a473e4d2a604a779c9e07caf562107458fae5afac2f910d13b8012",
+          "rows": 325,
+          "reference_start": "1993-01",
+          "reference_end": "2020-01"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-02",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-unor-2020",
+      "page_file": "raw/2020-02.html",
+      "page_sha256": "b9620e49c3f9387d1b3064735e9b89c566792e94bbf452fb145bffd8ae01bb59",
+      "release_date": "2020-04-01",
+      "available_from": "2020-04-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/e9dcb356-7432-a842-8415-83147736e8dd/nez040120_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.84 kB",
+          "raw_file": "raw/2020-02-sa.xlsx",
+          "sha256": "8dec0c0bac0900fab2aac6ec69737e0ceda483c16a36febbd65f295d7d6c68ae",
+          "rows": 326,
+          "reference_start": "1993-01",
+          "reference_end": "2020-02"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-03",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-brezen-2020",
+      "page_file": "raw/2020-03.html",
+      "page_sha256": "85da8c2f6964066da4b02a1027566f3a373e9ce6ee7775d9635688db1d599a59",
+      "release_date": "2020-04-30",
+      "available_from": "2020-04-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/769b6b0a-80c6-8ee5-b676-867c8e40ff78/nez043020_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 56.98 kB",
+          "raw_file": "raw/2020-03-sa.xlsx",
+          "sha256": "4f54698a5bac1fde31aa7387e39a2462baf7c911426e879a80d95b3a3f340da3",
+          "rows": 327,
+          "reference_start": "1993-01",
+          "reference_end": "2020-03"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-04",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-duben-2020",
+      "page_file": "raw/2020-04.html",
+      "page_sha256": "4bb882fd0b29b69f15489892d3d0588bb5e340ce2712540546e45414f920a976",
+      "release_date": "2020-06-02",
+      "available_from": "2020-06-02T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/66fb63f5-b2dd-7b74-14a0-42c8d4640454/nez060220_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 57.2 kB",
+          "raw_file": "raw/2020-04-sa.xlsx",
+          "sha256": "3a3a730a0b064bdc6d2869f332b693b7b29418db7c2c68b7f8e098fa05532d15",
+          "rows": 328,
+          "reference_start": "1993-01",
+          "reference_end": "2020-04"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-05",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-kveten-2020",
+      "page_file": "raw/2020-05.html",
+      "page_sha256": "2b3616a4e62645b3d86213b9d9e49e11c4e55a5b099de3e7ae5743145bd380ca",
+      "release_date": "2020-07-02",
+      "available_from": "2020-07-02T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/352a8df5-49a8-39cb-5487-96f55e400eff/nez070220_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 57.31 kB",
+          "raw_file": "raw/2020-05-sa.xlsx",
+          "sha256": "ba0a7c2e0faa021513ca0468ef29ac6e01b0cd3cbb70ec4a16db7093d5846d3b",
+          "rows": 329,
+          "reference_start": "1993-01",
+          "reference_end": "2020-05"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-06",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cerven-2020",
+      "page_file": "raw/2020-06.html",
+      "page_sha256": "713173fb2fd83fa741227be99c8f23876a0f63e568ef0c544e69d385fd23de94",
+      "release_date": "2020-07-30",
+      "available_from": "2020-07-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/943774ff-2888-9574-8a5c-cafe291341ec/nez073020_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 57.49 kB",
+          "raw_file": "raw/2020-06-sa.xlsx",
+          "sha256": "d4e6ae2c67c79a3725360974fed98982b46392dbdb5dfdac12f245748b4b6274",
+          "rows": 330,
+          "reference_start": "1993-01",
+          "reference_end": "2020-06"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-07",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cervenec-2020",
+      "page_file": "raw/2020-07.html",
+      "page_sha256": "922454171ec3853165d3382684576d06271a88dfd4b4e75e82493895ac6ffb50",
+      "release_date": "2020-09-01",
+      "available_from": "2020-09-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/ff627743-4904-bd23-10f2-3a83e532d015/nez090120_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 57.57 kB",
+          "raw_file": "raw/2020-07-sa.xlsx",
+          "sha256": "17c1253562d6503f1f9a0c4079d25998fc3deb3fc48dc8047e1d1b42c1c74a60",
+          "rows": 331,
+          "reference_start": "1993-01",
+          "reference_end": "2020-07"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-08",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-srpen-2020",
+      "page_file": "raw/2020-08.html",
+      "page_sha256": "49236c6ae059b3494a60af6e21759b24525495302632fdd913a1be95bef0e11f",
+      "release_date": "2020-10-01",
+      "available_from": "2020-10-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/a668e902-a0c8-f7b3-75e1-45aae0cf1fc4/nez100120_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 57.75 kB",
+          "raw_file": "raw/2020-08-sa.xlsx",
+          "sha256": "76a7d4a6402868b86cdf4f299650a00e428334711a0bcdc7595528aec785d5b9",
+          "rows": 332,
+          "reference_start": "1993-01",
+          "reference_end": "2020-08"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-09",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-zari-2020",
+      "page_file": "raw/2020-09.html",
+      "page_sha256": "5efc7a83de7481ca7efb5c8cb00c3829580afd97d050bdc00716b5302e3caca3",
+      "release_date": "2020-10-30",
+      "available_from": "2020-10-30T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/55018d05-4d7b-2477-c92c-0cbd7906e04f/nez103020_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 57.97 kB",
+          "raw_file": "raw/2020-09-sa.xlsx",
+          "sha256": "f934544ff0ede42e035d610c359cfb02fcdf043fc0c90e0aa90787e99e8eb498",
+          "rows": 333,
+          "reference_start": "1993-01",
+          "reference_end": "2020-09"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-10",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-rijen-2020",
+      "page_file": "raw/2020-10.html",
+      "page_sha256": "e8b7b1e7d3ae443288bfceb8deed95d1948dcc6d0c770c11d01890f5616d95d2",
+      "release_date": "2020-12-02",
+      "available_from": "2020-12-02T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/5cbf69db-9a5c-3402-de47-2c19991e9241/nez120220_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 58.07 kB",
+          "raw_file": "raw/2020-10-sa.xlsx",
+          "sha256": "d7efe7fa3675817ef63bbcbef245b878227d3b7128e1a4a98ce931e23de131fc",
+          "rows": 334,
+          "reference_start": "1993-01",
+          "reference_end": "2020-10"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-11",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-listopad-2020",
+      "page_file": "raw/2020-11.html",
+      "page_sha256": "fcded6b85fc82c88d6425ce60cce8230caa5c4afb59cab74fdeb6b4edb21f1d3",
+      "release_date": "2021-01-07",
+      "available_from": "2021-01-07T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/65b164a7-241a-7661-c3fa-2620e452ac9a/nez010721_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 58.21 kB",
+          "raw_file": "raw/2020-11-sa.xlsx",
+          "sha256": "4858bc13a95ba586c419a2feedd956ceaae090bbe08cfa3ed4bc4568c8aae756",
+          "rows": 335,
+          "reference_start": "1993-01",
+          "reference_end": "2020-11"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2020-12",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-prosinec-2020",
+      "page_file": "raw/2020-12.html",
+      "page_sha256": "0b360da281b37598d5b7cdbaf2f62337ce7a473d12d8202dd62882217ac1455c",
+      "release_date": "2021-01-29",
+      "available_from": "2021-01-29T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/7b573209-9c55-bd7b-38cf-c85fac43c301/nez012921_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 58.36 kB",
+          "raw_file": "raw/2020-12-sa.xlsx",
+          "sha256": "377c36472d32af7806f6b922a997c96bcdf1ecd36fc42bd0c130379583b11e24",
+          "rows": 336,
+          "reference_start": "1993-01",
+          "reference_end": "2020-12"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-01",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-leden-2021",
+      "page_file": "raw/2021-01.html",
+      "page_sha256": "9abc353ddb83e9162fb3e16002f7df91f7434956de49db802eb16a894cf27e39",
+      "release_date": "2021-03-04",
+      "available_from": "2021-03-04T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/d28035bf-f427-6266-feb2-47b13e9004b9/nez030421_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 58.55 kB",
+          "raw_file": "raw/2021-01-sa.xlsx",
+          "sha256": "e22af0f63be495d61c2e1c596acad3ae8340ee08d79ab8239e9dcfed52990fbb",
+          "rows": 337,
+          "reference_start": "1993-01",
+          "reference_end": "2021-01"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-02",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-unor-2021",
+      "page_file": "raw/2021-02.html",
+      "page_sha256": "316eaa34b4c340457c67670ad6fa321178110c197435949c3290592ac875708e",
+      "release_date": "2021-04-01",
+      "available_from": "2021-04-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/eed8afe6-0b31-9988-e8b1-5bfbfb08629f/nez040121_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 58.56 kB",
+          "raw_file": "raw/2021-02-sa.xlsx",
+          "sha256": "0bb19e8b0874f33af12e747b785a986852992a13b86f1b863128b294ce74de8a",
+          "rows": 338,
+          "reference_start": "1993-01",
+          "reference_end": "2021-02"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-03",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-brezen-2021",
+      "page_file": "raw/2021-03.html",
+      "page_sha256": "69438d4f1fa7cab69d785c177f96c8b991361211e43299a11f0e4d596a1aaf72",
+      "release_date": "2021-04-30",
+      "available_from": "2021-04-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/138d6150-7c9c-9457-4134-7229c900cca7/nez043021_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 58.89 kB",
+          "raw_file": "raw/2021-03-sa.xlsx",
+          "sha256": "7c3f22325c985c07209595a098cbad4518033df38555e7a496b10418d1d6becd",
+          "rows": 339,
+          "reference_start": "1993-01",
+          "reference_end": "2021-03"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-04",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-duben-2021",
+      "page_file": "raw/2021-04.html",
+      "page_sha256": "f9f89f6b3dbe63ca308f6298eeb07b5874505fdca7f4f3e817f59a3f2003d791",
+      "release_date": "2021-06-01",
+      "available_from": "2021-06-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/36971575-0826-4072-4e6b-a5112a5f283c/nez060121_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 58.96 kB",
+          "raw_file": "raw/2021-04-sa.xlsx",
+          "sha256": "db158e7a41d2385e66ed79268cf46eba58cec7d8ba851549f5ff9aebe523856f",
+          "rows": 340,
+          "reference_start": "1993-01",
+          "reference_end": "2021-04"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-05",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-kveten-2021",
+      "page_file": "raw/2021-05.html",
+      "page_sha256": "2287576cebfe8eb10052e6145e5e3fd2367f7cd22b0a59fb0170555d24766f8e",
+      "release_date": "2021-07-01",
+      "available_from": "2021-07-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/e4f033af-d0d5-780f-de67-127120651fc1/nez070121_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 59.09 kB",
+          "raw_file": "raw/2021-05-sa.xlsx",
+          "sha256": "fd83c2e98078e8618682a359b518a1703d89571b0f9b73510364b6e30f282e82",
+          "rows": 341,
+          "reference_start": "1993-01",
+          "reference_end": "2021-05"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-06",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cerven-2021",
+      "page_file": "raw/2021-06.html",
+      "page_sha256": "e4b558af6edb2b5fd4994274b80e88b8ae79833a596412b678b1a214fc2b8b45",
+      "release_date": "2021-07-30",
+      "available_from": "2021-07-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/ff8ef2fb-e8a2-7c2a-190e-4f528717bc89/nez073021_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 59.2 kB",
+          "raw_file": "raw/2021-06-sa.xlsx",
+          "sha256": "60c82e7ac87d8305e91b7c87c025b664b7c7546691b38b117685c0003d75b67c",
+          "rows": 342,
+          "reference_start": "1993-01",
+          "reference_end": "2021-06"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-07",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cervenec-2021",
+      "page_file": "raw/2021-07.html",
+      "page_sha256": "f2e72b21e7183833357d4499fc3bcbea1c3fbab238d178c512ff7dfc54a857a2",
+      "release_date": "2021-09-01",
+      "available_from": "2021-09-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/07aef31e-a30e-a33b-f6ed-b810a993be40/nez090121_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 59.33 kB",
+          "raw_file": "raw/2021-07-sa.xlsx",
+          "sha256": "e76e8564cd8b4f42c5a495a4ad79fe2c91acfa4fbaabf518af783c1244758554",
+          "rows": 343,
+          "reference_start": "1993-01",
+          "reference_end": "2021-07"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-08",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-srpen-2021",
+      "page_file": "raw/2021-08.html",
+      "page_sha256": "9df3c0c4a93c7fdb4b851005a1e71f2eaa3d0dcf14ea2d7efe1f35a48323f41f",
+      "release_date": "2021-09-30",
+      "available_from": "2021-09-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/0a648e48-041e-e089-9ac2-9b1072095f0c/nez093021_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 59.35 kB",
+          "raw_file": "raw/2021-08-sa.xlsx",
+          "sha256": "b10ac8f03c37be284ad627ac51b8b88c067ce1e8bcf78636e90ed0542bb43103",
+          "rows": 344,
+          "reference_start": "1993-01",
+          "reference_end": "2021-08"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-09",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-zari-2021",
+      "page_file": "raw/2021-09.html",
+      "page_sha256": "96c6285652fc2e1537810c91facf607ecee07fa09b615882ac3d4563cb0ee69e",
+      "release_date": "2021-11-02",
+      "available_from": "2021-11-02T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/03b353c3-0dbb-8371-c7de-227d38d3e887/nez110221_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 59.57 kB",
+          "raw_file": "raw/2021-09-sa.xlsx",
+          "sha256": "365e540234882ab27c39bc915d8d878e4273a71d0cc3b562dea738ddf0106f14",
+          "rows": 345,
+          "reference_start": "1993-01",
+          "reference_end": "2021-09"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-10",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-rijen-2021",
+      "page_file": "raw/2021-10.html",
+      "page_sha256": "fb752fb8c77c36bdb97cb7e660ab64983ddb59f8e6aabc32decfbcde3eae4cb2",
+      "release_date": "2021-12-02",
+      "available_from": "2021-12-02T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/56be5f3d-130c-e35d-587b-d5993b0b606d/nez120221_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 59.78 kB",
+          "raw_file": "raw/2021-10-sa.xlsx",
+          "sha256": "8f4ffaca5f257218a7c4863cec0902e9802d5a108dbfa08a745e516d7b5f1d35",
+          "rows": 346,
+          "reference_start": "1993-01",
+          "reference_end": "2021-10"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-11",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-listopad-2021",
+      "page_file": "raw/2021-11.html",
+      "page_sha256": "84afeb8ca5e20fa3e909415eed096b010c6085b3aeafcc2c27906bfb680a7fe5",
+      "release_date": "2022-01-10",
+      "available_from": "2022-01-10T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/a7666b75-7807-33ac-6934-c5bf6f337d2a/nez011022_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 59.78 kB",
+          "raw_file": "raw/2021-11-sa.xlsx",
+          "sha256": "cef62e4fad4208ff55174e188f7d28b9dd2ae0e2174112465e58a46e5ab02b31",
+          "rows": 347,
+          "reference_start": "1993-01",
+          "reference_end": "2021-11"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2021-12",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-prosinec-2021",
+      "page_file": "raw/2021-12.html",
+      "page_sha256": "4fcbd7f507f0ca23e0d4f26cd62342b00f21ecc74d8193918882a3d48e06ad52",
+      "release_date": "2022-02-01",
+      "available_from": "2022-02-01T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/14044b73-97b2-d514-0b30-a32484e657ec/nez020122_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 60.05 kB",
+          "raw_file": "raw/2021-12-sa.xlsx",
+          "sha256": "7c7145115e8ed42a6eb94f68adbdcbf1187888db0c85f422337df689590f120a",
+          "rows": 348,
+          "reference_start": "1993-01",
+          "reference_end": "2021-12"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-01",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-leden-2022",
+      "page_file": "raw/2022-01.html",
+      "page_sha256": "0f661d7c98a66f977fc5ec233fd5f00a0f6261e47b391838d022b07f20b3cc86",
+      "release_date": "2022-03-03",
+      "available_from": "2022-03-03T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/90c791c4-8a96-41e6-30df-491dcb6d2a36/nez030322_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 60.46 kB",
+          "raw_file": "raw/2022-01-sa.xlsx",
+          "sha256": "9f6e4d03d93e05114c23781cdfe40dbc3247a658542428c2a7d2b3033dd1ce29",
+          "rows": 349,
+          "reference_start": "1993-01",
+          "reference_end": "2022-01"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-02",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-unor-2022",
+      "page_file": "raw/2022-02.html",
+      "page_sha256": "f475cec82a4b5f77b80de03b52e03e09c39885d1177ef80830e928cb1dbcc65b",
+      "release_date": "2022-03-31",
+      "available_from": "2022-03-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/0ca4a6ab-3bed-c3cc-f7ec-f1c9c967fc4f/nez033122_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 60.42 kB",
+          "raw_file": "raw/2022-02-sa.xlsx",
+          "sha256": "30a9e805d8b9ac3fd545b66037d303d82e5f8d1e561b7843566b3d1469608a02",
+          "rows": 350,
+          "reference_start": "1993-01",
+          "reference_end": "2022-02"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-03",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-brezen-2022",
+      "page_file": "raw/2022-03.html",
+      "page_sha256": "d79331b9652043ca8ae348456f3d92b791ead174d61f8f582d9acbb2293b08ad",
+      "release_date": "2022-05-02",
+      "available_from": "2022-05-02T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/e435111f-64a6-ec99-bc1f-bda0c8fa3e9f/nez050222_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 60.59 kB",
+          "raw_file": "raw/2022-03-sa.xlsx",
+          "sha256": "e5d837f118aa04e26ee84421a53a62e40c4be46e76e4418ece095f9ba5727d73",
+          "rows": 351,
+          "reference_start": "1993-01",
+          "reference_end": "2022-03"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-04",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-duben-2022",
+      "page_file": "raw/2022-04.html",
+      "page_sha256": "93676d76843018de2ed350c17ba6572e614985e56761c2177781e0e2c07f6a1c",
+      "release_date": "2022-06-01",
+      "available_from": "2022-06-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/92c6d0e6-1311-0abf-219e-613b09f687fd/nez060122_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 60.75 kB",
+          "raw_file": "raw/2022-04-sa.xlsx",
+          "sha256": "58a92cbb005e47ef5f494435cb547e9814ff37611f6955aa45b69814db66bfaf",
+          "rows": 352,
+          "reference_start": "1993-01",
+          "reference_end": "2022-04"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-05",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-kveten-2022",
+      "page_file": "raw/2022-05.html",
+      "page_sha256": "1edaf01f30387a3b322aa8ef060c850443b62264fe6104f582fc71cc91d71983",
+      "release_date": "2022-06-30",
+      "available_from": "2022-06-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/3b0aba0c-ce92-834a-2937-edf574587f9f/nez063022_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 60.84 kB",
+          "raw_file": "raw/2022-05-sa.xlsx",
+          "sha256": "037f9ed84e532d494c9cc971c6f79d5502dd31aac631feb25b4a87e32a307b07",
+          "rows": 353,
+          "reference_start": "1993-01",
+          "reference_end": "2022-05"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-06",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cerven-2022",
+      "page_file": "raw/2022-06.html",
+      "page_sha256": "24759d24ce9e692b9e43a70b316caf4b9814b47bd0415d0bc72ac28c619039ad",
+      "release_date": "2022-08-01",
+      "available_from": "2022-08-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/d7a386de-2137-0974-4fab-3b5c58affdea/nez080122_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 60.92 kB",
+          "raw_file": "raw/2022-06-sa.xlsx",
+          "sha256": "b86831bb2b08eec98abcb622111b5a8ecd61445276da072b91f3a377c2d8a49c",
+          "rows": 354,
+          "reference_start": "1993-01",
+          "reference_end": "2022-06"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-07",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cervenec-2022",
+      "page_file": "raw/2022-07.html",
+      "page_sha256": "dfd333b63f9e352db9e3ba8fa4887a9029d897dddd7966324ee2ada77e0b70ed",
+      "release_date": "2022-09-01",
+      "available_from": "2022-09-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/92e687a4-0a83-2a8a-4e97-3c70dd4991c4/nez090122_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 61.13 kB",
+          "raw_file": "raw/2022-07-sa.xlsx",
+          "sha256": "a7c46f9e4b2657f2ce205bbe74312abe50be69c7d044b7014ac3f719df637858",
+          "rows": 355,
+          "reference_start": "1993-01",
+          "reference_end": "2022-07"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-08",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-srpen-2022",
+      "page_file": "raw/2022-08.html",
+      "page_sha256": "23ae7ac9f48de2ed370b119fa249fc3718675b82c70d0046cb092966be2217e9",
+      "release_date": "2022-09-30",
+      "available_from": "2022-09-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/3105c255-f960-9ac0-e154-68cd76ed33ce/nez093022_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 61.38 kB",
+          "raw_file": "raw/2022-08-sa.xlsx",
+          "sha256": "b71a0b9ffbafba06d0fcdc046d785ecc9a0e5ea068ec85ebb19f7a272101d3ec",
+          "rows": 356,
+          "reference_start": "1993-01",
+          "reference_end": "2022-08"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-09",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-zari-2022",
+      "page_file": "raw/2022-09.html",
+      "page_sha256": "623479579e025e683e55f6be3315bc0fe36a830a86d5c0993c9b77a2b3b53451",
+      "release_date": "2022-11-03",
+      "available_from": "2022-11-03T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/1472890c-1e47-0a9b-1ba0-a86d62db9ccf/nez110322_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 67.39 kB",
+          "raw_file": "raw/2022-09-sa.xlsx",
+          "sha256": "e03c0679c96ad783b6f56850c075511f31adde79ae5f1a9c4f4a2237afc5e95a",
+          "rows": 357,
+          "reference_start": "1993-01",
+          "reference_end": "2022-09"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-10",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-rijen-2022",
+      "page_file": "raw/2022-10.html",
+      "page_sha256": "3db547c4d64ed870b8178e4f1b213558db514cf75c398e13feb349b2ce89ad51",
+      "release_date": "2022-12-01",
+      "available_from": "2022-12-01T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/b6e49ebb-c613-0850-8b4f-75465c3752fd/nez120122_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 67.62 kB",
+          "raw_file": "raw/2022-10-sa.xlsx",
+          "sha256": "2ad63730804163029f6932c36c88160c31642ab77b71a6b2c7d93fcb6b105392",
+          "rows": 358,
+          "reference_start": "1993-01",
+          "reference_end": "2022-10"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-11",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-listopad-2022",
+      "page_file": "raw/2022-11.html",
+      "page_sha256": "ffde81905bc8c92d23bc296f634b8d1cda071cdf0e809623ffdafdb4b966066a",
+      "release_date": "2023-01-09",
+      "available_from": "2023-01-09T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/c682d938-37a4-6138-0615-5985ce12a4b2/nez010923_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 67.55 kB",
+          "raw_file": "raw/2022-11-sa.xlsx",
+          "sha256": "66f4c018f5cadf0a52f2ee7fbe78965c5122d60717d331daf322d2ec64f1cfe8",
+          "rows": 359,
+          "reference_start": "1993-01",
+          "reference_end": "2022-11"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2022-12",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-prosinec-2022",
+      "page_file": "raw/2022-12.html",
+      "page_sha256": "6c61d1aee40e04ae2f05cf906c3ed50b2f9fe28547ab4acfa5171f7116c4d887",
+      "release_date": "2023-01-31",
+      "available_from": "2023-01-31T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/1c8028b1-3e8a-00cd-13e8-91843f9e61bc/nez013123_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 67.78 kB",
+          "raw_file": "raw/2022-12-sa.xlsx",
+          "sha256": "89db37b530da7d2af4d66355a4a10795067f18090c715710e373b1ca28b55c78",
+          "rows": 360,
+          "reference_start": "1993-01",
+          "reference_end": "2022-12"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-01",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-leden-2023",
+      "page_file": "raw/2023-01.html",
+      "page_sha256": "76f76797903cd89addec808113c75455720d60c8b518a02f9b15e0854e2c96d8",
+      "release_date": "2023-03-02",
+      "available_from": "2023-03-02T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/bad79305-c0b0-c88b-d21a-9d7f52a783ef/nez030223_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 67.89 kB",
+          "raw_file": "raw/2023-01-sa.xlsx",
+          "sha256": "d1efb04d9145fad891211777905e75d65dc364843c029626ba66361599d4f87d",
+          "rows": 361,
+          "reference_start": "1993-01",
+          "reference_end": "2023-01"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-02",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-unor-2023",
+      "page_file": "raw/2023-02.html",
+      "page_sha256": "254a721972e4ef8f3f986964c69b34d4150e9eb3f2847e34a97b6e3ef83eb26e",
+      "release_date": "2023-03-30",
+      "available_from": "2023-03-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/1e80bba4-7ee0-d51f-7f8f-78768f5311eb/nez033023_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 68.04 kB",
+          "raw_file": "raw/2023-02-sa.xlsx",
+          "sha256": "73aa97ae39972b637964afc8d734a3de63c40cfff0668e6301b43bceba8d70df",
+          "rows": 362,
+          "reference_start": "1993-01",
+          "reference_end": "2023-02"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-03",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-brezen-2023",
+      "page_file": "raw/2023-03.html",
+      "page_sha256": "517595da4ffb078b3dbf195822d18a479437a015d89a52c763d76f5d64088ac7",
+      "release_date": "2023-05-03",
+      "available_from": "2023-05-03T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/d6994a32-1ea7-47e1-d588-297a1ab7e108/nez050323_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 69.79 kB",
+          "raw_file": "raw/2023-03-sa.xlsx",
+          "sha256": "1569baaf2c04950c30721953f151599d857f7cbc3cccaac648e7f5076ff3d956",
+          "rows": 363,
+          "reference_start": "1993-01",
+          "reference_end": "2023-03"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-04",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-duben-2023",
+      "page_file": "raw/2023-04.html",
+      "page_sha256": "582a81c94570709ca4ab32c9b3b2a1495983cd2287dce97084f1060dde67ba6c",
+      "release_date": "2023-06-01",
+      "available_from": "2023-06-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/0082a163-db23-d971-119d-f74341a4d52f/nez060123_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 68.5 kB",
+          "raw_file": "raw/2023-04-sa.xlsx",
+          "sha256": "ec58d5151d0fe5aa6d2c30152791fe46f8c54a782e0165db6f6c8dcb9b1050e0",
+          "rows": 364,
+          "reference_start": "1993-01",
+          "reference_end": "2023-04"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-05",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-kveten-2023",
+      "page_file": "raw/2023-05.html",
+      "page_sha256": "a75a70c273405c75e4e4d36bc1fac7bbdbaf2af0462eb98d1e891aa6325f345e",
+      "release_date": "2023-06-30",
+      "available_from": "2023-06-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/fd914c23-7669-8ee6-4714-6613005ba1d3/nez063023_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 68.62 kB",
+          "raw_file": "raw/2023-05-sa.xlsx",
+          "sha256": "4955fb7150a291c0299c710830150ccbab8f8ef6426f5088912a738c096753e4",
+          "rows": 365,
+          "reference_start": "1993-01",
+          "reference_end": "2023-05"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-06",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cerven-2023",
+      "page_file": "raw/2023-06.html",
+      "page_sha256": "54a675f2ffcab004a0ddea5eec8048032da52cc148d9e6dc42c8b50c29c61fea",
+      "release_date": "2023-08-01",
+      "available_from": "2023-08-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/923f3fa1-d402-b5a3-5aeb-c92aca27655b/nez080123_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 68.8 kB",
+          "raw_file": "raw/2023-06-sa.xlsx",
+          "sha256": "6eebc9afdef726e902d150c90a2f442dc0ae85085812c605d76f965b5c537e21",
+          "rows": 366,
+          "reference_start": "1993-01",
+          "reference_end": "2023-06"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-07",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cervenec-2023",
+      "page_file": "raw/2023-07.html",
+      "page_sha256": "d928ff40e97050f7f0c33c4f8ec510f59e24f364d0bf9085bc73ad1baad245e0",
+      "release_date": "2023-08-31",
+      "available_from": "2023-08-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/e5642838-984e-4c8d-bc66-6e608fa619eb/nez083123_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 68.97 kB",
+          "raw_file": "raw/2023-07-sa.xlsx",
+          "sha256": "f17698ad00dbfe7fe3127b4af2f89c38cfec75d041ecc2b0910150dc568d2797",
+          "rows": 367,
+          "reference_start": "1993-01",
+          "reference_end": "2023-07"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-08",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-srpen-2023",
+      "page_file": "raw/2023-08.html",
+      "page_sha256": "1b33f4a3ca03179d0a530c1eca34ced6ca62851591cadc8b7f45331dac86d416",
+      "release_date": "2023-10-02",
+      "available_from": "2023-10-02T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/34f6a2b7-3a2b-d517-6c8c-b239a97f06fd/nez100223_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 69.1 kB",
+          "raw_file": "raw/2023-08-sa.xlsx",
+          "sha256": "644cc649f7c394d997f1160b77cb5165fdf3ff11b3ded9bfcce110d2659c0874",
+          "rows": 368,
+          "reference_start": "1993-01",
+          "reference_end": "2023-08"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-09",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-zari-2023",
+      "page_file": "raw/2023-09.html",
+      "page_sha256": "32a8f687eb0168a10da3b52d616b49ea3f9b09b2c1080bc62d55986577137b50",
+      "release_date": "2023-11-03",
+      "available_from": "2023-11-03T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/2196b183-0e9e-2037-b3a6-bcee665ac873/nez110323_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 69.36 kB",
+          "raw_file": "raw/2023-09-sa.xlsx",
+          "sha256": "fe831b1c2cecab34c9c4899dceceeca9289b86d049c1c1c02eb6229a6bfb7867",
+          "rows": 369,
+          "reference_start": "1993-01",
+          "reference_end": "2023-09"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-10",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-rijen-2023",
+      "page_file": "raw/2023-10.html",
+      "page_sha256": "d96c0ff963468efa0e0d23ea536077992403d107fcead85bcfe02e266228c70e",
+      "release_date": "2023-11-30",
+      "available_from": "2023-11-30T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/d1d0111a-f813-a9d8-8768-6c4d46051408/nez113023_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.59 kB",
+          "raw_file": "raw/2023-10-sa.xlsx",
+          "sha256": "3a3506d8ad48c78e5bf6ee7333d61c76ea3492ee72fdafb4b032fdc3381dca15",
+          "rows": 370,
+          "reference_start": "1993-01",
+          "reference_end": "2023-10"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-11",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-listopad-2023",
+      "page_file": "raw/2023-11.html",
+      "page_sha256": "c3d0dc68645d719dce1b95e7a59b9025c8980cd934831000118306b26c87df14",
+      "release_date": "2024-01-09",
+      "available_from": "2024-01-09T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/89784589-e4cf-5855-dded-76daaa3762f4/nez010924_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.55 kB",
+          "raw_file": "raw/2023-11-sa.xlsx",
+          "sha256": "2aeb841f2f54128d1b5ab1e44254230c65c7d1e2384929a3e5570a242eb052cb",
+          "rows": 371,
+          "reference_start": "1993-01",
+          "reference_end": "2023-11"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2023-12",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-prosinec-2023",
+      "page_file": "raw/2023-12.html",
+      "page_sha256": "1cac6cb61905e60507b68a2c78de8d3934653f0cfca73a83b5941b5a756dae58",
+      "release_date": "2024-02-01",
+      "available_from": "2024-02-01T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/77c087df-7026-1eff-2e5e-f1d4a108e861/nez020124_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.83 kB",
+          "raw_file": "raw/2023-12-sa.xlsx",
+          "sha256": "4f44f8a3c1088248e4a7b1bec10daa8c42aff24d235d3d768b0aee959aebadf2",
+          "rows": 372,
+          "reference_start": "1993-01",
+          "reference_end": "2023-12"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-01",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-leden-2024",
+      "page_file": "raw/2024-01.html",
+      "page_sha256": "89a459eef718e8c40246594b2a8c32d24db3c34f526d87fcc89ce0be4972b3d3",
+      "release_date": "2024-03-04",
+      "available_from": "2024-03-04T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/c99280c7-757b-bbf8-4020-3e428980f367/nez030424_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.5 kB",
+          "raw_file": "raw/2024-01-sa.xlsx",
+          "sha256": "116807804719cf1c170a71e5c54ac2724d357e3a96def19fd2bb05d9af1f4cf3",
+          "rows": 373,
+          "reference_start": "1993-01",
+          "reference_end": "2024-01"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-02",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-unor-2024",
+      "page_file": "raw/2024-02.html",
+      "page_sha256": "b0faeffb35a2fa9c3ce21b309746a72b2d9e0f7ee731bcba05f290b15f3857ac",
+      "release_date": "2024-04-02",
+      "available_from": "2024-04-02T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/f20138fd-8342-4c2f-cbe9-32b455a1f8e7/nez040224_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 70.02 kB",
+          "raw_file": "raw/2024-02-sa.xlsx",
+          "sha256": "d7be4bcdc98515f125f0e631f89ab786be06214f207ad22366104f0dd84891ae",
+          "rows": 374,
+          "reference_start": "1993-01",
+          "reference_end": "2024-02"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-03",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-brezen-2024",
+      "page_file": "raw/2024-03.html",
+      "page_sha256": "d590bb1ede91611efb7df9bd87ea186d7fe7f0bd8073538b399ed9720f591e7a",
+      "release_date": "2024-05-02",
+      "available_from": "2024-05-02T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/ca104301-46bc-67ef-fc68-94268ae92a40/nez050224_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.85 kB",
+          "raw_file": "raw/2024-03-sa.xlsx",
+          "sha256": "5e7490b4321dd13bb15245675f61086230e2c62f0254cfd7d55e072bfd76b0db",
+          "rows": 375,
+          "reference_start": "1993-01",
+          "reference_end": "2024-03"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-04",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-duben-2024",
+      "page_file": "raw/2024-04.html",
+      "page_sha256": "0e6a1ec0dfacac3a0a9dfe288c54c248ade78471a7a78484204b146529c8329e",
+      "release_date": "2024-05-31",
+      "available_from": "2024-05-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/ddfa8e27-61d6-f422-a7d0-e47acc67e91d/nez053124_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 70.48 kB",
+          "raw_file": "raw/2024-04-sa.xlsx",
+          "sha256": "ac2d15ef7a27ef68f3fa6743cb45c31c3f3a840f94904af1a94a6dab7f81d579",
+          "rows": 376,
+          "reference_start": "1993-01",
+          "reference_end": "2024-04"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-05",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-kveten-2024",
+      "page_file": "raw/2024-05.html",
+      "page_sha256": "6b585e5f19f17c4e3f1b0b7e7fd16c8f71806e9705b635abaa3a9d2f990f6284",
+      "release_date": "2024-07-01",
+      "available_from": "2024-07-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/29ec5c83-d3e5-9543-a5c6-5b0c4d4e4704/nez070124_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.05 kB",
+          "raw_file": "raw/2024-05-sa.xlsx",
+          "sha256": "268d7ee81b3b7178b1dd2096433c8b65ea459510ef60ce4b939dd7d07bd61393",
+          "rows": 377,
+          "reference_start": "1993-01",
+          "reference_end": "2024-05"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-06",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cerven-2024",
+      "page_file": "raw/2024-06.html",
+      "page_sha256": "656d5b71079a8cd044bf301e395aa725e9396d8113cc92856962560aa7646ac8",
+      "release_date": "2024-07-31",
+      "available_from": "2024-07-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/4de65d91-51c7-61dc-0098-0c5c8c92382d/nez073124_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.2 kB",
+          "raw_file": "raw/2024-06-sa.xlsx",
+          "sha256": "bd21d42c8687ecef4b710c5c4b4e60a68d6b56c43a0a699794d567f155d01d77",
+          "rows": 378,
+          "reference_start": "1993-01",
+          "reference_end": "2024-06"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-07",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cervenec-2024",
+      "page_file": "raw/2024-07.html",
+      "page_sha256": "bc442c0f59318a5bd565f4c652307f0efab126672212d55eadb6c4a8fad98658",
+      "release_date": "2024-09-02",
+      "available_from": "2024-09-02T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/34359027-6426-c33c-28ab-e5f3c60c1a54/nez090224_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.45 kB",
+          "raw_file": "raw/2024-07-sa.xlsx",
+          "sha256": "558475f714e7ee5b5d0e98362b075a3e038ddd3d18e7fb0c28e40c83ada33eda",
+          "rows": 379,
+          "reference_start": "1993-01",
+          "reference_end": "2024-07"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-08",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-srpen-2024",
+      "page_file": "raw/2024-08.html",
+      "page_sha256": "7b8b482f963a50646cf30f769cdcb874a718d5ee9cc468ddf9344bc2da71d886",
+      "release_date": "2024-10-01",
+      "available_from": "2024-10-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/ca3ca0e8-6f58-9017-9f79-e730bf78c73a/nez100124_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.44 kB",
+          "raw_file": "raw/2024-08-sa.xlsx",
+          "sha256": "d1cd780c19b11e07a2c9e9846f9934c1010bcd0263dd9464becec1ec515dfc29",
+          "rows": 380,
+          "reference_start": "1993-01",
+          "reference_end": "2024-08"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-09",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-zari-2024",
+      "page_file": "raw/2024-09.html",
+      "page_sha256": "1e38f416cf5d1008ea353199d5b969900e0055ac91c8b74ba34262d47bb40d60",
+      "release_date": "2024-10-31",
+      "available_from": "2024-10-31T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/6ad581c9-dd12-aada-1de5-b551284a6910/nez103124_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.55 kB",
+          "raw_file": "raw/2024-09-sa.xlsx",
+          "sha256": "7e6dd39bdabef61a374c77fd814167911af160d10ad0e21f42e91b0a9530b8e1",
+          "rows": 381,
+          "reference_start": "1993-01",
+          "reference_end": "2024-09"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-10",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-rijen-2024",
+      "page_file": "raw/2024-10.html",
+      "page_sha256": "dcbc43d9617bb05bc30ac6ad410af2936bbab9df912e3491131908ab68b5cf1f",
+      "release_date": "2024-12-02",
+      "available_from": "2024-12-02T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/92138b65-6df6-deda-261d-5d0c15355dc8/nez120224_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.55 kB",
+          "raw_file": "raw/2024-10-sa.xlsx",
+          "sha256": "2713c5dff6f4d07be742bbd3a5528967d9179e854eee238e211c1871c8988113",
+          "rows": 382,
+          "reference_start": "1993-01",
+          "reference_end": "2024-10"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-11",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-listopad-2024",
+      "page_file": "raw/2024-11.html",
+      "page_sha256": "327f726f0998a5298858587fd438bf37a612cdda437962ed33ede10c194f7d2d",
+      "release_date": "2025-01-07",
+      "available_from": "2025-01-07T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/e2964511-bb61-20de-9812-8688500240d5/nez010725_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.63 kB",
+          "raw_file": "raw/2024-11-sa.xlsx",
+          "sha256": "bb410f9596e25835a302898ae908af0c5821c190f53259e154ea54bf51b98c17",
+          "rows": 383,
+          "reference_start": "1993-01",
+          "reference_end": "2024-11"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2024-12",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-prosinec-2024",
+      "page_file": "raw/2024-12.html",
+      "page_sha256": "24f45643168b115241c21345043201f2eaba6bfd241d6b1ec2aec27d92551970",
+      "release_date": "2025-01-31",
+      "available_from": "2025-01-31T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/6733d33c-96a3-a8ce-5f3d-02b43b2c322e/nez013125_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.76 kB",
+          "raw_file": "raw/2024-12-sa.xlsx",
+          "sha256": "ae597acb0d3880e16e1190b1fc37c20e31618b9047ffedd194d99e56ed8dc604",
+          "rows": 384,
+          "reference_start": "1993-01",
+          "reference_end": "2024-12"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-01",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-leden-2025",
+      "page_file": "raw/2025-01.html",
+      "page_sha256": "a73e718d2e5ca73f89faca6aa93ebfd658771ab8374c3037e2b26faa8a1554c3",
+      "release_date": "2025-03-03",
+      "available_from": "2025-03-03T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/1984e271-a6ba-8778-c595-7b144689f604/nez030325_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 72.11 kB",
+          "raw_file": "raw/2025-01-sa.xlsx",
+          "sha256": "63c16acc344d4d926bbdceb8a1032c0d0e5cf6feb4e90691a2d3a75a6c56f294",
+          "rows": 385,
+          "reference_start": "1993-01",
+          "reference_end": "2025-01"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-02",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-unor-2025",
+      "page_file": "raw/2025-02.html",
+      "page_sha256": "87685f65831cd118d6fd852db358dbfcbc25de090e64e00cc0c45a36665610df",
+      "release_date": "2025-03-31",
+      "available_from": "2025-03-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/d603c845-04b2-56e7-737a-7b811ab95819/nez310325_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 71.99 kB",
+          "raw_file": "raw/2025-02-sa.xlsx",
+          "sha256": "8f3a596758ba709fc847f31030ade1d1988362ff0ba2d5f6899f1bfb7a539345",
+          "rows": 386,
+          "reference_start": "1993-01",
+          "reference_end": "2025-02"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-03",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-brezen-2025",
+      "page_file": "raw/2025-03.html",
+      "page_sha256": "b9a3cffc4c9d3ca41144039cebf46affd59010e9dbaab995820ee90d4fd86957",
+      "release_date": "2025-05-02",
+      "available_from": "2025-05-02T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/c27a5c00-cc0f-1be0-e4d5-fc788892902b/nez020525_1.xlsx?version=1.0",
+          "adjustment": "sa",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (očištěné od sezónních vlivů), soubor ve formátu XLSX, 72.19 kB",
+          "raw_file": "raw/2025-03-sa.xlsx",
+          "sha256": "4c092dfe727211abdcefbd65ae5d7318334b12b4f55d44391ce8e9f09f175962",
+          "rows": 387,
+          "reference_start": "1993-01",
+          "reference_end": "2025-03"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-04",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-duben-2025",
+      "page_file": "raw/2025-04.html",
+      "page_sha256": "98806f9a216ef45cae3a94c19a5816ba4e3534706dc38c5a8d170790ffd18b79",
+      "release_date": "2025-06-02",
+      "available_from": "2025-06-02T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/e89c91a6-88f5-2b90-c3e4-6f2a3455af26/nez020625_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 75.14 kB",
+          "raw_file": "raw/2025-04-trend_cycle.xlsx",
+          "sha256": "a3982a4f3ff0d82d16282fb5b4421f6595aedd2280e218a7d9cf9e7b4206e868",
+          "rows": 388,
+          "reference_start": "1993-01",
+          "reference_end": "2025-04"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/789d77b9-0d8e-753d-2523-d8bf771592aa/nez020625_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 75.44 kB",
+          "raw_file": "raw/2025-04-nsa.xlsx",
+          "sha256": "b3c22dd00b2062061105264665459aacde1aea50530a934e564013eacf1796f1",
+          "rows": 388,
+          "reference_start": "1993-01",
+          "reference_end": "2025-04"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-05",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-kveten-2025",
+      "page_file": "raw/2025-05.html",
+      "page_sha256": "d57e81efef7a45e5994fd5971eb676a6f1d147efc4c319a5423e57bebd504f60",
+      "release_date": "2025-07-01",
+      "available_from": "2025-07-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/65fb62c1-f786-da73-bd08-d384ecaf020f/nez070125_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 72.85 kB",
+          "raw_file": "raw/2025-05-trend_cycle.xlsx",
+          "sha256": "fad3d6cafa31760cf00357280bc7c6f86c1b311d554e0426dc35687128466a40",
+          "rows": 389,
+          "reference_start": "1993-01",
+          "reference_end": "2025-05"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/e7e6938d-fd75-b548-7338-b4f9df536d0d/nez070125_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 73.37 kB",
+          "raw_file": "raw/2025-05-nsa.xlsx",
+          "sha256": "3b370df7a2d1057b157064dadd94c25d5dd8cc7536417511dac331bd457bbb43",
+          "rows": 389,
+          "reference_start": "1993-01",
+          "reference_end": "2025-05"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-06",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cerven-2025",
+      "page_file": "raw/2025-06.html",
+      "page_sha256": "23915e16291c64f5f5caac872fb3cf7aaf498107a78748d3c4ad2d60732b6f1a",
+      "release_date": "2025-07-31",
+      "available_from": "2025-07-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/0e556d36-02ee-0a6f-bb5d-cc094e086c88/nez073125_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 73.15 kB",
+          "raw_file": "raw/2025-06-trend_cycle.xlsx",
+          "sha256": "42cb3427f7d8836d350915c30c0703a5692154b2db236d995f3fc228b1562188",
+          "rows": 390,
+          "reference_start": "1993-01",
+          "reference_end": "2025-06"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/b24e8df8-0512-0e38-55ab-489d3bd4f02f/nez073125_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 73.23 kB",
+          "raw_file": "raw/2025-06-nsa.xlsx",
+          "sha256": "154c1e06dd189270b8a45abe718353399fc8c1f910b7e9ea1636c956dd03a8f1",
+          "rows": 390,
+          "reference_start": "1993-01",
+          "reference_end": "2025-06"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-07",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cervenec-2025",
+      "page_file": "raw/2025-07.html",
+      "page_sha256": "5029fa82ce71de114d20e26b42ff4ad8e5f46860fef8a0bcdba64e1166e89a61",
+      "release_date": "2025-09-01",
+      "available_from": "2025-09-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/54c03fa6-2bd7-5624-3266-9b784e2482a6/nez090125_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 73.46 kB",
+          "raw_file": "raw/2025-07-trend_cycle.xlsx",
+          "sha256": "3332f89fb8740bf61b9a6b976bca9de7bfd6eb7f4e245dffe13ff59fe871bf8a",
+          "rows": 391,
+          "reference_start": "1993-01",
+          "reference_end": "2025-07"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/f5fe3227-0bb1-159e-c221-94dd9652a96e/nez090125_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 73.36 kB",
+          "raw_file": "raw/2025-07-nsa.xlsx",
+          "sha256": "7db607530eedfc5023b4e0377a0fe4a8461a0a6b8b03363af1bac19e7baffde7",
+          "rows": 391,
+          "reference_start": "1993-01",
+          "reference_end": "2025-07"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-08",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-srpen-2025",
+      "page_file": "raw/2025-08.html",
+      "page_sha256": "1a3c55d114fa37ec1338a43f9ddfca7943aa683872c0772d7a39a8e8b1ee66e2",
+      "release_date": "2025-10-01",
+      "available_from": "2025-10-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/2ee3a0d1-eee9-0c73-1588-fbdae861b5ad/nez100125_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 73.61 kB",
+          "raw_file": "raw/2025-08-trend_cycle.xlsx",
+          "sha256": "f66cc6052cd041e2b718145e0866cd57435b8c1b56d31f818a02c632ce4e0c26",
+          "rows": 392,
+          "reference_start": "1993-01",
+          "reference_end": "2025-08"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/bc0d6b65-d4ec-6e9d-2ef9-6a79fcfb0290/nez100125_2.xlsx?version=2.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 73.8 kB",
+          "raw_file": "raw/2025-08-nsa.xlsx",
+          "sha256": "2741e6aac67fbdc015d2f4f0d90d66f6efa40fd57bf11e553d2458ddb701f75c",
+          "rows": 392,
+          "reference_start": "1993-01",
+          "reference_end": "2025-08"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-09",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-zari-2025",
+      "page_file": "raw/2025-09.html",
+      "page_sha256": "f73631dab902326dab80aaa76bb23a89233a55eb8994d8de318843ab39dd2906",
+      "release_date": "2025-10-30",
+      "available_from": "2025-10-30T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/9adfa8dc-044b-3cb0-4fa9-79fd4a93d1b8/nez103025_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 73.38 kB",
+          "raw_file": "raw/2025-09-trend_cycle.xlsx",
+          "sha256": "7921a11e1581a3e30c2202b0bcf43944e0b0b4783a4e4415477ad514f1c15bd1",
+          "rows": 393,
+          "reference_start": "1993-01",
+          "reference_end": "2025-09"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/dabe0d0a-20ad-cc61-6276-a5517fbc56c5/nez103025_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 73.57 kB",
+          "raw_file": "raw/2025-09-nsa.xlsx",
+          "sha256": "5764f72745bc867f3af8e01ea3a4c628f952f35a9ddbb2ea6f377b7610e1f575",
+          "rows": 393,
+          "reference_start": "1993-01",
+          "reference_end": "2025-09"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-10",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-rijen-2025",
+      "page_file": "raw/2025-10.html",
+      "page_sha256": "bdf81afd49bc9115ec44fad7cecb867c955045ea78276e42de62077c3e4d4e01",
+      "release_date": "2025-12-01",
+      "available_from": "2025-12-01T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/9ee45808-126e-cd2a-3932-ced1ae463866/nez120125_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 73.23 kB",
+          "raw_file": "raw/2025-10-trend_cycle.xlsx",
+          "sha256": "8e609d302a459b3db03882727d03ebd10ad39c21bfdb4684ee805da0ce69a10d",
+          "rows": 394,
+          "reference_start": "1993-01",
+          "reference_end": "2025-10"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/5684a847-f3b9-5b8f-a69e-7f703178eb97/nez120125_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 73.41 kB",
+          "raw_file": "raw/2025-10-nsa.xlsx",
+          "sha256": "447647f56b1a1203555729c7983292d2f448bc324a7740f0e70ac1472c641fbe",
+          "rows": 394,
+          "reference_start": "1993-01",
+          "reference_end": "2025-10"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-11",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-listopad-2025",
+      "page_file": "raw/2025-11.html",
+      "page_sha256": "7646a0886a62cbfa88abd8ba9f35fa370ec128f0cdd19230964f4120e58871ed",
+      "release_date": "2026-01-08",
+      "available_from": "2026-01-08T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/18c8b0fa-c6d6-6304-3d11-52f3b2ff6734/nez010826_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 76.89 kB",
+          "raw_file": "raw/2025-11-trend_cycle.xlsx",
+          "sha256": "654954ca151eb5238f8cf555d14ca6e518b412069eed575b836365561ff09442",
+          "rows": 395,
+          "reference_start": "1993-01",
+          "reference_end": "2025-11"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/4cb1c4cc-6056-6786-df07-b53fef5d8490/nez010826_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 76.78 kB",
+          "raw_file": "raw/2025-11-nsa.xlsx",
+          "sha256": "4e677e22efc9dfbb836c7fff886cb2b8ef2958ad4b4aa5cdd3ac940b25f01871",
+          "rows": 395,
+          "reference_start": "1993-01",
+          "reference_end": "2025-11"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2025-12",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-prosinec-2025",
+      "page_file": "raw/2025-12.html",
+      "page_sha256": "60c2a7c4957564ac83a8f184cd3a4ea53c68ad04426397001741e0b17f87e331",
+      "release_date": "2026-01-30",
+      "available_from": "2026-01-30T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/3cc0265f-9d9c-079b-c29f-b4b11b157bb1/nez013026_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 76.7 kB",
+          "raw_file": "raw/2025-12-trend_cycle.xlsx",
+          "sha256": "e03040998072d63cc0762220666aa2ef728236164f842907aa6a7c2b13bce621",
+          "rows": 396,
+          "reference_start": "1993-01",
+          "reference_end": "2025-12"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/d0e5c7f5-ee1d-5c86-7a11-5aaaa614378c/nez013026_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 76.94 kB",
+          "raw_file": "raw/2025-12-nsa.xlsx",
+          "sha256": "6b3d76eea9fc3b69e9e7d082cf138cfae46b311196ef447bf3a0f53f6966daed",
+          "rows": 396,
+          "reference_start": "1993-01",
+          "reference_end": "2025-12"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2026-01",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-leden-2026",
+      "page_file": "raw/2026-01.html",
+      "page_sha256": "30d2916905fd8c46a8dc0f962abc1ea7928793e3939e23620625d16b2c5ba0d7",
+      "release_date": "2026-03-03",
+      "available_from": "2026-03-03T23:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/ba22f34a-1fca-4691-c026-6b240776f9f2/nez030326_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 77.51 kB",
+          "raw_file": "raw/2026-01-trend_cycle.xlsx",
+          "sha256": "f4ce0f4bd40b71b365c031f8f975415e893ee8862b5a9c869e63c93d98d0db62",
+          "rows": 397,
+          "reference_start": "1993-01",
+          "reference_end": "2026-01"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/daee5ddc-adc5-c4b9-5fcd-23203164b2b9/nez030326_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 77.19 kB",
+          "raw_file": "raw/2026-01-nsa.xlsx",
+          "sha256": "794373e9d224191a153982863f23f57023a5a6a0480b8d82fecb551275530779",
+          "rows": 397,
+          "reference_start": "1993-01",
+          "reference_end": "2026-01"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2026-02",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-unor-2026",
+      "page_file": "raw/2026-02.html",
+      "page_sha256": "6989691e81484669f08718795be654db696728882c401a27ca415c416d6ba0c7",
+      "release_date": "2026-03-31",
+      "available_from": "2026-03-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/45ccab85-7d0c-2181-47ec-b342d3af99f9/nez033126_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 74.56 kB",
+          "raw_file": "raw/2026-02-trend_cycle.xlsx",
+          "sha256": "2ed6492438d9b35e97242170c341a6ead9cabd681817974b8b5b679fc4ed78a0",
+          "rows": 398,
+          "reference_start": "1993-01",
+          "reference_end": "2026-02"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/333eeb75-ce87-47cf-70d2-e35daddb2de7/nez033126_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 77.32 kB",
+          "raw_file": "raw/2026-02-nsa.xlsx",
+          "sha256": "11898d9857871302e748875eb8a1a6e053dbd601805e6e7dc3f5558d22068e21",
+          "rows": 398,
+          "reference_start": "1993-01",
+          "reference_end": "2026-02"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2026-03",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-brezen-2026",
+      "page_file": "raw/2026-03.html",
+      "page_sha256": "2811f340e2d1947b032aa605fd6641a8038fe3ce2b7e912e2557b7ddd5f6d560",
+      "release_date": "2026-04-30",
+      "available_from": "2026-04-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/b66d45fc-be91-a444-8cf8-54372d1e63b0/nez043026_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 74.72 kB",
+          "raw_file": "raw/2026-03-trend_cycle.xlsx",
+          "sha256": "c1dbfef88cff7ada59101f13d0cf5697c847fb4f790d4c5064f261e40aefcd5f",
+          "rows": 399,
+          "reference_start": "1993-01",
+          "reference_end": "2026-03"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/b0d6b944-858b-edf8-da91-1b8a614ff12a/nez043026_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 75.21 kB",
+          "raw_file": "raw/2026-03-nsa.xlsx",
+          "sha256": "fc4bfc93a6e1bfc9de64f628e237bee85dd33ef59ede0b63368d90b2e7198f31",
+          "rows": 399,
+          "reference_start": "1993-01",
+          "reference_end": "2026-03"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2026-04",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-duben-2026",
+      "page_file": "raw/2026-04.html",
+      "page_sha256": "983e6e6128b838507d36084a67fcbae10bd18abd6db1d8a3288854944708a643",
+      "release_date": "2026-06-01",
+      "available_from": "2026-06-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/0791fb4a-de02-1047-309a-5a95f76a46b9/nez060126_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 74.59 kB",
+          "raw_file": "raw/2026-04-trend_cycle.xlsx",
+          "sha256": "0dff7aae75dc1cbc53c519f9aa2c1ca6b6ac3a007a1ea7c6f1267f66f9847f60",
+          "rows": 400,
+          "reference_start": "1993-01",
+          "reference_end": "2026-04"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/b32dc005-f67d-9c14-6b41-297293e00352/nez060126_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 74.81 kB",
+          "raw_file": "raw/2026-04-nsa.xlsx",
+          "sha256": "dcc9e9d1f25adb796aa99c849df044b196bacd4c27a7ac1d58ccb4c95cada41d",
+          "rows": 400,
+          "reference_start": "1993-01",
+          "reference_end": "2026-04"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2026-05",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-kveten-2026",
+      "page_file": "raw/2026-05.html",
+      "page_sha256": "f78c81761795111caf2a47f666290c590d17c374381e25c1815603c4cdcf1b34",
+      "release_date": "2026-07-01",
+      "available_from": "2026-07-01T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/36bb66b1-aa15-1e9b-04fc-1093433f8fee/nez070126_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 75.06 kB",
+          "raw_file": "raw/2026-05-trend_cycle.xlsx",
+          "sha256": "9ff22c7cf16b542073e813249857a10e0966ac2d8d543f0ad33527eca04b5077",
+          "rows": 401,
+          "reference_start": "1993-01",
+          "reference_end": "2026-05"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/355d8d20-5d21-63cc-e4a4-5f224600ad2c/nez070126_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 75.25 kB",
+          "raw_file": "raw/2026-05-nsa.xlsx",
+          "sha256": "843cd4774ced10b34b6ae60cd50f2a8a3c612d2f2199d640a5577866c6ba082d",
+          "rows": 401,
+          "reference_start": "1993-01",
+          "reference_end": "2026-05"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2026-06",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cerven-2026",
+      "page_file": "raw/2026-06.html",
+      "page_sha256": "23d692fa7ba53c3860a785550acbbd3b59f7a76a12ed669ea9189b053490991f",
+      "release_date": "2026-07-30",
+      "available_from": "2026-07-30T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/6fed2b41-6de7-bdbb-5d6a-b29082a1583f/nez073026_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 75.28 kB",
+          "raw_file": "raw/2026-06-trend_cycle.xlsx",
+          "sha256": "8efb9299fd4ac27e2c9c808d58a39e8d459b7946cbb91d6aca7ef46f0a42c337",
+          "rows": 402,
+          "reference_start": "1993-01",
+          "reference_end": "2026-06"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/a594a327-7f4c-6456-a8c7-9bb32ee94f45/nez073026_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 75.54 kB",
+          "raw_file": "raw/2026-06-nsa.xlsx",
+          "sha256": "e554da8694e882a77a59f9636fbd3ec0fe14c2aaaf63a855c8523747266e21f7",
+          "rows": 402,
+          "reference_start": "1993-01",
+          "reference_end": "2026-06"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "reference_release": "2026-07",
+      "source": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-cervenec-2026",
+      "page_file": "raw/2026-07.html",
+      "page_sha256": "5dfacfbf37ee2435d455c5264256077c43fbf23c77c224d87fed2c00e67d5ef9",
+      "release_date": "2026-08-31",
+      "available_from": "2026-08-31T22:00:00+00:00",
+      "availability_precision": "date_only_next_local_midnight",
+      "tables": [
+        {
+          "source": "https://csu.gov.cz/docs/107532/06ec1925-6939-140c-1a0a-0c82ae311a8c/nez083126_1.xlsx?version=1.0",
+          "adjustment": "trend_cycle",
+          "label": "Tab. 1 Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (trendcyklus), soubor ve formátu XLSX, 75.31 kB",
+          "raw_file": "raw/2026-07-trend_cycle.xlsx",
+          "sha256": "f581a34d6f24d2da341d518545bc469c6957a6e34be137d9d638735dc9075133",
+          "rows": 403,
+          "reference_start": "1993-01",
+          "reference_end": "2026-07"
+        },
+        {
+          "source": "https://csu.gov.cz/docs/107532/462e072c-5e3e-343a-db04-2a440e9146da/nez083126_2.xlsx?version=1.0",
+          "adjustment": "nsa",
+          "label": "Tab. 2   Míra zaměstnanosti, nezaměstnanosti a ekonomické aktivity (neočištěná), soubor ve formátu XLSX, 75.53 kB",
+          "raw_file": "raw/2026-07-nsa.xlsx",
+          "sha256": "3d90bef839460c5e3bd81de31c82a12137dcd98e22b441bca2181671c16c4a5d",
+          "rows": 403,
+          "reference_start": "1993-01",
+          "reference_end": "2026-07"
+        }
+      ],
+      "status": "ok"
+    }
+  ],
+  "limitation": "Historical release attachments recovered today; retained source page dates and raw hashes. Intraday time not verified. NSA history is never backdated before its actual publication."
+}

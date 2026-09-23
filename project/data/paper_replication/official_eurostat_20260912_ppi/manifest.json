@@ -1,0 +1,36 @@
+{
+  "source": "Eurostat dissemination API, JSON-stat 2.0",
+  "base_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/",
+  "vintage_status": "current vintage at retrieval; not a historical publication archive",
+  "started_at": "2026-09-12T10:07:05.963174+00:00",
+  "queries": {
+    "sts_inppd_m_cz": {
+      "dataset": "sts_inppd_m",
+      "params": {
+        "geo": "CZ",
+        "nace_r2": [
+          "B-E36",
+          "B",
+          "C",
+          "D",
+          "E36"
+        ],
+        "unit": [
+          "I21",
+          "PCH_SM"
+        ]
+      },
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_inppd_m?geo=CZ&nace_r2=B-E36&nace_r2=B&nace_r2=C&nace_r2=D&nace_r2=E36&unit=I21&unit=PCH_SM",
+      "retrieved_at": "2026-09-12T10:07:05.963190+00:00",
+      "dataset_updated": "2026-09-11T11:00:00+0200",
+      "label": "Producer prices in industry, domestic market - monthly data",
+      "rows": 4330,
+      "raw_sha256": "f944cccba13b4377da71db6de7f2b68274ed5463904f9d375b054b75d34d8d70",
+      "tidy_sha256": "017a6b56214aa4ecc7dca12a8da6808361b2377a72666ab08ce547547adfac66"
+    }
+  },
+  "errors": [],
+  "completed_at": "2026-09-12T10:07:08.077452+00:00",
+  "status": "complete",
+  "module_sha256": "89cfdf45e509ab165bb3986b94b5af09fef24b9b9ebd4fbd2b395ed2c6ca6b07"
+}

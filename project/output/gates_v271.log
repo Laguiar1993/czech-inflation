@@ -1,0 +1,72 @@
+rows v27 90 new 90 | new columns: ['STRUCT_PE_WARM_NOANN', 'STRUCT_PEH_WARM_NOANN', 'adm_pred_N_eve', 'STRUCT_NOANN_EVE', 'STRUCT_PE_WARM_NOANN_EVE', 'STRUCT_PEH_WARM_NOANN_EVE']
+origins with any numeric change vs v2.7: ['2021-12', '2022-01', '2023-01', '2023-02', '2023-03', '2023-04', '2023-05', '2023-06', '2023-07', '2023-08', '2023-09', '2023-10', '2023-11', '2023-12', '2024-01']
+  2021-12: 1 columns changed: ['STRUCT_H1']
+     STRUCT_H1              v27 +4.7263 -> v271 +4.6641  (delta -0.0622)
+  2022-01: 18 columns changed: ['STRUCT', 'STRUCT_QRF', 'STRUCT_ST', 'STRUCT_PE', 'STRUCT_PEH', 'STRUCT_PE_WARM', 'STRUCT_PEH_WARM', 'STRUCT_PRE', 'STRUCT_PE_PRE', 'adm_pred', 'STRUCT_EVE', 'STRUCT_QRF_EVE', 'STRUCT_PE_EVE', 'STRUCT_PE_WARM_EVE', 'STRUCT_PEH_WARM_EVE', 'adm_pred_eve'] ...
+     STRUCT                 v27 +4.4149 -> v271 +4.3426  (delta -0.0723)
+     STRUCT_EVE             v27 +4.4188 -> v271 +4.3466  (delta -0.0723)
+     STRUCT_PE_WARM         v27 +4.6470 -> v271 +4.5747  (delta -0.0723)
+     STRUCT_PE_WARM_EVE     v27 +4.6510 -> v271 +4.5787  (delta -0.0723)
+     STRUCT_PEH_WARM_EVE    v27 +4.5349 -> v271 +4.4626  (delta -0.0723)
+     adm_pred               v27 +24.1000 -> v271 +23.5764  (delta -0.5236)
+     adm_pred_eve           v27 +24.1000 -> v271 +23.5764  (delta -0.5236)
+     band_hi                v27 +4.9793 -> v271 +4.9070  (delta -0.0723)
+  2023-01: 18 columns changed: ['STRUCT', 'STRUCT_QRF', 'STRUCT_ST', 'STRUCT_PE', 'STRUCT_PEH', 'STRUCT_PE_WARM', 'STRUCT_PEH_WARM', 'STRUCT_PRE', 'STRUCT_PE_PRE', 'adm_pred', 'STRUCT_EVE', 'STRUCT_QRF_EVE', 'STRUCT_PE_EVE', 'STRUCT_PE_WARM_EVE', 'STRUCT_PEH_WARM_EVE', 'adm_pred_eve'] ...
+     STRUCT                 v27 +5.3886 -> v271 +4.8323  (delta -0.5563)
+     STRUCT_EVE             v27 +5.4017 -> v271 +4.8454  (delta -0.5563)
+     STRUCT_PE_WARM         v27 +5.2500 -> v271 +4.6937  (delta -0.5563)
+     STRUCT_PE_WARM_EVE     v27 +5.2631 -> v271 +4.7068  (delta -0.5563)
+     STRUCT_PEH_WARM_EVE    v27 +5.3324 -> v271 +4.7761  (delta -0.5563)
+     adm_pred               v27 +28.0000 -> v271 +24.4279  (delta -3.5721)
+     adm_pred_eve           v27 +28.0000 -> v271 +24.4279  (delta -3.5721)
+     band_hi                v27 +6.0131 -> v271 +5.4569  (delta -0.5563)
+  2023-02: 1 columns changed: ['band_hi']
+     band_hi                v27 +1.1350 -> v271 +1.1980  (delta +0.0630)
+  2023-03: 1 columns changed: ['band_hi']
+     band_hi                v27 +0.8873 -> v271 +0.9477  (delta +0.0605)
+  2023-04: 1 columns changed: ['band_hi']
+     band_hi                v27 +1.1691 -> v271 +1.2270  (delta +0.0579)
+  2023-05: 1 columns changed: ['band_hi']
+     band_hi                v27 +0.8645 -> v271 +0.9198  (delta +0.0553)
+  2023-06: 1 columns changed: ['band_hi']
+     band_hi                v27 +0.5996 -> v271 +0.6524  (delta +0.0527)
+  2023-07: 1 columns changed: ['band_hi']
+     band_hi                v27 +0.9338 -> v271 +0.9839  (delta +0.0502)
+  2023-08: 1 columns changed: ['band_hi']
+     band_hi                v27 +1.0481 -> v271 +1.0957  (delta +0.0476)
+  2023-09: 1 columns changed: ['band_hi']
+     band_hi                v27 +0.3790 -> v271 +0.5031  (delta +0.1241)
+  2023-10: 1 columns changed: ['band_hi']
+     band_hi                v27 +1.0240 -> v271 +1.1456  (delta +0.1216)
+  2023-11: 1 columns changed: ['band_hi']
+     band_hi                v27 +0.7257 -> v271 +0.8448  (delta +0.1190)
+  2023-12: 1 columns changed: ['band_hi']
+     band_hi                v27 +0.5411 -> v271 +0.6576  (delta +0.1165)
+  2024-01: 1 columns changed: ['band_hi']
+     band_hi                v27 +1.6147 -> v271 +1.7287  (delta +0.1140)
+
+G1 non-administered columns identical to v2.7: max|diff| 5.56e-01 -> FAILED  (columns: 18)
+G2 STRUCT_NOANN identical to v2.7: max|diff| 0.00e+00 -> MET
+G3 STRUCT_NOANN_EVE           == v2.6 STRUCT_EVE          : max|diff| 0.00e+00 -> MET
+G3 STRUCT_PE_WARM_NOANN_EVE   == v2.6 STRUCT_PE_WARM_EVE  : max|diff| 0.00e+00 -> MET
+G3 STRUCT_PEH_WARM_NOANN_EVE  == v2.6 STRUCT_PEH_WARM_EVE : max|diff| 0.00e+00 -> MET
+G3 STRUCT_PE_WARM_NOANN       == v2.6 STRUCT_PE_WARM      : max|diff| 0.00e+00 -> MET
+G3 STRUCT_PEH_WARM_NOANN      == v2.6 STRUCT_PEH_WARM     : max|diff| 0.00e+00 -> MET
+G4a changes confined to 2021-12 h1, 2022-01, 2023-01 and band_hi rows: MET
+G4b 2022-01 month-end  : shifts [np.float64(-0.0723), np.float64(-0.0723), np.float64(-0.0723), np.float64(-0.0723), np.float64(-0.0723), np.float64(-0.0723), np.float64(-0.0723)] spread 8.88e-16 (expected about -0.072) -> MET
+G4b 2022-01 release-eve: shifts [np.float64(-0.0723), np.float64(-0.0723), np.float64(-0.0723), np.float64(-0.0723), np.float64(-0.0723)] spread 8.88e-16 (expected about -0.072) -> MET
+G4b 2023-01 month-end  : shifts [np.float64(-0.5563), np.float64(-0.5563), np.float64(-0.5563), np.float64(-0.5563), np.float64(-0.5563), np.float64(-0.5563), np.float64(-0.5563)] spread 0.00e+00 (expected about -0.556) -> MET
+G4b 2023-01 release-eve: shifts [np.float64(-0.5563), np.float64(-0.5563), np.float64(-0.5563), np.float64(-0.5563), np.float64(-0.5563)] spread 0.00e+00 (expected about -0.556) -> MET
+
+BOARD (release eve, 90 first releases): all 90 / January / ex-January / 2024+ / big-MAE / W-L@0.15
+  survey                 0.382 / 0.398 / 0.380 / 0.241 / 0.578 / 0-0
+  BASE_RIDGE v2.7.1      0.420 / 0.575 / 0.404 / 0.217 / 0.506 / 7-1
+    gate closed          0.729 / 2.213 / 0.404 / 0.214 / 0.642 / 6-2
+  PAST_FULL v2.7.1       0.421 / 0.620 / 0.399 / 0.230 / 0.479 / 10-3
+    gate closed          0.726 / 2.211 / 0.399 / 0.228 / 0.600 / 9-4
+  PAST_HALF v2.7.1       0.415 / 0.594 / 0.396 / 0.220 / 0.490 / 8-1
+    gate closed          0.724 / 2.211 / 0.396 / 0.218 / 0.621 / 7-2
+
+January 2022 / 2023, release eve: print, survey, v2.7, v2.7.1, gate closed
+  2022-01: print 4.4  survey 3.8  v2.7 4.42  v2.7.1 4.35  gate closed 1.22  | PAST_HALF v2.7.1 4.46
+  2023-01: print 6.0  survey 5.8  v2.7 5.40  v2.7.1 4.85  gate closed 1.18  | PAST_HALF v2.7.1 4.78

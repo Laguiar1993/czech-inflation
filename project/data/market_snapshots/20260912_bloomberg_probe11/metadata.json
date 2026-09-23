@@ -1,0 +1,24 @@
+{
+  "USDCZK F143 Curncy": {
+    "name": "USD-CZK X-RATE",
+    "security_des": "USDCZK Curncy",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  },
+  "USDCZK BFIX Curncy": {
+    "name": "USD-CZK X-RATE",
+    "security_des": "USDCZK Curncy",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  },
+  "EUPPCZM Index": {
+    "name": "Eurostat PPI Czech Republic In",
+    "security_des": "Eurostat PPI Czech Republic In",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  }
+}

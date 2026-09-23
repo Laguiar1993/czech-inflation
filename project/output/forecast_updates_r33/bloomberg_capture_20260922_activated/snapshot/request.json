@@ -1,0 +1,48 @@
+{
+  "retrieved_at": "2026-09-22T17:26:32.536557+00:00",
+  "end_date": "2026-09-21",
+  "candidates": {
+    "headline": [
+      "CZCPMOM Index",
+      "CZCPYOY Index"
+    ],
+    "components": [
+      "CZCPFMOM Index",
+      "CZCPAMOM Index",
+      "CZCIXM Index",
+      "CZCIRM Index",
+      "CP7FCZ Index"
+    ],
+    "pipeline": [
+      "CZEIIMOM Index",
+      "CZPPA10M Index"
+    ],
+    "pumps": [
+      "ECOBETCZ Index",
+      "ECOBOTCZ Index"
+    ],
+    "fx": [
+      "EURCZK CNB Curncy"
+    ]
+  },
+  "reference_fields": [
+    "NAME",
+    "SECURITY_DES",
+    "INDX_SOURCE",
+    "SEASONALITY_AND_TRANSFORMATION",
+    "INDX_FREQ",
+    "LAST_UPDATE_DT",
+    "COUNTRY",
+    "DES_NOTES"
+  ],
+  "history": "PX_LAST; MONTHLY periodicity for Index tickers, DAILY for Govt",
+  "history_start": "2026-01-01",
+  "vintage_status": "Current-vintage download; not an original-vintage archive.",
+  "python_executable": "C:\\Users\\luis_\\anaconda3\\python.exe",
+  "versions": {
+    "xbbg": "0.7.7",
+    "blpapi": "3.25.5.1",
+    "pandas": "1.4.4"
+  },
+  "completed_at": "2026-09-22T17:26:40.547842+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "vectorized_turn_rows_verified": 5580,
+  "corrected_nowcast_parity_rows": 24,
+  "status": "pass",
+  "sources_unchanged": true,
+  "quarterly_actual_reconstruction_max_pp": 3.907985046680551e-14
+}

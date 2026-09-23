@@ -1,0 +1,20 @@
+........................................................................ [ 33%]
+........................................................................ [ 66%]
+........................................................................ [ 99%]
+.                                                                        [100%]
+============================== warnings summary ===============================
+test_independent_bridge_r9.py::test_expectation_poisoning_cannot_change_any_bridge_horizon
+  C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\statsmodels\tsa\x13.py:644: X13Warning: WARNING: Automatic transformation selection cannot be done on a
+            series with zero or negative values.
+    
+   WARNING: At least one visually significant seasonal peak has been found
+            in the estimated spectrum of the regARIMA residuals.
+    _check_errors(errors, rawspec)
+
+test_independent_bridge_r9.py::test_short_food_history_is_reported_as_failure_and_fallback
+  C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\statsmodels\tsa\x13.py:644: X13Warning: WARNING: Automatic transformation selection cannot be done on a
+            series with zero or negative values.
+    _check_errors(errors, rawspec)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+217 passed, 2 warnings in 18.43s

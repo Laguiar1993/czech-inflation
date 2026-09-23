@@ -1,0 +1,7 @@
+indicator_id,indicator_name,frequency_code,frequency_name,unit,unit_mult_code,unit_mult_name,set_id,base_id
+SFTP01M11,"2T repo sazba:Měsíční, Úrokové sazby ČNB, ke konci měsíce",M,Měsíční,procento,0,jednotky,,
+SFTP04M2206,"PRIBOR:Měsíční, Mezibankovní trh depozit domácí, měsíční průměr, 3 měsíce",M,Měsíční,procento,0,jednotky,,
+SMV5M108,"Peněžní agregáty:Měsíční, Stavy (zůstatek), M3 - Celkem",M,Měsíční,CZK,6,milióny,,
+SREERM101,"Reálný efektivní kurz koruny:Měsíční, Deflovaný cenovými indexy, V cenách průmyslových výrobců, Váhy: obrat zahraničního obchodu, 2020=100 - index",M,Měsíční,-,0,jednotky,,SREER
+SREERM103,"Reálný efektivní kurz koruny:Měsíční, Deflovaný cenovými indexy, Ve spotřebitelských cenách, Váhy: obrat zahraničního obchodu, 2020=100 - index",M,Měsíční,-,0,jednotky,,SREER
+SVSDM12,"Výnosy státních dluhopisů:Měsíční, Výnos desetiletého státního dluhopisu (maastrichtské kriterium), měsíční průměr",M,Měsíční,procento,0,jednotky,,

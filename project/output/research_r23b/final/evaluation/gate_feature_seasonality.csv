@@ -1,0 +1,15 @@
+feature,scope,n,reference_frequency,seasonal_variance_share
+ulc_sameq,all_origins,194,Q,0.0007975554972167176
+ulc_sameq,quarter_end_origins,65,Q,0.0010350946671031647
+tightening,all_origins,199,M,0.007623379495952931
+tightening,quarter_end_origins,66,M,0.004997165956989069
+import_mom,all_origins,199,M,0.013713598380146963
+import_mom,quarter_end_origins,66,M,0.009751702613694402
+ppi_mom,all_origins,199,M,0.06427949090046181
+ppi_mom,quarter_end_origins,66,M,0.06645639349292942
+fx_news,all_origins,199,M,0.044747428169789494
+fx_news,quarter_end_origins,66,M,0.016936571287673674
+import_gap,all_origins,185,M,0.0023801467519773967
+import_gap,quarter_end_origins,62,M,0.002090657471479518
+ppi_gap,all_origins,198,M,0.009512896278662142
+ppi_gap,quarter_end_origins,66,M,0.010787091163339535

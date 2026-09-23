@@ -1,0 +1,47 @@
+{
+  "retrieved_on": "2026-09-09",
+  "audit_recorded_at_utc": "2026-09-09T11:30:03Z",
+  "retrieval_timestamp_precision": "Tool captures identify this retrieval date; precise per-request timestamp was not recorded.",
+  "capture_format": "Web-tool text extraction, not original HTTP response bytes or historical archived vintage. SHA-256 hashes appear in ../manifest.json.",
+  "forecast_use": "Methodology/publication audit only. Numerical realised CPI figures in these pages are excluded from every R12 forecast input.",
+  "sources": [
+    {
+      "url": "https://csu.gov.cz/poznamka-ke-spotrebitelskym-cenam-energii-listopad-2021",
+      "snapshot": "czso_web_extracts_2026-09-09.json",
+      "establishes": "VAT treatment content: current applicable tariff including tax, independent of advance-payment timing; temporary remission treated as tax-rate change.",
+      "date_evidence": "Current page footer says updated 2021-12-09. This does not prove original publication time. No independently timestamped pre-release archive located in this bounded check.",
+      "availability_used": "2021-12-10T23:59:59Z, from dated release linking the note; conservative confirmation only."
+    },
+    {
+      "url": "https://csu.gov.cz/rychle-informace/consumer-price-indices-inflation-november-2021",
+      "snapshot": "czso_web_extracts_2026-09-09.json",
+      "establishes": "Dated 10 December 2021 release confirms the VAT price treatment and links the methodological note.",
+      "date_evidence": "Explicit publication date 2021-12-10; no intraday timestamp used.",
+      "availability_used": "2021-12-10T23:59:59Z"
+    },
+    {
+      "url": "https://csu.gov.cz/note-to-consumer-prices-of-energy-october-2022",
+      "snapshot": "czso_saving_methodology_extract_2026-09-09.json",
+      "establishes": "Saving-tariff subsidy divided equally over October-December and deducted at total-household electricity expenditure level. CPI uses constant quantities derived from relative weights. This is not a per-tariff proxy-household credit calculation.",
+      "date_evidence": "Current page footer says updated 2022-11-09, while later CZSO notes explicitly describe publication together with the October 2022 release. Footer is not proof of advance public availability.",
+      "availability_used": "2022-11-10T23:59:59Z, conservative documented release-day rule."
+    },
+    {
+      "url": "https://csu.gov.cz/note-to-consumer-prices-of-energy-october-2023",
+      "snapshot": "czso_saving_methodology_extract_2026-09-09.json",
+      "establishes": "Explicitly states the earlier methodology was published with the October 2022 release. Distinguishes saving-tariff expiry at December 2022 from POZE waiver expiry at December 2023.",
+      "date_evidence": "Retrospective evidence of original publication, not a historical forecast predictor.",
+      "availability_used": "Not used as a forecast input."
+    }
+  ],
+  "existing_archives_checked": [
+    {
+      "path": "data/announcement_sources/poze_waiver_2023/MPO_press_release_2022-06-23_valecny_balicek.md",
+      "role": "Dated June 2022 policy announcement says renewable-energy fee waiver extends from October through end of next year. Supports policy persistence, not CPI bill denominator."
+    },
+    {
+      "path": "data/announcement_sources/poze_waiver_2023/CZSO_note_energy_prices_January_2023_published_2023-02-10.md",
+      "role": "Existing source archive independently repeats that October 2022 methodology was published with that month's release and separates expiry dates. Numerical outcomes not imported into R12 forecasts."
+    }
+  ]
+}

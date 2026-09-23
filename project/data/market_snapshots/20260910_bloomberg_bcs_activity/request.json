@@ -1,0 +1,72 @@
+{
+  "retrieved_at": "2026-09-10T14:22:16.526815+00:00",
+  "end_date": "2026-09-09",
+  "field": "PX_LAST",
+  "tickers": {
+    "EUI6CZ Index": "production_observed_past3m",
+    "EUI1CZ Index": "production_expected_next3m",
+    "EUS1CZ Index": "services_business_situation_past3m",
+    "EUS2CZ Index": "services_demand_past3m",
+    "EUR1CZ Index": "retail_sales_past3m",
+    "EUB1CZ Index": "building_activity_past3m",
+    "EUB5F4CZ Index": "building_constraint_labour",
+    "EUB5F5CZ Index": "building_constraint_material_equipment",
+    "EUB5F6CZ Index": "building_constraint_other_diagnostic",
+    "EUB5F7CZ Index": "building_constraint_financial",
+    "EUCCCZ Index": "consumer_financial_situation_next12m",
+    "UMRTCZ Index": "unemployment_rate",
+    "CZRUSHIN Index": "rushin_weekly"
+  },
+  "historical_source": "Bloomberg Desktop API / xbbg.blp.bdh",
+  "history_options": {
+    "periodicitySelection": "DAILY",
+    "nonTradingDayFillOption": "ACTIVE_DAYS_ONLY"
+  },
+  "history_start": "2000-01-01; FX 1998-01-01",
+  "reference_fields": [
+    "NAME",
+    "SECURITY_DES",
+    "CRNCY",
+    "QUOTE_UNITS",
+    "INDX_SOURCE",
+    "DES_NOTES",
+    "PX_LAST",
+    "LAST_UPDATE_DT",
+    "LAST_UPDATE"
+  ],
+  "vintage_status": "Current-vintage historical download; not an original-vintage archive.",
+  "availability_rule": "Retrospective daily quotes assumed usable on next calendar day in Prague; no historical publication-time evidence.",
+  "live_quote_policy": "BDP PX_LAST may be intraday. Keep separate from BDH ending before pull day.",
+  "python_executable": "C:\\Users\\luis_\\anaconda3\\python.exe",
+  "versions": {
+    "xbbg": "0.7.7",
+    "blpapi": "3.25.5.1",
+    "pandas": "1.4.4"
+  },
+  "completed_at": "2026-09-10T14:22:25.911061+00:00",
+  "status": "complete",
+  "pending_tickers": {
+    "CZIPITN Index": "industrial_production_level_nsa",
+    "CZGRIDX Index": "building_permits_raw_candidate",
+    "LCTQCZI Index": "nominal_ulc_quarterly",
+    "LCTOCZI Index": "nominal_ulc_annual_benchmark",
+    "EUS3CZ Index": "services_demand_expectations_next3m",
+    "EUB3CZ Index": "construction_employment_expectations",
+    "GRCPHCPI Index": "germany_hicp_level_candidate",
+    "UMRTDE Index": "germany_unemployment_candidate",
+    "CZEII Index": "czech_import_price_level_candidate",
+    "LONSCZNF Index": "nfc_loans_bloomberg_candidate"
+  },
+  "notes": [
+    "The prior CZIPITWY Index capture was removed because Bloomberg identifies it as WDA YoY, not a fixed-base level.",
+    "CZIPITN Index is the selected replacement and has not yet been pulled; verify Bloomberg metadata before use.",
+    "CZGRIDX Index was supplied by the user for Czech building permits; do not assume its unit or cumulative status until BDP metadata and history are checked. Preserve raw observations first; if it is a Jan-to-date cumulative count, difference within calendar year to obtain monthly counts.",
+    "LCTQCZI Index is the selected quarterly nominal-ULC input; LCTOCZI Index is retained as an annual benchmark. Neither has been pulled in this snapshot.",
+    "EUS3CZ Index is the user-supplied candidate for services demand expectations over the next three months; Bloomberg's month-ahead wording is treated as a legacy label pending BDP verification.",
+    "EUB3CZ Index is the user-supplied candidate for construction employment expectations; verify BDP long name, SA flag, balance units, frequency and release timing before use.",
+    "GRCPHCPI Index is the user-supplied candidate for Germany all-items HICP. Verify that BDP describes a monthly index level, not a rate or an ex-item aggregate; check coverage back to the paper start and release timing before use.",
+    "UMRTDE Index is the user-supplied candidate for the Eurostat Germany unemployment rate, analogous to UMRTCZ Index. Verify total age 15-74, SA percent, monthly frequency and release timing; the paper uses the level (T0).",
+    "CZEII Index is the user-supplied candidate for the Czech import-price index. The mnemonic alone is not sufficient: verify that it is the total monthly raw index level (not an import-price rate, export price, terms of trade or trade-flow series) and compare log changes with CZSO before use.",
+    "LONSCZNF Index is the user-supplied candidate for the Czech NFC loan balance. Verify outstanding stock versus new lending, Czech-resident NFC coverage, bank/MFI perimeter, CNB inclusion, monthly month-end frequency, nominal level units, seasonal-adjustment status and history before comparing it with the ARAD VST total."
+  ]
+}

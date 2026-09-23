@@ -1,0 +1,13 @@
+model_input,reference,ticker,transform,first,last,n,corr,mean_abs_gap,max_abs_gap,max_gap_at,share_within_tol,tol,verdict
+"ARAD non-tradables excl. regulated prices, y/y (SCPICLEM03YOYPECNA)",data/core_split (R10 package),CPSVCZY Index,"HICP services, published y/y",2003-01,2026-07,283,0.9033,0.9307,4.3,2023-08,0.141,0.1,different
+"ARAD non-tradables excl. regulated prices, y/y (SCPICLEM03YOYPECNA)",data/core_split (R10 package),OECZGSJM Index,"OECD services less housing, y/y from level",2003-01,2018-05,185,0.7888,0.931,3.7735,2007-04,0.065,0.1,different
+"ARAD other tradables excl. food and fuel, y/y (SCPICLEM02YOYPECNA)",data/core_split (R10 package),CPNGCZYY Index,"HICP non-energy industrial goods, published y/y",2003-01,2026-07,283,0.9945,0.6714,2.2,2022-09,0.191,0.1,close
+CZSO catering (111) m/m,data/core_split (R10 package),CP1SCZ Index,"HICP catering, m/m from level",2015-02,2026-07,138,0.9979,0.0281,0.2183,2016-12,0.978,0.1,identical
+CZSO catering (111) m/m,data/core_split (R10 package),CP1SCZMM Index,"HICP catering, published m/m",2015-02,2026-07,138,0.997,0.0342,0.2681,2016-12,0.964,0.1,identical
+CZSO accommodation (112) m/m,data/core_split (R10 package),CP1ACZ Index,"HICP accommodation, m/m from level",2015-02,2026-07,138,0.917,0.456,2.3811,2015-11,0.232,0.1,different
+CZSO accommodation (112) m/m,data/core_split (R10 package),CP1ACZMM Index,"HICP accommodation, published m/m",2015-02,2026-07,138,0.917,0.4554,2.4027,2015-11,0.254,0.1,different
+CZSO actual rent (041) m/m,data/core_split (R10 package),CP41CZ Index,"HICP actual rentals, m/m from level",2015-02,2026-07,138,0.9921,0.0304,0.0947,2016-11,1.0,0.1,identical
+CZSO actual rent (041) m/m,data/core_split (R10 package),CP41CZMM Index,"HICP actual rentals, published m/m",2015-02,2026-07,138,0.9861,0.037,0.1189,2024-11,0.964,0.1,identical
+CZSO actual rent (041) m/m,data/core_split (R10 package),OECZGSHA Index,"OECD services rent, m/m from level",2015-02,2018-05,40,0.4855,0.1302,0.4837,2016-12,0.6,0.1,different
+CZSO package holidays (098) m/m,data/core_split (R10 package),CP96CZ Index,"HICP package holidays, m/m from level",2015-02,2026-07,138,1.0,0.0344,0.1208,2017-11,0.964,0.1,identical
+CZSO package holidays (098) m/m,data/core_split (R10 package),CP96CZMM Index,"HICP package holidays, published m/m",2015-02,2026-07,138,1.0,0.0434,0.1649,2017-11,0.935,0.1,close

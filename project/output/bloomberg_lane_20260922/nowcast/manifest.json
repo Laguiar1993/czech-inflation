@@ -1,0 +1,29 @@
+{
+ "created_at_utc": "2026-09-22T13:10:40.062433+00:00",
+ "bundle": "data\\bloomberg_inputs_20260922",
+ "bundle_manifest": "aa7b0acf3902456283c37e4d2e0d1c49873485c6cc1a471a9c47acee7306c44b",
+ "inputs": {
+  "forecasts": "77ac26bc05906616a07d8f4b33ab6f2eb10b97141295022e172d53461f3e6e98",
+  "evidence": "ea4ffcb4b83d0ae05dcf16e55c35fc7d7b0ba12d79566546868ab6f338c1b4a5"
+ },
+ "runtime": {
+  "python": "3.12.14",
+  "packages": {
+   "numpy": "2.5.2",
+   "pandas": "3.0.1",
+   "scipy": "1.18.1",
+   "scikit-learn": "1.9.0",
+   "statsmodels": "0.15.0",
+   "quantile-forest": "1.4.2"
+  },
+  "x13_sha256": "2e43194361ee096797f0431765193c316196ea6776f11535e76281a413d49669"
+ },
+ "code": "d0c4a015c9012d2c65398d5956b8f8d09a77190775da9fe87ce169d3786afe48",
+ "outputs": {
+  "comparison.csv": "9be6778a5edbef0385f5c0c3589aaa20323e18851fbe56e10e0374b4c24fc479",
+  "run_variant_A.csv": "a97e207c4be89712e95670237db1593d3c696aad707728b0ea9f77c731d8cb39",
+  "run_variant_B.csv": "45e3e364e468da8de92274063bb4f7a0c96ffbbaa746b7577bc0b2ccf580a476",
+  "scores.csv": "e7b000117e148732c98d96f6bd5041bc37cf79ebe684e6e467a00e7813ebf55f",
+  "summary.json": "8f42a4b6cabcfe823108560f7e134d962fd2e5386456ea1891d9f8fcf9212fd7"
+ }
+}

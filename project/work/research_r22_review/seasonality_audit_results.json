@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "Full and evaluation output hashes unchanged",
+    "Direct forecast log minus R22 season matches transform then subtract R15 season",
+    "Independently reproduced all 1800 diagnostic event rows",
+    "Actual turn labels/eligibility and all control predictions unchanged",
+    "Same 159 eligible origin/bands and 77 actual turns per model",
+    "Every sustained-movement summary independently reproduced",
+    "Metadata frequency, source sample and transformed sample independently checked for all 12 variables"
+  ],
+  "max_log_arithmetic_error": 5.551115123125783e-16,
+  "headline_counts": {
+    "JOINT_LINEAR_R22": {
+      "predicted_turns": 0,
+      "exact_band_hits": 0,
+      "false_turns": 0
+    },
+    "JOINT_RF_R22": {
+      "predicted_turns": 1,
+      "exact_band_hits": 1,
+      "false_turns": 0
+    },
+    "JOINT_ENET_R22": {
+      "predicted_turns": 57,
+      "exact_band_hits": 9,
+      "false_turns": 48
+    }
+  }
+}

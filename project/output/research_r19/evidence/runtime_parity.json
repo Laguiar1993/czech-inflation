@@ -1,0 +1,67 @@
+{
+  "old_run": "output\\runs\\20260909T083745Z_98fbb1c9",
+  "new_run": "output\\research_r19\\engine_runs\\20260915T075041Z_1152348c",
+  "old_runtime": {
+    "python": "3.14.3",
+    "packages": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.8.0",
+      "statsmodels": "0.14.6",
+      "quantile-forest": "1.4.2"
+    },
+    "x13_sha256": "2e43194361ee096797f0431765193c316196ea6776f11535e76281a413d49669"
+  },
+  "new_runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.5.2",
+      "pandas": "3.0.1",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.0",
+      "statsmodels": "0.15.0",
+      "quantile-forest": "1.4.2"
+    },
+    "x13_sha256": "2e43194361ee096797f0431765193c316196ea6776f11535e76281a413d49669"
+  },
+  "frame_checks": {
+    "headline": true,
+    "components": true,
+    "core": true,
+    "regulated": true,
+    "alcohol": true,
+    "features": true,
+    "food_features": true,
+    "weekly_fuel": true
+  },
+  "source_checks": {
+    "config.py": true,
+    "cz_struct.py": true,
+    "forecast_independent.py": true,
+    "models/independent_nowcast.py": true,
+    "models/horizon_models.py": true
+  },
+  "error_history_checks": {
+    "hard": true,
+    "sentiment": true
+  },
+  "points": {
+    "HARD_BASE": {
+      "old": 0.44767252748945857,
+      "new": 0.44767252748945857,
+      "difference_pp": 0.0
+    },
+    "HARD_HALF": {
+      "old": 0.5124477950466728,
+      "new": 0.5132278279728654,
+      "difference_pp": 0.0007800329261925532
+    },
+    "HARD_FULL": {
+      "old": 0.577223062603887,
+      "new": 0.5787831284562722,
+      "difference_pp": 0.0015600658523852173
+    }
+  },
+  "verdict": "Same relevant frames, core errors and numerical source; changed runtime is a plausible explanation, not a package-by-package causal isolation. New-runtime offline replay matched all six points to the engine tolerance of 1e-10."
+}

@@ -1,0 +1,14 @@
+{
+ "ROSTER_R27_max_abs_gap_vs_run": 0.0,
+ "R24_PATH_max_abs_gap_vs_run": 0.0,
+ "FAST_max_abs_gap_vs_run": 0.0,
+ "CORE_PHASE_R29B_max_abs_gap_vs_run": 0.0,
+ "swap_arithmetic_reproduces_roster_export_max_abs_gap": 3.552713678800501e-15,
+ "rounds": {
+  "mae": 0.0,
+  "gap": 7.105427357601002e-15,
+  "n_mae": 180,
+  "n_gap": 1520
+ },
+ "board_max_abs_gap_vs_evaluation": 0.0
+}

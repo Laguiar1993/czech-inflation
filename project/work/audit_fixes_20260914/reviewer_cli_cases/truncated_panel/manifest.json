@@ -1,0 +1,118 @@
+{
+  "tool": "paper_tvwqrf_experiment",
+  "created_at": "2026-09-14T08:58:32.873893+00:00",
+  "arguments": {
+    "convention": "realtime",
+    "policy": "full",
+    "horizons": "[1]",
+    "first_edge": "2010-12",
+    "last_target": "2011-03",
+    "jobs": "1",
+    "lqr": "False",
+    "forest": "{\"n_estimators\": 3}",
+    "panel_dir": "work\\audit_fixes_20260914\\reviewer_cli_cases\\panel",
+    "output": "work\\audit_fixes_20260914\\reviewer_cli_cases\\truncated_panel",
+    "limit_edges": "None",
+    "include_month": "False",
+    "tmh_benchmarks": "False",
+    "drop_rows": "[]"
+  },
+  "horizons": [
+    1
+  ],
+  "edges": [
+    "2010-12",
+    "2011-02"
+  ],
+  "tasks": 13,
+  "last_target": "2011-03",
+  "features": [
+    "a6_11",
+    "a6_12"
+  ],
+  "forest": {
+    "n_estimators": 3,
+    "min_samples_leaf": 5,
+    "max_features": 0.3333333333333333,
+    "bootstrap": true,
+    "random_state": 42,
+    "n_jobs": 1
+  },
+  "validation_window": 12,
+  "half_life": 6.0,
+  "schemes": {
+    "TVW1": [
+      [
+        0.25,
+        0.5,
+        0.75
+      ],
+      [
+        0.2,
+        0.4,
+        0.2
+      ],
+      [
+        0.4,
+        0.6,
+        0.4
+      ]
+    ],
+    "TVW2": [
+      [
+        0.3333333333333333,
+        0.5,
+        0.6666666666666666
+      ],
+      [
+        0.2,
+        0.3,
+        0.2
+      ],
+      [
+        0.4,
+        0.5,
+        0.4
+      ]
+    ],
+    "TVW3": [
+      [
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9
+      ],
+      [
+        0.0,
+        0.15,
+        0.3,
+        0.15,
+        0.0
+      ],
+      [
+        0.15,
+        0.35,
+        0.5,
+        0.35,
+        0.15
+      ]
+    ]
+  },
+  "calibration": "saved own-origin quantiles; twelve consecutive matured targets; fixed feasible weights if incomplete",
+  "first_distribution_edge_including_warmup": "2009-12",
+  "quantiles_include_warmup": true,
+  "panel_manifest_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "engine_sha256": "bb82e1a1c0c93190b8c7d2891db0509f725c040b2c4c3109d7c65aad1d099515",
+  "runner_sha256": "aef2ef451bb8f90ecfb7ea5fe13cccef99b04a60c246774b8610d84cbc45aa5a",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.1",
+    "scikit-learn": "1.9.0",
+    "quantile-forest": "1.4.2",
+    "statsmodels": "0.15.0",
+    "scipy": "1.18.1"
+  },
+  "git_head": "709d4b3449f83c4dbceb353d7d3468d94a62b9aa",
+  "seconds": 0.9879696369171143
+}

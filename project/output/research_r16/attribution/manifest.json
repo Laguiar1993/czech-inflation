@@ -1,0 +1,64 @@
+{
+  "created_at_utc": "2026-09-14T14:19:54.328298+00:00",
+  "inputs": {
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\research_r16\\forecasts.csv": "4c32bcb2946f374c3dea54f5ab245f8acc5b2b715c0705c7bd8b3620f2aabcc0",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\research_r16\\native_forecasts.csv": "13493f6187e1d8b1b849edde232e1b7992b5de6eb2ff88f2b4faf2c810c0fd4c",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\research_r15\\native_forecasts.csv": "014e49f353cb9dab047ff1549dd54bbebbf6f1b7c3af938e0c0e20aabb11cb32",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\research_r14b\\integration\\native_forecasts.csv": "f323b1795e8fc10f0ac898b899e0c8b82d128220c6b0654fe57e6f8d0999e330",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\tests\\fixtures\\cleanup\\cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\tools\\review\\r16_core_attribution.py": "bdadc586673b35c36e8ec973d9d6444bc74f47245ea0e525df0e54531bf9d281",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\tools\\review\\evaluate_r16.py": "5567e48c640072ee7b34de24b00b42daa94bcdfba824b486c93b85b5832860ea",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\tools\\review\\evaluate_r15.py": "9054c5aa1ded4878ab6df69ce9b92af868751b91740afdf0d6dc601b8e7fade6",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\research_r16\\manifest.json": "25aba5e8a45921e3950a4c99b2234b101a7b60054db39c29d9b64f1d29877ab2"
+  },
+  "models": [
+    "STATE_FAST_R15",
+    "DAMPED_P80_Q001_R16",
+    "DAMPED_P80_Q010_R16",
+    "DAMPED_P95_Q001_R16",
+    "DAMPED_P95_Q010_R16",
+    "DAMPED_ADAPT_R16",
+    "TRANSMISSION_OWN_R16",
+    "TRANSMISSION_SERVICES_R16",
+    "TRANSMISSION_GOODS_R16",
+    "TRANSMISSION_BOTH_R16",
+    "BLEND_DAMPED_TRANSMISSION_R16",
+    "STABLE_LOCAL_CORE_R14B"
+  ],
+  "fixed_support_roster": [
+    "INDEPENDENT_BRIDGE",
+    "STABLE_PIPELINE_R14B",
+    "STABLE_LOCAL_CORE_R14B",
+    "STATE_FAST_R15",
+    "RF_RESIDUAL_R15",
+    "DAMPED_P80_Q001_R16",
+    "DAMPED_P80_Q010_R16",
+    "DAMPED_P95_Q001_R16",
+    "DAMPED_P95_Q010_R16",
+    "DAMPED_ADAPT_R16",
+    "TRANSMISSION_OWN_R16",
+    "TRANSMISSION_SERVICES_R16",
+    "TRANSMISSION_GOODS_R16",
+    "TRANSMISSION_BOTH_R16",
+    "BLEND_DAMPED_TRANSMISSION_R16"
+  ],
+  "origin_count": 90,
+  "command": "python tools/review/r16_core_attribution.py --experiment \"C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\research_r16\"",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.1"
+  },
+  "all_inputs_unchanged": true,
+  "outputs": {
+    "monthly_counterfactual_paths.csv": "0319c0d829f93912dc687a51070435b36c87ddeb7b54bfb3576524914005fe01",
+    "attribution.csv": "cf85c4b6ca621ea06969933e340e364b8f0f546eb36c73fda561bab214e2480f",
+    "scoreboard.csv": "b9e07c59c3df57624f03c2f8e38033a7f1c80b91076a14352f82c4bbb90a3a5c",
+    "paired_vs_fast.csv": "3133e8d9f206c6b7736a0eb008c30e0859cd0eeec56647b84f12b37286b2f68a",
+    "paired_vs_fast_summary.csv": "919103c6d03e63e933036eec86ee60770659c5e15a2100d0f9bf935c768484c2",
+    "support_ledger.csv": "e3382ef1b7e617dfb97b4b0d52294b7ac3b2e3e3a24d011b03ee5e0f6565faca",
+    "support_counts.csv": "7a6a6f859d56763c94460a44de1723ed7ae078fefe7e62468df30b050156c5ba",
+    "definitions.json": "4b336bcc485ceeccc1824fd7a401ecd47829f58de5d1e63e287ddc5b6d5ee630",
+    "checks.json": "f5a896b913415f743fda93a7ae19b0dd92f1708645d36901c1673a1b18045cfe"
+  }
+}

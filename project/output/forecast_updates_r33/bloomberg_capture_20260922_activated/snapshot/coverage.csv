@@ -1,0 +1,13 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value
+headline,CZCPMOM Index,2026-09-22T17:26:32.548028+00:00,Czech Republic CPI  Nominal Ch,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,ok,MONTHLY,8,2026-01-31,2026-08-31,0.3
+headline,CZCPYOY Index,2026-09-22T17:26:33.355927+00:00,Czech Republic CPI Nominal Chn,Czech Statistical Office,YoY% NSA,Monthly,2026-08-31,ok,MONTHLY,8,2026-01-31,2026-08-31,1.9
+components,CZCPFMOM Index,2026-09-22T17:26:33.899097+00:00,Czech Republic CPI Food & Non,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,ok,MONTHLY,8,2026-01-31,2026-08-31,-1.1
+components,CZCPAMOM Index,2026-09-22T17:26:34.519876+00:00,Czech Republic CPI Alcoholic B,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,ok,MONTHLY,8,2026-01-31,2026-08-31,0.6
+components,CZCIXM Index,2026-09-22T17:26:35.117713+00:00,Czech Inflation Overall Items,Czech National Bank,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,7,2026-01-31,2026-07-31,1.0
+components,CZCIRM Index,2026-09-22T17:26:35.750894+00:00,Czech Inflation Regulated Pric,Czech National Bank,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,7,2026-01-31,2026-07-31,0.2
+components,CP7FCZ Index,2026-09-22T17:26:36.298949+00:00,EU CPI Fuels & Lubricants for,Eurostat,Index NSA,Monthly,2026-08-31,ok,MONTHLY,8,2026-01-31,2026-08-31,125.0
+pipeline,CZEIIMOM Index,2026-09-22T17:26:36.962381+00:00,Czech Republic Import Prices M,Czech Statistical Office,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,7,2026-01-31,2026-07-31,0.5
+pipeline,CZPPA10M Index,2026-09-22T17:26:37.581920+00:00,Czech Republic PPI Food Produc,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,ok,MONTHLY,8,2026-01-31,2026-08-31,-0.1
+pumps,ECOBETCZ Index,2026-09-22T17:26:38.187774+00:00,Czech Republic Euro-super 95 G,European Commission,,Weekly on Friday,2026-09-18,ok,DAILY,38,2026-01-02,2026-09-18,44403.0
+pumps,ECOBOTCZ Index,2026-09-22T17:26:38.980167+00:00,Czech Republic Automotive Gas,European Commission,,Weekly on Friday,2026-09-18,ok,DAILY,38,2026-01-02,2026-09-18,48366.0
+fx,EURCZK CNB Curncy,2026-09-22T17:26:39.642482+00:00,EUR-CZK X-RATE,,,,2026-09-22,ok,DAILY,182,2026-01-02,2026-09-21,24.35

@@ -1,0 +1,126 @@
+{
+  "Eurostat Domestic PPI Manufacturing Czech": [
+    {
+      "security": "EPM032CZ<index>",
+      "description": "Eurostat Domestic PPI Other Manufacturing Czech Rep MoM"
+    },
+    {
+      "security": "EPM0BCCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacturing Mining & Quarrying Czech Rep MoM"
+    },
+    {
+      "security": "EPM0BDCZ<index>",
+      "description": "Eurostat Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep MoM"
+    },
+    {
+      "security": "EPP032CZ<index>",
+      "description": "Eurostat Domestic PPI Other Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPP0BCCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacturing Mining & Quarrying Czech Rep"
+    },
+    {
+      "security": "EPP0BDCZ<index>",
+      "description": "Eurostat Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep"
+    },
+    {
+      "security": "EPP30JCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacture of Furniture & Other Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPY032CZ<index>",
+      "description": "Eurostat Domestic PPI Other Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPY0BCCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacturing Mining & Quarrying Czech Rep YoY"
+    },
+    {
+      "security": "EPY0BDCZ<index>",
+      "description": "Eurostat Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep YoY"
+    },
+    {
+      "security": "EP30BDCZ<index>",
+      "description": "EU Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep MoM"
+    },
+    {
+      "security": "EPC00CCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPC032CZ<index>",
+      "description": "Eurostat Non Domestic PPI Other Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPC0BCCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Mining & Quarrying Czech Rep YoY"
+    },
+    {
+      "security": "EPD00CCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Czech Rep YoY"
+    }
+  ],
+  "Eurostat PPI Manufacturing Czech Rep": [
+    {
+      "security": "EPA00CCZ<index>",
+      "description": "Eurostat PPI Manufacturing Czech Rep MoM"
+    },
+    {
+      "security": "EPA0BCCZ<index>",
+      "description": "Eurostat PPI Manufacturing Mining & Quarrying Czech Rep MoM"
+    },
+    {
+      "security": "EPA30JCZ<index>",
+      "description": "Eurostat PPI Manufacture of Furniture & Other Manufacturing Czech Rep MoM"
+    },
+    {
+      "security": "EPABC2CZ<index>",
+      "description": "Eurostat PPI Manufacturing Mining & Quarrying Excl Energy Czech Rep MoM"
+    },
+    {
+      "security": "EPB00CCZ<index>",
+      "description": "Eurostat PPI Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPB0BCCZ<index>",
+      "description": "Eurostat PPI Manufacturing Mining & Quarrying Czech Rep YoY"
+    },
+    {
+      "security": "EPB30JCZ<index>",
+      "description": "Eurostat PPI Manufacture of Furniture & Other Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPBBC2CZ<index>",
+      "description": "Eurostat PPI Manufacturing Mining & Quarrying Excl Energy Czech Rep YoY"
+    },
+    {
+      "security": "EPT00CCZ<index>",
+      "description": "Eurostat PPI Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPT0BCCZ<index>",
+      "description": "Eurostat PPI Manufacturing Mining & Quarrying Czech Rep"
+    },
+    {
+      "security": "EPT30JCZ<index>",
+      "description": "Eurostat PPI Manufacture of Furniture & Other Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPTBC2CZ<index>",
+      "description": "Eurostat PPI Manufacturing Mining & Quarrying Excl Energy Czech Rep"
+    },
+    {
+      "security": "EPA032CZ<index>",
+      "description": "Eurostat PPI Other Manufacturing Czech Rep MoM"
+    },
+    {
+      "security": "EPA0BDCZ<index>",
+      "description": "Eurostat PPI Mining and Quarrying Manufacturing & Energy Czech Rep MoM"
+    },
+    {
+      "security": "EPA0C2CZ<index>",
+      "description": "Eurostat PPI Medium High Technology Manufacturing Czech Rep MoM"
+    }
+  ]
+}

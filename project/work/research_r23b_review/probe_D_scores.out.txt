@@ -1,0 +1,79 @@
+##### D scores recomputed
+[PASS] target = origin + h on every primary row
+[PASS] yy_actual in primary rows = own twelve-month compounding of frozen headline m/m :: max abs diff=1.776e-15
+[PASS] core_cumulative_log_actual = own sum of realised log core over h1..h :: max abs diff=3.553e-15
+[PASS] 120 cells (2 metrics x h3/h6/h12 x 2 samples x 10 models): n, RMSE, MAE, bias equal same_support_scoreboard.csv :: max abs diff=8.882e-16
+
+   headline_yy RMSE, full, n={3: 84, 6: 81, 12: 75}  (value, then difference from FAST)
+   STATE_FAST_R15          h3: 1.4592 (+0.0000)  h6: 2.2903 (+0.0000)  h12: 4.8695 (+0.0000)
+   STABLE_LOCAL_CORE_R14B  h3: 1.5373 (+0.0781)  h6: 2.6243 (+0.3340)  h12: 5.3972 (+0.5277)
+   DAMPED_P95_Q001_R16     h3: 1.4387 (-0.0205)  h6: 2.2395 (-0.0508)  h12: 4.8101 (-0.0593)
+   CORE_FEEDBACK_R21       h3: 1.4336 (-0.0256)  h6: 2.2234 (-0.0669)  h12: 4.8105 (-0.0590)
+   PRESS_ULC_R23B          h3: 1.4648 (+0.0056)  h6: 2.2853 (-0.0050)  h12: 4.8367 (-0.0328)
+   PRESS_DOMESTIC_R23B     h3: 1.4542 (-0.0049)  h6: 2.2795 (-0.0108)  h12: 4.8490 (-0.0204)
+   PRESS_MOMENTUM_R23B     h3: 1.4712 (+0.0120)  h6: 2.2587 (-0.0316)  h12: 4.8291 (-0.0404)
+   PRESS_JOINT_R23B        h3: 1.4721 (+0.0130)  h6: 2.2719 (-0.0184)  h12: 4.8227 (-0.0468)
+   PRESS_SIGNED_R23B       h3: 1.4749 (+0.0157)  h6: 2.2795 (-0.0108)  h12: 4.8441 (-0.0254)
+   PRESS_LEVELS_R23B       h3: 1.4607 (+0.0015)  h6: 2.2993 (+0.0090)  h12: 4.8673 (-0.0021)
+
+   headline_yy RMSE, origins_2024plus, n={3: 28, 6: 25, 12: 19}  (value, then difference from FAST)
+   STATE_FAST_R15          h3: 0.5178 (+0.0000)  h6: 0.5358 (+0.0000)  h12: 0.8580 (+0.0000)
+   STABLE_LOCAL_CORE_R14B  h3: 0.4716 (-0.0462)  h6: 0.4667 (-0.0690)  h12: 0.7077 (-0.1503)
+   DAMPED_P95_Q001_R16     h3: 0.5139 (-0.0039)  h6: 0.5159 (-0.0198)  h12: 0.7159 (-0.1421)
+   CORE_FEEDBACK_R21       h3: 0.5321 (+0.0143)  h6: 0.5489 (+0.0131)  h12: 0.8004 (-0.0576)
+   PRESS_ULC_R23B          h3: 0.5580 (+0.0402)  h6: 0.6795 (+0.1437)  h12: 0.9599 (+0.1019)
+   PRESS_DOMESTIC_R23B     h3: 0.5581 (+0.0403)  h6: 0.6819 (+0.1461)  h12: 0.9578 (+0.0998)
+   PRESS_MOMENTUM_R23B     h3: 0.5151 (-0.0027)  h6: 0.5251 (-0.0106)  h12: 0.8486 (-0.0093)
+   PRESS_JOINT_R23B        h3: 0.5513 (+0.0335)  h6: 0.6586 (+0.1229)  h12: 0.9181 (+0.0601)
+   PRESS_SIGNED_R23B       h3: 0.5497 (+0.0320)  h6: 0.6334 (+0.0976)  h12: 0.9162 (+0.0583)
+   PRESS_LEVELS_R23B       h3: 0.5621 (+0.0443)  h6: 0.7190 (+0.1832)  h12: 1.0006 (+0.1426)
+
+   core_cumulative_log RMSE, full, n={3: 84, 6: 81, 12: 75}  (value, then difference from FAST)
+   STATE_FAST_R15          h3: 0.8214 (+0.0000)  h6: 1.7578 (+0.0000)  h12: 4.2785 (+0.0000)
+   STABLE_LOCAL_CORE_R14B  h3: 1.0454 (+0.2240)  h6: 2.2187 (+0.4609)  h12: 5.0142 (+0.7357)
+   DAMPED_P95_Q001_R16     h3: 0.8541 (+0.0327)  h6: 1.8673 (+0.1095)  h12: 4.6588 (+0.3803)
+   CORE_FEEDBACK_R21       h3: 0.8303 (+0.0089)  h6: 1.7872 (+0.0293)  h12: 4.3705 (+0.0920)
+   PRESS_ULC_R23B          h3: 0.7857 (-0.0357)  h6: 1.6287 (-0.1291)  h12: 4.1227 (-0.1558)
+   PRESS_DOMESTIC_R23B     h3: 0.7967 (-0.0247)  h6: 1.6980 (-0.0598)  h12: 4.1963 (-0.0821)
+   PRESS_MOMENTUM_R23B     h3: 0.8219 (+0.0005)  h6: 1.7843 (+0.0264)  h12: 4.3288 (+0.0503)
+   PRESS_JOINT_R23B        h3: 0.7911 (-0.0303)  h6: 1.6915 (-0.0663)  h12: 4.2128 (-0.0657)
+   PRESS_SIGNED_R23B       h3: 0.8071 (-0.0143)  h6: 1.7243 (-0.0335)  h12: 4.2533 (-0.0252)
+   PRESS_LEVELS_R23B       h3: 0.8136 (-0.0078)  h6: 1.7406 (-0.0173)  h12: 4.2469 (-0.0315)
+
+   core_cumulative_log RMSE, origins_2024plus, n={3: 28, 6: 25, 12: 19}  (value, then difference from FAST)
+   STATE_FAST_R15          h3: 0.2939 (+0.0000)  h6: 0.3939 (+0.0000)  h12: 0.5865 (+0.0000)
+   STABLE_LOCAL_CORE_R14B  h3: 0.2310 (-0.0629)  h6: 0.2778 (-0.1161)  h12: 0.4694 (-0.1170)
+   DAMPED_P95_Q001_R16     h3: 0.3056 (+0.0117)  h6: 0.5052 (+0.1114)  h12: 1.1569 (+0.5704)
+   CORE_FEEDBACK_R21       h3: 0.3225 (+0.0286)  h6: 0.4739 (+0.0801)  h12: 0.7485 (+0.1620)
+   PRESS_ULC_R23B          h3: 0.3230 (+0.0291)  h6: 0.5123 (+0.1184)  h12: 0.6026 (+0.0161)
+   PRESS_DOMESTIC_R23B     h3: 0.3230 (+0.0291)  h6: 0.5101 (+0.1162)  h12: 0.5987 (+0.0122)
+   PRESS_MOMENTUM_R23B     h3: 0.3229 (+0.0290)  h6: 0.4302 (+0.0363)  h12: 0.5958 (+0.0093)
+   PRESS_JOINT_R23B        h3: 0.3243 (+0.0304)  h6: 0.5142 (+0.1203)  h12: 0.6206 (+0.0341)
+   PRESS_SIGNED_R23B       h3: 0.3260 (+0.0320)  h6: 0.5085 (+0.1146)  h12: 0.6142 (+0.0277)
+   PRESS_LEVELS_R23B       h3: 0.3237 (+0.0297)  h6: 0.5536 (+0.1597)  h12: 0.6254 (+0.0390)
+
+   PRESS_ULC_R23B           h6 at-or-below FAST: headline/full=yes, headline/orig=NO, core_cum/full=yes, core_cum/orig=NO
+   PRESS_DOMESTIC_R23B      h6 at-or-below FAST: headline/full=yes, headline/orig=NO, core_cum/full=yes, core_cum/orig=NO
+   PRESS_MOMENTUM_R23B      h6 at-or-below FAST: headline/full=yes, headline/orig=yes, core_cum/full=NO, core_cum/orig=NO
+   PRESS_JOINT_R23B         h6 at-or-below FAST: headline/full=yes, headline/orig=NO, core_cum/full=yes, core_cum/orig=NO
+   PRESS_SIGNED_R23B        h6 at-or-below FAST: headline/full=yes, headline/orig=NO, core_cum/full=yes, core_cum/orig=NO
+   PRESS_LEVELS_R23B        h6 at-or-below FAST: headline/full=NO, headline/orig=NO, core_cum/full=yes, core_cum/orig=NO
+[PASS] needed-versus-applied (n, n_active, correlation, means, sign agreement) equals needed_vs_applied.csv at h3/h6/h12, both samples, 7 models :: max abs diff=3.608e-16
+              model  h           sample  n  n_active  correlation  correlation_active_only  mse_gain_vs_fast
+     PRESS_ULC_R23B  6             full 84        63       0.4238                   0.5047            0.4209
+     PRESS_ULC_R23B  6 origins_2024plus 25        25       0.1542                   0.1542           -0.1073
+PRESS_DOMESTIC_R23B  6             full 84        51       0.2651                   0.5217            0.1986
+PRESS_DOMESTIC_R23B  6 origins_2024plus 25        25       0.1623                   0.1623           -0.1050
+PRESS_MOMENTUM_R23B  6             full 84        69       0.0323                   0.0263           -0.0904
+PRESS_MOMENTUM_R23B  6 origins_2024plus 25        16      -0.4105                  -0.3832           -0.0299
+   PRESS_JOINT_R23B  6             full 84        69       0.2774                   0.3153            0.2189
+   PRESS_JOINT_R23B  6 origins_2024plus 25        25       0.1367                   0.1367           -0.1093
+  PRESS_SIGNED_R23B  6             full 84        60       0.2189                   0.2790            0.1117
+  PRESS_SIGNED_R23B  6 origins_2024plus 25        25       0.0721                   0.0721           -0.1034
+  PRESS_LEVELS_R23B  6             full 84        54       0.1432                   0.3624            0.0573
+  PRESS_LEVELS_R23B  6 origins_2024plus 25        25       0.1129                   0.1129           -0.1513
+  CORE_FEEDBACK_R21  6             full 84        71      -0.0517                  -0.0528           -0.1003
+  CORE_FEEDBACK_R21  6 origins_2024plus 25        25       0.1359                   0.1359           -0.0695
+
+   needed-vs-applied h6 origins: 84 against primary-support h6 origins: 81
+##### D scores recomputed: 5 passed, 0 failed, 0 notes

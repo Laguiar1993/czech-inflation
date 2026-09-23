@@ -1,0 +1,7 @@
+     Error messages generated from processing the X-13ARIMA-SEATS spec file
+     series.spc:
+
+
+  
+ WARNING: At least one visually significant trading day peak has been
+          found in the estimated spectrum of the regARIMA residuals.

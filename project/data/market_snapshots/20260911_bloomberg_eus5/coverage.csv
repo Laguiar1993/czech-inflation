@@ -1,0 +1,2 @@
+ticker,alias,requested_start,requested_end,retrieved_at,status,observations,first_date,last_date,last_value,lag_calendar_days,maximum_quote_gap_days,null_rows
+EUS5CZ Index,services_employment_expectations_next3m,2000-01-01,2026-09-10,2026-09-11T06:43:20.927687+00:00,ok,292,2002-05-31,2026-08-31,-11.0,10,31,0

@@ -1,0 +1,22 @@
+path_step2 object (a) coverage from 2019-02: 0.92; uncovered model quarters remain unscored
+forest vs scored board: 2184 of 2184 scored months rebuilt, max |difference| 7.11e-15; 2340 forest points in total
+2022-02-10 Winter 2022 origin 2021-12 | CNB 2022Q1..2023Q4 | forest points [13, 13] | scored 4 | best [(3.954, 'INDEPENDENT_BRIDGE'), (4.185, 'STABLE_PIPELINE_R14B'), (4.285, 'F1b')]
+2022-05-12 Spring 2022 origin 2022-04 | CNB 2022Q2..2023Q4 | forest points [13, 13] | scored 4 | best [(2.463, 'TVWQRF_TVW3_FULLM'), (2.713, 'TVWQRF_QRF_MEAN_FULLM'), (3.157, 'STABLE_LONG_GAP_R14B')]
+2022-08-11 Summer 2022 origin 2022-07 | CNB 2022Q3..2024Q4 | forest points [13, 13] | scored 4 | best [(1.133, 'STABLE_LOCAL_CORE_R14B'), (1.599, 'cnb'), (1.76, 'STABLE_LONG_CORE_R14B')]
+2022-11-10 Autumn 2022 origin 2022-10 | CNB 2022Q4..2024Q4 | forest points [13, 13] | scored 4 | best [(1.576, 'cnb'), (1.927, 'STABLE_LOCAL_CORE_R14B'), (2.592, 'TVWQRF_QRF_MEAN_FULLM')]
+2023-02-09 Winter 2023 origin 2022-12 | CNB 2023Q1..2024Q4 | forest points [13, 13] | scored 4 | best [(0.142, 'cnb'), (2.328, 'STABLE_LOCAL_CORE_R14B'), (2.333, 'F2')]
+2023-05-11 Spring 2023 origin 2023-04 | CNB 2023Q2..2024Q4 | forest points [13, 13] | scored 4 | best [(0.484, 'cnb'), (2.001, 'STABLE_PIPELINE_R14B'), (2.249, 'INDEPENDENT_BRIDGE')]
+2023-08-10 Summer 2023 origin 2023-07 | CNB 2023Q3..2025Q4 | forest points [13, 13] | scored 4 | best [(0.335, 'cnb'), (0.368, 'TVWQRF_TVW3_FULLM'), (0.533, 'STABLE_PIPELINE_R14B')]
+2023-11-09 Autumn 2023 origin 2023-09 | CNB 2023Q4..2025Q4 | forest points [13, 13] | scored 4 | best [(0.232, 'cnb'), (0.269, 'TVWQRF_TVW3_FULLM'), (0.889, 'F2')]
+2024-02-15 Winter 2024 origin 2024-01 | CNB 2024Q1..2025Q4 | forest points [13, 13] | scored 4 | best [(0.251, 'TVWQRF_QRF_MEAN_FULLM'), (0.298, 'cnb'), (0.405, 'STABLE_LONG_GAP_R14B')]
+2024-05-09 Spring 2024 origin 2024-03 | CNB 2024Q2..2025Q4 | forest points [13, 13] | scored 4 | best [(0.049, 'STABLE_PIPELINE_R14B'), (0.064, 'F1b'), (0.108, 'STABLE_LOCAL_CORE_R14B')]
+2024-08-08 Summer 2024 origin 2024-06 | CNB 2024Q3..2026Q4 | forest points [13, 13] | scored 4 | best [(0.077, 'STABLE_LOCAL_CORE_R14B'), (0.119, 'STABLE_LONG_GAP_R14B'), (0.134, 'STABLE_LONG_CORE_R14B')]
+2024-11-14 Autumn 2024 origin 2024-10 | CNB 2024Q4..2026Q4 | forest points [13, 13] | scored 4 | best [(0.055, 'STABLE_LONG_CORE_R14B'), (0.078, 'STABLE_LOCAL_CORE_R14B'), (0.081, 'STABLE_LONG_GAP_R14B')]
+2025-02-13 Winter 2025 origin 2025-01 | CNB 2025Q1..2026Q4 | forest points [13, 13] | scored 4 | best [(0.144, 'cnb'), (0.16, 'STABLE_LONG_GAP_R14B'), (0.161, 'STABLE_LONG_CORE_R14B')]
+2025-05-15 Spring 2025 origin 2025-04 | CNB 2025Q2..2026Q4 | forest points [13, 13] | scored 4 | best [(0.226, 'cnb'), (0.359, 'TVWQRF_QRF_MEAN_FULLM'), (0.385, 'STABLE_LOCAL_CORE_R14B')]
+2025-08-14 Summer 2025 origin 2025-07 | CNB 2025Q3..2027Q4 | forest points [13, 13] | scored 4 | best [(0.494, 'cnb'), (0.598, 'TVWQRF_QRF_MEAN_FULLM'), (0.715, 'STABLE_LONG_CORE_R14B')]
+2025-11-13 Autumn 2025 origin 2025-10 | CNB 2025Q4..2027Q4 | forest points [13, 13] | scored 3 | best [(0.08, 'TVWQRF_QRF_MEAN_FULLM'), (0.114, 'TVWQRF_TVW3_FULLM'), (0.156, 'STABLE_PIPELINE_R14B')]
+2026-02-12 Winter 2026 origin 2026-01 | CNB 2026Q1..2027Q4 | forest points [13, 13] | scored 2 | best [(0.143, 'STABLE_LONG_CORE_R14B'), (0.145, 'TVWQRF_TVW3_FULLM'), (0.154, 'STABLE_LONG_GAP_R14B')]
+2026-05-14 Spring 2026 origin 2026-04 | CNB 2026Q2..2027Q4 | forest points [13, 13] | scored 1 | best [(0.133, 'cnb'), (0.248, 'STABLE_LOCAL_CORE_R14B'), (0.277, 'STABLE_PIPELINE_R14B')]
+2026-08-13 Summer 2026 origin 2026-07 | CNB 2026Q3..2028Q4 | forest points [13, 13] | scored 0 | best []
+wrote output\audit_fixes_20260914\artifact\cnb_rounds_replayed.html (116 KB), 19 reports

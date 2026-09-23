@@ -1,0 +1,22 @@
+{
+  "specification": "docs/implementation/CNB_TRACKER_SPEC_2026-09-17.md",
+  "lane": "conditioned: uses CNB forecasts; never an input to the independent forecast",
+  "inputs": {
+    "output/independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+    "tests/fixtures/cleanup/cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+    "data/release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+    "data/cnb_daily_eur_fixings_20260912/eurczk_daily.csv": "629105c496cd30d5c799208f9f2c18b97398aa7f98ac55270c15dc9f368c45ad",
+    "data/paper_replication/a6_inputs_20260912/candidate_inputs_long.csv": "d06aefef3b387d6a7650bd669f304ed45c6bcb59ad1ed9633f932adffb4c7d67",
+    "tables": "f3a7a53bd41d0ec6165e84181cc41c463deb07909904575a2c8bf6b63f79cb3a",
+    "lead_pairs": "7cae65715bae59de19d3d60a266e5565b77101899018d06aa1e3ca9127586819",
+    "tools/cnb_tracker/revisions.py": "c285546ae19f56afb3cc7cddaeee89a89b6a9d5d4a39e883278d67fccb1193bd"
+  },
+  "outputs": {
+    "coefficients.csv": "fdb1673c796e9229241bc964f2ce18ab47ea9e8375c17f8de40a633eed468412",
+    "comparison_with_path.csv": "f556f160e0c61c1bd7e9c4040b6bc1438e97f4b8fb02ce35257b681244621b93",
+    "live_reading.json": "598cc3ccf88fa1b50719afaac4d961bd2f6463e8c7bccc937809b16e7e8b8537",
+    "panel.csv": "6ed9fab7addb9118223d6f9ea98b49020a2b7046af3690b9d0837bc3b237a53c",
+    "predictions.csv": "2f6d5d5500fc60d8a1d5a3578219f566aa81de1f769bca9281eeeed615576b67",
+    "scores.csv": "673049c56d07a63fd4ce1ff19a5995cc232c270a1c5bb83731f03c52d075dbd4"
+  }
+}

@@ -1,0 +1,59 @@
+hard 135 sequential errors
+sentiment 135 sequential errors
+Completed 1/90 2019-02
+Completed 11/90 2019-12
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+Completed 21/90 2020-10
+Completed 31/90 2021-08
+Completed 41/90 2022-06
+Completed 51/90 2023-04
+Completed 61/90 2024-02
+Completed 71/90 2024-12
+Completed 81/90 2025-10
+         model  frame  n     rmse      mae      bias  mean_gain  total_gain  closer  material_win  material_loss  direction
+   LEGACY_BASE    all 90 0.419917 0.270011 -0.042565  -0.016678   -1.500985      40            11             12         45
+   LEGACY_BASE  2024+ 31 0.216598 0.170014 -0.023877   0.017083    0.529573      18             3              2         19
+   LEGACY_BASE    big 23 0.699917 0.505782 -0.047226   0.072478    1.667005      14             7              1         15
+   LEGACY_BASE alerts 19 0.719200 0.455631 -0.018530  -0.076684   -1.456987       7             6              8         12
+   LEGACY_HALF    all 90 0.414580 0.271298 -0.029914  -0.017964   -1.616794      42            11             12         48
+   LEGACY_HALF  2024+ 31 0.220166 0.170951 -0.022327   0.016146    0.500528      17             4              2         19
+   LEGACY_HALF    big 23 0.676863 0.490180 -0.041423   0.088081    2.025865      15             8              1         16
+   LEGACY_HALF alerts 24 0.437976 0.332682 -0.099141  -0.049349   -1.184374      11             8              8         17
+   LEGACY_FULL    all 90 0.420569 0.280102 -0.017263  -0.026769   -2.409187      38            14             16         45
+   LEGACY_FULL  2024+ 31 0.229772 0.175726 -0.020776   0.011371    0.352493      15             4              4         17
+   LEGACY_FULL    big 23 0.664938 0.479222 -0.035620   0.099039    2.277897      15            10              3         17
+   LEGACY_FULL alerts 32 0.459238 0.344535 -0.091857  -0.022660   -0.725129      17            14             10         24
+     HARD_BASE    all 90 0.417952 0.262516 -0.025226  -0.009182   -0.826416      45            12             15         50
+     HARD_BASE  2024+ 31 0.218978 0.169039 -0.005878   0.018057    0.559781      19             4              2         20
+     HARD_BASE    big 23 0.698570 0.484583 -0.021239   0.093678    2.154595      16             7              3         17
+     HARD_BASE alerts 20 0.699986 0.409083  0.011537  -0.039083   -0.781651       9             7              8         14
+     HARD_HALF    all 90 0.413696 0.264373 -0.015502  -0.011040   -0.993588      43            10             11         48
+     HARD_HALF  2024+ 31 0.219588 0.167856 -0.004093   0.019241    0.596479      18             3              1         19
+     HARD_HALF    big 23 0.683313 0.479371 -0.010226   0.098889    2.274457      15             7              1         16
+     HARD_HALF alerts 22 0.669334 0.403689  0.038839  -0.049143   -1.081150      10             8              9         15
+     HARD_FULL    all 90 0.413931 0.269627 -0.005779  -0.016294   -1.466415      42            13             14         47
+     HARD_FULL  2024+ 31 0.225317 0.172640 -0.002308   0.014457    0.448169      17             4              3         18
+     HARD_FULL    big 23 0.671074 0.476061  0.000786   0.102200    2.350594      16             9              2         17
+     HARD_FULL alerts 23 0.418401 0.321325 -0.048750  -0.056108   -1.290482      11             9             10         16
+SENTIMENT_BASE    all 90 0.421634 0.267533 -0.034750  -0.014199   -1.277947      42            12             14         48
+SENTIMENT_BASE  2024+ 31 0.219375 0.168853 -0.004916   0.018243    0.565543      19             3              1         20
+SENTIMENT_BASE    big 23 0.703376 0.494434 -0.031073   0.083827    1.928017      15             6              3         16
+SENTIMENT_BASE alerts 21 0.686397 0.401228 -0.008588  -0.048847   -1.025784       8             8              9         14
+SENTIMENT_HALF    all 90 0.415115 0.269960 -0.017487  -0.016627   -1.496434      44            11             15         49
+SENTIMENT_HALF  2024+ 31 0.221515 0.169810 -0.006005   0.017286    0.535876      18             3              2         19
+SENTIMENT_HALF    big 23 0.681358 0.481390 -0.010303   0.096871    2.228025      16             8              1         17
+SENTIMENT_HALF alerts 23 0.655217 0.396448  0.030968  -0.057317   -1.318295      10             8             10         15
+SENTIMENT_FULL    all 90 0.415123 0.277134 -0.000224  -0.023800   -2.142022      43            11             16         49
+SENTIMENT_FULL  2024+ 31 0.228462 0.174302 -0.007095   0.012795    0.396640      18             4              3         19
+SENTIMENT_FULL    big 23 0.664142 0.471889  0.010467   0.106372    2.446551      17             8              1         18
+SENTIMENT_FULL alerts 26 0.405986 0.310833 -0.036238  -0.053141   -1.381655      12             9             11         18
+     CONSENSUS    all 90 0.381517 0.253333 -0.024444   0.000000    0.000000       0             0              0          0
+     CONSENSUS  2024+ 31 0.240966 0.187097  0.045161   0.000000    0.000000       0             0              0          0
+     CONSENSUS    big 23 0.695013 0.578261 -0.021739   0.000000    0.000000       0             0              0          0
+     CONSENSUS alerts  0      NaN      NaN       NaN        NaN    0.000000       0             0              0          0
+{'main_policy': 'hard', 'ESI_promoted': False, 'selection_status': 'exploratory; no untouched historical holdout', 'rule': 'BASE RMSE improves >=2%; MAE deterioration <=2%; recent RMSE deterioration <=5%'}

@@ -1,0 +1,35 @@
+##### C reconstruction from saved outputs
+[PASS] manifest roster = 4 controls + 6 declared candidates
+[PASS] fits.jsonl: 90 origins, all estimated, every candidate and both bands present
+[PASS] coefficient_contributions.csv has one row per origin-model-band-feature and nothing else
+[PASS] coefficient x (current feature / saved training RMS scale) = contribution :: max abs diff=5.551e-17
+[PASS] sum of contributions = band prediction :: max abs diff=5.551e-17
+[PASS] coefficient_contributions.csv mirrors fits.jsonl (coefficient, contribution, applied, alpha, kind) :: 0.0e+00 0.0e+00 []
+[PASS] saved scores = mean of the per-fold losses in inner_validation.csv :: max abs diff=5.551e-17
+[PASS] zero_loss = mean squared validation label (inner_validation.csv and band_targets.csv) :: 5.6e-17 0.0e+00
+[PASS] selected alpha = argmin of saved scores, tie to larger alpha, applied only if strictly below zero_loss; status.csv agrees :: []
+   bands applied out of 90 origins (band1, band2): {'PRESS_ULC_R23B': (48, 69), 'PRESS_DOMESTIC_R23B': (45, 54), 'PRESS_MOMENTUM_R23B': (57, 59), 'PRESS_JOINT_R23B': (60, 71), 'PRESS_SIGNED_R23B': (54, 59), 'PRESS_LEVELS_R23B': (49, 57)}
+   best-score / zero-loss ratio: min 0.313, median 0.966, max 1.043; within 1% of the threshold: 416 of 1080 cells
+[PASS] paths = monthly_correction([c1, c2, 0, 0]) with unapplied bands entered as exactly 0 :: max abs diff=0.000e+00
+[PASS] band means of the saved path = [c1, c2, 0, 0] :: max abs diff=1.110e-16
+[PASS] both bands unapplied -> path identically zero
+   origin-model cells where band 1 is NOT applied yet months h1-h3 carry a non-zero (mean-zero) correction from band 2: 86
+[PASS] native_forecasts.csv: 10 models x 90 origins x 13 horizons, unique keys
+[PASS] forecasts.csv: same 11,700 keys
+[PASS] control rows are carried over from the R21 native file unchanged (every shared column, NaN = NaN) :: {'STATE_FAST_R15': [], 'STABLE_LOCAL_CORE_R14B': [], 'DAMPED_P95_Q001_R16': [], 'CORE_FEEDBACK_R21': []}
+   columns only in the R23B native file: [] ; only in the R21 file: []
+[PASS] exported core h1-12 = 100*expm1((saved FAST log rate + path)/100) :: max abs diff=0.000e+00
+[PASS] native FAST core equals states.json FAST log rates :: max abs diff=4.441e-16
+[PASS] h0 rows (core, contribution, mm_forecast) identical to FAST for every candidate :: differing cells=0
+[PASS] every noncore value, every contribution except core, every weight, every target/actual column identical to FAST :: []
+[PASS] mm_forecast = FAST mm_forecast + weight_core x (new core - FAST core); contribution_core = weight x value :: 0.0e+00 0.0e+00
+   origin-model cells with no band applied: 141; their core differs from FAST by at most 0.00e+00 (states.json log rates re-exponentiated, not the FAST value copied)
+[PASS] forecasts.csv yy_exante = twelve-month compounding of known history, FAST h0 and the candidate monthly path :: max abs diff=0.000e+00
+[PASS] primary_rows.csv: 969 keys for each of the 10 models, identical key set = R17 primary support
+[PASS] primary rows have finite forecast and outcome for every model (headline and cumulative core)
+   support sizes h3/h6/h12: {3: 84, 6: 81, 12: 75}  origins from 2024: {3: 28, 6: 25, 12: 19}
+[PASS] primary_rows yy_exante identical to forecasts.csv
+[PASS] primary_rows core_mm_forecast identical to native value_core
+[PASS] primary_rows cumulative log core = sum over h1..h of native log core :: max abs diff=3.553e-15
+[PASS] cumulative log core minus FAST = 3*c1 at h3 and 3*(c1+c2) at h6, h9 and h12 :: max abs diff=2.887e-15
+##### C reconstruction from saved outputs: 27 passed, 0 failed, 0 notes

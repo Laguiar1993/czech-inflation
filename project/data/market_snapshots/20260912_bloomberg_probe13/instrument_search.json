@@ -1,0 +1,388 @@
+{
+  "Czech Republic Official Exchange Rate": [
+    {
+      "security": "MDFXCZK<index>",
+      "description": "Moldova Official Exchange Rate Czech Koruna"
+    }
+  ],
+  "Czech National Bank Exchange Rate": [],
+  "CZK Official Rate": [],
+  "Czech Central Bank EUR Rate": [
+    {
+      "security": "RDHNH1OE<index>",
+      "description": "ECB HHld & NPO Interest Rate: Outstnd Loans for House Purchase < 1 Y: Czech Rep"
+    },
+    {
+      "security": "RDHH1NCZ<index>",
+      "description": "ECB Households Interest Rate: New Agreed Mat <1 Year Deposits: Czech Rep"
+    },
+    {
+      "security": "RDHH2OCZ<index>",
+      "description": "ECB Households Interest Rate: Outstnd Agreed Mat <2 Year Deposits: Czech Rep"
+    },
+    {
+      "security": "RDHH3NCZ<index>",
+      "description": "ECB Households Interest Rate: New Agreed Mat Btw 1-2 Y Deposits: Czech Rep"
+    },
+    {
+      "security": "RDHH5NCZ<index>",
+      "description": "ECB Households Interest Rate: New Agreed Mat >2 Year Deposits: Czech Rep"
+    },
+    {
+      "security": "RDHH5OCZ<index>",
+      "description": "ECB Households Interest Rate: Outstnd Agreed Mat >2 Year Deposits: Czech Rep"
+    },
+    {
+      "security": "RDHHONCZ<index>",
+      "description": "ECB Households Interest Rate: New Overnight Deposits: Czech Republic"
+    },
+    {
+      "security": "RDHHUNCZ<index>",
+      "description": "ECB Households Interest Rate: New Redeemable < 3 M Deposits: Czech Rep"
+    },
+    {
+      "security": "RDHHVNCZ<index>",
+      "description": "ECB Households Interest Rate: New Redeemable > 3 M Deposits: Czech Rep"
+    },
+    {
+      "security": "RDHNB1OE<index>",
+      "description": "ECB HHld & NPO Interest Rate: Outstanding Balance Sheet Item <1 Czech"
+    },
+    {
+      "security": "RDHNB2OE<index>",
+      "description": "ECB HHld & NPO Interest Rate: Outstanding Balance Sheet Item 1<5 Czech"
+    },
+    {
+      "security": "RDHNB4OE<index>",
+      "description": "ECB HHld & NPO Interest Rate: Outstanding Balance Sheet Item >5 Czech"
+    },
+    {
+      "security": "RDHNC1NE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Loans for Consumption < 1 Y: Czech Republic"
+    },
+    {
+      "security": "RDHNC2NE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Loans for Consumption 1-5 Y: Czech Republic"
+    },
+    {
+      "security": "RDHNC4NE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Loans for Consumption > 5 Y: Czech Republic"
+    },
+    {
+      "security": "RDHNCANE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Loan Consumption APRC Czech"
+    },
+    {
+      "security": "RDHNCENE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Revolv Loans Convenience & Extended: Czech"
+    },
+    {
+      "security": "RDHNECNE<index>",
+      "description": "ECB HHld & NPO Interest Rate: Extended Credit: Czech Rep"
+    },
+    {
+      "security": "RDHNH2OE<index>",
+      "description": "ECB HHld & NPO Interest Rate: Outstnd Loans for House Purchase 1-5 Y: Czech Rep"
+    },
+    {
+      "security": "RDHNH4OE<index>",
+      "description": "ECB HHld & NPO Interest Rate: Outstnd Loans for House Purchase > 5 Y: Czech Rep"
+    },
+    {
+      "security": "RDHNO1NE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Other Loans < 1 Y: Czech Republic"
+    },
+    {
+      "security": "RDHNO2NE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Other Loans 1-5 Y: Czech Republic"
+    },
+    {
+      "security": "RDHNO4NE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Other Loans > 5 Y: Czech Republic"
+    },
+    {
+      "security": "RDHNRLNE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Revolving Loans & Overdrafts: Czech Rep"
+    },
+    {
+      "security": "RDHNX1NE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Lend for House Ex Revolv Loans < 1 Y: Czech Rp"
+    },
+    {
+      "security": "RDHNX2NE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Lend for House Ex Revolv Loans 1-5 Y: Czech Rp"
+    },
+    {
+      "security": "RDHNX4NE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New Lend for House Ex Revolv Loans > 10 Y: Czech"
+    },
+    {
+      "security": "RDHNXANE<index>",
+      "description": "ECB HHld & NPO Interest Rate: New House Ex Revol Loan APRC Czech"
+    },
+    {
+      "security": "RDNF1NCZ<index>",
+      "description": "ECB Non-Finc Corp Interest Rate: New Agreed Mat <1 Year Deposits: Czech Rep"
+    },
+    {
+      "security": "RDNF2OCZ<index>",
+      "description": "ECB Non-Finc Corp Interest Rate: Outstnd Agreed Mat <2 Year Deposits: Czech Rep"
+    },
+    {
+      "security": "RDNF3NCZ<index>",
+      "description": "ECB Non-Finc Corp Interest Rate: New Agreed Mat Btw 1-2 Y Deposits: Czech Rep"
+    },
+    {
+      "security": "RDNF5NCZ<index>",
+      "description": "ECB Non-Finc Corp Interest Rate: New Agreed Mat >2 Year Deposits: Czech Rep"
+    },
+    {
+      "security": "RDNF5OCZ<index>",
+      "description": "ECB Non-Finc Corp Interest Rate: Outstnd Agreed Mat >2 Year Deposits: Czech Rep"
+    },
+    {
+      "security": "RDNFONCZ<index>",
+      "description": "ECB Non-Finc Corp Interest Rate: New Overnight Deposits: Czech Rep"
+    },
+    {
+      "security": "RDNHRNCZ<index>",
+      "description": "ECB Hhlds & Nn-Fnc Corp Interest Rate: New Repurchase Agreements Dep: Czech Rep"
+    },
+    {
+      "security": "RLNFL1CZ<index>",
+      "description": "ECB Rate Non Finc Corp: Loans < 1 Year Czech Rep"
+    },
+    {
+      "security": "RLNFL2CZ<index>",
+      "description": "ECB Rate Non Finc Corp: Loans 1-5 Years Czech Rep"
+    },
+    {
+      "security": "RLNFL4CZ<index>",
+      "description": "ECB Rate Non Finc Corp: Loans > 5 Years Czech Rep"
+    },
+    {
+      "security": "RLNFRCCZ<index>",
+      "description": "ECB Rate Non Finc Corp: Revolving Loans With Collateral Czech Rep"
+    },
+    {
+      "security": "RLPP15CZ<index>",
+      "description": "ECB Sole Proprietors & Unincorp Partnerships Interest Rate: 1-5 Years Czech Rep"
+    }
+  ],
+  "Eurostat Domestic PPI Manufacturing Czech": [
+    {
+      "security": "EPM032CZ<index>",
+      "description": "Eurostat Domestic PPI Other Manufacturing Czech Rep MoM"
+    },
+    {
+      "security": "EPM0BCCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacturing Mining & Quarrying Czech Rep MoM"
+    },
+    {
+      "security": "EPM0BDCZ<index>",
+      "description": "Eurostat Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep MoM"
+    },
+    {
+      "security": "EPP032CZ<index>",
+      "description": "Eurostat Domestic PPI Other Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPP0BCCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacturing Mining & Quarrying Czech Rep"
+    },
+    {
+      "security": "EPP0BDCZ<index>",
+      "description": "Eurostat Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep"
+    },
+    {
+      "security": "EPP30JCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacture of Furniture & Other Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPY032CZ<index>",
+      "description": "Eurostat Domestic PPI Other Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPY0BCCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacturing Mining & Quarrying Czech Rep YoY"
+    },
+    {
+      "security": "EPY0BDCZ<index>",
+      "description": "Eurostat Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep YoY"
+    },
+    {
+      "security": "EP30BDCZ<index>",
+      "description": "EU Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep MoM"
+    },
+    {
+      "security": "EPC00CCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPC032CZ<index>",
+      "description": "Eurostat Non Domestic PPI Other Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPC0BCCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Mining & Quarrying Czech Rep YoY"
+    },
+    {
+      "security": "EPD00CCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPD032CZ<index>",
+      "description": "Eurostat Non Domestic PPI Other Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPD0BCCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Mining & Quarrying Czech Rep YoY"
+    },
+    {
+      "security": "EPN00CCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPN032CZ<index>",
+      "description": "Eurostat Non Domestic PPI Other Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPN0BCCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Mining & Quarrying Czech Rep"
+    },
+    {
+      "security": "EPN0BDCZ<index>",
+      "description": "Eurostat Non Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep"
+    },
+    {
+      "security": "EPNBC2CZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Mining & Quarrying Excl Energy Czech Rep"
+    }
+  ],
+  "Eurostat Dom PPI Manufacturing Czech Rep": [
+    {
+      "security": "EP330JCZ<index>",
+      "description": "Eurostat Dom PPI Manufacture of Furniture & Other Manufacturing Czech Rep MoM"
+    },
+    {
+      "security": "EPY30JCZ<index>",
+      "description": "Eurostat Dom PPI Manufacture of Furniture & Other Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPM032CZ<index>",
+      "description": "Eurostat Domestic PPI Other Manufacturing Czech Rep MoM"
+    },
+    {
+      "security": "EPM0BCCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacturing Mining & Quarrying Czech Rep MoM"
+    },
+    {
+      "security": "EPM0BDCZ<index>",
+      "description": "Eurostat Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep MoM"
+    },
+    {
+      "security": "EPP032CZ<index>",
+      "description": "Eurostat Domestic PPI Other Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPP0BCCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacturing Mining & Quarrying Czech Rep"
+    },
+    {
+      "security": "EPP0BDCZ<index>",
+      "description": "Eurostat Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep"
+    },
+    {
+      "security": "EPP30JCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacture of Furniture & Other Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPY032CZ<index>",
+      "description": "Eurostat Domestic PPI Other Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPY0BCCZ<index>",
+      "description": "Eurostat Domestic PPI Manufacturing Mining & Quarrying Czech Rep YoY"
+    },
+    {
+      "security": "EPY0BDCZ<index>",
+      "description": "Eurostat Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep YoY"
+    },
+    {
+      "security": "EP30BDCZ<index>",
+      "description": "EU Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep MoM"
+    },
+    {
+      "security": "EPC0BDCZ<index>",
+      "description": "Eurostat Non Dom PPI Mining and Quarrying Manufacturing & Energy Czech Rep YoY"
+    },
+    {
+      "security": "EPC30JCZ<index>",
+      "description": "Eurostat Non Dom PPI Manufacture of Furniture & Other Manufacturing Czech Rep YY"
+    },
+    {
+      "security": "EPCBC2CZ<index>",
+      "description": "Eurostat Non Dom PPI Manufacturing Mining & Quarrying Excl Energy Czech Rep YoY"
+    },
+    {
+      "security": "EPD0BDCZ<index>",
+      "description": "Eurostat Non Dom PPI Mining and Quarrying Manufacturing & Energy Czech Rep YoY"
+    },
+    {
+      "security": "EPD30JCZ<index>",
+      "description": "Eurostat Non Dom PPI Manufacture of Furniture & Other Manufacturing Czech Rep YY"
+    },
+    {
+      "security": "EPDBC2CZ<index>",
+      "description": "Eurostat Non Dom PPI Manufacturing Mining & Quarrying Excl Energy Czech Rep YoY"
+    },
+    {
+      "security": "EPN30JCZ<index>",
+      "description": "Eurostat Non Dom PPI Manufacture of Furniture & Other Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPC00CCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPC032CZ<index>",
+      "description": "Eurostat Non Domestic PPI Other Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPC0BCCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Mining & Quarrying Czech Rep YoY"
+    },
+    {
+      "security": "EPD00CCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPD032CZ<index>",
+      "description": "Eurostat Non Domestic PPI Other Manufacturing Czech Rep YoY"
+    },
+    {
+      "security": "EPD0BCCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Mining & Quarrying Czech Rep YoY"
+    },
+    {
+      "security": "EPN00CCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPN032CZ<index>",
+      "description": "Eurostat Non Domestic PPI Other Manufacturing Czech Rep"
+    },
+    {
+      "security": "EPN0BCCZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Mining & Quarrying Czech Rep"
+    },
+    {
+      "security": "EPN0BDCZ<index>",
+      "description": "Eurostat Non Domestic PPI Mining and Quarrying Manufacturing & Energy Czech Rep"
+    },
+    {
+      "security": "EPNBC2CZ<index>",
+      "description": "Eurostat Non Domestic PPI Manufacturing Mining & Quarrying Excl Energy Czech Rep"
+    }
+  ]
+}

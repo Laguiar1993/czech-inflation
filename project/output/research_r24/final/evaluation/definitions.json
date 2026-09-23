@@ -1,0 +1,28 @@
+{
+  "roster": [
+    "STATE_FAST_R15",
+    "STABLE_LOCAL_CORE_R14B",
+    "DAMPED_P95_Q001_R16",
+    "FOOD_ZERO_DRIFT_R24",
+    "FOOD_ROBUST_WINDOW_R24",
+    "FOOD_NORM_SHIFT_R24",
+    "FOOD_NORM_REFIT_R24"
+  ],
+  "primary_calendar": "Original R16 annual-headline969row support, not filtered by a new model.",
+  "errors": "Forecast minus actual in percentage points. Show failures separately; matched comparisons require identical finite support.",
+  "core": "Monthly core and cumulative log core h1..h, original frozen target. Underlying bands subtract own-origin saved R15 seasonality.",
+  "bootstrap": "Circular blocks on consecutive monthly origins: 12 months from 48 observations, 6 from 24, no interval below 24; 2000 draws, seed 1509.",
+  "sustained": "Bands1to3 change>=.5pp annualized, without opposite adjacent>=.5pp. Additional to strict exact-turn test.",
+  "cnb": "Both clocks; same-origin quarter means;0.15pp absolute-error materiality; repeated quarters dependent; every-report omission.",
+  "limitations": [
+    "R24: four declared food-drift candidates on the saved FAST path, original 90 origins and 969 primary keys. Only the food block of h1-12 changes; h0, core, fuel, administered prices, alcohol and tobacco, the wedge and all weights are untouched. Historical research, not a live or untouched holdout record.",
+    "The frozen food system centres monthly rates on calendar-month means of a window of at most 96 months, so its forecasts decay to a centre that carries the window average drift, including the 2022 surge. Every candidate keeps the seasonal shape and the decaying deviation and replaces only that drift.",
+    "Drift estimates use published observations only: zero (control); the median of overlapping twelve-month changes inside the training window; the same median over food history from 1996 (CZSO division 01 before February 2015, the model series after). The refit candidate re-estimates the system around the long-history centre.",
+    "A lower drift would have under-predicted the 2021-22 surge even more. Every drift choice is a bet on regime and one inflation cycle cannot settle it; results are shown for origins 2019-21, 2022-23 and from 2024 as well as in full.",
+    "No survey, CNB forecast or future realised driver enters the independent predictions. Current-vintage histories and assumed publication rules remain limitations. The block scores that motivated this round were seen before it was declared.",
+    "Lead tables flag abs(model-CNB)>=0.30pp (0.50 sensitivity) against the immediately next CNB report for the same still-future quarter, with base-rate rows (constant 2%, random-walk annual rate, previous CNB, CNB momentum) passed through the same rules.",
+    "Defaults show FAST with the long-history drift candidate; no promotion is implied. Every control and candidate remains selectable."
+  ],
+  "cnb_lead": ".30 and .50 ex-ante deviation thresholds; immediate next report, same target beyond next report quarter; .15pp closer CNB revision and separate eventual .15pp absolute-error improvement; first calls deduplicated by model/clock/target/direction streak; base-rate rows flagged is_baseline.",
+  "samples": "full; origins 2019-2021; origins 2022-2023; origins from 2024."
+}

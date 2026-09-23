@@ -1,0 +1,71 @@
+{
+  "frozen_at_utc": "2026-09-09T09:28:29.032890+00:00",
+  "levels": {
+    "file": "monthly_levels.csv",
+    "index_base": "2015=100",
+    "unit": "index",
+    "seasonal_adjustment": "NSA",
+    "households": "total, code 0",
+    "geography": "Czechia, CZ",
+    "first_month": "2015-01",
+    "last_month": "2026-07",
+    "months": 139,
+    "source_table": "cpi_czso.cpi_long",
+    "source_dataset": "CEN0101E",
+    "raw_source_sha256": "e81dc0dece758d0e89adc88e6f8c31f3ba97f8a68dfa67795a794dbe3b858880",
+    "raw_to_frozen_validation": {
+      "matched_rows": 695,
+      "duplicate_keys": 0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    "source_url": "https://data.csu.gov.cz/opendata/sady/CEN0101E/distribuce/csv",
+    "source_csv_classification_columns": [
+      "Klasifikace COICOP 2018-Oddíl",
+      "Klasifikace COICOP 2018-Skupina a třída"
+    ],
+    "series": {
+      "041": "actual_rent",
+      "042": "imputed_rent",
+      "111": "catering",
+      "112": "accommodation",
+      "098": "package_holidays"
+    },
+    "conversion_to_mom": "100*(index_t/index_(t-1)-1), 138 observations from 2015-02",
+    "vintage_status": "latest retrieved history; no retained historical source vintages",
+    "classification_continuity": "Current raw official file directly carries current group codes and labels in 2015 and 2026. This is evidence of a current recoded history, not independent verification of an item-level concordance or historical real-time availability.",
+    "tax_and_regulation_status": "Raw national CPI service groups. No tax-first-round correction or CNB-core/regulated membership flags are supplied.",
+    "scope_notes": {
+      "111": "Catering includes restaurants, canteens and school canteens; not a restaurant-only history.",
+      "112": "Accommodation includes hotels, recreation accommodation, school and university dormitories.",
+      "042": "Imputed rent / owner housing costs; 2026 basket item is acquisition, reconstruction and maintenance of owner housing.",
+      "098": "Package holidays; current subgroup 096 is cultural services."
+    }
+  },
+  "weights": {
+    "file": "selected_basket_weights.csv",
+    "unit": "per mille of total national CPI basket",
+    "effective_years": [
+      2014,
+      2016,
+      2018,
+      2020,
+      2022,
+      2024,
+      2026
+    ],
+    "basis_year_relation": "Each saved workbook header states constant weights for effective_year - 2.",
+    "source_archive_from_existing_repo_documentation": "https://csu.gov.cz/spotrebni_kos_archiv",
+    "publication_status": "Dates are the existing January detailed CPI release proxy, with February 15 fallback. They are not verified historical publication timestamps for these workbook files.",
+    "availability_calendar": "data/release_calendar_cz_cpi.csv",
+    "intraday_note": "Existing _basket_available_from normalizes the detail release timestamp to midnight. A strict experiment should retain the release hour (09:00 Prague) when applying an intraday origin clock.",
+    "classification_mapping": "For current 098, use historical basket 09.6 through 2024 and basket 09.8 in 2026. Strip optional E prefix. Other selected group codes are stable at this level.",
+    "not_current_shares": "These are base basket weights. Contributions require appropriate prior-month price updating and origin availability; normalizing the five groups does not produce official core-services weights."
+  },
+  "source_evidence": [
+    "manifest.json",
+    "basket_manifest.json",
+    "raw_cen0101e_selected.csv",
+    "basket_selected_rows.csv",
+    "selected_calendar_audit.csv"
+  ]
+}

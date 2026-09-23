@@ -1,0 +1,6 @@
+month,implied_mm,realized_mm,verdict
+2021-11,-8.677685950413217,-5.7,sign+size OK
+2022-01,23.575477113507294,17.1,MISS -> trace to gap-approx param
+2022-10,-34.78368396075736,-16.9,MISS -> trace to gap-approx param
+2023-01,48.182486401633874,30.9,MISS -> trace to gap-approx param
+2024-01,3.4777220751647464,5.8,sign+size OK

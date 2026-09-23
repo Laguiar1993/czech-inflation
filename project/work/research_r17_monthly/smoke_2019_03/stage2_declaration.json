@@ -1,0 +1,10 @@
+{
+  "declared_at": "2026-09-14T15:17:33.516002+00:00",
+  "generated_inputs": {
+    "firststage_predictions.csv": "83d457713862fef5405686019d38ff903dd2ec52d4703e7cf0a89acf67e044b2",
+    "generated_signals.json": "46eba2d876b703bac29b6b952989ea3f5df30da5661c6bcf7e95a83db5e65aa8",
+    "generated_status.json": "caa98ecb67766f2b9edd67ea0cbcf0a057999b6950a3f17d74dbe802fb995b9f",
+    "snapshots.json": "989fed213027d7e0f9bd81ae4debbf9b0c9c8e895657f3782714eafc86c87cf4"
+  },
+  "input_semantics": "Saved own-origin pressure LOG forecasts minus same-origin persistence LOG forecasts; no actual category regressor"
+}

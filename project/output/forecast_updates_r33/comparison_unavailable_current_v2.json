@@ -1,0 +1,15 @@
+{
+  "components": [],
+  "delta": null,
+  "kind": "unavailable",
+  "model": null,
+  "new_as_of": null,
+  "new_point": null,
+  "old_as_of": null,
+  "old_point": null,
+  "path_changes": [],
+  "reason": "The first prospective September forecast is now published. No second comparable prospective run exists yet; July replay is a different target and mode.",
+  "residual": null,
+  "status": "blocked",
+  "target": null
+}

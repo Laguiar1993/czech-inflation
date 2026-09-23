@@ -1,0 +1,42 @@
+{
+  "retrieved_at_utc": "2026-09-17T11:14:03.495767+00:00",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_midx?format=JSON&lang=EN&coicop=TOT_X_NRG_FOOD&unit=I15",
+  "eurostat_updated": "2026-02-06T23:00:00+0100",
+  "label": "HICP - monthly data (index)",
+  "members": [
+    "AT",
+    "BE",
+    "BG",
+    "CY",
+    "DE",
+    "DK",
+    "EE",
+    "EL",
+    "ES",
+    "FI",
+    "FR",
+    "HR",
+    "HU",
+    "IE",
+    "IT",
+    "LT",
+    "LU",
+    "LV",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SE",
+    "SI",
+    "SK"
+  ],
+  "excluded": "CZ (the evaluation country) and every non-member or aggregate",
+  "first": "1996-01",
+  "last": "2025-12",
+  "files": {
+    "prc_hicp_midx_TOT_X_NRG_FOOD_I15.json": "cc3e1a361ae21f2dd1c3af4d954fc062e3dfbd832542784cd117fa58d494623e",
+    "hicp_core_index.csv": "32c839b5de0d3cb4b0d90665cffd4aaa1d2335f800a808a6a7575d21fb88d6fc"
+  },
+  "availability_rule": "month m treated as published on day 20 of month m+1"
+}

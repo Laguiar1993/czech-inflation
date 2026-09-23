@@ -1,0 +1,14 @@
+edge,horizon,validation_n,calibration_status,validation_first_origin,validation_last_origin,validation_last_target
+2009-12,1,0,fixed_insufficient_history,2008-12,2009-11,2009-12
+2010-01,1,1,fixed_insufficient_history,2009-01,2009-12,2010-01
+2010-02,1,2,fixed_insufficient_history,2009-02,2010-01,2010-02
+2010-03,1,3,fixed_insufficient_history,2009-03,2010-02,2010-03
+2010-04,1,4,fixed_insufficient_history,2009-04,2010-03,2010-04
+2010-05,1,5,fixed_insufficient_history,2009-05,2010-04,2010-05
+2010-06,1,6,fixed_insufficient_history,2009-06,2010-05,2010-06
+2010-07,1,7,fixed_insufficient_history,2009-07,2010-06,2010-07
+2010-08,1,8,fixed_insufficient_history,2009-08,2010-07,2010-08
+2010-09,1,9,fixed_insufficient_history,2009-09,2010-08,2010-09
+2010-10,1,10,fixed_insufficient_history,2009-10,2010-09,2010-10
+2010-11,1,11,fixed_insufficient_history,2009-11,2010-10,2010-11
+2010-12,1,12,past_origin_forecasts,2009-12,2010-11,2010-12

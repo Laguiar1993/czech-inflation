@@ -1,0 +1,39 @@
+{
+  "retrieved": "2026-09-22",
+  "purpose": "Separately verified official observations; does not overwrite frozen model inputs.",
+  "july": {
+    "url": "https://csu.gov.cz/rychle-informace/consumer-price-indices-inflation-july-2026",
+    "published": "2026-08-11",
+    "month": "2026-07",
+    "headline": 1.7,
+    "goods": -0.2,
+    "services": 4.7,
+    "actual_rent": 6.1,
+    "imputed_rent": 5.7,
+    "fuel": 16.8
+  },
+  "august": {
+    "url": "https://csu.gov.cz/rychle-informace/consumer-price-indices-inflation-august-2026",
+    "published": "2026-09-10",
+    "month": "2026-08",
+    "headline": 1.9,
+    "headline_mm": 0.3,
+    "goods": 0.2,
+    "services": 4.5,
+    "actual_rent": 6.1,
+    "imputed_rent": 5.4,
+    "fuel": 26.2,
+    "fuel_mm": 7.2,
+    "electricity": -11.2,
+    "gas": -4.8,
+    "next_flash": "2026-10-06",
+    "next_detail": "2026-10-13"
+  },
+  "cnb_august": {
+    "url": "https://www.cnb.cz/en/public/media-service/the-cnb-comments-on-the-statistical-data-on-inflation-and-gdp/Fuel-prices-again-increase-inflation-in-August/",
+    "month": "2026-08",
+    "core": 3.0,
+    "administered": -1.2,
+    "note": "Observed actuals only. CNB forecasts are not included in independent inputs."
+  }
+}

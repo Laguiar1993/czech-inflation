@@ -1,0 +1,98 @@
+{
+  "retrieved_at_utc": "2026-09-11T07:06:50.789111+00:00",
+  "fields_requested": [
+    "SEASONALITY_AND_TRANSFORMATION",
+    "SEASONAL_ADJ",
+    "SEASONAL_ADJUSTMENT",
+    "FREQUENCY",
+    "PERIODICITY",
+    "ECO_SEASONAL_ADJ",
+    "ECO_SEASONAL_ADJUSTMENT",
+    "ECO_RELEASE_FREQ",
+    "ECO_RELEASE_FREQUENCY"
+  ],
+  "tickers": {
+    "CZIPITN Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "Index NSA"
+      }
+    },
+    "CZIPITW Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "Index WDA"
+      }
+    },
+    "CZIPITWY Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "YoY% WDA"
+      }
+    },
+    "CZGRIDX Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "Units/Persons NSA"
+      }
+    },
+    "LCTQCZI Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "Index NSA"
+      }
+    },
+    "LCTOCZI Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "Index Annual"
+      }
+    },
+    "EUS3CZ Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "% Balance/Diffusion Index SA"
+      }
+    },
+    "EUS5CZ Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "% Balance/Diffusion Index SA"
+      }
+    },
+    "EUB3CZ Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "% Balance/Diffusion Index SA"
+      }
+    },
+    "GRCPHCPI Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "Index NSA"
+      }
+    },
+    "UMRTDE Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "Percent SA"
+      }
+    },
+    "CZEII Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "Index NSA"
+      }
+    },
+    "LONSCZNF Index": {
+      "status": "ok",
+      "values": {
+        "seasonality_and_transformation": "Value NSA"
+      }
+    },
+    "CZIPITSA Index": {
+      "status": "ok",
+      "values": {}
+    }
+  }
+}

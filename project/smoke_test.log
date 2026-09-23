@@ -1,0 +1,143 @@
+[synthetic] sample 2005-01..2026-07  n=259
+h=0 nowcast for 2026-08: CPI m/m = 0.17%  components={'core': 0.24, 'food': -0.01, 'fuel': 1.13, 'administered': -0.01}  fuel_diag={'weeks_observed': 3, 'fraction_observed': 0.6, 'tail_projection': 40.05, 'cur_mean': 39.87, 'prev_mean': 39.43}
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+C:\Users\luis_\Downloads\czk-cpi-nowcast_extracted\czk-cpi-nowcast\backtest\engine.py:76: RuntimeWarning: Mean of empty slice
+  "RMSE": float(np.sqrt(np.nanmean(e ** 2))),
+C:\Users\luis_\Downloads\czk-cpi-nowcast_extracted\czk-cpi-nowcast\backtest\engine.py:77: RuntimeWarning: Mean of empty slice
+  "MAE": float(np.nanmean(np.abs(e))),
+C:\Users\luis_\Downloads\czk-cpi-nowcast_extracted\czk-cpi-nowcast\backtest\engine.py:76: RuntimeWarning: Mean of empty slice
+  "RMSE": float(np.sqrt(np.nanmean(e ** 2))),
+C:\Users\luis_\Downloads\czk-cpi-nowcast_extracted\czk-cpi-nowcast\backtest\engine.py:77: RuntimeWarning: Mean of empty slice
+  "MAE": float(np.nanmean(np.abs(e))),
+
+== h=1 (full sample, n=175) ==
+                      RMSE    MAE  dir_corr  DM_vs_AR3  DM_pval
+model                                                          
+TVW_QRF_WIDERAW_MF1  0.216  0.172     0.091     -3.543    0.001
+TVW_QRF              0.221  0.174     0.080     -3.110    0.002
+ENSEMBLE             0.223  0.178    -0.149     -4.112    0.000
+TVW_QRF_sqPCA        0.224  0.178     0.023     -2.784    0.006
+TVW_QRF_WIDERAW      0.225  0.179     0.080     -2.763    0.006
+TVW_QRF_RAW          0.225  0.179     0.080     -2.763    0.006
+ARIMA313             0.246  0.195    -0.057     -0.002    0.998
+AR3                  0.246  0.197    -0.150        NaN      NaN
+RW                   0.258  0.205    -0.138      1.020    0.309
+BVAR                   NaN    NaN       NaN        NaN      NaN
+-- h=1 TVW-QRF 5-95% band coverage: 79% (target ~90%, n=175) --
+   PIT/KS test: stat=0.0622  p=0.4873  (calibrated at 5%, n=175)  |  CRPS (mean)=0.1047
+   January coverage: 73% (n=15)  vs  other months: 80% (n=160)  -> January band needs 1.1x width to match
+-- h=1 (ex-surge 2021-06..2023-03, n=153) --
+                      RMSE    MAE  dir_corr  DM_vs_AR3  DM_pval
+model                                                          
+TVW_QRF_WIDERAW_MF1  0.210  0.166     0.091     -2.314    0.022
+TVW_QRF              0.216  0.168     0.130     -1.589    0.114
+TVW_QRF_RAW          0.216  0.172     0.090     -1.549    0.124
+TVW_QRF_WIDERAW      0.216  0.172     0.090     -1.549    0.124
+TVW_QRF_sqPCA        0.219  0.173     0.038     -1.261    0.209
+ENSEMBLE             0.220  0.173    -0.160     -1.806    0.073
+AR3                  0.227  0.181    -0.161        NaN      NaN
+ARIMA313             0.238  0.187    -0.066      1.625    0.106
+RW                   0.265  0.211    -0.159      3.111    0.002
+BVAR                   NaN    NaN       NaN        NaN      NaN
+++ h=1 LIVE forecast for 2026-08: TVW_QRF=0.14%  (5-95% band [-0.23, 0.38])  AR3=0.09%  ARIMA=0.07%  RW=-0.03%  | historical @ h=1: RMSE=0.22pp, band coverage=79% ++
+Traceback (most recent call last):
+  File "C:\Users\luis_\Downloads\czk-cpi-nowcast_extracted\czk-cpi-nowcast\run_nowcast.py", line 680, in <module>
+    main(ap.parse_args().synthetic)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luis_\Downloads\czk-cpi-nowcast_extracted\czk-cpi-nowcast\run_nowcast.py", line 637, in main
+    bt = bt_store[h]
+         ~~~~~~~~^^^
+KeyError: 3

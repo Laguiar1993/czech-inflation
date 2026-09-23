@@ -1,0 +1,16 @@
+{
+  "sha256": {
+    "coverage.csv": "1393c53ddccb138e6b94e96ab4e485dbe9859d6a6d6d166b5214653430262b25",
+    "errors.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "history_long.csv": "5f529272d9e181c44abe3265e5e6e17816909903ef7eafaef88afba69372cb15",
+    "instrument_search.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "metadata.json": "a3718e30c3bdb36089cd9a43e8b88c80835be45a27941ccfdaafa011fff76407",
+    "raw/CZCPF_Index.csv": "39e8cc07d9d6f8220bec39c876a511e8e7374d7d20c7d23db5cd82efd8670541",
+    "raw/CZCPI_Index.csv": "e3bb657338f5717c72ecf1496d89b8577f3a44dd89121c72c1b9e60a7b9a0c47",
+    "raw/CZCPMOM_Index.csv": "e8ef4a77c00e71df226edc47ff3123270cbae138668d3ab4317efcf6232e7c88",
+    "raw/CZCPYOY_Index.csv": "aa8115ee333f662b46da02219ee4a48c64eab182805f2aabd45477ad6c4e579e",
+    "raw/CZPPA10M_Index.csv": "3a6e8e5d3259faf8e513a0c3902c4f235fee0ba4e5eb6da2d496231d26be1adb",
+    "request.json": "5f063a648d72e054dc3ebf506257166f40d08ced66236c96ace13756743ce7f2"
+  },
+  "probe_script_sha256": "beb8b6fe12ee0493a9b0bc9901b628914dd9ff696d737a532e570b5d943639dd"
+}

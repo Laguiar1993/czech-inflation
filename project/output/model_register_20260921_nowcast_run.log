@@ -1,0 +1,108 @@
+frozen 1/90 2019-02: BASE 0.3178, 2s
+frozen 16/90 2020-05: BASE 0.1755, 35s
+frozen 31/90 2021-08: BASE 0.2245, 70s
+frozen 46/90 2022-11: BASE 0.7585, 109s
+frozen 61/90 2024-02: BASE 0.2706, 156s
+frozen 76/90 2025-05: BASE 0.2616, 209s
+frozen 90/90 2026-07: BASE 0.4477, 267s
+bloomberg 1/90 2019-02: BASE 0.3246, 2s
+bloomberg 16/90 2020-05: BASE 0.2002, 34s
+bloomberg 31/90 2021-08: BASE 0.2012, 70s
+bloomberg 46/90 2022-11: BASE 0.7653, 109s
+bloomberg 61/90 2024-02: BASE 0.2758, 156s
+bloomberg 76/90 2025-05: BASE 0.2819, 210s
+bloomberg 90/90 2026-07: BASE 0.4738, 267s
+{
+ "HARD_BASE": {
+  "reproduction_max_abs_gap": 6.661338147750939e-16,
+  "reproduction_mean_abs_gap": 1.1062717100409872e-16,
+  "bloomberg_max_abs_change": 0.04377976487642865,
+  "bloomberg_mean_abs_change": 0.012808401902758648,
+  "bloomberg_change_over_0p05": 0,
+  "bloomberg_change_over_0p10": 0,
+  "rmse": {
+   "all": {
+    "frozen": 0.41795154739724044,
+    "bbg": 0.4178836475000788
+   },
+   "prints_2024plus": {
+    "frozen": 0.21897776134072022,
+    "bbg": 0.22166496332844113
+   },
+   "flash_era_2025plus": {
+    "frozen": 0.17300164605167864,
+    "bbg": 0.17576641900165738
+   }
+  }
+ },
+ "HARD_HALF": {
+  "reproduction_max_abs_gap": 0.008274901977387117,
+  "reproduction_mean_abs_gap": 0.0007085212538123427,
+  "bloomberg_max_abs_change": 0.05082707455236424,
+  "bloomberg_mean_abs_change": 0.013874686681188983,
+  "bloomberg_change_over_0p05": 1,
+  "bloomberg_change_over_0p10": 0,
+  "rmse": {
+   "all": {
+    "frozen": 0.41369069935980585,
+    "bbg": 0.4139861638658117
+   },
+   "prints_2024plus": {
+    "frozen": 0.21972626512779933,
+    "bbg": 0.22292561279864048
+   },
+   "flash_era_2025plus": {
+    "frozen": 0.16555699415394212,
+    "bbg": 0.16947857059558016
+   }
+  }
+ },
+ "HARD_FULL": {
+  "reproduction_max_abs_gap": 0.01654980395477429,
+  "reproduction_mean_abs_gap": 0.001417042507624633,
+  "bloomberg_max_abs_change": 0.07529350635467275,
+  "bloomberg_mean_abs_change": 0.016573436587490966,
+  "bloomberg_change_over_0p05": 4,
+  "bloomberg_change_over_0p10": 0,
+  "rmse": {
+   "all": {
+    "frozen": 0.41393211978243255,
+    "bbg": 0.4147595157723301
+   },
+   "prints_2024plus": {
+    "frozen": 0.22565854252267914,
+    "bbg": 0.22934969225676305
+   },
+   "flash_era_2025plus": {
+    "frozen": 0.16387280068849955,
+    "bbg": 0.16883602056088592
+   }
+  }
+ },
+ "block_contributions_pp": {
+  "contrib_core": {
+   "max_abs_change_pp": 0.026386350437197947,
+   "mean_abs_change_pp": 0.002878547988291423
+  },
+  "contrib_food": {
+   "max_abs_change_pp": 0.03597891967628708,
+   "mean_abs_change_pp": 0.006091147465345501
+  },
+  "contrib_alcohol_tobacco": {
+   "max_abs_change_pp": 0.00454841853589414,
+   "mean_abs_change_pp": 0.000912795729529502
+  },
+  "contrib_administered": {
+   "max_abs_change_pp": 0.014024576494604452,
+   "mean_abs_change_pp": 0.0005389418700401117
+  },
+  "contrib_fuel": {
+   "max_abs_change_pp": 0.019803401471771162,
+   "mean_abs_change_pp": 0.0010652047893665228
+  },
+  "contrib_wedge": {
+   "max_abs_change_pp": 0.022527963226350423,
+   "mean_abs_change_pp": 0.00815985240668767
+  }
+ }
+}

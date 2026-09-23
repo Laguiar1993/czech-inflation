@@ -1,0 +1,21 @@
+{
+  "source_hash_mismatches_at_start": [],
+  "payloads": 13,
+  "historical_states": 199,
+  "state_first": "2010-01",
+  "state_last": "2026-07",
+  "state_max_abs_delta": 0.0,
+  "candidates": 4776,
+  "estimated_candidate_refits": 3444,
+  "candidate_max_abs_delta": 6.217248937900877e-15,
+  "selections": 360,
+  "selection_loss_max_abs_delta": 0.0,
+  "selected_forest_refits": 24,
+  "forest_max_abs_delta": 0.0,
+  "native_rows": 7020,
+  "native_calendar_max_abs_delta": 0.0,
+  "annual_rows": 12870,
+  "annual_max_abs_delta": 1.3100631690576847e-13,
+  "score_rows": 1440,
+  "score_max_abs_delta": 0.0
+}

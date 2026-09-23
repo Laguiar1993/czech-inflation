@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "coverage.csv": "b20bc7a3dab1c18b4eb12c3058d72fe6c1a6ba733bc16edfd2354d5e807f1405",
+    "errors.json": "03bd8686fcbad9bbf8eb69bcf5df9e6d838a23e438412cf91b7eb393d2bc4ee0",
+    "history_long.csv": "08c8b7b56e0441cb69e860131bb139d6f415e8a6ba490ed85a4aa3346025237e",
+    "instrument_search.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "metadata.json": "f878dda508936ae75dfbed2f3a79dd326631e276ee35ee80bd33c055080da680",
+    "raw/EURCZKF_Curncy.csv": "68ac95b31157db059aa57242fc2912010cf16698d92eff0ba2ef5c1f567e5c0e",
+    "request.json": "d61dd6b18654292b5c1490e572b54f5db21a6f0cd49fba4b76386ae63e34d455"
+  },
+  "probe_script_sha256": "7d8f53a75df38b84cb95d2b0f6a7c4683f33e79b761f6e80bf132a154936be41"
+}

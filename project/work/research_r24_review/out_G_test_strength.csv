@@ -1,0 +1,10 @@
+mutant,tests_failed,caught_by_tests,run_assertion,which
+M0 unchanged (control),0,False,passes,
+M1 horizon off-by-one: baseline rates [0:12] and refit [0:12] instead of [1:13],0,False,passes,
+M2 mu_robust ignores the training window (allowed dropped),0,False,passes,
+M3 refit moves the food centre the wrong way,0,False,passes,
+M4 publication stamps ignored in the drift,1,True,passes,test_shift_candidates_differ_from_the_baseline_by_exactly_their_constant: AssertionError
+M5 long history starts 2005 instead of 1996,0,False,passes,
+M6 mu_window taken as the plain window mean of calendar means of ALL THREE series,0,False,passes,
+M7 simple rate conversion dropped (log rate written as the simple rate),1,True,passes,test_shift_candidates_differ_from_the_baseline_by_exactly_their_constant: AssertionError
+M8 median replaced by the mean of twelve-month changes,2,True,passes,test_median_drift_ignores_one_extreme_year_and_every_unpublished_month: AssertionError; test_shift_candidates_differ_from_the_baseline_by_exactly_their_constant: AssertionError

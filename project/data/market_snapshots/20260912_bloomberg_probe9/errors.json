@@ -1,0 +1,7 @@
+[
+  {
+    "ticker": "SSEFCZK Index",
+    "stage": "bdh",
+    "error": "ValueError: no history"
+  }
+]

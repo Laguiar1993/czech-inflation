@@ -1,0 +1,34 @@
+{
+  "roster": [
+    "STATE_FAST_R15",
+    "STABLE_LOCAL_CORE_R14B",
+    "DAMPED_P95_Q001_R16",
+    "CORE_FEEDBACK_R21",
+    "JOINT_OWN_R22",
+    "JOINT_DOMESTIC_R22",
+    "JOINT_IMPORTED_R22",
+    "JOINT_LINEAR_R22",
+    "JOINT_ENET_R22",
+    "JOINT_RF_R22",
+    "JOINT_HALF_R22"
+  ],
+  "primary_calendar": "Original R16 annual-headline969row support, not filtered by a new model.",
+  "errors": "Forecast minus actual in percentage points. Show failures separately; matched comparisons require identical finite support.",
+  "core": "Monthly core and cumulative log core h1..h, original frozen target. Underlying bands subtract own-origin saved R15 seasonality.",
+  "bootstrap": "12 consecutive calendar-origin blocks;2000draws seed1509; suppress when complete calendar blocks cannot cover all support.",
+  "sustained": "Bands1to3 change>=.5pp annualized, without opposite adjacent>=.5pp. Additional to strict exact-turn test.",
+  "cnb": "Both clocks; same-origin quarter means;0.15pp absolute-error materiality; repeated quarters dependent; every-report omission.",
+  "limitations": [
+    "R22 fixed research experiment.90 original origins February2019-July2026; same969primary scored keys. Revised histories and reconstructed availability; no untouched holdout or live promotion.",
+    "Seven candidates forecast a joint monthly system: core, statistical services/housing/goods proxies, unemployment, quarterly ULC pressure, industrial production, import and producer costs, FX, Brent and metals.",
+    "Domestic, imported, full and core-only families share exact training dates and preprocessing. Six lags with fixed shrinkage, stable companion dynamics and released-data conditioning. No parameter selection on these results.",
+    "ULC is a quarterly annual-growth proxy carried over three reference months with one publication date. It is not measured monthly wages; early40monthly training rows contain only14 distinct ULC source quarters.",
+    "Goods/services/housing averages are incomplete statistical measurements, not official core partitions. CNB core is separately forecast; current basket weights are never imposed on historical category averages.",
+    "The nonlinear candidate adds a shrunk forest residual to the linear core recursion. Ragged-edge conditioning remains linear. Perturbed-state responses diagnose associations; they are not identified causal shocks.",
+    "Independent HARD_BASE headline h0 and all non-core components/weights remain fixed. Month-t FX/commodity information can condition the internal economic system when already available. h1 is next reference month.",
+    "Every model retains original support regardless of checkboxes. Both CNB report/cutoff clocks, false turns, sustained movements, driver errors and report omissions are exported. No CNB forecast, survey or confidence input.",
+    "Defaults are visual comparisons, not model promotion. Cumulative/annual inflation is compounded from same-origin monthly rates. Forecast failures and data approximations remain visible."
+  ],
+  "driver_scores": "Same-origin statistical measurements, including quarterly ULClog proxy; seasonal persistence uses latest released observation.",
+  "responses": "After internal h0 conditioning, perturb state by published spec units; no refit. Wrong sign is a diagnostic, not proof of causality."
+}

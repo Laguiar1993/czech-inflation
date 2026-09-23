@@ -1,0 +1,13 @@
+{
+ "ticker": "CZPPA10M Index",
+ "transform": "cumulated published m/m: sum of 100*ln(1 + m/m/100), re-based to 2015-01",
+ "months_from_bloomberg": 139,
+ "first": "2015-01",
+ "last": "2026-07",
+ "months_kept_from_previous_source": 0,
+ "kept_span": null,
+ "exact_share": 0.007194244604316547,
+ "max_abs_gap": 0.3148782030384041,
+ "mean_abs_gap": 0.1299315314536526,
+ "gap_at_last": 0.005617176038441585
+}

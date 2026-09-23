@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-15",
+  "test_command": "python -m pytest tests/test_energy_exposure_r18.py tests/test_energy_path_r17.py -q -p no:cacheprovider --basetemp work/research_r18_energy/pytest_final",
+  "test_result": "20 passed in 0.94s",
+  "r18_tests": 14,
+  "r17_regression_tests": 6,
+  "red_stage": "12 missing-module failures before implementation; later baseline/semester and runner missing-feature failures before implementation",
+  "source_register_sha256": "3940ee60a540bdfedef3e8b0238d0f8d3e8abe9d6477aceda6e5c16dd2d9dae5",
+  "spec_sha256": "e7501e245f6f8cffd690247b91cd6ecbbb8d5d14af061862998c752c65f1037e",
+  "sources_verified": 22,
+  "national_eligible": false,
+  "source_fact_rows": 25,
+  "schema_field_rows": 124,
+  "missing_field_rows": 15,
+  "scenario_rows": 60,
+  "output_hashes_verified": true,
+  "manual_pages_visually_checked": [
+    8,
+    12
+  ],
+  "old_model_files_edited": false
+}

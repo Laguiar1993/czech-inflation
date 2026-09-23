@@ -1,0 +1,20 @@
+{
+  "schema": "momentum_r35_x13_archive/v1",
+  "delivery_seal": false,
+  "files": {
+    "diagnostics.json": "6f19af93240ccb0f17ce57d50e083dd2f77eba74b11973d6ab62297396c30383",
+    "input.csv": "b59e23a875c2dc72b27bc25e4e9d5f362be996d9a2fe6dc813c17ac49fbbae59",
+    "series.d10": "1285ba35c418f1645bdc87d8ecc3ba6f0a9be461c79259cf96feb88599489b7e",
+    "series.d11": "a918c8c4ca1f3c33653c1fbde5dc959252f5cf850ee40d308e88570a686448e8",
+    "series.d12": "398a686ee7d4006e3bfa53bce38dfa5c7a6880521c86537d5ced9723bbbd9872",
+    "series.d13": "d0d6bf7b3272fb3c021dd330ae24704f8007e472bb556ebe6ace5ec3ce27bf81",
+    "series.err": "ecfa69d749a9c83def94fd02bced9c506627e4b2524f98aa607910fc45806789",
+    "series.log": "913e34f042792c786e258f926f1aec01d8ea7ba505635344ad98524dca7e4812",
+    "series.out": "73557b25d3fd72b386583316b423d8f0b11b5cebcd4c8ad05cf04b554ac6d5e0",
+    "series.spc": "8dd6901f4ef9056906e1a7ae2b48db76c99914969975c1b53d31d34a15df411c",
+    "series.udg": "77d7f85c9616fd1beb25f413d383a08a8904b54e463a611f87319e701194f6ff",
+    "settings.json": "7dac0817972b1059e115d3a184a506b26b8bcdf3f6a28f35f9425c948b6ec95e",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "6e365c5fae858f05d176e714d61095a3a5da3f86e5b886a5e10c8e439f07b40b"
+  }
+}

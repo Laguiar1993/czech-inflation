@@ -1,0 +1,33 @@
+{
+  "source_and_output_hashes": {
+    "output/research_r15/native_forecasts.csv": true,
+    "output/research_r14b/integration/native_forecasts.csv": true,
+    "output/research_r16/forecasts.csv": true,
+    "output/research_r16/manifest.json": true,
+    "output/research_r14b/attribution/actual_component_targets.csv": true,
+    "output/independent_path_frozen_inputs.csv": true,
+    "path_attribution_r14.py": true,
+    "tools/review/r17_component_attribution.py": true,
+    "output/research_r17/attribution/component_errors.csv": true,
+    "output/research_r17/attribution/joint_oracles.csv": true,
+    "output/research_r17/attribution/primary_oracle_summary.csv": true,
+    "output/research_r17/attribution/primary_rows.csv": true,
+    "output/research_r17/attribution/primary_support.csv": true
+  },
+  "original_roster_count": 15,
+  "primary_support_rows": 969,
+  "support_exact": true,
+  "all_two_models_seven_oracles_present": true,
+  "joint_independent_product_max_error": {
+    "annual_forecast": 1.1546319456101628e-13,
+    "annual_oracle": 9.325873406851315e-14,
+    "annual_actual": 6.439293542825908e-14
+  },
+  "joint_squared_identity_max_error": 5.684341886080802e-14,
+  "fast_saved_state_origins": 199,
+  "fast_saved_path_max_error": 2.220446049250313e-16,
+  "limitations": [
+    "Joint oracle is conditional algebra with frozen weights and retained wedge/h0, not exact official chain-linked attribution.",
+    "Missing component outcomes reduce oracle-valid support; compare same scope."
+  ]
+}

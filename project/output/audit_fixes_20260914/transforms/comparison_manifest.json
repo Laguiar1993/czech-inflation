@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-14T08:52:30.300822+00:00",
+  "python": "3.12.14",
+  "numpy": "2.5.2",
+  "pandas": "3.0.1",
+  "comparison_atol": 1e-12,
+  "comparison_rtol": 0,
+  "builder_before_sha256": "c6e9b258d9c2b76a6ab621352348b6b15a5bb763e25b5372896ce2858d4700cb",
+  "builder_after_sha256": "131034b1c4d30f5103b4066ee0f912a22d3138a4b798e37d5869ab4701832331",
+  "panels": {
+    "luci": {
+      "shape": [
+        292,
+        72
+      ],
+      "period_start": "2002-05",
+      "period_end": "2026-08",
+      "cells": 21024,
+      "same_runtime_changed_cells": 0,
+      "frozen_unequal_exact_cells": 163,
+      "frozen_changed_cells_above_1e_12": 0,
+      "frozen_max_abs_difference": 1.7763568394002505e-15,
+      "missing_mask_equal": true,
+      "nonpositive_T2_raw_rows": {
+        "22": {
+          "count": 254,
+          "first_period": "1993-10"
+        },
+        "25": {
+          "count": 82,
+          "first_period": "2005-04"
+        }
+      },
+      "protected_files_unchanged": true,
+      "protected_sha256": {
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\a6_inputs_20260912\\exact_inputs_long.csv": "cfd02def49bd5dd90f0e567e89bbba4ffc79701061ec58d5944dff7d82d3b23b",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\a6_inputs_20260912\\candidate_inputs_long.csv": "d06aefef3b387d6a7650bd669f304ed45c6bcb59ad1ed9633f932adffb4c7d67",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\cnb_paper_a6_audit_20260912\\a6_audit.csv": "f79e6449d1930525fcba51c6a995e7de8b651334be28c7d1bf31c8e96b3eb100",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\headline_extended_and_states.csv": "dab64ba59634410ee2a183724b5ee2463e24a8c20bb188dab0ab4bab2ad89e94",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_cnb_luci_20260912\\luci_quarterly.csv": "1c514f05d7fab1ab9bda06242d46e1cf16bb223e193451001a24f1706e411f84",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\paper_model_panel_20260912_luci\\paper_convention_panel.csv": "c587b8037d62025aa0bf3a196aaa39dd90e5b14e79343b907c4da98a35b81de8",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\paper_model_panel_20260912_luci\\realtime_panel.csv": "fa7105c58960ff013654e423b36add2f93311f702c52476f9e7d033f46cf3ad5",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\paper_model_panel_20260912_luci\\target_cpi_mm.csv": "f969a55e7750d3310b1d938fe96269669b51041bafed037622ffe7d055d1df35",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\paper_model_panel_20260912_luci\\manifest.json": "408376e622deeec8beb7990ca39a44acf11b6b1b2a493d12685fd1dcf859877c"
+      },
+      "output_sha256": "787b5a67e079fa13543dd70ff582f7ff4c7b891181688a5d6f30bbeb8acedb9b"
+    },
+    "exact": {
+      "shape": [
+        292,
+        72
+      ],
+      "period_start": "2002-05",
+      "period_end": "2026-08",
+      "cells": 21024,
+      "same_runtime_changed_cells": 0,
+      "frozen_unequal_exact_cells": 163,
+      "frozen_changed_cells_above_1e_12": 0,
+      "frozen_max_abs_difference": 1.7763568394002505e-15,
+      "missing_mask_equal": true,
+      "nonpositive_T2_raw_rows": {
+        "22": {
+          "count": 254,
+          "first_period": "1993-10"
+        },
+        "25": {
+          "count": 153,
+          "first_period": "1993-02"
+        }
+      },
+      "protected_files_unchanged": true,
+      "protected_sha256": {
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\a6_inputs_20260912\\exact_inputs_long.csv": "cfd02def49bd5dd90f0e567e89bbba4ffc79701061ec58d5944dff7d82d3b23b",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\a6_inputs_20260912\\candidate_inputs_long.csv": "d06aefef3b387d6a7650bd669f304ed45c6bcb59ad1ed9633f932adffb4c7d67",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\cnb_paper_a6_audit_20260912\\a6_audit.csv": "f79e6449d1930525fcba51c6a995e7de8b651334be28c7d1bf31c8e96b3eb100",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\headline_extended_and_states.csv": "dab64ba59634410ee2a183724b5ee2463e24a8c20bb188dab0ab4bab2ad89e94",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_cnb_luci_20260912\\luci_quarterly.csv": "1c514f05d7fab1ab9bda06242d46e1cf16bb223e193451001a24f1706e411f84",
+        "data\\paper_replication\\a6_exact_overrides_20260912\\overrides_long.csv": "7e14bfbe141b9eb738e5c68a171d8812dfebd770d0c58179267f61dd810bd532",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\paper_model_panel_20260912_exact\\paper_convention_panel.csv": "d68bc4e74ba73798918d05adf7f9ee24a49b52dd3af30633bd5ca083fbbe1b4b",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\paper_model_panel_20260912_exact\\realtime_panel.csv": "e06166fca82b6f391dd872a964b2575004a48e0000e883b4b3cbaf8c4b2ff7ad",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\paper_model_panel_20260912_exact\\target_cpi_mm.csv": "f969a55e7750d3310b1d938fe96269669b51041bafed037622ffe7d055d1df35",
+        "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\paper_model_panel_20260912_exact\\manifest.json": "b1c3e084c3e1200adcaeceaa27fd2c0f5149610e12a2cee6b65806c389344e43"
+      },
+      "output_sha256": "cd59b93af72a868be75ecb9192fefc22b02ef34dd137f8d3c443b1bb0206d641"
+    }
+  },
+  "limitations": [
+    "Only realtime panels rebuilt; no X13, Chow-Lin, paper factor imputation or network.",
+    "Current runtime differs from the original panel build; same-runtime pre-edit replay isolates the code change."
+  ]
+}

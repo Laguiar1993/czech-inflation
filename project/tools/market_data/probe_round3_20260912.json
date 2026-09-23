@@ -1,0 +1,14 @@
+{
+  "note": "Round 3 of the 12 Sep 2026 probe: the CNB 'Czech Inflation' family and CZSO division m/m tickers found by the round-2 search. CZCIAM/CZCIAY/CZCICM/CZCICY are pattern probes for an adjusted (core) member and are expected to fail if they do not exist.",
+  "candidates": {
+    "cnb_inflation_family": ["CZCIPM Index", "CZCIPY Index", "CZCIFM Index", "CZCIFY Index", "CZCIBM Index", "CZCIBY Index",
+                             "CZCINM Index", "CZCINY Index", "CZCIXM Index", "CZCIXY Index", "CZCIMPM Index", "CZCIMPY Index",
+                             "CZCIITCM Index", "CZCIFCM Index", "CZCIBCM Index", "CZCINCM Index", "CZCIXCM Index"],
+    "cnb_core_pattern_probes": ["CZCIAM Index", "CZCIAY Index", "CZCICM Index", "CZCICY Index"],
+    "czso_division_mom": ["CZCPFMOM Index", "CZCPAMOM Index", "CZCPTRMM Index", "CZCPHOMM Index"]
+  },
+  "daily": [],
+  "searches": ["Czech Inflation Adjusted", "Czech adjusted inflation excluding fuel", "EU CPI Services Czech Republic",
+               "Eurostat Czech Republic HICP Services", "Czech Republic CPI Services", "Czech Inflation Core Excluding Fuel"],
+  "max_results": 40
+}

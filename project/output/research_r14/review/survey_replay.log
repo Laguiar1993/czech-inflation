@@ -1,0 +1,53 @@
+FMIE issue-clock paths 1/24: 2023-08
+FMIE issue-clock paths 2/24: 2023-09
+FMIE issue-clock paths 3/24: 2023-10
+FMIE issue-clock paths 4/24: 2023-11
+FMIE issue-clock paths 5/24: 2023-12
+FMIE issue-clock paths 6/24: 2024-01
+FMIE issue-clock paths 7/24: 2024-02
+FMIE issue-clock paths 8/24: 2024-03
+FMIE issue-clock paths 9/24: 2024-04
+FMIE issue-clock paths 10/24: 2024-05
+FMIE issue-clock paths 11/24: 2024-06
+FMIE issue-clock paths 12/24: 2024-07
+FMIE issue-clock paths 13/24: 2024-08
+FMIE issue-clock paths 14/24: 2024-09
+FMIE issue-clock paths 15/24: 2024-10
+FMIE issue-clock paths 16/24: 2024-11
+FMIE issue-clock paths 17/24: 2024-12
+FMIE issue-clock paths 18/24: 2025-01
+FMIE issue-clock paths 19/24: 2025-02
+FMIE issue-clock paths 20/24: 2025-03
+FMIE issue-clock paths 21/24: 2025-04
+FMIE issue-clock paths 22/24: 2025-05
+FMIE issue-clock paths 23/24: 2025-06
+FMIE issue-clock paths 24/24: 2025-07
+                        scope                  model  n_intended  n  n_own_scored  n_available_targets     rmse      mae     bias  model_target_horizon                     source_clock_kind
+               primary_common     INDEPENDENT_BRIDGE          24 24            24                   24 1.324886 1.102043 0.697407                    12 document_date_next_day_reconstruction
+               primary_common PIPELINE_FOOD_FUEL_R14          24 24            24                   24 1.220179 1.093696 0.021011                    12 document_date_next_day_reconstruction
+               primary_common PIPELINE_GAP_RIDGE_R14          24 24            24                   24 1.128308 0.969051 0.912021                    12 document_date_next_day_reconstruction
+               primary_common    PIPELINE_GAP_RF_R14          24 24            24                   24 1.327866 1.132332 1.132332                    12 document_date_next_day_reconstruction
+               primary_common                   FMIE          24 24            24                   24 0.410277 0.339528 0.012812                    12 document_date_next_day_reconstruction
+    paired_INDEPENDENT_BRIDGE     INDEPENDENT_BRIDGE          24 24            24                   24 1.324886 1.102043 0.697407                    12 document_date_next_day_reconstruction
+    paired_INDEPENDENT_BRIDGE                   FMIE          24 24            24                   24 0.410277 0.339528 0.012812                    12 document_date_next_day_reconstruction
+paired_PIPELINE_FOOD_FUEL_R14     INDEPENDENT_BRIDGE          24 24            24                   24 1.324886 1.102043 0.697407                    12 document_date_next_day_reconstruction
+paired_PIPELINE_FOOD_FUEL_R14 PIPELINE_FOOD_FUEL_R14          24 24            24                   24 1.220179 1.093696 0.021011                    12 document_date_next_day_reconstruction
+paired_PIPELINE_FOOD_FUEL_R14                   FMIE          24 24            24                   24 0.410277 0.339528 0.012812                    12 document_date_next_day_reconstruction
+paired_PIPELINE_GAP_RIDGE_R14     INDEPENDENT_BRIDGE          24 24            24                   24 1.324886 1.102043 0.697407                    12 document_date_next_day_reconstruction
+paired_PIPELINE_GAP_RIDGE_R14 PIPELINE_GAP_RIDGE_R14          24 24            24                   24 1.128308 0.969051 0.912021                    12 document_date_next_day_reconstruction
+paired_PIPELINE_GAP_RIDGE_R14                   FMIE          24 24            24                   24 0.410277 0.339528 0.012812                    12 document_date_next_day_reconstruction
+   paired_PIPELINE_GAP_RF_R14     INDEPENDENT_BRIDGE          24 24            24                   24 1.324886 1.102043 0.697407                    12 document_date_next_day_reconstruction
+   paired_PIPELINE_GAP_RF_R14    PIPELINE_GAP_RF_R14          24 24            24                   24 1.327866 1.132332 1.132332                    12 document_date_next_day_reconstruction
+   paired_PIPELINE_GAP_RF_R14                   FMIE          24 24            24                   24 0.410277 0.339528 0.012812                    12 document_date_next_day_reconstruction
+  paired_STABLE_PIPELINE_R14B     INDEPENDENT_BRIDGE          24 24            24                   24 1.324886 1.102043 0.697407                    12 document_date_next_day_reconstruction
+  paired_STABLE_PIPELINE_R14B   STABLE_PIPELINE_R14B          24 24            24                   24 1.203742 1.043966 0.378976                    12 document_date_next_day_reconstruction
+  paired_STABLE_PIPELINE_R14B                   FMIE          24 24            24                   24 0.410277 0.339528 0.012812                    12 document_date_next_day_reconstruction
+paired_STABLE_LOCAL_CORE_R14B     INDEPENDENT_BRIDGE          24 24            24                   24 1.324886 1.102043 0.697407                    12 document_date_next_day_reconstruction
+paired_STABLE_LOCAL_CORE_R14B STABLE_LOCAL_CORE_R14B          24 24            24                   24 0.976371 0.726705 0.671771                    12 document_date_next_day_reconstruction
+paired_STABLE_LOCAL_CORE_R14B                   FMIE          24 24            24                   24 0.410277 0.339528 0.012812                    12 document_date_next_day_reconstruction
+ paired_STABLE_LONG_CORE_R14B     INDEPENDENT_BRIDGE          24 24            24                   24 1.324886 1.102043 0.697407                    12 document_date_next_day_reconstruction
+ paired_STABLE_LONG_CORE_R14B  STABLE_LONG_CORE_R14B          24 24            24                   24 0.986057 0.809316 0.711000                    12 document_date_next_day_reconstruction
+ paired_STABLE_LONG_CORE_R14B                   FMIE          24 24            24                   24 0.410277 0.339528 0.012812                    12 document_date_next_day_reconstruction
+  paired_STABLE_LONG_GAP_R14B     INDEPENDENT_BRIDGE          24 24            24                   24 1.324886 1.102043 0.697407                    12 document_date_next_day_reconstruction
+  paired_STABLE_LONG_GAP_R14B   STABLE_LONG_GAP_R14B          24 24            24                   24 1.186339 0.991728 0.936130                    12 document_date_next_day_reconstruction
+  paired_STABLE_LONG_GAP_R14B                   FMIE          24 24            24                   24 0.410277 0.339528 0.012812                    12 document_date_next_day_reconstruction

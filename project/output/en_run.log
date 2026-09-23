@@ -1,0 +1,24 @@
+harness: C0 vs backtest 4.44e-16; F0 vs backtest 2.22e-16
+
+CORE BLOCK RMSE | FOOD BLOCK RMSE | HEADLINE RMSE (release eve)
+split              n | C0 ridge  C1 enet   C2 +fx | F0 ridge  F1 enet   F2 +fx |    head      C1      C2      F1      F2 | survey
+all 90            90 |    0.308    0.313    0.313 |    0.913    0.943    0.855 |  0.4068  0.4091  0.4105  0.4122  0.4078 | 0.3815
+ex-January        83 |    0.306    0.311    0.308 |    0.782    0.818    0.756 |  0.4041  0.4072  0.4073  0.4100  0.4103 | 0.3801
+2024+             31 |    0.182    0.185    0.178 |    0.780    0.795    0.854 |  0.2166  0.2177  0.2165  0.2196  0.2191 | 0.2410
+2024+ ex-Jan      28 |    0.184    0.186    0.179 |    0.682    0.700    0.725 |  0.1983  0.1999  0.1995  0.2021  0.2059 | 0.2315
+2025+ flash era   19 |    0.140    0.141    0.142 |    0.567    0.597    0.700 |  0.1697  0.1712  0.1721  0.1760  0.1919 | 0.1947
+  incumbent  big-surprise MAE 0.504, W-L@0.15 7-1
+  C1         big-surprise MAE 0.512, W-L@0.15 7-1
+  C2         big-surprise MAE 0.516, W-L@0.15 7-3
+  F1         big-surprise MAE 0.508, W-L@0.15 7-4
+  F2         big-surprise MAE 0.487, W-L@0.15 6-1
+
+SELECTION: median non-zero coefficients per origin: C1 22, C2 25, F1 5, F2 6 | median penalty: C1 0.005, C2 0.005, F1 0.057, F2 0.091
+  C1: kept in fewest origins -> {'state': 0.26, 'exp12': 0.48, 'import_l2_x_state': 0.61, 'mon_4': 0.64, 'mon_6': 0.64, 'core_l2': 0.66}
+  C2: kept in fewest origins -> {'state': 0.21, 'de_serv': 0.22, 'de_neig': 0.48, 'exp12': 0.56, 'import_l2_x_state': 0.61, 'core_l2': 0.66}
+      foreign features kept share -> {'de_serv': 0.22, 'de_neig': 0.48, 'ea_serv': 0.7, 'ea_neig': 0.93}
+  F1: kept in fewest origins -> {'food_l1': 0.52, 'agri_l0': 0.57, 'food_l12': 0.63, 'agri_l1': 0.81, 'food_ppi_l1': 0.82}
+  F2: kept in fewest origins -> {'agri_l0': 0.0, 'agri_l1': 0.5, 'food_l1': 0.54, 'ea_foodun': 0.57, 'ea_foodpr': 0.73, 'de_foodun': 0.87}
+      foreign features kept share -> {'ea_foodun': 0.57, 'ea_foodpr': 0.73, 'de_foodun': 0.87, 'de_foodpr': 1.0}
+
+RULES: C1 replaces core ridge False; F1 replaces food ridge False; C2 to flash stage 2 False; F2 to flash stage 2 False

@@ -1,0 +1,10 @@
+{
+  "checked_metrics": [
+    "yy",
+    "core_mm",
+    "core_log"
+  ],
+  "horizon_rows": 1080,
+  "origins": 90,
+  "status": "exact"
+}

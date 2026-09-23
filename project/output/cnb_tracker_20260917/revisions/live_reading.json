@@ -1,0 +1,38 @@
+{
+  "against_report": "2026-08-13",
+  "data_through": "2026-09-11",
+  "news": {
+    "cpi_news": -0.17479382393155563,
+    "core_news": 0.084270116624276,
+    "noncore_news": -0.2590639405558316,
+    "fx_news": -0.4381167040246616,
+    "brent_news": 8.746529235031558,
+    "months_of_quarter_released": 1,
+    "fx_window_end": "2026-09-11",
+    "brent_month": "2026-08"
+  },
+  "partial": true,
+  "readings": [
+    {
+      "target": "2026Q4",
+      "cnb_current": 2.3887179,
+      "predicted_revision": 0.22230562623211916
+    },
+    {
+      "target": "2027Q1",
+      "cnb_current": 2.8254517,
+      "predicted_revision": 0.29044153001026773
+    },
+    {
+      "target": "2027Q2",
+      "cnb_current": 2.42139857,
+      "predicted_revision": 0.296808424858562
+    },
+    {
+      "target": "2027Q3",
+      "cnb_current": 2.50111116,
+      "predicted_revision": 0.47208035169464707
+    }
+  ],
+  "warning": "Frozen repository data only. Partial-quarter news is not the quantity the coefficients were estimated on. Side product; no promotion claim."
+}

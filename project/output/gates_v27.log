@@ -1,0 +1,72 @@
+origins with any numeric change: ['2021-12', '2022-01', '2022-02', '2022-03', '2022-04', '2022-05', '2022-06', '2022-07', '2022-08', '2022-09', '2022-10', '2022-11', '2022-12', '2023-01', '2023-02', '2023-03', '2023-04', '2023-05', '2023-06', '2023-07', '2023-08', '2023-09', '2023-10', '2023-11', '2023-12', '2024-01', '2024-07', '2024-10', '2024-12', '2025-01', '2025-07', '2025-10', '2025-12', '2026-01', '2026-07']
+  2021-12: 1 columns changed: ['STRUCT_H1']
+     STRUCT_H1            v26 +1.535 -> v27 +4.726
+  2022-01: 18 columns changed: ['STRUCT', 'STRUCT_QRF', 'STRUCT_ST', 'STRUCT_PE', 'STRUCT_PEH', 'STRUCT_PE_WARM', 'STRUCT_PEH_WARM', 'STRUCT_PRE', 'STRUCT_PE_PRE', 'adm_pred', 'STRUCT_EVE', 'STRUCT_QRF_EVE', 'STRUCT_PE_EVE', 'STRUCT_PE_WARM_EVE'] ...
+     STRUCT               v26 +1.213 -> v27 +4.415
+     STRUCT_EVE           v26 +1.217 -> v27 +4.419
+     STRUCT_PE_WARM       v26 +1.445 -> v27 +4.647
+     adm_pred             v26 +0.900 -> v27 +24.100
+  2022-02: 1 columns changed: ['band_hi']
+  2022-03: 1 columns changed: ['band_hi']
+  2022-04: 1 columns changed: ['band_hi']
+  2022-05: 1 columns changed: ['band_hi']
+  2022-06: 1 columns changed: ['band_hi']
+  2022-07: 1 columns changed: ['band_hi']
+  2022-08: 1 columns changed: ['band_hi']
+  2022-09: 1 columns changed: ['band_hi']
+  2022-10: 1 columns changed: ['band_hi']
+  2022-11: 1 columns changed: ['band_hi']
+  2022-12: 1 columns changed: ['band_hi']
+  2023-01: 18 columns changed: ['STRUCT', 'STRUCT_QRF', 'STRUCT_ST', 'STRUCT_PE', 'STRUCT_PEH', 'STRUCT_PE_WARM', 'STRUCT_PEH_WARM', 'STRUCT_PRE', 'STRUCT_PE_PRE', 'adm_pred', 'STRUCT_EVE', 'STRUCT_QRF_EVE', 'STRUCT_PE_EVE', 'STRUCT_PE_WARM_EVE'] ...
+     STRUCT               v26 +1.168 -> v27 +5.389
+     STRUCT_EVE           v26 +1.181 -> v27 +5.402
+     STRUCT_PE_WARM       v26 +1.030 -> v27 +5.250
+     adm_pred             v26 +0.900 -> v27 +28.000
+  2023-02: 1 columns changed: ['band_hi']
+  2023-03: 1 columns changed: ['band_hi']
+  2023-04: 1 columns changed: ['band_hi']
+  2023-05: 1 columns changed: ['band_hi']
+  2023-06: 1 columns changed: ['band_hi']
+  2023-07: 1 columns changed: ['band_hi']
+  2023-08: 1 columns changed: ['band_hi']
+  2023-09: 1 columns changed: ['band_hi']
+  2023-10: 1 columns changed: ['band_hi']
+  2023-11: 1 columns changed: ['band_hi']
+  2023-12: 1 columns changed: ['band_hi']
+  2024-01: 1 columns changed: ['band_hi']
+  2024-07: 1 columns changed: ['STRUCT_H6']
+     STRUCT_H6            v26 +1.128 -> v27 +1.039
+  2024-10: 1 columns changed: ['STRUCT_H3']
+     STRUCT_H3            v26 +1.256 -> v27 +1.168
+  2024-12: 1 columns changed: ['STRUCT_H1']
+     STRUCT_H1            v26 +1.213 -> v27 +1.125
+  2025-01: 19 columns changed: ['STRUCT', 'STRUCT_QRF', 'STRUCT_ST', 'STRUCT_PE', 'STRUCT_PEH', 'STRUCT_PE_WARM', 'STRUCT_PEH_WARM', 'STRUCT_PRE', 'STRUCT_PE_PRE', 'adm_pred', 'STRUCT_H12', 'STRUCT_EVE', 'STRUCT_QRF_EVE', 'STRUCT_PE_EVE'] ...
+     STRUCT               v26 +1.195 -> v27 +1.107
+     STRUCT_EVE           v26 +1.202 -> v27 +1.114
+     STRUCT_PE_WARM       v26 +1.171 -> v27 +1.083
+     adm_pred             v26 +1.400 -> v27 +0.900
+     STRUCT_H12           v26 +1.195 -> v27 +1.107
+  2025-07: 1 columns changed: ['STRUCT_H6']
+     STRUCT_H6            v26 +1.404 -> v27 +1.273
+  2025-10: 1 columns changed: ['STRUCT_H3']
+     STRUCT_H3            v26 +1.165 -> v27 +1.034
+  2025-12: 1 columns changed: ['STRUCT_H1']
+     STRUCT_H1            v26 +1.035 -> v27 +0.904
+  2026-01: 19 columns changed: ['STRUCT', 'STRUCT_QRF', 'STRUCT_ST', 'STRUCT_PE', 'STRUCT_PEH', 'STRUCT_PE_WARM', 'STRUCT_PEH_WARM', 'STRUCT_PRE', 'STRUCT_PE_PRE', 'adm_pred', 'STRUCT_H12', 'STRUCT_EVE', 'STRUCT_QRF_EVE', 'STRUCT_PE_EVE'] ...
+     STRUCT               v26 +0.944 -> v27 +0.813
+     STRUCT_EVE           v26 +0.947 -> v27 +0.817
+     STRUCT_PE_WARM       v26 +0.950 -> v27 +0.820
+     adm_pred             v26 +1.400 -> v27 +0.650
+     STRUCT_H12           v26 +1.143 -> v27 +1.013
+  2026-07: 1 columns changed: ['STRUCT_H6']
+     STRUCT_H6            v26 +1.281 -> v27 +1.146
+max change in non-admin columns over all origins: 4.220209171314204
+gate (a) only the two named origins move: False
+gate (b) STRUCT_NOANN == v26 STRUCT: max|diff| 0.00e+00 -> MET
+
+BOARD (release eve): all 90 / January / ex-January / 2024+ / big-MAE
+  survey                                 0.382 / 0.398 / 0.380 / 0.241 / big-MAE 0.578  W-L@0.15 0-0
+  BASE_RIDGE v2.7 (documented entries)   0.407 / 0.437 / 0.404 / 0.217 / big-MAE 0.504  W-L@0.15 7-1
+  gate closed (v2.6)                     0.729 / 2.213 / 0.404 / 0.214 / big-MAE 0.642  W-L@0.15 6-2
+  PAST_FULL v2.7                         0.406 / 0.477 / 0.399 / 0.230 / big-MAE 0.482  W-L@0.15 10-3
+  PAST_HALF v2.7                         0.400 / 0.452 / 0.396 / 0.220 / big-MAE 0.493  W-L@0.15 8-1

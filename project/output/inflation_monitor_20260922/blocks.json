@@ -1,0 +1,148 @@
+{
+ "food": {
+  "label": "Food & non-alcoholic beverages",
+  "short": "Food",
+  "groups": [
+   "food",
+   "nonalcoholic_beverages"
+  ],
+  "weight_permille": 168.58413099999999,
+  "group_weights": {
+   "food": 152.798467,
+   "nonalcoholic_beverages": 15.785664
+  }
+ },
+ "alcohol_tobacco": {
+  "label": "Alcohol & tobacco",
+  "short": "Alcohol & tobacco",
+  "groups": [
+   "alcoholic_beverages",
+   "tobacco"
+  ],
+  "weight_permille": 82.870815,
+  "group_weights": {
+   "alcoholic_beverages": 36.718916,
+   "tobacco": 46.151899
+  }
+ },
+ "energy": {
+  "label": "Household energy",
+  "short": "Energy",
+  "groups": [
+   "household_energy"
+  ],
+  "weight_permille": 81.99593899999999,
+  "group_weights": {
+   "household_energy": 81.99593899999999
+  }
+ },
+ "vehicle_operation": {
+  "label": "Vehicle operation incl. fuel",
+  "short": "Fuel & vehicle op.",
+  "groups": [
+   "vehicle_operation"
+  ],
+  "weight_permille": 49.972974,
+  "group_weights": {
+   "vehicle_operation": 49.972974
+  }
+ },
+ "rents": {
+  "label": "Rents (imputed & actual)",
+  "short": "Rents",
+  "groups": [
+   "imputed_rent",
+   "actual_rent"
+  ],
+  "weight_permille": 153.792877,
+  "group_weights": {
+   "imputed_rent": 119.295072,
+   "actual_rent": 34.497805
+  }
+ },
+ "catering": {
+  "label": "Catering & accommodation",
+  "short": "Catering",
+  "groups": [
+   "catering",
+   "accommodation"
+  ],
+  "weight_permille": 68.164239,
+  "group_weights": {
+   "catering": 60.074047,
+   "accommodation": 8.090192
+  }
+ },
+ "other_services": {
+  "label": "Other services & mixed",
+  "short": "Other services",
+  "groups": [
+   "housing_maintenance",
+   "water_housing_services",
+   "household_goods_services",
+   "health",
+   "passenger_transport",
+   "transport_postal_services",
+   "ict_services",
+   "recreation_services",
+   "cultural_services",
+   "package_holidays",
+   "education",
+   "insurance_financial_services",
+   "personal_social_misc"
+  ],
+  "weight_permille": 236.72214100000002,
+  "group_weights": {
+   "housing_maintenance": 13.507671,
+   "water_housing_services": 20.514268,
+   "household_goods_services": 9.504327,
+   "health": 25.690504,
+   "passenger_transport": 8.087484,
+   "transport_postal_services": 1.837895,
+   "ict_services": 35.379689,
+   "recreation_services": 28.911613,
+   "cultural_services": 5.338698,
+   "package_holidays": 18.543302,
+   "education": 6.103596,
+   "insurance_financial_services": 17.831659,
+   "personal_social_misc": 45.471435
+  }
+ },
+ "core_goods": {
+  "label": "Core goods",
+  "short": "Core goods",
+  "groups": [
+   "clothing",
+   "footwear",
+   "furniture",
+   "household_textiles",
+   "household_appliances",
+   "tableware_utensils",
+   "house_garden_tools",
+   "vehicle_purchases",
+   "ict_equipment",
+   "recreation_durables",
+   "other_recreation_goods",
+   "garden_pets_goods",
+   "musical_instruments_media",
+   "books_stationery"
+  ],
+  "weight_permille": 157.89688399999997,
+  "group_weights": {
+   "clothing": 29.374479,
+   "footwear": 9.74317,
+   "furniture": 18.492493,
+   "household_textiles": 6.206557999999999,
+   "household_appliances": 9.508924,
+   "tableware_utensils": 3.824292,
+   "house_garden_tools": 3.695333,
+   "vehicle_purchases": 39.231811,
+   "ict_equipment": 12.093774,
+   "recreation_durables": 0.529366,
+   "other_recreation_goods": 5.483502,
+   "garden_pets_goods": 11.848126,
+   "musical_instruments_media": 1.75929,
+   "books_stationery": 6.105766
+  }
+ }
+}

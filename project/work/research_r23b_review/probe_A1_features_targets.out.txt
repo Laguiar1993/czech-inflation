@@ -1,0 +1,25 @@
+##### A1 features and targets (independent rebuild)
+[PASS] 199 feature rows, 7 columns in the declared order
+[PASS] feature origins equal the 199 saved states, in chronological order
+[PASS] 90 evaluated origins 2019-02..2026-07
+[PASS] feature clock = native as_of_utc (Prague) for evaluated origins, state as_of otherwise :: []
+[PASS] evaluated-origin decision clock identical to the saved FAST state clock :: max abs difference seconds=0.0
+[PASS] every clock is before the release of core month t
+[PASS] every clock is at or after the release of core month t-1 :: violations=[]
+[PASS] ulc_sameq: independent rebuild equals features.csv on all 199 origins :: max abs diff=5.684e-14; finite=194
+[PASS] import_mom: independent rebuild equals features.csv on all 199 origins :: max abs diff=0.000e+00; finite=199
+[PASS] ppi_mom: independent rebuild equals features.csv on all 199 origins :: max abs diff=4.086e-14; finite=199
+[PASS] reference quarter/month in feature_provenance.csv equals the independently chosen one :: []
+[PASS] tightening: bit-identical to the sealed R23 final features
+[PASS] fx_news: bit-identical to the sealed R23 final features
+[PASS] import_gap: bit-identical to the sealed R23 final features
+[PASS] ppi_gap: bit-identical to the sealed R23 final features
+[PASS] R23B feature clocks identical to R23 clocks
+   ULC reference-quarter lag behind the quarter of t-1 (quarters):  {1: 133, 2: 66}
+   import reference month lag behind origin t (months):  {1: 2, 2: 197}
+   PPI reference month lag behind origin t (months):  {1: 199}
+[PASS] import_mom and import_gap share one reference month (fx_news anchor unchanged)
+[PASS] band targets: mean(realised log core - saved FAST log rate) over h1-3 and h4-6, all 199 origins :: max abs diff=0.000e+00
+[PASS] target_available = last release among h1..h3b (all releases needed), missing when incomplete :: []
+   finite labels: band1 196 band2 193 ; last finite band1 2026-04 band2 2026-01
+##### A1 features and targets (independent rebuild): 19 passed, 0 failed, 0 notes

@@ -1,0 +1,30 @@
+{
+  "reviewed_at_utc": "2026-09-14T15:05:09.433679+00:00",
+  "review_status": "pass",
+  "resolved_findings": 2,
+  "remaining_p0_p1": 0,
+  "reviewed_file_sha256": {
+    "docs/implementation/R17_CORE_SPEC_2026-09-14.md": "c64f13071348e2955f280b27745ab375650e229d9fa4a5139472c98a071f7546",
+    "models/core_adaptation_r17.py": "12d97555e025cde627e9a9f951f1dfb7a49aa8b52c59a6c3bca2cd5beaa5e0b0",
+    "core_adaptation_experiment_r17.py": "f72030a72dea363fd1a335efe694e02498a60b2499de3a49b262812c9edf1176",
+    "r17_common.py": "b0cb5bf5702deec25e3ac5fd053d6dda788bea03e35156cc2ee4f3df0cb95f0e",
+    "tests/test_core_adaptation_r17.py": "6301340052c9844e160ce7034cb6dd2c0d6f9a65f1f477e28b2951fd0b4ee0b5",
+    "tests/test_r17_common.py": "d0b42d5bc641e2416c5fccd19ba1f37beb39687cb32bf17cc56774c98849051e",
+    "tools/review/r17_component_attribution.py": "f25a511eea988e2ead0e806c641fdf057a4c829e03eaa4df1aabb2f50c5c23d2",
+    "tests/test_r17_component_attribution.py": "4654ed3a0da4170ba038e6e44044cc0a654ed5f53ef46a928ef5d6b3d94bf7a3",
+    "output/research_r17_core/manifest.json": "57e1dbd42889396692c6b9b158ae097ea3d2cea227ca2cc9118ac0fdf578865e",
+    "output/research_r17/attribution/manifest.json": "cfe26523cca25fdacd8fd79e8a31ea40ceeb6cdabcefc2628c6d841a87b70f54"
+  },
+  "review_artifact_sha256": {
+    "attribution_fast_review.json": "9b81759539bc3bb99f881d7c4cd7472fae8f47fa27625ec44f9158329b816bfb",
+    "attribution_tests.log": "1cc090fec51a2202ddf4cb14bf0be9fd13013c6e9eaa155ec25502980cdcf6a1",
+    "core_attribution_tests.log": "872d622ca9e6e3ed5bce6759f76ed435e136b75248a72bb4650175661f3b3f30",
+    "core_engine_review.json": "5f0bbf894a8758ea036e41199ecfca2d446f9a0b67b1d05f7d26def32ef1bbde",
+    "core_runner_research_r17_core_review.json": "66a4bfc872bfef1082acc34482b53332fd625ddcd2cd96f6465e81a9cc0a7e27",
+    "final_core_attribution_tests.log": "36dcef6f7146bbdbe063e4c8e4cb45e2405d4b66d3aa96f1618b76d0ee60f8cd",
+    "independent_attribution_fast_review.py": "ba9857a0757dfd298d52c389acb0e856dcc9b70293d29097684857c1c37f31e3",
+    "independent_core_engine_review.py": "6dcb62aa3c81edacf7aecb048ab982178d91d24f510d78d20a4003d28695c336",
+    "independent_core_runner_review.py": "4af7ccb429a2789e97d8fb21afc0067b0076f3ef36dacbdae1ad027b7d094dff",
+    "R17_CORE_ATTRIBUTION_REVIEW.md": "46e7eedcfc688b5d4d130e57e8695f35d6d34eed4b1f0344343d67ca6d5bfe9a"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "kind": "observed_current_path_inputs",
+  "origin": "2026-09",
+  "target": "2026-09",
+  "as_of": "2026-09-22T19:03:59.571668+00:00",
+  "prepared_at": "2026-09-22T19:03:59.756037+00:00",
+  "available_from": "2026-09-22T18:45:34.705323+00:00",
+  "capture_completed_at": "2026-09-22T18:43:35.812155+00:00",
+  "sources": {
+    "base_bundle": {
+      "path": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\bloomberg_inputs_20260922_foodppi",
+      "manifest_sha256": "3ab4d5971aa24bc6c2d9fd5d6650349c8b0b2584d2869497ac89355e6ccb00d5",
+      "files": {
+        "nowcast/alcohol_tobacco.csv": "609bfae64899c66c3b866c8ce854357b093f90a02a02ac4349d268b3068d5597",
+        "nowcast/cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+        "nowcast/cnb_regulated_mm.csv": "74773b38a1fea1f1ebb09d220aa90409eb3318a697b35ec2b8e1f20e781850db",
+        "nowcast/component_food_fuel_mm.csv": "da88dfc8e6241ac9a7d443ff1a82c43de80be542074afa5a1329ce364cf05448",
+        "nowcast/core_features.csv": "da207f723151b8102556acdfdaab567eed6a9cc332de4a5a58f028e521acad8a",
+        "nowcast/food_block_features.csv": "b7cee1dfe37c7a269d89441bee741d30ba0df998f8dc839b42ac42006a1eedd3",
+        "nowcast/fuel_weekly.csv": "a017a7bfd2054097752c0d18ab0d9c42a9a589280c22ae9fce87c6c1ddac8995",
+        "nowcast/fuel_weekly_variant_b.csv": "056b457c27d04a2b090218463165993f3b190bfe36eac0baac9ffb85bef46a04",
+        "nowcast/target_headline_cpi_mm.csv": "b184cc388d79f90219f73a2c2a430928a7908c38b0f366e0f925605a53fd8196",
+        "path/alcohol_tobacco_mm.csv": "609bfae64899c66c3b866c8ce854357b093f90a02a02ac4349d268b3068d5597",
+        "path/food_available_from.csv": "5f392e03580ddffb49cd3301bb7596b8a73c9d51484572b0f34ddd357763f713",
+        "path/food_log_levels.csv": "71e509a5b37ca741d30e912fc0f8e882e581c45919cfa6e8c699ec59422e5db0",
+        "path/headline_history.csv": "33952c3e3f4c5234b50ca9765a4f3647dc3a66689dab28830e1db4164510758a",
+        "path/pump_weekly.csv": "15be097f48e87c94975a37fe208aab9db7b80d7fa5c6241a50ed8cc8fc8d3b03",
+        "provenance.json": "97b12b7901939778d8b40fd35f7996871af4c3a9023aa7893befe44680bb97bc"
+      }
+    },
+    "current_bundle": {
+      "path": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\forecast_updates_r33\\current_bundle_20260922_v2",
+      "manifest_sha256": "500e1eb44d05c4029b8b90411f259985b9f13d6eceed30274135461811b04416",
+      "files": {
+        "manual_inputs.csv": "a9ffa47b397e81bc70b872bd9171da10e1dc0ea6997d4ad09bd2868c6f3c9efe",
+        "market/history_long.csv": "7b9051bf8c933472a099db19f07a39a6cbf1536fa5b5de7fe941f8c672cead67",
+        "nowcast/alcohol_tobacco.csv": "6829ab91d0fdd50e62c9f36cd343447c6c3bc72a2966f0746958b0b21102b796",
+        "nowcast/cnb_core_mm.csv": "6079b741ed18675030264f6326dbc45d428d587d2cba82e9cd1e6395452230df",
+        "nowcast/cnb_regulated_mm.csv": "8e6c153d109f56e93321749722407d6eb5bc2e5f65c78034739d14d271422fc7",
+        "nowcast/component_food_fuel_mm.csv": "d27a2e6f0b449f1808268d5931011599b09a29bd3512fa0b0d842e66cf85de22",
+        "nowcast/core_features.csv": "607cfc632319134e32857e42410e346d7f4961467d8b5a7fe243ba9e955f32ce",
+        "nowcast/food_block_features.csv": "3856e398469ea32292dd81f25f210199255d3c872b75c25eff2e770f223890c0",
+        "nowcast/fuel_weekly_variant_b.csv": "d6f2b28bea4d2dcb2e308b407ede137fdbb2125f83eb872b841f2b249529cb4f",
+        "nowcast/target_headline_cpi_mm.csv": "12423f67a548f47f48378f5232ee593041dce170564e474493e418c38c9e9c38",
+        "provenance.json": "1fb62084f400ea565e8839e06fae9b0e3cfd8933859eba252c26be9be38faaa5"
+      }
+    },
+    "bloomberg_capture": {
+      "path": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\current_path_r34_inputs\\bloomberg_capture_20260922",
+      "manifest_sha256": "b011d5f15d40b9865e488e52b3aad9b0e32e8434bf58a84707477543b1b1c7ad",
+      "files": {
+        "coverage.csv": "1393c53ddccb138e6b94e96ab4e485dbe9859d6a6d6d166b5214653430262b25",
+        "errors.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "history_long.csv": "5f529272d9e181c44abe3265e5e6e17816909903ef7eafaef88afba69372cb15",
+        "instrument_search.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "metadata.json": "a3718e30c3bdb36089cd9a43e8b88c80835be45a27941ccfdaafa011fff76407",
+        "raw/CZCPF_Index.csv": "39e8cc07d9d6f8220bec39c876a511e8e7374d7d20c7d23db5cd82efd8670541",
+        "raw/CZCPI_Index.csv": "e3bb657338f5717c72ecf1496d89b8577f3a44dd89121c72c1b9e60a7b9a0c47",
+        "raw/CZCPMOM_Index.csv": "e8ef4a77c00e71df226edc47ff3123270cbae138668d3ab4317efcf6232e7c88",
+        "raw/CZCPYOY_Index.csv": "aa8115ee333f662b46da02219ee4a48c64eab182805f2aabd45477ad6c4e579e",
+        "raw/CZPPA10M_Index.csv": "3a6e8e5d3259faf8e513a0c3902c4f235fee0ba4e5eb6da2d496231d26be1adb",
+        "request.json": "5f063a648d72e054dc3ebf506257166f40d08ced66236c96ace13756743ce7f2"
+      }
+    },
+    "farm": {
+      "path": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\current_path_r34_inputs\\farm_capture_20260922\\CEN0203B.csv",
+      "sha256": "fb1031e86edfe6daba679dd3bd64b88baffcbc6d200f475e6130e3ae274cb46c",
+      "source": "https://data.csu.gov.cz/opendata/sady/CEN0203B/distribuce/csv",
+      "metadata_path": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\current_path_r34_inputs\\farm_capture_20260922\\CEN0203B.csv.metadata.json",
+      "metadata_sha256": "306dc548bb58025032566acc3c483628d0b3951248ddc2b0b6507825ec072422",
+      "completed_at": "2026-09-22T18:45:34.705323+00:00",
+      "new_capture": true,
+      "products": [
+        "Pšenice potravinářská [t]",
+        "Mléko kravské Q. tř. j. [tis. l.]",
+        "Prasata jatečná  j.tř. SEU v JUT [t]",
+        "Kuřata jatečná v živém I.tř.j [t]"
+      ],
+      "first": "2015-01",
+      "last": "2026-08",
+      "transformation": "mean(100*log(each physical price / same product Jan2015 price)); four products"
+    }
+  },
+  "definitions": {
+    "food": "100*log(CZCPF level / Jan2015 level); preserve accepted historical rows",
+    "food_ppi": "cumulated 100*log1p(CZPPA10M/100), subtract Jan2015 cumulative level",
+    "agri4": "mean(100*log(each physical price / same product Jan2015 price)); four products",
+    "headline": "exact ratios of available CZCPI levels; replaces rounded m/m only for compounding, not h0",
+    "pump": "R33 EC gross observations from Bloomberg, CZK/1000 litres divided by 1000; Monday of source week",
+    "availability": "new observations at retrieval completion; old reconstructed training clocks preserved"
+  },
+  "baseline_preserved_through": "2026-07",
+  "baseline_overlap_max_abs": {
+    "food": 0.0,
+    "food_ppi": 1.4210854715202004e-14,
+    "agri4": 0.0
+  },
+  "consumer_coverage": {
+    "cpi_mm": "2026-08",
+    "core": "2026-08",
+    "regulated": "2026-08",
+    "alcohol_tobacco": "2026-08",
+    "food": "2026-08",
+    "fuel": "2026-08"
+  },
+  "coverage": {
+    "agri4": {
+      "first": "2015-01",
+      "last": "2026-08",
+      "last_available_from": "2026-09-22T18:45:34.705323+00:00"
+    },
+    "food_ppi": {
+      "first": "2015-01",
+      "last": "2026-08",
+      "last_available_from": "2026-09-22T18:43:35.812155+00:00"
+    },
+    "food": {
+      "first": "2015-01",
+      "last": "2026-08",
+      "last_available_from": "2026-09-22T18:43:35.812155+00:00"
+    }
+  },
+  "farm_status": "observed_through_required_month",
+  "farm_next_model_rule_clock": null,
+  "farm_publication_note": "The inherited 26th-next-month clock is a model convention, not a sourced actual release date. A fresh official observed row is usable at retrieval completion.",
+  "pump_coverage": {
+    "first": "2005-01-03",
+    "last": "2026-09-14",
+    "rows": 1088
+  },
+  "headline_reconciliation": {
+    "month": "2026-08",
+    "level": 102.6,
+    "year_ago_level": 100.7,
+    "exact_level_ratio_mm": 0.2932551319648091,
+    "exact_level_ratio_yy": 1.8867924528301883,
+    "published_rounded_yy": 1.9,
+    "difference_pp": -0.013207547169811651,
+    "level_precision": "one decimal",
+    "level_rounding_yy_interval": [
+      1.7866004962779236,
+      1.987083954297053
+    ],
+    "ratio_history_replaced_from": "2015-02",
+    "ratio_history_replaced_through": "2026-08",
+    "definition": "Exact arithmetic on captured rounded index levels; not an assertion of unrounded official inflation."
+  },
+  "readiness": {
+    "ready": true,
+    "required_consumer_through": "2026-08"
+  }
+}

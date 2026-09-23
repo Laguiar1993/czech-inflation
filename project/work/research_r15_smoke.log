@@ -1,0 +1,66 @@
+band1: 1/111 historical origins at 2010-01
+band3: 1/111 historical origins at 2010-01
+band4: 1/111 historical origins at 2010-01
+band2: 1/111 historical origins at 2010-01
+band4: 31/111 historical origins at 2012-07
+band3: 31/111 historical origins at 2012-07
+band2: 31/111 historical origins at 2012-07
+band1: 31/111 historical origins at 2012-07
+band4: 61/111 historical origins at 2015-01
+band3: 61/111 historical origins at 2015-01
+band2: 61/111 historical origins at 2015-01
+band1: 61/111 historical origins at 2015-01
+band4: 91/111 historical origins at 2017-07
+band3: 91/111 historical origins at 2017-07
+band2: 91/111 historical origins at 2017-07
+band1: 91/111 historical origins at 2017-07
+ERROR: Access denied
+
+ERROR: Access denied
+
+ERROR: Access denied
+
+ERROR: Access denied
+
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\joblib\externals\loky\process_executor.py", line 490, in _process_worker
+    r = call_item()
+        ^^^^^^^^^^^
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\joblib\externals\loky\process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\joblib\parallel.py", line 607, in __call__
+    return [func(*args, **kwargs) for func, args, kwargs in self.items]
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\path_trend_residual_r15.py", line 115, in fit_band
+    if family!='state':fits.append(dict(origin=ts,band=b,family=family,config=selected[family],**diagnostics[family][selected[family]]))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'config'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\path_trend_residual_r15.py", line 207, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\path_trend_residual_r15.py", line 182, in main
+    results=Parallel(n_jobs=args.jobs)(delayed(fit_band)(b,states,design,data['core'],data['available'],data['clocks'],set(outer)) for b in range(4))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\joblib\parallel.py", line 2098, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\joblib\parallel.py", line 1704, in _get_outputs
+    yield from self._retrieve()
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\joblib\parallel.py", line 1806, in _retrieve
+    self._raise_error_fast()
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\joblib\parallel.py", line 1885, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\joblib\parallel.py", line 780, in get_result
+    return self._return_or_raise()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\joblib\parallel.py", line 795, in _return_or_raise
+    raise self._result
+TypeError: dict() got multiple values for keyword argument 'config'

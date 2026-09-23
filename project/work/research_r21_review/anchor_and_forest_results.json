@@ -1,0 +1,51 @@
+{
+  "forest_replays": [
+    {
+      "origin": "2019-02",
+      "model": "CORE_RF_MEAN_R21",
+      "n": 46,
+      "correction": 0.1509263378426838
+    },
+    {
+      "origin": "2019-02",
+      "model": "CORE_RF_MEDIAN_R21",
+      "n": 46,
+      "correction": 0.11093975776486154
+    },
+    {
+      "origin": "2024-01",
+      "model": "CORE_RF_MEAN_R21",
+      "n": 105,
+      "correction": 0.018784073708019475
+    },
+    {
+      "origin": "2024-01",
+      "model": "CORE_RF_MEDIAN_R21",
+      "n": 105,
+      "correction": 0.031194942922302876
+    },
+    {
+      "origin": "2026-07",
+      "model": "CORE_RF_MEAN_R21",
+      "n": 135,
+      "correction": 0.1515075070017715
+    },
+    {
+      "origin": "2026-07",
+      "model": "CORE_RF_MEDIAN_R21",
+      "n": 135,
+      "correction": 0.12276424598176768
+    }
+  ],
+  "first_release_actual_and_consensus_source_rows_verified": 630,
+  "anchor_verified_hashes": 78,
+  "anchor_diagnostics_and_paths_rebuilt": [
+    180,
+    2340
+  ],
+  "anchor_spread_counts_range": [
+    120,
+    120
+  ],
+  "anchor_delayed_missing_and_future_poison_invariant": true
+}

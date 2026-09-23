@@ -1,0 +1,18 @@
+{
+  "verified_hashes": 108,
+  "integrity_skipped": false,
+  "score_rows_recomputed": 21300,
+  "score_max_error": 0.0,
+  "control_score_max_difference": 0.0,
+  "r15_support_unchanged": true,
+  "core_band_max_error": 7.105427357601002e-15,
+  "core_turn_max_error": 0.0,
+  "cnb_pair_max_error": 0.0,
+  "cnb_omission_max_error": 0.0,
+  "signal_max_error": 0.0,
+  "revision_pairs_verified": 15987,
+  "future_revisions_included": 990,
+  "embedded_replay_equals_json": true,
+  "artifact_monthly_points": 7980,
+  "artifact_score_max_error": 0.0
+}

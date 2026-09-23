@@ -1,0 +1,9 @@
+{
+  "note": "Round 15 of the 12 Sep 2026 probe: searches for CZSO-sourced (national CPI) service-group tickers - actual rent 041, imputed rent 042, catering 111, accommodation 112, package holidays 098 - which the R10 category model reads from CZSO CEN0101E. CZCPH Index is a known-valid division ticker so the snapshot has coverage and history files.",
+  "candidates": {"control": ["CZCPH Index"]},
+  "daily": [],
+  "searches": ["Czech Republic CPI Actual Rentals for Housing", "Czech Republic CPI Imputed Rentals", "Czech Republic CPI Catering Services",
+               "Czech Republic CPI Accommodation Services", "Czech Republic CPI Package Holidays", "Czech CPI Rentals",
+               "Czech Republic CPI Restaurants"],
+  "max_results": 40
+}

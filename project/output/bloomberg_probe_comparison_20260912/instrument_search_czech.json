@@ -1,0 +1,220 @@
+[
+  {
+    "query": "Czech core inflation",
+    "hits": [
+      "OEEOCZCI<index> | OECD Eco Outlook Czech Rep Core Inflation Index",
+      "JFORCZCF<index> | JPMorgan Czechia Core Inflation Forecast History Index (FHICC)",
+      "JFORCZCH<index> | JPMorgan Czechia Core Inflation Actual History Index (AHICC)",
+      "JFORCZCR<index> | JPMorgan Czechia Core Inflation Forecast Revision Index (FRICC)",
+      "CPEXCZY<index> | Eurostat Czech Republic Core HICP YoY NSA",
+      "CPEXCZM<index> | Eurostat Czech Republic Core HICP MoM NSA",
+      "OEEOCZIN<index> | OECD Eco Outlook Czech Rep Core Inflation",
+      "RR10CCZ<index> | Real 10 Year Yield Based on Core CPI Czech Republic"
+    ]
+  },
+  {
+    "query": "Czech Republic core CPI",
+    "hits": [
+      "CPEXCZY<index> | Eurostat Czech Republic Core HICP YoY NSA",
+      "CPEXCZM<index> | Eurostat Czech Republic Core HICP MoM NSA",
+      "CPEXCZ<index> | Eurostat Czech Republic Core HICP NSA",
+      "OEEOCZCI<index> | OECD Eco Outlook Czech Rep Core Inflation Index",
+      "OEEOCZIN<index> | OECD Eco Outlook Czech Rep Core Inflation",
+      "RR10CCZ<index> | Real 10 Year Yield Based on Core CPI Czech Republic",
+      "RR2YCCZ<index> | Real 2 Year Yield Based on Core CPI Czech Republic",
+      "JFORCZCF<index> | JPMorgan Czechia Core Inflation Forecast History Index (FHICC)"
+    ]
+  },
+  {
+    "query": "Czech administered prices",
+    "hits": [
+      "CPAFCZ<index> | EU CPI Fully Administered Prices Czech Republic",
+      "CPAFCZMM<index> | EU CPI Fully Administered Prices Czech Republic MoM",
+      "CPAFCZYY<index> | EU CPI Fully Administered Prices Czech Republic YoY",
+      "CPAPCZ<index> | EU CPI Administered Prices Czech Republic",
+      "CPAPCZMM<index> | EU CPI Administered Prices Czech Republic MoM",
+      "CPAPCZYY<index> | EU CPI Administered Prices Czech Republic YoY",
+      "CPMPCZ<index> | EU CPI Mainly Administered Prices Czech Republic",
+      "CPMPCZMM<index> | EU CPI Mainly Administered Prices Czech Republic MoM"
+    ]
+  },
+  {
+    "query": "Czech regulated prices",
+    "hits": [
+      "CZCIRCM<index> | Czech Inflation Regulated Prices Contribution MoM",
+      "CZCIRCY<index> | Czech Inflation Regulated Prices Contribution YoY",
+      "CZCIRM<index> | Czech Inflation Regulated Prices MoM",
+      "CZCIRY<index> | Czech Inflation Regulated Prices YoY"
+    ]
+  },
+  {
+    "query": "Czech CPI services",
+    "hits": [
+      "OECZGSHA<index> | OECD Czech Rep CPI Services Rent Index",
+      "OECZGSJM<index> | OECD Czech Rep CPI Services Less Housing Index",
+      "CZCPC13M<index> | Czech CPI Personal Care Social Protection And Miscella. Goods And Services MoM",
+      "CZCP12<index> | Czech CPI Insurance And Financial Services",
+      "CZCP12Y<index> | Czech CPI Insurance And Financial Services YoY",
+      "CZCP13<index> | Czech CPI Personal Care Social Protection And Miscella. Goods And Services",
+      "CZCPC12<index> | Czech Contribution to Change in CPI Insurance And Financial Services",
+      "CZCPC13Y<index> | Czech CPI Personal Care Social Protection And Miscella. Goods And Services YoY"
+    ]
+  },
+  {
+    "query": "Czech CPI goods",
+    "hits": [
+      "OECZGGCU<index> | OECD Czech Rep CPI Goods Food Excluding Restaurants Growth Rate",
+      "OECZGGCV<index> | OECD Czech Rep CPI Goods Food Excluding Restaurants YoY",
+      "OECZGGCW<index> | OECD Czech Rep CPI Goods Food Excluding Restaurants Index",
+      "CZCPC13M<index> | Czech CPI Personal Care Social Protection And Miscella. Goods And Services MoM",
+      "CZCP13<index> | Czech CPI Personal Care Social Protection And Miscella. Goods And Services",
+      "CZCPC13Y<index> | Czech CPI Personal Care Social Protection And Miscella. Goods And Services YoY",
+      "CP56CZ<index> | EU CPI Goods & Services for Routine Household Maintenance Czech Republic",
+      "CP56CZYY<index> | EU CPI Goods & Services for Routine Household Maintenance Czech Republic YoY"
+    ]
+  },
+  {
+    "query": "Czech CPI fuels",
+    "hits": [
+      "CP4FCZ<index> | EU CPI Solid Fuels Czech Republic",
+      "CP4FCZMM<index> | EU CPI Solid Fuels Czech Republic MoM",
+      "CP4FCZYY<index> | EU CPI Solid Fuels Czech Republic YoY",
+      "CP4LCZ<index> | EU CPI Liquid Fuels Czech Republic",
+      "CP4LCZMM<index> | EU CPI Liquid Fuels Czech Republic MoM",
+      "CP4LCZYY<index> | EU CPI Liquid Fuels Czech Republic YoY",
+      "CP7FCZ<index> | EU CPI Fuels & Lubricants for Personal Transport Equipment Czech Republic",
+      "CP7FCZMM<index> | EU CPI Fuels & Lubricants for Personal Transport Equipment Czech Republic MoM"
+    ]
+  },
+  {
+    "query": "Czech Republic CPI fuel",
+    "hits": [
+      "CZCPHOMM<index> | Czech Republic CPI Housing Water Energy Fuel MoM",
+      "CZCPHOYY<index> | Czech Republic CPI Housing Water Energy Fuel YoY",
+      "CZCPH<index> | Czech Republic CPI Housing Water Energy Fuel",
+      "CZCPH15<index> | Czech Republic CPI Housing Water Energy Fuel COICOP 1999",
+      "CP4FCZ<index> | EU CPI Solid Fuels Czech Republic",
+      "CP4FCZMM<index> | EU CPI Solid Fuels Czech Republic MoM",
+      "CP4FCZYY<index> | EU CPI Solid Fuels Czech Republic YoY",
+      "CP4LCZ<index> | EU CPI Liquid Fuels Czech Republic"
+    ]
+  },
+  {
+    "query": "CNB fixing EUR CZK",
+    "hits": []
+  },
+  {
+    "query": "Czech National Bank exchange rate fixing",
+    "hits": []
+  },
+  {
+    "query": "Czech Republic gasoline price",
+    "hits": [
+      "ECOBETCZ<index> | Czech Republic Euro-super 95 Gasoline Pump Price in CZK Including Tax",
+      "ECOBEFCZ<index> | Czech Republic Euro-super 95 Gasoline Pump Price in CZK Excluding Tax",
+      "ECOBGTCZ<index> | Czech Republic Euro-super 95 Gasoline Pump Price Including Tax",
+      "ECOBGFCZ<index> | Czech Republic Euro-super 95 Gasoline Pump Price Excluding Tax"
+    ]
+  },
+  {
+    "query": "Czech Republic diesel price",
+    "hits": [
+      "ECNEABCZ<index> | European Commission Czech Republic Diesel Pump Price with Tax",
+      "ECOBATCZ<index> | Czech Republic Automotive Gas oil (Diesel)  Pump Price Including Tax",
+      "ECOBAFCZ<index> | Czech Republic Automotive Gas oil (Diesel)  Pump Price Excluding Tax",
+      "ECOBOFCZ<index> | Czech Republic Automotive Gas oil (Diesel)  Pump Price in CZK Excluding Tax",
+      "ECOBOTCZ<index> | Czech Republic Automotive Gas oil (Diesel)  Pump Price in CZK Including Tax"
+    ]
+  },
+  {
+    "query": "Czech repo rate",
+    "hits": [
+      "CZARANN<index> | Czech Republic Ceska Narodni Banka 2 Week Limit Repo Rate Announcement",
+      "CZBRREPO<index> | Czech Republic Ceska Narodni Banka 2 Week Limit Repo Rate",
+      "CZRR14D<index> | Czech Republic Repo Rates 14 day Average Czech National Bank",
+      "CZRRTOTV<index> | Czech Republic Repo Rates Total Volume Czech National Bank",
+      "CZRR14DM<index> | Czech Republic Repo Rates 14 day Maximum Czech National Bank",
+      "RDNHRNCZ<index> | ECB Hhlds & Nn-Fnc Corp Interest Rate: New Repurchase Agreements Dep: Czech Rep",
+      "CZRR14DL<index> | Czech Republic Repo Rates 14 day low Czech National Bank",
+      "9356585<index> | IMF Czech Republic Repurchase Agreement in Percent per Annu"
+    ]
+  },
+  {
+    "query": "Czech National Bank 2 week repo",
+    "hits": []
+  },
+  {
+    "query": "Czech Republic real effective exchange rate",
+    "hits": [
+      "BISBCZR<index> | Czech Republic Real Effective Exchange Rate Broad",
+      "BRERCZ<index> | Bloomberg Economics Czech Rep Real Effective Exchange Rate CPI",
+      "935.028<index> | IMF Czech Rep Real Effective Exchange Rate CPI",
+      "OECZFRAA<index> | OECD Czech Rep Real Effective Exchange Rates Overall Economy CPI Index 2010=100",
+      "OECZFRAB<index> | OECD Czech Rep Real Effective Exchange Rates Overall Economy ULC Index 2010=100",
+      "OEEOCZXA<index> | OECD Eco Outlook Czech Rep Real Effective Exchange Rate Constant Trade Weights",
+      "JBDCCZK<index> | J.P. Morgan Czech Republic CPI-Based Real Broad Effective Exchange Rate",
+      "BREERCZK<index> | Bloomberg Intelligence REER Index - Czech Republic"
+    ]
+  },
+  {
+    "query": "Czech Republic trade balance",
+    "hits": [
+      "9357979<index> | IMF Czech Republic Trade Balance in Millions of USD",
+      "ECOYBCZN<index> | Czech Republic Trade Balance (Billion USD) NSA",
+      "ECOYBCZS<index> | Czech Republic Trade Balance (Billion USD) SA",
+      "ECTBCZ<index> | Czech Republic Trade Balance Forecast (% GDP)",
+      "EHTBCZ<index> | Czech Republic Trade Balance (% GDP)",
+      "UKTMFKMN<index> | UK Trade in Goods with Non EU Partners Czech Republic Trade Balance SA",
+      "CZTBNAL<index> | Czech Republic Foreign Trade Balance National Concept",
+      "CZCMTRBA<index> | Czech Republic BoP Current Account Trade Balance CZK Monthly"
+    ]
+  },
+  {
+    "query": "Czech agricultural producer prices",
+    "hits": [
+      "CZPPAMOM<index> | Czech Republic PPI Agricultural YoY",
+      "CZPPK83M<index> | Czech Republic PPI Agricultural & Forestry Machinery MoM",
+      "CZPPK83Y<index> | Czech Republic PPI Agricultural & Forestry Machinery YoY",
+      "CZPPAYOY<index> | Czech Republic PPI Agricultural MoM"
+    ]
+  },
+  {
+    "query": "Czech Republic household loans",
+    "hits": [
+      "GDDI935S<index> | IMF GDD Czech Republic Household Debt Loans And Debt Securities % GDP",
+      "LONSCZHH<index> | Czech Republic Household & Non-Profit Institutions Outstanding Amounts",
+      "LDHHLHCZ<index> | ECB MFIs Statistics for Households: Lending for House Purchase Czech Repub",
+      "HHFLLNCZ<index> | ECB MFI Loans to Household and NPISH - Czech Rep - Flow",
+      "CZHHCDTV<index> | Czech Republic Volume of Households & Npish - Credit Card Total",
+      "CZHHHHTV<index> | Czech Republic Volume of Households & Npish - Total",
+      "CZNPOTHH<index> | Czech Republic Non-Performing Loans to Households - Other Households",
+      "CZBLO5OR<index> | Czech Republic Interest Rates on Households & Npish - Other Loans - Over 5 Years"
+    ]
+  },
+  {
+    "query": "Czech inflation expectations",
+    "hits": [
+      "MSCPICZ<index> | Morgan Stanley 1Y Ahead CPI Expectations - Czech",
+      "ECPICZ<index> | Czech Republic CPI Economic Forecast (YoY %)",
+      "ECPICZ 26<index> | Czech Republic CPI Economic Forecast (YoY %)",
+      "ECPICZ 27<index> | Czech Republic CPI Economic Forecast (YoY %)",
+      "ECPICZ Q127<index> | Czech Republic CPI Economic Forecast (YoY %)",
+      "ECPICZ Q327<index> | Czech Republic CPI Economic Forecast (YoY %)",
+      "ECPICZ 03<index> | Czech Republic CPI Economic Forecast (YoY %)",
+      "ECPICZ 04<index> | Czech Republic CPI Economic Forecast (YoY %)"
+    ]
+  },
+  {
+    "query": "Czech Republic import prices",
+    "hits": [
+      "CZEII<index> | Czech Republic Import Prices",
+      "CZEIIYOY<index> | Czech Republic Import Prices YoY",
+      "CZEIIMOM<index> | Czech Republic Import Prices MoM",
+      "CZEIIB<index> | Czech Republic Import Prices Beverages",
+      "CZEIIBMM<index> | Czech Republic Import Prices Beverages MoM",
+      "CZEIIBYY<index> | Czech Republic Import Prices Beverages YoY",
+      "CZEIIC<index> | Czech Republic Import Prices Chemicals",
+      "CZEIICMM<index> | Czech Republic Import Prices Chemicals MoM"
+    ]
+  }
+]

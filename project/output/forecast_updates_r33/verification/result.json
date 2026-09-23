@@ -1,0 +1,31 @@
+{
+  "current_bundle_valid": true,
+  "frozen_hashes_unchanged": {
+    "cz_struct.py": true,
+    "data/bloomberg_inputs_20260922_foodppi/MANIFEST.json": true,
+    "data/release_calendar_cz_cpi.csv": true,
+    "forecast_independent.py": true,
+    "tools/live_bundle_r32/adapter.py": true,
+    "tools/live_bundle_r32/cli.py": true,
+    "tools/live_bundle_r32/runner.py": true
+  },
+  "no_current_forecast": true,
+  "raw_capture_manifest_valid": true,
+  "real_replay_comparison_valid": true,
+  "recorded_at": "2026-09-22T17:45:31.023490+00:00",
+  "schema_validation": "required keys and engine arithmetic checked",
+  "tests_command": [
+    "C:\\Users\\luis_\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools/forecast_updates_r33",
+    "-p",
+    "test_*.py",
+    "-q"
+  ],
+  "tests_returncode": 0,
+  "tests_summary": "----------------------------------------------------------------------\nRan 39 tests in 9.649s\n\nOK"
+}

@@ -1,0 +1,16 @@
+##### A2 estimation, nested validation, do-no-harm (independent rebuild)
+[PASS] feature index strictly chronological (the "latest 40" slice relies on order)
+[PASS] every origin estimated; outer training rows = latest 40 band-matured, released, 7-feature-complete quarter-ends (min 24) :: []
+[PASS] fold sets and inner training rows equal the specification (latest 8 folds; >=16 inner rows at the fold clock; inner cap 40)
+[PASS] validation scores reproduce :: max abs diff=5.377e-10
+[PASS] no-correction loss reproduces :: max abs diff=0.000e+00
+[PASS] alpha = argmin score, ties to the stronger penalty, applied only if strictly below the no-correction loss :: []
+[PASS] outer coefficients reproduce (ridge via lstsq, bounded via NNLS) :: max abs diff=2.609e-09
+[PASS] unrestricted candidates: coefficients and predictions reproduce to rounding :: coef 4.025e-16, prediction 5.135e-16
+[PASS] band predictions reproduce (bounded fit: trust-region tolerance against exact active set) :: max abs diff=3.584e-09
+[FAIL] gate tolerance 1e-10 recognises every coefficient that the exact active-set solution puts on the bound :: exact zeros=369, saved |coef|<1e-10: 363, missed: [('2021-01', 1, 'ulc_sameq', 1.2360034065196818e-10), ('2021-02', 1, 'ulc_sameq', 1.2360034065196818e-10), ('2021-03', 1, 'ulc_sameq', 1.2360034065196818e-10), ('2022-07', 2, 'tightening', 2.2348145975186735e-10), ('2022-08', 2, 'tightening', 2.2348145975186735e-10), ('2022-09', 2, 'tightening', 2.2348145975186735e-10)]
+[PASS] monthly paths = band-mean-preserving map of [c1, c2, 0, 0] :: max abs diff=4.358e-10
+[PASS] no other discrepancy :: []
+   cells checked: 1080; exact score ties inside the grid: 0; best score exactly equal to zero loss: 0
+   folds per cell: {8: 1080}; outer rows per origin-band: {30: 2, 31: 5, 32: 6, 33: 6, 34: 6, 35: 6, 36: 6, 37: 6, 38: 6, 39: 6, 40: 125}
+##### A2 estimation, nested validation, do-no-harm (independent rebuild): 11 passed, 1 failed, 0 notes

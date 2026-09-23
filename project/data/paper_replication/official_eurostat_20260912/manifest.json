@@ -1,0 +1,193 @@
+{
+  "source": "Eurostat dissemination API, JSON-stat 2.0",
+  "base_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/",
+  "vintage_status": "current vintage at retrieval; not a historical publication archive",
+  "started_at": "2026-09-12T09:18:57.401751+00:00",
+  "queries": {
+    "une_rt_m_cz_de": {
+      "dataset": "une_rt_m",
+      "params": {
+        "geo": [
+          "CZ",
+          "DE"
+        ],
+        "s_adj": [
+          "SA",
+          "NSA"
+        ],
+        "age": "TOTAL",
+        "sex": "T",
+        "unit": "PC_ACT"
+      },
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?geo=CZ&geo=DE&s_adj=SA&s_adj=NSA&age=TOTAL&sex=T&unit=PC_ACT",
+      "retrieved_at": "2026-09-12T09:18:57.401765+00:00",
+      "dataset_updated": "2026-09-04T23:00:00+0200",
+      "label": "Unemployment by sex and age - monthly data",
+      "rows": 1468,
+      "raw_sha256": "65e55005bd3bfc245f87509944af1895d835b51c98fd09d7124b5f2277e12540",
+      "tidy_sha256": "6ace3da406df74b1985703d8f206d78b3b22f5ff779f93c5048de77a509f48db"
+    },
+    "prc_hicp_minr_de_total": {
+      "dataset": "prc_hicp_minr",
+      "params": {
+        "geo": "DE",
+        "coicop18": "TOTAL",
+        "unit": [
+          "I25",
+          "I15"
+        ]
+      },
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?geo=DE&coicop18=TOTAL&unit=I25&unit=I15",
+      "retrieved_at": "2026-09-12T09:18:57.732943+00:00",
+      "dataset_updated": "2026-09-01T23:00:00+0200",
+      "label": "Harmonised index of consumer prices (HICP) - ECOICOP ver.2 - indices and rates of change, monthly data",
+      "rows": 735,
+      "raw_sha256": "3a07e1819ecfac9890d7e490daa372788fbb5e54c26f512e525733ade7915b82",
+      "tidy_sha256": "f1d70f1e5895da46ea995aa5db03ed832219a4a018c30baf8bdc2a0d0fc4af5e"
+    },
+    "prc_hicp_midx_de_cp00": {
+      "dataset": "prc_hicp_midx",
+      "params": {
+        "geo": "DE",
+        "coicop": "CP00",
+        "unit": "I15"
+      },
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_midx?geo=DE&coicop=CP00&unit=I15",
+      "retrieved_at": "2026-09-12T09:18:57.811250+00:00",
+      "dataset_updated": "2026-02-06T23:00:00+0100",
+      "label": "HICP - monthly data (index)",
+      "rows": 360,
+      "raw_sha256": "42c1aba25e900b1e29ece1c6e41e83c2e8d3af23eccbc68fdf0a991e7b978000",
+      "tidy_sha256": "5045bc7f6592a36081ebc3f87945005fcbff110c7c6a5232f8ab52d24eaae6e1"
+    },
+    "namq_10_lp_ulc_cz": {
+      "dataset": "namq_10_lp_ulc",
+      "params": {
+        "geo": "CZ",
+        "na_item": [
+          "NULC_PER",
+          "NULC_HW"
+        ],
+        "unit": [
+          "PCH_SM",
+          "PCH_PRE"
+        ],
+        "s_adj": [
+          "NSA",
+          "SCA"
+        ]
+      },
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_lp_ulc?geo=CZ&na_item=NULC_PER&na_item=NULC_HW&unit=PCH_SM&unit=PCH_PRE&s_adj=NSA&s_adj=SCA",
+      "retrieved_at": "2026-09-12T09:18:57.881089+00:00",
+      "dataset_updated": "2026-09-09T23:00:00+0200",
+      "label": "Labour productivity and unit labour costs - quarterly data",
+      "rows": 738,
+      "raw_sha256": "bd716ed8e4011ea1966af0924f879fe074def857750f2947015bcd77fa1ec406",
+      "tidy_sha256": "04d06496daa695bdc82617406d113da7ce3034544ab2e9b5172017ed43d18974"
+    },
+    "ei_bsin_m_r2": {
+      "dataset": "ei_bsin_m_r2",
+      "params": {
+        "geo": [
+          "CZ",
+          "DE",
+          "PL",
+          "EA20",
+          "EA21",
+          "EU27_2020"
+        ]
+      },
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ei_bsin_m_r2?geo=CZ&geo=DE&geo=PL&geo=EA20&geo=EA21&geo=EU27_2020",
+      "retrieved_at": "2026-09-12T09:18:58.619878+00:00",
+      "dataset_updated": "2026-08-28T11:00:00+0200",
+      "label": "Industry confidence indicator and survey results - monthly data",
+      "rows": 51846,
+      "raw_sha256": "7b64baf1dd625c92bf109728dae99a15de87c95450c1fa31cbc65aa6c40d51d7",
+      "tidy_sha256": "75eb9a93cf2a98dbf4f8868e12414f36c3e252dce8337a3772a338290d5ad4ff"
+    },
+    "ei_bsse_m_r2": {
+      "dataset": "ei_bsse_m_r2",
+      "params": {
+        "geo": [
+          "CZ",
+          "DE",
+          "PL",
+          "EA20",
+          "EA21",
+          "EU27_2020"
+        ]
+      },
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ei_bsse_m_r2?geo=CZ&geo=DE&geo=PL&geo=EA20&geo=EA21&geo=EU27_2020",
+      "retrieved_at": "2026-09-12T09:18:58.932299+00:00",
+      "dataset_updated": "2026-08-28T11:00:00+0200",
+      "label": "Services confidence indicator and survey results - monthly data",
+      "rows": 23670,
+      "raw_sha256": "601f886dd7754353d4f65e7310414e6ec959adbd155532eeabc7f99190950823",
+      "tidy_sha256": "a91ba855fe50e81e53b4531f18a2f308dc71cdc0bf09d511829e3916c3aa324b"
+    },
+    "ei_bsrt_m_r2": {
+      "dataset": "ei_bsrt_m_r2",
+      "params": {
+        "geo": [
+          "CZ",
+          "DE",
+          "PL",
+          "EA20",
+          "EA21",
+          "EU27_2020"
+        ]
+      },
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ei_bsrt_m_r2?geo=CZ&geo=DE&geo=PL&geo=EA20&geo=EA21&geo=EU27_2020",
+      "retrieved_at": "2026-09-12T09:18:59.107471+00:00",
+      "dataset_updated": "2026-08-28T11:00:00+0200",
+      "label": "Retail trade confidence indicator and survey results - monthly data",
+      "rows": 37354,
+      "raw_sha256": "34de1ec1959cd9f60f5e8fe1ec20afc4b06462f84aac64cb069f771f0839ce77",
+      "tidy_sha256": "c5f3816e19a96f1d854d2cf158d953405ed61b4338ed468d02df53916bef61ad"
+    },
+    "ei_bsbu_m_r2": {
+      "dataset": "ei_bsbu_m_r2",
+      "params": {
+        "geo": [
+          "CZ",
+          "DE",
+          "PL",
+          "EA20",
+          "EA21",
+          "EU27_2020"
+        ]
+      },
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ei_bsbu_m_r2?geo=CZ&geo=DE&geo=PL&geo=EA20&geo=EA21&geo=EU27_2020",
+      "retrieved_at": "2026-09-12T09:18:59.336400+00:00",
+      "dataset_updated": "2026-08-28T11:00:00+0200",
+      "label": "Construction confidence indicator and survey results - monthly data",
+      "rows": 61366,
+      "raw_sha256": "97001bbc7d558247b7c7b8f040389be549e5897c23434254d5eb00bbdf4a0e43",
+      "tidy_sha256": "7b19f54d053632a9d0e8a292ed6232c311bf316c0641744bc4fc86bd015802b7"
+    },
+    "ei_bsco_m": {
+      "dataset": "ei_bsco_m",
+      "params": {
+        "geo": [
+          "CZ",
+          "DE",
+          "PL",
+          "EA20",
+          "EA21",
+          "EU27_2020"
+        ]
+      },
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ei_bsco_m?geo=CZ&geo=DE&geo=PL&geo=EA20&geo=EA21&geo=EU27_2020",
+      "retrieved_at": "2026-09-12T09:18:59.619290+00:00",
+      "dataset_updated": "2026-08-28T11:00:00+0200",
+      "label": "Consumers confidence indicator and survey results - monthly data",
+      "rows": 64118,
+      "raw_sha256": "df545f3f16ed66e013cee9b89d610bad71545c9265299d912460744369562ab6",
+      "tidy_sha256": "d76e3c9a15bb6e2459b018fafbef989ff8a34df0ce0a9eb2206ed27a834b1da4"
+    }
+  },
+  "errors": [],
+  "completed_at": "2026-09-12T09:18:59.915733+00:00",
+  "status": "complete",
+  "module_sha256": "f5617c90c8fb7a1fa2e7148e00093b705c25112983488a0dbef7284277f8b5d4"
+}

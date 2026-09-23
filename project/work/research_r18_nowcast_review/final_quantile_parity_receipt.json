@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "verified_final_byte_parity": {
+    "predictions.csv": true,
+    "scores.csv": true,
+    "alerts.csv": true,
+    "coverage.csv": true,
+    "error_history.csv": true,
+    "laws.json": true
+  },
+  "final_input_hashes_verified": 64,
+  "final_output_hashes_verified": 7,
+  "final_manifest_sha256": "067855840e18f1c6b3a0f343c6c73293d51cf941e25147b73c7247db19f9e009",
+  "bounded_quantile_reference": "verified_quantile_receipt.json: all 3960 requested quantiles verified using exact rational weights/nearest ranks; supports <=60",
+  "point_probability_crps_alert_changes": 0,
+  "final_helper_p1_correction_does_not_change_requested_quantiles": true
+}

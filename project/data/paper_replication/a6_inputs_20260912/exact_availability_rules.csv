@@ -1,0 +1,13 @@
+rule,text,days_after_period_end
+ec_bcs_next_month,EC survey results for M are published at the end of M; usable from day 1 of M+1,
+lfs_t32,Monthly unemployment published about 30 days after the period,32.0
+hicp_t18,"HICP flash at month end, final value in mid M+1",18.0
+czso_ip_t41,CZSO industry release on the 37th day plus at most 3 days of exceptions,41.0
+czso_import_prices_t45,CZSO import-price release on the 41st day plus at most 3 days,45.0
+czso_ppi_t26,"CZSO producer prices on the 16th day after the period, up to 9 days later in January",26.0
+cnb_rushin_t14,Monthly mean of weekly Rushin estimates; the last week is published about a week later,14.0
+arad_rates_t1,Market rate known on the last day of the month,1.0
+arad_reer_t20,REER published in the following month,20.0
+arad_loans_t31,Client-loan stocks published about a month after the period,31.0
+czso_fuel_t7,Weekly fuel survey published within days; monthly average after the last week,7.0
+cnb_fmie_next_month,FMIE survey for M published in M; usable from day 1 of M+1,

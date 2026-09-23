@@ -1,0 +1,58 @@
+{
+  "status": "pass",
+  "verified_at_utc": "2026-09-15T07:27:55.450674+00:00",
+  "canonical": {
+    "output/research_r18_category_verified/manifest.json": {
+      "checked_hashes": 114,
+      "sha256": "21509329f67475424fb542e0dd4a91480151bf76ba9e6ecd63df135d4158edbd"
+    },
+    "output/research_r18_food/manifest.json": {
+      "checked_hashes": 120,
+      "sha256": "78173c25a652505f11e73727f0701b451c3b27bbaadb0aed0347f182848b95d8"
+    },
+    "output/research_r18_nowcast_final/manifest.json": {
+      "checked_hashes": 71,
+      "sha256": "067855840e18f1c6b3a0f343c6c73293d51cf941e25147b73c7247db19f9e009"
+    },
+    "output/research_r18/path_v2/manifest.json": {
+      "checked_hashes": 481,
+      "sha256": "0c9fbf44f15a5255bfe3ab685eed43f24e4ebfddf8c6c6c1988c478e5ea0d1fc"
+    },
+    "output/research_r18/path_v2/evaluation/input_manifest.json": {
+      "checked_hashes": 520,
+      "sha256": "3fbc3a173f0bbb2425f12c09e66c95392a977553c1d880ba4f970d8c2f03e6c1"
+    },
+    "output/research_r18/uncertainty_final/manifest.json": {
+      "checked_hashes": 72,
+      "sha256": "34f0e5b27d29825209e4bd44e6afe165dae9472aeb97d2ca944fc7abe1f3a8f2"
+    }
+  },
+  "canonical_hash_entries": 1378,
+  "category_files": 21,
+  "energy_sources": 22,
+  "earlier_manifests": 14,
+  "earlier_hash_entries": 1623,
+  "tests_passed": 523,
+  "delivery_files": 643,
+  "delivery_sha256": "e69a9cba235a47a0a797d0c86b3032b3fe3ce78db82bc51e16e06f428b6770de",
+  "replay": {
+    "artifact": "output/research_r18/path_v2/evaluation/cnb_rounds_replayed_r18.html",
+    "sha256": "59710a304063edf6509b71f8daea61fbe491e8c59f7c166f1b453bbaed3a41d6",
+    "report_rounds": 19,
+    "cutoff_rounds": 19,
+    "checks": [
+      "all rounds both clocks",
+      "individual round selection",
+      "all models",
+      "checkbox off/on",
+      "reset",
+      "tooltip enter/leave",
+      "finite SVG geometry",
+      "score restore",
+      "no external resources"
+    ],
+    "limitation": "DOM-contract and SVG string checks; not browser layout or visual pixel inspection"
+  },
+  "scope": "implementation and historical replay; no calibrated bands, prospective record or CNB dominance",
+  "verification_script_sha256": "cb81f5093147d5d95164a89851d946b25af1e2a3e000baaf4384c2b3fffa96b0"
+}

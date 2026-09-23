@@ -1,0 +1,27 @@
+M0 unchanged (control)
+    caught by tests: False (0 failing)   run.py baseline assertion: passes
+    
+M1 horizon off-by-one: baseline rates [0:12] and refit [0:12] instead of [1:13]
+    caught by tests: False (0 failing)   run.py baseline assertion: passes
+    
+M2 mu_robust ignores the training window (allowed dropped)
+    caught by tests: False (0 failing)   run.py baseline assertion: passes
+    
+M3 refit moves the food centre the wrong way
+    caught by tests: False (0 failing)   run.py baseline assertion: passes
+    
+M4 publication stamps ignored in the drift
+    caught by tests: True (1 failing)   run.py baseline assertion: passes
+    test_shift_candidates_differ_from_the_baseline_by_exactly_their_constant: AssertionError
+M5 long history starts 2005 instead of 1996
+    caught by tests: False (0 failing)   run.py baseline assertion: passes
+    
+M6 mu_window taken as the plain window mean of calendar means of ALL THREE series
+    caught by tests: False (0 failing)   run.py baseline assertion: passes
+    
+M7 simple rate conversion dropped (log rate written as the simple rate)
+    caught by tests: True (1 failing)   run.py baseline assertion: passes
+    test_shift_candidates_differ_from_the_baseline_by_exactly_their_constant: AssertionError
+M8 median replaced by the mean of twelve-month changes
+    caught by tests: True (2 failing)   run.py baseline assertion: passes
+    test_median_drift_ignores_one_extreme_year_and_every_unpublished_month: AssertionError; test_shift_candidates_differ_from_the_baseline_by_exactly_their_constant: AssertionError

@@ -1,0 +1,25 @@
+{
+  "ridge_future_label_poison_unchanged": true,
+  "weights_future_label_poison_unchanged": true,
+  "unrecorded_modern_cpi_fails_closed": true,
+  "cpi_clock_0859_false_0900_true": true,
+  "2026_january_detail_release": "2026-02-13 09:00:00",
+  "2026_basket_available_from": "2026-02-13 00:00:00",
+  "basket_admitted_nine_hours_early": true,
+  "2026_feb12_2359_weights": {
+    "food": 0.177431636,
+    "fuel": 0.035444108,
+    "alc": 0.084622084,
+    "administered": 0.17396657425983705,
+    "core": 0.5285355977401629
+  },
+  "2026_feb13_0800_weights": {
+    "food": 0.168584131,
+    "fuel": 0.030630713,
+    "alc": 0.082870815,
+    "administered": 0.17396657425983705,
+    "core": 0.5439477667401629
+  },
+  "functions_source": "cz_struct.py AST, actual function bodies executed; no live loaders",
+  "scope": "pure functions only; no pinned-runtime full forecast replay"
+}

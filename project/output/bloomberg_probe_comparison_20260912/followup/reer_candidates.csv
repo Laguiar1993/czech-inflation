@@ -1,0 +1,25 @@
+reference,deflator,ticker,listed,first,last,n,corr_dlog,mae_dlog,max_dlog,dlog_within_0p1,corr_dlog_bbg_lead_same_lag,corr_yy,mae_yy,level_mae_rebased_2020,note
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,BRERCZ Index,user list,1999-02,2026-07,330,0.828,0.874,4.14,0.106,0.17/0.83/0.10,0.814,3.69,9.06,
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,BISBCZR Index,user list,1999-02,2026-07,330,0.871,0.565,4.17,0.179,0.17/0.87/0.13,0.911,2.16,9.0,
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,935.028 Index,user list,1999-02,2026-06,329,0.903,0.474,2.75,0.152,0.15/0.90/0.14,0.919,2.02,8.88,
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,BREERCZK Index,user list,2016-01,2026-07,127,0.824,0.622,4.43,0.126,0.12/0.82/0.14,0.939,2.17,5.79,
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,OECZFRAA Index,user list,1999-02,2026-07,330,0.874,0.498,3.89,0.136,0.16/0.87/0.12,0.911,1.89,8.58,
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,JBDCCZK Index,search,,,0,,,,,,,,,no Bloomberg data
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,JBDPCZK Index,search,,,0,,,,,,,,,no Bloomberg data
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,JBMCCZK Index,search,,,0,,,,,,,,,no Bloomberg data
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,JBMPCZK Index,search,,,0,,,,,,,,,no Bloomberg data
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,OECZFRAB Index,search,1999-03,2026-06,110,-0.013,1.824,9.72,0.027,0.39/-0.01/0.02,0.526,8.47,7.34,
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,OEEOCZXA Index,search,1999-03,2026-06,110,0.048,1.79,15.89,0.036,0.24/0.05/0.03,0.353,6.47,6.26,
+A6 row 56: cnb_arad:SREERM101 (index_level),PPI,.REER_CZK G Index,search,2000-02,2010-09,128,0.875,0.595,3.25,0.18,0.20/0.88/0.06,0.941,2.16,4.23,
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,BRERCZ Index,user list,1999-02,2026-07,330,0.874,0.725,4.03,0.106,0.14/0.87/0.14,0.873,2.86,3.49,
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,BISBCZR Index,user list,1999-02,2026-07,330,0.956,0.357,1.55,0.206,0.14/0.96/0.15,0.984,0.92,1.39,
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,935.028 Index,user list,1999-02,2026-06,329,0.956,0.293,2.26,0.252,0.13/0.96/0.15,0.99,0.71,0.81,
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,BREERCZK Index,user list,2016-01,2026-07,127,0.948,0.352,1.37,0.197,0.09/0.95/0.13,0.978,0.66,0.8,
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,OECZFRAA Index,user list,1999-02,2026-07,330,0.965,0.277,1.94,0.255,0.14/0.97/0.14,0.993,0.52,0.72,
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,JBDCCZK Index,search,,,0,,,,,,,,,no Bloomberg data
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,JBDPCZK Index,search,,,0,,,,,,,,,no Bloomberg data
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,JBMCCZK Index,search,,,0,,,,,,,,,no Bloomberg data
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,JBMPCZK Index,search,,,0,,,,,,,,,no Bloomberg data
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,OECZFRAB Index,search,1999-03,2026-06,110,-0.018,1.855,10.76,0.045,0.45/-0.02/-0.02,0.529,7.47,2.35,
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,OEEOCZXA Index,search,1999-03,2026-06,110,0.044,1.786,16.02,0.055,0.32/0.04/0.04,0.35,6.12,8.78,
+A6 row 57: cnb_arad:SREERM103 (index_level),CPI,.REER_CZK G Index,search,2000-02,2010-09,128,0.955,0.38,1.34,0.203,0.17/0.96/0.06,0.995,0.87,1.47,

@@ -1,0 +1,8 @@
+indic_code,indic_label,n,y0,y1
+BS-CCI-BAL,Construction confidence indicator,379,1995,2026
+BS-CSMCI-BAL,Consumer confidence indicator,379,1995,2026
+BS-ESI-I,Economic sentiment indicator,379,1995,2026
+BS-ICI-BAL,Industrial confidence indicator,379,1995,2026
+BS-RCI-BAL,Retail confidence indicator,379,1995,2026
+BS-SCI-BAL,Services confidence indicator,291,2002,2026
+

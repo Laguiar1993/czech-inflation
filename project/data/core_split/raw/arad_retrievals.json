@@ -1,0 +1,40 @@
+{
+  "SCPICLEM02YOYPECNA": {
+    "url": "https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes",
+    "params": {
+      "snList": "",
+      "periodFrom": "631152000000",
+      "periodTo": "1788912000000",
+      "roleId": "U",
+      "type": "single",
+      "setParams": "",
+      "chartData": "SCPICLEM02YOYPECNA:0"
+    },
+    "body": [
+      "SCPICLEM02YOYPECNA"
+    ],
+    "retrieved_at": "2026-09-09T09:24:10.707971+00:00",
+    "name_en": "Consumer Prices of Tradable and Non-Tradable Goods: Monthly, Other tradables excluding food and fuel prices, y-o-y index , Percentages, Not-adjusted",
+    "sha256": "86ed1fdb8c2ad8de31b3be605ce81576bde8e468ddead9c55403e39e3f30351e",
+    "vintage": "latest snapshot; no recorded historical vintage dates"
+  },
+  "SCPICLEM03YOYPECNA": {
+    "url": "https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes",
+    "params": {
+      "snList": "",
+      "periodFrom": "631152000000",
+      "periodTo": "1788912000000",
+      "roleId": "U",
+      "type": "single",
+      "setParams": "",
+      "chartData": "SCPICLEM03YOYPECNA:0"
+    },
+    "body": [
+      "SCPICLEM03YOYPECNA"
+    ],
+    "retrieved_at": "2026-09-09T09:24:10.693473+00:00",
+    "name_en": "Consumer Prices of Tradable and Non-Tradable Goods: Monthly, Prices of nontradables excluding regulated prices, y-o-y index , Percentages, Not-adjusted",
+    "sha256": "0530b322c27bb4aa8c575aaa28a1d7c7cacef08e33e9daf75b3d0b0104ef0c24",
+    "vintage": "latest snapshot; no recorded historical vintage dates"
+  }
+}

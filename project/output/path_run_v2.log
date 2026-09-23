@@ -1,0 +1,54 @@
+
+year-on-year RMSE on the COMMON valid sample per horizon; origins 2019-02..2026-07, release-eve clock
+ h targets common | log points x100:  model now+nv  naive     RW | exact pct:  model now+nv  naive     RW | cum m/m:  model  naive | var shares base/fut/2cov | m/m RMSE model naive
+ 0      90     90 |                   0.418  0.418  0.837  0.899 |             0.470  0.470  0.925  0.982 |           0.418  0.837 |  0.89  0.04  0.07         |  0.421  0.854 (n=90)
+ 1      89     88 |                   0.824  0.939  1.351  1.438 |             0.925  1.036  1.485  1.571 |           0.824  1.351 |  0.77  0.09  0.14         |  0.698  0.863 (n=88)
+ 2      88     86 |                   1.184  1.471  1.883  2.000 |             1.332  1.619  2.068  2.193 |           1.184  1.883 |  0.67  0.15  0.18         |  0.699  0.871 (n=86)
+ 3      87     84 |                   1.438  1.932  2.338  2.456 |             1.611  2.118  2.561  2.697 |           1.438  2.338 |  0.56  0.22  0.22         |  0.809  0.881 (n=84)
+ 4      86     82 |                   1.748  2.399  2.811  2.943 |             1.956  2.626  3.074  3.233 |           1.748  2.811 |  0.46  0.29  0.25         |  0.806  0.891 (n=82)
+ 5      85     80 |                   2.106  2.889  3.302  3.431 |             2.350  3.159  3.605  3.766 |           2.106  3.302 |  0.36  0.37  0.27         |  0.850  0.902 (n=80)
+ 6      84     78 |                   2.457  3.382  3.800  3.924 |             2.720  3.692  4.143  4.306 |           2.457  3.800 |  0.29  0.46  0.25         |  0.867  0.909 (n=78)
+ 7      83     76 |                   2.952  3.893  4.289  4.412 |             3.265  4.245  4.671  4.839 |           2.952  4.289 |  0.22  0.57  0.21         |  0.956  0.921 (n=76)
+ 8      82     74 |                   3.330  4.388  4.790  4.901 |             3.651  4.779  5.211  5.375 |           3.330  4.790 |  0.15  0.67  0.17         |  0.894  0.932 (n=74)
+ 9      81     72 |                   3.907  4.911  5.278  5.396 |             4.278  5.342  5.733  5.916 |           3.907  5.278 |  0.09  0.78  0.13         |  0.937  0.943 (n=72)
+10      80     70 |                   4.489  5.421  5.791  5.884 |             4.911  5.887  6.279  6.449 |           4.489  5.791 |  0.04  0.89  0.06         |  0.930  0.956 (n=70)
+11      79     68 |                   4.996  5.950  6.303  6.361 |             5.458  6.450  6.820  6.969 |           4.996  6.303 |  0.00  1.00  0.00         |  0.903  0.969 (n=68)
+12      78     66 |                   5.440  6.461  6.461  6.782 |             5.931  6.990  6.990  7.427 |           5.440  6.461 |  0.00  1.00  0.00         |  0.985  1.026 (n=66)
+
+model forecasts missing (food direct-horizon ridge below its 48-label minimum): 78 origin x horizon rows, origins 2019-02..2020-01; scored samples above exclude them for EVERY method
+
+splits (y/y RMSE, exact pct, common sample): h | window | n | model | nowcast+naive | naive | RW
+  3 | ex-January targets n=77 | 1.602 |         2.075 | 2.549 | 2.704
+  3 | 2024+ targets      n=31 | 0.507 |         1.521 | 1.815 | 1.928
+  3 | 2022-2023 targets  n=24 | 2.768 |         3.396 | 4.169 | 4.371
+  6 | ex-January targets n=72 | 2.736 |         3.684 | 4.136 | 4.309
+  6 | 2024+ targets      n=31 | 0.782 |         2.590 | 2.952 | 2.863
+  6 | 2022-2023 targets  n=24 | 4.588 |         5.800 | 6.509 | 6.886
+ 12 | ex-January targets n=61 | 5.834 |         6.907 | 6.907 | 7.316
+ 12 | 2024+ targets      n=31 | 1.682 |         4.648 | 4.648 | 6.222
+ 12 | 2022-2023 targets  n=24 | 9.476 |        10.204 | 10.204 | 10.001
+
+Diebold-Mariano (squared errors, exact pct, common sample), model vs naive and vs nowcast+naive; negative favours the model; HAC lag h-1 (declared) and lag 12 (sensitivity):
+  h= 3 vs naive         : mean sq-err diff -3.962, DM lag  2: -2.33, lag 12: -1.94 (n=84)
+  h= 3 vs nowcast+naive : mean sq-err diff -1.892, DM lag  2: -1.91, lag 12: -1.85 (n=84)
+  h= 6 vs naive         : mean sq-err diff -9.767, DM lag  5: -2.44, lag 12: -2.30 (n=78)
+  h= 6 vs nowcast+naive : mean sq-err diff -6.234, DM lag  5: -2.40, lag 12: -2.47 (n=78)
+  h=12 vs naive         : mean sq-err diff -13.681, DM lag 11: -3.14, lag 12: -3.21 (n=66)
+  h=12 vs nowcast+naive : mean sq-err diff -13.681, DM lag 11: -3.14, lag 12: -3.21 (n=66)
+
+B4 CNB FMIE one-year expectation at h=12 (survey month <= origin), common sample n=66: RMSE exact pct FMIE 6.375 | model 5.931 | naive 6.990 | RW 7.427; mean error FMIE -3.44, model -3.14
+
+per-block CUMULATIVE contribution error over t+1..t+h (pp of headline, current-vintage block actuals; origins with all rows valid): mean / RMS
+  h= 6 (n=78): core -0.42/1.27 | food -0.04/0.71 | admin -0.45/1.35 | alc -0.07/0.16 | fuel -0.02/0.43 | wedge +0.00/0.18 | total -0.99/2.39
+  h=12 (n=66): core -1.46/2.89 | food -0.11/1.49 | admin -1.18/2.15 | alc -0.09/0.20 | fuel -0.08/0.61 | wedge -0.06/0.21 | total -2.98/5.52
+
+block m/m forecast (weighted, pp of headline) averaged over origins, by horizon: core | food | admin | alc | fuel | wedge
+  h= 1: +0.186 | +0.058 | +0.057 | +0.032 | +0.011 | -0.007   (mean realised m/m +0.446, model +0.341)
+  h= 3: +0.208 | +0.067 | +0.022 | +0.032 | +0.011 | -0.006   (mean realised m/m +0.453, model +0.336)
+  h= 6: +0.117 | +0.052 | +0.022 | +0.033 | +0.010 | -0.006   (mean realised m/m +0.455, model +0.234)
+  h=12: +0.089 | +0.045 | +0.021 | +0.032 | +0.011 | -0.006   (mean realised m/m +0.465, model +0.196)
+
+RULE (declared units, log points, common samples): beats naive by >=10% at h=3,6,12: True (h3 38.5%, h6 35.4%, h12 15.8%); beats RW y/y at h=6,12: True -> PUBLISHABLE as a product
+RULE in exact percent: beats naive by >=10%: True (h3 37.1%, h6 34.3%, h12 15.1%); beats RW: True
+gain over nowcast+naive by horizon (%, common samples): [12.3, 19.5, 25.6, 27.1, 27.1, 27.4, 24.2, 24.1, 20.5, 17.2, 16.0, 15.8] -> horizon blocks add something
+exit 0

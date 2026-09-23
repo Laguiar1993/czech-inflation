@@ -1,0 +1,62 @@
+[
+  {
+    "origin": "2019-02",
+    "parent": "fast",
+    "beta": 0.0,
+    "signal": -0.0996353035791156,
+    "delta": -0.0,
+    "as_of": "2019-03-10 23:59:00",
+    "n_train": 0,
+    "training_origins": [],
+    "training_releases": [],
+    "status": "zero_default",
+    "residual_rmse": null
+  },
+  {
+    "origin": "2019-02",
+    "parent": "news",
+    "beta": 0.0,
+    "signal": -0.09166853858388929,
+    "delta": -0.0,
+    "as_of": "2019-03-10 23:59:00",
+    "n_train": 0,
+    "training_origins": [],
+    "training_releases": [],
+    "status": "zero_default",
+    "residual_rmse": null
+  },
+  {
+    "origin": "2019-03",
+    "parent": "fast",
+    "beta": 0.0,
+    "signal": -0.08741591912151501,
+    "delta": -0.0,
+    "as_of": "2019-04-09 23:59:00",
+    "n_train": 1,
+    "training_origins": [
+      "2019-02"
+    ],
+    "training_releases": [
+      "2019-03-11 09:00:00"
+    ],
+    "status": "zero_default",
+    "residual_rmse": 0.13137173319101492
+  },
+  {
+    "origin": "2019-03",
+    "parent": "news",
+    "beta": 0.0,
+    "signal": -0.09220088595983399,
+    "delta": -0.0,
+    "as_of": "2019-04-09 23:59:00",
+    "n_train": 1,
+    "training_origins": [
+      "2019-02"
+    ],
+    "training_releases": [
+      "2019-03-11 09:00:00"
+    ],
+    "status": "zero_default",
+    "residual_rmse": 0.12340496819578861
+  }
+]

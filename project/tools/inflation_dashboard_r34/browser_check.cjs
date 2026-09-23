@@ -1,0 +1,106 @@
+const {chromium}=require(process.env.CPI_PLAYWRIGHT || 'C:/Users/luis_/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('node:fs');
+let browser;
+(async()=>{
+ const out=process.argv[3]||'work/inflation_dashboard_r34_browser',url=process.argv[2]||'http://127.0.0.1:8766';
+ fs.mkdirSync(out,{recursive:true});
+ browser=await chromium.launch({headless:true,channel:"chrome"});
+ const page=await browser.newPage({viewport:{width:1440,height:1100},deviceScaleFactor:1});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(url);
+ await page.locator('#metrics .metric').last().waitFor();
+ if(!(await page.locator('#visit-status').textContent()).includes('First visit'))throw Error('First visit invented change');
+ await page.reload();
+ if(!(await page.locator('#visit-status').textContent()).includes('No new snapshot'))throw Error('Identical snapshot called new data');
+ if(!(await page.locator('#metrics').textContent()).includes('4.5'))throw Error('Official August services missing');
+ if(!(await page.locator('#trend-legend').textContent()).includes('Non-tradable prices*'))throw Error('ARAD scope mislabeled');
+ await page.locator('#briefing-lag').selectOption('3');
+ if(!(await page.locator('#detail-briefing').textContent()).includes('Apr 2026'))throw Error('Detailed comparison not date aligned');
+ await page.locator('#briefing-lag').selectOption('1');
+ await page.screenshot({path:out+'/overview.png',fullPage:true});
+ await page.screenshot({path:out+'/first-screen.png'});
+ await page.getByRole('button',{name:'Change · 3m',exact:true}).click();
+ if(!(await page.locator('#driver-caption').textContent()).includes('3 months'))throw Error('Driver toggle failed');
+ await page.getByRole('button',{name:'02 Forecasts & CNB',exact:true}).click();
+ if(await page.locator('#revision-panel details').count()){
+  await page.locator('#revision-panel summary').click();
+  const rev=await page.locator('#revision-panel').textContent();
+  if(!rev.includes('Historical replay revision')||!rev.includes('+0.027'))throw Error('Historical revision not labelled or incorrect');
+ }
+ const live=await page.evaluate(()=>DATA.live);
+ if(live.status==='recorded'){
+  const displayed=await page.locator('.next-card .unavailable').textContent();
+  if(!displayed.includes(live.point.toFixed(2)))throw Error('Current card does not match recorded forecast');
+  const total=Object.values(live.components).reduce((a,b)=>a+b,0);
+  if(Math.abs(total-live.point)>1e-10)throw Error('Current contributions do not reconcile');
+  const detail=await page.locator('#current-forecast-panel').textContent();
+  if(!detail.includes('Recorded prospective run')||!detail.includes('CNB ARAD')||!detail.includes('fresh path retains this recorded h0 exactly'))throw Error('Current forecast provenance or path limitation missing');
+ }
+ const arithmetic=await page.evaluate(()=>({
+   origin:CURRENT.meta.origin,live:DATA.live.target,h0:CURRENT.rows[0].mm_forecast,point:DATA.live.point,
+   ledgerError:Math.max(...CURRENT.ledger.map(r=>Math.abs(r.base_effect_pp+r.new_price_pp-r.change_pp))),
+   pathError:Math.max(...CURRENT.ledger.map((r,i)=>Math.abs(r.yy-CURRENT.rows[i].yy_exante))),
+   gapError:Math.max(...CURRENT.gaps.filter(r=>r.complete).map(r=>Math.abs(r.parts.reduce((a,p)=>a+p.value,0)-r.gap))),
+   sensitivityH0:Object.values(CURRENT.models).every(rows=>rows[0].mm_forecast===DATA.live.point)
+ }));
+ if(arithmetic.origin!=='2026-09'||arithmetic.origin!==arithmetic.live||arithmetic.h0!==arithmetic.point||!arithmetic.sensitivityH0||arithmetic.ledgerError>1e-10||arithmetic.pathError>1e-10||arithmetic.gapError>1e-10)throw Error('Current path accounting '+JSON.stringify(arithmetic));
+ if(!(await page.locator('#seasonal-summary').textContent()).includes('historical September mean'))throw Error('Seasonal explanation missing');
+ await page.locator('#uncertainty-sample').selectOption('full');
+ if(!(await page.locator('#uncertainty-summary').textContent()).includes('n=90'))throw Error('Full historical error sample not displayed');
+ await page.locator('#uncertainty-sample').selectOption('2024plus');
+ await page.locator('#current-gap-quarter').selectOption('2026Q4');
+ if(!(await page.locator('#current-gap-summary').textContent()).includes('2026Q4'))throw Error('Current CNB gap selector failed');
+ await page.locator('#seasonal-panel').screenshot({path:out+'/seasonal.png'});
+ await page.locator('#uncertainty-panel').screenshot({path:out+'/uncertainty.png'});
+ await page.locator('#uncertainty-panel summary').click();
+ if(!(await page.locator('#model-disagreement').textContent()).includes('BASE remains'))throw Error('Model spread not distinguished from confidence');
+ await page.locator('#uncertainty-panel summary').click();
+ const neutral=await page.evaluate(()=>scenarioRows(0,0,0));
+ if(neutral.some(r=>r.scenario_yy!==r.baseline_yy))throw Error('Neutral scenario changed forecast');
+ await page.locator('#scenario-energy').fill('0.3');await page.locator('#scenario-energy').dispatchEvent('input');
+ const shifted=await page.evaluate(()=>scenarioRows(0,0,.3));
+ if(shifted.filter(r=>r.month<'2027-01').some(r=>r.scenario_yy!==r.baseline_yy))throw Error('Energy moved pre-January months');
+ const jan=shifted.find(r=>r.month==='2027-01');
+ const expected=(100+jan.baseline_yy)*(1+(jan.baseline_mm+.3)/100)/(1+jan.baseline_mm/100)-100;
+ if(Math.abs(jan.scenario_yy-expected)>1e-10)throw Error('Scenario is not exact compounding');
+ await page.locator('#scenario-food').fill('0.05');await page.locator('#scenario-food').dispatchEvent('input');
+ await page.locator('#scenario-core').fill('0.02');await page.locator('#scenario-core').dispatchEvent('input');
+ fs.writeFileSync(out+'/scenario-js.json',JSON.stringify(await page.evaluate(()=>scenarioRows(.05,.02,.3))));
+ await page.locator('.scenario-panel').screenshot({path:out+'/scenario.png'});
+ await page.locator('#scenario-reset').click();
+ if(!(await page.locator('#scenario-summary').textContent()).includes('exactly matches'))throw Error('Scenario reset failed');
+ await page.locator('#path-version').selectOption('archive');
+ await page.locator('#path-version').selectOption('current');
+ await page.getByRole('button',{name:'CNB rounds replay',exact:true}).click();
+ await page.locator('#report-select').selectOption('8');
+ await page.locator('#clock-select').selectOption('cutoff');
+ await page.locator('[data-model="ROSTER_R27"]').uncheck();
+ await page.locator('[data-model="FAST"]').check();
+ if(!(await page.locator('#gap-caption').textContent()).includes('FAST reference'))throw Error('Gap explanation model mismatch');
+ if(!(await page.locator('#replay-quarter-table thead').textContent()).includes('FAST reference'))throw Error('Quarter table does not follow selected model');
+ await page.locator('[data-model="ROSTER_R27"]').check();
+ await page.locator('[data-model="FAST"]').uncheck();
+ await page.getByText('Component paths and the gap to the CNB',{exact:true}).click();
+ const options=await page.locator('#gap-quarter option').count();
+ if(options>1)await page.locator('#gap-quarter').selectOption({index:1});
+ await page.locator('.gap-panel').last().screenshot({path:out+'/gap.png'});
+ await page.screenshot({path:out+'/replay.png',fullPage:true});
+ if(await page.locator('#replay-chart svg').count()!==1)throw Error('No replay plot');
+ await page.getByRole('button',{name:'03 Data & reliability',exact:true}).click();
+ await page.locator('#score-sample').selectOption('prints_2024plus');
+ if(!(await page.locator('#score-table').textContent()).includes('0.222'))throw Error('Incorrect accepted BASE sample');
+ await page.screenshot({path:out+'/data.png',fullPage:true});
+ await page.getByRole('button',{name:'01 Overview',exact:true}).click();
+ await page.setViewportSize({width:390,height:844});await page.waitForTimeout(200);
+ const overflow=await page.evaluate(()=>({body:document.body.scrollWidth,viewport:innerWidth}));
+ if(overflow.body>overflow.viewport+1)throw Error('Mobile page overflows: '+JSON.stringify(overflow));
+ await page.screenshot({path:out+'/mobile.png',fullPage:true});
+ await page.getByRole('button',{name:'Forecasts & CNB',exact:true}).click();
+ await page.getByRole('button',{name:'CNB rounds replay',exact:true}).click();
+ await page.screenshot({path:out+'/mobile-replay.png',fullPage:true});
+ const mobileOverflow=await page.evaluate(()=>document.body.scrollWidth>innerWidth+1);
+ if(mobileOverflow)throw Error('Mobile replay page overflows');
+ await browser.close();
+ if(errors.length)throw Error('Browser errors: '+errors.join(';'));
+ console.log(JSON.stringify({status:'passed',pageErrors:errors,desktop:'1440x1100',mobile:'390x844',screenshots:out,controls:['drivers','view navigation','path vintage','CNB report','CNB clock','model visibility','components','score sample','first/repeat visit','dated briefing','rent split','CNB gap selection','scenario neutrality/compounding/timing/reset','current path/h0','exact base effect ledger','current CNB gap reconciliation','historical error samples','seasonal context']}));
+})().catch(async e=>{console.error(e);if(browser)await browser.close();process.exit(1);});

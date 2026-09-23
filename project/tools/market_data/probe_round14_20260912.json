@@ -1,0 +1,7 @@
+{
+  "note": "Round 14 of the 12 Sep 2026 probe: the CNB fixing ticker named by the user (EURCZK CNB Curncy; EURCZKF resolved to the 6-month forward) and its USD analogue USDCZK CNB Curncy (pattern probe), daily, to test against the CNB daily fixing files.",
+  "candidates": {"cnb_fixing": ["EURCZK CNB Curncy", "USDCZK CNB Curncy"]},
+  "daily": ["EURCZK CNB Curncy", "USDCZK CNB Curncy"],
+  "searches": [],
+  "max_results": 15
+}

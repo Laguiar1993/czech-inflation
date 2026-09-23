@@ -1,0 +1,26 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value,error
+cnb_inflation_family,CZCIPM Index,2026-09-12T16:40:06.988433+00:00,Czech Inflation Overall Items,Czech National Bank,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,235.0,2007-01-31,2026-07-31,0.6,
+cnb_inflation_family,CZCIPY Index,2026-09-12T16:40:07.683855+00:00,Czech Inflation Overall Items,Czech National Bank,YoY% NSA,Monthly,2026-02-28,ok,MONTHLY,230.0,2007-01-31,2026-02-28,1.4,
+cnb_inflation_family,CZCIFM Index,2026-09-12T16:40:08.228062+00:00,Czech Inflation Fuel MoM,Czech National Bank,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,235.0,2007-01-31,2026-07-31,2.5,
+cnb_inflation_family,CZCIFY Index,2026-09-12T16:40:08.726264+00:00,Czech Inflation Fuel YoY,Czech National Bank,YoY% NSA,Monthly,2026-02-28,ok,MONTHLY,230.0,2007-01-31,2026-02-28,-8.6,
+cnb_inflation_family,CZCIBM Index,2026-09-12T16:40:09.267050+00:00,Czech Inflation Food Beverage,Czech National Bank,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,235.0,2007-01-31,2026-07-31,-0.4,
+cnb_inflation_family,CZCIBY Index,2026-09-12T16:40:09.864322+00:00,Czech Inflation Food Beverage,Czech National Bank,YoY% NSA,Monthly,2026-02-28,ok,MONTHLY,230.0,2007-01-31,2026-02-28,1.2,
+cnb_inflation_family,CZCINM Index,2026-09-12T16:40:10.415040+00:00,Czech Inflation Net Inflation,Czech National Bank,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,235.0,2007-01-31,2026-07-31,0.7,
+cnb_inflation_family,CZCINY Index,2026-09-12T16:40:10.987986+00:00,Czech Inflation Net Inflation,Czech National Bank,YoY% NSA,Monthly,2026-02-28,ok,MONTHLY,230.0,2007-01-31,2026-02-28,1.8,
+cnb_inflation_family,CZCIXM Index,2026-09-12T16:40:11.556696+00:00,Czech Inflation Overall Items,Czech National Bank,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,235.0,2007-01-31,2026-07-31,1.0,
+cnb_inflation_family,CZCIXY Index,2026-09-12T16:40:12.103640+00:00,Czech Inflation Overall Items,Czech National Bank,YoY% NSA,Monthly,2026-02-28,ok,MONTHLY,230.0,2007-01-31,2026-02-28,2.7,
+cnb_inflation_family,CZCIMPM Index,2026-09-12T16:40:12.699510+00:00,Czech Inflation Monetary Polic,Czech National Bank,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,235.0,2007-01-31,2026-07-31,0.6,
+cnb_inflation_family,CZCIMPY Index,2026-09-12T16:40:13.257993+00:00,Czech Inflation Monetary Polic,Czech National Bank,YoY% NSA,Monthly,2026-02-28,ok,MONTHLY,230.0,2007-01-31,2026-02-28,1.7,
+cnb_inflation_family,CZCIITCM Index,2026-09-12T16:40:13.820767+00:00,Czech Inflation Indirect Taxes,Czech National Bank,Percentage Points NSA,Monthly,2026-07-31,ok,MONTHLY,235.0,2007-01-31,2026-07-31,0.03,
+cnb_inflation_family,CZCIFCM Index,2026-09-12T16:40:14.332816+00:00,Czech Inflation Fuel Contribut,Czech National Bank,Percentage Points NSA,Monthly,2026-07-31,ok,MONTHLY,235.0,2007-01-31,2026-07-31,0.09,
+cnb_inflation_family,CZCIBCM Index,2026-09-12T16:40:14.865994+00:00,Czech Inflation Food Beverage,Czech National Bank,Percentage Points NSA,Monthly,2026-07-31,ok,MONTHLY,235.0,2007-01-31,2026-07-31,-0.1,
+cnb_inflation_family,CZCINCM Index,2026-09-12T16:40:15.427691+00:00,Czech Inflation Net Inflation,Czech National Bank,Percentage Points NSA,Monthly,2026-07-31,ok,MONTHLY,235.0,2007-01-31,2026-07-31,0.56,
+cnb_inflation_family,CZCIXCM Index,2026-09-12T16:40:16.011616+00:00,Czech Inflation Overall Items,Czech National Bank,Percentage Points NSA,Monthly,2026-07-31,ok,MONTHLY,235.0,2007-01-31,2026-07-31,0.57,
+cnb_core_pattern_probes,CZCIAM Index,2026-09-12T16:40:16.627083+00:00,,,,,,bdp_error,,,,,,ValueError: no reference data (ticker probably invalid)
+cnb_core_pattern_probes,CZCIAY Index,2026-09-12T16:40:16.826895+00:00,,,,,,bdp_error,,,,,,ValueError: no reference data (ticker probably invalid)
+cnb_core_pattern_probes,CZCICM Index,2026-09-12T16:40:17.054307+00:00,,,,,,bdp_error,,,,,,ValueError: no reference data (ticker probably invalid)
+cnb_core_pattern_probes,CZCICY Index,2026-09-12T16:40:17.261861+00:00,,,,,,bdp_error,,,,,,ValueError: no reference data (ticker probably invalid)
+czso_division_mom,CZCPFMOM Index,2026-09-12T16:40:17.511426+00:00,Czech Republic CPI Food & Non,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,ok,MONTHLY,140.0,2015-01-31,2026-08-31,-1.1,
+czso_division_mom,CZCPAMOM Index,2026-09-12T16:40:18.027022+00:00,Czech Republic CPI Alcoholic B,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,ok,MONTHLY,140.0,2015-01-31,2026-08-31,0.6,
+czso_division_mom,CZCPTRMM Index,2026-09-12T16:40:18.516904+00:00,Czech Republic CPI Transport M,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,ok,MONTHLY,140.0,2015-01-31,2026-08-31,2.4,
+czso_division_mom,CZCPHOMM Index,2026-09-12T16:40:19.018549+00:00,Czech Republic CPI Housing Wat,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,ok,MONTHLY,140.0,2015-01-31,2026-08-31,0.2,

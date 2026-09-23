@@ -1,0 +1,19 @@
+{
+  "reviewed_run": "output/research_r17_core",
+  "all_input_output_hashes_valid": true,
+  "input_output_hash_count": 73,
+  "origin_count": 90,
+  "state_count": 199,
+  "h0_rows": 180,
+  "h0_update_count": 180,
+  "h0_lineage_log_max_error": 0.0,
+  "beta_manual_max_error": 0.0,
+  "delta_manual_max_error": 0.0,
+  "maximum_training_count": 60,
+  "h0_and_untouched_components_exact": true,
+  "replacement_monthly_max_error": 0.0,
+  "annual_independent_product_max_error": 8.881784197001252e-14,
+  "cumulative_independent_log_max_error": 0.0,
+  "stale_native_derived_columns": [],
+  "review_status": "pass"
+}

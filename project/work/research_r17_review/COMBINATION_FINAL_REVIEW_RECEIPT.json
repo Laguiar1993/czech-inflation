@@ -1,0 +1,21 @@
+{
+  "verified_at_utc": "2026-09-14T15:38:31.930226+00:00",
+  "status": "pass_no_remaining_actionable_P1_P2_findings",
+  "verified_input_output_hashes": 412,
+  "tests": "8 passed in 1.66s",
+  "sha256": {
+    "docs/implementation/R17_COMBINATION_SPEC_2026-09-14.md": "ebe2fbe856579b839d0f428a7ff4db79e44ba3627529b6989aa7681481346e06",
+    "models/path_components_r17.py": "bf00f7cade13003bcac2dbd1a7b765039b4008619a03a1efd2a02e1fb88e4c0a",
+    "path_component_experiment_r17.py": "d9394014b4682079f67cdabbc4534797d424446f798fbb153bf4f8dc0e27cfd5",
+    "tools/review/evaluate_r17.py": "417f954dfec4638cd4a466993d6563ab6437e60c4bd62459f18c33c4da0d25ea",
+    "output/research_r17/path/manifest.json": "e884b00b19a93f69f3e6b9d2211089dad7492b2c5bdbda77360f530177ec9273",
+    "output/research_r17/path/evaluation/input_manifest.json": "469f9f36feef865296eb885b565bb242ce2d31a92f9f0330c42db5340d1efa08",
+    "work/research_r17_review/R17_COMBINATION_REVIEW.md": "8542ce062298cd56cb5645e4049195d515ca03d2cb0f970a7ec5e9da14e539d3",
+    "work/research_r17_review/independent_integrated_review.py": "cbfa08e9af193ec4b8322d03b53be96335414c584e3e5815c6120366abdde083",
+    "work/research_r17_review/independent_diagnostics_review.py": "faac6f657e5d282a85bfe6464950f097dc5e184b48e363b4a2dca6c04aa00a71",
+    "work/research_r17_review/integrated_output_review.json": "24acaf54e4cd18618c4b1523aa3178e4d4f451e285a48acca28922a0e5edb008",
+    "work/research_r17_review/diagnostics_output_review.json": "294dba905eb69ac58e611b1ff3d7b9a3b16d15b0fd3c7b8eae757caff8cb014f",
+    "work/research_r17_review/combination_evaluator_final_tests.log": "7cc7505ca6bc5e51efce659090bbc5027af18cb83923a11d9bf672fda14b40b1",
+    "work/research_r17_review/replay_behavior_receipt.json": "25371afbd842595d50fc47a2023eff88e21ba3618306b7fb3d372f9b0acc0be3"
+  }
+}

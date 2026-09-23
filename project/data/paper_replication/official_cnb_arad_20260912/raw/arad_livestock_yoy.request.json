@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes?snList=&periodFrom=&periodTo=&roleId=U&type=single",
+  "method": "POST",
+  "body": [
+    "MOPALPPXXNAJYOYPECM"
+  ],
+  "retrieved_utc": "2026-09-12T12:19:13.367203+00:00",
+  "sha256": "b708594b17be0f90b98dac5c1ac4e4fd5da6c04e07b9eabe55f3454692a5b305"
+}

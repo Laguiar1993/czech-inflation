@@ -1,0 +1,2 @@
+ticker,name,security_des,crncy,indx_source,des_notes,px_last,last_update_dt,last_update,seasonality_and_transformation,eco_release_dt,country
+EUSCDE Index,European Commission Services C,European Commission Services C,EUR,European Commission,This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector.,5.5,2026-08-31,2026-08-31,% Balance/Diffusion Index SA,2026-09-29,GE

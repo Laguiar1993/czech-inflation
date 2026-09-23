@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "source_hashes": 94,
+  "output_hashes": 21,
+  "firststage_rebuilt_fits": 360,
+  "secondstage_rebuilt_fits": 450,
+  "publication_checks": 32812,
+  "firststage_coefficient_max_error": 0.0,
+  "firststage_forecast_max_error": 1.7763568394002505e-15,
+  "pressure_log_max_error": 0.0,
+  "secondstage_coefficient_max_error": 0.0,
+  "secondstage_forecast_max_error": 0.0,
+  "annual_product_max_error": 6.128431095930864e-14,
+  "conditional_annual_max_error": 7.194245199571014e-14,
+  "cumulative_log_max_error": 4.440892098500626e-16,
+  "h0_noncore_weights_exact": true,
+  "stage2_generated_file_hashes_verified": true,
+  "statistical_reconciliation_exact": true,
+  "outer_origins": 2,
+  "snapshot_count": 38
+}

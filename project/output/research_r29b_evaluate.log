@@ -1,0 +1,46 @@
+R17 evaluation completed C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\research_r29b\final\evaluation
+{
+ "panel_gate": {
+  "passes": false,
+  "min_separation": -0.257994582309925,
+  "mean_separation_h1_6": 0.027138673353910462
+ },
+ "verdicts": {
+  "CORE_LEVELPHASE_FIXED040_R29B": {
+   "failed": [
+    "1",
+    "4",
+    "5",
+    "6"
+   ],
+   "promotable": false
+  },
+  "CORE_LEVELPHASE_FIXED060_R29B": {
+   "failed": [
+    "4",
+    "5",
+    "6"
+   ],
+   "promotable": false
+  },
+  "CORE_LEVELPHASE_FIXED080_R29B": {
+   "failed": [
+    "4",
+    "6"
+   ],
+   "promotable": false
+  },
+  "CORE_LEVELPHASE_PANEL_R29B": {
+   "failed": [
+    "panel_gate",
+    "1",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "promotable": false
+  }
+ }
+}
+Completed R29B evaluation C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\research_r29b\final\evaluation

@@ -1,0 +1,10 @@
+.F......                                                                 [100%]
+================================== FAILURES ===================================
+E   assert (0.05 < 0.03)
+     +  where 0.05 = abs((0.0 - 0.05))
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_food_ecm_r27.py:41: assert (0.05 < 0.03)
+=========================== short test summary info ===========================
+FAILED tests/test_food_ecm_r27.py::test_gap_is_centred_and_trend_absorbs_drift
+1 failed, 7 passed in 0.16s
+
+--- stderr ---

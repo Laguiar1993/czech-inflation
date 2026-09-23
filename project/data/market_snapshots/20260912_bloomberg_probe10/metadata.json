@@ -1,0 +1,187 @@
+{
+  "CZPPMOM Index": {
+    "name": "Czech Republic PPI Industrial",
+    "security_des": "Czech Republic PPI Industrial",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPBM Index": {
+    "name": "Czech Republic PPI Mining & Qu",
+    "security_des": "Czech Republic PPI Mining & Qu",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPCM Index": {
+    "name": "Czech Republic PPI Services &",
+    "security_des": "Czech Republic PPI Services &",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPDM Index": {
+    "name": "Czech Republic PPI Electricity",
+    "security_des": "Czech Republic PPI Electricity",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2025-12-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPEM Index": {
+    "name": "Czech Republic PPI Water Suppl",
+    "security_des": "Czech Republic PPI Water Suppl",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2025-12-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPP00BCZ Index": {
+    "name": "Eurostat Domestic PPI Mining &",
+    "security_des": "Eurostat Domestic PPI Mining &",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPP00DCZ Index": {
+    "name": "Eurostat Domestic PPI Electric",
+    "security_des": "Eurostat Domestic PPI Electric",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPP036CZ Index": {
+    "name": "Eurostat Domestic PPI Water Co",
+    "security_des": "Eurostat Domestic PPI Water Co",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "PPTXCZ Index": {
+    "name": "Eurostat PPI Czech Republic In",
+    "security_des": "Eurostat PPI Czech Republic In",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZMSM3 Index": {
+    "name": "Czech Republic Money Supply M3",
+    "security_des": "Czech Republic Money Supply M3",
+    "indx_source": "Czech National Bank",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The money supply measures the total amount of money in circulation in a country or group of countries in a monetary union."
+  },
+  "CZMSM3Y Index": {
+    "name": "Czech Republic Money Supply M3",
+    "security_des": "Czech Republic Money Supply M3",
+    "indx_source": "Czech National Bank",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The money supply measures the total amount of money in circulation in a country or group of countries in a monetary union."
+  },
+  "CZPPCMOM Index": {
+    "name": "Czech Republic PPI Constructio",
+    "security_des": "Czech Republic PPI Constructio",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2017-03-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPCYOY Index": {
+    "name": "Czech Republic PPI Constructio",
+    "security_des": "Czech Republic PPI Constructio",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2017-03-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EURCZK Curncy": {
+    "name": "EUR-CZK X-RATE",
+    "security_des": "EURCZK Curncy",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  },
+  "USDCZK Curncy": {
+    "name": "USD-CZK X-RATE",
+    "security_des": "USDCZK Curncy",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  },
+  "PRIB03M Index": {
+    "name": "Czech Interbank Offered Rates",
+    "security_des": "Czech Interbank Offered Rates",
+    "indx_source": "Czech Financial Benchmark Faci",
+    "indx_freq": "Intraday",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ",
+    "des_notes": "Czech Interbank Offered Rates 1 Month PRIBOR (or Prague Interbank Offered Rate) is the average interest rate at which unsecured CZK funds are offered by Panel Banks in the interbank market, just prior to 11.00am local time. The calculation of PRIBOR shall take place at 11:00am Prague local time. Individual Panel Bank contributions shall be published at 15:00. Relevant documentation may be found at: https://cfbf.cz/pribor/governance-oversight/code-of-conduct/ and https://cfbf.cz/pribor/<P>Real-time PRIBOR data is fee-liable. Non-subscribers receive 24-hour delayed data on Terminal. From 1st Jan 2026, a CFBF license is required for delayed Data License access. Non-subscribers will lose access over DL 16th June 2026. Contact subscriptions@cfbf.cz for licensing. Real-time users require EID 74556 . Delayed Data License users require EID 100499."
+  },
+  "CZBRREPO Index": {
+    "name": "Czech Republic Ceska Narodni B",
+    "security_des": "Czech Republic Ceska Narodni B",
+    "indx_source": "PRIBOR PANEL BANK DATA",
+    "seasonality_and_transformation": "Percent NSA",
+    "indx_freq": "Intraday",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ",
+    "des_notes": "A target interest rate set by the central bank in its efforts to influence short-term interest rates as part of its monetary policy strategy. This indicator shows the new target interest rate on the date the new rate went into effect."
+  },
+  "GTCZK10Y Govt": {
+    "name": "CZECH REPUBLIC",
+    "security_des": "CZGB 3.6 06/03/36",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  },
+  "CO1 Comdty": {
+    "name": "Generic 1st 'CO' Future",
+    "security_des": "CO1",
+    "last_update_dt": "2026-09-11",
+    "country": "GB"
+  },
+  "EURCZK BFIX Curncy": {
+    "name": "EUR-CZK X-RATE",
+    "security_des": "EURCZK Curncy",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  },
+  "EURCZK F143 Curncy": {
+    "name": "EUR-CZK X-RATE",
+    "security_des": "EURCZK Curncy",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  }
+}

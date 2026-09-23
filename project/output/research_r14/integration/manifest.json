@@ -1,0 +1,31 @@
+{
+  "inputs": {
+    "path_integration_r14.py": "e7faff780749eb9ed21f9407911bc86b7cbcfecb546cb66cfa5fe7da8ab078fe",
+    "test_path_integration_r14.py": "c33f9027116cfec012c770175e614f6be239638bb483eb2aee605a90b5c9bb4c",
+    "path_improvements_experiment_r12.py": "80f7f448428f16b2263205790bbd8906e7505620e297ab55d3e9a3563e2f021b",
+    "independent_bridge_experiment.py": "9ab74be4cb7424ba160a38b31c79fe3d7c220cb82a4a2e65cc5c1da1d089bfd3",
+    "models/path_inputs.py": "7a649deac6f702981e7a680493513c8baf6750caf6eb11e5fc71314ea99e778e",
+    "docs/implementation/R14_EXPERIMENT_PLAN_2026-09-09.md": "332a76448bdb189e1327211d41a9a9db580b8918aa33a26d9bf974c85abd0471",
+    "data/cnb_mpr_cpi_quarterly.csv": "137cce6c715a358b85740302453e969c8313f1b39a6eeaed0b7e8698940f3a27",
+    "output/independent_bridge_forecasts.csv": "b1377d1c45373b7571a47edd3c373a6b149cae49e9efbd37853566ded00a88d8",
+    "output/independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+    "output\\research_r14\\core\\manifest.json": "98f9a3ef9033752f7bed9eda449031284e72a1bd501c1a76323a226dab4cd0dc",
+    "output/research_r14/core/native_forecasts.csv": "7827a3bc6a69cda3c9a9ad0550beee526d86416b10fa0d1ccc34c2c2668fc20b",
+    "output\\research_r14\\food\\manifest.json": "f154a8b054e39c4ada6225b5cb3dea5a33c8ef018cc754d965b40e7d824fc4a8",
+    "output/research_r14/food/native_forecasts.csv": "99480c224516ca966e404da2e230eef70727cf58241895d5f9147b558e8ff852",
+    "output\\research_r14\\fuel\\manifest.json": "e65f0e4a545356b62bf0f7755bac2998a1d6521b14a91c4d59dfe70cc37c69ff",
+    "output/research_r14/fuel/native_forecasts.csv": "6c74deb875540dfb3cc3364aa96577f9d4fe871e0e54d4f77c72184c585ee489"
+  },
+  "outputs": {
+    "cnb_quarters.csv": "e65d6e22ec21d632a1d761143ff89de495b3c81bed47cec9ca2fded3cfd09128",
+    "cnb_summary.csv": "e3df23bf37540e9a0ae7fb18955fa2e0f08554ec6ee99a5783cf0816344e768f",
+    "coverage.csv": "e1303210d72d1004a6b0aa248f6f573c71e1e7625b3c3571d02f93a6a520bf48",
+    "forecasts.csv": "7902c25d4778ca7e635d3c98d0adb8b9d48026f016f41536d7e3128b6b0934c9",
+    "latest_archived_paths.csv": "abedbb7b44ee9f45c52381753aba95715a09a5c2f411e14259a3b1b928b7b12b",
+    "native_forecasts.csv": "79d2aa0f12c182724021bbaf876394356435db25eb53444645cee060d47d22ec",
+    "paired_uncertainty.csv": "723aa7fe471afeddf401699057776632cb561c4461e88795c58b2a167f2e322c",
+    "summary.csv": "6f43f3260877b3f9a7172a1bb5a74416c1fd761e8d4e2f4c329ae92b57c2c34f",
+    "validation.json": "01c4f05af0f7de3801c7c7e361898e1196c311e1b5bcfadc86faca3e6d280752"
+  },
+  "created_at": "2026-09-09T13:56:49.903188+00:00"
+}

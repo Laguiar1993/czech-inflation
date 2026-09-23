@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "extension_cells": 84,
+  "first_fixture": "2008-03",
+  "last_fixture": "2015-02",
+  "first_original_state": "2016-03",
+  "first_extended_state": "2010-01",
+  "identical_common_state_rows": 125,
+  "extended_state_clock_rows": 199,
+  "verified_source_hashes": 22
+}

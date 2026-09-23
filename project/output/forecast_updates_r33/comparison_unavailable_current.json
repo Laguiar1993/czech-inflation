@@ -1,0 +1,15 @@
+{
+  "components": [],
+  "delta": null,
+  "kind": "unavailable",
+  "model": null,
+  "new_as_of": null,
+  "new_point": null,
+  "old_as_of": null,
+  "old_point": null,
+  "path_changes": [],
+  "reason": "No two successful prospective runs: August CNB core and regulated m/m plus sourced September release timestamps are missing. See current_refresh_feasibility.json.",
+  "residual": null,
+  "status": "blocked",
+  "target": null
+}

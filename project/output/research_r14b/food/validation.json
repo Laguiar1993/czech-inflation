@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "points": 1170,
+  "max_abs_differences": {
+    "monthly": 2.220446049250313e-16,
+    "contributions": 0.0,
+    "food_long": 0.0,
+    "annual": 5.329070518200751e-15,
+    "h0": 2.220446049250313e-16
+  },
+  "source_hashes_checked": [
+    "independent_bridge_experiment.py",
+    "cz_struct.py",
+    "models/independent_nowcast.py",
+    "models/path_inputs.py",
+    "output/independent_nowcast_forecasts.csv",
+    "output/independent_path_forecasts.csv",
+    "data/cnb_mpr_cpi_quarterly.csv",
+    "output/independent_path_frozen_inputs.csv",
+    "data/admin_announcements_history.csv",
+    "data/release_calendar_cz_cpi.csv",
+    "tests/fixtures/cleanup/MANIFEST.json"
+  ],
+  "short_food_values_reused": 270,
+  "reuse_reason": "Identical code and frozen feature/data hashes. Only X13 h1..3 reused; all weights and nonfood components replayed at all origins.",
+  "target_reconstruction_max_abs_difference": 1.7763568394002505e-15,
+  "food_input_reconstruction": 3.774758283725532e-15,
+  "exact_nonfood_weights_h0": true,
+  "n_forecast_rows": 8190,
+  "all_90_origins_retained": true,
+  "inherited_annual_fields": "Both yy_exante and diagnostic yy_conditional recomputed on changed native rows"
+}

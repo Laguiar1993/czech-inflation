@@ -1,0 +1,7 @@
+{
+  "arithmetic_rows": 834,
+  "max_abs_diff_to_arithmetic": 5.684341886080802e-14,
+  "max_abs_diff_to_geometric": 3.892088185115142,
+  "max_abs_mom_base_sensitivity_pp": 0.22395538301271944,
+  "mean_abs_mom_base_sensitivity_pp": 0.041045033016758437
+}

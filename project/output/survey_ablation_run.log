@@ -1,0 +1,22 @@
+harness: A0 vs backtest core_pred_eve max |diff| 4.44e-16
+
+NOWCAST (release eve): core block RMSE | headline RMSE by cell | survey headline RMSE
+split          n |     A0     A1     A2     A3     A4 |     A0     A1     A2     A3     A4 | survey
+all 90        90 |  0.308  0.301  0.315  0.298  0.300 |  0.420  0.420  0.419  0.416  0.418 | 0.382
+ex-January    83 |  0.306  0.298  0.313  0.297  0.299 |  0.404  0.404  0.404  0.401  0.403 | 0.380
+2024+         31 |  0.182  0.188  0.182  0.182  0.190 |  0.217  0.220  0.216  0.216  0.219 | 0.241
+2025+         19 |  0.140  0.141  0.128  0.140  0.132 |  0.170  0.173  0.171  0.170  0.173 | 0.195
+
+big surprises (n=23): MAE and W-L@0.15 by cell
+  A0: MAE 0.506  W-L 7-1  | mean |headline change vs A0| 0.000 pp, max 0.000
+  A1: MAE 0.491  W-L 7-2  | mean |headline change vs A0| 0.017 pp, max 0.125
+  A2: MAE 0.504  W-L 5-2  | mean |headline change vs A0| 0.014 pp, max 0.068
+  A3: MAE 0.497  W-L 7-1  | mean |headline change vs A0| 0.011 pp, max 0.104
+  A4: MAE 0.485  W-L 7-3  | mean |headline change vs A0| 0.031 pp, max 0.158
+
+DIRECT HORIZONS, core block RMSE by cell (common valid sample; all origins | 2024+ targets):
+  h= 1 n=89: A0 0.381 A1 0.365 A2 0.388 A3 0.367 A4 0.362 | 2024+ (n=31): A0 0.223 A1 0.230 A2 0.215 A3 0.222 A4 0.225
+  h= 3 n=87: A0 0.430 A1 0.428 A2 0.458 A3 0.423 A4 0.430 | 2024+ (n=31): A0 0.212 A1 0.192 A2 0.207 A3 0.207 A4 0.181
+  h= 6 n=84: A0 0.618 A1 0.615 A2 0.673 A3 0.599 A4 0.611 | 2024+ (n=31): A0 0.252 A1 0.238 A2 0.263 A3 0.251 A4 0.235
+  h=12 n=78: A0 0.527 A1 0.641 A2 0.643 A3 0.474 A4 0.607 | 2024+ (n=31): A0 0.279 A1 0.416 A2 0.437 A3 0.272 A4 0.437
+exit 0

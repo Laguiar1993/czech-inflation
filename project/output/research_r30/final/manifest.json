@@ -1,0 +1,23 @@
+{
+ "created_at_utc": "2026-09-20T17:33:43.606247+00:00",
+ "inputs": {
+  "data/excise_calendar_cz_r30.csv": "1be433df10789c4bd74d5203a6577f865714145e4c0091d0ed53e8ae379357d8",
+  "output/cz_struct_backtest.csv": "9678c25530d6bb684a2e74ba962f121a10fadf3db97887b2ca6777ff54d4e9cd",
+  "output/contribution_report.csv": "7a771c2ef454dba81e41179a0ca5e1a21b9f8c9b4ac2b33182c83ced3020909f",
+  "work/model_briefing_20260914/nowcast_release_evidence.csv": "ea4ffcb4b83d0ae05dcf16e55c35fc7d7b0ba12d79566546868ab6f338c1b4a5",
+  "data/research_r18/categories/basket_weights_long.csv": "f9a5fb56b46234d388015ecd52e3ea7dd5164dcdbb599728e0328493beb425ce",
+  "data/research_r18/categories/monthly_levels.csv": "ef66fc9b3884d92b7ffa93295c119c659e517f4ff77cc8d5e844ecdd429af051",
+  "docs/implementation/R30_EXCISE_STEPS_NOWCAST_SPEC_2026-09-20.md": "e3713901dc3c83275f796a4b7d989e00bb53756252a00d51a81c0e4c1e82c1ff",
+  "models/excise_steps_r30.py": "d88c10a30757dfeff56bd0c44b79055fb28101005790538d50a7ffbe119f91a8",
+  "tools/research_r30/run.py": "8833c404dce3de047e8645643118f8485d138e1128a9c45b56b63caf34515801",
+  "tools/path_diagnostics/bootstrap.py": "401cea03713c83a9fec9b03afa6372f3373beeb1f033ca7bb607c884400fba20"
+ },
+ "outputs": {
+  "alerts.csv": "a3861c2485ca9b08798c3bd69841c6655a0d56441b26734ed66ce0003436ecb4",
+  "candidate_blocks.csv": "10a1436e7a6fc4a71415507ee7693563d3e38d5cbf0a20327ab6721e3ffb49eb",
+  "checks.json": "99cdf8e2c9066446ed13e8402072d4fb954511f7d47d3534bf6808bbd8e2e2b0",
+  "gates_calendar_vs_classes.csv": "2b2e1f2c6ea15bc92db702a4685b25795a410c8e405d9b2755ecc27a6502cfac",
+  "scores.csv": "9ee8250e30528306bb286925f70632f6f4a8df52e8ea55a1cbd5c09a9573b4d8",
+  "verdict.json": "555543f7c91c1c4d81b1766b3b40dd3914ccb53f972c076ffed616796f38eb5c"
+ }
+}

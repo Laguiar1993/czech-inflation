@@ -1,0 +1,22 @@
+{
+  "url": "https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes?snList=&periodFrom=&periodTo=&roleId=U&type=single",
+  "method": "POST",
+  "body": [
+    "SVEVZM4",
+    "SFTP04M2106",
+    "SFTP04M2206",
+    "MEDACOMOILXXUSBVALM",
+    "MEDACOMGASXXL18INDM",
+    "MEDACOMMETXXL18INDM",
+    "MEDACOMFODXXL18INDM",
+    "MLULNULXXADJYOYPECQ",
+    "MOPAIMPXXNAJYOYPECM",
+    "MOPAAPPXXNAJYOYPECM",
+    "MOPACPPXXNAJYOYPECM",
+    "SZECSUM2005IR01",
+    "SUCM100311XXX101101",
+    "SUCM102211XXX101101"
+  ],
+  "retrieved_utc": "2026-09-12T12:11:34.684352+00:00",
+  "sha256": "864025fc3c2129b0e3afd102849f2c58ec93444ab8a99401698ee9a7e6758d04"
+}

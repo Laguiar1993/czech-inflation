@@ -1,0 +1,335 @@
+{
+  "ECB Reference Rate Czech Koruna": [],
+  "Czech Republic Money Supply M3": [
+    {
+      "security": "CZMSM3<index>",
+      "description": "Czech Republic Money Supply M3"
+    },
+    {
+      "security": "CZMSM3Y<index>",
+      "description": "Czech Republic Money Supply M3 YoY"
+    },
+    {
+      "security": "CZMSM3M<index>",
+      "description": "Czech Republic Money Supply M3 MoM"
+    },
+    {
+      "security": "CZMSOCP<index>",
+      "description": "Czech Republic Money Supply Other Counteparts of M3"
+    },
+    {
+      "security": "CZMSOCPY<index>",
+      "description": "Czech Republic Money Supply Other Counteparts of M3 YoY"
+    }
+  ],
+  "Czech Republic M3 YoY": [
+    {
+      "security": "CZMSM3Y<index>",
+      "description": "Czech Republic Money Supply M3 YoY"
+    },
+    {
+      "security": "CZMSOCPY<index>",
+      "description": "Czech Republic Money Supply Other Counteparts of M3 YoY"
+    },
+    {
+      "security": "OECZMBAF<index>",
+      "description": "OECD Czech Rep Broad Money M3 YoY SA"
+    }
+  ],
+  "Czech Republic PPI Electricity": [
+    {
+      "security": "CZPPD51M<index>",
+      "description": "Czech Republic PPI Electricity Transmission & Distribution Services MoM"
+    },
+    {
+      "security": "CZPPD51Y<index>",
+      "description": "Czech Republic PPI Electricity Transmission & Distribution Services YoY"
+    },
+    {
+      "security": "CZPPDM<index>",
+      "description": "Czech Republic PPI Electricity Gas Steam & Air Conditioning MoM"
+    },
+    {
+      "security": "CZPPDY<index>",
+      "description": "Czech Republic PPI Electricity Gas Steam & Air Conditioning YoY"
+    },
+    {
+      "security": "EUPYCZ<index>",
+      "description": "Eurostat PPI Electricity Gas Steam & Air Conditioning Supply Czech Republic"
+    },
+    {
+      "security": "EPA00DCZ<index>",
+      "description": "Eurostat PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep MoM"
+    },
+    {
+      "security": "EPA035CZ<index>",
+      "description": "Eurostat PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep MoM"
+    },
+    {
+      "security": "EPB00DCZ<index>",
+      "description": "Eurostat PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep YoY"
+    },
+    {
+      "security": "EPB035CZ<index>",
+      "description": "Eurostat PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep YoY"
+    },
+    {
+      "security": "EPC00DCZ<index>",
+      "description": "Eurostat ND PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep YoY"
+    },
+    {
+      "security": "EPC035CZ<index>",
+      "description": "Eurostat ND PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep YoY"
+    },
+    {
+      "security": "EPD00DCZ<index>",
+      "description": "Eurostat ND PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep YoY"
+    },
+    {
+      "security": "EPD035CZ<index>",
+      "description": "Eurostat ND PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep YoY"
+    },
+    {
+      "security": "EPM00DCZ<index>",
+      "description": "Eurostat Dom PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep MoM"
+    },
+    {
+      "security": "EPM035CZ<index>",
+      "description": "Eurostat Dom PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep MoM"
+    },
+    {
+      "security": "EPN00DCZ<index>",
+      "description": "Eurostat Non Dom PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep"
+    },
+    {
+      "security": "EPN035CZ<index>",
+      "description": "Eurostat Non Dom PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep"
+    },
+    {
+      "security": "EPP00DCZ<index>",
+      "description": "Eurostat Domestic PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep"
+    },
+    {
+      "security": "EPP035CZ<index>",
+      "description": "Eurostat Domestic PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep"
+    },
+    {
+      "security": "EPT00DCZ<index>",
+      "description": "Eurostat PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep"
+    },
+    {
+      "security": "EPT035CZ<index>",
+      "description": "Eurostat PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep"
+    },
+    {
+      "security": "EPY00DCZ<index>",
+      "description": "Eurostat Dom PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep YoY"
+    },
+    {
+      "security": "EPY035CZ<index>",
+      "description": "Eurostat Dom PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep YoY"
+    },
+    {
+      "security": "EUPYCZMM<index>",
+      "description": "Eurostat PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep MoM"
+    },
+    {
+      "security": "EUPYCZYY<index>",
+      "description": "Eurostat PPI Electricity Gas Steam & Air Conditioning Supply Czech Rep YoY"
+    }
+  ],
+  "Czech Republic PPI Water Supply": [
+    {
+      "security": "CZPPEM<index>",
+      "description": "Czech Republic PPI Water Supply Services Management Sewerage MoM"
+    },
+    {
+      "security": "CZPPEY<index>",
+      "description": "Czech Republic PPI Water Supply Services Management Sewerage YoY"
+    },
+    {
+      "security": "EPA036CZ<index>",
+      "description": "Eurostat PPI Water Collection Treatment & Supply Czech Rep MoM"
+    },
+    {
+      "security": "EPB036CZ<index>",
+      "description": "Eurostat PPI Water Collection Treatment & Supply Czech Rep YoY"
+    },
+    {
+      "security": "EPCDE3CZ<index>",
+      "description": "Eurostat Non Dom PPI EGS & Air Con S Water Coll Trtm & Supply Czech Rep YoY"
+    },
+    {
+      "security": "EPDDE3CZ<index>",
+      "description": "Eurostat Non Dom PPI EGS & Air Con S Water Coll Trtm & Supply Czech Rep YoY"
+    },
+    {
+      "security": "EPM036CZ<index>",
+      "description": "Eurostat Domestic PPI Water Collection Treatment & Supply Czech Rep MoM"
+    },
+    {
+      "security": "EPNDE3CZ<index>",
+      "description": "Eurostat ND PPI Elec Gas Steam & Air Con S Water Coll Trtm & Supply Czech Rep"
+    },
+    {
+      "security": "EPP036CZ<index>",
+      "description": "Eurostat Domestic PPI Water Collection Treatment & Supply Czech Rep"
+    },
+    {
+      "security": "EPT036CZ<index>",
+      "description": "Eurostat PPI Water Collection Treatment & Supply Czech Rep"
+    },
+    {
+      "security": "EPTDE3CZ<index>",
+      "description": "Eurostat PPI Elect Gas Steam & AC Supply Water CT&S Czech Rep"
+    },
+    {
+      "security": "EPY036CZ<index>",
+      "description": "Eurostat Domestic PPI Water Collection Treatment & Supply Czech Rep YoY"
+    }
+  ],
+  "Czech Republic Construction Prices": [
+    {
+      "security": "EUB4CZ<index>",
+      "description": "EC Construction Confidence Czech Rep Price Expectations"
+    },
+    {
+      "security": "CZCSAYOY<index>",
+      "description": "Czech Republic Construction Output Constant Prices WDA YoY"
+    },
+    {
+      "security": "CZCSYOY<index>",
+      "description": "Czech Republic Construction Output Constant Prices YoY"
+    },
+    {
+      "security": "CZCSCRYY<index>",
+      "description": "Czech Republic Construction Output Current Prices YoY"
+    },
+    {
+      "security": "CCPICE<index>",
+      "description": "Czech Construction Production Index Civil Engineering Constant Prices"
+    },
+    {
+      "security": "CZPPCMOM<index>",
+      "description": "Czech Republic PPI Construction MoM"
+    },
+    {
+      "security": "CZPPCYOY<index>",
+      "description": "Czech Republic PPI Construction YoY"
+    },
+    {
+      "security": "CZRPCONQ<index>",
+      "description": "Czech Republic GDP Constant Prices Construction QoQ"
+    },
+    {
+      "security": "CZRPCONS<index>",
+      "description": "Czech Republic GDP Constant Prices Construction"
+    },
+    {
+      "security": "CZRPCONY<index>",
+      "description": "Czech Republic GDP Constant Prices Construction YoY"
+    },
+    {
+      "security": "EUPPCZM<index>",
+      "description": "Eurostat PPI Czech Republic Industry Ex Construction MoM"
+    },
+    {
+      "security": "EUPPCZY<index>",
+      "description": "Eurostat PPI Czech Republic Industry Ex Construction YoY"
+    },
+    {
+      "security": "PPTXCZ<index>",
+      "description": "Eurostat PPI Czech Republic Industry Ex Construction"
+    },
+    {
+      "security": "PPXECZ<index>",
+      "description": "Eurostat PPI Czech Republic All Industry Ex Construction & Energy"
+    },
+    {
+      "security": "PPXECZM<index>",
+      "description": "Eurostat PPI Czech Republic All Industry Ex Construction & Energy MoM"
+    },
+    {
+      "security": "PPXECZY<index>",
+      "description": "Eurostat PPI Czech Republic All Industry Ex Construction & Energy YoY"
+    },
+    {
+      "security": "IU0FCZN<index>",
+      "description": "Czech Rep GVA Construction Current Prices"
+    },
+    {
+      "security": "IU0FCZS<index>",
+      "description": "Czech Rep GVA Construction Current Prices"
+    },
+    {
+      "security": "IUBECZN<index>",
+      "description": "Czech Rep GVA Industry Except Construction Current Prices"
+    },
+    {
+      "security": "IUBECZS<index>",
+      "description": "Czech Rep GVA Industry Except Construction Current Prices"
+    },
+    {
+      "security": "IV0FCZN<index>",
+      "description": "Czech Rep GVA Construction Chained 2010 Prices"
+    },
+    {
+      "security": "IV0FCZNY<index>",
+      "description": "Czech Rep GVA Construction Chained 2010 Prices YoY"
+    },
+    {
+      "security": "IV0FCZS<index>",
+      "description": "Czech Rep GVA Construction Chained 2010 Prices"
+    },
+    {
+      "security": "IV0FCZSQ<index>",
+      "description": "Czech Rep GVA Construction Chained 2010 Prices QoQ"
+    },
+    {
+      "security": "IV0FCZSY<index>",
+      "description": "Czech Rep GVA Construction Chained 2010 Prices YoY"
+    },
+    {
+      "security": "IVBECZN<index>",
+      "description": "Czech Rep GVA Industry Excl Construction Chained 2010 Prices"
+    },
+    {
+      "security": "IVBECZNY<index>",
+      "description": "Czech Rep GVA Industry Excl Construction Chained 2010 Prices YoY"
+    },
+    {
+      "security": "IVBECZS<index>",
+      "description": "Czech Rep GVA Industry Excl Construction Chained 2010 Prices"
+    },
+    {
+      "security": "IVBECZSQ<index>",
+      "description": "Czech Rep GVA Industry Excl Construction Chained 2010 Prices QoQ"
+    },
+    {
+      "security": "IVBECZSY<index>",
+      "description": "Czech Rep GVA Industry Excl Construction Chained 2010 Prices YoY"
+    }
+  ],
+  "Czech Republic PPI Industrial Domestic": [
+    {
+      "security": "EP3BE4CZ<index>",
+      "description": "Eurostat Domestic PPI Industry Except Food Beverages & Tobacco Czech Rep MoM"
+    },
+    {
+      "security": "EPCBE4CZ<index>",
+      "description": "Eurostat Non Domestic PPI Industry Except Food Beverages & Tobacco Czech Rep YoY"
+    },
+    {
+      "security": "EPDBE4CZ<index>",
+      "description": "Eurostat Non Domestic PPI Industry Except Food Beverages & Tobacco Czech Rep YoY"
+    },
+    {
+      "security": "EPYBE4CZ<index>",
+      "description": "Eurostat Domestic PPI Industry Except Food Beverages & Tobacco Czech Rep YoY"
+    },
+    {
+      "security": "OECZPECB<index>",
+      "description": "OECD Czech Rep Producer Prices Economic Activities Industrial Domestic Index"
+    }
+  ]
+}

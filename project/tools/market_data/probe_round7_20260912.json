@@ -1,0 +1,7 @@
+{
+  "note": "Round 7 of the 12 Sep 2026 probe: HICP actual rentals and package holidays found by the round-6 searches, for the R10 CZSO service groups 041 and 098.",
+  "candidates": {"cpi_components": ["CP41CZ Index", "CP41CZMM Index", "CP96CZ Index", "CP96CZMM Index"]},
+  "daily": [],
+  "searches": [],
+  "max_results": 15
+}

@@ -1,0 +1,6 @@
+{
+  "independent_full_reconstruction_max": 6.661338147750939e-16,
+  "contribution_error_max": 7.632783294297951e-16,
+  "two_largest_squared_error_share": 0.4849017459771615,
+  "bootstrap_contract": "primary_support_bootstrap uses the fixed969primary keys; inherited evaluator paired bootstrap uses its labelled own paired support and is not interchangeable."
+}

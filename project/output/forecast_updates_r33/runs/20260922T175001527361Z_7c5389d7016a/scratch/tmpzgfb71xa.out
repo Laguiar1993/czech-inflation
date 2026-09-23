@@ -1,0 +1,1576 @@
+  Reading input spec file from C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\forecast_updates_r33\runs\20260922T175001527361Z_7c5389d7016a\scratch\tmp7ihtxw4k.spc
+
+1
+
+               U. S. Department of Commerce, U. S. Census Bureau
+
+              X-13ARIMA-SEATS monthly seasonal adjustment Method,
+                          Release Version 1.1 Build 62
+
+
+           This software application provides an enhanced version of
+             Statistics Canada's X-11-ARIMA extension (Dagum, 1980)
+                 of the X-11 variant of the Census Method II of
+                      Shiskin, Young and Musgrave (1967).
+
+            It also provides an ARIMA model-based method following
+       Hillmer and Tiao (1982) and Burman (1980) that is very similar
+       to the update of the method of SEATS (Gomez and Maravall, 1996)
+                produced at the Bank of Spain by G. Caporello and
+               A. Maravall for TSW (Caporello and Maravall, 2004).
+          The present application includes additional enhancements.
+
+         X-13ARIMA-SEATS includes an automatic ARIMA model selection procedure
+          based largely on the procedure of Gomez and Maravall (1998)
+            as implemented in TRAMO (1996) and subsequent revisions.
+
+              Primary Programmers: Brian Monsell, Mark Otto and,
+                 for the ARIMA model-based signal extraction,
+                      Gianluca Caporello and Victor Gomez
+
+
+     Series Title- food
+     Series Name- food
+     Sep 22, 2026  18.50.03 
+
+        -Period covered-  2nd month,2015 to  8th month,2026
+        -Type of run - additive seasonal adjustment
+
+        -Sigma limits for graduating extreme values are  1.5 and  2.5 .
+        -3x3 moving average used in section 1 of each iteration, 
+         3x5 moving average in section 2 of iterations B and C,
+         moving average for final seasonal factors chosen by Global MSR.
+        -Spectral plots generated for selected series
+        -Spectral plots generated for series starting in 2018.Sep
+
+ FILE SAVE REQUESTS (* indicates file exists and will be overwritten)
+  C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\forecast_updates_r33\runs\20260922T175001527361Z_7c5389d7016a\scratch\tmpzgfb71xa.d11  final seasonally adjusted data
+  C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\forecast_updates_r33\runs\20260922T175001527361Z_7c5389d7016a\scratch\tmpzgfb71xa.d12  final trend cycle
+  C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\forecast_updates_r33\runs\20260922T175001527361Z_7c5389d7016a\scratch\tmpzgfb71xa.d13  final irregular component
+  C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\forecast_updates_r33\runs\20260922T175001527361Z_7c5389d7016a\scratch\tmpzgfb71xa.out  program output file
+  C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\forecast_updates_r33\runs\20260922T175001527361Z_7c5389d7016a\scratch\tmpzgfb71xa.err  program error file
+        food            PAGE   1, SERIES food
+
+     Contents of spc file C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\forecast_updates_r33\runs\20260922T175001527361Z_7c5389d7016a\scratch\tmp7ihtxw4k.spc
+
+ Line #
+ ------
+      1: Series {
+      2:         data=(-0.1
+      3: 0.0
+      4: 0.3
+      5: 0.4
+      6: 0.0
+      7: -1.9
+      8: -0.8
+      9: 0.8
+     10: -0.3
+     11: -0.8
+     12: -0.9
+     13: 1.4
+     14: 0.3
+     15: 0.0
+     16: 0.2
+     17: -0.5
+     18: -0.6
+     19: 0.5
+     20: -0.6
+     21: -0.1
+     22: -0.2
+     23: 2.1
+     24: 0.8
+     25: 1.6
+     26: 1.4
+     27: -0.2
+     28: -0.5
+     29: 0.4
+     30: 0.2
+     31: 0.9
+     32: -0.8
+     33: 0.1
+     34: 1.6
+     35: 0.2
+     36: 0.6
+     37: 0.6
+     38: -0.7
+     39: -0.6
+     40: -0.6
+     41: 1.0
+     42: 0.5
+     43: -1.9
+     44: -0.1
+     45: 0.9
+     46: 0.5
+     47: -1.2
+     48: 1.2
+     49: 0.9
+     50: 0.7
+     51: 0.0
+     52: -0.7
+     53: 2.0
+     54: 0.4
+     55: -0.5
+     56: -0.3
+     57: -0.6
+     58: 0.8
+     59: 1.2
+     60: 0.7
+     61: 2.3
+     62: 0.0
+     63: 0.9
+     64: 0.6
+     65: 0.6
+     66: -0.5
+     67: -1.5
+     68: -0.5
+     69: -1.2
+     70: 0.6
+     71: -0.1
+     72: -1.2
+     73: 3.1
+     74: 0.0
+     75: 0.0
+     76: 0.8
+     77: -0.6
+     78: -0.3
+     79: 0.4
+     80: 0.3
+     81: -1.0
+     82: -0.4
+     83: 1.1
+     84: 0.7
+     85: 4.4
+     86: 1.4
+     87: 0.7
+     88: 3.6
+     89: 3.4
+     90: 2.2
+     91: 1.5
+     92: 0.5
+     93: 0.2
+     94: 3.0
+     95: 1.8
+     96: 0.3
+     97: 3.9
+     98: 0.7
+     99: 0.4
+    100: -1.6
+    101: 0.9
+    102: 0.0
+    103: -0.8
+    104: -0.9
+    105: -1.6
+    106: 0.8
+    107: -0.4
+    108: -1.4
+    109: 0.1
+    110: -0.3
+    111: -0.8
+    112: 1.7
+    113: -0.1
+    114: -0.6
+    115: 0.3
+    116: 0.5
+    117: 0.8
+    118: 0.3
+    119: 0.4
+    120: -0.7
+    121: 3.1
+    122: -0.6
+    123: 0.8
+    124: -0.3
+    125: 1.3
+    126: 0.2
+    127: -0.7
+    128: 0.0
+    129: -1.1
+    130: 1.1
+    131: -1.0
+    132: -1.1
+    133: 2.7
+    134: -1.5
+    135: -0.7
+    136: -0.4
+    137: 0.6
+    138: -1.3
+    139: -0.4
+    140: -1.1)
+    141: appendbcst=no
+    142: appendfcst=no
+    143: period=12
+    144: start=2015.2
+    145: title="food"
+    146: name="food"
+    147:  
+    148:         }
+    149:         transform{function=auto}
+    150: outlier{}
+    151: automdl{
+    152: maxorder = (2 1)
+    153: maxdiff = (2 1)
+    154: }
+    155: x11{ save=(d11 d12 d13)
+    156:  savelog=(fd8 m7 q)}
+        food            PAGE   2, SERIES food
+
+ A 1  Time series data (for the span analyzed)
+  From  2015.Feb to 2026.Aug
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec        TOTAL  
+ -----------------------------------------------------------------------------
+  2015                   -0.       0.       0.       0.       0.
+                -2.      -1.       1.      -0.      -1.      -1.           -3.
+ 
+  2016           1.       0.       0.       0.      -0.      -1.
+                 1.      -1.      -0.      -0.       2.       1.            3.
+ 
+  2017           2.       1.      -0.      -0.       0.       0.
+                 1.      -1.       0.       2.       0.       1.            6.
+ 
+  2018           1.      -1.      -1.      -1.       1.       1.
+                -2.      -0.       1.       1.      -1.       1.           -0.
+ 
+  2019           1.       1.       0.      -1.       2.       0.
+                -0.      -0.      -1.       1.       1.       1.            5.
+ 
+  2020           2.       0.       1.       1.       1.      -0.
+                -1.      -0.      -1.       1.      -0.      -1.           -0.
+ 
+  2021           3.       0.       0.       1.      -1.      -0.
+                 0.       0.      -1.      -0.       1.       1.            4.
+ 
+  2022           4.       1.       1.       4.       3.       2.
+                 2.       1.       0.       3.       2.       0.           23.
+ 
+  2023           4.       1.       0.      -2.       1.       0.
+                -1.      -1.      -2.       1.      -0.      -1.            0.
+ 
+  2024           0.      -0.      -1.       2.      -0.      -1.
+                 0.       1.       1.       0.       0.      -1.            2.
+ 
+  2025           3.      -1.       1.      -0.       1.       0.
+                -1.       0.      -1.       1.      -1.      -1.            2.
+ 
+  2026           3.      -1.      -1.      -0.       1.      -1.
+                -0.      -1.                                               -2.
+ 
+  AVGE           2.       0.       0.       0.       1.       0.
+                -0.      -0.      -0.       1.       0.      -0.
+
+  Table Total-          38.   Mean-         0.   Std. Dev.-         1.
+                              Min -        -2.        Max -         4.
+        food            PAGE   3, SERIES food
+                        Automatic ARIMA Model Selection
+
+                    Procedure based closely on TRAMO method 
+                         of Gomez and Maravall (2000)
+              "Automatic Modeling Methods for Univariate Series",
+                            A Course in Time Series
+                  (Edited by D. Pena, G. C. Tiao, R. S. Tsay),
+                         New York : J. Wiley and Sons
+
+
+     Maximum order for regular ARMA parameters :   2
+     Maximum order for seasonal ARMA parameters :   1
+     Maximum order for regular differencing :   2
+     Maximum order for seasonal differencing :   1
+
+   Results of Unit Root Test for identifying orders of differencing:
+     Regular difference order :   0
+     Seasonal difference order :   0
+
+  Automatic model choice : (1 0 1)(1 0 1)
+     Deleted constant regressor(s) due to insignificant t-value.
+
+
+  Final Checks for Identified Model
+
+
+  Checking for Unit Roots.
+   Seasonal unit root found.
+   ( 3, 0, 1) ( 0, 1, 1)
+   Nonseasonal MA not within  0.001 of 1.0 - model passes test.
+
+  Checking for insignificant ARMA coefficients.
+
+  Final automatic model choice : (3 0 1)(0 1 1)
+   End of automatic model selection procedure.
+
+ Average absolute percentage error in within-sample forecasts:
+  Last year:  99.44      Last-1 year:  67.50     Last-2 year: 113.29
+  Last three years:   93.41
+
+ Estimation converged in   61 ARMA iterations,  368 function evaluations.
+
+ ARIMA Model:  (3 0 1)(0 1 1)
+   Seasonal differences:    1
+                                              Standard
+ Parameter                    Estimate          Errors
+ -----------------------------------------------------
+ Nonseasonal AR                                    
+   Lag  1                       0.5917         0.21797
+   Lag  2                       0.0773         0.09902
+   Lag  3                       0.1535         0.10788
+
+ Nonseasonal MA                                    
+   Lag  1                       0.4720         0.21246
+
+ Seasonal MA                                       
+   Lag 12                       0.9611         0.05716
+
+ Variance                       0.86108E+00
+ SE of Var                      0.10806E+00
+ -----------------------------------------------------
+
+ Likelihood Statistics
+ ------------------------------------------------------------------
+ Number of observations (nobs)                                  139
+ Effective number of observations (nefobs)                      127
+ Number of parameters estimated (np)                              6
+ Log likelihood (L)                                       -183.0978
+ AIC                                                       378.1956 
+ AICC (F-corrected-AIC)                                    378.8956 
+ Hannan Quinn                                              385.1290 
+ BIC                                                       395.2607 
+ ------------------------------------------------------------------
+
+ QS Statistic for regARIMA Model Residuals (full series):             0.00
+                                                       (P-Value =     1.0000)
+
+ QS Statistic for regARIMA Model Residuals (starting 2018.Sep):       0.00
+                                                       (P-Value =     1.0000)
+      10*LOG(SPECTRUM) of the regARIMA model residuals
+      Spectrum estimated from 2018.Sep to 2026.Aug.
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+       6.77I    *                                                        I      6.77
+           I    *                                                        I
+           I    *                                                        I
+           I    *                                                        I
+       5.60I    *                                                        I      5.60
+           I    *                                                 *      I
+           I    *                  *                              *      I
+           I    *                  *                              *      I
+       4.43I    *                  *                              *      I      4.43
+           I    *                  *                              *      I
+           I    *                  *                              *      I
+           I    *                  *  **                          *      I
+       3.26I    *                  *  **                          *      I      3.26
+           I    *                  *  **                          *      I
+           I    *                  *  **                          *      I
+           I    *                  *  **                   *      *      I
+       2.08I    *                  *  **                   *      *      I      2.08
+           I   **                  *  **                   *      *      I
+           I   **                  ** **                   *      *      I
+           I   **                  ** **                   *      *      I
+       0.91I   **    *             ** **                  **     **      I      0.91
+           I   **    *             *****                  ***    **      I
+           I   **    *             *****                  ***    **      I
+           I   **    *             *****           *S*    ***    **      I
+      -0.26I   **    *             *****           *S*    ***    ***     I     -0.26
+           I   **    *             *****           *S*    ***    ***     I
+           I   **    *    *       ******           *S*T   ****   ***     I
+           I   **    *   **       ******           *S*T   ****   ***     I
+      -1.43I   **    *   **       ******           *S*T   ****S  ***     I     -1.43
+           I   **    *   **       ******           *S*T   ****S T***     I
+           I   **    *   **       ******           *S*T   ****S*T***     I
+           I* ***    *   **       ******           *S*T  *****S*T***     I
+      -2.60I* ****  **   **       ******           *S*T* *****S*T***     I     -2.60
+           I******  **S  **       *******         **S*T* *****S*T***     I
+           I******  **S  ***      *******         **S*T* *****S*T***     I
+           I******  **S  ***      *******         **S*T* *****S*T***     I
+      -3.78I******  **S  ***      *******         **S*T*******S*T***     I     -3.78
+           I******  **S *****     *******    *    **S*T*******S*T****    I
+           I******  **S *****     *******    **   **S*T*******S*T****    I
+           I******  **S *****     *******    **   **S*T*******S*T****    I
+      -4.95I******  **S******     *******    **   **S*T*******S*T****    I     -4.95
+           I******  **S*******    *******    **   **S*T*******S*T****   SI
+           I******  **S*******    *******    **   **S*T*******S*T***** *SI
+           I**********S*******    *******    **  ***S*T*******S*T*******SI
+      -6.12I**********S*******   ********    **  ***S*T*******S*T*******SI     -6.12
+           I**********S*******   ********    *** ***S*T*******S*T*******SI
+           I**********S*******   *********   *** ***S*T*******S*T*******SI
+           I**********S********  *********  **** ***S*T*******S*T*******SI
+      -7.29I**********S********  *********  ********S*T*******S*T*******SI     -7.29
+           I**********S********  *********  ********S*T*******S*T*******SI
+           I**********S********  *********  ********S*T*******S*T*******SI
+           I**********S******** S*********  ********S*T*******S*T*******SI
+      -8.47I**********S*********S*********S*********S*T*******S*T*******SI     -8.47
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+            S=SEASONAL FREQUENCIES, T=TRADING DAY FREQUENCIES
+
+
+ FORECASTING
+  Origin  2026.Aug
+  Number        12
+
+  Forecasts and Standard Errors
+   ------------------------------
+                         Standard
+       Date   Forecast      Error
+   ------------------------------
+   2026.Sep    -0.7811    0.92794
+   2026.Oct     0.3320    0.93457
+   2026.Nov    -0.1047    0.94461
+   2026.Dec    -0.4506    0.97277
+   2027.Jan     1.9093    0.98669
+   2027.Feb    -0.1483    0.99612
+   2027.Mar    -0.1866    1.00448
+   2027.Apr     0.0757    1.01076
+   2027.May     0.6234    1.01545
+   2027.Jun    -0.1364    1.01911
+   2027.Jul    -0.4652    1.02193
+   2027.Aug    -0.4269    1.02409
+   ------------------------------
+
+  Confidence intervals with coverage probability ( 0.95000
+   ---------------------------------------
+       Date      Lower  Forecast     Upper
+   ---------------------------------------
+   2026.Sep    -2.5999   -0.7811    1.0376
+   2026.Oct    -1.4998    0.3320    2.1637
+   2026.Nov    -1.9561   -0.1047    1.7467
+   2026.Dec    -2.3571   -0.4506    1.4560
+   2027.Jan    -0.0246    1.9093    3.8431
+   2027.Feb    -2.1007   -0.1483    1.8040
+   2027.Mar    -2.1553   -0.1866    1.7822
+   2027.Apr    -1.9053    0.0757    2.0568
+   2027.May    -1.3669    0.6234    2.6136
+   2027.Jun    -2.1338   -0.1364    1.8611
+   2027.Jul    -2.4681   -0.4652    1.5378
+   2027.Aug    -2.4341   -0.4269    1.5803
+   ---------------------------------------
+        food            PAGE   4, SERIES food
+
+ B 1  Original series (prior adjusted)
+  From  2015.Feb to 2026.Aug
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec        TOTAL  
+ -----------------------------------------------------------------------------
+  2015                   -0.       0.       0.       0.       0.
+                -2.      -1.       1.      -0.      -1.      -1.           -3.
+ 
+  2016           1.       0.       0.       0.      -0.      -1.
+                 1.      -1.      -0.      -0.       2.       1.            3.
+ 
+  2017           2.       1.      -0.      -0.       0.       0.
+                 1.      -1.       0.       2.       0.       1.            6.
+ 
+  2018           1.      -1.      -1.      -1.       1.       1.
+                -2.      -0.       1.       1.      -1.       1.           -0.
+ 
+  2019           1.       1.       0.      -1.       2.       0.
+                -0.      -0.      -1.       1.       1.       1.            5.
+ 
+  2020           2.       0.       1.       1.       1.      -0.
+                -1.      -0.      -1.       1.      -0.      -1.           -0.
+ 
+  2021           3.       0.       0.       1.      -1.      -0.
+                 0.       0.      -1.      -0.       1.       1.            4.
+ 
+  2022           4.       1.       1.       4.       3.       2.
+                 2.       1.       0.       3.       2.       0.           23.
+ 
+  2023           4.       1.       0.      -2.       1.       0.
+                -1.      -1.      -2.       1.      -0.      -1.            0.
+ 
+  2024           0.      -0.      -1.       2.      -0.      -1.
+                 0.       1.       1.       0.       0.      -1.            2.
+ 
+  2025           3.      -1.       1.      -0.       1.       0.
+                -1.       0.      -1.       1.      -1.      -1.            2.
+ 
+  2026           3.      -1.      -1.      -0.       1.      -1.
+                -0.      -1.                                               -2.
+ 
+  AVGE           2.       0.       0.       0.       1.       0.
+                -0.      -0.      -0.       1.       0.      -0.
+
+  Table Total-          38.   Mean-         0.   Std. Dev.-         1.
+                              Min -        -2.        Max -         4.
+
+ B 1.A  Forecasts of (prior adjusted) original series
+  From  2026.Sep to 2027.Aug
+  Observations         12
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec        TOTAL  
+ -----------------------------------------------------------------------------
+  2026                                                          
+                                  -1.       0.      -0.      -0.           -1.
+ 
+  2027           2.      -0.      -0.       0.       1.      -0.
+                -0.      -0.                                                1.
+ 
+        food            PAGE   5, SERIES food
+
+ C 17  Final weights for irregular component
+  From  2015.Feb to 2026.Aug
+  Observations        139
+  Lower sigma limit    1.50
+  Upper sigma limit    2.50
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         S.D.  
+ -----------------------------------------------------------------------------
+  2015                  100.     100.     100.     100.     100.
+               100.     100.       9.     100.     100.     100.           62.
+ 
+  2016         100.     100.     100.     100.     100.     100.
+                66.     100.     100.      85.       0.     100.           62.
+ 
+  2017         100.     100.     100.     100.     100.     100.
+                30.     100.     100.     100.     100.     100.           62.
+ 
+  2018         100.     100.     100.     100.     100.     100.
+                68.     100.      21.     100.       0.     100.           61.
+ 
+  2019         100.     100.     100.      86.     100.     100.
+               100.     100.     100.     100.     100.     100.           59.
+ 
+  2020         100.     100.     100.     100.     100.     100.
+               100.     100.     100.     100.     100.     100.           58.
+ 
+  2021          33.     100.     100.     100.       0.     100.
+                84.     100.     100.       0.     100.     100.           45.
+ 
+  2022         100.     100.      21.      34.     100.     100.
+               100.      57.     100.     100.     100.     100.           51.
+ 
+  2023         100.     100.     100.       0.     100.     100.
+               100.     100.     100.     100.     100.     100.           51.
+ 
+  2024           0.     100.     100.       0.      58.     100.
+               100.     100.       0.      33.     100.     100.           49.
+ 
+  2025         100.     100.     100.     100.     100.     100.
+               100.     100.     100.     100.     100.     100.           47.
+ 
+  2026         100.     100.     100.     100.     100.     100.
+               100.     100.                                               47.
+ 
+        food            PAGE   6, SERIES food
+
+ D 8  Final unmodified SI ratios
+  From  2015.Feb to 2026.Aug
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                   -0.      -0.       0.       1.       0.
+                -2.      -0.       1.       0.      -0.      -1.           -0.
+ 
+  2016           2.       1.       0.       0.      -0.      -1.
+                 0.      -1.      -0.      -0.       2.       0.            0.
+ 
+  2017           1.       1.      -1.      -1.       0.      -0.
+                 1.      -1.      -0.       1.       0.       1.            0.
+ 
+  2018           1.      -1.      -1.      -1.       1.       0.
+                -2.      -0.       1.       0.      -1.       1.           -0.
+ 
+  2019           1.       0.      -0.      -1.       2.      -0.
+                -1.      -1.      -1.       0.       1.       0.           -0.
+ 
+  2020           2.      -0.       1.       0.       0.      -1.
+                -1.      -0.      -1.       1.       0.      -1.           -0.
+ 
+  2021           3.      -0.      -0.       1.      -1.      -1.
+                -0.      -0.      -2.      -1.      -0.      -1.           -0.
+ 
+  2022           3.      -0.      -1.       1.       1.      -0.
+                -1.      -2.      -2.       1.       0.      -1.           -0.
+ 
+  2023           3.      -0.      -0.      -2.       1.      -0.
+                -1.      -1.      -1.       1.      -0.      -1.           -0.
+ 
+  2024           0.      -0.      -1.       2.      -0.      -1.
+                 0.       0.       0.      -0.      -0.      -1.            0.
+ 
+  2025           3.      -1.       0.      -1.       1.      -0.
+                -1.      -0.      -1.       1.      -1.      -1.           -0.
+ 
+  2026           3.      -1.      -0.       0.       1.      -1.
+                -0.      -1.                                                0.
+ 
+  AVGE           2.      -0.      -0.      -0.       0.      -0.
+                -1.      -1.      -1.       0.      -0.      -0.
+
+  Table Total-          -4.   Mean-        -0.   Std. Dev.-         1.
+                              Min -        -2.        Max -         3.
+        food            PAGE   7, SERIES food
+
+ D 8.B  Final unmodified SI ratios, with labels for outliers and extreme values
+  From  2015.Feb to 2026.Aug
+  Observations        139
+ ---------------------------------------------------------------------
+               Jan       Feb       Mar       Apr       May       Jun  
+               Jul       Aug       Sep       Oct       Nov       Dec  
+ ---------------------------------------------------------------------
+  2015                   -0.       -0.        0.        1.        0.  
+               -2.       -0.        1.*       0.       -0.       -1.  
+ 
+  2016          2.        1.        0.        0.       -0.       -1.  
+                0.*      -1.       -0.       -0.*       2.*       0.  
+ 
+  2017          1.        1.       -1.       -1.        0.       -0.  
+                1.*      -1.       -0.        1.        0.        1.  
+ 
+  2018          1.       -1.       -1.       -1.        1.        0.  
+               -2.*      -0.        1.*       0.       -1.*       1.  
+ 
+  2019          1.        0.       -0.       -1.*       2.       -0.  
+               -1.       -1.       -1.        0.        1.        0.  
+ 
+  2020          2.       -0.        1.        0.        0.       -1.  
+               -1.       -0.       -1.        1.        0.       -1.  
+ 
+  2021          3.*      -0.       -0.        1.       -1.*      -1.  
+               -0.*      -0.       -2.       -1.*      -0.       -1.  
+ 
+  2022          3.       -0.       -1.*       1.*       1.       -0.  
+               -1.       -2.*      -2.        1.        0.       -1.  
+ 
+  2023          3.       -0.       -0.       -2.*       1.       -0.  
+               -1.       -1.       -1.        1.       -0.       -1.  
+ 
+  2024          0.*      -0.       -1.        2.*      -0.*      -1.  
+                0.        0.        0.*      -0.*      -0.       -1.  
+ 
+  2025          3.       -1.        0.       -1.        1.       -0.  
+               -1.       -0.       -1.        1.       -1.       -1.  
+ 
+  2026          3.       -1.       -0.        0.        1.       -1.  
+               -0.       -1.                                          
+ 
+
+  Key to symbols:
+    *  : extreme value as determined by X-11 extreme value procedure
+ 
+        food            PAGE   8, SERIES food
+
+ D 9  Final replacement values for SI ratios
+  From  2015.Feb to 2026.Aug
+  Observations        139
+ ---------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec 
+ ---------------------------------------------------------------
+  2015              ******** ******** ******** ******** ********
+           ******** ********      -0. ******** ******** ********
+ 
+  2016     ******** ******** ******** ******** ******** ********
+                 0. ******** ********      -0.       0. ********
+ 
+  2017     ******** ******** ******** ******** ******** ********
+                -0. ******** ******** ******** ******** ********
+ 
+  2018     ******** ******** ******** ******** ******** ********
+                -2. ********      -0. ********       0. ********
+ 
+  2019     ******** ******** ********      -1. ******** ********
+           ******** ******** ******** ******** ******** ********
+ 
+  2020     ******** ******** ******** ******** ******** ********
+           ******** ******** ******** ******** ******** ********
+ 
+  2021           2. ******** ******** ********       1. ********
+                -0. ******** ********       1. ******** ********
+ 
+  2022     ******** ********      -0.       1. ******** ********
+           ********      -1. ******** ******** ******** ********
+ 
+  2023     ******** ******** ********       0. ******** ********
+           ******** ******** ******** ******** ******** ********
+ 
+  2024           3. ******** ********       0.       0. ********
+           ******** ********      -1.       1. ******** ********
+ 
+  2025     ******** ******** ******** ******** ******** ********
+           ******** ******** ******** ******** ******** ********
+ 
+  2026     ******** ******** ******** ******** ******** ********
+           ******** ********                                    
+ 
+
+ D 9.A  Moving seasonality ratio
+ ---------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+ ---------------------------------------------------------------
+   I          0.422    0.658    0.489    0.529    0.613    0.570
+   S          0.185    0.097    0.054    0.096    0.089    0.065
+ RATIO        2.285    6.755    8.991    5.497    6.908    8.813
+
+
+
+ ---------------------------------------------------------------
+               Jul      Aug      Sep      Oct      Nov      Dec 
+ ---------------------------------------------------------------
+   I          0.750    0.543    0.300    0.565    0.321    0.476
+   S          0.100    0.062    0.138    0.102    0.064    0.150
+ RATIO        7.497    8.774    2.181    5.554    4.988    3.172
+
+
+
+        food            PAGE   9, SERIES food
+
+ D 10  Final seasonal factors
+  From  2015.Feb to 2026.Aug
+  Observations        139
+  Seasonal filter    3 x 5 moving average
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                    0.      -0.      -0.       0.      -0.
+                -1.      -1.      -0.       0.      -0.       0.           -0.
+ 
+  2016           1.       0.      -0.      -0.       0.      -0.
+                -1.      -1.      -0.       0.       0.       0.            0.
+ 
+  2017           1.       0.      -0.      -0.       0.      -0.
+                -1.      -1.      -0.       0.       0.       0.           -0.
+ 
+  2018           1.       0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       0.       0.       0.           -0.
+ 
+  2019           1.      -0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -0.           -0.
+ 
+  2020           2.      -0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -0.           -0.
+ 
+  2021           2.      -0.      -0.       0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -1.           -0.
+ 
+  2022           2.      -0.      -0.       0.       1.      -0.
+                -1.      -1.      -1.       1.      -0.      -1.           -0.
+ 
+  2023           3.      -0.      -0.       0.       1.      -0.
+                -1.      -0.      -1.       1.      -0.      -1.            0.
+ 
+  2024           3.      -0.      -0.       0.       1.      -0.
+                -0.      -0.      -1.       1.      -0.      -1.            0.
+ 
+  2025           3.      -1.      -0.      -0.       1.      -0.
+                -0.      -0.      -1.       1.      -0.      -1.            0.
+ 
+  2026           3.      -1.      -0.      -0.       1.      -0.
+                -0.      -0.                                                0.
+ 
+  AVGE           2.      -0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -0.
+
+  Table Total-          -1.   Mean-        -0.   Std. Dev.-         1.
+                              Min -        -1.        Max -         3.
+
+ D 10.A  Final seasonal component forecasts
+  From  2026.Sep to 2027.Aug
+  Observations         12
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2026                                                          
+                                  -1.       1.      -0.      -1.           -0.
+ 
+  2027           3.      -1.      -0.      -0.       1.      -0.
+                -0.      -0.                                                0.
+ 
+        food            PAGE  10, SERIES food
+
+ D 11  Final seasonally adjusted data
+  From  2015.Feb to 2026.Aug
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec        TOTAL  
+ -----------------------------------------------------------------------------
+  2015                   -0.       0.       0.       0.       0.
+                -1.      -0.       1.      -1.      -1.      -1.           -2.
+ 
+  2016           0.       0.       0.       0.      -1.      -1.
+                 1.       0.       0.      -1.       2.       0.            3.
+ 
+  2017           0.       1.       0.      -0.      -0.       0.
+                 2.      -0.       1.       1.       0.       0.            6.
+ 
+  2018          -1.      -1.      -0.      -0.       0.       1.
+                -1.       1.       2.       0.      -1.       1.           -0.
+ 
+  2019          -0.       1.       0.      -1.       1.       1.
+                 0.       0.       0.       0.       1.       1.            5.
+ 
+  2020           1.       0.       1.       1.      -0.      -0.
+                -1.       0.       0.      -0.      -0.      -1.            0.
+ 
+  2021           1.       0.       0.       1.      -1.      -0.
+                 1.       1.       0.      -1.       1.       1.            4.
+ 
+  2022           2.       2.       1.       3.       3.       3.
+                 2.       1.       2.       2.       2.       1.           23.
+ 
+  2023           1.       1.       1.      -2.       0.       0.
+                -0.      -0.      -0.      -0.      -0.      -0.           -0.
+ 
+  2024          -3.       0.      -1.       2.      -1.      -0.
+                 1.       1.       2.      -1.       1.       0.            2.
+ 
+  2025           0.      -0.       1.      -0.       1.       1.
+                -0.       0.      -0.       0.      -1.      -0.            2.
+ 
+  2026           0.      -1.      -1.      -0.      -0.      -1.
+                 0.      -1.                                               -3.
+ 
+  AVGE           0.       0.       0.       0.       0.       0.
+                 0.       0.       1.       0.       0.       0.
+
+  Table Total-          39.   Mean-         0.   Std. Dev.-         1.
+                              Min -        -3.        Max -         3.
+        food            PAGE  11, SERIES food
+
+ D 12  Final trend cycle
+  From  2015.Feb to 2026.Aug
+  Observations        139
+  Trend filter    23-term Henderson moving average
+  I/C ratio        4.80
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec        TOTAL  
+ -----------------------------------------------------------------------------
+  2015                    0.       0.      -0.      -0.      -0.
+                -0.      -0.      -0.      -0.      -0.      -0.           -3.
+ 
+  2016          -0.      -0.      -0.      -0.      -0.       0.
+                 0.       0.       0.       0.       0.       0.            1.
+ 
+  2017           0.       0.       0.       0.       0.       0.
+                 0.       0.       0.       0.       0.       0.            3.
+ 
+  2018          -0.      -0.      -0.      -0.      -0.      -0.
+                 0.       0.       0.       0.       0.       0.            1.
+ 
+  2019           0.       0.       0.       0.       0.       0.
+                 0.       1.       1.       1.       1.       1.            6.
+ 
+  2020           1.       0.       0.       0.       0.       0.
+                -0.      -0.      -0.      -0.      -0.      -0.            1.
+ 
+  2021           0.       0.       0.       0.       0.       0.
+                 1.       1.       1.       1.       1.       1.            7.
+ 
+  2022           2.       2.       2.       2.       2.       2.
+                 2.       2.       2.       2.       2.       1.           23.
+ 
+  2023           1.       1.       1.       1.       0.       0.
+                -0.      -0.      -0.      -0.      -0.      -0.            2.
+ 
+  2024          -0.      -0.      -0.      -0.       0.       0.
+                 0.       0.       0.       0.       0.       0.            2.
+ 
+  2025           0.       0.       0.       0.       0.       0.
+                 0.       0.      -0.      -0.      -0.      -0.            2.
+ 
+  2026          -0.      -0.      -0.      -0.      -0.      -0.
+                -0.      -0.                                               -3.
+ 
+  AVGE           0.       0.       0.       0.       0.       0.
+                 0.       0.       0.       0.       0.       0.
+
+  Table Total-          42.   Mean-         0.   Std. Dev.-         1.
+                              Min -        -0.        Max -         2.
+        food            PAGE  12, SERIES food
+
+ D 13  Final irregular component
+  From  2015.Feb to 2026.Aug
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         S.D.  
+ -----------------------------------------------------------------------------
+  2015                   -1.       0.       0.       0.       0.
+                -1.       0.       1.      -0.      -0.      -1.            1.
+ 
+  2016           1.       0.       0.       0.      -1.      -1.
+                 1.      -0.      -0.      -1.       2.       0.            1.
+ 
+  2017           0.       1.      -0.      -1.      -0.      -0.
+                 1.      -0.       0.       1.      -0.       0.            1.
+ 
+  2018          -1.      -1.      -0.      -0.       0.       1.
+                -1.       0.       1.      -0.      -2.       1.            1.
+ 
+  2019          -1.       0.      -0.      -1.       1.       0.
+                -0.      -0.      -0.      -0.       0.       0.            0.
+ 
+  2020           0.      -0.       1.       0.      -0.      -0.
+                -0.       0.       0.       0.      -0.      -1.            0.
+ 
+  2021           1.       0.      -0.       0.      -2.      -0.
+                 1.       0.      -0.      -2.      -0.      -0.            1.
+ 
+  2022           0.      -0.      -1.       1.       0.       0.
+                -0.      -1.      -0.       0.       0.      -0.            1.
+ 
+  2023           0.       0.      -0.      -2.      -0.       0.
+                -0.      -0.      -0.       0.       0.      -0.            1.
+ 
+  2024          -2.       0.      -0.       2.      -1.      -0.
+                 1.       1.       2.      -1.       0.      -0.            1.
+ 
+  2025           0.      -0.       1.      -1.       0.       0.
+                -0.       0.      -0.       0.      -1.       0.            0.
+ 
+  2026           0.      -0.      -0.       0.       0.      -0.
+                 0.      -0.                                                0.
+ 
+  S.D.           1.       0.       0.       1.       1.       0.
+                 1.       0.       1.       1.       1.       0.
+
+  Table Total-          -3.   Mean-        -0.   Std. Dev.-         1.
+                              Min -        -2.        Max -         2.
+        food            PAGE  13, SERIES food
+
+ D 16  Combined adjustment factors
+  From  2015.Feb to 2026.Aug
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                    0.      -0.      -0.       0.      -0.
+                -1.      -1.      -0.       0.      -0.       0.           -0.
+ 
+  2016           1.       0.      -0.      -0.       0.      -0.
+                -1.      -1.      -0.       0.       0.       0.            0.
+ 
+  2017           1.       0.      -0.      -0.       0.      -0.
+                -1.      -1.      -0.       0.       0.       0.           -0.
+ 
+  2018           1.       0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       0.       0.       0.           -0.
+ 
+  2019           1.      -0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -0.           -0.
+ 
+  2020           2.      -0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -0.           -0.
+ 
+  2021           2.      -0.      -0.       0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -1.           -0.
+ 
+  2022           2.      -0.      -0.       0.       1.      -0.
+                -1.      -1.      -1.       1.      -0.      -1.           -0.
+ 
+  2023           3.      -0.      -0.       0.       1.      -0.
+                -1.      -0.      -1.       1.      -0.      -1.            0.
+ 
+  2024           3.      -0.      -0.       0.       1.      -0.
+                -0.      -0.      -1.       1.      -0.      -1.            0.
+ 
+  2025           3.      -1.      -0.      -0.       1.      -0.
+                -0.      -0.      -1.       1.      -0.      -1.            0.
+ 
+  2026           3.      -1.      -0.      -0.       1.      -0.
+                -0.      -0.                                                0.
+ 
+  AVGE           2.      -0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -0.
+
+  Table Total-          -1.   Mean-        -0.   Std. Dev.-         1.
+                              Min -        -1.        Max -         3.
+
+ D 16.A  Combined adjustment component forecasts
+  From  2026.Sep to 2027.Aug
+  Observations         12
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2026                                                          
+                                  -1.       1.      -0.      -1.           -0.
+ 
+  2027           3.      -1.      -0.      -0.       1.      -0.
+                -0.      -0.                                                0.
+ 
+        food            PAGE  14, SERIES food
+
+ E 4  Differences of annual totals
+  From          2016 to 2025
+  Observations         10
+ -----------------------------------
+  Year       Unmodified     Modified
+                  (D11)         (E2)
+ -----------------------------------
+  2016               0.           0.
+ 
+  2017              -0.          -0.
+ 
+  2018              -0.          -0.
+ 
+  2019              -0.          -0.
+ 
+  2020              -0.          -0.
+ 
+  2021              -0.          -0.
+ 
+  2022              -0.          -0.
+ 
+  2023               0.           0.
+ 
+  2024               0.           0.
+ 
+  2025               0.           0.
+ 
+        food            PAGE  15, SERIES food
+
+ E 5  Month-to-month differences in the original series
+  From  2015.Mar to 2026.Aug
+  Observations        138
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                             0.       0.       0.      -0.
+                -2.       1.       2.      -1.      -0.      -0.           -0.
+ 
+  2016           2.      -1.      -0.       0.      -1.      -0.
+                 1.      -1.       1.      -0.       2.      -1.            0.
+ 
+  2017           1.      -0.      -2.      -0.       1.      -0.
+                 1.      -2.       1.       2.      -1.       0.           -0.
+ 
+  2018           0.      -1.       0.       0.       2.      -0.
+                -2.       2.       1.      -0.      -2.       2.            0.
+ 
+  2019          -0.      -0.      -1.      -1.       3.      -2.
+                -1.       0.      -0.       1.       0.      -0.           -0.
+ 
+  2020           2.      -2.       1.      -0.       0.      -1.
+                -1.       1.      -1.       2.      -1.      -1.           -0.
+ 
+  2021           4.      -3.       0.       1.      -1.       0.
+                 1.      -0.      -1.       1.       2.      -0.            0.
+ 
+  2022           4.      -3.      -1.       3.      -0.      -1.
+                -1.      -1.      -0.       3.      -1.      -1.           -0.
+ 
+  2023           4.      -3.      -0.      -2.       3.      -1.
+                -1.      -0.      -1.       2.      -1.      -1.           -0.
+ 
+  2024           2.      -0.      -0.       3.      -2.      -0.
+                 1.       0.       0.      -0.       0.      -1.            0.
+ 
+  2025           4.      -4.       1.      -1.       2.      -1.
+                -1.       1.      -1.       2.      -2.      -0.           -0.
+ 
+  2026           4.      -4.       1.       0.       1.      -2.
+                 1.      -1.                                                0.
+ 
+  AVGE           2.      -2.      -0.       0.       1.      -1.
+                -0.       0.      -0.       1.      -0.      -0.
+
+  Table Total-          -1.   Mean-        -0.   Std. Dev.-         2.
+                              Min -        -4.        Max -         4.
+        food            PAGE  16, SERIES food
+
+ E 6  Month-to-month differences in seasonally adjusted series (D11)
+  From  2015.Mar to 2026.Aug
+  Observations        138
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                             1.       0.      -0.      -0.
+                -1.       1.       1.      -2.      -0.      -0.           -0.
+ 
+  2016           1.      -0.       0.       0.      -1.       0.
+                 2.      -1.       0.      -1.       3.      -2.            0.
+ 
+  2017          -0.       1.      -1.      -0.       0.       0.
+                 2.      -2.       1.       1.      -1.       0.           -0.
+ 
+  2018          -1.      -0.       0.       0.       1.       0.
+                -2.       2.       1.      -2.      -1.       2.            0.
+ 
+  2019          -2.       1.      -1.      -1.       2.      -1.
+                -0.      -0.       0.      -0.       1.      -0.           -0.
+ 
+  2020          -0.      -1.       1.      -0.      -1.       0.
+                -0.       1.      -0.      -0.      -0.      -1.           -0.
+ 
+  2021           2.      -1.      -0.       0.      -2.       1.
+                 1.      -0.      -1.      -2.       2.       0.            0.
+ 
+  2022           1.      -0.      -1.       2.      -1.      -0.
+                -0.      -1.       1.       1.      -0.      -1.           -0.
+ 
+  2023           0.      -0.      -0.      -2.       2.       0.
+                -1.      -0.       0.       0.      -0.      -0.           -0.
+ 
+  2024          -2.       3.      -1.       2.      -2.       1.
+                 1.       0.       1.      -3.       1.      -0.            0.
+ 
+  2025           0.      -1.       1.      -1.       1.       0.
+                -1.       1.      -0.       0.      -1.       1.           -0.
+ 
+  2026           0.      -1.       0.       0.       0.      -1.
+                 1.      -1.                                               -0.
+ 
+  AVGE          -0.       0.      -0.       0.      -0.       0.
+                 0.      -0.       0.      -1.       0.      -0.
+
+  Table Total-          -0.   Mean-        -0.   Std. Dev.-         1.
+                              Min -        -3.        Max -         3.
+        food            PAGE  17, SERIES food
+
+ E 7  Month-to-month differences in final trend cycle (D12)
+  From  2015.Mar to 2026.Aug
+  Observations        138
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                            -0.      -0.      -0.      -0.
+                -0.      -0.      -0.      -0.       0.       0.           -0.
+ 
+  2016           0.       0.       0.       0.       0.       0.
+                 0.       0.       0.       0.       0.       0.            0.
+ 
+  2017           0.       0.       0.       0.       0.       0.
+                -0.      -0.      -0.      -0.      -0.      -0.           -0.
+ 
+  2018          -0.      -0.      -0.       0.       0.       0.
+                 0.       0.       0.       0.       0.       0.            0.
+ 
+  2019           0.       0.       0.       0.       0.       0.
+                 0.       0.       0.       0.       0.      -0.            0.
+ 
+  2020          -0.      -0.      -0.      -0.      -0.      -0.
+                -0.      -0.      -0.       0.       0.       0.           -0.
+ 
+  2021           0.       0.       0.       0.       0.       0.
+                 0.       0.       0.       0.       0.       0.            0.
+ 
+  2022           0.       0.       0.       0.       0.       0.
+                -0.      -0.      -0.      -0.      -0.      -0.           -0.
+ 
+  2023          -0.      -0.      -0.      -0.      -0.      -0.
+                -0.      -0.      -0.      -0.      -0.      -0.           -0.
+ 
+  2024           0.       0.       0.       0.       0.       0.
+                 0.       0.       0.       0.       0.      -0.            0.
+ 
+  2025          -0.      -0.      -0.      -0.      -0.      -0.
+                -0.      -0.      -0.      -0.      -0.      -0.           -0.
+ 
+  2026          -0.      -0.      -0.      -0.       0.       0.
+                 0.       0.                                               -0.
+ 
+  AVGE          -0.       0.      -0.      -0.      -0.      -0.
+                -0.      -0.      -0.      -0.      -0.      -0.
+
+  Table Total-          -0.   Mean-        -0.   Std. Dev.-         0.
+                              Min -        -0.        Max -         0.
+        food            PAGE  18, SERIES food
+
+ E 8  Month-to-month differences in original series adjusted for calendar factors (A18)
+  From  2015.Mar to 2026.Aug
+  Observations        138
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                             0.       0.       0.      -0.
+                -2.       1.       2.      -1.      -0.      -0.           -0.
+ 
+  2016           2.      -1.      -0.       0.      -1.      -0.
+                 1.      -1.       1.      -0.       2.      -1.            0.
+ 
+  2017           1.      -0.      -2.      -0.       1.      -0.
+                 1.      -2.       1.       2.      -1.       0.           -0.
+ 
+  2018           0.      -1.       0.       0.       2.      -0.
+                -2.       2.       1.      -0.      -2.       2.            0.
+ 
+  2019          -0.      -0.      -1.      -1.       3.      -2.
+                -1.       0.      -0.       1.       0.      -0.           -0.
+ 
+  2020           2.      -2.       1.      -0.       0.      -1.
+                -1.       1.      -1.       2.      -1.      -1.           -0.
+ 
+  2021           4.      -3.       0.       1.      -1.       0.
+                 1.      -0.      -1.       1.       2.      -0.            0.
+ 
+  2022           4.      -3.      -1.       3.      -0.      -1.
+                -1.      -1.      -0.       3.      -1.      -1.           -0.
+ 
+  2023           4.      -3.      -0.      -2.       3.      -1.
+                -1.      -0.      -1.       2.      -1.      -1.           -0.
+ 
+  2024           2.      -0.      -0.       3.      -2.      -0.
+                 1.       0.       0.      -0.       0.      -1.            0.
+ 
+  2025           4.      -4.       1.      -1.       2.      -1.
+                -1.       1.      -1.       2.      -2.      -0.           -0.
+ 
+  2026           4.      -4.       1.       0.       1.      -2.
+                 1.      -1.                                                0.
+ 
+  AVGE           2.      -2.      -0.       0.       1.      -1.
+                -0.       0.      -0.       1.      -0.      -0.
+
+  Table Total-          -1.   Mean-        -0.   Std. Dev.-         2.
+                              Min -        -4.        Max -         4.
+        food            PAGE  19, SERIES food
+
+ E 18  Final adjustment ratios
+  From  2015.Feb to 2026.Aug
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                25.207    0.000   66.176  171.442    0.000
+            175.650  761.300   77.559   42.776  101.602   76.065       136.162
+ 
+  2016      476.818  631.855    0.000   47.651   61.688  113.585
+             36.492 -763.392  -49.523   34.429  101.522  161.507        71.053
+ 
+  2017      337.597  116.098 ********  233.386 -813.410   71.064
+             49.827  563.164   18.778  133.481  196.309  187.164       -33.361
+ 
+  2018     -102.179   83.038  151.785  211.877  260.440   79.104
+            192.744  -18.569   58.059 6182.428   89.849  112.449       608.419
+ 
+  2019     -189.444   97.131    0.000  137.660  163.278   69.978
+           -114.739  -95.029 -185.414  358.796  113.462   87.034        36.893
+ 
+  2020      357.594    0.000   83.381   96.778 -196.646  170.415
+            256.569 -375.345 ******** -801.021   45.792  153.742     -7056.378
+ 
+  2021      291.474    0.000    0.000  132.863   41.106 2496.447
+             33.058   33.041 -271.244   34.945  108.412   48.829       245.744
+ 
+  2022      217.663   83.570   78.375  107.245  129.364   86.254
+             69.629   47.350   12.330  140.464   99.314   24.511        91.339
+ 
+  2023      304.061   63.494   63.781   88.436  548.630    0.000
+            302.047  221.803  593.805 -712.423  132.331  322.403       160.697
+ 
+  2024       -3.903 -160.212  140.465  103.826   11.754  261.660
+             38.877   52.552   40.134  -49.235   69.694 -339.780        13.819
+ 
+  2025      671.314 1442.358   78.572  116.124  229.693   32.484
+            245.245    0.000 1551.964  458.736  125.862  454.071       450.535
+ 
+  2026     1996.601  166.878  131.396  144.481 -451.743  149.062
+           ********  146.146                                         -8265.059
+ 
+  AVGE      396.145  212.451  -63.836  123.875   12.966  294.171
+           ********   47.752 ********  529.398  107.650  117.090
+
+  Table Total-     -129558.   Mean-      -932.   Std. Dev.-      9254.
+                              Min -    -84468.        Max -      6182.
+
+ E 18.A  Final adjustment ratio forecasts
+  From  2026.Sep to 2027.Aug
+  Observations         12
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2026                                                          
+                             -463.845  -67.493  -74.931 -118.444      -181.178
+ 
+  2027     -299.062  -28.971  296.546   32.880 -417.914  -46.165
+            692.494  552.162                                            97.746
+ 
+        food            PAGE  20, SERIES food
+
+ E 18.B  Total adjustment factors
+  From  2015.Feb to 2026.Aug
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                    0.      -0.      -0.       0.      -0.
+                -1.      -1.      -0.       0.      -0.       0.           -0.
+ 
+  2016           1.       0.      -0.      -0.       0.      -0.
+                -1.      -1.      -0.       0.       0.       0.            0.
+ 
+  2017           1.       0.      -0.      -0.       0.      -0.
+                -1.      -1.      -0.       0.       0.       0.           -0.
+ 
+  2018           1.       0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       0.       0.       0.           -0.
+ 
+  2019           1.      -0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -0.           -0.
+ 
+  2020           2.      -0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -0.           -0.
+ 
+  2021           2.      -0.      -0.       0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -1.           -0.
+ 
+  2022           2.      -0.      -0.       0.       1.      -0.
+                -1.      -1.      -1.       1.      -0.      -1.           -0.
+ 
+  2023           3.      -0.      -0.       0.       1.      -0.
+                -1.      -0.      -1.       1.      -0.      -1.            0.
+ 
+  2024           3.      -0.      -0.       0.       1.      -0.
+                -0.      -0.      -1.       1.      -0.      -1.            0.
+ 
+  2025           3.      -1.      -0.      -0.       1.      -0.
+                -0.      -0.      -1.       1.      -0.      -1.            0.
+ 
+  2026           3.      -1.      -0.      -0.       1.      -0.
+                -0.      -0.                                                0.
+ 
+  AVGE           2.      -0.      -0.      -0.       1.      -0.
+                -1.      -1.      -1.       1.       0.      -0.
+
+  Table Total-          -1.   Mean-        -0.   Std. Dev.-         1.
+                              Min -        -1.        Max -         3.
+
+ E 18.C  Total adjustment factor forecasts
+  From  2026.Sep to 2027.Aug
+  Observations         12
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2026                                                          
+                                  -1.       1.      -0.      -1.           -0.
+ 
+  2027           3.      -1.      -0.      -0.       1.      -0.
+                -0.      -0.                                                0.
+ 
+
+  QS statistic for seasonality:
+  Original Series                                    32.63  (P-Value =     0.0000)
+  Original Series (EV adj)                           32.63  (P-Value =     0.0000)
+  Residuals                                           0.00  (P-Value =     1.0000)
+  Seasonally Adjusted Series                          0.00  (P-Value =     1.0000)
+  Seasonally Adjusted Series (EV adj)                 0.00  (P-Value =     1.0000)
+  Irregular Series                                    0.00  (P-Value =     1.0000)
+  Irregular Series (EV adj)                           0.00  (P-Value =     1.0000)
+
+  QS statistic for seasonality (starting 2018.Sep):
+  Original Series                                    33.92  (P-Value =     0.0000)
+  Original Series (EV adj)                           33.92  (P-Value =     0.0000)
+  Residuals                                           0.00  (P-Value =     1.0000)
+  Seasonally Adjusted Series                          0.00  (P-Value =     1.0000)
+  Seasonally Adjusted Series (EV adj)                 0.00  (P-Value =     1.0000)
+  Irregular Series                                    0.00  (P-Value =     1.0000)
+  Irregular Series (EV adj)                           0.00  (P-Value =     1.0000)
+        food            PAGE  21, SERIES food
+
+
+  Visually significant residual trading day peaks have been
+  found in the spectral plots of the following series starting in 2018.Sep:
+
+          differenced seasonally adjusted series (Table E2) (1 Trading Day peak(s))
+
+          Modified irregular component (Table E3) (1 Seasonal and 
+        food            PAGE  22, SERIES food
+ G 0  10*LOG(SPECTRUM) of the differenced Original Series
+      (Table A1 or B1).  Spectrum estimated from 2018.Sep to 2026.Aug.
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+      15.82I                                        S                    I     15.82
+           I                                        S                    I
+           I                                        S         S          I
+           I                                        S         S          I
+      13.29I                                        S         S          I     13.29
+           I                                        S         S          I
+           I                                        S         S          I
+           I                                        S         S          I
+      10.77I                                        S         S   *      I     10.77
+           I                                        S         S   *      I
+           I                                        S         S   *     SI
+           I                              S         S*        S   *     SI
+       8.25I                              S         S*        S   *     SI      8.25
+           I                              S         S*     * *S*  *     SI
+           I                              S         S*     * *S*  *     SI
+           I                              S        *S*     * *S*  *     SI
+       5.73I                              S        *S*    ** *S* **    *SI      5.73
+           I                              S        *S*    ****S* **    *SI
+           I                              S        *S*    ****S* **    *SI
+           I                          **  S*       *S*T   ****S*T**    *SI
+       3.20I                       *  ** *S*       *S*T   ****S*T***   *SI      3.20
+           I                       ** ** *S*       *S*T   ****S*T***   *SI
+           I          S            *******S*       *S*T   ****S*T***  **SI
+           I          S            *******S*   *   *S*T  *****S*T***  **SI
+       0.68I          S           ********S*  **  **S*T* *****S*T***  **SI      0.68
+           I          S           ********S*  **  **S*T* *****S*T**** **SI
+           I          S           ********S** **  **S*T*******S*T*******SI
+           I          S         S*********S****** **S*T*******S*T*******SI
+      -1.84I          S         S*********S*********S*T*******S*T*******SI     -1.84
+           I          S         S*********S*********S*T*******S*T*******SI
+           I          S         S*********S*********S*T*******S*T*******SI
+           I          S         S*********S*********S*T*******S*T*******SI
+      -4.37I    *     S*       *S*********S*********S*T*******S*T*******SI     -4.37
+           I    *    *S*  *    *S*********S*********S*T*******S*T*******SI
+           I    *    *S*  *    *S*********S*********S*T*******S*T*******SI
+           I    *    *S*  *    *S*********S*********S*T*******S*T*******SI
+      -6.89I    *    *S* ***   *S*********S*********S*T*******S*T*******SI     -6.89
+           I   **    *S*****   *S*********S*********S*T*******S*T*******SI
+           I   **    *S*****  **S*********S*********S*T*******S*T*******SI
+           I   **    *S*****  **S*********S*********S*T*******S*T*******SI
+      -9.41I   ***   *S****** **S*********S*********S*T*******S*T*******SI     -9.41
+           I   ***  **S*********S*********S*********S*T*******S*T*******SI
+           I   ***  **S*********S*********S*********S*T*******S*T*******SI
+           I   ***  **S*********S*********S*********S*T*******S*T*******SI
+     -11.93I   *******S*********S*********S*********S*T*******S*T*******SI    -11.93
+           I   *******S*********S*********S*********S*T*******S*T*******SI
+           I  ********S*********S*********S*********S*T*******S*T*******SI
+           I  ********S*********S*********S*********S*T*******S*T*******SI
+     -14.46I  ********S*********S*********S*********S*T*******S*T*******SI    -14.46
+           I  ********S*********S*********S*********S*T*******S*T*******SI
+           I  ********S*********S*********S*********S*T*******S*T*******SI
+           I *********S*********S*********S*********S*T*******S*T*******SI
+     -16.98I**********S*********S*********S*********S*T*******S*T*******SI    -16.98
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+            S=SEASONAL FREQUENCIES, T=TRADING DAY FREQUENCIES
+        food            PAGE  23, SERIES food
+ G 1  10*LOG(SPECTRUM) of the differenced seasonally adjusted 
+      data (Table E2).  Spectrum estimated from 2018.Sep to 2026.Aug.
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+       4.06I                                          T                  I      4.06
+           I                                          T                  I
+           I                                          T           *      I
+           I                                      *   T           *      I
+       2.53I                                      *   T           *      I      2.53
+           I                                      *   T           *      I
+           I                                      *   T          **      I
+           I                       *              *   T          **      I
+       1.00I                       *              *   T          **      I      1.00
+           I                       *              *  *T   **     **      I
+           I                       *              *  *T   **     **      I
+           I                       *           *  ** *T   **     **      I
+      -0.54I                       *           * *** *T   **     **      I     -0.54
+           I                       *           * *** *T*  **     **      I
+           I                       **   *      * ***S*T*  **    T***     I
+           I                       **   *      * ***S*T*  **    T***     I
+      -2.07I                       **   *      * ***S*T*  ***  *T***     I     -2.07
+           I                       **   *      *****S*T* **** S*T***     I
+           I                       **   *      *****S*T* *****S*T***     I
+           I                       **   *      *****S*T* *****S*T***     I
+      -3.60I                       **  **      *****S*T*******S*T***    SI     -3.60
+           I                       **  **      *****S*T*******S*T***    SI
+           I                       **  **     ******S*T*******S*T****  *SI
+           I                       **  **     ******S*T*******S*T****  *SI
+      -5.13I                       **  **     ******S*T*******S*T**** **SI     -5.13
+           I                  *    **  **     ******S*T*******S*T*******SI
+           I                  *    **  **     ******S*T*******S*T*******SI
+           I                  *    *** **     ******S*T*******S*T*******SI
+      -6.66I    *             *    ******     ******S*T*******S*T*******SI     -6.66
+           I   **             *    ******     ******S*T*******S*T*******SI
+           I   **             *    ******     ******S*T*******S*T*******SI
+           I   **             *    ******     ******S*T*******S*T*******SI
+      -8.19I   **        *    *   *******     ******S*T*******S*T*******SI     -8.19
+           I   **        *    *   ********    ******S*T*******S*T*******SI
+           I   **        *    *   ********    ******S*T*******S*T*******SI
+           I   **        *   **   ********    ******S*T*******S*T*******SI
+      -9.73I   **        *   **   ********    ******S*T*******S*T*******SI     -9.73
+           I   **        *   **   ********   *******S*T*******S*T*******SI
+           I   **        *   **   ********   *******S*T*******S*T*******SI
+           I   **       **   **   ********   *******S*T*******S*T*******SI
+     -11.26I   **       **   ***  ********   *******S*T*******S*T*******SI    -11.26
+           I   **   *   **   ***  ********   *******S*T*******S*T*******SI
+           I   ***  *   **   *** *********   *******S*T*******S*T*******SI
+           I  **** **   **   *** *********   *******S*T*******S*T*******SI
+     -12.79I  **** **   **   *** *********S  *******S*T*******S*T*******SI    -12.79
+           I  **** **   **   ***S*********S ********S*T*******S*T*******SI
+           I  *******   ***  ***S*********S ********S*T*******S*T*******SI
+           I  *******   ***  ***S*********S*********S*T*******S*T*******SI
+     -14.32I  ********  *** ****S*********S*********S*T*******S*T*******SI    -14.32
+           I *********  *** ****S*********S*********S*T*******S*T*******SI
+           I ********* **** ****S*********S*********S*T*******S*T*******SI
+           I********** *********S*********S*********S*T*******S*T*******SI
+     -15.85I**********S*********S*********S*********S*T*******S*T*******SI    -15.85
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+            S=SEASONAL FREQUENCIES, T=TRADING DAY FREQUENCIES
+        food            PAGE  24, SERIES food
+ G 2  10*LOG(SPECTRUM) of the Modified Irregular (Table E3).  
+      Spectrum estimated from 2018.Sep to 2026.Aug.
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+       0.22I                       *                                     I      0.22
+           I                       *                                     I
+           I                       *                                     I
+           I                       *                                     I
+      -1.11I                       *                  T                  I     -1.11
+           I                       *                  T                  I
+           I                       *              *   T                  I
+           I                       *              *   T                  I
+      -2.44I                       *              *   T           *      I     -2.44
+           I                       *              *   T           *      I
+           I                       **             *   T           *      I
+           I                       **             *   T   *       *      I
+      -3.78I                       **             *   T   **     **      I     -3.78
+           I                       **             **  T   **     **      I
+           I                       **   *         ** *T   **     **      I
+           I             *         **  **         ** *T*  **     **      I
+      -5.11I             *         **  **      *  ** *T*  **     **      I     -5.11
+           I             *         **  **      *  ** *T*  **     **      I
+           I             *         **  **      * ***S*T*  **     **      I
+           I             *    *    **  **      * ***S*T*  **     **      I
+      -6.44I             *   **    **  **      * ***S*T*  **    T**      I     -6.44
+           I             *   **    **  **      * ***S*T* ***    T**      I
+           I             *   **    **  **      *****S*T* ****   T**      I
+           I             *   **    *** **      *****S*T* ****  *T***     I
+      -7.78I             *   **    ******     ******S*T******  *T***     I     -7.78
+           I             *   **    ******     ******S*T****** S*T***    SI
+           I             *   **    ******     ******S*T*******S*T***    SI
+           I             *   **    ******     ******S*T*******S*T***    SI
+      -9.11I             **  **   *******     ******S*T*******S*T***    SI     -9.11
+           I             **  **   *******     ******S*T*******S*T***   *SI
+           I        *    **  **   *******     ******S*T*******S*T***   *SI
+           I        *    **  **   *******     ******S*T*******S*T***   *SI
+     -10.44I        **   **  **   *******     ******S*T*******S*T****  *SI    -10.44
+           I        **   **  **   *******     ******S*T*******S*T****  *SI
+           I        **   **  **   *******     ******S*T*******S*T**** **SI
+           I        **   **  **   *******     ******S*T*******S*T**** **SI
+     -11.78I*       **   **  **   ********    ******S*T*******S*T*******SI    -11.78
+           I*       **   **  **   ********    ******S*T*******S*T*******SI
+           I*       **   **  **   ********    ******S*T*******S*T*******SI
+           I*       **   ** ****  ********    ******S*T*******S*T*******SI
+     -13.11I*       **   ** ****  ********    ******S*T*******S*T*******SI    -13.11
+           I*       **   ******* *********   *******S*T*******S*T*******SI
+           I*       **  ******** *********   *******S*T*******S*T*******SI
+           I*       **  ******** *********   *******S*T*******S*T*******SI
+     -14.44I*    * ***  ******** *********   *******S*T*******S*T*******SI    -14.44
+           I**  ** ***  ********S*********   *******S*T*******S*T*******SI
+           I**  ** ***S ********S*********   *******S*T*******S*T*******SI
+           I**  ******S ********S*********   *******S*T*******S*T*******SI
+     -15.78I**  ******S ********S*********S  *******S*T*******S*T*******SI    -15.78
+           I**  ******S ********S*********S  *******S*T*******S*T*******SI
+           I**  ******S*********S*********S ********S*T*******S*T*******SI
+           I** *******S*********S*********S ********S*T*******S*T*******SI
+     -17.11I**********S*********S*********S*********S*T*******S*T*******SI    -17.11
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+            S=SEASONAL FREQUENCIES, T=TRADING DAY FREQUENCIES
+        food            PAGE  25, SERIES food
+
+  Peak probabilities for Tukey spectrum estimator
+  Spectrum estimated from 2018.Sep to 2026.Aug.
+
+                                          S1       S2       S3       S4       S5       S6       TD
+                                        ------   ------   ------   ------   ------   ------   ------
+  Model Residuals                        0.230    0.218    0.008    0.418    0.059    0.327    0.363  
+  Original Series (Table A1 or B1)       0.920*   0.955*   0.989*   0.948*   0.982*   0.931*   0.043  
+  Seasonally adjusted series (E2)        0.468    0.093    0.192    0.114    0.093    0.440    0.538  
+  Modified Irregular (E3)                0.055    0.039    0.310    0.159    0.117    0.590    0.621  
+  ----------
+     ** - Peak Probability > 0.99,
+      * - 0.90 < Peak Probability < 0.99
+
+

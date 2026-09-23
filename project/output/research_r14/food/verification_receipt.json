@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "refitted_origins": 90,
+  "byte_identical_payloads": 11,
+  "verified_inputs": 54,
+  "network_database": "blocked",
+  "checked_at": "2026-09-09T13:25:41.781674+00:00"
+}

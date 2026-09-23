@@ -1,0 +1,114 @@
+{
+  "started_at_utc": "2026-09-09T07:50:49.000428+00:00",
+  "completed_at_utc": "2026-09-09T07:51:06.607666+00:00",
+  "elapsed_seconds": 17.607239299919456,
+  "policy": "hard",
+  "grid": [
+    {
+      "alpha": 0.3,
+      "window": 60
+    },
+    {
+      "alpha": 0.3,
+      "window": 120
+    },
+    {
+      "alpha": 0.3,
+      "window": null
+    },
+    {
+      "alpha": 3.0,
+      "window": 60
+    },
+    {
+      "alpha": 3.0,
+      "window": 120
+    },
+    {
+      "alpha": 3.0,
+      "window": null
+    },
+    {
+      "alpha": 30.0,
+      "window": 60
+    },
+    {
+      "alpha": 30.0,
+      "window": 120
+    },
+    {
+      "alpha": 30.0,
+      "window": null
+    },
+    {
+      "alpha": 300.0,
+      "window": 60
+    },
+    {
+      "alpha": 300.0,
+      "window": 120
+    },
+    {
+      "alpha": 300.0,
+      "window": null
+    }
+  ],
+  "selection": "monthly; prior 36 common sequential published core errors; minimum 24; minimum MSE; deterministic default/ties",
+  "historical_vintage_status": "frozen reconstructed/latest-vintage research inputs; not real-time vintage certified",
+  "input_sha256": {
+    "tests\\fixtures\\cleanup\\alcohol_tobacco.csv": "1a3f7cfd8eeb3419077359f8a12968182d997495007b462418f5261c187fe115",
+    "tests\\fixtures\\cleanup\\cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+    "tests\\fixtures\\cleanup\\cnb_regulated_mm.csv": "74773b38a1fea1f1ebb09d220aa90409eb3318a697b35ec2b8e1f20e781850db",
+    "tests\\fixtures\\cleanup\\component_food_fuel_mm.csv": "21699e9cd2bc1c87848834113ff2933ab587901adc40616f3ba63384441a419b",
+    "tests\\fixtures\\cleanup\\core_features.csv": "09bdfeb3353eaaa2ab3b08d815480198ab1dde0d12f59fac08c8651e59dddf23",
+    "tests\\fixtures\\cleanup\\food_block_features.csv": "a34a50e425650eda7b9ca400f51cb191bba633e6ead07a12b46a75e4184c9537",
+    "tests\\fixtures\\cleanup\\fuel_weekly.csv": "a017a7bfd2054097752c0d18ab0d9c42a9a589280c22ae9fce87c6c1ddac8995",
+    "tests\\fixtures\\cleanup\\headline_extended_and_states.csv": "dab64ba59634410ee2a183724b5ee2463e24a8c20bb188dab0ab4bab2ad89e94",
+    "tests\\fixtures\\cleanup\\slow_block_features_h6h12.csv": "ea1bdff7aed5325193c91e34cd61c5ab40ca91a498e50e38e0a0213d89e99af3",
+    "tests\\fixtures\\cleanup\\smooth_features.csv": "96a2d7f4cfbf87410c4f2f692b688d3dbd313cda41e2f1cb0f854f601268703b",
+    "tests\\fixtures\\cleanup\\target_headline_cpi_mm.csv": "0f5f17def39668352b95d3e63278eec66016251d2d4296fb03e59b8a37e5c6eb",
+    "output\\cz_struct_backtest.csv": "9678c25530d6bb684a2e74ba962f121a10fadf3db97887b2ca6777ff54d4e9cd",
+    "data\\czcpmom_survey_history_extended.csv": "2d43dc9f99add7b5d93a8876936e7a726af124eb1f6f40cbfb3c912e5a7a794d",
+    "tests\\fixtures\\cleanup\\expected_backtest.csv": "d0c2ce6584347c29449923ea1c66dd3a033d3f1dae045890b81545461f7c93d8",
+    "data\\release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4"
+  },
+  "source_sha256": {
+    "models\\core_tuning.py": "25a27dee1f2a70a817997d9ff7d21fd89d92844494c49a8f53d42178b5b7f7bb",
+    "core_tuning_experiment.py": "03d293853e7ac5b303c88600a71a5863548f7e38ab201d7d6883ed119d8d45e6",
+    "cz_struct.py": "276e69f480d32b9cad72003fb0e88cfc174d1126a72c70a56711ad18b8f48307",
+    "test_core_tuning_r9.py": "8618a6864e2c7feb58b2ec23aa6a192270780ccae45c01c84e378d19f547db42"
+  },
+  "output_sha256": {
+    "core_tuning_predictions.csv": "6c5d84ff5ff92b712fee2e75e83a205cffbfd885cff925028d36a703b918c9d9",
+    "core_tuning_schedule.csv": "5075c78bb8761549c6dc85a8f97b993e1898305f7ea7866cd673d9aa1f5aea72",
+    "core_tuning_releases.csv": "508d032d819841fc4963d9979d969cfa332ba1f876c662d501dcb1efe040c7be",
+    "core_tuning_outer_candidates.csv": "eb4308186fec0daab3a565c404cbadd54e7fd965ba6737c3ad641180db0ddd50",
+    "core_tuning_scores.csv": "ad657d852c9f1af1231bf8557f38a79cdbc63f3f6048d0e7252c230d3171db6c"
+  },
+  "runtime": {
+    "python": "3.14.3",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1"
+  },
+  "checks": {
+    "future_training_month_violations": 0,
+    "unpublished_training_label_violations": 0,
+    "future_validation_month_violations": 0,
+    "unpublished_validation_label_violations": 0,
+    "outer_origins": 90,
+    "configurations": 12,
+    "sequential_predictions": 2244,
+    "minimum_validation_count": 36,
+    "max_legacy_core_replay_difference": 1.3322676295501878e-15,
+    "max_hard_default_replay_difference": 0.0
+  },
+  "selected_config_counts": {
+    "a3_w60": 49,
+    "a0.3_wexpanding": 18,
+    "a0.3_w60": 10,
+    "a3_w120": 9,
+    "a0.3_w120": 3,
+    "a300_wexpanding": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "reviewed_at_utc": "2026-09-14T15:14:30.868213+00:00",
+  "status": "no_substantive_full_run_blocker",
+  "scope": "smoke2 arithmetic plus all90 origin quote/policy gates",
+  "sha256": {
+    "docs/implementation/R17_ENERGY_SPEC_2026-09-14.md": "c969e441f1b42b9c57f101eb154f1a17ee24aef331c22033fa6ef9bb4afb7ee8",
+    "models/energy_path_r17.py": "0e40953e92b6b1c32bef11c9c5b7e0606835d64967ef4145ef54b17f056144b5",
+    "energy_path_experiment_r17.py": "ab544e5eb7af3ca360f41f2bd12b4bace44704df1c27beb641a394c8ba954dc0",
+    "tests/test_energy_path_r17.py": "ccd93fce659e21d5434b522c2e9b3967381eff816c7667d8aa231b9c44abf9b3",
+    "work/research_r17_energy/smoke2/manifest.json": "300fb148cfcbe2be1334c860f5e9436dac32a20ed7deece72f27dc277533e2c4",
+    "work/research_r17_review/R17_ENERGY_REVIEW.md": "9b2f521dda79afa31ac440c558e1dfcd423daf2fb8c53d79840df4757ff85ec2",
+    "work/research_r17_review/independent_energy_review.py": "f7ba88ee674d66b5bd512eb50d91e458fa8fbd97a5fbe75286aeb26d3c43c516",
+    "work/research_r17_review/energy_smoke2_review.json": "23b187190bcfc33fb6eb8c056232465528a95bf97c9f83a7e1bfefb5cd64e545",
+    "work/research_r17_review/energy_tests.log": "4a6b2d4a45741e444ac589594fd977fbd82c06672bad60e29890c6eb6bd3c835"
+  }
+}

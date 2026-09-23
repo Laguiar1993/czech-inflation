@@ -1,0 +1,24 @@
+..FFF.F.                                                                 [100%]
+================================== FAILURES ===================================
+E   assert (0.0 < 0)
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_food_ecm_r27.py:50: assert (0.0 < 0)
+E   AssertionError: assert ('estimated' == 'estimated'
+      
+        estimated and 0.0 < -0.03)
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_food_ecm_r27.py:62: AssertionError: assert ('estimated' == 'estimated'
+E   assert 0.0 <= -0.08
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_food_ecm_r27.py:71: assert 0.0 <= -0.08
+E   assert (True and not True)
+     +  where True = <function allclose at 0x0000020E5C349AB0>(array([0.25, 0.25, 0.25, 0.25, 0.25, 0.25]), array([0.25, 0.25, 0.25, 0.25, 0.25, 0.25]))
+     +    where <function allclose at 0x0000020E5C349AB0> = np.allclose
+     +  and   True = <function allclose at 0x0000020E5C349AB0>(array([0.25, 0.25, 0.25, 0.25, 0.25, 0.25]), array([0.25, 0.25, 0.25, 0.25, 0.25, 0.25]))
+     +    where <function allclose at 0x0000020E5C349AB0> = np.allclose
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_food_ecm_r27.py:86: assert (True and not True)
+=========================== short test summary info ===========================
+FAILED tests/test_food_ecm_r27.py::test_speed_recovers_the_sign_and_is_clipped
+FAILED tests/test_food_ecm_r27.py::test_speed_on_the_true_gap_is_the_ar_coefficient_up_to_small_sample_bias
+FAILED tests/test_food_ecm_r27.py::test_estimated_gap_runs_faster_than_the_true_gap
+FAILED tests/test_food_ecm_r27.py::test_candidates_reproduce_baseline_when_speed_is_zero_and_shift_only_h1_to_h6
+4 failed, 4 passed in 0.16s
+
+--- stderr ---

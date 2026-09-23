@@ -1,0 +1,29 @@
+{
+  "roster": [
+    "STATE_FAST_R15",
+    "FOOD_ECM_R27",
+    "ADMIN_ZERO_R28",
+    "ADMIN_JAN_ONLY_R28",
+    "ADMIN_RECENT_R28",
+    "ADMIN_HALF_R28",
+    "ADMIN_F000_R28",
+    "ADMIN_F025_R28",
+    "ADMIN_F050_R28",
+    "ADMIN_F075_R28"
+  ],
+  "primary_calendar": "Original R16 annual-headline969row support, not filtered by a new model.",
+  "errors": "Forecast minus actual in percentage points. Show failures separately; matched comparisons require identical finite support.",
+  "core": "Monthly core and cumulative log core h1..h, original frozen target. Underlying bands subtract own-origin saved R15 seasonality.",
+  "bootstrap": "Circular blocks on consecutive monthly origins: 12 months from 48 observations, 6 from 24, no interval below 24; 2000 draws, seed 1509.",
+  "sustained": "Bands1to3 change>=.5pp annualized, without opposite adjacent>=.5pp. Additional to strict exact-turn test.",
+  "cnb": "Both clocks; same-origin quarter means;0.15pp absolute-error materiality; repeated quarters dependent; every-report omission.",
+  "limitations": [
+    "R28: administered-price level candidates on the research roster frame, original 90 origins and 969 primary keys. Only the administered block of h1-12 changes; fired January announcement gates (a FAST January rate above 5 percent) are kept in every candidate. Historical research, not a live record.",
+    "Candidates: zero outside fired gates; January only (FAST\u2019s ten-year January median kept, zero elsewhere); the median of the same calendar month over the latest three published years; half of FAST\u2019s pattern; fixed factors 0, 0.25, 0.5 and 0.75 of the pattern for the specificity condition.",
+    "Judged by the R26 promotion rule against FAST\u2019s administered block, block first, with the assembled condition on the roster frame named in the run manifest. No survey, expectations series or CNB forecast enters any candidate.",
+    "Lead tables flag abs(model-CNB)>=0.30pp (0.50 sensitivity) against the immediately next CNB report for the same still-future quarter, with base-rate rows passed through the same rules.",
+    "Defaults show the roster frame with the January-only candidate; no promotion is implied by the display."
+  ],
+  "cnb_lead": ".30 and .50 ex-ante deviation thresholds; immediate next report, same target beyond next report quarter; .15pp closer CNB revision and separate eventual .15pp absolute-error improvement; first calls deduplicated by model/clock/target/direction streak; base-rate rows flagged is_baseline.",
+  "samples": "full; origins 2019-2021; origins 2022-2023; origins from 2024."
+}

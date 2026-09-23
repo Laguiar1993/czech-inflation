@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "new_manifests": [
+    {
+      "folder": "research_r14/core",
+      "inputs": 41,
+      "outputs": 13
+    },
+    {
+      "folder": "research_r14/food",
+      "inputs": 54,
+      "outputs": 11
+    },
+    {
+      "folder": "research_r14/fuel",
+      "inputs": 57,
+      "outputs": 14
+    },
+    {
+      "folder": "research_r14/integration",
+      "inputs": 15,
+      "outputs": 9
+    },
+    {
+      "folder": "research_r14/survey",
+      "inputs": 154,
+      "outputs": 6
+    },
+    {
+      "folder": "research_r14b/core",
+      "inputs": 63,
+      "outputs": 13
+    },
+    {
+      "folder": "research_r14b/food",
+      "inputs": 60,
+      "outputs": 11
+    },
+    {
+      "folder": "research_r14b/integration",
+      "inputs": 19,
+      "outputs": 10
+    },
+    {
+      "folder": "research_r14b/core_history_comparison",
+      "inputs": 15,
+      "outputs": 6
+    },
+    {
+      "folder": "research_r14b/attribution",
+      "inputs": 14,
+      "outputs": 6
+    }
+  ],
+  "new_deterministic_payloads": 99,
+  "original_supplied_files_unchanged": 454,
+  "regression_tests": 485,
+  "existing_x13_test_warnings": 2
+}

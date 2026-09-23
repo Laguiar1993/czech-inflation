@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "byte_exact_outputs": {
+    "intervals.csv": true,
+    "pools.json": true,
+    "coverage.csv": true
+  },
+  "scores_all_other_columns_bit_exact": true,
+  "changed_score_columns": [
+    "n_intended",
+    "n_missing_distributions"
+  ],
+  "final_calendar_rows": 10659,
+  "original_keys_per_model": 969,
+  "manifest_verification": {
+    "output/research_r18/path_v2": {
+      "inputs": 478,
+      "outputs": 3
+    },
+    "output/research_r18/path_v2/evaluation": {
+      "inputs": 487,
+      "outputs": 33
+    },
+    "output/research_r18/uncertainty_final": {
+      "inputs": 66,
+      "outputs": 6
+    }
+  }
+}

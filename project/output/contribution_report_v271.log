@@ -1,0 +1,23 @@
+identity model - consensus = (baseline - consensus) + sum(dev) + wedge: max |residual| 6.66e-16
+identity headline error = sum(block errors) + wedge error: max |residual| 7.70e-16 (n=90)
+
+UNCERTAINTY BY BLOCK (contribution error weight x (forecast - actual), pp of headline; 90 origins | ex-January)
+block                                            p10     p50     p90     RMS |     p10     p50     p90     RMS
+core (ridge)                                  -0.258  -0.007  +0.185   0.171 |  -0.231  +0.003  +0.200   0.170
+food (X-13 + ridge)                           -0.191  +0.008  +0.162   0.162 |  -0.147  +0.012  +0.161   0.139
+administered (seasonal median + January gate)  -0.161  -0.008  +0.064   0.347 |  -0.152  -0.008  +0.051   0.318
+alcohol & tobacco (same-month mean)           -0.091  -0.007  +0.084   0.080 |  -0.081  -0.005  +0.085   0.077
+fuel (measured weekly)                        -0.005  -0.000  +0.007   0.007 |  -0.004  -0.000  +0.007   0.006
+wedge ERROR (forecast wedge - realised reconciliation)  -0.085  -0.024  +0.080   0.084 |  -0.084  -0.025  +0.077   0.081
+realised reconciliation (print - sum w x actual), info  -0.078  +0.014  +0.071   0.080 |  -0.076  +0.014  +0.071   0.077
+headline (model - print)                      -0.487  -0.054  +0.290   0.420 |  -0.392  -0.050  +0.312   0.404
+
+=== 2023-01: model +4.85  consensus +5.80  print +6.00  | neutral seasonal baseline +1.00 ===
+block                                         weight  forecast  baseline  contribution  vs baseline   actual  contrib error
+core (ridge)                                   0.547     +0.96     +0.25        +0.523       +0.386    +0.80         +0.085
+food (X-13 + ridge)                            0.178     +2.05     +1.59        +0.364       +0.082    +3.87         -0.325
+administered (seasonal median + January gate)   0.156    +24.43     +2.00        +3.804       +3.493   +30.90         -1.008
+alcohol & tobacco (same-month mean)            0.087     +2.86     +2.92        +0.249       -0.005    +4.01         -0.100
+fuel (measured weekly)                         0.032     -2.40     +0.33        -0.076       -0.087    -1.73         -0.021
+wedge (reconciliation residual, not a block)                                    -0.019                 -0.23         +0.214
+model - consensus -0.955 = baseline - consensus -4.805 + sum of block deviations +3.869 + wedge -0.019

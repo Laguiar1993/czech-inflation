@@ -1,0 +1,52 @@
+{
+  "CZNWYOY Index": {
+    "name": "Czech Republic Average Gross M",
+    "security_des": "Czech Republic Average Gross M",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2026-06-30",
+    "country": "CZ",
+    "des_notes": "This concept generally tracks total remuneration (in cash or in kind) paid to employees in return for work done (or paid leave)."
+  },
+  "CZRWYOY Index": {
+    "name": "Czech Republic Average Gross M",
+    "security_des": "Czech Republic Average Gross M",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2026-06-30",
+    "country": "CZ",
+    "des_notes": "This concept generally tracks total remuneration (in cash or in kind) paid to employees in return for work done (or paid leave)."
+  },
+  "LNTNCZ Index": {
+    "name": "Eurostat Labor Costs Nominal V",
+    "security_des": "Eurostat Labor Costs Nominal V",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index WDA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2026-03-31",
+    "country": "CZ",
+    "des_notes": "The employment cost index measures changes in employee compensation costs (or labor costs). These costs include both direct costs (such as wages, bonuses or in kind benefits) as well as indirect costs (such as social security contributions, training costs, medical benefits, taxes, etc.)"
+  },
+  "LCTQCZI Index": {
+    "name": "Eurostat Unit Labor Cost Nomin",
+    "security_des": "Eurostat Unit Labor Cost Nomin",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2026-03-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks the growth in employee compensation relative to real output. Unit labor costs are generally calculated by dividing total labor compensation by real gross domestic product."
+  },
+  "HOPICZI Index": {
+    "name": "Eurostat House Price Index Cze",
+    "security_des": "Eurostat House Price Index Cze",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2026-03-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks changes in residential property prices."
+  }
+}

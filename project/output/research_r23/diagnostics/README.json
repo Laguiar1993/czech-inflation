@@ -1,0 +1,10 @@
+{
+  "status": "post_score_descriptive_only_no_model_refit",
+  "train_rows": [
+    28,
+    40
+  ],
+  "interpretation": "CNB lead successes count target-quarter episodes, not independent economic turns. Adjacent target quarters can share one shock.",
+  "source": "output/research_r23/final",
+  "selection": "No post-score candidate selection or threshold changes"
+}

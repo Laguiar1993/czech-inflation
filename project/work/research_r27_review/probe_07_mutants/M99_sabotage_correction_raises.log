@@ -1,0 +1,12 @@
+.....FF.                                                                 [100%]
+================================== FAILURES ===================================
+E   RuntimeError: sabotage
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\work\research_r27_review\probe_07_mutants\mutants\M99_sabotage_correction_raises.py:78: RuntimeError: sabotage
+E   RuntimeError: sabotage
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\work\research_r27_review\probe_07_mutants\mutants\M99_sabotage_correction_raises.py:78: RuntimeError: sabotage
+=========================== short test summary info ===========================
+FAILED tests/test_food_ecm_r27.py::test_correction_decays_from_the_last_gap_month_and_stops_at_h6
+FAILED tests/test_food_ecm_r27.py::test_candidates_reproduce_baseline_when_speed_is_zero_and_shift_only_h1_to_h6
+2 failed, 6 passed in 0.15s
+
+--- stderr ---

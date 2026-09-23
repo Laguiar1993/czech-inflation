@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 12 Sep 2026 12:27:07 GMT
+Content-Type: text/csv;charset=utf-8;header=present
+Content-Length: 8968607
+Last-Modified: Mon, 17 Aug 2026 04:01:13 GMT
+Connection: keep-alive
+ETag: "6a828789-88d99f"
+Access-Control-Expose-Headers: Content-Length,Content-Range
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+Content-Disposition: attachment; filename="CEN02031.csv"
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=157680000
+

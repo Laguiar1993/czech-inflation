@@ -1,0 +1,996 @@
+origin,as_of,feature,reference,last_publication,units,value,status
+2010-01,2010-02-08 23:59:00,ulc_gap,2009Q3,,"quarterly real-cost gap, log points",,missing_required_history
+2010-01,2010-02-08 23:59:00,tightening,2009-12,2010-02-01T00:00:00,"negative unemployment change12, pp",-2.6000000000000005,available
+2010-01,2010-02-08 23:59:00,import_gap,2009-11,,"relative price gap, log points",,missing_required_history
+2010-01,2010-02-08 23:59:00,ppi_gap,2009-12,,"relative price gap, log points",,missing_required_history
+2010-01,2010-02-08 23:59:00,fx_news,2010-01,2010-02-01T00:00:00,FX log change since import reference,1.189321795484162,available
+2010-02,2010-03-08 23:59:00,ulc_gap,2009Q3,,"quarterly real-cost gap, log points",,missing_required_history
+2010-02,2010-03-08 23:59:00,tightening,2010-01,2010-03-04T00:00:00,"negative unemployment change12, pp",-2.5,available
+2010-02,2010-03-08 23:59:00,import_gap,2009-12,,"relative price gap, log points",,missing_required_history
+2010-02,2010-03-08 23:59:00,ppi_gap,2010-01,2010-02-26T00:00:00,"relative price gap, log points",-3.356017919246142,available
+2010-02,2010-03-08 23:59:00,fx_news,2010-02,2010-03-01T00:00:00,FX log change since import reference,-0.3842316261748153,available
+2010-03,2010-04-08 23:59:00,ulc_gap,2009Q4,,"quarterly real-cost gap, log points",,missing_required_history
+2010-03,2010-04-08 23:59:00,tightening,2010-02,2010-04-01T00:00:00,"negative unemployment change12, pp",-2.3000000000000007,available
+2010-03,2010-04-08 23:59:00,import_gap,2010-01,,"relative price gap, log points",,missing_required_history
+2010-03,2010-04-08 23:59:00,ppi_gap,2010-02,2010-03-26T00:00:00,"relative price gap, log points",-3.349056165898503,available
+2010-03,2010-04-08 23:59:00,fx_news,2010-03,2010-04-01T00:00:00,FX log change since import reference,-2.3067823694375806,available
+2010-04,2010-05-09 23:59:00,ulc_gap,2009Q4,,"quarterly real-cost gap, log points",,missing_required_history
+2010-04,2010-05-09 23:59:00,tightening,2010-03,2010-05-02T00:00:00,"negative unemployment change12, pp",-1.6999999999999993,available
+2010-04,2010-05-09 23:59:00,import_gap,2010-02,,"relative price gap, log points",,missing_required_history
+2010-04,2010-05-09 23:59:00,ppi_gap,2010-03,2010-04-26T00:00:00,"relative price gap, log points",-3.114779498249618,available
+2010-04,2010-05-09 23:59:00,fx_news,2010-04,2010-05-01T00:00:00,FX log change since import reference,-2.585493704245688,available
+2010-05,2010-06-08 23:59:00,ulc_gap,2009Q4,,"quarterly real-cost gap, log points",,missing_required_history
+2010-05,2010-06-08 23:59:00,tightening,2010-04,2010-06-01T00:00:00,"negative unemployment change12, pp",-1.1000000000000005,available
+2010-05,2010-06-08 23:59:00,import_gap,2010-03,,"relative price gap, log points",,missing_required_history
+2010-05,2010-06-08 23:59:00,ppi_gap,2010-04,2010-05-26T00:00:00,"relative price gap, log points",-2.388134840898772,available
+2010-05,2010-06-08 23:59:00,fx_news,2010-05,2010-06-01T00:00:00,FX log change since import reference,0.49213082178762013,available
+2010-06,2010-07-11 23:59:00,ulc_gap,2010Q1,2010-06-14T00:00:00,"quarterly real-cost gap, log points",5.896761219193536,available
+2010-06,2010-07-11 23:59:00,tightening,2010-05,2010-07-02T00:00:00,"negative unemployment change12, pp",-0.8000000000000007,available
+2010-06,2010-07-11 23:59:00,import_gap,2010-04,,"relative price gap, log points",,missing_required_history
+2010-06,2010-07-11 23:59:00,ppi_gap,2010-05,2010-06-26T00:00:00,"relative price gap, log points",-1.4389842255748704,available
+2010-06,2010-07-11 23:59:00,fx_news,2010-06,2010-07-01T00:00:00,FX log change since import reference,1.828089975295347,available
+2010-07,2010-08-08 23:59:00,ulc_gap,2010Q1,2010-06-14T00:00:00,"quarterly real-cost gap, log points",5.895085016352937,available
+2010-07,2010-08-08 23:59:00,tightening,2010-06,2010-08-01T00:00:00,"negative unemployment change12, pp",-0.6000000000000005,available
+2010-07,2010-08-08 23:59:00,import_gap,2010-05,,"relative price gap, log points",,missing_required_history
+2010-07,2010-08-08 23:59:00,ppi_gap,2010-06,2010-07-26T00:00:00,"relative price gap, log points",0.019910674584309618,available
+2010-07,2010-08-08 23:59:00,fx_news,2010-07,2010-08-01T00:00:00,FX log change since import reference,-1.4165154156227984,available
+2010-08,2010-09-08 23:59:00,ulc_gap,2010Q1,2010-06-14T00:00:00,"quarterly real-cost gap, log points",5.895621527515061,available
+2010-08,2010-09-08 23:59:00,tightening,2010-07,2010-09-01T00:00:00,"negative unemployment change12, pp",-0.2999999999999998,available
+2010-08,2010-09-08 23:59:00,import_gap,2010-06,,"relative price gap, log points",,missing_required_history
+2010-08,2010-09-08 23:59:00,ppi_gap,2010-07,2010-08-26T00:00:00,"relative price gap, log points",0.5485912374897453,available
+2010-08,2010-09-08 23:59:00,fx_news,2010-08,2010-09-01T00:00:00,FX log change since import reference,-3.8473126102902038,available
+2010-09,2010-10-10 23:59:00,ulc_gap,2010Q2,2010-09-13T00:00:00,"quarterly real-cost gap, log points",0.25610455339580085,available
+2010-09,2010-10-10 23:59:00,tightening,2010-08,2010-10-02T00:00:00,"negative unemployment change12, pp",0.3000000000000007,available
+2010-09,2010-10-10 23:59:00,import_gap,2010-07,,"relative price gap, log points",,missing_required_history
+2010-09,2010-10-10 23:59:00,ppi_gap,2010-08,2010-09-26T00:00:00,"relative price gap, log points",0.0983657638834643,available
+2010-09,2010-10-10 23:59:00,fx_news,2010-09,2010-10-01T00:00:00,FX log change since import reference,-2.6184537048880845,available
+2010-10,2010-11-08 23:59:00,ulc_gap,2010Q2,2010-09-13T00:00:00,"quarterly real-cost gap, log points",0.24188102174991855,available
+2010-10,2010-11-08 23:59:00,tightening,2010-09,2010-11-01T00:00:00,"negative unemployment change12, pp",0.5,available
+2010-10,2010-11-08 23:59:00,import_gap,2010-08,,"relative price gap, log points",,missing_required_history
+2010-10,2010-11-08 23:59:00,ppi_gap,2010-09,2010-10-26T00:00:00,"relative price gap, log points",0.5623683780860347,available
+2010-10,2010-11-08 23:59:00,fx_news,2010-10,2010-11-01T00:00:00,FX log change since import reference,-1.1392092068304986,available
+2010-11,2010-12-08 23:59:00,ulc_gap,2010Q2,2010-09-13T00:00:00,"quarterly real-cost gap, log points",0.223475164325464,available
+2010-11,2010-12-08 23:59:00,tightening,2010-10,2010-12-02T00:00:00,"negative unemployment change12, pp",0.3000000000000007,available
+2010-11,2010-12-08 23:59:00,import_gap,2010-09,,"relative price gap, log points",,missing_required_history
+2010-11,2010-12-08 23:59:00,ppi_gap,2010-10,2010-11-26T00:00:00,"relative price gap, log points",0.4207376582443203,available
+2010-11,2010-12-08 23:59:00,fx_news,2010-11,2010-12-01T00:00:00,FX log change since import reference,-0.0568089611122888,available
+2010-12,2011-01-09 23:59:00,ulc_gap,2010Q3,2010-12-14T00:00:00,"quarterly real-cost gap, log points",-0.04738526584003466,available
+2010-12,2011-01-09 23:59:00,tightening,2010-11,2011-01-01T00:00:00,"negative unemployment change12, pp",0.40000000000000036,available
+2010-12,2011-01-09 23:59:00,import_gap,2010-10,,"relative price gap, log points",,missing_required_history
+2010-12,2011-01-09 23:59:00,ppi_gap,2010-11,2010-12-26T00:00:00,"relative price gap, log points",1.0383964681630573,available
+2010-12,2011-01-09 23:59:00,fx_news,2010-12,2011-01-01T00:00:00,FX log change since import reference,2.5720360888489067,available
+2011-01,2011-02-08 23:59:00,ulc_gap,2010Q3,2010-12-14T00:00:00,"quarterly real-cost gap, log points",-0.0506245386336559,available
+2011-01,2011-02-08 23:59:00,tightening,2010-12,2011-02-01T00:00:00,"negative unemployment change12, pp",0.6000000000000005,available
+2011-01,2011-02-08 23:59:00,import_gap,2010-11,,"relative price gap, log points",,missing_required_history
+2011-01,2011-02-08 23:59:00,ppi_gap,2010-12,2011-01-26T00:00:00,"relative price gap, log points",2.3596490282126865,available
+2011-01,2011-02-08 23:59:00,fx_news,2011-01,2011-02-01T00:00:00,FX log change since import reference,-0.7660062717076935,available
+2011-02,2011-03-08 23:59:00,ulc_gap,2010Q3,2010-12-14T00:00:00,"quarterly real-cost gap, log points",-0.0506245386336559,available
+2011-02,2011-03-08 23:59:00,tightening,2011-01,2011-03-04T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2011-02,2011-03-08 23:59:00,import_gap,2010-12,,"relative price gap, log points",,missing_required_history
+2011-02,2011-03-08 23:59:00,ppi_gap,2011-01,2011-02-26T00:00:00,"relative price gap, log points",3.3416421609313147,available
+2011-02,2011-03-08 23:59:00,fx_news,2011-02,2011-03-01T00:00:00,FX log change since import reference,-3.596593225471454,available
+2011-03,2011-04-10 23:59:00,ulc_gap,2010Q4,2011-03-16T00:00:00,"quarterly real-cost gap, log points",5.879263777642166,available
+2011-03,2011-04-10 23:59:00,tightening,2011-02,2011-04-01T00:00:00,"negative unemployment change12, pp",0.8000000000000007,available
+2011-03,2011-04-10 23:59:00,import_gap,2011-01,2011-03-17T00:00:00,"relative price gap, log points",3.45998815677477,available
+2011-03,2011-04-10 23:59:00,ppi_gap,2011-02,2011-03-26T00:00:00,"relative price gap, log points",4.171503891397094,available
+2011-03,2011-04-10 23:59:00,fx_news,2011-03,2011-04-01T00:00:00,FX log change since import reference,-0.23341056030070487,available
+2011-04,2011-05-09 23:59:00,ulc_gap,2010Q4,2011-03-16T00:00:00,"quarterly real-cost gap, log points",5.879104287835787,available
+2011-04,2011-05-09 23:59:00,tightening,2011-03,2011-05-02T00:00:00,"negative unemployment change12, pp",0.8999999999999995,available
+2011-04,2011-05-09 23:59:00,import_gap,2011-02,2011-04-14T00:00:00,"relative price gap, log points",3.7059066679535695,available
+2011-04,2011-05-09 23:59:00,ppi_gap,2011-03,2011-04-26T00:00:00,"relative price gap, log points",5.484874706434425,available
+2011-04,2011-05-09 23:59:00,fx_news,2011-04,2011-05-01T00:00:00,FX log change since import reference,0.061770339847838966,available
+2011-05,2011-06-08 23:59:00,ulc_gap,2010Q4,2011-03-16T00:00:00,"quarterly real-cost gap, log points",5.869053381202207,available
+2011-05,2011-06-08 23:59:00,tightening,2011-04,2011-06-01T00:00:00,"negative unemployment change12, pp",0.40000000000000036,available
+2011-05,2011-06-08 23:59:00,import_gap,2011-03,2011-05-15T00:00:00,"relative price gap, log points",4.583253116698421,available
+2011-05,2011-06-08 23:59:00,ppi_gap,2011-04,2011-05-26T00:00:00,"relative price gap, log points",6.299307636317451,available
+2011-05,2011-06-08 23:59:00,fx_news,2011-05,2011-06-01T00:00:00,FX log change since import reference,-0.03690415213590214,available
+2011-06,2011-07-11 23:59:00,ulc_gap,2011Q1,2011-06-14T00:00:00,"quarterly real-cost gap, log points",4.2347967235516535,available
+2011-06,2011-07-11 23:59:00,tightening,2011-05,2011-07-02T00:00:00,"negative unemployment change12, pp",0.5,available
+2011-06,2011-07-11 23:59:00,import_gap,2011-04,2011-06-14T00:00:00,"relative price gap, log points",4.45793330720544,available
+2011-06,2011-07-11 23:59:00,ppi_gap,2011-05,2011-06-26T00:00:00,"relative price gap, log points",6.755263357081162,available
+2011-06,2011-07-11 23:59:00,fx_news,2011-06,2011-07-01T00:00:00,FX log change since import reference,-0.02470355743789038,available
+2011-07,2011-08-08 23:59:00,ulc_gap,2011Q1,2011-06-14T00:00:00,"quarterly real-cost gap, log points",4.234133018035493,available
+2011-07,2011-08-08 23:59:00,tightening,2011-06,2011-08-01T00:00:00,"negative unemployment change12, pp",0.5,available
+2011-07,2011-08-08 23:59:00,import_gap,2011-05,2011-07-15T00:00:00,"relative price gap, log points",4.453645215146954,available
+2011-07,2011-08-08 23:59:00,ppi_gap,2011-06,2011-07-26T00:00:00,"relative price gap, log points",6.689892563811327,available
+2011-07,2011-08-08 23:59:00,fx_news,2011-07,2011-08-01T00:00:00,FX log change since import reference,-0.17239968148171372,available
+2011-08,2011-09-08 23:59:00,ulc_gap,2011Q1,2011-06-14T00:00:00,"quarterly real-cost gap, log points",4.236735525875076,available
+2011-08,2011-09-08 23:59:00,tightening,2011-07,2011-09-01T00:00:00,"negative unemployment change12, pp",0.7000000000000002,available
+2011-08,2011-09-08 23:59:00,import_gap,2011-06,2011-08-14T00:00:00,"relative price gap, log points",3.9876322774855093,available
+2011-08,2011-09-08 23:59:00,ppi_gap,2011-07,2011-08-26T00:00:00,"relative price gap, log points",6.704750372711771,available
+2011-08,2011-09-08 23:59:00,fx_news,2011-08,2011-09-01T00:00:00,FX log change since import reference,-0.049425430389592295,available
+2011-09,2011-10-09 23:59:00,ulc_gap,2011Q2,2011-09-13T00:00:00,"quarterly real-cost gap, log points",-0.058578634715843236,available
+2011-09,2011-10-09 23:59:00,tightening,2011-08,2011-10-02T00:00:00,"negative unemployment change12, pp",0.6999999999999993,available
+2011-09,2011-10-09 23:59:00,import_gap,2011-07,2011-09-14T00:00:00,"relative price gap, log points",4.514445311655059,available
+2011-09,2011-10-09 23:59:00,ppi_gap,2011-08,2011-09-26T00:00:00,"relative price gap, log points",6.809293868037173,available
+2011-09,2011-10-09 23:59:00,fx_news,2011-09,2011-10-01T00:00:00,FX log change since import reference,0.8834774631131815,available
+2011-10,2011-11-08 23:59:00,ulc_gap,2011Q2,2011-09-13T00:00:00,"quarterly real-cost gap, log points",-0.0693647693180992,available
+2011-10,2011-11-08 23:59:00,tightening,2011-09,2011-11-01T00:00:00,"negative unemployment change12, pp",0.3000000000000007,available
+2011-10,2011-11-08 23:59:00,import_gap,2011-08,2011-10-15T00:00:00,"relative price gap, log points",3.809078084246506,available
+2011-10,2011-11-08 23:59:00,ppi_gap,2011-09,2011-10-26T00:00:00,"relative price gap, log points",6.858278147428052,available
+2011-10,2011-11-08 23:59:00,fx_news,2011-10,2011-11-01T00:00:00,FX log change since import reference,2.3412644912518985,available
+2011-11,2011-12-08 23:59:00,ulc_gap,2011Q2,2011-09-13T00:00:00,"quarterly real-cost gap, log points",-0.09261533066427319,available
+2011-11,2011-12-08 23:59:00,tightening,2011-10,2011-12-02T00:00:00,"negative unemployment change12, pp",0.5999999999999996,available
+2011-11,2011-12-08 23:59:00,import_gap,2011-09,2011-11-14T00:00:00,"relative price gap, log points",5.193484109922508,available
+2011-11,2011-12-08 23:59:00,ppi_gap,2011-10,2011-11-26T00:00:00,"relative price gap, log points",6.710851557817193,available
+2011-11,2011-12-08 23:59:00,fx_news,2011-11,2011-12-01T00:00:00,FX log change since import reference,3.583666826106869,available
+2011-12,2012-01-08 23:59:00,ulc_gap,2011Q3,2011-12-14T00:00:00,"quarterly real-cost gap, log points",-0.5570773244727434,available
+2011-12,2012-01-08 23:59:00,tightening,2011-11,2012-01-01T00:00:00,"negative unemployment change12, pp",0.40000000000000036,available
+2011-12,2012-01-08 23:59:00,import_gap,2011-10,2011-12-15T00:00:00,"relative price gap, log points",5.84060616280976,available
+2011-12,2012-01-08 23:59:00,ppi_gap,2011-11,2011-12-26T00:00:00,"relative price gap, log points",7.208049338222224,available
+2011-12,2012-01-08 23:59:00,fx_news,2011-12,2012-01-01T00:00:00,FX log change since import reference,2.648924810960362,available
+2012-01,2012-02-15 23:59:00,ulc_gap,2011Q3,2011-12-14T00:00:00,"quarterly real-cost gap, log points",-0.5559615587122266,available
+2012-01,2012-02-15 23:59:00,tightening,2011-12,2012-02-01T00:00:00,"negative unemployment change12, pp",0.2999999999999998,available
+2012-01,2012-02-15 23:59:00,import_gap,2011-12,2012-02-14T00:00:00,"relative price gap, log points",8.445513824908591,available
+2012-01,2012-02-15 23:59:00,ppi_gap,2011-12,2012-01-26T00:00:00,"relative price gap, log points",7.377897670006121,available
+2012-01,2012-02-15 23:59:00,fx_news,2012-01,2012-02-01T00:00:00,FX log change since import reference,0.06660528778760402,available
+2012-02,2012-03-08 23:59:00,ulc_gap,2011Q3,2011-12-14T00:00:00,"quarterly real-cost gap, log points",-0.5559615587121698,available
+2012-02,2012-03-08 23:59:00,tightening,2012-01,2012-03-03T00:00:00,"negative unemployment change12, pp",0.40000000000000036,available
+2012-02,2012-03-08 23:59:00,import_gap,2011-12,2012-02-14T00:00:00,"relative price gap, log points",8.443318762019766,available
+2012-02,2012-03-08 23:59:00,ppi_gap,2012-01,2012-02-26T00:00:00,"relative price gap, log points",7.694052292534934,available
+2012-02,2012-03-08 23:59:00,fx_news,2012-02,2012-03-01T00:00:00,FX log change since import reference,-1.875203297922547,available
+2012-03,2012-04-09 23:59:00,ulc_gap,2011Q4,2012-03-15T00:00:00,"quarterly real-cost gap, log points",4.714687596363547,available
+2012-03,2012-04-09 23:59:00,tightening,2012-02,2012-04-01T00:00:00,"negative unemployment change12, pp",0.0,available
+2012-03,2012-04-09 23:59:00,import_gap,2012-01,2012-03-16T00:00:00,"relative price gap, log points",9.494409709581326,available
+2012-03,2012-04-09 23:59:00,ppi_gap,2012-02,2012-03-26T00:00:00,"relative price gap, log points",7.662689689210822,available
+2012-03,2012-04-09 23:59:00,fx_news,2012-03,2012-04-01T00:00:00,FX log change since import reference,-3.410145604641875,available
+2012-04,2012-05-09 23:59:00,ulc_gap,2011Q4,2012-03-15T00:00:00,"quarterly real-cost gap, log points",4.718809972516738,available
+2012-04,2012-05-09 23:59:00,tightening,2012-03,2012-05-02T00:00:00,"negative unemployment change12, pp",-0.20000000000000018,available
+2012-04,2012-05-09 23:59:00,import_gap,2012-02,2012-04-14T00:00:00,"relative price gap, log points",8.067002771397167,available
+2012-04,2012-05-09 23:59:00,ppi_gap,2012-03,2012-04-26T00:00:00,"relative price gap, log points",8.084314725339937,available
+2012-04,2012-05-09 23:59:00,fx_news,2012-04,2012-05-01T00:00:00,FX log change since import reference,-0.9711151759395106,available
+2012-05,2012-06-10 23:59:00,ulc_gap,2011Q4,2012-03-15T00:00:00,"quarterly real-cost gap, log points",4.71496719448362,available
+2012-05,2012-06-10 23:59:00,tightening,2012-04,2012-06-01T00:00:00,"negative unemployment change12, pp",0.20000000000000018,available
+2012-05,2012-06-10 23:59:00,import_gap,2012-03,2012-05-15T00:00:00,"relative price gap, log points",7.495665172579117,available
+2012-05,2012-06-10 23:59:00,ppi_gap,2012-04,2012-05-26T00:00:00,"relative price gap, log points",8.0894085153339,available
+2012-05,2012-06-10 23:59:00,fx_news,2012-05,2012-06-01T00:00:00,FX log change since import reference,2.5842471750669267,available
+2012-06,2012-07-10 23:59:00,ulc_gap,2012Q1,2012-06-14T00:00:00,"quarterly real-cost gap, log points",5.028846144351519,available
+2012-06,2012-07-10 23:59:00,tightening,2012-05,2012-07-02T00:00:00,"negative unemployment change12, pp",-0.09999999999999964,available
+2012-06,2012-07-10 23:59:00,import_gap,2012-04,2012-06-14T00:00:00,"relative price gap, log points",7.136833982566031,available
+2012-06,2012-07-10 23:59:00,ppi_gap,2012-05,2012-06-26T00:00:00,"relative price gap, log points",7.804824268012112,available
+2012-06,2012-07-10 23:59:00,fx_news,2012-06,2012-07-01T00:00:00,FX log change since import reference,3.338930307467644,available
+2012-07,2012-08-08 23:59:00,ulc_gap,2012Q1,2012-06-14T00:00:00,"quarterly real-cost gap, log points",5.030623074270977,available
+2012-07,2012-08-08 23:59:00,tightening,2012-06,2012-08-01T00:00:00,"negative unemployment change12, pp",-0.09999999999999964,available
+2012-07,2012-08-08 23:59:00,import_gap,2012-05,2012-07-15T00:00:00,"relative price gap, log points",8.182789712462755,available
+2012-07,2012-08-08 23:59:00,ppi_gap,2012-06,2012-07-26T00:00:00,"relative price gap, log points",6.409711736208351,available
+2012-07,2012-08-08 23:59:00,fx_news,2012-07,2012-08-01T00:00:00,FX log change since import reference,0.44132785004937175,available
+2012-08,2012-09-09 23:59:00,ulc_gap,2012Q1,2012-06-14T00:00:00,"quarterly real-cost gap, log points",5.040399079972929,available
+2012-08,2012-09-09 23:59:00,tightening,2012-07,2012-09-01T00:00:00,"negative unemployment change12, pp",-0.20000000000000018,available
+2012-08,2012-09-09 23:59:00,import_gap,2012-06,2012-08-14T00:00:00,"relative price gap, log points",7.342850024781907,available
+2012-08,2012-09-09 23:59:00,ppi_gap,2012-07,2012-08-26T00:00:00,"relative price gap, log points",5.138606586963988,available
+2012-08,2012-09-09 23:59:00,fx_news,2012-08,2012-09-01T00:00:00,FX log change since import reference,-2.4517127813225548,available
+2012-09,2012-10-08 23:59:00,ulc_gap,2012Q2,2012-09-13T00:00:00,"quarterly real-cost gap, log points",1.7211130318643768,available
+2012-09,2012-10-08 23:59:00,tightening,2012-08,2012-10-02T00:00:00,"negative unemployment change12, pp",-0.7999999999999998,available
+2012-09,2012-10-08 23:59:00,import_gap,2012-07,2012-09-14T00:00:00,"relative price gap, log points",6.711891138072185,available
+2012-09,2012-10-08 23:59:00,ppi_gap,2012-08,2012-09-26T00:00:00,"relative price gap, log points",5.285745380013111,available
+2012-09,2012-10-08 23:59:00,fx_news,2012-09,2012-10-01T00:00:00,FX log change since import reference,-2.802934416623362,available
+2012-10,2012-11-08 23:59:00,ulc_gap,2012Q2,2012-09-13T00:00:00,"quarterly real-cost gap, log points",1.7181873284863514,available
+2012-10,2012-11-08 23:59:00,tightening,2012-09,2012-11-01T00:00:00,"negative unemployment change12, pp",-0.3000000000000007,available
+2012-10,2012-11-08 23:59:00,import_gap,2012-08,2012-10-15T00:00:00,"relative price gap, log points",6.307508122493956,available
+2012-10,2012-11-08 23:59:00,ppi_gap,2012-09,2012-10-26T00:00:00,"relative price gap, log points",4.1021222198754685,available
+2012-10,2012-11-08 23:59:00,fx_news,2012-10,2012-11-01T00:00:00,FX log change since import reference,-0.32827604643707164,available
+2012-11,2012-12-09 23:59:00,ulc_gap,2012Q2,2012-09-13T00:00:00,"quarterly real-cost gap, log points",1.7181873284863514,available
+2012-11,2012-12-09 23:59:00,tightening,2012-10,2012-12-02T00:00:00,"negative unemployment change12, pp",-0.5999999999999996,available
+2012-11,2012-12-09 23:59:00,import_gap,2012-09,2012-11-14T00:00:00,"relative price gap, log points",4.634870777169029,available
+2012-11,2012-12-09 23:59:00,ppi_gap,2012-10,2012-11-26T00:00:00,"relative price gap, log points",3.025259429952655,available
+2012-11,2012-12-09 23:59:00,fx_news,2012-11,2012-12-01T00:00:00,FX log change since import reference,2.5312753586331698,available
+2012-12,2013-01-08 23:59:00,ulc_gap,2012Q3,2012-12-14T00:00:00,"quarterly real-cost gap, log points",-0.2510430168636617,available
+2012-12,2013-01-08 23:59:00,tightening,2012-11,2013-01-01T00:00:00,"negative unemployment change12, pp",-1.0,available
+2012-12,2013-01-08 23:59:00,import_gap,2012-10,2012-12-15T00:00:00,"relative price gap, log points",4.5480692636837174,available
+2012-12,2013-01-08 23:59:00,ppi_gap,2012-11,2012-12-26T00:00:00,"relative price gap, log points",2.795740273685226,available
+2012-12,2013-01-08 23:59:00,fx_news,2012-12,2013-01-01T00:00:00,FX log change since import reference,1.1085969101074329,available
+2013-01,2013-02-10 23:59:00,ulc_gap,2012Q3,2012-12-14T00:00:00,"quarterly real-cost gap, log points",-0.24608998359366296,available
+2013-01,2013-02-10 23:59:00,tightening,2012-12,2013-02-01T00:00:00,"negative unemployment change12, pp",-0.5999999999999996,available
+2013-01,2013-02-10 23:59:00,import_gap,2012-11,2013-01-14T00:00:00,"relative price gap, log points",5.480750491092907,available
+2013-01,2013-02-10 23:59:00,ppi_gap,2012-12,2013-01-26T00:00:00,"relative price gap, log points",2.5581424646672417,available
+2013-01,2013-02-10 23:59:00,fx_news,2013-01,2013-02-01T00:00:00,FX log change since import reference,0.7775722495275235,available
+2013-02,2013-03-10 23:59:00,ulc_gap,2012Q3,2012-12-14T00:00:00,"quarterly real-cost gap, log points",-0.2495700127386158,available
+2013-02,2013-03-10 23:59:00,tightening,2013-01,2013-03-04T00:00:00,"negative unemployment change12, pp",-0.20000000000000018,available
+2013-02,2013-03-10 23:59:00,import_gap,2012-12,2013-02-14T00:00:00,"relative price gap, log points",4.375087907266895,available
+2013-02,2013-03-10 23:59:00,ppi_gap,2013-01,2013-02-26T00:00:00,"relative price gap, log points",2.760588153490346,available
+2013-02,2013-03-10 23:59:00,fx_news,2013-02,2013-03-01T00:00:00,FX log change since import reference,1.0258118833650658,available
+2013-03,2013-04-08 23:59:00,ulc_gap,2012Q4,2013-03-16T00:00:00,"quarterly real-cost gap, log points",6.203355397450366,available
+2013-03,2013-04-08 23:59:00,tightening,2013-02,2013-04-01T00:00:00,"negative unemployment change12, pp",-0.3000000000000007,available
+2013-03,2013-04-08 23:59:00,import_gap,2013-01,2013-03-17T00:00:00,"relative price gap, log points",4.6249571688214965,available
+2013-03,2013-04-08 23:59:00,ppi_gap,2013-02,2013-03-26T00:00:00,"relative price gap, log points",2.681768449388926,available
+2013-03,2013-04-08 23:59:00,fx_news,2013-03,2013-04-01T00:00:00,FX log change since import reference,0.3865304958898079,available
+2013-04,2013-05-09 23:59:00,ulc_gap,2012Q4,2013-03-16T00:00:00,"quarterly real-cost gap, log points",6.20409755100377,available
+2013-04,2013-05-09 23:59:00,tightening,2013-03,2013-05-02T00:00:00,"negative unemployment change12, pp",-0.39999999999999947,available
+2013-04,2013-05-09 23:59:00,import_gap,2013-02,2013-04-14T00:00:00,"relative price gap, log points",4.277416574244723,available
+2013-04,2013-05-09 23:59:00,ppi_gap,2013-03,2013-04-26T00:00:00,"relative price gap, log points",2.68201579485509,available
+2013-04,2013-05-09 23:59:00,fx_news,2013-04,2013-05-01T00:00:00,FX log change since import reference,1.4186846405281803,available
+2013-05,2013-06-09 23:59:00,ulc_gap,2012Q4,2013-03-16T00:00:00,"quarterly real-cost gap, log points",6.205449411333632,available
+2013-05,2013-06-09 23:59:00,tightening,2013-04,2013-06-01T00:00:00,"negative unemployment change12, pp",-0.10000000000000053,available
+2013-05,2013-06-09 23:59:00,import_gap,2013-03,2013-05-15T00:00:00,"relative price gap, log points",4.846379856935888,available
+2013-05,2013-06-09 23:59:00,ppi_gap,2013-04,2013-05-26T00:00:00,"relative price gap, log points",2.107824972098797,available
+2013-05,2013-06-09 23:59:00,fx_news,2013-05,2013-06-01T00:00:00,FX log change since import reference,0.880686959293824,available
+2013-06,2013-07-08 23:59:00,ulc_gap,2013Q1,2013-06-14T00:00:00,"quarterly real-cost gap, log points",5.466374498739071,available
+2013-06,2013-07-08 23:59:00,tightening,2013-05,2013-07-02T00:00:00,"negative unemployment change12, pp",-0.2999999999999998,available
+2013-06,2013-07-08 23:59:00,import_gap,2013-04,2013-06-14T00:00:00,"relative price gap, log points",4.166775738619247,available
+2013-06,2013-07-08 23:59:00,ppi_gap,2013-05,2013-06-26T00:00:00,"relative price gap, log points",1.9820385047284503,available
+2013-06,2013-07-08 23:59:00,fx_news,2013-06,2013-07-01T00:00:00,FX log change since import reference,-0.30619585559437396,available
+2013-07,2013-08-08 23:59:00,ulc_gap,2013Q1,2013-06-14T00:00:00,"quarterly real-cost gap, log points",5.46668767443947,available
+2013-07,2013-08-08 23:59:00,tightening,2013-06,2013-08-01T00:00:00,"negative unemployment change12, pp",0.09999999999999964,available
+2013-07,2013-08-08 23:59:00,import_gap,2013-05,2013-07-15T00:00:00,"relative price gap, log points",3.0299679605960828,available
+2013-07,2013-08-08 23:59:00,ppi_gap,2013-06,2013-07-26T00:00:00,"relative price gap, log points",1.8357244077502628,available
+2013-07,2013-08-08 23:59:00,fx_news,2013-07,2013-08-01T00:00:00,FX log change since import reference,0.23149051581437757,available
+2013-08,2013-09-08 23:59:00,ulc_gap,2013Q1,2013-06-14T00:00:00,"quarterly real-cost gap, log points",5.466726497247862,available
+2013-08,2013-09-08 23:59:00,tightening,2013-07,2013-09-01T00:00:00,"negative unemployment change12, pp",0.20000000000000018,available
+2013-08,2013-09-08 23:59:00,import_gap,2013-06,2013-08-14T00:00:00,"relative price gap, log points",1.033250801037731,available
+2013-08,2013-09-08 23:59:00,ppi_gap,2013-07,2013-08-26T00:00:00,"relative price gap, log points",1.9328848278780129,available
+2013-08,2013-09-08 23:59:00,fx_news,2013-08,2013-09-01T00:00:00,FX log change since import reference,0.22102027260601959,available
+2013-09,2013-10-08 23:59:00,ulc_gap,2013Q2,2013-09-13T00:00:00,"quarterly real-cost gap, log points",1.5700516483648244,available
+2013-09,2013-10-08 23:59:00,tightening,2013-08,2013-10-02T00:00:00,"negative unemployment change12, pp",0.0,available
+2013-09,2013-10-08 23:59:00,import_gap,2013-07,2013-09-14T00:00:00,"relative price gap, log points",1.354960541707018,available
+2013-09,2013-10-08 23:59:00,ppi_gap,2013-08,2013-09-26T00:00:00,"relative price gap, log points",1.5170769754366802,available
+2013-09,2013-10-08 23:59:00,fx_news,2013-09,2013-10-01T00:00:00,FX log change since import reference,-0.626258425348451,available
+2013-10,2013-11-10 23:59:00,ulc_gap,2013Q2,2013-09-13T00:00:00,"quarterly real-cost gap, log points",1.5694655004061815,available
+2013-10,2013-11-10 23:59:00,tightening,2013-09,2013-11-01T00:00:00,"negative unemployment change12, pp",-0.09999999999999964,available
+2013-10,2013-11-10 23:59:00,import_gap,2013-08,2013-10-15T00:00:00,"relative price gap, log points",0.5971343140199794,available
+2013-10,2013-11-10 23:59:00,ppi_gap,2013-09,2013-10-26T00:00:00,"relative price gap, log points",1.7160368664467,available
+2013-10,2013-11-10 23:59:00,fx_news,2013-10,2013-11-01T00:00:00,FX log change since import reference,-0.621650925736912,available
+2013-11,2013-12-08 23:59:00,ulc_gap,2013Q2,2013-09-13T00:00:00,"quarterly real-cost gap, log points",1.5617621718373016,available
+2013-11,2013-12-08 23:59:00,tightening,2013-10,2013-12-02T00:00:00,"negative unemployment change12, pp",0.5,available
+2013-11,2013-12-08 23:59:00,import_gap,2013-09,2013-11-14T00:00:00,"relative price gap, log points",0.28058248392296203,available
+2013-11,2013-12-08 23:59:00,ppi_gap,2013-10,2013-11-26T00:00:00,"relative price gap, log points",0.6318670959545329,available
+2013-11,2013-12-08 23:59:00,fx_news,2013-11,2013-12-01T00:00:00,FX log change since import reference,4.31847340720282,available
+2013-12,2014-01-08 23:59:00,ulc_gap,2013Q3,2013-12-14T00:00:00,"quarterly real-cost gap, log points",0.24678009078223795,available
+2013-12,2014-01-08 23:59:00,tightening,2013-11,2014-01-01T00:00:00,"negative unemployment change12, pp",0.5,available
+2013-12,2014-01-08 23:59:00,import_gap,2013-10,2013-12-15T00:00:00,"relative price gap, log points",-1.1156026275760915,available
+2013-12,2014-01-08 23:59:00,ppi_gap,2013-11,2013-12-26T00:00:00,"relative price gap, log points",1.4100612654854672,available
+2013-12,2014-01-08 23:59:00,fx_news,2013-12,2014-01-01T00:00:00,FX log change since import reference,6.994858166788809,available
+2014-01,2014-02-11 23:59:00,ulc_gap,2013Q3,2013-12-14T00:00:00,"quarterly real-cost gap, log points",0.24266656420144272,available
+2014-01,2014-02-11 23:59:00,tightening,2013-12,2014-02-01T00:00:00,"negative unemployment change12, pp",0.2999999999999998,available
+2014-01,2014-02-11 23:59:00,import_gap,2013-11,2014-01-14T00:00:00,"relative price gap, log points",2.45589488044571,available
+2014-01,2014-02-11 23:59:00,ppi_gap,2013-12,2014-01-26T00:00:00,"relative price gap, log points",2.264064203790099,available
+2014-01,2014-02-11 23:59:00,fx_news,2014-01,2014-02-01T00:00:00,FX log change since import reference,2.0548794126377317,available
+2014-02,2014-03-09 23:59:00,ulc_gap,2013Q3,2013-12-14T00:00:00,"quarterly real-cost gap, log points",0.24032807257304967,available
+2014-02,2014-03-09 23:59:00,tightening,2014-01,2014-03-04T00:00:00,"negative unemployment change12, pp",0.2999999999999998,available
+2014-02,2014-03-09 23:59:00,import_gap,2013-12,2014-02-14T00:00:00,"relative price gap, log points",4.065702148675329,available
+2014-02,2014-03-09 23:59:00,ppi_gap,2014-01,2014-02-26T00:00:00,"relative price gap, log points",2.230556761848163,available
+2014-02,2014-03-09 23:59:00,fx_news,2014-02,2014-03-01T00:00:00,FX log change since import reference,-0.2692869167316198,available
+2014-03,2014-04-08 23:59:00,ulc_gap,2013Q4,2014-03-16T00:00:00,"quarterly real-cost gap, log points",3.496125311121034,available
+2014-03,2014-04-08 23:59:00,tightening,2014-02,2014-04-01T00:00:00,"negative unemployment change12, pp",0.9000000000000004,available
+2014-03,2014-04-08 23:59:00,import_gap,2014-01,2014-03-17T00:00:00,"relative price gap, log points",3.514005784111345,available
+2014-03,2014-04-08 23:59:00,ppi_gap,2014-02,2014-03-26T00:00:00,"relative price gap, log points",2.2354735845847244,available
+2014-03,2014-04-08 23:59:00,fx_news,2014-03,2014-04-01T00:00:00,FX log change since import reference,-0.32800058562001844,available
+2014-04,2014-05-11 23:59:00,ulc_gap,2013Q4,2014-03-16T00:00:00,"quarterly real-cost gap, log points",3.4944372092782032,available
+2014-04,2014-05-11 23:59:00,tightening,2014-03,2014-05-02T00:00:00,"negative unemployment change12, pp",0.5999999999999996,available
+2014-04,2014-05-11 23:59:00,import_gap,2014-02,2014-04-14T00:00:00,"relative price gap, log points",3.1739175211557793,available
+2014-04,2014-05-11 23:59:00,ppi_gap,2014-03,2014-04-26T00:00:00,"relative price gap, log points",1.889026715728619,available
+2014-04,2014-05-11 23:59:00,fx_news,2014-04,2014-05-01T00:00:00,FX log change since import reference,0.02550416278193547,available
+2014-05,2014-06-08 23:59:00,ulc_gap,2013Q4,2014-03-16T00:00:00,"quarterly real-cost gap, log points",3.490652588527098,available
+2014-05,2014-06-08 23:59:00,tightening,2014-04,2014-06-01T00:00:00,"negative unemployment change12, pp",0.6000000000000005,available
+2014-05,2014-06-08 23:59:00,import_gap,2014-03,2014-05-15T00:00:00,"relative price gap, log points",2.233176517852705,available
+2014-05,2014-06-08 23:59:00,ppi_gap,2014-04,2014-05-26T00:00:00,"relative price gap, log points",1.6205606278681444,available
+2014-05,2014-06-08 23:59:00,fx_news,2014-05,2014-06-01T00:00:00,FX log change since import reference,0.16777915450550182,available
+2014-06,2014-07-08 23:59:00,ulc_gap,2014Q1,2014-06-14T00:00:00,"quarterly real-cost gap, log points",6.051502647510858,available
+2014-06,2014-07-08 23:59:00,tightening,2014-05,2014-07-02T00:00:00,"negative unemployment change12, pp",1.0999999999999996,available
+2014-06,2014-07-08 23:59:00,import_gap,2014-04,2014-06-14T00:00:00,"relative price gap, log points",1.5835302904920718,available
+2014-06,2014-07-08 23:59:00,ppi_gap,2014-05,2014-06-26T00:00:00,"relative price gap, log points",1.64537314575324,available
+2014-06,2014-07-08 23:59:00,fx_news,2014-06,2014-07-01T00:00:00,FX log change since import reference,0.003642920894383509,available
+2014-07,2014-08-10 23:59:00,ulc_gap,2014Q1,2014-06-14T00:00:00,"quarterly real-cost gap, log points",6.041623184697357,available
+2014-07,2014-08-10 23:59:00,tightening,2014-06,2014-08-01T00:00:00,"negative unemployment change12, pp",0.6000000000000005,available
+2014-07,2014-08-10 23:59:00,import_gap,2014-05,2014-07-15T00:00:00,"relative price gap, log points",1.5612418063194884,available
+2014-07,2014-08-10 23:59:00,ppi_gap,2014-06,2014-07-26T00:00:00,"relative price gap, log points",1.3629166858536905,available
+2014-07,2014-08-10 23:59:00,fx_news,2014-07,2014-08-01T00:00:00,FX log change since import reference,0.06193416960275439,available
+2014-08,2014-09-08 23:59:00,ulc_gap,2014Q1,2014-06-14T00:00:00,"quarterly real-cost gap, log points",6.043677452102486,available
+2014-08,2014-09-08 23:59:00,tightening,2014-07,2014-09-01T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2014-08,2014-09-08 23:59:00,import_gap,2014-06,2014-08-14T00:00:00,"relative price gap, log points",1.558256286018655,available
+2014-08,2014-09-08 23:59:00,ppi_gap,2014-07,2014-08-26T00:00:00,"relative price gap, log points",1.6847667007599512,available
+2014-08,2014-09-08 23:59:00,fx_news,2014-08,2014-09-01T00:00:00,FX log change since import reference,1.3208797541076882,available
+2014-09,2014-10-08 23:59:00,ulc_gap,2014Q2,2014-09-13T00:00:00,"quarterly real-cost gap, log points",0.3630845252732797,available
+2014-09,2014-10-08 23:59:00,tightening,2014-08,2014-10-02T00:00:00,"negative unemployment change12, pp",1.0,available
+2014-09,2014-10-08 23:59:00,import_gap,2014-07,2014-09-14T00:00:00,"relative price gap, log points",1.340620782921249,available
+2014-09,2014-10-08 23:59:00,ppi_gap,2014-08,2014-09-26T00:00:00,"relative price gap, log points",1.651316237512276,available
+2014-09,2014-10-08 23:59:00,fx_news,2014-09,2014-10-01T00:00:00,FX log change since import reference,0.5122161775650678,available
+2014-10,2014-11-09 23:59:00,ulc_gap,2014Q2,2014-09-13T00:00:00,"quarterly real-cost gap, log points",0.3640137550016789,available
+2014-10,2014-11-09 23:59:00,tightening,2014-09,2014-11-01T00:00:00,"negative unemployment change12, pp",1.2999999999999998,available
+2014-10,2014-11-09 23:59:00,import_gap,2014-08,2014-10-15T00:00:00,"relative price gap, log points",1.719339396136566,available
+2014-10,2014-11-09 23:59:00,ppi_gap,2014-09,2014-10-26T00:00:00,"relative price gap, log points",1.0873763005606634,available
+2014-10,2014-11-09 23:59:00,fx_news,2014-10,2014-11-01T00:00:00,FX log change since import reference,-0.8520522340404598,available
+2014-11,2014-12-08 23:59:00,ulc_gap,2014Q2,2014-09-13T00:00:00,"quarterly real-cost gap, log points",0.3610383597114719,available
+2014-11,2014-12-08 23:59:00,tightening,2014-10,2014-12-02T00:00:00,"negative unemployment change12, pp",1.0,available
+2014-11,2014-12-08 23:59:00,import_gap,2014-09,2014-11-14T00:00:00,"relative price gap, log points",1.6109006837325541,available
+2014-11,2014-12-08 23:59:00,ppi_gap,2014-10,2014-11-26T00:00:00,"relative price gap, log points",0.33147390589931547,available
+2014-11,2014-12-08 23:59:00,fx_news,2014-11,2014-12-01T00:00:00,FX log change since import reference,0.24609161232609691,available
+2014-12,2015-01-08 23:59:00,ulc_gap,2014Q3,2014-12-14T00:00:00,"quarterly real-cost gap, log points",-2.7231385755263204,available
+2014-12,2015-01-08 23:59:00,tightening,2014-11,2015-01-01T00:00:00,"negative unemployment change12, pp",0.8999999999999995,available
+2014-12,2015-01-08 23:59:00,import_gap,2014-10,2014-12-15T00:00:00,"relative price gap, log points",1.2839094936541011,available
+2014-12,2015-01-08 23:59:00,ppi_gap,2014-11,2014-12-26T00:00:00,"relative price gap, log points",-0.5685142417354996,available
+2014-12,2015-01-08 23:59:00,fx_news,2014-12,2015-01-01T00:00:00,FX log change since import reference,0.19560262693220873,available
+2015-01,2015-02-08 23:59:00,ulc_gap,2014Q3,2014-12-14T00:00:00,"quarterly real-cost gap, log points",-2.7264592347297025,available
+2015-01,2015-02-08 23:59:00,tightening,2014-12,2015-02-01T00:00:00,"negative unemployment change12, pp",1.0,available
+2015-01,2015-02-08 23:59:00,import_gap,2014-11,2015-01-14T00:00:00,"relative price gap, log points",1.0947677668684221,available
+2015-01,2015-02-08 23:59:00,ppi_gap,2014-12,2015-01-26T00:00:00,"relative price gap, log points",-2.4150725767312906,available
+2015-01,2015-02-08 23:59:00,fx_news,2015-01,2015-02-01T00:00:00,FX log change since import reference,0.8243238844868056,available
+2015-02,2015-03-08 23:59:00,ulc_gap,2014Q3,2014-12-14T00:00:00,"quarterly real-cost gap, log points",-2.7264592347297025,available
+2015-02,2015-03-08 23:59:00,tightening,2015-01,2015-03-04T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2015-02,2015-03-08 23:59:00,import_gap,2014-12,2015-02-14T00:00:00,"relative price gap, log points",-0.3071944851946089,available
+2015-02,2015-03-08 23:59:00,ppi_gap,2015-01,2015-02-26T00:00:00,"relative price gap, log points",-4.004098810731989,available
+2015-02,2015-03-08 23:59:00,fx_news,2015-02,2015-03-01T00:00:00,FX log change since import reference,-0.09413128387754915,available
+2015-03,2015-04-08 23:59:00,ulc_gap,2014Q4,2015-03-16T00:00:00,"quarterly real-cost gap, log points",3.456913454393714,available
+2015-03,2015-04-08 23:59:00,tightening,2015-02,2015-04-01T00:00:00,"negative unemployment change12, pp",0.5999999999999996,available
+2015-03,2015-04-08 23:59:00,import_gap,2015-01,2015-03-17T00:00:00,"relative price gap, log points",-0.6741845332216867,available
+2015-03,2015-04-08 23:59:00,ppi_gap,2015-02,2015-03-26T00:00:00,"relative price gap, log points",-4.058443803608441,available
+2015-03,2015-04-08 23:59:00,fx_news,2015-03,2015-04-01T00:00:00,FX log change since import reference,-1.8671165113666077,available
+2015-04,2015-05-11 23:59:00,ulc_gap,2014Q4,2015-03-16T00:00:00,"quarterly real-cost gap, log points",3.463761796981828,available
+2015-04,2015-05-11 23:59:00,tightening,2015-03,2015-05-02T00:00:00,"negative unemployment change12, pp",1.0,available
+2015-04,2015-05-11 23:59:00,import_gap,2015-02,2015-04-14T00:00:00,"relative price gap, log points",-1.0539665830636702,available
+2015-04,2015-05-11 23:59:00,ppi_gap,2015-03,2015-04-26T00:00:00,"relative price gap, log points",-3.2906169881674714,available
+2015-04,2015-05-11 23:59:00,fx_news,2015-04,2015-05-01T00:00:00,FX log change since import reference,-0.5994459467981985,available
+2015-05,2015-06-08 23:59:00,ulc_gap,2014Q4,2015-03-16T00:00:00,"quarterly real-cost gap, log points",3.4606898271827617,available
+2015-05,2015-06-08 23:59:00,tightening,2015-04,2015-06-01T00:00:00,"negative unemployment change12, pp",1.0999999999999996,available
+2015-05,2015-06-08 23:59:00,import_gap,2015-03,2015-05-15T00:00:00,"relative price gap, log points",-0.6491331767409445,available
+2015-05,2015-06-08 23:59:00,ppi_gap,2015-04,2015-05-26T00:00:00,"relative price gap, log points",-3.0282800169819097,available
+2015-05,2015-06-08 23:59:00,fx_news,2015-05,2015-06-01T00:00:00,FX log change since import reference,0.06207211518333582,available
+2015-06,2015-07-08 23:59:00,ulc_gap,2015Q1,2015-06-14T00:00:00,"quarterly real-cost gap, log points",2.8546768649455885,available
+2015-06,2015-07-08 23:59:00,tightening,2015-05,2015-07-02T00:00:00,"negative unemployment change12, pp",1.2999999999999998,available
+2015-06,2015-07-08 23:59:00,import_gap,2015-04,2015-06-14T00:00:00,"relative price gap, log points",0.17381690455392462,available
+2015-06,2015-07-08 23:59:00,ppi_gap,2015-05,2015-06-26T00:00:00,"relative price gap, log points",-2.527631987656889,available
+2015-06,2015-07-08 23:59:00,fx_news,2015-06,2015-07-01T00:00:00,FX log change since import reference,-0.5004668065160434,available
+2015-07,2015-08-09 23:59:00,ulc_gap,2015Q1,2015-06-14T00:00:00,"quarterly real-cost gap, log points",2.8543551394257634,available
+2015-07,2015-08-09 23:59:00,tightening,2015-06,2015-08-01T00:00:00,"negative unemployment change12, pp",1.0999999999999996,available
+2015-07,2015-08-09 23:59:00,import_gap,2015-05,2015-07-15T00:00:00,"relative price gap, log points",-0.4406604420816711,available
+2015-07,2015-08-09 23:59:00,ppi_gap,2015-06,2015-07-26T00:00:00,"relative price gap, log points",-2.893025161482626,available
+2015-07,2015-08-09 23:59:00,fx_news,2015-07,2015-08-01T00:00:00,FX log change since import reference,-1.1195447929557243,available
+2015-08,2015-09-08 23:59:00,ulc_gap,2015Q1,2015-06-14T00:00:00,"quarterly real-cost gap, log points",2.8535913974189384,available
+2015-08,2015-09-08 23:59:00,tightening,2015-07,2015-09-01T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2015-08,2015-09-08 23:59:00,import_gap,2015-06,2015-08-14T00:00:00,"relative price gap, log points",-0.8201473204988297,available
+2015-08,2015-09-08 23:59:00,ppi_gap,2015-07,2015-08-26T00:00:00,"relative price gap, log points",-3.597541976111529,available
+2015-08,2015-09-08 23:59:00,fx_news,2015-08,2015-09-01T00:00:00,FX log change since import reference,-0.9752225523102376,available
+2015-09,2015-10-08 23:59:00,ulc_gap,2015Q2,2015-09-13T00:00:00,"quarterly real-cost gap, log points",-2.4653207797582013,available
+2015-09,2015-10-08 23:59:00,tightening,2015-08,2015-10-02T00:00:00,"negative unemployment change12, pp",1.5,available
+2015-09,2015-10-08 23:59:00,import_gap,2015-07,2015-09-14T00:00:00,"relative price gap, log points",-1.5664140148589851,available
+2015-09,2015-10-08 23:59:00,ppi_gap,2015-08,2015-09-26T00:00:00,"relative price gap, log points",-4.647396707661414,available
+2015-09,2015-10-08 23:59:00,fx_news,2015-09,2015-10-01T00:00:00,FX log change since import reference,-0.033226884546924476,available
+2015-10,2015-11-08 23:59:00,ulc_gap,2015Q2,2015-09-13T00:00:00,"quarterly real-cost gap, log points",-2.46672079019379,available
+2015-10,2015-11-08 23:59:00,tightening,2015-09,2015-11-01T00:00:00,"negative unemployment change12, pp",0.9000000000000004,available
+2015-10,2015-11-08 23:59:00,import_gap,2015-08,2015-10-15T00:00:00,"relative price gap, log points",-2.5576815764868206,available
+2015-10,2015-11-08 23:59:00,ppi_gap,2015-09,2015-10-26T00:00:00,"relative price gap, log points",-5.6803721063628245,available
+2015-10,2015-11-08 23:59:00,fx_news,2015-10,2015-11-01T00:00:00,FX log change since import reference,0.22901901262934293,available
+2015-11,2015-12-08 23:59:00,ulc_gap,2015Q2,2015-09-13T00:00:00,"quarterly real-cost gap, log points",-2.4705078157628577,available
+2015-11,2015-12-08 23:59:00,tightening,2015-10,2015-12-02T00:00:00,"negative unemployment change12, pp",1.0,available
+2015-11,2015-12-08 23:59:00,import_gap,2015-09,2015-11-14T00:00:00,"relative price gap, log points",-3.410638284192307,available
+2015-11,2015-12-08 23:59:00,ppi_gap,2015-10,2015-11-26T00:00:00,"relative price gap, log points",-6.2483360131613495,available
+2015-11,2015-12-08 23:59:00,fx_news,2015-11,2015-12-01T00:00:00,FX log change since import reference,-0.15520493858689832,available
+2015-12,2016-01-11 23:59:00,ulc_gap,2015Q3,2015-12-14T00:00:00,"quarterly real-cost gap, log points",-5.248785444640646,available
+2015-12,2016-01-11 23:59:00,tightening,2015-11,2016-01-01T00:00:00,"negative unemployment change12, pp",1.7000000000000002,available
+2015-12,2016-01-11 23:59:00,import_gap,2015-10,2015-12-15T00:00:00,"relative price gap, log points",-3.9324554508828493,available
+2015-12,2016-01-11 23:59:00,ppi_gap,2015-11,2015-12-26T00:00:00,"relative price gap, log points",-6.650375830689086,available
+2015-12,2016-01-11 23:59:00,fx_news,2015-12,2016-01-01T00:00:00,FX log change since import reference,-0.28450572498566423,available
+2016-01,2016-02-11 23:59:00,ulc_gap,2015Q3,2015-12-14T00:00:00,"quarterly real-cost gap, log points",-5.252598895383926,available
+2016-01,2016-02-11 23:59:00,tightening,2015-12,2016-02-01T00:00:00,"negative unemployment change12, pp",1.2000000000000002,available
+2016-01,2016-02-11 23:59:00,import_gap,2015-11,2016-01-14T00:00:00,"relative price gap, log points",-4.020329985893605,available
+2016-01,2016-02-11 23:59:00,ppi_gap,2015-12,2016-01-26T00:00:00,"relative price gap, log points",-7.516260096551775,available
+2016-01,2016-02-11 23:59:00,fx_news,2016-01,2016-02-01T00:00:00,FX log change since import reference,-0.05178855588689807,available
+2016-02,2016-03-08 23:59:00,ulc_gap,2015Q3,2015-12-14T00:00:00,"quarterly real-cost gap, log points",-5.252598895383926,available
+2016-02,2016-03-08 23:59:00,tightening,2016-01,2016-03-03T00:00:00,"negative unemployment change12, pp",1.4000000000000004,available
+2016-02,2016-03-08 23:59:00,import_gap,2015-12,2016-02-14T00:00:00,"relative price gap, log points",-5.535887674630912,available
+2016-02,2016-03-08 23:59:00,ppi_gap,2016-01,2016-02-26T00:00:00,"relative price gap, log points",-8.554019389194707,available
+2016-02,2016-03-08 23:59:00,fx_news,2016-02,2016-03-01T00:00:00,FX log change since import reference,0.04809026264882451,available
+2016-03,2016-04-10 23:59:00,ulc_gap,2015Q4,2016-03-15T00:00:00,"quarterly real-cost gap, log points",0.6350876814821049,available
+2016-03,2016-04-10 23:59:00,tightening,2016-02,2016-04-01T00:00:00,"negative unemployment change12, pp",1.7000000000000002,available
+2016-03,2016-04-10 23:59:00,import_gap,2016-01,2016-03-16T00:00:00,"relative price gap, log points",-7.032455294180358,available
+2016-03,2016-04-10 23:59:00,ppi_gap,2016-02,2016-03-26T00:00:00,"relative price gap, log points",-9.178400692522587,available
+2016-03,2016-04-10 23:59:00,fx_news,2016-03,2016-04-01T00:00:00,FX log change since import reference,0.09246075699849512,available
+2016-04,2016-05-09 23:59:00,ulc_gap,2015Q4,2016-03-15T00:00:00,"quarterly real-cost gap, log points",0.6385593089052577,available
+2016-04,2016-05-09 23:59:00,tightening,2016-03,2016-05-02T00:00:00,"negative unemployment change12, pp",1.6000000000000005,available
+2016-04,2016-05-09 23:59:00,import_gap,2016-02,2016-04-14T00:00:00,"relative price gap, log points",-8.197221432312102,available
+2016-04,2016-05-09 23:59:00,ppi_gap,2016-03,2016-04-26T00:00:00,"relative price gap, log points",-8.963078203087207,available
+2016-04,2016-05-09 23:59:00,fx_news,2016-04,2016-05-01T00:00:00,FX log change since import reference,-0.029591270791116297,available
+2016-05,2016-06-08 23:59:00,ulc_gap,2015Q4,2016-03-15T00:00:00,"quarterly real-cost gap, log points",0.6421744509348741,available
+2016-05,2016-06-08 23:59:00,tightening,2016-04,2016-06-01T00:00:00,"negative unemployment change12, pp",1.3000000000000003,available
+2016-05,2016-06-08 23:59:00,import_gap,2016-03,2016-05-15T00:00:00,"relative price gap, log points",-7.996961584427016,available
+2016-05,2016-06-08 23:59:00,ppi_gap,2016-04,2016-05-26T00:00:00,"relative price gap, log points",-8.7401060409033,available
+2016-05,2016-06-08 23:59:00,fx_news,2016-05,2016-06-01T00:00:00,FX log change since import reference,-0.09246075699849134,available
+2016-06,2016-07-11 23:59:00,ulc_gap,2016Q1,2016-06-14T00:00:00,"quarterly real-cost gap, log points",3.6748752034499717,available
+2016-06,2016-07-11 23:59:00,tightening,2016-05,2016-07-02T00:00:00,"negative unemployment change12, pp",1.0000000000000004,available
+2016-06,2016-07-11 23:59:00,import_gap,2016-04,2016-06-14T00:00:00,"relative price gap, log points",-8.185174733307644,available
+2016-06,2016-07-11 23:59:00,ppi_gap,2016-05,2016-06-26T00:00:00,"relative price gap, log points",-8.361758397163328,available
+2016-06,2016-07-11 23:59:00,fx_news,2016-06,2016-07-01T00:00:00,FX log change since import reference,0.11092214403584123,available
+2016-07,2016-08-08 23:59:00,ulc_gap,2016Q1,2016-06-14T00:00:00,"quarterly real-cost gap, log points",3.6774215857446393,available
+2016-07,2016-08-08 23:59:00,tightening,2016-06,2016-08-01T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2016-07,2016-08-08 23:59:00,import_gap,2016-05,2016-07-15T00:00:00,"relative price gap, log points",-7.730920502019554,available
+2016-07,2016-08-08 23:59:00,ppi_gap,2016-06,2016-07-26T00:00:00,"relative price gap, log points",-6.947313589935277,available
+2016-07,2016-08-08 23:59:00,fx_news,2016-07,2016-08-01T00:00:00,FX log change since import reference,0.04439183263193187,available
+2016-08,2016-09-08 23:59:00,ulc_gap,2016Q1,2016-06-14T00:00:00,"quarterly real-cost gap, log points",3.6774215857446393,available
+2016-08,2016-09-08 23:59:00,tightening,2016-07,2016-09-01T00:00:00,"negative unemployment change12, pp",0.9000000000000004,available
+2016-08,2016-09-08 23:59:00,import_gap,2016-06,2016-08-14T00:00:00,"relative price gap, log points",-6.85868312708501,available
+2016-08,2016-09-08 23:59:00,ppi_gap,2016-07,2016-08-26T00:00:00,"relative price gap, log points",-6.231957788038017,available
+2016-08,2016-09-08 23:59:00,fx_news,2016-08,2016-09-01T00:00:00,FX log change since import reference,-0.13312134495577194,available
+2016-09,2016-10-09 23:59:00,ulc_gap,2016Q2,2016-09-13T00:00:00,"quarterly real-cost gap, log points",-1.3269275404973087,available
+2016-09,2016-10-09 23:59:00,tightening,2016-08,2016-10-02T00:00:00,"negative unemployment change12, pp",1.0,available
+2016-09,2016-10-09 23:59:00,import_gap,2016-07,2016-09-14T00:00:00,"relative price gap, log points",-6.802360911259845,available
+2016-09,2016-10-09 23:59:00,ppi_gap,2016-08,2016-09-26T00:00:00,"relative price gap, log points",-6.175525904565177,available
+2016-09,2016-10-09 23:59:00,fx_news,2016-09,2016-10-01T00:00:00,FX log change since import reference,-0.06289424724980856,available
+2016-10,2016-11-08 23:59:00,ulc_gap,2016Q2,2016-09-13T00:00:00,"quarterly real-cost gap, log points",-1.3287096094906587,available
+2016-10,2016-11-08 23:59:00,tightening,2016-09,2016-11-01T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2016-10,2016-11-08 23:59:00,import_gap,2016-08,2016-10-15T00:00:00,"relative price gap, log points",-6.760012097033375,available
+2016-10,2016-11-08 23:59:00,ppi_gap,2016-09,2016-10-26T00:00:00,"relative price gap, log points",-5.722185584586555,available
+2016-10,2016-11-08 23:59:00,fx_news,2016-10,2016-11-01T00:00:00,FX log change since import reference,-0.014802205555645778,available
+2016-11,2016-12-08 23:59:00,ulc_gap,2016Q2,2016-09-13T00:00:00,"quarterly real-cost gap, log points",-1.3376514551067658,available
+2016-11,2016-12-08 23:59:00,tightening,2016-10,2016-12-02T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2016-11,2016-12-08 23:59:00,import_gap,2016-09,2016-11-14T00:00:00,"relative price gap, log points",-6.9125013285432075,available
+2016-11,2016-12-08 23:59:00,ppi_gap,2016-10,2016-11-26T00:00:00,"relative price gap, log points",-5.370523480225472,available
+2016-11,2016-12-08 23:59:00,fx_news,2016-11,2016-12-01T00:00:00,FX log change since import reference,0.04070079422732619,available
+2016-12,2017-01-09 23:59:00,ulc_gap,2016Q3,2016-12-14T00:00:00,"quarterly real-cost gap, log points",-1.8029208529570724,available
+2016-12,2017-01-09 23:59:00,tightening,2016-11,2017-01-01T00:00:00,"negative unemployment change12, pp",0.8999999999999999,available
+2016-12,2017-01-09 23:59:00,import_gap,2016-10,2016-12-15T00:00:00,"relative price gap, log points",-6.407541272756789,available
+2016-12,2017-01-09 23:59:00,ppi_gap,2016-11,2016-12-26T00:00:00,"relative price gap, log points",-5.03011897220847,available
+2016-12,2017-01-09 23:59:00,fx_news,2016-12,2017-01-01T00:00:00,FX log change since import reference,0.03330188186407143,available
+2017-01,2017-02-09 23:59:00,ulc_gap,2016Q3,2016-12-14T00:00:00,"quarterly real-cost gap, log points",-1.8092923553019773,available
+2017-01,2017-02-09 23:59:00,tightening,2016-12,2017-02-01T00:00:00,"negative unemployment change12, pp",0.9999999999999996,available
+2017-01,2017-02-09 23:59:00,import_gap,2016-11,2017-01-14T00:00:00,"relative price gap, log points",-5.798610583056747,available
+2017-01,2017-02-09 23:59:00,ppi_gap,2016-12,2017-01-26T00:00:00,"relative price gap, log points",-4.626985933903654,available
+2017-01,2017-02-09 23:59:00,fx_news,2017-01,2017-02-01T00:00:00,FX log change since import reference,-0.044401687993607164,available
+2017-02,2017-03-08 23:59:00,ulc_gap,2016Q3,2016-12-14T00:00:00,"quarterly real-cost gap, log points",-1.8092923553019205,available
+2017-02,2017-03-08 23:59:00,tightening,2017-01,2017-03-04T00:00:00,"negative unemployment change12, pp",0.8999999999999999,available
+2017-02,2017-03-08 23:59:00,import_gap,2016-12,2017-02-14T00:00:00,"relative price gap, log points",-4.802067019277283,available
+2017-02,2017-03-08 23:59:00,ppi_gap,2017-01,2017-02-26T00:00:00,"relative price gap, log points",-3.925354865229508,available
+2017-02,2017-03-08 23:59:00,fx_news,2017-02,2017-03-01T00:00:00,FX log change since import reference,-0.03700277563035177,available
+2017-03,2017-04-09 23:59:00,ulc_gap,2016Q4,2017-03-16T00:00:00,"quarterly real-cost gap, log points",3.674675006457676,available
+2017-03,2017-04-09 23:59:00,tightening,2017-02,2017-04-01T00:00:00,"negative unemployment change12, pp",0.9000000000000004,available
+2017-03,2017-04-09 23:59:00,import_gap,2017-01,2017-03-17T00:00:00,"relative price gap, log points",-3.652218060523234,available
+2017-03,2017-04-09 23:59:00,ppi_gap,2017-02,2017-03-26T00:00:00,"relative price gap, log points",-3.269062690883402,available
+2017-03,2017-04-09 23:59:00,fx_news,2017-03,2017-04-01T00:00:00,FX log change since import reference,0.0,available
+2017-04,2017-05-09 23:59:00,ulc_gap,2016Q4,2017-03-16T00:00:00,"quarterly real-cost gap, log points",3.6766119151042744,available
+2017-04,2017-05-09 23:59:00,tightening,2017-03,2017-05-02T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2017-04,2017-05-09 23:59:00,import_gap,2017-02,2017-04-14T00:00:00,"relative price gap, log points",-2.616985850607324,available
+2017-04,2017-05-09 23:59:00,ppi_gap,2017-03,2017-04-26T00:00:00,"relative price gap, log points",-2.641298629486755,available
+2017-04,2017-05-09 23:59:00,fx_news,2017-04,2017-05-01T00:00:00,FX log change since import reference,-0.7280323368125273,available
+2017-05,2017-06-08 23:59:00,ulc_gap,2016Q4,2017-03-16T00:00:00,"quarterly real-cost gap, log points",3.6770106808390324,available
+2017-05,2017-06-08 23:59:00,tightening,2017-04,2017-06-01T00:00:00,"negative unemployment change12, pp",0.6000000000000001,available
+2017-05,2017-06-08 23:59:00,import_gap,2017-03,2017-05-15T00:00:00,"relative price gap, log points",-1.9645527638959521,available
+2017-05,2017-06-08 23:59:00,ppi_gap,2017-04,2017-05-26T00:00:00,"relative price gap, log points",-1.8358651159094848,available
+2017-05,2017-06-08 23:59:00,fx_news,2017-05,2017-06-01T00:00:00,FX log change since import reference,-1.7020416853585514,available
+2017-06,2017-07-11 23:59:00,ulc_gap,2017Q1,2017-06-14T00:00:00,"quarterly real-cost gap, log points",4.837568462853255,available
+2017-06,2017-07-11 23:59:00,tightening,2017-05,2017-07-02T00:00:00,"negative unemployment change12, pp",0.8999999999999999,available
+2017-06,2017-07-11 23:59:00,import_gap,2017-04,2017-06-14T00:00:00,"relative price gap, log points",-2.0833655702220297,available
+2017-06,2017-07-11 23:59:00,ppi_gap,2017-05,2017-06-26T00:00:00,"relative price gap, log points",-2.0693241176346646,available
+2017-06,2017-07-11 23:59:00,fx_news,2017-06,2017-07-01T00:00:00,FX log change since import reference,-2.11359046209696,available
+2017-07,2017-08-08 23:59:00,ulc_gap,2017Q1,2017-06-14T00:00:00,"quarterly real-cost gap, log points",4.840017187079809,available
+2017-07,2017-08-08 23:59:00,tightening,2017-06,2017-08-01T00:00:00,"negative unemployment change12, pp",1.4000000000000004,available
+2017-07,2017-08-08 23:59:00,import_gap,2017-05,2017-07-15T00:00:00,"relative price gap, log points",-3.354988200583756,available
+2017-07,2017-08-08 23:59:00,ppi_gap,2017-06,2017-07-26T00:00:00,"relative price gap, log points",-2.29868947985824,available
+2017-07,2017-08-08 23:59:00,fx_news,2017-07,2017-08-01T00:00:00,FX log change since import reference,-1.861826643788017,available
+2017-08,2017-09-10 23:59:00,ulc_gap,2017Q1,2017-06-14T00:00:00,"quarterly real-cost gap, log points",4.840017187079866,available
+2017-08,2017-09-10 23:59:00,tightening,2017-07,2017-09-01T00:00:00,"negative unemployment change12, pp",1.2999999999999998,available
+2017-08,2017-09-10 23:59:00,import_gap,2017-06,2017-08-14T00:00:00,"relative price gap, log points",-4.9975404493235285,available
+2017-08,2017-09-10 23:59:00,ppi_gap,2017-07,2017-08-26T00:00:00,"relative price gap, log points",-2.2950934585125538,available
+2017-08,2017-09-10 23:59:00,fx_news,2017-08,2017-09-01T00:00:00,FX log change since import reference,-0.6187476772034263,available
+2017-09,2017-10-08 23:59:00,ulc_gap,2017Q2,2017-09-13T00:00:00,"quarterly real-cost gap, log points",0.5688232782068212,available
+2017-09,2017-10-08 23:59:00,tightening,2017-08,2017-10-02T00:00:00,"negative unemployment change12, pp",1.0,available
+2017-09,2017-10-08 23:59:00,import_gap,2017-07,2017-09-14T00:00:00,"relative price gap, log points",-5.950535674100745,available
+2017-09,2017-10-08 23:59:00,ppi_gap,2017-08,2017-09-26T00:00:00,"relative price gap, log points",-1.9116347177645707,available
+2017-09,2017-10-08 23:59:00,fx_news,2017-09,2017-10-01T00:00:00,FX log change since import reference,0.003835164624891805,available
+2017-10,2017-11-08 23:59:00,ulc_gap,2017Q2,2017-09-13T00:00:00,"quarterly real-cost gap, log points",0.5684221081258443,available
+2017-10,2017-11-08 23:59:00,tightening,2017-09,2017-11-01T00:00:00,"negative unemployment change12, pp",1.2999999999999998,available
+2017-10,2017-11-08 23:59:00,import_gap,2017-08,2017-10-15T00:00:00,"relative price gap, log points",-6.203108641934792,available
+2017-10,2017-11-08 23:59:00,ppi_gap,2017-09,2017-10-26T00:00:00,"relative price gap, log points",-1.5983843200132242,available
+2017-10,2017-11-08 23:59:00,fx_news,2017-10,2017-11-01T00:00:00,FX log change since import reference,-1.2956645990736004,available
+2017-11,2017-12-10 23:59:00,ulc_gap,2017Q2,2017-09-13T00:00:00,"quarterly real-cost gap, log points",0.5666682914660441,available
+2017-11,2017-12-10 23:59:00,tightening,2017-10,2017-12-02T00:00:00,"negative unemployment change12, pp",1.0999999999999996,available
+2017-11,2017-12-10 23:59:00,import_gap,2017-09,2017-11-14T00:00:00,"relative price gap, log points",-5.80280973063443,available
+2017-11,2017-12-10 23:59:00,ppi_gap,2017-10,2017-11-26T00:00:00,"relative price gap, log points",-1.8383378994445252,available
+2017-11,2017-12-10 23:59:00,fx_news,2017-11,2017-12-01T00:00:00,FX log change since import reference,-2.0887779619437774,available
+2017-12,2018-01-09 23:59:00,ulc_gap,2017Q3,2017-12-14T00:00:00,"quarterly real-cost gap, log points",-1.687551874412577,available
+2017-12,2018-01-09 23:59:00,tightening,2017-11,2018-01-01T00:00:00,"negative unemployment change12, pp",1.2000000000000002,available
+2017-12,2018-01-09 23:59:00,import_gap,2017-10,2017-12-15T00:00:00,"relative price gap, log points",-6.300189282288188,available
+2017-12,2018-01-09 23:59:00,ppi_gap,2017-11,2017-12-26T00:00:00,"relative price gap, log points",-1.726973763942965,available
+2017-12,2018-01-09 23:59:00,fx_news,2017-12,2018-01-01T00:00:00,FX log change since import reference,-0.4590376067981311,available
+2018-01,2018-02-13 23:59:00,ulc_gap,2017Q3,2017-12-14T00:00:00,"quarterly real-cost gap, log points",-1.6829741379054894,available
+2018-01,2018-02-13 23:59:00,tightening,2017-12,2018-02-01T00:00:00,"negative unemployment change12, pp",1.3000000000000003,available
+2018-01,2018-02-13 23:59:00,import_gap,2017-11,2018-01-14T00:00:00,"relative price gap, log points",-6.528928720843975,available
+2018-01,2018-02-13 23:59:00,ppi_gap,2017-12,2018-01-26T00:00:00,"relative price gap, log points",-1.1110742252744785,available
+2018-01,2018-02-13 23:59:00,fx_news,2018-01,2018-02-01T00:00:00,FX log change since import reference,-0.32948958968525377,available
+2018-02,2018-03-08 23:59:00,ulc_gap,2017Q3,2017-12-14T00:00:00,"quarterly real-cost gap, log points",-1.6829741379054894,available
+2018-02,2018-03-08 23:59:00,tightening,2018-01,2018-03-04T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2018-02,2018-03-08 23:59:00,import_gap,2017-12,2018-02-14T00:00:00,"relative price gap, log points",-5.7155776308173145,available
+2018-02,2018-03-08 23:59:00,ppi_gap,2018-01,2018-02-26T00:00:00,"relative price gap, log points",-0.9496903988109011,available
+2018-02,2018-03-08 23:59:00,fx_news,2018-02,2018-03-01T00:00:00,FX log change since import reference,-1.2871503686932093,available
+2018-03,2018-04-09 23:59:00,ulc_gap,2017Q4,2018-03-16T00:00:00,"quarterly real-cost gap, log points",3.3007035846584927,available
+2018-03,2018-04-09 23:59:00,tightening,2018-02,2018-04-01T00:00:00,"negative unemployment change12, pp",1.0,available
+2018-03,2018-04-09 23:59:00,import_gap,2018-01,2018-03-17T00:00:00,"relative price gap, log points",-5.833440763028428,available
+2018-03,2018-04-09 23:59:00,ppi_gap,2018-02,2018-03-26T00:00:00,"relative price gap, log points",-1.8341148430466774,available
+2018-03,2018-04-09 23:59:00,fx_news,2018-03,2018-04-01T00:00:00,FX log change since import reference,-0.09040703432156029,available
+2018-04,2018-05-09 23:59:00,ulc_gap,2017Q4,2018-03-16T00:00:00,"quarterly real-cost gap, log points",3.300500147229002,available
+2018-04,2018-05-09 23:59:00,tightening,2018-03,2018-05-02T00:00:00,"negative unemployment change12, pp",1.1999999999999997,available
+2018-04,2018-05-09 23:59:00,import_gap,2018-02,2018-04-14T00:00:00,"relative price gap, log points",-6.061944836344446,available
+2018-04,2018-05-09 23:59:00,ppi_gap,2018-03,2018-04-26T00:00:00,"relative price gap, log points",-1.6865645515899246,available
+2018-04,2018-05-09 23:59:00,fx_news,2018-04,2018-05-01T00:00:00,FX log change since import reference,0.17757438125109887,available
+2018-05,2018-06-10 23:59:00,ulc_gap,2017Q4,2018-03-16T00:00:00,"quarterly real-cost gap, log points",3.2928222414100787,available
+2018-05,2018-06-10 23:59:00,tightening,2018-04,2018-06-01T00:00:00,"negative unemployment change12, pp",1.0,available
+2018-05,2018-06-10 23:59:00,import_gap,2018-03,2018-05-15T00:00:00,"relative price gap, log points",-5.742044397787342,available
+2018-05,2018-06-10 23:59:00,ppi_gap,2018-04,2018-05-26T00:00:00,"relative price gap, log points",-1.5735120676526435,available
+2018-05,2018-06-10 23:59:00,fx_news,2018-05,2018-06-01T00:00:00,FX log change since import reference,0.8419371097680791,available
+2018-06,2018-07-10 23:59:00,ulc_gap,2018Q1,2018-06-14T00:00:00,"quarterly real-cost gap, log points",8.203443350123734,available
+2018-06,2018-07-10 23:59:00,tightening,2018-05,2018-07-02T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2018-06,2018-07-10 23:59:00,import_gap,2018-04,2018-06-14T00:00:00,"relative price gap, log points",-5.870264969336982,available
+2018-06,2018-07-10 23:59:00,ppi_gap,2018-05,2018-06-26T00:00:00,"relative price gap, log points",-0.531362979384653,available
+2018-06,2018-07-10 23:59:00,fx_news,2018-06,2018-07-01T00:00:00,FX log change since import reference,1.6151775623315836,available
+2018-07,2018-08-08 23:59:00,ulc_gap,2018Q1,2018-06-14T00:00:00,"quarterly real-cost gap, log points",8.201920502200664,available
+2018-07,2018-08-08 23:59:00,tightening,2018-06,2018-08-01T00:00:00,"negative unemployment change12, pp",0.5,available
+2018-07,2018-08-08 23:59:00,import_gap,2018-05,2018-07-15T00:00:00,"relative price gap, log points",-4.374635273253679,available
+2018-07,2018-08-08 23:59:00,ppi_gap,2018-06,2018-07-26T00:00:00,"relative price gap, log points",-0.004571168740085341,available
+2018-07,2018-08-08 23:59:00,fx_news,2018-07,2018-08-01T00:00:00,FX log change since import reference,0.7691449175017684,available
+2018-08,2018-09-09 23:59:00,ulc_gap,2018Q1,2018-06-14T00:00:00,"quarterly real-cost gap, log points",8.201920502200664,available
+2018-08,2018-09-09 23:59:00,tightening,2018-07,2018-09-01T00:00:00,"negative unemployment change12, pp",0.5999999999999996,available
+2018-08,2018-09-09 23:59:00,import_gap,2018-06,2018-08-14T00:00:00,"relative price gap, log points",-3.2402555174517143,available
+2018-08,2018-09-09 23:59:00,ppi_gap,2018-07,2018-08-26T00:00:00,"relative price gap, log points",-0.38817846210326934,available
+2018-08,2018-09-09 23:59:00,fx_news,2018-08,2018-09-01T00:00:00,FX log change since import reference,-0.365332703264276,available
+2018-09,2018-10-08 23:59:00,ulc_gap,2018Q2,2018-09-13T00:00:00,"quarterly real-cost gap, log points",4.599764326611648,available
+2018-09,2018-10-08 23:59:00,tightening,2018-08,2018-10-02T00:00:00,"negative unemployment change12, pp",0.30000000000000027,available
+2018-09,2018-10-08 23:59:00,import_gap,2018-07,2018-09-14T00:00:00,"relative price gap, log points",-3.268824986661762,available
+2018-09,2018-10-08 23:59:00,ppi_gap,2018-08,2018-09-26T00:00:00,"relative price gap, log points",-0.2863793661379077,available
+2018-09,2018-10-08 23:59:00,fx_news,2018-09,2018-10-01T00:00:00,FX log change since import reference,-0.9096272632466506,available
+2018-10,2018-11-08 23:59:00,ulc_gap,2018Q2,2018-09-13T00:00:00,"quarterly real-cost gap, log points",4.602689888645557,available
+2018-10,2018-11-08 23:59:00,tightening,2018-09,2018-11-01T00:00:00,"negative unemployment change12, pp",0.5,available
+2018-10,2018-11-08 23:59:00,import_gap,2018-08,2018-10-15T00:00:00,"relative price gap, log points",-3.241225402413183,available
+2018-10,2018-11-08 23:59:00,ppi_gap,2018-09,2018-10-26T00:00:00,"relative price gap, log points",0.1795508002265933,available
+2018-10,2018-11-08 23:59:00,fx_news,2018-10,2018-11-01T00:00:00,FX log change since import reference,0.5242628656059412,available
+2018-11,2018-12-09 23:59:00,ulc_gap,2018Q2,2018-09-13T00:00:00,"quarterly real-cost gap, log points",4.584368557806897,available
+2018-11,2018-12-09 23:59:00,tightening,2018-10,2018-12-02T00:00:00,"negative unemployment change12, pp",0.6000000000000001,available
+2018-11,2018-12-09 23:59:00,import_gap,2018-09,2018-11-14T00:00:00,"relative price gap, log points",-2.9429652643195423,available
+2018-11,2018-12-09 23:59:00,ppi_gap,2018-10,2018-11-26T00:00:00,"relative price gap, log points",0.5980396140523112,available
+2018-11,2018-12-09 23:59:00,fx_news,2018-11,2018-12-01T00:00:00,FX log change since import reference,1.2650046459130564,available
+2018-12,2019-01-09 23:59:00,ulc_gap,2018Q3,2018-12-14T00:00:00,"quarterly real-cost gap, log points",0.8768676912021647,available
+2018-12,2019-01-09 23:59:00,tightening,2018-11,2019-01-01T00:00:00,"negative unemployment change12, pp",0.3999999999999999,available
+2018-12,2019-01-09 23:59:00,import_gap,2018-10,2018-12-15T00:00:00,"relative price gap, log points",-2.382217990311779,available
+2018-12,2019-01-09 23:59:00,ppi_gap,2018-11,2018-12-26T00:00:00,"relative price gap, log points",0.3226693668902385,available
+2018-12,2019-01-09 23:59:00,fx_news,2018-12,2019-01-01T00:00:00,FX log change since import reference,0.04646840232313977,available
+2019-01,2019-02-12 23:59:00,ulc_gap,2018Q3,2018-12-14T00:00:00,"quarterly real-cost gap, log points",0.8749140633938168,available
+2019-01,2019-02-12 23:59:00,tightening,2018-12,2019-02-01T00:00:00,"negative unemployment change12, pp",0.0,available
+2019-01,2019-02-12 23:59:00,import_gap,2018-11,2019-01-14T00:00:00,"relative price gap, log points",-2.4297604050062906,available
+2019-01,2019-02-12 23:59:00,ppi_gap,2018-12,2019-01-26T00:00:00,"relative price gap, log points",-1.1758299219301307,available
+2019-01,2019-02-12 23:59:00,fx_news,2019-01,2019-02-01T00:00:00,FX log change since import reference,-1.1050264624677455,available
+2019-02,2019-03-10 23:59:00,ulc_gap,2018Q3,2018-12-14T00:00:00,"quarterly real-cost gap, log points",0.8724267232760212,available
+2019-02,2019-03-10 23:59:00,tightening,2019-01,2019-03-04T00:00:00,"negative unemployment change12, pp",0.6000000000000001,available
+2019-02,2019-03-10 23:59:00,import_gap,2018-12,2019-02-14T00:00:00,"relative price gap, log points",-3.2699036027041886,available
+2019-02,2019-03-10 23:59:00,ppi_gap,2019-01,2019-02-26T00:00:00,"relative price gap, log points",-1.6922455966833354,available
+2019-02,2019-03-10 23:59:00,fx_news,2019-02,2019-03-01T00:00:00,FX log change since import reference,-0.40733253876356745,available
+2019-03,2019-04-09 23:59:00,ulc_gap,2018Q4,2019-03-16T00:00:00,"quarterly real-cost gap, log points",3.696539763472572,available
+2019-03,2019-04-09 23:59:00,tightening,2019-02,2019-04-01T00:00:00,"negative unemployment change12, pp",0.5999999999999999,available
+2019-03,2019-04-09 23:59:00,import_gap,2019-01,2019-03-17T00:00:00,"relative price gap, log points",-3.253522849097023,available
+2019-03,2019-04-09 23:59:00,ppi_gap,2019-02,2019-03-26T00:00:00,"relative price gap, log points",-1.3484204699008728,available
+2019-03,2019-04-09 23:59:00,fx_news,2019-03,2019-04-01T00:00:00,FX log change since import reference,0.10521189475165074,available
+2019-04,2019-05-12 23:59:00,ulc_gap,2018Q4,2019-03-16T00:00:00,"quarterly real-cost gap, log points",3.701945586496322,available
+2019-04,2019-05-12 23:59:00,tightening,2019-03,2019-05-02T00:00:00,"negative unemployment change12, pp",0.0,available
+2019-04,2019-05-12 23:59:00,import_gap,2019-02,2019-04-14T00:00:00,"relative price gap, log points",-2.311284742571826,available
+2019-04,2019-05-12 23:59:00,ppi_gap,2019-03,2019-04-26T00:00:00,"relative price gap, log points",-1.062992168067808,available
+2019-04,2019-05-12 23:59:00,fx_news,2019-04,2019-05-01T00:00:00,FX log change since import reference,-0.18676321525310302,available
+2019-05,2019-06-10 23:59:00,ulc_gap,2018Q4,2019-03-16T00:00:00,"quarterly real-cost gap, log points",3.701945586496379,available
+2019-05,2019-06-10 23:59:00,tightening,2019-04,2019-06-01T00:00:00,"negative unemployment change12, pp",0.19999999999999973,available
+2019-05,2019-06-10 23:59:00,import_gap,2019-03,2019-05-15T00:00:00,"relative price gap, log points",-2.3855355827214932,available
+2019-05,2019-06-10 23:59:00,ppi_gap,2019-04,2019-05-26T00:00:00,"relative price gap, log points",-0.37035611166845683,available
+2019-05,2019-06-10 23:59:00,fx_news,2019-05,2019-06-01T00:00:00,FX log change since import reference,0.3654321214741958,available
+2019-06,2019-07-10 23:59:00,ulc_gap,2019Q1,2019-06-14T00:00:00,"quarterly real-cost gap, log points",6.806538635825973,available
+2019-06,2019-07-10 23:59:00,tightening,2019-05,2019-07-02T00:00:00,"negative unemployment change12, pp",0.10000000000000009,available
+2019-06,2019-07-10 23:59:00,import_gap,2019-04,2019-06-14T00:00:00,"relative price gap, log points",-1.894264664503356,available
+2019-06,2019-07-10 23:59:00,ppi_gap,2019-05,2019-06-26T00:00:00,"relative price gap, log points",0.01148673066450101,available
+2019-06,2019-07-10 23:59:00,fx_news,2019-06,2019-07-01T00:00:00,FX log change since import reference,-0.28470602878253437,available
+2019-07,2019-08-11 23:59:00,ulc_gap,2019Q1,2019-06-14T00:00:00,"quarterly real-cost gap, log points",6.805806427570985,available
+2019-07,2019-08-11 23:59:00,tightening,2019-06,2019-08-01T00:00:00,"negative unemployment change12, pp",0.5999999999999999,available
+2019-07,2019-08-11 23:59:00,import_gap,2019-05,2019-07-15T00:00:00,"relative price gap, log points",-1.7393323512787724,available
+2019-07,2019-08-11 23:59:00,ppi_gap,2019-06,2019-07-26T00:00:00,"relative price gap, log points",-1.006751214715905,available
+2019-07,2019-08-11 23:59:00,fx_news,2019-07,2019-08-01T00:00:00,FX log change since import reference,-0.8534569837220273,available
+2019-08,2019-09-09 23:59:00,ulc_gap,2019Q1,2019-06-14T00:00:00,"quarterly real-cost gap, log points",6.799189605599395,available
+2019-08,2019-09-09 23:59:00,tightening,2019-07,2019-09-01T00:00:00,"negative unemployment change12, pp",0.10000000000000009,available
+2019-08,2019-09-09 23:59:00,import_gap,2019-06,2019-08-14T00:00:00,"relative price gap, log points",-3.312826712483692,available
+2019-08,2019-09-09 23:59:00,ppi_gap,2019-07,2019-08-26T00:00:00,"relative price gap, log points",-1.8381979492895084,available
+2019-08,2019-09-09 23:59:00,fx_news,2019-08,2019-09-01T00:00:00,FX log change since import reference,0.7703419023187917,available
+2019-09,2019-10-09 23:59:00,ulc_gap,2019Q2,2019-09-13T00:00:00,"quarterly real-cost gap, log points",3.067701041846874,available
+2019-09,2019-10-09 23:59:00,tightening,2019-08,2019-10-02T00:00:00,"negative unemployment change12, pp",0.2999999999999998,available
+2019-09,2019-10-09 23:59:00,import_gap,2019-07,2019-09-14T00:00:00,"relative price gap, log points",-4.19382998468409,available
+2019-09,2019-10-09 23:59:00,ppi_gap,2019-08,2019-09-26T00:00:00,"relative price gap, log points",-1.8488085635236757,available
+2019-09,2019-10-09 23:59:00,fx_news,2019-09,2019-10-01T00:00:00,FX log change since import reference,1.22915702089166,available
+2019-10,2019-11-10 23:59:00,ulc_gap,2019Q2,2019-09-13T00:00:00,"quarterly real-cost gap, log points",3.0956847451350313,available
+2019-10,2019-11-10 23:59:00,tightening,2019-09,2019-11-01T00:00:00,"negative unemployment change12, pp",0.10000000000000009,available
+2019-10,2019-11-10 23:59:00,import_gap,2019-08,2019-10-15T00:00:00,"relative price gap, log points",-3.870792866893761,available
+2019-10,2019-11-10 23:59:00,ppi_gap,2019-09,2019-10-26T00:00:00,"relative price gap, log points",-1.3484810720016185,available
+2019-10,2019-11-10 23:59:00,fx_news,2019-10,2019-11-01T00:00:00,FX log change since import reference,-0.39999276646406035,available
+2019-11,2019-12-09 23:59:00,ulc_gap,2019Q2,2019-09-13T00:00:00,"quarterly real-cost gap, log points",3.0778072372135057,available
+2019-11,2019-12-09 23:59:00,tightening,2019-10,2019-12-02T00:00:00,"negative unemployment change12, pp",-0.10000000000000009,available
+2019-11,2019-12-09 23:59:00,import_gap,2019-09,2019-11-14T00:00:00,"relative price gap, log points",-3.2433749852744826,available
+2019-11,2019-12-09 23:59:00,ppi_gap,2019-10,2019-11-26T00:00:00,"relative price gap, log points",-2.01937313206696,available
+2019-11,2019-12-09 23:59:00,fx_news,2019-11,2019-12-01T00:00:00,FX log change since import reference,-1.3113793782577532,available
+2019-12,2020-01-12 23:59:00,ulc_gap,2019Q3,2019-12-14T00:00:00,"quarterly real-cost gap, log points",-1.3721828459780454,available
+2019-12,2020-01-12 23:59:00,tightening,2019-11,2020-01-01T00:00:00,"negative unemployment change12, pp",-0.20000000000000018,available
+2019-12,2020-01-12 23:59:00,import_gap,2019-10,2019-12-15T00:00:00,"relative price gap, log points",-3.6986410324799674,available
+2019-12,2020-01-12 23:59:00,ppi_gap,2019-11,2019-12-26T00:00:00,"relative price gap, log points",-2.4671137372208136,available
+2019-12,2020-01-12 23:59:00,fx_news,2019-12,2020-01-01T00:00:00,FX log change since import reference,-0.785206292237372,available
+2020-01,2020-02-13 23:59:00,ulc_gap,2019Q3,2019-12-14T00:00:00,"quarterly real-cost gap, log points",-1.3714833732996112,available
+2020-01,2020-02-13 23:59:00,tightening,2019-12,2020-02-01T00:00:00,"negative unemployment change12, pp",0.3999999999999999,available
+2020-01,2020-02-13 23:59:00,import_gap,2019-11,2020-01-14T00:00:00,"relative price gap, log points",-3.7460079396227943,available
+2020-01,2020-02-13 23:59:00,ppi_gap,2019-12,2020-01-26T00:00:00,"relative price gap, log points",-2.4402267904546875,available
+2020-01,2020-02-13 23:59:00,fx_news,2020-01,2020-02-01T00:00:00,FX log change since import reference,-1.2415175724703857,available
+2020-02,2020-03-09 23:59:00,ulc_gap,2019Q3,2019-12-14T00:00:00,"quarterly real-cost gap, log points",-1.3839723375460835,available
+2020-02,2020-03-09 23:59:00,tightening,2020-01,2020-03-03T00:00:00,"negative unemployment change12, pp",0.0,available
+2020-02,2020-03-09 23:59:00,import_gap,2019-12,2020-02-14T00:00:00,"relative price gap, log points",-4.133360692192699,available
+2020-02,2020-03-09 23:59:00,ppi_gap,2020-01,2020-02-26T00:00:00,"relative price gap, log points",-2.690618805452459,available
+2020-02,2020-03-09 23:59:00,fx_news,2020-02,2020-03-01T00:00:00,FX log change since import reference,-1.7726190185056696,available
+2020-03,2020-04-13 23:59:00,ulc_gap,2019Q4,2020-03-15T00:00:00,"quarterly real-cost gap, log points",3.571939359361579,available
+2020-03,2020-04-13 23:59:00,tightening,2020-02,2020-04-01T00:00:00,"negative unemployment change12, pp",-0.10000000000000009,available
+2020-03,2020-04-13 23:59:00,import_gap,2020-01,2020-03-16T00:00:00,"relative price gap, log points",-5.37490100540017,available
+2020-03,2020-04-13 23:59:00,ppi_gap,2020-02,2020-03-26T00:00:00,"relative price gap, log points",-4.054481868646064,available
+2020-03,2020-04-13 23:59:00,fx_news,2020-03,2020-04-01T00:00:00,FX log change since import reference,5.253186869932298,available
+2020-04,2020-05-12 23:59:00,ulc_gap,2019Q4,2020-03-15T00:00:00,"quarterly real-cost gap, log points",3.574192803188623,available
+2020-04,2020-05-12 23:59:00,tightening,2020-03,2020-05-02T00:00:00,"negative unemployment change12, pp",0.20000000000000018,available
+2020-04,2020-05-12 23:59:00,import_gap,2020-02,2020-04-14T00:00:00,"relative price gap, log points",-7.03065277630545,available
+2020-04,2020-05-12 23:59:00,ppi_gap,2020-03,2020-04-26T00:00:00,"relative price gap, log points",-4.616554686648499,available
+2020-04,2020-05-12 23:59:00,fx_news,2020-04,2020-05-01T00:00:00,FX log change since import reference,8.465664403960659,available
+2020-05,2020-06-09 23:59:00,ulc_gap,2019Q4,2020-03-15T00:00:00,"quarterly real-cost gap, log points",3.571393320749621,available
+2020-05,2020-06-09 23:59:00,tightening,2020-04,2020-06-01T00:00:00,"negative unemployment change12, pp",-0.10000000000000009,available
+2020-05,2020-06-09 23:59:00,import_gap,2020-03,2020-05-15T00:00:00,"relative price gap, log points",-3.944267074178187,available
+2020-05,2020-06-09 23:59:00,ppi_gap,2020-04,2020-05-26T00:00:00,"relative price gap, log points",-5.035534549394242,available
+2020-05,2020-06-09 23:59:00,fx_news,2020-05,2020-06-01T00:00:00,FX log change since import reference,2.5742929272527175,available
+2020-06,2020-07-09 23:59:00,ulc_gap,2020Q1,2020-06-14T00:00:00,"quarterly real-cost gap, log points",8.57985160248171,available
+2020-06,2020-07-09 23:59:00,tightening,2020-05,2020-07-02T00:00:00,"negative unemployment change12, pp",-0.3999999999999999,available
+2020-06,2020-07-09 23:59:00,import_gap,2020-04,2020-06-14T00:00:00,"relative price gap, log points",-2.137913098627605,available
+2020-06,2020-07-09 23:59:00,ppi_gap,2020-05,2020-06-26T00:00:00,"relative price gap, log points",-5.062359481152612,available
+2020-06,2020-07-09 23:59:00,fx_news,2020-06,2020-07-01T00:00:00,FX log change since import reference,-2.1616250523057325,available
+2020-07,2020-08-12 23:59:00,ulc_gap,2020Q1,2020-06-14T00:00:00,"quarterly real-cost gap, log points",8.579399335369544,available
+2020-07,2020-08-12 23:59:00,tightening,2020-06,2020-08-01T00:00:00,"negative unemployment change12, pp",-0.9000000000000001,available
+2020-07,2020-08-12 23:59:00,import_gap,2020-05,2020-07-15T00:00:00,"relative price gap, log points",-3.884653983390015,available
+2020-07,2020-08-12 23:59:00,ppi_gap,2020-06,2020-07-26T00:00:00,"relative price gap, log points",-5.395052674085662,available
+2020-07,2020-08-12 23:59:00,fx_news,2020-07,2020-08-01T00:00:00,FX log change since import reference,-2.838045906076946,available
+2020-08,2020-09-09 23:59:00,ulc_gap,2020Q1,2020-06-14T00:00:00,"quarterly real-cost gap, log points",8.586728853402406,available
+2020-08,2020-09-09 23:59:00,tightening,2020-07,2020-09-01T00:00:00,"negative unemployment change12, pp",-0.8999999999999999,available
+2020-08,2020-09-09 23:59:00,import_gap,2020-06,2020-08-14T00:00:00,"relative price gap, log points",-6.413570951895237,available
+2020-08,2020-09-09 23:59:00,ppi_gap,2020-07,2020-08-26T00:00:00,"relative price gap, log points",-6.1972924023475,available
+2020-08,2020-09-09 23:59:00,fx_news,2020-08,2020-09-01T00:00:00,FX log change since import reference,-1.9453362958738503,available
+2020-09,2020-10-11 23:59:00,ulc_gap,2020Q2,2020-09-13T00:00:00,"quarterly real-cost gap, log points",4.871103051745592,available
+2020-09,2020-10-11 23:59:00,tightening,2020-08,2020-10-02T00:00:00,"negative unemployment change12, pp",-0.6000000000000001,available
+2020-09,2020-10-11 23:59:00,import_gap,2020-07,2020-09-14T00:00:00,"relative price gap, log points",-7.366799753104179,available
+2020-09,2020-10-11 23:59:00,ppi_gap,2020-08,2020-09-26T00:00:00,"relative price gap, log points",-6.575732775624317,available
+2020-09,2020-10-11 23:59:00,fx_news,2020-09,2020-10-01T00:00:00,FX log change since import reference,0.8116378678072754,available
+2020-10,2020-11-09 23:59:00,ulc_gap,2020Q2,2020-09-13T00:00:00,"quarterly real-cost gap, log points",4.871103051745592,available
+2020-10,2020-11-09 23:59:00,tightening,2020-09,2020-11-01T00:00:00,"negative unemployment change12, pp",-0.6999999999999997,available
+2020-10,2020-11-09 23:59:00,import_gap,2020-08,2020-10-15T00:00:00,"relative price gap, log points",-8.447320304919398,available
+2020-10,2020-11-09 23:59:00,ppi_gap,2020-09,2020-10-26T00:00:00,"relative price gap, log points",-6.0806994333507305,available
+2020-10,2020-11-09 23:59:00,fx_news,2020-10,2020-11-01T00:00:00,FX log change since import reference,3.882964192187725,available
+2020-11,2020-12-09 23:59:00,ulc_gap,2020Q2,2020-09-13T00:00:00,"quarterly real-cost gap, log points",4.871103051745649,available
+2020-11,2020-12-09 23:59:00,tightening,2020-10,2020-12-02T00:00:00,"negative unemployment change12, pp",-1.0,available
+2020-11,2020-12-09 23:59:00,import_gap,2020-09,2020-11-14T00:00:00,"relative price gap, log points",-6.392677240614439,available
+2020-11,2020-12-09 23:59:00,ppi_gap,2020-10,2020-11-26T00:00:00,"relative price gap, log points",-5.893796818721,available
+2020-11,2020-12-09 23:59:00,fx_news,2020-11,2020-12-01T00:00:00,FX log change since import reference,-0.9702242173102548,available
+2020-12,2021-01-12 23:59:00,ulc_gap,2020Q3,2020-12-14T00:00:00,"quarterly real-cost gap, log points",-1.6886442815220448,available
+2020-12,2021-01-12 23:59:00,tightening,2020-11,2021-01-01T00:00:00,"negative unemployment change12, pp",-0.7999999999999998,available
+2020-12,2021-01-12 23:59:00,import_gap,2020-10,2020-12-15T00:00:00,"relative price gap, log points",-4.969897955054116,available
+2020-12,2021-01-12 23:59:00,ppi_gap,2020-11,2020-12-26T00:00:00,"relative price gap, log points",-6.553112614499071,available
+2020-12,2021-01-12 23:59:00,fx_news,2020-12,2021-01-01T00:00:00,FX log change since import reference,-3.3265391123805803,available
+2021-01,2021-02-11 23:59:00,ulc_gap,2020Q3,2020-12-14T00:00:00,"quarterly real-cost gap, log points",-1.6835310198401316,available
+2021-01,2021-02-11 23:59:00,tightening,2020-12,2021-02-01T00:00:00,"negative unemployment change12, pp",-1.1,available
+2021-01,2021-02-11 23:59:00,import_gap,2020-11,2021-01-14T00:00:00,"relative price gap, log points",-6.89402533427789,available
+2021-01,2021-02-11 23:59:00,ppi_gap,2020-12,2021-01-26T00:00:00,"relative price gap, log points",-6.1369388028767276,available
+2021-01,2021-02-11 23:59:00,fx_news,2021-01,2021-02-01T00:00:00,FX log change since import reference,-1.2242567933334243,available
+2021-02,2021-03-09 23:59:00,ulc_gap,2020Q3,2020-12-14T00:00:00,"quarterly real-cost gap, log points",-1.6835310198401885,available
+2021-02,2021-03-09 23:59:00,tightening,2021-01,2021-03-04T00:00:00,"negative unemployment change12, pp",-1.2999999999999998,available
+2021-02,2021-03-09 23:59:00,import_gap,2020-12,2021-02-14T00:00:00,"relative price gap, log points",-6.579778838630415,available
+2021-02,2021-03-09 23:59:00,ppi_gap,2021-01,2021-02-26T00:00:00,"relative price gap, log points",-5.246472256781431,available
+2021-02,2021-03-09 23:59:00,fx_news,2021-02,2021-03-01T00:00:00,FX log change since import reference,-1.6747857301222764,available
+2021-03,2021-04-12 23:59:00,ulc_gap,2020Q4,2021-03-16T00:00:00,"quarterly real-cost gap, log points",6.096822515299834,available
+2021-03,2021-04-12 23:59:00,tightening,2021-02,2021-04-01T00:00:00,"negative unemployment change12, pp",-1.4000000000000001,available
+2021-03,2021-04-12 23:59:00,import_gap,2021-01,2021-03-17T00:00:00,"relative price gap, log points",-6.146469231483952,available
+2021-03,2021-04-12 23:59:00,ppi_gap,2021-02,2021-03-26T00:00:00,"relative price gap, log points",-4.2983209802779925,available
+2021-03,2021-04-12 23:59:00,fx_news,2021-03,2021-04-01T00:00:00,FX log change since import reference,0.14525996438001543,available
+2021-04,2021-05-10 23:59:00,ulc_gap,2020Q4,2021-03-16T00:00:00,"quarterly real-cost gap, log points",6.107626019469535,available
+2021-04,2021-05-10 23:59:00,tightening,2021-03,2021-05-02T00:00:00,"negative unemployment change12, pp",-1.4,available
+2021-04,2021-05-10 23:59:00,import_gap,2021-02,2021-04-14T00:00:00,"relative price gap, log points",-5.631892470548797,available
+2021-04,2021-05-10 23:59:00,ppi_gap,2021-03,2021-04-26T00:00:00,"relative price gap, log points",-2.3778578599591924,available
+2021-04,2021-05-10 23:59:00,fx_news,2021-04,2021-05-01T00:00:00,FX log change since import reference,0.1891928979936356,available
+2021-05,2021-06-09 23:59:00,ulc_gap,2020Q4,2021-03-16T00:00:00,"quarterly real-cost gap, log points",6.113431794501082,available
+2021-05,2021-06-09 23:59:00,tightening,2021-04,2021-06-01T00:00:00,"negative unemployment change12, pp",-1.0999999999999996,available
+2021-05,2021-06-09 23:59:00,import_gap,2021-03,2021-05-15T00:00:00,"relative price gap, log points",-3.1338082566334133,available
+2021-05,2021-06-09 23:59:00,ppi_gap,2021-04,2021-05-26T00:00:00,"relative price gap, log points",-1.3758194029121569,available
+2021-05,2021-06-09 23:59:00,fx_news,2021-05,2021-06-01T00:00:00,FX log change since import reference,-2.4007183468693944,available
+2021-06,2021-07-12 23:59:00,ulc_gap,2021Q1,2021-06-14T00:00:00,"quarterly real-cost gap, log points",4.249970307150079,available
+2021-06,2021-07-12 23:59:00,tightening,2021-05,2021-07-02T00:00:00,"negative unemployment change12, pp",-0.6000000000000001,available
+2021-06,2021-07-12 23:59:00,import_gap,2021-04,2021-06-14T00:00:00,"relative price gap, log points",-2.586406112518503,available
+2021-06,2021-07-12 23:59:00,ppi_gap,2021-05,2021-06-26T00:00:00,"relative price gap, log points",-0.12262930561178109,available
+2021-06,2021-07-12 23:59:00,fx_news,2021-06,2021-07-01T00:00:00,FX log change since import reference,-1.8296278995614086,available
+2021-07,2021-08-09 23:59:00,ulc_gap,2021Q1,2021-06-14T00:00:00,"quarterly real-cost gap, log points",4.23628489198893,available
+2021-07,2021-08-09 23:59:00,tightening,2021-06,2021-08-01T00:00:00,"negative unemployment change12, pp",-0.10000000000000009,available
+2021-07,2021-08-09 23:59:00,import_gap,2021-05,2021-07-15T00:00:00,"relative price gap, log points",-2.814199808626972,available
+2021-07,2021-08-09 23:59:00,ppi_gap,2021-06,2021-07-26T00:00:00,"relative price gap, log points",0.264897422690467,available
+2021-07,2021-08-09 23:59:00,fx_news,2021-07,2021-08-01T00:00:00,FX log change since import reference,0.32422536654789635,available
+2021-08,2021-09-09 23:59:00,ulc_gap,2021Q1,2021-06-14T00:00:00,"quarterly real-cost gap, log points",4.215674932994773,available
+2021-08,2021-09-09 23:59:00,tightening,2021-07,2021-09-01T00:00:00,"negative unemployment change12, pp",0.3999999999999999,available
+2021-08,2021-09-09 23:59:00,import_gap,2021-06,2021-08-14T00:00:00,"relative price gap, log points",-2.2583128335742035,available
+2021-08,2021-09-09 23:59:00,ppi_gap,2021-07,2021-08-26T00:00:00,"relative price gap, log points",1.21932147691615,available
+2021-08,2021-09-09 23:59:00,fx_news,2021-08,2021-09-01T00:00:00,FX log change since import reference,0.05498605849235985,available
+2021-09,2021-10-10 23:59:00,ulc_gap,2021Q2,2021-09-13T00:00:00,"quarterly real-cost gap, log points",3.3295066629448797,available
+2021-09,2021-10-10 23:59:00,tightening,2021-08,2021-10-02T00:00:00,"negative unemployment change12, pp",-0.09999999999999964,available
+2021-09,2021-10-10 23:59:00,import_gap,2021-07,2021-09-14T00:00:00,"relative price gap, log points",-0.5084737598963045,available
+2021-09,2021-10-10 23:59:00,ppi_gap,2021-08,2021-09-26T00:00:00,"relative price gap, log points",1.5378664382979537,available
+2021-09,2021-10-10 23:59:00,fx_news,2021-09,2021-10-01T00:00:00,FX log change since import reference,-0.9955400871090573,available
+2021-10,2021-11-09 23:59:00,ulc_gap,2021Q2,2021-09-13T00:00:00,"quarterly real-cost gap, log points",3.3206057795582637,available
+2021-10,2021-11-09 23:59:00,tightening,2021-09,2021-11-01T00:00:00,"negative unemployment change12, pp",0.2999999999999998,available
+2021-10,2021-11-09 23:59:00,import_gap,2021-08,2021-10-15T00:00:00,"relative price gap, log points",-0.8848172244720391,available
+2021-10,2021-11-09 23:59:00,ppi_gap,2021-09,2021-10-26T00:00:00,"relative price gap, log points",1.4281393247916867,available
+2021-10,2021-11-09 23:59:00,fx_news,2021-10,2021-11-01T00:00:00,FX log change since import reference,0.0667281637226075,available
+2021-11,2021-12-09 23:59:00,ulc_gap,2021Q2,2021-09-13T00:00:00,"quarterly real-cost gap, log points",3.294220747566328,available
+2021-11,2021-12-09 23:59:00,tightening,2021-10,2021-12-02T00:00:00,"negative unemployment change12, pp",0.7000000000000002,available
+2021-11,2021-12-09 23:59:00,import_gap,2021-09,2021-11-14T00:00:00,"relative price gap, log points",-0.21564071891662984,available
+2021-11,2021-12-09 23:59:00,ppi_gap,2021-10,2021-11-26T00:00:00,"relative price gap, log points",2.103099905331021,available
+2021-11,2021-12-09 23:59:00,fx_news,2021-11,2021-12-01T00:00:00,FX log change since import reference,0.051194204359083104,available
+2021-12,2022-01-11 23:59:00,ulc_gap,2021Q3,2021-12-14T00:00:00,"quarterly real-cost gap, log points",-3.414290444884955,available
+2021-12,2022-01-11 23:59:00,tightening,2021-11,2022-01-01T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2021-12,2022-01-11 23:59:00,import_gap,2021-10,2021-12-15T00:00:00,"relative price gap, log points",1.4084806381039847,available
+2021-12,2022-01-11 23:59:00,ppi_gap,2021-11,2021-12-26T00:00:00,"relative price gap, log points",1.9330287449647585,available
+2021-12,2022-01-11 23:59:00,fx_news,2021-12,2022-01-01T00:00:00,FX log change since import reference,-0.8986698768368386,available
+2022-01,2022-02-13 23:59:00,ulc_gap,2021Q3,2021-12-14T00:00:00,"quarterly real-cost gap, log points",-3.419643218004353,available
+2022-01,2022-02-13 23:59:00,tightening,2021-12,2022-02-01T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2022-01,2022-02-13 23:59:00,import_gap,2021-11,2022-01-14T00:00:00,"relative price gap, log points",0.9235413481458075,available
+2022-01,2022-02-13 23:59:00,ppi_gap,2021-12,2022-01-26T00:00:00,"relative price gap, log points",0.8025590402086209,available
+2022-01,2022-02-13 23:59:00,fx_news,2022-01,2022-02-01T00:00:00,FX log change since import reference,-3.7342163771943166,available
+2022-02,2022-03-09 23:59:00,ulc_gap,2021Q3,2021-12-14T00:00:00,"quarterly real-cost gap, log points",-3.4296232384195946,available
+2022-02,2022-03-09 23:59:00,tightening,2022-01,2022-03-04T00:00:00,"negative unemployment change12, pp",1.0,available
+2022-02,2022-03-09 23:59:00,import_gap,2021-12,2022-02-14T00:00:00,"relative price gap, log points",0.8286624104102387,available
+2022-02,2022-03-09 23:59:00,ppi_gap,2022-01,2022-02-26T00:00:00,"relative price gap, log points",1.2453008957210727,available
+2022-02,2022-03-09 23:59:00,fx_news,2022-02,2022-03-01T00:00:00,FX log change since import reference,-3.2923128087624356,available
+2022-03,2022-04-10 23:59:00,ulc_gap,2021Q4,2022-03-16T00:00:00,"quarterly real-cost gap, log points",-0.9363953859623848,available
+2022-03,2022-04-10 23:59:00,tightening,2022-02,2022-04-01T00:00:00,"negative unemployment change12, pp",0.7000000000000002,available
+2022-03,2022-04-10 23:59:00,import_gap,2022-01,2022-03-17T00:00:00,"relative price gap, log points",-1.1750818305581614,available
+2022-03,2022-04-10 23:59:00,ppi_gap,2022-02,2022-03-26T00:00:00,"relative price gap, log points",2.407014075892107,available
+2022-03,2022-04-10 23:59:00,fx_news,2022-03,2022-04-01T00:00:00,FX log change since import reference,2.1788763426573055,available
+2022-04,2022-05-09 23:59:00,ulc_gap,2021Q4,2022-03-16T00:00:00,"quarterly real-cost gap, log points",-0.9363712485180145,available
+2022-04,2022-05-09 23:59:00,tightening,2022-03,2022-05-02T00:00:00,"negative unemployment change12, pp",1.0999999999999996,available
+2022-04,2022-05-09 23:59:00,import_gap,2022-02,2022-04-14T00:00:00,"relative price gap, log points",-0.3235341144909576,available
+2022-04,2022-05-09 23:59:00,ppi_gap,2022-03,2022-04-26T00:00:00,"relative price gap, log points",6.216929124292562,available
+2022-04,2022-05-09 23:59:00,fx_news,2022-04,2022-05-01T00:00:00,FX log change since import reference,-0.008183975779999979,available
+2022-05,2022-06-09 23:59:00,ulc_gap,2021Q4,2022-03-16T00:00:00,"quarterly real-cost gap, log points",-0.9339342600088685,available
+2022-05,2022-06-09 23:59:00,tightening,2022-04,2022-06-01T00:00:00,"negative unemployment change12, pp",0.7999999999999998,available
+2022-05,2022-06-09 23:59:00,import_gap,2022-03,2022-05-15T00:00:00,"relative price gap, log points",5.628201429573238,available
+2022-05,2022-06-09 23:59:00,ppi_gap,2022-04,2022-05-26T00:00:00,"relative price gap, log points",7.463025837180794,available
+2022-05,2022-06-09 23:59:00,fx_news,2022-05,2022-06-01T00:00:00,FX log change since import reference,-1.045109601037833,available
+2022-06,2022-07-12 23:59:00,ulc_gap,2022Q1,2022-06-14T00:00:00,"quarterly real-cost gap, log points",-2.948736193666491,available
+2022-06,2022-07-12 23:59:00,tightening,2022-05,2022-07-02T00:00:00,"negative unemployment change12, pp",0.7000000000000002,available
+2022-06,2022-07-12 23:59:00,import_gap,2022-04,2022-06-14T00:00:00,"relative price gap, log points",4.004522255672033,available
+2022-06,2022-07-12 23:59:00,ppi_gap,2022-05,2022-06-26T00:00:00,"relative price gap, log points",9.11472447915304,available
+2022-06,2022-07-12 23:59:00,fx_news,2022-06,2022-07-01T00:00:00,FX log change since import reference,1.1473801518596465,available
+2022-07,2022-08-09 23:59:00,ulc_gap,2022Q1,2022-06-14T00:00:00,"quarterly real-cost gap, log points",-2.953371812703722,available
+2022-07,2022-08-09 23:59:00,tightening,2022-06,2022-08-01T00:00:00,"negative unemployment change12, pp",0.30000000000000027,available
+2022-07,2022-08-09 23:59:00,import_gap,2022-05,2022-07-15T00:00:00,"relative price gap, log points",4.65919590785942,available
+2022-07,2022-08-09 23:59:00,ppi_gap,2022-06,2022-07-26T00:00:00,"relative price gap, log points",9.652519318199325,available
+2022-07,2022-08-09 23:59:00,fx_news,2022-07,2022-08-01T00:00:00,FX log change since import reference,-0.6933631427133867,available
+2022-08,2022-09-11 23:59:00,ulc_gap,2022Q1,2022-06-14T00:00:00,"quarterly real-cost gap, log points",-2.957678482849758,available
+2022-08,2022-09-11 23:59:00,tightening,2022-07,2022-09-01T00:00:00,"negative unemployment change12, pp",0.30000000000000027,available
+2022-08,2022-09-11 23:59:00,import_gap,2022-06,2022-08-14T00:00:00,"relative price gap, log points",4.629776707397635,available
+2022-08,2022-09-11 23:59:00,ppi_gap,2022-07,2022-08-26T00:00:00,"relative price gap, log points",8.04016925171942,available
+2022-08,2022-09-11 23:59:00,fx_news,2022-08,2022-09-01T00:00:00,FX log change since import reference,-0.6127395558287463,available
+2022-09,2022-10-10 23:59:00,ulc_gap,2022Q2,2022-09-13T00:00:00,"quarterly real-cost gap, log points",-7.025672505375098,available
+2022-09,2022-10-10 23:59:00,tightening,2022-08,2022-10-02T00:00:00,"negative unemployment change12, pp",0.3999999999999999,available
+2022-09,2022-10-10 23:59:00,import_gap,2022-07,2022-09-14T00:00:00,"relative price gap, log points",6.185768050401315,available
+2022-09,2022-10-10 23:59:00,ppi_gap,2022-08,2022-09-26T00:00:00,"relative price gap, log points",6.1741139183988025,available
+2022-09,2022-10-10 23:59:00,fx_news,2022-09,2022-10-01T00:00:00,FX log change since import reference,-0.016276704003382318,available
+2022-10,2022-11-09 23:59:00,ulc_gap,2022Q2,2022-09-13T00:00:00,"quarterly real-cost gap, log points",-7.008150438706082,available
+2022-10,2022-11-09 23:59:00,tightening,2022-09,2022-11-01T00:00:00,"negative unemployment change12, pp",0.20000000000000018,available
+2022-10,2022-11-09 23:59:00,import_gap,2022-08,2022-10-15T00:00:00,"relative price gap, log points",7.797689935975658,available
+2022-10,2022-11-09 23:59:00,ppi_gap,2022-09,2022-10-26T00:00:00,"relative price gap, log points",5.072500019561005,available
+2022-10,2022-11-09 23:59:00,fx_news,2022-10,2022-11-01T00:00:00,FX log change since import reference,-0.14663953747839945,available
+2022-11,2022-12-11 23:59:00,ulc_gap,2022Q2,2022-09-13T00:00:00,"quarterly real-cost gap, log points",-7.005228950711228,available
+2022-11,2022-12-11 23:59:00,tightening,2022-10,2022-12-02T00:00:00,"negative unemployment change12, pp",0.3999999999999999,available
+2022-11,2022-12-11 23:59:00,import_gap,2022-09,2022-11-14T00:00:00,"relative price gap, log points",4.7415202615226875,available
+2022-11,2022-12-11 23:59:00,ppi_gap,2022-10,2022-11-26T00:00:00,"relative price gap, log points",5.422250243685312,available
+2022-11,2022-12-11 23:59:00,fx_news,2022-11,2022-12-01T00:00:00,FX log change since import reference,-0.8418521316959523,available
+2022-12,2023-01-10 23:59:00,ulc_gap,2022Q3,2022-12-14T00:00:00,"quarterly real-cost gap, log points",-11.162786204641407,available
+2022-12,2023-01-10 23:59:00,tightening,2022-11,2023-01-01T00:00:00,"negative unemployment change12, pp",-0.6999999999999997,available
+2022-12,2023-01-10 23:59:00,import_gap,2022-10,2022-12-15T00:00:00,"relative price gap, log points",1.5820797585319504,available
+2022-12,2023-01-10 23:59:00,ppi_gap,2022-11,2022-12-26T00:00:00,"relative price gap, log points",3.6885471818150677,available
+2022-12,2023-01-10 23:59:00,fx_news,2022-12,2023-01-01T00:00:00,FX log change since import reference,-1.0778572005537626,available
+2023-01,2023-02-09 23:59:00,ulc_gap,2022Q3,2022-12-14T00:00:00,"quarterly real-cost gap, log points",-11.158736650879746,available
+2023-01,2023-02-09 23:59:00,tightening,2022-12,2023-02-01T00:00:00,"negative unemployment change12, pp",-0.09999999999999964,available
+2023-01,2023-02-09 23:59:00,import_gap,2022-11,2023-01-14T00:00:00,"relative price gap, log points",-0.8394980773462848,available
+2023-01,2023-02-09 23:59:00,ppi_gap,2022-12,2023-01-26T00:00:00,"relative price gap, log points",1.1811244812461155,available
+2023-01,2023-02-09 23:59:00,fx_news,2023-01,2023-02-01T00:00:00,FX log change since import reference,-1.6927460575475946,available
+2023-02,2023-03-09 23:59:00,ulc_gap,2022Q3,2022-12-14T00:00:00,"quarterly real-cost gap, log points",-11.168885069184796,available
+2023-02,2023-03-09 23:59:00,tightening,2023-01,2023-03-04T00:00:00,"negative unemployment change12, pp",-0.20000000000000018,available
+2023-02,2023-03-09 23:59:00,import_gap,2022-12,2023-02-14T00:00:00,"relative price gap, log points",-1.8871139329340831,available
+2023-02,2023-03-09 23:59:00,ppi_gap,2023-01,2023-02-26T00:00:00,"relative price gap, log points",1.8555199322743192,available
+2023-02,2023-03-09 23:59:00,fx_news,2023-02,2023-03-01T00:00:00,FX log change since import reference,-2.3218566644523224,available
+2023-03,2023-04-12 23:59:00,ulc_gap,2022Q4,2023-03-16T00:00:00,"quarterly real-cost gap, log points",-5.746840019129934,available
+2023-03,2023-04-12 23:59:00,tightening,2023-02,2023-04-01T00:00:00,"negative unemployment change12, pp",0.0,available
+2023-03,2023-04-12 23:59:00,import_gap,2023-01,2023-03-17T00:00:00,"relative price gap, log points",-4.228462627720896,available
+2023-03,2023-04-12 23:59:00,ppi_gap,2023-02,2023-03-26T00:00:00,"relative price gap, log points",0.9425916567137165,available
+2023-03,2023-04-12 23:59:00,fx_news,2023-03,2023-04-01T00:00:00,FX log change since import reference,-1.1544806128542662,available
+2023-04,2023-05-10 23:59:00,ulc_gap,2022Q4,2023-03-16T00:00:00,"quarterly real-cost gap, log points",-5.746840019129877,available
+2023-04,2023-05-10 23:59:00,tightening,2023-03,2023-05-02T00:00:00,"negative unemployment change12, pp",-0.3999999999999999,available
+2023-04,2023-05-10 23:59:00,import_gap,2023-02,2023-04-14T00:00:00,"relative price gap, log points",-6.232703275005235,available
+2023-04,2023-05-10 23:59:00,ppi_gap,2023-03,2023-04-26T00:00:00,"relative price gap, log points",-0.2146346566002535,available
+2023-04,2023-05-10 23:59:00,fx_news,2023-04,2023-05-01T00:00:00,FX log change since import reference,-1.1622612277265838,available
+2023-05,2023-06-11 23:59:00,ulc_gap,2022Q4,2023-03-16T00:00:00,"quarterly real-cost gap, log points",-5.746840019129934,available
+2023-05,2023-06-11 23:59:00,tightening,2023-04,2023-06-01T00:00:00,"negative unemployment change12, pp",-0.20000000000000018,available
+2023-05,2023-06-11 23:59:00,import_gap,2023-03,2023-05-15T00:00:00,"relative price gap, log points",-7.627631461073758,available
+2023-05,2023-06-11 23:59:00,ppi_gap,2023-04,2023-05-26T00:00:00,"relative price gap, log points",-1.0856702693540683,available
+2023-05,2023-06-11 23:59:00,fx_news,2023-05,2023-06-01T00:00:00,FX log change since import reference,-0.3341301985674252,available
+2023-06,2023-07-12 23:59:00,ulc_gap,2023Q1,2023-06-14T00:00:00,"quarterly real-cost gap, log points",-2.6279887520054217,available
+2023-06,2023-07-12 23:59:00,tightening,2023-05,2023-07-02T00:00:00,"negative unemployment change12, pp",-0.10000000000000009,available
+2023-06,2023-07-12 23:59:00,import_gap,2023-04,2023-06-14T00:00:00,"relative price gap, log points",-10.350080435004546,available
+2023-06,2023-07-12 23:59:00,ppi_gap,2023-05,2023-06-26T00:00:00,"relative price gap, log points",-1.9376744353788808,available
+2023-06,2023-07-12 23:59:00,fx_news,2023-06,2023-07-01T00:00:00,FX log change since import reference,1.0947620689032493,available
+2023-07,2023-08-09 23:59:00,ulc_gap,2023Q1,2023-06-14T00:00:00,"quarterly real-cost gap, log points",-2.6269632209064753,available
+2023-07,2023-08-09 23:59:00,tightening,2023-06,2023-08-01T00:00:00,"negative unemployment change12, pp",-0.20000000000000018,available
+2023-07,2023-08-09 23:59:00,import_gap,2023-05,2023-07-15T00:00:00,"relative price gap, log points",-11.102040156509425,available
+2023-07,2023-08-09 23:59:00,ppi_gap,2023-06,2023-07-26T00:00:00,"relative price gap, log points",-2.5702231104423845,available
+2023-07,2023-08-09 23:59:00,fx_news,2023-07,2023-08-01T00:00:00,FX log change since import reference,1.2545948249767023,available
+2023-08,2023-09-10 23:59:00,ulc_gap,2023Q1,2023-06-14T00:00:00,"quarterly real-cost gap, log points",-2.6291140394724835,available
+2023-08,2023-09-10 23:59:00,tightening,2023-07,2023-09-01T00:00:00,"negative unemployment change12, pp",-0.40000000000000036,available
+2023-08,2023-09-10 23:59:00,import_gap,2023-06,2023-08-14T00:00:00,"relative price gap, log points",-11.510387105514884,available
+2023-08,2023-09-10 23:59:00,ppi_gap,2023-07,2023-08-26T00:00:00,"relative price gap, log points",-3.390595052569495,available
+2023-08,2023-09-10 23:59:00,fx_news,2023-08,2023-09-01T00:00:00,FX log change since import reference,1.7403384358696459,available
+2023-09,2023-10-09 23:59:00,ulc_gap,2023Q2,2023-09-13T00:00:00,"quarterly real-cost gap, log points",-4.435709094167635,available
+2023-09,2023-10-09 23:59:00,tightening,2023-08,2023-10-02T00:00:00,"negative unemployment change12, pp",-0.10000000000000009,available
+2023-09,2023-10-09 23:59:00,import_gap,2023-07,2023-09-14T00:00:00,"relative price gap, log points",-11.880747206709769,available
+2023-09,2023-10-09 23:59:00,ppi_gap,2023-08,2023-09-26T00:00:00,"relative price gap, log points",-3.2423274565807105,available
+2023-09,2023-10-09 23:59:00,fx_news,2023-09,2023-10-01T00:00:00,FX log change since import reference,2.0088065987855668,available
+2023-10,2023-11-09 23:59:00,ulc_gap,2023Q2,2023-09-13T00:00:00,"quarterly real-cost gap, log points",-4.427402109370348,available
+2023-10,2023-11-09 23:59:00,tightening,2023-09,2023-11-01T00:00:00,"negative unemployment change12, pp",-0.40000000000000036,available
+2023-10,2023-11-09 23:59:00,import_gap,2023-08,2023-10-15T00:00:00,"relative price gap, log points",-10.852566311541107,available
+2023-10,2023-11-09 23:59:00,ppi_gap,2023-09,2023-10-26T00:00:00,"relative price gap, log points",-2.960636254451572,available
+2023-10,2023-11-09 23:59:00,fx_news,2023-10,2023-11-01T00:00:00,FX log change since import reference,1.9467533361009581,available
+2023-11,2023-12-10 23:59:00,ulc_gap,2023Q2,2023-09-13T00:00:00,"quarterly real-cost gap, log points",-4.427402109370291,available
+2023-11,2023-12-10 23:59:00,tightening,2023-10,2023-12-02T00:00:00,"negative unemployment change12, pp",-0.7999999999999998,available
+2023-11,2023-12-10 23:59:00,import_gap,2023-09,2023-11-14T00:00:00,"relative price gap, log points",-9.00944924758594,available
+2023-11,2023-12-10 23:59:00,ppi_gap,2023-10,2023-11-26T00:00:00,"relative price gap, log points",-3.0030937938891498,available
+2023-11,2023-12-10 23:59:00,fx_news,2023-11,2023-12-01T00:00:00,FX log change since import reference,0.41738337047837454,available
+2023-12,2024-01-10 23:59:00,ulc_gap,2023Q3,2023-12-14T00:00:00,"quarterly real-cost gap, log points",-6.342782329646354,available
+2023-12,2024-01-10 23:59:00,tightening,2023-11,2024-01-01T00:00:00,"negative unemployment change12, pp",0.2999999999999998,available
+2023-12,2024-01-10 23:59:00,import_gap,2023-10,2023-12-15T00:00:00,"relative price gap, log points",-8.268983246873661,available
+2023-12,2024-01-10 23:59:00,ppi_gap,2023-11,2023-12-26T00:00:00,"relative price gap, log points",-3.882130915044968,available
+2023-12,2024-01-10 23:59:00,fx_news,2023-12,2024-01-01T00:00:00,FX log change since import reference,-0.4198176089933642,available
+2024-01,2024-02-14 23:59:00,ulc_gap,2023Q3,2023-12-14T00:00:00,"quarterly real-cost gap, log points",-6.3427823296462975,available
+2024-01,2024-02-14 23:59:00,tightening,2023-12,2024-02-01T00:00:00,"negative unemployment change12, pp",-0.5,available
+2024-01,2024-02-14 23:59:00,import_gap,2023-12,2024-02-14T00:00:00,"relative price gap, log points",-10.86256209231489,available
+2024-01,2024-02-14 23:59:00,ppi_gap,2023-12,2024-01-26T00:00:00,"relative price gap, log points",-4.714679943614101,available
+2024-01,2024-02-14 23:59:00,fx_news,2024-01,2024-02-01T00:00:00,FX log change since import reference,0.9471808043517618,available
+2024-02,2024-03-10 23:59:00,ulc_gap,2023Q3,2023-12-14T00:00:00,"quarterly real-cost gap, log points",-6.342782329646354,available
+2024-02,2024-03-10 23:59:00,tightening,2024-01,2024-03-03T00:00:00,"negative unemployment change12, pp",-0.5,available
+2024-02,2024-03-10 23:59:00,import_gap,2023-12,2024-02-14T00:00:00,"relative price gap, log points",-10.846558341442046,available
+2024-02,2024-03-10 23:59:00,ppi_gap,2024-01,2024-02-26T00:00:00,"relative price gap, log points",-4.140019404868156,available
+2024-02,2024-03-10 23:59:00,fx_news,2024-02,2024-03-01T00:00:00,FX log change since import reference,3.0134031065467073,available
+2024-03,2024-04-09 23:59:00,ulc_gap,2023Q4,2024-03-15T00:00:00,"quarterly real-cost gap, log points",-0.220396789115739,available
+2024-03,2024-04-09 23:59:00,tightening,2024-02,2024-04-01T00:00:00,"negative unemployment change12, pp",-0.20000000000000018,available
+2024-03,2024-04-09 23:59:00,import_gap,2024-01,2024-03-16T00:00:00,"relative price gap, log points",-10.496738415757932,available
+2024-03,2024-04-09 23:59:00,ppi_gap,2024-02,2024-03-26T00:00:00,"relative price gap, log points",-3.6850862346656186,available
+2024-03,2024-04-09 23:59:00,fx_news,2024-03,2024-04-01T00:00:00,FX log change since import reference,2.2958253483140534,available
+2024-04,2024-05-12 23:59:00,ulc_gap,2023Q4,2024-03-15T00:00:00,"quarterly real-cost gap, log points",-0.21818298070286346,available
+2024-04,2024-05-12 23:59:00,tightening,2024-03,2024-05-02T00:00:00,"negative unemployment change12, pp",-0.2999999999999998,available
+2024-04,2024-05-12 23:59:00,import_gap,2024-02,2024-04-14T00:00:00,"relative price gap, log points",-9.57252945849649,available
+2024-04,2024-05-12 23:59:00,ppi_gap,2024-03,2024-04-26T00:00:00,"relative price gap, log points",-3.6839416948594135,available
+2024-04,2024-05-12 23:59:00,fx_news,2024-04,2024-05-01T00:00:00,FX log change since import reference,0.19005390579741394,available
+2024-05,2024-06-10 23:59:00,ulc_gap,2023Q4,2024-03-15T00:00:00,"quarterly real-cost gap, log points",-0.21818298070280662,available
+2024-05,2024-06-10 23:59:00,tightening,2024-04,2024-06-01T00:00:00,"negative unemployment change12, pp",0.0,available
+2024-05,2024-06-10 23:59:00,import_gap,2024-03,2024-05-15T00:00:00,"relative price gap, log points",-9.548431928727368,available
+2024-05,2024-06-10 23:59:00,ppi_gap,2024-04,2024-05-26T00:00:00,"relative price gap, log points",-3.3446409895280453,available
+2024-05,2024-06-10 23:59:00,fx_news,2024-05,2024-06-01T00:00:00,FX log change since import reference,-1.9323501288735854,available
+2024-06,2024-07-09 23:59:00,ulc_gap,2024Q1,2024-06-14T00:00:00,"quarterly real-cost gap, log points",3.400744647849706,available
+2024-06,2024-07-09 23:59:00,tightening,2024-05,2024-07-02T00:00:00,"negative unemployment change12, pp",-0.3999999999999999,available
+2024-06,2024-07-09 23:59:00,import_gap,2024-04,2024-06-14T00:00:00,"relative price gap, log points",-9.161460409003848,available
+2024-06,2024-07-09 23:59:00,ppi_gap,2024-05,2024-06-26T00:00:00,"relative price gap, log points",-4.358668385829446,available
+2024-06,2024-07-09 23:59:00,fx_news,2024-06,2024-07-01T00:00:00,FX log change since import reference,-2.001704901705122,available
+2024-07,2024-08-11 23:59:00,ulc_gap,2024Q1,2024-06-14T00:00:00,"quarterly real-cost gap, log points",3.404797246622195,available
+2024-07,2024-08-11 23:59:00,tightening,2024-06,2024-08-01T00:00:00,"negative unemployment change12, pp",0.0,available
+2024-07,2024-08-11 23:59:00,import_gap,2024-05,2024-07-15T00:00:00,"relative price gap, log points",-10.50852172197936,available
+2024-07,2024-08-11 23:59:00,ppi_gap,2024-06,2024-07-26T00:00:00,"relative price gap, log points",-4.672322077714853,available
+2024-07,2024-08-11 23:59:00,fx_news,2024-07,2024-08-01T00:00:00,FX log change since import reference,1.991644527290351,available
+2024-08,2024-09-09 23:59:00,ulc_gap,2024Q1,2024-06-14T00:00:00,"quarterly real-cost gap, log points",3.3952804971568753,available
+2024-08,2024-09-09 23:59:00,tightening,2024-07,2024-09-01T00:00:00,"negative unemployment change12, pp",0.10000000000000009,available
+2024-08,2024-09-09 23:59:00,import_gap,2024-06,2024-08-14T00:00:00,"relative price gap, log points",-10.051909425921867,available
+2024-08,2024-09-09 23:59:00,ppi_gap,2024-07,2024-08-26T00:00:00,"relative price gap, log points",-4.538995427134864,available
+2024-08,2024-09-09 23:59:00,fx_news,2024-08,2024-09-01T00:00:00,FX log change since import reference,1.6013793507194662,available
+2024-09,2024-10-09 23:59:00,ulc_gap,2024Q2,2024-09-13T00:00:00,"quarterly real-cost gap, log points",-0.7270210947021951,available
+2024-09,2024-10-09 23:59:00,tightening,2024-08,2024-10-02T00:00:00,"negative unemployment change12, pp",-0.20000000000000018,available
+2024-09,2024-10-09 23:59:00,import_gap,2024-07,2024-09-14T00:00:00,"relative price gap, log points",-6.911622707545201,available
+2024-09,2024-10-09 23:59:00,ppi_gap,2024-08,2024-09-26T00:00:00,"relative price gap, log points",-5.030107029250473,available
+2024-09,2024-10-09 23:59:00,fx_news,2024-09,2024-10-01T00:00:00,FX log change since import reference,-0.8173999959412559,available
+2024-10,2024-11-10 23:59:00,ulc_gap,2024Q2,2024-09-13T00:00:00,"quarterly real-cost gap, log points",-0.7157475768204336,available
+2024-10,2024-11-10 23:59:00,tightening,2024-09,2024-11-01T00:00:00,"negative unemployment change12, pp",-0.09999999999999964,available
+2024-10,2024-11-10 23:59:00,import_gap,2024-08,2024-10-15T00:00:00,"relative price gap, log points",-5.134435835484755,available
+2024-10,2024-11-10 23:59:00,ppi_gap,2024-09,2024-10-26T00:00:00,"relative price gap, log points",-5.360431825605588,available
+2024-10,2024-11-10 23:59:00,fx_news,2024-10,2024-11-01T00:00:00,FX log change since import reference,0.4556899688984439,available
+2024-11,2024-12-09 23:59:00,ulc_gap,2024Q2,2024-09-13T00:00:00,"quarterly real-cost gap, log points",-0.7188737720751419,available
+2024-11,2024-12-09 23:59:00,tightening,2024-10,2024-12-02T00:00:00,"negative unemployment change12, pp",0.2999999999999998,available
+2024-11,2024-12-09 23:59:00,import_gap,2024-09,2024-11-14T00:00:00,"relative price gap, log points",-4.057266214813186,available
+2024-11,2024-12-09 23:59:00,ppi_gap,2024-10,2024-11-26T00:00:00,"relative price gap, log points",-4.706025456067209,available
+2024-11,2024-12-09 23:59:00,fx_news,2024-11,2024-12-01T00:00:00,FX log change since import reference,0.8055439285849011,available
+2024-12,2025-01-12 23:59:00,ulc_gap,2024Q3,2024-12-14T00:00:00,"quarterly real-cost gap, log points",-3.565599903753423,available
+2024-12,2025-01-12 23:59:00,tightening,2024-11,2025-01-01T00:00:00,"negative unemployment change12, pp",-0.19999999999999973,available
+2024-12,2025-01-12 23:59:00,import_gap,2024-10,2024-12-15T00:00:00,"relative price gap, log points",-1.9697545741229021,available
+2024-12,2025-01-12 23:59:00,ppi_gap,2024-11,2024-12-26T00:00:00,"relative price gap, log points",-3.9778591572076607,available
+2024-12,2025-01-12 23:59:00,fx_news,2024-12,2025-01-01T00:00:00,FX log change since import reference,-0.6226349158525524,available
+2025-01,2025-02-05 23:59:00,ulc_gap,2024Q3,2024-12-14T00:00:00,"quarterly real-cost gap, log points",-3.5550057084138302,available
+2025-01,2025-02-05 23:59:00,tightening,2024-12,2025-02-01T00:00:00,"negative unemployment change12, pp",0.19999999999999973,available
+2025-01,2025-02-05 23:59:00,import_gap,2024-11,2025-01-14T00:00:00,"relative price gap, log points",-0.4590163006688499,available
+2025-01,2025-02-05 23:59:00,ppi_gap,2024-12,2025-01-26T00:00:00,"relative price gap, log points",-3.4972450964289123,available
+2025-01,2025-02-05 23:59:00,fx_news,2025-01,2025-02-01T00:00:00,FX log change since import reference,-0.5548524063538692,available
+2025-02,2025-03-04 23:59:00,ulc_gap,2024Q3,2024-12-14T00:00:00,"quarterly real-cost gap, log points",-3.5587516348853683,available
+2025-02,2025-03-04 23:59:00,tightening,2025-01,2025-03-04T00:00:00,"negative unemployment change12, pp",0.5,available
+2025-02,2025-03-04 23:59:00,import_gap,2024-12,2025-02-14T00:00:00,"relative price gap, log points",-0.35991317496569053,available
+2025-02,2025-03-04 23:59:00,ppi_gap,2025-01,2025-02-26T00:00:00,"relative price gap, log points",-2.5087268812683874,available
+2025-02,2025-03-04 23:59:00,fx_news,2025-02,2025-03-01T00:00:00,FX log change since import reference,-0.2429650887536982,available
+2025-03,2025-04-03 23:59:00,ulc_gap,2024Q4,2025-03-16T00:00:00,"quarterly real-cost gap, log points",3.93106342899614,available
+2025-03,2025-04-03 23:59:00,tightening,2025-02,2025-04-01T00:00:00,"negative unemployment change12, pp",-0.09999999999999964,available
+2025-03,2025-04-03 23:59:00,import_gap,2025-01,2025-03-17T00:00:00,"relative price gap, log points",0.10075134305643374,available
+2025-03,2025-04-03 23:59:00,ppi_gap,2025-02,2025-03-26T00:00:00,"relative price gap, log points",-2.6951518540471966,available
+2025-03,2025-04-03 23:59:00,fx_news,2025-03,2025-04-01T00:00:00,FX log change since import reference,-0.6339102260162379,available
+2025-04,2025-05-05 23:59:00,ulc_gap,2024Q4,2025-03-16T00:00:00,"quarterly real-cost gap, log points",3.928750073986862,available
+2025-04,2025-05-05 23:59:00,tightening,2025-03,2025-05-02T00:00:00,"negative unemployment change12, pp",0.19999999999999973,available
+2025-04,2025-05-05 23:59:00,import_gap,2025-02,2025-04-14T00:00:00,"relative price gap, log points",-0.5587081763145321,available
+2025-04,2025-05-05 23:59:00,ppi_gap,2025-03,2025-04-26T00:00:00,"relative price gap, log points",-3.296166440188756,available
+2025-04,2025-05-05 23:59:00,fx_news,2025-04,2025-05-01T00:00:00,FX log change since import reference,-0.14366671798243802,available
+2025-05,2025-06-03 23:59:00,ulc_gap,2024Q4,2025-03-16T00:00:00,"quarterly real-cost gap, log points",3.936634793490043,available
+2025-05,2025-06-03 23:59:00,tightening,2025-04,2025-06-01T00:00:00,"negative unemployment change12, pp",0.0,available
+2025-05,2025-06-03 23:59:00,import_gap,2025-03,2025-05-15T00:00:00,"relative price gap, log points",-1.8349490597552496,available
+2025-05,2025-06-03 23:59:00,ppi_gap,2025-04,2025-05-26T00:00:00,"relative price gap, log points",-3.323499422496525,available
+2025-05,2025-06-03 23:59:00,fx_news,2025-05,2025-06-01T00:00:00,FX log change since import reference,-0.32047457625002174,available
+2025-06,2025-07-03 23:59:00,ulc_gap,2025Q1,2025-06-14T00:00:00,"quarterly real-cost gap, log points",6.177974868637307,available
+2025-06,2025-07-03 23:59:00,tightening,2025-05,2025-07-02T00:00:00,"negative unemployment change12, pp",0.0,available
+2025-06,2025-07-03 23:59:00,import_gap,2025-04,2025-06-14T00:00:00,"relative price gap, log points",-2.9870142856473123,available
+2025-06,2025-07-03 23:59:00,ppi_gap,2025-05,2025-06-26T00:00:00,"relative price gap, log points",-3.5163770618236754,available
+2025-06,2025-07-03 23:59:00,fx_news,2025-06,2025-07-01T00:00:00,FX log change since import reference,-0.9388986838759864,available
+2025-07,2025-08-04 23:59:00,ulc_gap,2025Q1,2025-06-14T00:00:00,"quarterly real-cost gap, log points",6.178522142408667,available
+2025-07,2025-08-04 23:59:00,tightening,2025-06,2025-08-01T00:00:00,"negative unemployment change12, pp",-0.2999999999999998,available
+2025-07,2025-08-04 23:59:00,import_gap,2025-05,2025-07-15T00:00:00,"relative price gap, log points",-3.780238554864912,available
+2025-07,2025-08-04 23:59:00,ppi_gap,2025-06,2025-07-26T00:00:00,"relative price gap, log points",-3.562893718353962,available
+2025-07,2025-08-04 23:59:00,fx_news,2025-07,2025-08-01T00:00:00,FX log change since import reference,-1.2028884848123946,available
+2025-08,2025-09-03 23:59:00,ulc_gap,2025Q1,2025-06-14T00:00:00,"quarterly real-cost gap, log points",6.178522142408724,available
+2025-08,2025-09-03 23:59:00,tightening,2025-07,2025-09-01T00:00:00,"negative unemployment change12, pp",-0.19999999999999973,available
+2025-08,2025-09-03 23:59:00,import_gap,2025-06,2025-08-14T00:00:00,"relative price gap, log points",-4.329938212523793,available
+2025-08,2025-09-03 23:59:00,ppi_gap,2025-07,2025-08-26T00:00:00,"relative price gap, log points",-3.662569707114301,available
+2025-08,2025-09-03 23:59:00,fx_news,2025-08,2025-09-01T00:00:00,FX log change since import reference,-1.1718804913162488,available
+2025-09,2025-10-05 23:59:00,ulc_gap,2025Q2,2025-09-13T00:00:00,"quarterly real-cost gap, log points",2.940248845673352,available
+2025-09,2025-10-05 23:59:00,tightening,2025-08,2025-10-02T00:00:00,"negative unemployment change12, pp",-0.3999999999999999,available
+2025-09,2025-10-05 23:59:00,import_gap,2025-07,2025-09-14T00:00:00,"relative price gap, log points",-5.250462994742726,available
+2025-09,2025-10-05 23:59:00,ppi_gap,2025-08,2025-09-26T00:00:00,"relative price gap, log points",-4.3512720559483,available
+2025-09,2025-10-05 23:59:00,fx_news,2025-09,2025-10-01T00:00:00,FX log change since import reference,-1.1353548405122906,available
+2025-10,2025-11-04 23:59:00,ulc_gap,2025Q2,2025-09-13T00:00:00,"quarterly real-cost gap, log points",2.9504831894941503,available
+2025-10,2025-11-04 23:59:00,tightening,2025-09,2025-11-01T00:00:00,"negative unemployment change12, pp",-0.20000000000000018,available
+2025-10,2025-11-04 23:59:00,import_gap,2025-08,2025-10-15T00:00:00,"relative price gap, log points",-6.1253971109574685,available
+2025-10,2025-11-04 23:59:00,ppi_gap,2025-09,2025-10-26T00:00:00,"relative price gap, log points",-4.360841163237694,available
+2025-10,2025-11-04 23:59:00,fx_news,2025-10,2025-11-01T00:00:00,FX log change since import reference,-0.8273310624226208,available
+2025-11,2025-12-03 23:59:00,ulc_gap,2025Q2,2025-09-13T00:00:00,"quarterly real-cost gap, log points",2.950476954926046,available
+2025-11,2025-12-03 23:59:00,tightening,2025-10,2025-12-02T00:00:00,"negative unemployment change12, pp",-0.6000000000000001,available
+2025-11,2025-12-03 23:59:00,import_gap,2025-09,2025-11-14T00:00:00,"relative price gap, log points",-6.673589841143851,available
+2025-11,2025-12-03 23:59:00,ppi_gap,2025-10,2025-11-26T00:00:00,"relative price gap, log points",-4.565193788224235,available
+2025-11,2025-12-03 23:59:00,fx_news,2025-11,2025-12-01T00:00:00,FX log change since import reference,-0.4445732428303357,available
+2025-12,2026-01-06 23:59:00,ulc_gap,2025Q3,2025-12-14T00:00:00,"quarterly real-cost gap, log points",-2.6065054723325147,available
+2025-12,2026-01-06 23:59:00,tightening,2025-11,2026-01-01T00:00:00,"negative unemployment change12, pp",-0.30000000000000027,available
+2025-12,2026-01-06 23:59:00,import_gap,2025-10,2025-12-15T00:00:00,"relative price gap, log points",-7.1398781636391675,available
+2025-12,2026-01-06 23:59:00,ppi_gap,2025-11,2025-12-26T00:00:00,"relative price gap, log points",-4.321772892577371,available
+2025-12,2026-01-06 23:59:00,fx_news,2025-12,2026-01-01T00:00:00,FX log change since import reference,-0.22645403398450764,available
+2026-01,2026-02-04 23:59:00,ulc_gap,2025Q3,2025-12-14T00:00:00,"quarterly real-cost gap, log points",-2.5990372556552757,available
+2026-01,2026-02-04 23:59:00,tightening,2025-12,2026-02-01T00:00:00,"negative unemployment change12, pp",-0.6000000000000001,available
+2026-01,2026-02-04 23:59:00,import_gap,2025-11,2026-01-14T00:00:00,"relative price gap, log points",-7.043627256319425,available
+2026-01,2026-02-04 23:59:00,ppi_gap,2025-12,2026-01-26T00:00:00,"relative price gap, log points",-4.985404222861121,available
+2026-01,2026-02-04 23:59:00,fx_news,2026-01,2026-02-01T00:00:00,FX log change since import reference,0.1648872956948139,available
+2026-02,2026-03-03 23:59:00,ulc_gap,2025Q3,2025-12-14T00:00:00,"quarterly real-cost gap, log points",-2.606218988552314,available
+2026-02,2026-03-03 23:59:00,tightening,2025-12,2026-02-01T00:00:00,"negative unemployment change12, pp",-0.6000000000000001,available
+2026-02,2026-03-03 23:59:00,import_gap,2025-12,2026-02-14T00:00:00,"relative price gap, log points",-7.253329997694429,available
+2026-02,2026-03-03 23:59:00,ppi_gap,2026-01,2026-02-26T00:00:00,"relative price gap, log points",-4.981357820145092,available
+2026-02,2026-03-03 23:59:00,fx_news,2026-02,2026-03-01T00:00:00,FX log change since import reference,0.0,available
+2026-03,2026-04-06 23:59:00,ulc_gap,2025Q4,2026-03-16T00:00:00,"quarterly real-cost gap, log points",4.931356701616323,available
+2026-03,2026-04-06 23:59:00,tightening,2026-02,2026-04-01T00:00:00,"negative unemployment change12, pp",-0.40000000000000036,available
+2026-03,2026-04-06 23:59:00,import_gap,2026-01,2026-03-17T00:00:00,"relative price gap, log points",-6.833975018238888,available
+2026-03,2026-04-06 23:59:00,ppi_gap,2026-02,2026-03-26T00:00:00,"relative price gap, log points",-5.06338435964426,available
+2026-03,2026-04-06 23:59:00,fx_news,2026-03,2026-04-01T00:00:00,FX log change since import reference,0.6486597996537845,available
+2026-04,2026-05-05 23:59:00,ulc_gap,2025Q4,2026-03-16T00:00:00,"quarterly real-cost gap, log points",4.9259956666288645,available
+2026-04,2026-05-05 23:59:00,tightening,2026-03,2026-05-02T00:00:00,"negative unemployment change12, pp",-0.5,available
+2026-04,2026-05-05 23:59:00,import_gap,2026-02,2026-04-14T00:00:00,"relative price gap, log points",-7.219340519213414,available
+2026-04,2026-05-05 23:59:00,ppi_gap,2026-03,2026-04-26T00:00:00,"relative price gap, log points",-2.7077687419659924,available
+2026-04,2026-05-05 23:59:00,fx_news,2026-04,2026-05-01T00:00:00,FX log change since import reference,0.5016251627050452,available
+2026-05,2026-06-03 23:59:00,ulc_gap,2025Q4,2026-03-16T00:00:00,"quarterly real-cost gap, log points",4.926510943234234,available
+2026-05,2026-06-03 23:59:00,tightening,2026-04,2026-06-01T00:00:00,"negative unemployment change12, pp",-0.3999999999999999,available
+2026-05,2026-06-03 23:59:00,import_gap,2026-03,2026-05-15T00:00:00,"relative price gap, log points",-5.1474210978331385,available
+2026-05,2026-06-03 23:59:00,ppi_gap,2026-04,2026-05-26T00:00:00,"relative price gap, log points",-1.0398819029103379,available
+2026-05,2026-06-03 23:59:00,fx_news,2026-05,2026-06-01T00:00:00,FX log change since import reference,-0.5087190458316204,available
+2026-06,2026-07-06 23:59:00,ulc_gap,2026Q1,2026-06-14T00:00:00,"quarterly real-cost gap, log points",7.773615966377292,available
+2026-06,2026-07-06 23:59:00,tightening,2026-05,2026-07-02T00:00:00,"negative unemployment change12, pp",0.0,available
+2026-06,2026-07-06 23:59:00,import_gap,2026-04,2026-06-14T00:00:00,"relative price gap, log points",-2.660112511509766,available
+2026-06,2026-07-06 23:59:00,ppi_gap,2026-05,2026-06-26T00:00:00,"relative price gap, log points",-0.7346065160937769,available
+2026-06,2026-07-06 23:59:00,fx_news,2026-06,2026-07-01T00:00:00,FX log change since import reference,-0.7079384192987358,available
+2026-07,2026-08-04 23:59:00,ulc_gap,2026Q1,2026-06-14T00:00:00,"quarterly real-cost gap, log points",7.771841864931616,available
+2026-07,2026-08-04 23:59:00,tightening,2026-06,2026-08-01T00:00:00,"negative unemployment change12, pp",-0.30000000000000027,available
+2026-07,2026-08-04 23:59:00,import_gap,2026-05,2026-07-15T00:00:00,"relative price gap, log points",-2.091961115890779,available
+2026-07,2026-08-04 23:59:00,ppi_gap,2026-06,2026-07-26T00:00:00,"relative price gap, log points",-1.5863368691584583,available
+2026-07,2026-08-04 23:59:00,fx_news,2026-07,2026-08-01T00:00:00,FX log change since import reference,-0.4245415769929044,available

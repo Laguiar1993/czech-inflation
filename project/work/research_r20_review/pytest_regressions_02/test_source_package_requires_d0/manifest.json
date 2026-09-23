@@ -1,0 +1,1 @@
+{"schema": 1, "units": {"pipeline_log_levels.csv": "100_log_level_points", "pipeline_available_from.csv": "publication_timestamps", "pump_weekly.csv": "CZK_per_litre_gross_and_net"}, "source_notes": "fixture", "files": {"../outside.csv": "abc"}}

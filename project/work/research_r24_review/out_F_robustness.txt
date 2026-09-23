@@ -1,0 +1,104 @@
+============================== 1. concentration of the full-sample h12 headline gain, FOOD_NORM_SHIFT_R24
+n = 75, sum d = -49.831, mean d = -0.6644 (stored mean_loss_difference -0.664419)
+origins improved: 58 of 75 (77%); worsened: 17
+five largest improvements:
+         e_fast  e_cand  delta      d
+origin                               
+2023-02   4.584   4.067 -0.518 -4.479
+2023-03   4.449   3.928 -0.522 -4.371
+2023-01   4.564   4.087 -0.477 -4.129
+2023-04   2.917   2.394 -0.523 -2.777
+2021-07 -13.450 -13.366  0.084 -2.242
+share of total improvement from the top 5 origins: 36.1%; top 10: 53.6%; top 20: 77.3%
+five largest deteriorations:
+         e_fast  e_cand  delta      d
+origin                               
+2022-05  -1.324  -1.498 -0.173  0.489
+2024-02  -0.524  -0.875 -0.351  0.491
+2024-07  -0.680  -1.064 -0.384  0.670
+2022-04  -4.637  -4.713 -0.076  0.711
+2022-03  -7.092  -7.150 -0.058  0.832
+
+by origin year:
+       n   sum_d  mean_d  improved  mean_delta  mean_e_fast  rmse_fast  rmse_cand  share_of_total_pct
+year                                                                                                 
+2019   8  -0.632  -0.079         6       0.069       -0.557      0.779      0.727               1.268
+2020  12  -1.150  -0.096         7      -0.002       -0.885      2.034      2.011               2.308
+2021  12 -15.580  -1.298        12       0.064      -10.253     10.690     10.629              31.265
+2022  12  -4.729  -0.394         8      -0.245       -1.759      4.595      4.552               9.490
+2023  12 -22.147  -1.846        11      -0.448        2.120      2.664      2.291              44.443
+2024  12  -0.973  -0.081         7      -0.384        0.297      0.697      0.636               1.952
+2025   7  -4.621  -0.660         7      -0.389        1.038      1.080      0.711               9.273
+
+by era:
+                    n   sum_d  improved  mean_delta  rmse_fast  rmse_cand  share_of_total_pct  rmse_change_pct
+era                                                                                                           
+origins_2019_2021  32 -17.362        25       0.041      6.675      6.635              34.841           -0.611
+origins_2022_2023  24 -26.876        19      -0.346      3.756      3.603              53.934           -4.052
+origins_2024plus   19  -5.594        14      -0.386      0.858      0.665              11.225          -22.538
+
+2. decomposition: sum of 2*e_fast*delta = -56.311, sum of delta^2 = 6.480  (gain comes from moving against the FAST error, cost is delta^2)
+correlation(delta, e_fast) = -0.673 ; sign(delta) opposite to sign(e_fast) at 60 of 75 origins
+delta by era (pp of annual headline at h12): origins_2019_2021 mean +0.041, origins_2022_2023 mean -0.346, origins_2024plus mean -0.386
+
+============================== 3. is the 2019-21 gain real?
+headline h12 origins_2019_2021  n=32 mean d -0.5426  circular block  6: 95% [-1.0591, -0.0998]  P(d<0)=1.000
+headline h12 origins_2019_2021  n=32 mean d -0.5426  circular block 12: 95% [-1.1104, -0.0480]  P(d<0)=1.000
+headline h12 origins_2022_2023  n=24 mean d -1.1198  circular block  6: 95% [-2.2370, -0.1248]  P(d<0)=0.991
+headline h12 origins_2022_2023  n=24 mean d -1.1198  circular block 12: 95% [-2.0349, -0.2048]  P(d<0)=1.000
+headline h12 origins_2024plus   n=19 mean d -0.2944  circular block  6: 95% [-0.5527, -0.0357]  P(d<0)=0.990
+headline h12 origins_2024plus   n=19 mean d -0.2944  circular block 12: 95% [-0.5183, -0.0772]  P(d<0)=1.000
+food block h12 full               n=78 mean d -7.374  improved 54/78  95% [-14.887, -1.231]  P(d<0)=0.994
+food block h12 origins_2019_2021  n=35 mean d -3.780  improved 27/35  95% [-7.028, -0.952]  P(d<0)=1.000
+food block h12 origins_2022_2023  n=24 mean d -13.963  improved 16/24  95% [-31.864, +2.083]  P(d<0)=0.948
+food block h12 origins_2024plus   n=19 mean d -5.672  improved 11/19  95% [-16.748, +5.559]  P(d<0)=0.831
+2019-21 origins: FAST h12 headline errors all negative? False (mean -4.32, max 1.25); delta > 0 at 27 of 32 origins -> any upward nudge gains here
+   origins 2019-05..2020-04: n=12  mean delta +0.045  mean e_fast -0.232  sum d -0.606  improved 7/12
+   origins 2020-05..2021-04: n=12  mean delta +0.024  mean e_fast -4.205  sum d -6.730  improved 10/12
+   origins 2021-05..2021-12: n= 8  mean delta +0.059  mean e_fast -10.609  sum d -10.026  improved 8/8
+
+============================== 4. drift estimates over time, log points a year
+     mu_window_annual_pct       mu_robust_annual_pct       mu_long_annual_pct      
+                      min   max                  min   max                min   max
+year                                                                               
+2019                 1.73  2.38                 2.10  2.66               2.51  2.60
+2020                 2.34  3.02                 2.68  3.37               2.61  2.66
+2021                 2.06  2.43                 2.44  3.20               2.56  2.66
+2022                 2.37  5.18                 2.55  3.23               2.59  2.66
+2023                 4.78  5.47                 3.30  4.03               2.66  2.82
+2024                 4.56  5.08                 2.69  4.03               2.65  2.80
+2025                 4.44  4.89                 2.66  3.67               2.65  2.69
+2026                 4.14  4.49                 3.67  3.67               2.66  2.69
+mu_long over all 90 origins: min 2.512 max 2.824 mean 2.656 sd 0.066
+mu_window: min 1.725 max 5.466 ; mu_robust: min 2.099 max 4.032
+
+============================== 5. POST-HOC SENSITIVITY (must not be used for selection): constant drift instead of mu_long
+machinery check: mu_long reproduces NORM_SHIFT headline h12 errors, max gap 0.00e+00; mu_window reproduces FAST, max gap 0.00e+00
+                      food12_full  yy12_full  food12_2019_2021  yy12_2019_2021  food12_2022_2023  yy12_2022_2023  food12_2024plus  yy12_2024plus
+drift                                                                                                                                           
+mu_window (baseline)        7.842      4.869             8.619           6.675             8.835           3.756            4.129          0.858
+mu_robust (declared)        7.400      4.796             8.393           6.611             8.236           3.642            3.063          0.661
+mu_long (declared)          7.357      4.801             8.396           6.635             8.005           3.603            3.373          0.665
+constant 0.0 a year         8.497      5.005             9.953           6.955             8.722           3.659            4.217          0.709
+constant 1.0 a year         7.976      4.923             9.299           6.831             8.350           3.628            3.713          0.652
+constant 1.5 a year         7.751      4.883             8.996           6.770             8.204           3.616            3.540          0.642
+constant 2.0 a year         7.552      4.845             8.711           6.710             8.086           3.607            3.432          0.644
+constant 2.5 a year         7.382      4.809             8.446           6.650             7.997           3.600            3.396          0.659
+constant 2.6 a year         7.352      4.802             8.396           6.638             7.983           3.599            3.397          0.663
+constant 3.0 a year         7.243      4.774             8.203           6.591             7.939           3.596            3.432          0.685
+constant 3.5 a year         7.136      4.740             7.984           6.532             7.913           3.594            3.539          0.723
+constant 4.0 a year         7.063      4.708             7.791           6.475             7.917           3.594            3.712          0.769
+constant 5.0 a year         7.022      4.649             7.490           6.361             8.021           3.603            4.216          0.883
+constant 6.0 a year         7.122      4.597             7.315           6.251             8.246           3.621            4.876          1.017
+
+ex-post best constant (log points a year) by column:
+food12_full         4.75
+yy12_full           8.00
+food12_2019_2021    6.75
+yy12_2019_2021      8.00
+food12_2022_2023    3.75
+yy12_2022_2023      3.75
+food12_2024plus     2.50
+yy12_2024plus       1.75
+
+range of constants that beat the baseline on BOTH full-sample h12 headline and 2024+ h12 headline:  [1.75, 2.0, 2.25, 2.5, 2.75, 3.0, 3.25, 3.5, 3.75, 4.0, 4.25, 4.5, 4.75]

@@ -1,0 +1,31 @@
+{
+  "checks": [
+    "Independently compounded oracle from frozen headline history, unchanged h0 and actual future core substitution",
+    "Common oracle identical across every model on all scored keys",
+    "All exported MSE terms and identities reproduced",
+    "All zero-change benchmark comparisons reproduced on identical model/benchmark keys"
+  ],
+  "maximum_oracle_difference": 3.552713678800501e-15,
+  "h12": [
+    {
+      "model": "JOINT_RF_R22",
+      "h": 12,
+      "sample": "full",
+      "n": 75,
+      "headline_mse": 26.07762341122893,
+      "other_mse": 11.939747162765151,
+      "core_difference_mse": 5.423990057810892,
+      "cross_term": 8.71388619065289
+    },
+    {
+      "model": "STATE_FAST_R15",
+      "h": 12,
+      "sample": "full",
+      "n": 75,
+      "headline_mse": 23.711759555277578,
+      "other_mse": 11.939747162765151,
+      "core_difference_mse": 6.249902267829632,
+      "cross_term": 5.522110124682792
+    }
+  ]
+}

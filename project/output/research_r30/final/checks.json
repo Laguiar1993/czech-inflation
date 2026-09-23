@@ -1,0 +1,7 @@
+{
+ "consensus_matches_evidence": 0.0,
+ "actual_matches_evidence": 0.0,
+ "struct_eve_rmse": 0.41991699780709985,
+ "hard_base_rmse": 0.41795154739724044,
+ "consensus_rmse": 0.3815174380753199
+}

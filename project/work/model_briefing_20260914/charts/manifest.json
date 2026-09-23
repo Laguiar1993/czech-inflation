@@ -1,0 +1,29 @@
+{
+  "description": "Frozen-data figures only; no model estimation or data updates.",
+  "clock": "report",
+  "monthly_realised_last_period": "2026-07",
+  "selection": "Six illustrative CNB rounds, plus complete-sample score and surprise charts.",
+  "sources": {
+    "output\\research_r17\\path\\evaluation\\replay_data.json": "d6a3ca1585dc0b26b128bce5e88faf04ddaeaaa0c2097f77c5c1261bede93c6b",
+    "output\\research_r17\\path\\evaluation\\primary_scoreboard.csv": "3c35a72696e8780c8ede609b9f3eb1ca75c52d5939071df8be42661689f7b888",
+    "work\\model_briefing_20260914\\nowcast_release_evidence.csv": "ea4ffcb4b83d0ae05dcf16e55c35fc7d7b0ba12d79566546868ab6f338c1b4a5",
+    "work\\model_briefing_20260914\\nowcast_summary.csv": "204aea656a466ede91b6951b67f47f81c7367223666741dee29d83e8735c8a69",
+    "work\\model_briefing_20260914\\ANALYSIS_SCOPE.md": "183a17e4cfe933b3db12f823161fe417ea90b602e48649c5c19323ebf635b1fa"
+  },
+  "outputs": {
+    "work\\model_briefing_20260914\\charts\\path_2022_winter.png": "e17dd25aa505bd432a2b86f020c53063899b53169bfb88de3ca10202d8d24bb6",
+    "work\\model_briefing_20260914\\charts\\path_2023_winter.png": "4c16dd650d6f984af84830ebf1a5319bf695744237e6a47e75bf513f35f2232a",
+    "work\\model_briefing_20260914\\charts\\path_2023_summer.png": "e87caa96935b44c3094a9a934458a8880e70050272192e29f20054586af46964",
+    "work\\model_briefing_20260914\\charts\\path_2024_winter.png": "ac100553bafec8551a94dc600fc0ee2634929cdaae21a5215d3c39bb37782fd5",
+    "work\\model_briefing_20260914\\charts\\path_2025_summer.png": "1f197fb95ffb991169e9840539cf4cf6e66556e6d0e6ac4f32e847ee810e05d6",
+    "work\\model_briefing_20260914\\charts\\path_2026_summer.png": "150b9a9837c035840ff80b2d333bf5e41c027b51552cb0c773629a7540ac2d0d",
+    "work\\model_briefing_20260914\\charts\\path_accuracy.png": "e44a3bd1a3c35f982a11e8fc6e2415b92504da160f17eeed5578e8beaf783d47",
+    "work\\model_briefing_20260914\\charts\\nowcast_accuracy.png": "3e45dbaeccc8fa25c6367aaf147d687265bf2f0d4e6c5ea8fc24696e4fa42088",
+    "work\\model_briefing_20260914\\charts\\nowcast_surprise_scatter.png": "0291bdf5a2a5d3b0724ec7ecb292ad1266773ab33e36e67a475f9ea1698c3da1",
+    "work\\model_briefing_20260914\\charts\\nowcast_big_event_gains.png": "38aab12ab77c5ee919653184788efda544d56cbb1bcae98eb0d7e1b79f655407",
+    "work\\model_briefing_20260914\\charts\\plotted_points.csv": "3c9aac98c0b4a69f6a6af1264cb9d5a7709218e58db1b8dfff2fa305cac38f25"
+  },
+  "builder_sha256": "9e21b924ea2d87c5067df638ef7cea704774d6f61e5424be02de8d964e7538fb",
+  "n_charts": 10,
+  "n_plotted_values": 608
+}

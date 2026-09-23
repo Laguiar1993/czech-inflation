@@ -1,0 +1,41 @@
+current sha256:
+   models/food_stable_r14b.py 90166a6e65648fe6af1c811b9f7e84c8c2a4467d06e881dda82d914b94b144bf
+   models/food_path_r14.py dffc5151cdbdcf41f3bd6bf64451c40a8f27e54a467477849bb9df16cb95fc83
+
+older manifests recording these files (manifest, file, recorded hash equals current):
+   ('output/current_path_r24/20260915T082214Z_e1d40da2_foodnorm/manifest.json', 'models/food_path_r14.py', True)
+   ('output/current_path_r24/20260915T082214Z_e1d40da2_foodnorm/manifest.json', 'models/food_stable_r14b.py', True)
+   ('output/research_r14/food/manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r14/survey/manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r14/survey/manifest.json', 'models/food_stable_r14b.py', True)
+   ('output/research_r14b/food/manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r14b/food/manifest.json', 'models/food_stable_r14b.py', True)
+   ('output/research_r17/path/evaluation/input_manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r17/path/evaluation/input_manifest.json', 'models/food_stable_r14b.py', True)
+   ('output/research_r17/path/manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r17/path/manifest.json', 'models/food_stable_r14b.py', True)
+   ('output/research_r17_food/manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r17_food/manifest.json', 'models/food_stable_r14b.py', True)
+   ('output/research_r17_monthly/manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r18/path_v2/evaluation/input_manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r18/path_v2/evaluation/input_manifest.json', 'models/food_stable_r14b.py', True)
+   ('output/research_r18/path_v2/manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r18/path_v2/manifest.json', 'models/food_stable_r14b.py', True)
+   ('output/research_r18_food/manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r18_food/manifest.json', 'models/food_stable_r14b.py', True)
+   ('output/research_r22/full/evaluation/input_manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r22/full/manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r22/run/manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r24/final/evaluation/input_manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r24/final/evaluation/input_manifest.json', 'models/food_stable_r14b.py', True)
+   ('output/research_r24/final/manifest.json', 'models/food_path_r14.py', True)
+   ('output/research_r24/final/manifest.json', 'models/food_stable_r14b.py', True)
+all equal: True  n = 27
+
+R24 run manifest: 70 inputs, changed since the run: []
+R24 run manifest: 6 outputs, changed since the run: []
+   code recorded as input: ['models/food_drift_r24.py', 'models/food_stable_r14b.py', 'models/food_path_r14.py', 'r17_common.py', 'tools/research_r24/run.py', 'path_trend_residual_r15.py', 'models/core_trend_residual_r15.py', 'data/core_trend_residual_r15.py', 'models/core_path_r13.py', 'models/path_inputs.py', 'path_improvements_experiment_r12.py', 'tools/paper_replication/build_paper_panel.py', 'tools/paper_replication/a6_catalog.py', 'data/core_split.py', 'config.py', 'core_split_experiment.py', 'cz_struct.py', 'path_experiment.py', 'path_slope_transmission_r16.py', 'data/core_slope_transmission_r16.py', 'models/core_slope_transmission_r16.py']
+R24 evaluation manifest: 91 inputs, changed: [], missing: []
+R24 evaluation manifest: 45 outputs, changed: []
+   evaluation code recorded: ['a6_catalog.py', 'attribution.py', 'benchmarks.py', 'bootstrap.py', 'build_paper_panel.py', 'config.py', 'core_path_r13.py', 'core_slope_transmission_r16.py', 'core_slope_transmission_r16.py', 'core_split.py', 'core_split_experiment.py', 'core_trend_residual_r15.py', 'core_trend_residual_r15.py', 'cz_struct.py', 'evaluate.py', 'evaluate_r15.py', 'evaluate_r16.py', 'evaluate_r17.py', 'food_drift_r24.py', 'food_path_r14.py', 'food_stable_r14b.py', 'gates.py', 'lead.py', 'lead_baselines.py', 'path_experiment.py', 'path_improvements_experiment_r12.py', 'path_inputs.py', 'path_slope_transmission_r16.py', 'path_trend_residual_r15.py', 'r17_common.py', 'run.py', 'standard.py']
+   evaluation files not in its manifest: []

@@ -1,0 +1,166 @@
+{
+ "a_clocks": {
+  "n_origins": 90,
+  "same_as_r24": true,
+  "same_as_fast_rows": true,
+  "all_eve_of_detail_release": false,
+  "origins_not_eve": [
+   "2025-01",
+   "2025-02",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07",
+   "2025-08",
+   "2025-09",
+   "2025-10",
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07"
+  ],
+  "origin_month_food_never_visible": true,
+  "previous_month_food_always_visible": true,
+  "hours_before_release_min": 9.016666666666667,
+  "hours_before_release_max": 201.01666666666668
+ },
+ "b_food_stamps": {
+  "months": 139,
+  "matches": 139,
+  "mismatches": [],
+  "flash_months": [
+   "2025-01",
+   "2025-02",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07",
+   "2025-08",
+   "2025-09",
+   "2025-10",
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08"
+  ],
+  "flash_kinds": [
+   "flash"
+  ],
+  "note": "food stamps use the detail release (not the flash), which is the later of the two"
+ },
+ "c_rule": {
+  "ppi_rule_matches": 139,
+  "agri_rule_matches": 139,
+  "months": 139,
+  "ppi_rule": "day 16 of the following month (+9 Jan, +4 Mar/Apr, +1 Jun/Dec), midnight Prague",
+  "agri_rule": "day 26 of the following month, midnight Prague",
+  "source": "tools/r14_food/prepare_inputs.py, reconstructed, not observed release dates"
+ },
+ "c_slack_days_at_L": {
+  "agri4": {
+   "min": 5.999305555555556,
+   "median": 14.999305555555555,
+   "max": 19.999305555555555
+  },
+  "food_ppi": {
+   "min": 6.999305555555556,
+   "median": 23.999305555555555,
+   "max": 28.999305555555555
+  },
+  "food": {
+   "min": 18.624305555555555,
+   "median": 29.582638888888887,
+   "max": 34.62430555555556
+  }
+ },
+ "c_reading": "L = t-1 needs the producer and farm prices of month t-1 to be out before the eve of the CPI release of month t (about the 10th of t+1). The reconstruction puts them on the 16th-25th and 26th of month t; the minimum slack is the smallest number of days the true release could be later than the reconstruction before any origin loses month t-1.",
+ "d_published_levels": {
+  "origins": 90,
+  "L_equals_origin_minus_1_all": true,
+  "L_matches_audit_all": true,
+  "months_published_after_L_total": 0,
+  "window_n_matches_audit": true,
+  "window_start_matches": true,
+  "max_abs_gap_last_diff": 7.327471962526033e-15,
+  "max_abs_alpha_raw_diff": 1.3322676295501878e-15,
+  "alpha_all_minus_025": true,
+  "alpha_raw_range": [
+   -0.6013848812211764,
+   -0.29550217540753926
+  ],
+  "max_abs_correction_diff_h1_6": 1.3877787807814457e-15,
+  "max_abs_correction_h7_12": 0.0,
+  "n_pairs_matches": true,
+  "first_window_n": 49,
+  "origins_with_full_96_window": 43
+ },
+ "d2_visibility": {
+  "agri4": {
+   "t_minus_1_visible_share": 1.0,
+   "t_visible_share": 0.0
+  },
+  "food_ppi": {
+   "t_minus_1_visible_share": 1.0,
+   "t_visible_share": 0.0
+  },
+  "food": {
+   "t_minus_1_visible_share": 1.0,
+   "t_visible_share": 0.0
+  }
+ },
+ "e_monthly_change_sd": {
+  "agri4": 1.9917506281493171,
+  "food_ppi": 0.8846623603127377,
+  "food": 1.158189797361484
+ },
+ "e_vintage_sensitivity": {
+  "d_gap_agri4_1.0": {
+   "median_abs": 0.0957458090129567,
+   "max_abs": 0.32216589304728815
+  },
+  "d_cum6_agri4_1.0": {
+   "median_abs": 0.059028834035636885,
+   "max_abs": 0.19862046421329704
+  },
+  "d_gap_agri4_3.0": {
+   "median_abs": 0.29015643417036086,
+   "max_abs": 0.9164263127484702
+  },
+  "d_cum6_agri4_3.0": {
+   "median_abs": 0.17888611703825777,
+   "max_abs": 0.5649915884443542
+  },
+  "d_gap_food_ppi_0.5": {
+   "median_abs": 0.22703435518864748,
+   "max_abs": 0.4296471387835319
+  },
+  "d_cum6_food_ppi_0.5": {
+   "median_abs": 0.13997033824221972,
+   "max_abs": 0.2648843840852329
+  },
+  "d_gap_food_ppi_1.0": {
+   "median_abs": 0.4520482568981452,
+   "max_abs": 0.8585418994248389
+  },
+  "d_cum6_food_ppi_1.0": {
+   "median_abs": 0.2786950343584085,
+   "max_abs": 0.5293049149225035
+  }
+ },
+ "e_cum6_reference": {
+  "median_abs_cum6": 0.5552110978218163
+ }
+}

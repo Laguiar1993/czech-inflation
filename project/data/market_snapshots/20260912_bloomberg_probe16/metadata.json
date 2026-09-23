@@ -1,0 +1,362 @@
+{
+  "EUI6CZ Index": {
+    "name": "European Commission Manufactur",
+    "security_des": "European Commission Manufactur",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the industry sector. The results are based on a survey conducted among a representative sample of businesses in industry."
+  },
+  "EUI1CZ Index": {
+    "name": "European Commission Manufactur",
+    "security_des": "European Commission Manufactur",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the industry sector. The results are based on a survey conducted among a representative sample of businesses in industry."
+  },
+  "EUS1CZ Index": {
+    "name": "EU Services Assessment of Busi",
+    "security_des": "EU Services Assessment of Busi",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector."
+  },
+  "EUS2CZ Index": {
+    "name": "EU Services Evolution of Deman",
+    "security_des": "EU Services Evolution of Deman",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector."
+  },
+  "EUR1CZ Index": {
+    "name": "European Commission Retail Con",
+    "security_des": "European Commission Retail Con",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the retail trade industry. The results are based on a survey conducted among a representative sample of businesses in the retail sector."
+  },
+  "EUB1CZ Index": {
+    "name": "EC Consumer Construction Czech",
+    "security_des": "EC Consumer Construction Czech",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector."
+  },
+  "EUB5F4CZ Index": {
+    "name": "EC Construction Main Factors S",
+    "security_des": "EC Construction Main Factors S",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "Percent SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector."
+  },
+  "EUB5F5CZ Index": {
+    "name": "EC Construction Main Factors S",
+    "security_des": "EC Construction Main Factors S",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "Percent SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector."
+  },
+  "EUB5F7CZ Index": {
+    "name": "EC Construction Main Factors F",
+    "security_des": "EC Construction Main Factors F",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "Percent SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector."
+  },
+  "EUA2CZ Index": {
+    "name": "EC Consumer Confidence Czech F",
+    "security_des": "EC Consumer Confidence Czech F",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households."
+  },
+  "EUICDE Index": {
+    "name": "European Commission Manufactur",
+    "security_des": "European Commission Manufactur",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "GE",
+    "des_notes": "This concept tracks business sentiment within the industry sector. The results are based on a survey conducted among a representative sample of businesses in industry."
+  },
+  "EUSCDE Index": {
+    "name": "European Commission Services C",
+    "security_des": "European Commission Services C",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "GE",
+    "des_notes": "This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector."
+  },
+  "EURTDE Index": {
+    "name": "European Commission Retail Tra",
+    "security_des": "European Commission Retail Tra",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "GE",
+    "des_notes": "This concept tracks business sentiment within the retail trade industry. The results are based on a survey conducted among a representative sample of businesses in the retail sector."
+  },
+  "EUCODE Index": {
+    "name": "European Commission Constructi",
+    "security_des": "European Commission Constructi",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "GE",
+    "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector."
+  },
+  "EURTPL Index": {
+    "name": "European Commission Retail Tra",
+    "security_des": "European Commission Retail Tra",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "PD",
+    "des_notes": "This concept tracks business sentiment within the retail trade industry. The results are based on a survey conducted among a representative sample of businesses in the retail sector."
+  },
+  "EUA8EMU Index": {
+    "name": "EC Consumer Confidence Eurozon",
+    "security_des": "EC Consumer Confidence Eurozon",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "TE",
+    "des_notes": "Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households. Target Audience: households Sample Size: 23,000 households Date of Survey: first 2 or 3 weeks of the month"
+  },
+  "EUA7EMU Index": {
+    "name": "EC Consumer Confidence Eurozon",
+    "security_des": "EC Consumer Confidence Eurozon",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "TE",
+    "des_notes": "Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households. Target Audience: households Sample Size: 23,000 households Date of Survey: first 2 or 3 weeks of the month"
+  },
+  "EUICCZ Index": {
+    "name": "European Commission Manufactur",
+    "security_des": "European Commission Manufactur",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the industry sector. The results are based on a survey conducted among a representative sample of businesses in industry."
+  },
+  "EUS3CZ Index": {
+    "name": "EU Services Evolution of Deman",
+    "security_des": "EU Services Evolution of Deman",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector."
+  },
+  "EUS5CZ Index": {
+    "name": "EU Services Evolution of Emplo",
+    "security_des": "EU Services Evolution of Emplo",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector."
+  },
+  "EUSCCZ Index": {
+    "name": "European Commission Services C",
+    "security_des": "European Commission Services C",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector."
+  },
+  "EUR3CZ Index": {
+    "name": "EC Retail Trade Confidence Cze",
+    "security_des": "EC Retail Trade Confidence Cze",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the retail trade industry. The results are based on a survey conducted among a representative sample of businesses in the retail sector."
+  },
+  "EUR4CZ Index": {
+    "name": "EC Retail Trade Confidence Cze",
+    "security_des": "EC Retail Trade Confidence Cze",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the retail trade industry. The results are based on a survey conducted among a representative sample of businesses in the retail sector."
+  },
+  "EUR5CZ Index": {
+    "name": "European Commission Retail Tra",
+    "security_des": "European Commission Retail Tra",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the retail trade industry. The results are based on a survey conducted among a representative sample of businesses in the retail sector."
+  },
+  "EURTCZ Index": {
+    "name": "European Commission Retail Tra",
+    "security_des": "European Commission Retail Tra",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the retail trade industry. The results are based on a survey conducted among a representative sample of businesses in the retail sector."
+  },
+  "EUB3CZ Index": {
+    "name": "EC Construction Confidence Cze",
+    "security_des": "EC Construction Confidence Cze",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector."
+  },
+  "EUCOCZ Index": {
+    "name": "European Commission Constructi",
+    "security_des": "European Commission Constructi",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector."
+  },
+  "EUA1CZ Index": {
+    "name": "EC Consumer Confidence Czech R",
+    "security_des": "EC Consumer Confidence Czech R",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households."
+  },
+  "EUA0CZ Index": {
+    "name": "EC Consumer Confidence Indicat",
+    "security_des": "EC Consumer Confidence Indicat",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households."
+  },
+  "EUAUCZ Index": {
+    "name": "EC Consumer Confidence Czech R",
+    "security_des": "EC Consumer Confidence Czech R",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households."
+  },
+  "EUA6CZ Index": {
+    "name": "EC Consumer Confidence Czech R",
+    "security_des": "EC Consumer Confidence Czech R",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households."
+  },
+  "EUI5CZ Index": {
+    "name": "European Commission Manufactur",
+    "security_des": "European Commission Manufactur",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the industry sector. The results are based on a survey conducted among a representative sample of businesses in industry."
+  },
+  "EUB4CZ Index": {
+    "name": "EC Construction Confidence Cze",
+    "security_des": "EC Construction Confidence Cze",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector."
+  },
+  "UMRTDE Index": {
+    "name": "Eurostat Unemployment Germany",
+    "security_des": "Eurostat Unemployment Germany",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Percent SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "GE",
+    "des_notes": "The unemployment rate tracks the number of unemployed persons as a percentage of the labor force (the total number of employed plus unemployed). These figures generally come from a household labor force survey."
+  },
+  "GRCPHCPI Index": {
+    "name": "Germany Harmonized Consumer Pr",
+    "security_des": "Germany Harmonized Consumer Pr",
+    "indx_source": "German Federal Statistical Off",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "GE",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "EUESCZ Index": {
+    "name": "European Commission Economic S",
+    "security_des": "European Commission Economic S",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "The Economic Sentiment Indicator tracks overall sentiment in an economy. It is generally derived from the results of both consumer and business surveys. The Economic Sentiment Indicator is calculated from the European Commission's Business and Consumer Surveys. It is constructed from the following indicators: the industrial confidence indicator (40%), the service confidence indicator (30%), the consumer confidence indicator (20%), the construction confidence indicator (5%), and the retail trade confidence indicator (5%)."
+  }
+}

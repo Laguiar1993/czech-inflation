@@ -1,0 +1,11 @@
+{
+  "files": {
+    "adapter.json": "305e436a1c6a1e7451f81873dd501092850892a84777c47e9684fced5ff2a066",
+    "adapter.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "adapter.stdout": "52c72c05324a435ef727f71406fab688bbe8ec7207efd59ba199974d37bf191a",
+    "inputs.json": "c224ff6a85446db91ecda58bb2925811d546977bad1c05cdfe8756cd0272fd4f",
+    "request.json": "ee2185053fb68126d6d23394a56ef377352158b487b777c2c4b2ff53e17913e0",
+    "result.json": "d64ded42cae85c84d0f99a52a9e8ab2685390e94a6acfee9ee365a06acc8409a"
+  },
+  "schema_version": "forecast_updates_r33/run-v1"
+}

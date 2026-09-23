@@ -1,0 +1,248 @@
+{
+  "status": "verified_run_quantiles_and_parity_passed",
+  "exact_rational_quantiles_checked": 3960,
+  "equal_weight_quantiles_checked": 1320,
+  "unequal_weight_quantiles_checked": 2640,
+  "quantile_mismatches": [],
+  "independent_integer_rank_boundary_cases": 1792,
+  "boundary_failures_within_run_size_1_to_60": 0,
+  "outside_run_size_boundary_failures": [
+    {
+      "n": 148,
+      "p": "1/2",
+      "actual": 74.0,
+      "expected": 73
+    },
+    {
+      "n": 150,
+      "p": "1/2",
+      "actual": 75.0,
+      "expected": 74
+    },
+    {
+      "n": 174,
+      "p": "1/2",
+      "actual": 87.0,
+      "expected": 86
+    },
+    {
+      "n": 176,
+      "p": "1/2",
+      "actual": 88.0,
+      "expected": 87
+    },
+    {
+      "n": 188,
+      "p": "1/2",
+      "actual": 94.0,
+      "expected": 93
+    },
+    {
+      "n": 192,
+      "p": "1/2",
+      "actual": 96.0,
+      "expected": 95
+    },
+    {
+      "n": 198,
+      "p": "1/2",
+      "actual": 99.0,
+      "expected": 98
+    },
+    {
+      "n": 212,
+      "p": "1/2",
+      "actual": 106.0,
+      "expected": 105
+    }
+  ],
+  "byte_identical_original_verified_files": {
+    "laws.json": true,
+    "alerts.csv": true,
+    "coverage.csv": true,
+    "error_history.csv": true
+  },
+  "unchanged_prediction_columns": [
+    "as_of",
+    "point",
+    "actual",
+    "consensus",
+    "error",
+    "surprise",
+    "deviation",
+    "gain",
+    "big",
+    "material_win",
+    "material_loss",
+    "alert",
+    "release_kind",
+    "crps",
+    "ess",
+    "current_scale",
+    "p_material_gain",
+    "p_big"
+  ],
+  "changed_quantile_cells": 280,
+  "prediction_rows_with_quantile_change": 156,
+  "changed_quantiles_by_field": {
+    "median": 156,
+    "lo80": 120,
+    "hi80": 4
+  },
+  "changed_quantiles_by_family": {
+    "POOLED": 280
+  },
+  "max_abs_quantile_change_pp": 0.11597291561675394,
+  "coverage_flag_changes": [
+    {
+      "origin": "2024-05",
+      "model": "CATEGORY_RAW",
+      "family": "POOLED",
+      "field": "cover80",
+      "old": false,
+      "verified": true
+    },
+    {
+      "origin": "2024-12",
+      "model": "CATEGORY_RAW",
+      "family": "POOLED",
+      "field": "cover80",
+      "old": false,
+      "verified": true
+    }
+  ],
+  "summary_cells_changed": 28,
+  "summary_fields_changed": [
+    "coverage80",
+    "width80"
+  ],
+  "verified_all_frame_interval_scores": [
+    {
+      "model": "CATEGORY_RAW",
+      "family": "POOLED",
+      "frame": "all",
+      "coverage80": 0.7727272727272727,
+      "coverage90": 0.8787878787878788,
+      "width80": 0.7663713673078103,
+      "width90": 1.0280059042569116
+    },
+    {
+      "model": "CATEGORY_RAW",
+      "family": "SCALE",
+      "frame": "all",
+      "coverage80": 0.7727272727272727,
+      "coverage90": 0.8939393939393939,
+      "width80": 1.002909052055548,
+      "width90": 1.3286655669374328
+    },
+    {
+      "model": "CATEGORY_RAW",
+      "family": "STATE",
+      "frame": "all",
+      "coverage80": 0.7878787878787878,
+      "coverage90": 0.8787878787878788,
+      "width80": 0.9998275952400997,
+      "width90": 1.3047380682981256
+    },
+    {
+      "model": "HARD_BASE",
+      "family": "POOLED",
+      "frame": "all",
+      "coverage80": 0.803030303030303,
+      "coverage90": 0.8636363636363636,
+      "width80": 0.8285922047185965,
+      "width90": 1.050683829362972
+    },
+    {
+      "model": "HARD_BASE",
+      "family": "SCALE",
+      "frame": "all",
+      "coverage80": 0.8484848484848485,
+      "coverage90": 0.9242424242424242,
+      "width80": 1.1225826637985965,
+      "width90": 1.3593437385207559
+    },
+    {
+      "model": "HARD_BASE",
+      "family": "STATE",
+      "frame": "all",
+      "coverage80": 0.8636363636363636,
+      "coverage90": 0.9242424242424242,
+      "width80": 1.1120324668659785,
+      "width90": 1.3755732074240266
+    },
+    {
+      "model": "HARD_FULL",
+      "family": "POOLED",
+      "frame": "all",
+      "coverage80": 0.803030303030303,
+      "coverage90": 0.8333333333333334,
+      "width80": 0.8699663185173561,
+      "width90": 1.2018431687613746
+    },
+    {
+      "model": "HARD_FULL",
+      "family": "SCALE",
+      "frame": "all",
+      "coverage80": 0.8333333333333334,
+      "coverage90": 0.9242424242424242,
+      "width80": 1.1677688888160098,
+      "width90": 1.4602495377368157
+    },
+    {
+      "model": "HARD_FULL",
+      "family": "STATE",
+      "frame": "all",
+      "coverage80": 0.8484848484848485,
+      "coverage90": 0.8939393939393939,
+      "width80": 1.1613146100362088,
+      "width90": 1.451072833293198
+    },
+    {
+      "model": "HARD_HALF",
+      "family": "POOLED",
+      "frame": "all",
+      "coverage80": 0.803030303030303,
+      "coverage90": 0.8484848484848485,
+      "width80": 0.8530545294263172,
+      "width90": 1.1136245696898355
+    },
+    {
+      "model": "HARD_HALF",
+      "family": "SCALE",
+      "frame": "all",
+      "coverage80": 0.8333333333333334,
+      "coverage90": 0.9090909090909091,
+      "width80": 1.123917789282192,
+      "width90": 1.380602306486447
+    },
+    {
+      "model": "HARD_HALF",
+      "family": "STATE",
+      "frame": "all",
+      "coverage80": 0.8333333333333334,
+      "coverage90": 0.9090909090909091,
+      "width80": 1.1179597229240956,
+      "width90": 1.389669495233992
+    }
+  ],
+  "manifest_checks": {
+    "research_r18_nowcast": {
+      "inputs": 63,
+      "outputs": 7,
+      "manifest_sha256": "b9b3eb7168a30793f006e05b85f6037960aa8f5a8df8a3015c693e337d12100f"
+    },
+    "research_r18_nowcast_verified": {
+      "inputs": 64,
+      "outputs": 7,
+      "manifest_sha256": "ede448ef33497bfb390e0571fccda1bad7cd71b48024c50b0cf169037f821d29"
+    }
+  },
+  "off_grid_helper_limit": {
+    "case": "weighted_quantile([0,1],[1,1e-16],1)",
+    "actual": 0.0,
+    "exact_expected": 1,
+    "meaning": "The absolute CDF boundary tolerance can exclude a tiny positive tail at p=1; this is outside the run quantile grid and does not affect any saved output. No source changes made."
+  },
+  "prior_audit_correction": "The first audit's floating cumulative-weight oracle repeated the original boundary behavior. This exact-rational/integer-rank audit supersedes its quantile conclusion; earlier law, probability, CRPS and alert findings stand."
+}

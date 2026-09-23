@@ -1,0 +1,19 @@
+harness: incumbent vs backtest food_pred max|diff| 2.22e-16; mean produce share 0.159
+
+=== clock A: FOOD BLOCK RMSE (MAE) | HEADLINE RMSE ===
+all 90           n=90 | inc 0.913 (0.678)  split 0.902 (0.687)   -1.2% | head 0.4078 -> 0.4082 (+0.1%)
+ex-January       n=83 | inc 0.782 (0.598)  split 0.782 (0.614)   +0.1% | head 0.4048 -> 0.4046 (-0.1%)
+2024+            n=31 | inc 0.780 (0.617)  split 0.777 (0.658)   -0.4% | head 0.2165 -> 0.2356 (+8.8%)
+2024+ ex-Jan     n=28 | inc 0.682 (0.567)  split 0.720 (0.623)   +5.5% | head 0.1973 -> 0.2124 (+7.7%)
+2025+ flash era  n=19 | inc 0.567 (0.464)  split 0.573 (0.498)   +1.0% | head 0.1709 -> 0.1796 (+5.1%)
+produce months   n=30 | inc 1.031 (0.836)  split 0.988 (0.811)   -4.2% | head 0.5829 -> 0.5813 (-0.3%)
+
+=== clock B: FOOD BLOCK RMSE (MAE) | HEADLINE RMSE ===
+all 90           n=90 | inc 0.913 (0.678)  split 0.902 (0.687)   -1.2% | head 0.4068 -> 0.4073 (+0.1%)
+ex-January       n=83 | inc 0.782 (0.598)  split 0.782 (0.614)   +0.1% | head 0.4041 -> 0.4040 (-0.0%)
+2024+            n=31 | inc 0.780 (0.617)  split 0.777 (0.658)   -0.4% | head 0.2166 -> 0.2357 (+8.8%)
+2024+ ex-Jan     n=28 | inc 0.682 (0.567)  split 0.720 (0.623)   +5.5% | head 0.1983 -> 0.2134 (+7.7%)
+2025+ flash era  n=19 | inc 0.567 (0.464)  split 0.573 (0.498)   +1.0% | head 0.1697 -> 0.1783 (+5.1%)
+produce months   n=30 | inc 1.031 (0.836)  split 0.988 (0.811)   -4.2% | head 0.5824 -> 0.5809 (-0.3%)
+
+ADOPTION RULE: RECORD AND CLOSE

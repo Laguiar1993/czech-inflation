@@ -1,0 +1,2 @@
+ticker,name,security_des,indx_source,des_notes,px_last,last_update_dt,last_update,seasonality_and_transformation,eco_release_dt,country
+EUCCCZ Index,European Commission Consumer C,European Commission Consumer C,European Commission,Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households.,-8.1,2026-08-31,2026-08-31,% Balance/Diffusion Index SA,2026-09-29,CZ

@@ -1,0 +1,30 @@
+{
+  "fixed_r16_transformed_nonzero_seasonal_max_error": 4.440892098500626e-16,
+  "filter_probes": {
+    "fixed": {
+      "transition_h1_two_steps_max_error": 2.220446049250313e-16,
+      "conditional_h0_mapping_max_error": 4.440892098500626e-16,
+      "normalization": 1.0,
+      "trace_prior_scale_verified": 108,
+      "prefix_trace_invariance": true
+    },
+    "robust": {
+      "transition_h1_two_steps_max_error": 0.0,
+      "conditional_h0_mapping_max_error": 4.440892098500626e-16,
+      "normalization": 1.0,
+      "trace_prior_scale_verified": 108,
+      "prefix_trace_invariance": true
+    },
+    "news": {
+      "transition_h1_two_steps_max_error": 4.440892098500626e-16,
+      "conditional_h0_mapping_max_error": 8.881784197001252e-16,
+      "normalization": 1.0,
+      "trace_prior_scale_verified": 108,
+      "prefix_trace_invariance": true
+    }
+  },
+  "h0_beta_independent": 0.5713434343166502,
+  "h0_n": 60,
+  "h0_selected_origins_exact": true,
+  "h0_future_unreleased_poison_invariance": true
+}

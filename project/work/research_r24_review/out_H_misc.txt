@@ -1,0 +1,53 @@
+1. horizon / calendar alignment on stored output
+   mean |rate(o,h12) - rate(o+1,h11)| (same target month)  = 0.1383
+   mean |rate(o,h12) - rate(o+1,h12)| (adjacent target months) = 0.5628   -> index k is month t+k only if the first is much smaller
+   native rows: target == origin + h for every FAST row: True
+
+2. fallback paths
+   origin 2018-06 (35 complete months at most): status = insufficient_history | paths empty: True | drifts empty: True
+   all long rates missing at 2024-06: status = missing_drift_estimate | paths empty: True (run.py then copies the FAST frame and sets food_fallback_used=True)
+
+3. era masks
+   identical on all 90 origins: True | sizes: {'full': 90, 'origins_2019_2021': 35, 'origins_2022_2023': 24, 'origins_2024plus': 31} | eras partition the sample: True
+
+4. clock representations at 2024-06 (UTC string, Prague-aware, naive Prague wall time)
+   UTC aware                mu_long = 0.22320026435582227
+   Prague aware             mu_long = 0.22320026435582227
+   naive Prague wall time   mu_long = 0.22320026435582227
+   stamp of 2024-06 food: 2024-07-10 07:00:00+00:00 | drift with clock exactly at the stamp uses it (<=): True
+
+5. non-overlapping 12-origin block means of d = e_cand^2 - e_FAST^2 at h12, every alignment
+   offset  0: 6 blocks, all negative: True, t = -2.66
+   offset  1: 6 blocks, all negative: True, t = -2.43
+   offset  2: 6 blocks, all negative: True, t = -2.35
+   offset  3: 6 blocks, all negative: True, t = -2.23
+   offset  4: 5 blocks, all negative: True, t = -1.82
+   offset  5: 5 blocks, all negative: True, t = -1.87
+   offset  6: 5 blocks, all negative: False, t = -1.86
+   offset  7: 5 blocks, all negative: True, t = -2.00
+   offset  8: 5 blocks, all negative: True, t = -2.10
+   offset  9: 5 blocks, all negative: True, t = -2.82
+   offset 10: 5 blocks, all negative: True, t = -3.90
+   offset 11: 5 blocks, all negative: True, t = -3.66
+   t range -3.90 .. -1.82 ; two-sided 5% critical value with 4-5 df is 2.57-2.78
+
+6. food-block support
+   H=3: reviewer (realised finite) n=87, evaluator (also needs a seasonal-naive path) n=87
+   H=6: reviewer (realised finite) n=84, evaluator (also needs a seasonal-naive path) n=84
+   H=12: reviewer (realised finite) n=78, evaluator (also needs a seasonal-naive path) n=78
+
+7. bias, forecast minus actual
+   food block h12 (log points):
+model              FOOD_NORM_SHIFT_R24  STATE_FAST_R15
+sample                                                
+full                            -2.137          -1.174
+origins_2019_2021               -4.188          -4.452
+origins_2022_2023               -0.985           0.851
+origins_2024plus                 0.187           2.305
+   headline h12 (pp):
+model              FOOD_NORM_SHIFT_R24  STATE_FAST_R15
+sample                                                
+full                            -1.831          -1.639
+origins_2019_2021               -4.275          -4.316
+origins_2022_2023               -0.166           0.181
+origins_2024plus                 0.184           0.570

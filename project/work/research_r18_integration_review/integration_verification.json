@@ -1,0 +1,53 @@
+{
+  "models": 11,
+  "origins": 90,
+  "rows_per_model": 1170,
+  "controls_exact_max": 0.0,
+  "control_compounding_max": 0.0,
+  "candidate_h0_max": 0.0,
+  "candidate_protected_max": 8.881784197001252e-16,
+  "independent_annual_max": 1.3100631690576847e-13,
+  "yy_actual_max": 6.394884621840902e-14,
+  "mm_actual_max": 2.220446049250313e-16,
+  "cumulative_log_forecast_max": 0.0,
+  "cumulative_log_actual_max": 0.0,
+  "primary_keys_per_model": 969,
+  "primary_counts_by_h": {
+    "1": 88,
+    "2": 86,
+    "3": 84,
+    "4": 83,
+    "5": 82,
+    "6": 81,
+    "7": 80,
+    "8": 79,
+    "9": 78,
+    "10": 77,
+    "11": 76,
+    "12": 75
+  },
+  "primary_metric_rows_verified": 3300,
+  "component_raw_rows_verified": 59400,
+  "selected_component_score_rows_verified": 660,
+  "revision_rows": 10769,
+  "revision_missing": 7,
+  "revision_additive_max": 1.0755285551056204e-15,
+  "annual_revision_not_component_sum_rows": 10737,
+  "cnb_pairs_verified": 1584,
+  "cnb_summary_rows_verified": 480,
+  "cnb_clocks_verified": 38,
+  "cnb_pairs_per_clock": {
+    "cutoff": 66,
+    "report": 66
+  },
+  "replay_payload_matches_json": true,
+  "food_training_rows_chronological": 68400,
+  "category_signal_training_rows_chronological": 36288,
+  "integration_has_no_model_fit": true,
+  "review_input_hashes": {
+    "output\\research_r18\\path_v2\\manifest.json": "0c9fbf44f15a5255bfe3ab685eed43f24e4ebfddf8c6c6c1988c478e5ea0d1fc",
+    "output\\research_r18\\path_v2\\evaluation\\input_manifest.json": "3fbc3a173f0bbb2425f12c09e66c95392a977553c1d880ba4f970d8c2f03e6c1",
+    "work\\research_r18_integration_review\\audit_integration.py": "c67f52738bd61617b0a80678e481ff412e1d8fd88db58e3ccf5774bb508555c7",
+    "tools\\research_r18\\evaluate.py": "e36b1b7c3a99a4cc4c3de012134aca95c5bf233990224482c5ddc566898f926c"
+  }
+}

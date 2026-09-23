@@ -1,0 +1,14 @@
+{
+  "alert": "absolute forecast minus consensus >= 0.2 pp",
+  "big": "absolute actual minus consensus >= 0.4 pp",
+  "threshold_epsilon": 1e-09,
+  "alerted_big": "magnitude detection only: alert and big, irrespective of direction or gain",
+  "false_alarm": "alert on a non-big release; not necessarily a harmful forecast",
+  "directional_big_hit": "alert and big and forecast deviation has the surprise direction",
+  "wrong_way_big_alert": "alert and big and forecast deviation has the opposite direction",
+  "material_big_hit": "alert and big and absolute-error gain >= 0.15 pp",
+  "big_precision": "magnitude big hits / all alerts in the selected frame",
+  "directional_big_precision": "directional big hits / all alerts in the selected frame",
+  "material_big_precision": "material big hits / all alerts in the selected frame",
+  "all_release_precision": "Use frame=all for all-release alert precision. Frame=big is conditional on realised large surprises and is not all-release precision."
+}

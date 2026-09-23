@@ -1,0 +1,26 @@
+CZ-STRUCT backtest: 102 origins 2018-02..2026-07
+  band 5-95%% coverage: 86%% (target ~90%%, n=66)
+
+n=90  2019-02..2026-07
+  core  block RMSE=0.308  MAE=0.241
+  food  block RMSE=0.913  MAE=0.678
+  adm   block RMSE=2.313  MAE=0.877
+  STRUCT         h0 RMSE=0.409  MAE=0.260
+  STRUCT_QRF     h0 RMSE=0.406  MAE=0.263
+  STRUCT_ST      h0 RMSE=0.414  MAE=0.265
+  STRUCT_PE      h0 RMSE=0.400  MAE=0.262
+  STRUCT_PE_WARM h0 RMSE=0.407  MAE=0.271
+  STRUCT_EVE         release-eve RMSE=0.408  MAE=0.260  (n=90)
+  STRUCT_PE_WARM_EVE release-eve RMSE=0.407  MAE=0.271  (n=90)
+  STRUCT_PEH_WARM_EVE release-eve RMSE=0.401  MAE=0.262  (n=90)
+  self-check max|STRUCT_PRE - STRUCT_EVE| = 0.00e+00
+  self-check max|STRUCT_PE_PRE - STRUCT_PE_EVE| = 0.00e+00
+  champion   h0 RMSE=0.773  (same 90 months)
+  STRUCT_H1  RMSE=0.698  MAE=0.384  (n=88)
+  h1 head-to-head on 88 common target months: champion 0.739 vs STRUCT_H1 0.698
+  STRUCT_H3  RMSE=0.809  MAE=0.441  (n=84)
+  h3 head-to-head on 84 common target months: champion 0.874 vs STRUCT_H3 0.809
+  STRUCT_H6  RMSE=0.867  MAE=0.514  (n=78)
+  h6 head-to-head on 78 common target months: champion 0.899 vs STRUCT_H6 0.867
+  STRUCT_H12  RMSE=0.985  MAE=0.549  (n=66)
+  h12 head-to-head on 66 common target months: champion 0.986 vs STRUCT_H12 0.985

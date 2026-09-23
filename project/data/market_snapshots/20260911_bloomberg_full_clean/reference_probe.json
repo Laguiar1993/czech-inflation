@@ -1,0 +1,375 @@
+{
+  "retrieved_at": "2026-09-11T06:47:46.548161+00:00",
+  "tickers": [
+    "CZIPITN Index",
+    "CZGRIDX Index",
+    "LCTQCZI Index",
+    "LCTOCZI Index",
+    "EUS3CZ Index",
+    "EUS5CZ Index",
+    "EUB3CZ Index",
+    "GRCPHCPI Index",
+    "UMRTDE Index",
+    "CZEII Index",
+    "LONSCZNF Index",
+    "CZIPITW Index",
+    "CZIPITWY Index"
+  ],
+  "fields": [
+    "NAME",
+    "SECURITY_DES",
+    "CRNCY",
+    "QUOTE_UNITS",
+    "INDX_SOURCE",
+    "DES_NOTES",
+    "PX_LAST",
+    "LAST_UPDATE_DT",
+    "LAST_UPDATE",
+    "ECO_RELEASE_DT",
+    "ECO_RELEASE_TIME",
+    "ECO_RELEASE_FREQ",
+    "ECO_SEASONAL_ADJ",
+    "ECO_RELEASE_PERIOD",
+    "ECO_RELEASE_DATE",
+    "ECO_ACTUAL_RELEASE_DT",
+    "ECO_UNITS",
+    "ECO_UNIT",
+    "FREQUENCY",
+    "PERIODICITY",
+    "SEASONAL_ADJ",
+    "SEASONAL_ADJUSTMENT",
+    "COUNTRY"
+  ],
+  "results": {
+    "CZIPITN Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "eco_release_dt",
+        "country"
+      ],
+      "values": {
+        "CZIPITN Index": {
+          "name": "Czech Republic Industrial Prod",
+          "security_des": "Czech Republic Industrial Prod",
+          "indx_source": "Czech Statistical Office",
+          "des_notes": "Industrial production measures the output of industrial establishments in the following industries: mining and quarrying, manufacturing and public utilities (electricity, gas and water supply). Production is based on the volume of the output.",
+          "px_last": 97.1,
+          "last_update_dt": "2026-07-31T00:00:00.000Z",
+          "last_update": "2026-07-31T00:00:00.000Z",
+          "eco_release_dt": "2026-10-07T00:00:00.000Z",
+          "country": "CZ"
+        }
+      }
+    },
+    "CZGRIDX Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "country"
+      ],
+      "values": {
+        "CZGRIDX Index": {
+          "name": "Total Number of Granted Buildi",
+          "security_des": "Total Number of Granted Buildi",
+          "indx_source": "Czech Statistical Office",
+          "des_notes": "This concept tracks the number of permits that have been issued for new construction, additions to pre-existing structures or major renovations. These statistics are based on the number of construction permits approved.",
+          "px_last": 5622.0,
+          "last_update_dt": "2026-07-31T00:00:00.000Z",
+          "last_update": "2026-07-31T00:00:00.000Z",
+          "country": "CZ"
+        }
+      }
+    },
+    "LCTQCZI Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "country"
+      ],
+      "values": {
+        "LCTQCZI Index": {
+          "name": "Eurostat Unit Labor Cost Nomin",
+          "security_des": "Eurostat Unit Labor Cost Nomin",
+          "indx_source": "Eurostat",
+          "des_notes": "This concept tracks the growth in employee compensation relative to real output. Unit labor costs are generally calculated by dividing total labor compensation by real gross domestic product.",
+          "px_last": 138.6,
+          "last_update_dt": "2026-03-31T00:00:00.000Z",
+          "last_update": "2026-03-31T00:00:00.000Z",
+          "country": "CZ"
+        }
+      }
+    },
+    "LCTOCZI Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "country"
+      ],
+      "values": {
+        "LCTOCZI Index": {
+          "name": "Eurostat Unit Labor Cost Nomin",
+          "security_des": "Eurostat Unit Labor Cost Nomin",
+          "indx_source": "Eurostat",
+          "des_notes": "This concept tracks the growth in employee compensation relative to real output. Unit labor costs are generally calculated by dividing total labor compensation by real gross domestic product.",
+          "px_last": 128.4,
+          "last_update_dt": "2025-12-31T00:00:00.000Z",
+          "last_update": "2025-12-31T00:00:00.000Z",
+          "country": "CZ"
+        }
+      }
+    },
+    "EUS3CZ Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "country"
+      ],
+      "values": {
+        "EUS3CZ Index": {
+          "name": "EU Services Evolution of Deman",
+          "security_des": "EU Services Evolution of Deman",
+          "indx_source": "European Commission",
+          "des_notes": "This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector.",
+          "px_last": 21.9,
+          "last_update_dt": "2026-08-31T00:00:00.000Z",
+          "last_update": "2026-08-31T00:00:00.000Z",
+          "country": "CZ"
+        }
+      }
+    },
+    "EUS5CZ Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "country"
+      ],
+      "values": {
+        "EUS5CZ Index": {
+          "name": "EU Services Evolution of Emplo",
+          "security_des": "EU Services Evolution of Emplo",
+          "indx_source": "European Commission",
+          "des_notes": "This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector.",
+          "px_last": -11.0,
+          "last_update_dt": "2026-08-31T00:00:00.000Z",
+          "last_update": "2026-08-31T00:00:00.000Z",
+          "country": "CZ"
+        }
+      }
+    },
+    "EUB3CZ Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "country"
+      ],
+      "values": {
+        "EUB3CZ Index": {
+          "name": "EC Construction Confidence Cze",
+          "security_des": "EC Construction Confidence Cze",
+          "indx_source": "European Commission",
+          "des_notes": "This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector.",
+          "px_last": 3.6,
+          "last_update_dt": "2026-08-31T00:00:00.000Z",
+          "last_update": "2026-08-31T00:00:00.000Z",
+          "country": "CZ"
+        }
+      }
+    },
+    "GRCPHCPI Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "eco_release_dt",
+        "country"
+      ],
+      "values": {
+        "GRCPHCPI Index": {
+          "name": "Germany Harmonized Consumer Pr",
+          "security_des": "Germany Harmonized Consumer Pr",
+          "indx_source": "German Federal Statistical Off",
+          "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate.",
+          "px_last": 103.4,
+          "last_update_dt": "2026-08-31T00:00:00.000Z",
+          "last_update": "2026-08-31T00:00:00.000Z",
+          "eco_release_dt": "2026-10-13T00:00:00.000Z",
+          "country": "GE"
+        }
+      }
+    },
+    "UMRTDE Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "quote_units",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "country"
+      ],
+      "values": {
+        "UMRTDE Index": {
+          "name": "Eurostat Unemployment Germany",
+          "security_des": "Eurostat Unemployment Germany",
+          "quote_units": "%",
+          "indx_source": "Eurostat",
+          "des_notes": "The unemployment rate tracks the number of unemployed persons as a percentage of the labor force (the total number of employed plus unemployed). These figures generally come from a household labor force survey.",
+          "px_last": 4.0,
+          "last_update_dt": "2026-07-31T00:00:00.000Z",
+          "last_update": "2026-07-31T00:00:00.000Z",
+          "country": "GE"
+        }
+      }
+    },
+    "CZEII Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "eco_release_dt",
+        "country"
+      ],
+      "values": {
+        "CZEII Index": {
+          "name": "Czech Republic Import Prices",
+          "security_des": "Czech Republic Import Prices",
+          "indx_source": "Czech Statistical Office",
+          "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports).",
+          "px_last": 116.1,
+          "last_update_dt": "2026-07-31T00:00:00.000Z",
+          "last_update": "2026-07-31T00:00:00.000Z",
+          "eco_release_dt": "2026-10-12T00:00:00.000Z",
+          "country": "CZ"
+        }
+      }
+    },
+    "LONSCZNF Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "crncy",
+        "quote_units",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "eco_release_dt",
+        "country"
+      ],
+      "values": {
+        "LONSCZNF Index": {
+          "name": "Czech Republic Non-Financial C",
+          "security_des": "Czech Republic Non-Financial C",
+          "crncy": "EUR",
+          "quote_units": "Millions",
+          "indx_source": "European Central Bank",
+          "des_notes": "This concept tracks the aggregate assets and liabilities of banks within an economy (including private or commercial banks, central banks or both).",
+          "px_last": 67323.0,
+          "last_update_dt": "2026-07-31T00:00:00.000Z",
+          "last_update": "2026-07-31T00:00:00.000Z",
+          "eco_release_dt": "2026-09-25T00:00:00.000Z",
+          "country": "CZ"
+        }
+      }
+    },
+    "CZIPITW Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "eco_release_dt",
+        "country"
+      ],
+      "values": {
+        "CZIPITW Index": {
+          "name": "Czech Republic Industrial Prod",
+          "security_des": "Czech Republic Industrial Prod",
+          "indx_source": "Czech Statistical Office",
+          "des_notes": "Industrial production measures the output of industrial establishments in the following industries: mining and quarrying, manufacturing and public utilities (electricity, gas and water supply). Production is based on the volume of the output.",
+          "px_last": 93.5,
+          "last_update_dt": "2026-07-31T00:00:00.000Z",
+          "last_update": "2026-07-31T00:00:00.000Z",
+          "eco_release_dt": "2026-10-07T00:00:00.000Z",
+          "country": "CZ"
+        }
+      }
+    },
+    "CZIPITWY Index": {
+      "columns": [
+        "name",
+        "security_des",
+        "indx_source",
+        "des_notes",
+        "px_last",
+        "last_update_dt",
+        "last_update",
+        "eco_release_dt",
+        "country"
+      ],
+      "values": {
+        "CZIPITWY Index": {
+          "name": "Czech Republic Industrial Prod",
+          "security_des": "Czech Republic Industrial Prod",
+          "indx_source": "Czech Statistical Office",
+          "des_notes": "Industrial production measures the output of industrial establishments in the following industries: mining and quarrying, manufacturing and public utilities (electricity, gas and water supply). Production is based on the volume of the output.",
+          "px_last": 3.1,
+          "last_update_dt": "2026-07-31T00:00:00.000Z",
+          "last_update": "2026-07-31T00:00:00.000Z",
+          "eco_release_dt": "2026-10-07T00:00:00.000Z",
+          "country": "CZ"
+        }
+      }
+    }
+  }
+}

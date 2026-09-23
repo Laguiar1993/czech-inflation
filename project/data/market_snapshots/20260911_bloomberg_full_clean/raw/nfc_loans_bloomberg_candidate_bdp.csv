@@ -1,0 +1,2 @@
+ticker,name,security_des,crncy,quote_units,indx_source,des_notes,px_last,last_update_dt,last_update
+LONSCZNF Index,Czech Republic Non-Financial C,Czech Republic Non-Financial C,EUR,Millions,European Central Bank,"This concept tracks the aggregate assets and liabilities of banks within an economy (including private or commercial banks, central banks or both).",67323.0,2026-07-31,2026-07-31

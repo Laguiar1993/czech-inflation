@@ -1,0 +1,33 @@
+{
+  "tool": "tools\\market_data\\compare_bloomberg_model_inputs.py",
+  "tool_sha256": "51c142d27293d2df81df9be8b332f846b3eaa43d5f4caceb412e359cf17d3f46",
+  "created_at": "2026-09-13T12:16:05+00:00",
+  "bloomberg_data": "compare_bloomberg_exactness.load_raw: 20260911 wide daily + 20260912_bloomberg_probe*",
+  "database": "C:\\Users\\luis_\\economic_db\\czechia.duckdb",
+  "unemployment_vintage_as_of": "2026-09-13 00:00:00+00:00",
+  "inputs": {
+    "output\\bloomberg_probe_comparison_20260912\\exactness\\exactness.csv": "a78deb1a295a65bcf0ef1ffde94cd5b3a4b860f78eeb66ad79e6fcb073417ba8",
+    "tests\\fixtures\\cleanup\\MANIFEST.json": "0eaeaafd857fd914e237e792f0e8f006645a4a1286fee7b7cf80c9c2444557b1",
+    "data\\paper_replication\\a6_inputs_20260912\\exact_inputs_long.csv": "cfd02def49bd5dd90f0e567e89bbba4ffc79701061ec58d5944dff7d82d3b23b",
+    "data\\paper_replication\\a6_exact_overrides_20260912\\overrides_long.csv": "7e14bfbe141b9eb738e5c68a171d8812dfebd770d0c58179267f61dd810bd532",
+    "data\\paper_replication\\a6_inputs_20260912\\candidate_inputs_long.csv": "d06aefef3b387d6a7650bd669f304ed45c6bcb59ad1ed9633f932adffb4c7d67",
+    "data\\paper_replication\\paper_model_panel_20260912_exact\\manifest.json": "b1c3e084c3e1200adcaeceaa27fd2c0f5149610e12a2cee6b65806c389344e43",
+    "data\\paper_replication\\paper_model_panel_20260912_exact\\target_cpi_mm.csv": "f969a55e7750d3310b1d938fe96269669b51041bafed037622ffe7d055d1df35",
+    "output\\cnb_paper_a6_audit_20260912\\a6_audit.csv": "f79e6449d1930525fcba51c6a995e7de8b651334be28c7d1bf31c8e96b3eb100",
+    "data\\cnb_daily_eur_fixings_20260912\\eurczk_daily.csv": "629105c496cd30d5c799208f9f2c18b97398aa7f98ac55270c15dc9f368c45ad",
+    "output\\independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+    "data\\vintages\\unemployment.csv.gz": "37519e58db90ab0f9f026fcf2d62b44df46a512f58596ab3985e14787044657a",
+    "data\\czcpmom_survey_history_extended.csv": "2d43dc9f99add7b5d93a8876936e7a726af124eb1f6f40cbfb3c912e5a7a794d"
+  },
+  "new_tests": 61,
+  "inventory_rows": 153,
+  "status_counts": {
+    "not exact": 69,
+    "exact": 56,
+    "no Bloomberg series held": 14,
+    "static": 7,
+    "from another model": 5,
+    "no data": 1,
+    "Bloomberg already": 1
+  }
+}

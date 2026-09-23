@@ -1,0 +1,382 @@
+{
+  "PPTXCZ Index": {
+    "name": "Eurostat PPI Czech Republic In",
+    "security_des": "Eurostat PPI Czech Republic In",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPPBE4CZ Index": {
+    "name": "Eurostat Domestic PPI Industry",
+    "security_des": "Eurostat Domestic PPI Industry",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPP0BDCZ Index": {
+    "name": "Eurostat Domestic PPI Mining a",
+    "security_des": "Eurostat Domestic PPI Mining a",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPPIGKCZ Index": {
+    "name": "Eurostat Domestic PPI Intermed",
+    "security_des": "Eurostat Domestic PPI Intermed",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2015-09-30",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "PPIGCZ Index": {
+    "name": "Eurostat PPI Czech Republic In",
+    "security_des": "Eurostat PPI Czech Republic In",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "PPENCZ Index": {
+    "name": "Eurostat PPI Czech Republic En",
+    "security_des": "Eurostat PPI Czech Republic En",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPENBCZ Index": {
+    "name": "Eurostat Domestic PPI Other En",
+    "security_des": "Eurostat Domestic PPI Other En",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2015-04-30",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "PPCGCZ Index": {
+    "name": "Eurostat PPI Czech Republic Ca",
+    "security_des": "Eurostat PPI Czech Republic Ca",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPP0CGCZ Index": {
+    "name": "Eurostat Domestic PPI Consumer",
+    "security_des": "Eurostat Domestic PPI Consumer",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPPCG1CZ Index": {
+    "name": "Eurostat Dom PPI Consumer Good",
+    "security_des": "Eurostat Dom PPI Consumer Good",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "PPDGCZ Index": {
+    "name": "Eurostat PPI Czech Republic Du",
+    "security_des": "Eurostat PPI Czech Republic Du",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "PPNGCZ Index": {
+    "name": "Eurostat PPI Czech Republic No",
+    "security_des": "Eurostat PPI Czech Republic No",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "PPXECZ Index": {
+    "name": "Eurostat PPI Czech Republic Al",
+    "security_des": "Eurostat PPI Czech Republic Al",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPPBC3CZ Index": {
+    "name": "Eurostat Dom PPI Mining & Quar",
+    "security_des": "Eurostat Dom PPI Mining & Quar",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPP00BCZ Index": {
+    "name": "Eurostat Domestic PPI Mining &",
+    "security_des": "Eurostat Domestic PPI Mining &",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPP00DCZ Index": {
+    "name": "Eurostat Domestic PPI Electric",
+    "security_des": "Eurostat Domestic PPI Electric",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPP036CZ Index": {
+    "name": "Eurostat Domestic PPI Water Co",
+    "security_des": "Eurostat Domestic PPI Water Co",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPCM Index": {
+    "name": "Czech Republic PPI Services &",
+    "security_des": "Czech Republic PPI Services &",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZEII Index": {
+    "name": "Czech Republic Import Prices",
+    "security_des": "Czech Republic Import Prices",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIF Index": {
+    "name": "Czech Republic Import Prices F",
+    "security_des": "Czech Republic Import Prices F",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIB Index": {
+    "name": "Czech Republic Import Prices B",
+    "security_des": "Czech Republic Import Prices B",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIII Index": {
+    "name": "Czech Republic Import Prices I",
+    "security_des": "Czech Republic Import Prices I",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIL Index": {
+    "name": "Czech Republic Import Prices L",
+    "security_des": "Czech Republic Import Prices L",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIO Index": {
+    "name": "Czech Republic Import Prices O",
+    "security_des": "Czech Republic Import Prices O",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2017-12-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIC Index": {
+    "name": "Czech Republic Import Prices C",
+    "security_des": "Czech Republic Import Prices C",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIG Index": {
+    "name": "Czech Republic Import Prices G",
+    "security_des": "Czech Republic Import Prices G",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIT Index": {
+    "name": "Czech Republic Import Prices T",
+    "security_des": "Czech Republic Import Prices T",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIM Index": {
+    "name": "Czech Republic Import Prices M",
+    "security_des": "Czech Republic Import Prices M",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIE Index": {
+    "name": "Czech Republic Export Prices",
+    "security_des": "Czech Republic Export Prices",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Export price indexes track changes in the prices of goods produced domestically and sold abroad (exports)."
+  },
+  "CZEIEF Index": {
+    "name": "Czech Republic Export Prices F",
+    "security_des": "Czech Republic Export Prices F",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Export price indexes track changes in the prices of goods produced domestically and sold abroad (exports)."
+  },
+  "CZEIEB Index": {
+    "name": "Czech Republic Export Prices B",
+    "security_des": "Czech Republic Export Prices B",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Export price indexes track changes in the prices of goods produced domestically and sold abroad (exports)."
+  },
+  "CZEIEI Index": {
+    "name": "Czech Republic Export Prices I",
+    "security_des": "Czech Republic Export Prices I",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Export price indexes track changes in the prices of goods produced domestically and sold abroad (exports)."
+  },
+  "CZEIEL Index": {
+    "name": "Czech Republic Export Prices L",
+    "security_des": "Czech Republic Export Prices L",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Export price indexes track changes in the prices of goods produced domestically and sold abroad (exports)."
+  },
+  "CZEIEO Index": {
+    "name": "Czech Republic Export Prices O",
+    "security_des": "Czech Republic Export Prices O",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2017-12-31",
+    "country": "CZ",
+    "des_notes": "Export price indexes track changes in the prices of goods produced domestically and sold abroad (exports)."
+  },
+  "CZEIEC Index": {
+    "name": "Czech Republic Export Prices C",
+    "security_des": "Czech Republic Export Prices C",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Export price indexes track changes in the prices of goods produced domestically and sold abroad (exports)."
+  },
+  "CZEIEG Index": {
+    "name": "Czech Republic Export Prices G",
+    "security_des": "Czech Republic Export Prices G",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Export price indexes track changes in the prices of goods produced domestically and sold abroad (exports)."
+  },
+  "CZEIET Index": {
+    "name": "Czech Republic Export Prices T",
+    "security_des": "Czech Republic Export Prices T",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Export price indexes track changes in the prices of goods produced domestically and sold abroad (exports)."
+  },
+  "CZEIEM Index": {
+    "name": "Czech Republic Export Prices M",
+    "security_des": "Czech Republic Export Prices M",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Export price indexes track changes in the prices of goods produced domestically and sold abroad (exports)."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "original_directory": "output/research_r18_category",
+  "checks": [
+    {
+      "payload": "state_predictions",
+      "rows": 72,
+      "numeric_columns": [
+        "h",
+        "core_log",
+        "core_mm"
+      ],
+      "bit_exact": true
+    },
+    {
+      "payload": "core_predictions",
+      "rows": 108,
+      "numeric_columns": [
+        "h",
+        "core_log",
+        "core_mm"
+      ],
+      "bit_exact": true
+    },
+    {
+      "payload": "forecasts",
+      "rows": 117,
+      "numeric_columns": [
+        "h",
+        "mm_forecast",
+        "mm_actual",
+        "yy_actual",
+        "yy_exante",
+        "cumulative_log_forecast",
+        "cumulative_log_actual"
+      ],
+      "bit_exact": true
+    },
+    {
+      "payload": "native_forecasts",
+      "rows": 117,
+      "numeric_columns": [
+        "mm_forecast",
+        "native_h0",
+        "h0_exante",
+        "h0_actual",
+        "mm_actual",
+        "yy_actual",
+        "yy_conditional",
+        "headline_n",
+        "h",
+        "contribution_core",
+        "contribution_food",
+        "contribution_administered",
+        "contribution_alcohol_tobacco",
+        "contribution_fuel",
+        "contribution_wedge",
+        "value_core",
+        "value_food",
+        "value_administered",
+        "value_alcohol_tobacco",
+        "value_fuel",
+        "value_wedge",
+        "weight_food",
+        "weight_fuel",
+        "weight_alc",
+        "weight_administered",
+        "weight_core",
+        "yy_exante",
+        "cumulative_log_forecast",
+        "cumulative_log_actual"
+      ],
+      "bit_exact": true
+    },
+    {
+      "payload": "training_labels",
+      "rows": 36,
+      "numeric_columns": [
+        "h",
+        "error",
+        "baseline_log",
+        "actual_log"
+      ],
+      "bit_exact": true
+    },
+    {
+      "payload": "features_by_origin",
+      "rows": 3,
+      "numeric_columns": [
+        "unemployment_change3",
+        "ip_growth3",
+        "ulc_growth12",
+        "fx3",
+        "cost_26_mean3",
+        "cost_45_mean3",
+        "breadth3",
+        "goods_minus_services"
+      ],
+      "bit_exact": true
+    }
+  ],
+  "parameters_unchanged": true,
+  "old_manifest_sha256": "9bc20306d50b9147ea3a641094c49a95ac5fb4a6a4eea36f8fc93f5cd5290023"
+}

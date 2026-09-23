@@ -1,0 +1,17 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value,error
+unemployment_15_64,OECZRUAX Index,2026-09-12T17:00:13.469844+00:00,OECD Czech Rep Labour Force Su,Organisation for Economic Co-o,,Quarterly,2024-09-30,ok,MONTHLY,107.0,1998-03-31,2024-09-30,2.635,
+unemployment_15_64,OECZRUAW Index,2026-09-12T17:00:14.356653+00:00,OECD Czech Rep Labour Force Su,Organisation for Economic Co-o,,Quarterly,2024-09-30,ok,MONTHLY,107.0,1998-03-31,2024-09-30,2.7,
+reer_more,JBDCCZK Index,2026-09-12T17:00:14.930628+00:00,,,,,,bdp_error,,,,,,ValueError: no reference data (ticker probably invalid)
+reer_more,JBDPCZK Index,2026-09-12T17:00:15.085456+00:00,,,,,,bdp_error,,,,,,ValueError: no reference data (ticker probably invalid)
+reer_more,JBMCCZK Index,2026-09-12T17:00:15.267638+00:00,,,,,,bdp_error,,,,,,ValueError: no reference data (ticker probably invalid)
+reer_more,JBMPCZK Index,2026-09-12T17:00:15.422045+00:00,,,,,,bdp_error,,,,,,ValueError: no reference data (ticker probably invalid)
+reer_more,OECZFRAB Index,2026-09-12T17:00:15.595736+00:00,OECD Czech Rep Real Effective,Organisation for Economic Co-o,,Quarterly,2026-06-30,ok,MONTHLY,135.0,1992-12-31,2026-06-30,141.63,
+reer_more,OEEOCZXA Index,2026-09-12T17:00:16.153173+00:00,OECD Eco Outlook Czech Rep Rea,Organisation for Economic Co-o,,Quarterly,2027-12-31,ok,MONTHLY,126.0,1995-03-31,2026-06-30,1.138,
+reer_more,.REER_CZK G Index,2026-09-12T17:00:16.711085+00:00,Czech Koruna REER (BIS),,,,2010-09-30,ok,MONTHLY,129.0,2000-01-31,2010-09-30,123.27,
+cpi_components,CP1SCZ Index,2026-09-12T17:00:17.271105+00:00,EU CPI Catering Services Czech,Eurostat,Index NSA,Monthly,2026-07-31,ok,MONTHLY,320.0,1999-12-31,2026-07-31,104.15,
+cpi_components,CP1SCZMM Index,2026-09-12T17:00:17.881892+00:00,EU CPI Catering Services Czech,Eurostat,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,319.0,2000-01-31,2026-07-31,0.2,
+cpi_components,CP1ACZ Index,2026-09-12T17:00:18.448678+00:00,EU CPI Accommodation Services,Eurostat,Index NSA,Monthly,2026-07-31,ok,MONTHLY,320.0,1999-12-31,2026-07-31,109.27,
+cpi_components,CP1ACZMM Index,2026-09-12T17:00:18.984290+00:00,EU CPI Accommodation Services,Eurostat,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,319.0,2000-01-31,2026-07-31,0.6,
+cpi_components,OECZGSJM Index,2026-09-12T17:00:19.545491+00:00,OECD Czech Rep CPI Services Le,Organisation for Economic Co-o,,Monthly,2018-05-31,ok,MONTHLY,293.0,1994-01-31,2018-05-31,111.49,
+cpi_components,OECZGSHA Index,2026-09-12T17:00:20.125814+00:00,OECD Czech Rep CPI Services Re,Organisation for Economic Co-o,,Monthly,2018-05-31,ok,MONTHLY,293.0,1994-01-31,2018-05-31,114.26,
+cpi_components,CPNGCZYY Index,2026-09-12T17:00:20.748880+00:00,EU CPI Non Energy Industrial G,Eurostat,YoY% NSA,Monthly,2026-07-31,ok,MONTHLY,308.0,2000-12-31,2026-07-31,0.7,

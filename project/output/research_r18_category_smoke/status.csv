@@ -1,0 +1,10 @@
+origin,model,status,reason,n_history
+2019-02,MCT_SLOW_R18,estimated,,48
+2019-02,MCT_FAST_R18,estimated,,48
+2019-03,MCT_SLOW_R18,estimated,,49
+2019-03,MCT_FAST_R18,estimated,,49
+2019-04,MCT_SLOW_R18,estimated,,50
+2019-04,MCT_FAST_R18,estimated,,50
+2019-02,MCT_SIGNALS_R18,fallback_insufficient_labels,,0
+2019-03,MCT_SIGNALS_R18,fallback_insufficient_labels,,0
+2019-04,MCT_SIGNALS_R18,fallback_insufficient_labels,,0

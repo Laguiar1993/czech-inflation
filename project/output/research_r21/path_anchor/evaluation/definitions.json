@@ -1,0 +1,32 @@
+{
+  "roster": [
+    "STATE_FAST_R15",
+    "STABLE_LOCAL_CORE_R14B",
+    "DAMPED_P95_Q001_R16",
+    "CORE_FEEDBACK_R21",
+    "DUAL_FEEDBACK_R21",
+    "FOOD_FEEDBACK_R21",
+    "POOL_COMPLETE_R21",
+    "POOL_PARTIAL_R21",
+    "POOL_PRIOR_R21",
+    "ANCHOR_HL12_R21",
+    "ANCHOR_HL24_R21"
+  ],
+  "primary_calendar": "Original R16 annual-headline969row support, not filtered by a new model.",
+  "errors": "Forecast minus actual in percentage points. Show failures separately; matched comparisons require identical finite support.",
+  "core": "Monthly core and cumulative log core h1..h, original frozen target. Underlying bands subtract own-origin saved R15 seasonality.",
+  "bootstrap": "12 consecutive calendar-origin blocks;2000draws seed1509; suppress when complete calendar blocks cannot cover all support.",
+  "sustained": "Bands1to3 change>=.5pp annualized, without opposite adjacent>=.5pp. Additional to strict exact-turn test.",
+  "cnb": "Both clocks; same-origin quarter means;0.15pp absolute-error materiality; repeated quarters dependent; every-report omission.",
+  "limitations": [
+    "R21: fixed 90 monthly origins February2019-July2026. Revised input history and reconstructed availability; no untouched holdout or live record.",
+    "New candidates learn from earlier released errors only. Pool prior is half FAST, quarter current core, quarter gentle slope. Learned weights are shared across all future months.",
+    "Complete and partial pools share one objective: exact cumulative headline log error, equal horizon importance, recency weighting and shrinkage to the prior. Partial pool uses each released prefix without waiting for h12.",
+    "Component feedback uses past h1 core/food log errors, a shrunk mean and a fixed decaying correction. No administrative magnitude or January rule was tuned.",
+    "Two anchor candidates let persistent core converge gradually toward the public2% policy target adjusted by a prior-only core/headline spread. Half-lives12/24 months; this is an explicit assumption, not a borrowed CNB forecast. Declared after initial R21 results.",
+    "Independent HARD_BASE h0 and basket accounting are preserved. Monthly forecasts compound into annual rates; quarter forecasts average those annual rates.",
+    "CNB report and cutoff clocks both retained. Identical scored support regardless of checkboxes. Repeated target quarters are dependent; .15pp absolute-error improvement defines materiality.",
+    "Core turns, sustained movement, headline base effects and CNB-relative accuracy are separate diagnostics. No count of independent turns anticipated before CNB is implied.",
+    "No consensus, expectations or CNB forecast enters estimation. Default visibility is for comparison, not promotion."
+  ]
+}

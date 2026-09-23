@@ -1,0 +1,2 @@
+ticker,name,security_des,indx_source,des_notes,px_last,last_update_dt,last_update
+GRCPHCPI Index,Germany Harmonized Consumer Pr,Germany Harmonized Consumer Pr,German Federal Statistical Off,"The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate.",103.4,2026-08-31,2026-08-31

@@ -1,0 +1,8 @@
+{
+  "artifact_object": "a",
+  "artifact_reports": 19,
+  "max_compounding_difference": 1.4210854715202004e-14,
+  "n_compounding_checks": 30420,
+  "max_artifact_mae_rounding_difference": 0.000742849006188484,
+  "manifest_mismatches": []
+}

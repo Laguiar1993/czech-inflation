@@ -1,0 +1,12 @@
+effective_month,landing,statutory_pct,realised_tobacco_class_pct,ratio,provenance,note
+2020-03,2020-04|2020-05|2020-06,6.4,8.6371549377523,1.3495554590237968,reconstructed,
+2021-01,2021-02|2021-03|2021-04,4.3,5.143399891997924,1.1961395097669592,reconstructed,
+2022-01,2022-02|2022-03|2022-04,6.6,3.7643444235911927,0.5703552156956353,sourced_secondary,
+2023-01,2023-02|2023-03|2023-04,5.1,3.2195779054988716,0.6312897853919357,sourced_secondary,
+2024-02,2024-03|2024-04|2024-05,7.2,3.5942573754818907,0.4992024132613737,sourced_primary,
+2025-01,2025-02|2025-03|2025-04,4.2,3.3476238808130665,0.797053304955492,sourced_secondary,
+2026-01,2026-02|2026-03|2026-04,3.4,2.6356312184984354,0.7751856524995399,sourced_secondary,
+2020-01,2020-01,2.2217460235342403,0.8912612576804264,0.4011535289090575,reconstructed,spirits: realised = January alcohol-class change minus the mean January of 2019/2021-2023 (no spirits step); statutory = rate change x theta x spirits share of the alcohol class
+2024-01,2024-01,1.5677182574320334,1.7128960762164809,1.0926045340712258,sourced_secondary,spirits: realised = January alcohol-class change minus the mean January of 2019/2021-2023 (no spirits step); statutory = rate change x theta x spirits share of the alcohol class
+2025-01,2025-01,1.5677182574320334,1.5990984485623478,1.0200164736116017,sourced_secondary,spirits: realised = January alcohol-class change minus the mean January of 2019/2021-2023 (no spirits step); statutory = rate change x theta x spirits share of the alcohol class
+2026-01,2026-01,0.8070518884598882,3.3764730536176177,4.183712474870733,sourced_secondary,spirits: realised = January alcohol-class change minus the mean January of 2019/2021-2023 (no spirits step); statutory = rate change x theta x spirits share of the alcohol class

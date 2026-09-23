@@ -1,0 +1,26 @@
+{
+  "source_url": "https://data.csu.gov.cz/opendata/sady/CEN0101E/distribuce/csv",
+  "final_url": "https://data.csu.gov.cz/opendata/sady/CEN0101E/distribuce/csv",
+  "retrieved_at": "2026-09-22T21:04:55.636536+00:00",
+  "completed_at": "2026-09-22T21:05:12.058703+00:00",
+  "headers": {
+    "Server": "nginx",
+    "Date": "Tue, 22 Sep 2026 21:04:55 GMT",
+    "Content-Type": "text/csv;charset=utf-8;header=present",
+    "Content-Length": "66269310",
+    "Last-Modified": "Thu, 10 Sep 2026 04:01:19 GMT",
+    "ETag": "\"6aa22b8f-3f3307e\"",
+    "Access-Control-Expose-Headers": "Content-Length,Content-Range",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, OPTIONS",
+    "Access-Control-Allow-Headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range",
+    "Content-Disposition": "attachment; filename=\"CEN0101E.csv\"",
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Strict-Transport-Security": "max-age=157680000"
+  },
+  "raw_sha256": "da38ba0d08f5de15435df54c1db8d2c3b25baaadd3739f762992dbf649cec56c",
+  "raw_bytes": 66269310,
+  "compression": "gzip, mtime=0; decompression preserves original response bytes",
+  "vintage": "current-vintage official national CPI levels; not historical first-release data"
+}

@@ -1,0 +1,6 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value,error
+eurczk_fixings,BOPCECZK Index,2026-09-12T17:21:42.580745+00:00,Bank of Portugal Currency Fixi,Bank of Portugal,,Intraday,,ok,DAILY,4613.0,2001-11-23,2023-08-18,24.037,
+eurczk_fixings,BFCFCZK Index,2026-09-12T17:21:43.800739+00:00,Belgium Currency Fixing in CZK,National Bank of Belgium,,Intraday,2001-12-28,ok,DAILY,454.0,2000-01-13,2001-12-28,1.2621,
+eurczk_fixings,DKCFCZK Index,2026-09-12T17:21:44.331710+00:00,Denmark Currency Fixing CZK,Danmarks Nationbank,,Intraday,2012-07-16,ok,DAILY,2628.0,2002-01-02,2012-07-16,29.3,
+eurczk_fixings,SSEFCZK Index,2026-09-12T17:21:44.973796+00:00,Stockholm Stock Exchange Forei,NASDAQ OMX,,Daily,,bdh_error,,,,,,ValueError: no history
+wages,CZNWWAGE Index,2026-09-12T17:21:45.741517+00:00,Czech Republic Average Gross M,Czech Statistical Office,Value NSA,Quarterly,2026-06-30,ok,MONTHLY,114.0,1998-03-31,2026-06-30,51966.0,

@@ -1,0 +1,142 @@
+{
+  "original_files_unchanged": [
+    {
+      "path": "output/independent_nowcast_forecasts.csv",
+      "sha256": "77ac26bc05906616a07d8f4b33ab6f2eb10b97141295022e172d53461f3e6e98"
+    },
+    {
+      "path": "output/independent_nowcast_scores.csv",
+      "sha256": "6173e69c740c38be9fd5f4cdba4f561154cb3ec391aea0b95099f219da2d15db"
+    },
+    {
+      "path": "output/independent_nowcast_releases.csv",
+      "sha256": "35b3ceda5a70d197a82f42ff49fae9c6081afd27a6d78e6ed743e63651fcc894"
+    },
+    {
+      "path": "output/independent_nowcast_selection.json",
+      "sha256": "363a2b6a2077608e4fcda958c74e927a25551dcfc494eefeb36a5c74a6afa6ba"
+    },
+    {
+      "path": "output/independent_nowcast_bootstrap.csv",
+      "sha256": "90b61ecd92fd833a6b67dd9cc2057d2369ff3e9214c9ee1a5a20c9f815fd7dfa"
+    },
+    {
+      "path": "output/cnb_rounds_replayed_20260912/cnb_rounds_replayed.html",
+      "sha256": "adf7346b63e260e4af457364538e758673d5c36b16e52256f741ba3399a78ead"
+    },
+    {
+      "path": "output/research_r14b/integration/forecasts.csv",
+      "sha256": "72b8724e545b802cb594bd1e5b6c3033a2557f78461b4d34ccab37ae8c34b89e"
+    },
+    {
+      "path": "output/path_step2.csv",
+      "sha256": "67fd5532af5b744dbc6c8983227182d4f96e4672f4724f7e391a0fda6786fe06"
+    },
+    {
+      "path": "output/paper_tvwqrf_20260912/realtime_full_luci_month/forecasts.csv",
+      "sha256": "63e19fa31619707398dd1e59aa6cf5e519406865290ebf070aa95d8ab89c0799"
+    },
+    {
+      "path": "output/paper_tvwqrf_20260912/realtime_full_luci_month_recent/forecasts.csv",
+      "sha256": "090393cba69e5bea6e04f22f49d30a4373eeece093a716d5a6afe211767a3587"
+    },
+    {
+      "path": "output/paper_tvwqrf_20260912/path_scores_luci_month/board_a_forecasts.csv",
+      "sha256": "a48de9978c4744c4554a7775fcc685298f84f921c89c55dc43e577f92d9b0d2e"
+    }
+  ],
+  "nowcast_comparisons": {
+    "scores.csv": {
+      "rows": 70,
+      "original_columns": 18,
+      "added_columns": [
+        "directional_big_hit",
+        "directional_big_precision",
+        "material_big_hit",
+        "material_big_precision",
+        "wrong_way_big_alert"
+      ],
+      "max_original_numeric_difference": 9.992007221626409e-16
+    },
+    "releases.csv": {
+      "rows": 900,
+      "original_columns": 12,
+      "added_columns": [
+        "directional_big_hit",
+        "material_big_hit",
+        "wrong_way_big_alert"
+      ],
+      "max_original_numeric_difference": 1.1102230246251565e-15
+    },
+    "bootstrap.csv": {
+      "rows": 18,
+      "original_columns": 7,
+      "added_columns": [],
+      "max_original_numeric_difference": 5.551115123125783e-17
+    }
+  },
+  "selection_unchanged": true,
+  "all_release_alert_metrics_independently_verified": true,
+  "hard_model_all_release_metrics": [
+    {
+      "model": "HARD_BASE",
+      "alerts": 20,
+      "alerted_big": 7,
+      "directional_big_hit": 6,
+      "wrong_way_big_alert": 1,
+      "material_big_hit": 5,
+      "directional_big_precision": 0.3,
+      "material_big_precision": 0.25
+    },
+    {
+      "model": "HARD_HALF",
+      "alerts": 22,
+      "alerted_big": 7,
+      "directional_big_hit": 6,
+      "wrong_way_big_alert": 1,
+      "material_big_hit": 5,
+      "directional_big_precision": 0.2727272727272727,
+      "material_big_precision": 0.22727272727272727
+    },
+    {
+      "model": "HARD_FULL",
+      "alerts": 23,
+      "alerted_big": 7,
+      "directional_big_hit": 7,
+      "wrong_way_big_alert": 0,
+      "material_big_hit": 6,
+      "directional_big_precision": 0.30434782608695654,
+      "material_big_precision": 0.2608695652173913
+    }
+  ],
+  "artifact": {
+    "reports": 19,
+    "old_object": "a",
+    "new_object": "a",
+    "origins_and_clocks_unchanged": true,
+    "displayed_score_changes": [
+      {
+        "report": "2022-winter",
+        "model": "TVWQRF_TVW3_FULLM",
+        "before": 8.122,
+        "after": 8.123
+      },
+      {
+        "report": "2023-winter",
+        "model": "INDEPENDENT_BRIDGE",
+        "before": 2.786,
+        "after": 2.785
+      },
+      {
+        "report": "2025-summer",
+        "model": "STABLE_LOCAL_CORE_R14B",
+        "before": 0.744,
+        "after": 0.743
+      }
+    ]
+  },
+  "limitations": [
+    "Original archived forest forecasts are preserved, including historical TVW calibration defects; the corrected page is a presentation/arithmetic correction.",
+    "Historical replay uses simulated cutoffs and current-vintage inputs, without an untouched holdout or prospective record."
+  ]
+}

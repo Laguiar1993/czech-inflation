@@ -1,0 +1,60 @@
+[
+  {
+    "code": "SCPIMZM09MOMPECNA",
+    "status": "ok",
+    "retrieved_at": "2026-09-22T17:43:58.430957+00:00",
+    "url": "https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes?snList=&periodFrom=1735689600000&periodTo=1790099025959&roleId=U&type=single&setParams=&chartData=SCPIMZM09MOMPECNA%3A0",
+    "sha256": "7bbb3a3a1216e41b68d03b19f88b8c2ef4e8e931d22780c90e699cbc378d29f3",
+    "latest": [
+      [
+        "2026-04",
+        0.3
+      ],
+      [
+        "2026-05",
+        0.2
+      ],
+      [
+        "2026-06",
+        0.3
+      ],
+      [
+        "2026-07",
+        1
+      ],
+      [
+        "2026-08",
+        0.3
+      ]
+    ]
+  },
+  {
+    "code": "SCPIMZM02MOMPECNA",
+    "status": "ok",
+    "retrieved_at": "2026-09-22T17:43:58.430957+00:00",
+    "url": "https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes?snList=&periodFrom=1735689600000&periodTo=1790099025959&roleId=U&type=single&setParams=&chartData=SCPIMZM02MOMPECNA%3A0",
+    "sha256": "1654fa44e93e002447227cca6dccd80311edb4472f96f2649de4d9d085b3f107",
+    "latest": [
+      [
+        "2026-04",
+        0.2
+      ],
+      [
+        "2026-05",
+        0.1
+      ],
+      [
+        "2026-06",
+        0
+      ],
+      [
+        "2026-07",
+        0.2
+      ],
+      [
+        "2026-08",
+        0
+      ]
+    ]
+  }
+]

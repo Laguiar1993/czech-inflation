@@ -1,0 +1,115 @@
+
+SOURCE C:\Users\luis_\.agents\skills\em-macro-forecaster\scripts\pull_czso_opendata.py
+SHA256 023405567568d3930c515fe8f3d87a304f269dc3d92937f4ca2530ab9b7bfc2d
+235:              out.loc[out["subgroup_code"] != "", "subgroup_code"].nunique())
+236:     return out
+237: 
+238: 
+239: # -----------------------------------------------------------------------------
+240: # Services / Goods aggregation from COICOP structure
+241: # -----------------------------------------------------------------------------
+242: # Under COICOP 2018 (ECOICOP), services are the "S" strata. CZSO publishes the
+243: # services/goods split explicitly in the monthly Rychlé informace commentary
+244: # ("Ceny zboží úhrnem ... vzrostly o X %, ceny služeb o Y %"), confirming the
+245: # convention. At the 2-digit (division) level, the **canonical ECOICOP
+246: # services divisions** are CP07 (transport is mixed but dominated by fuel —
+247: # goods), CP08 (information & communication — mostly services), CP09
+248: # (recreation — mixed), CP10 (education — all services), CP11 (restaurants &
+249: # accommodation — all services), CP12 (insurance & financial services — all
+250: # services), CP13 (personal/social care — mostly services).
+251: #
+252: # We use a pragmatic 2-digit split (matches the ECB labour-cost conventions):
+253: #   services = CP08, CP10, CP11, CP12, CP13, CP06 (health)
+254: #   goods    = CP01, CP02, CP03, CP04, CP05, CP07, CP09
+255: # This is a first-pass approximation — for a precise split we'd need the
+256: # 4-digit subgroup flags (services vs goods per ECOICOP item), which CZSO
+257: # doesn't expose in CEN0101E. TODO: refine via csu.gov.cz metadata.
+258: SERVICES_DIVS = {"06", "08", "10", "11", "12", "13"}
+259: GOODS_DIVS    = {"01", "02", "03", "04", "05", "07", "09"}
+260: 
+261: 
+262: def _aggregate_services_goods(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+263:     """Weighted aggregation of services vs goods at division level.
+264: 
+265:     Without official CZSO weights in CEN0101E, we use equal-weighted geometric
+266:     mean of the 2-digit division indices as an approximation. The values carry
+267:     a `weight_sum` column = number of divisions averaged (for diagnostics).
+268:     The resulting `value` is comparable month-to-month but NOT to the headline
+269:     Úhrn directly — it's a component-index proxy.
+270:     """
+271:     div = df[df["subgroup_code"] == ""].copy()
+272:     div = div[div["coicop_code"].isin(SERVICES_DIVS | GOODS_DIVS)]
+273:     div["is_services"] = div["coicop_code"].isin(SERVICES_DIVS)
+274: 
+275:     def _agg(rows: pd.DataFrame) -> pd.DataFrame:
+276:         g = rows.groupby(["date", "hh_group_code", "base"], as_index=False).agg(
+277:             value=("value", "mean"),
+278:             weight_sum=("coicop_code", "count"),
+279:         )
+280:         # Reorder to match DDL: (date, hh_group_code, base, weight_sum, value).
+281:         # Critical — duckdb INSERT SELECT * is positional, so a mismatched
+282:         # DataFrame column order silently swaps values between columns.
+283:         return g[["date", "hh_group_code", "base", "weight_sum", "value"]]
+284: 
+285:     svc = _agg(div[div["is_services"]])
+286:     gds = _agg(div[~div["is_services"]])
+
+SOURCE C:\Users\luis_\.agents\skills\em-macro-forecaster\scripts\migrate_to_czechia_db.py
+SHA256 e36aefb334b1b57102f99b3215d56b1230fcd45f5fc975f04573bb5e572db752
+32: 
+33: SOURCES = [
+34:     # Monthly release snapshot (13-month rolling window per XLSX)
+35:     ("cpi_czso_rychle", Path.home() / "economic_db" / "inflation" / "czso_cpi.duckdb",
+36:      ["releases", "cpi_divisions", "cpi_decomposition", "cpi_analytical", "cpi_weights"]),
+37:     # Long-history open-data CSV (CEN0101E — 2015-01 onward, full COICOP)
+38:     ("cpi_czso_opendata", Path.home() / "economic_db" / "inflation" / "czso_opendata.duckdb",
+39:      ["cpi_long", "cpi_services", "cpi_goods"]),
+40:     # CNB monetary — FX + rates + ARAD time series
+90:         tgt.execute(f"DROP TABLE IF EXISTS {tgt_schema}.{tgt_table}")
+91:         tgt.execute(
+92:             f"CREATE TABLE {tgt_schema}.{tgt_table} AS SELECT * FROM {alias}.main.{src_table}"
+93:         )
+94:         n = tgt.execute(f"SELECT COUNT(*) FROM {tgt_schema}.{tgt_table}").fetchone()[0]
+95:         return int(n)
+96:     finally:
+97:         tgt.execute(f"DETACH {alias}")
+98: 
+99: 
+100: def _merge_meta(tgt: duckdb.DuckDBPyConnection) -> int:
+
+SOURCE C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\data\struct_inputs.py
+SHA256 3c81d62a9c9f3ea676f4f593f6b6b942879ade206ece674c8143772f88ed17f2
+89: def load_services_cpi_mm() -> pd.Series:
+90:     con = duckdb.connect(str(la.DB_PATH), read_only=True)
+91:     df = con.sql("""
+92:         SELECT date, value FROM cpi_czso.cpi_services
+93:         WHERE base='base_2015_eq_100' AND hh_group_code='0'
+94:         ORDER BY date""").df()
+95:     con.close()
+96:     s = pd.Series(df["value"].values,
+97:                   index=pd.PeriodIndex(pd.to_datetime(df["date"]), freq="M")).sort_index()
+98:     s = s.groupby(level=0).last()
+99:     return (100.0 * s.pct_change()).rename("services_cpi_mm")
+100: 
+101: 
+102: def load_m3_yoy() -> pd.Series:
+
+SOURCE C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\cz_struct.py
+SHA256 276e69f480d32b9cad72003fb0e88cfc174d1126a72c70a56711ad18b8f48307
+209: def _regime(p: pd.Period) -> int:
+210:     """Weight-regime key, CORRECTED per the Codex audit (P0 #3): official
+211:     effective windows are EVEN-year pairs -- basis-2022 weights are in force
+212:     in 2024/2025, basis-2024 in 2026 (CZSO basket archive; the odd-year
+213:     basis+1..+2 assumption applied the wrong basket in several years).
+214:     Regime = even start year of the two-year window."""
+215:     yr = p.year
+216:     return yr - (yr % 2)  # 2024-25 -> 2024, 2026-27 -> 2026, ...
+252: def _basket_available_from(regime_start: int) -> pd.Timestamp:
+253:     """Publication date of a basket, kept SEPARATE from its effective year
+254:     (audit P0 #3). The new basket is published with the January DETAILED
+255:     CPI release of the effective year (v2.5 / D6: no longer the January
+256:     flash date). Fallback for years outside the calendar: Feb-15."""
+257:     d = _detail_release_dt(pd.Period(f"{regime_start}-01", "M"))
+258:     return pd.Timestamp(d).normalize() if pd.notna(d) else pd.Timestamp(regime_start, 2, 15)
+259: 
+260: 

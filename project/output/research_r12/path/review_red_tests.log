@@ -1,0 +1,32 @@
+FF                                                                       [100%]
+================================== FAILURES ===================================
+______ test_constant_predictor_has_unit_scale_and_no_spurious_signal[60] ______
+
+n = 60
+
+    @pytest.mark.parametrize('n',[60,137])
+    def test_constant_predictor_has_unit_scale_and_no_spurious_signal(n):
+        idx=pd.period_range('2000-01',periods=n,freq='M')
+        x=pd.DataFrame({'constant':.3},index=idx)
+        correction,diag=food_api().ridge_zero_prior(x,pd.Series(1.,index=idx),pd.Series({'constant':.3}),24)
+>       assert diag['training_scale']['constant'] == 1.
+E       assert 5.551115123125783e-17 == 1.0
+
+test_path_improvements_r12.py:52: AssertionError
+_____ test_constant_predictor_has_unit_scale_and_no_spurious_signal[137] ______
+
+n = 137
+
+    @pytest.mark.parametrize('n',[60,137])
+    def test_constant_predictor_has_unit_scale_and_no_spurious_signal(n):
+        idx=pd.period_range('2000-01',periods=n,freq='M')
+        x=pd.DataFrame({'constant':.3},index=idx)
+        correction,diag=food_api().ridge_zero_prior(x,pd.Series(1.,index=idx),pd.Series({'constant':.3}),24)
+>       assert diag['training_scale']['constant'] == 1.
+E       assert 5.551115123125783e-17 == 1.0
+
+test_path_improvements_r12.py:52: AssertionError
+=========================== short test summary info ===========================
+FAILED test_path_improvements_r12.py::test_constant_predictor_has_unit_scale_and_no_spurious_signal[60]
+FAILED test_path_improvements_r12.py::test_constant_predictor_has_unit_scale_and_no_spurious_signal[137]
+2 failed, 12 deselected in 2.07s

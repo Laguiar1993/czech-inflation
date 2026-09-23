@@ -1,0 +1,758 @@
+{
+  "CZCPI Index": {
+    "name": "Czech Republic CPI",
+    "security_des": "Czech Republic CPI",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPF Index": {
+    "name": "Czech Republic CPI Food & Non",
+    "security_des": "Czech Republic CPI Food & Non",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPA Index": {
+    "name": "Czech Republic CPI Alcoholic B",
+    "security_des": "Czech Republic CPI Alcoholic B",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPC Index": {
+    "name": "Czech Republic CPI Clothing &",
+    "security_des": "Czech Republic CPI Clothing &",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPH Index": {
+    "name": "Czech Republic CPI Housing Wat",
+    "security_des": "Czech Republic CPI Housing Wat",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPN Index": {
+    "name": "Czech Republic CPI Furnishings",
+    "security_des": "Czech Republic CPI Furnishings",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPHE Index": {
+    "name": "Czech Republic CPI Health",
+    "security_des": "Czech Republic CPI Health",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPTR Index": {
+    "name": "Czech Republic CPI Transport",
+    "security_des": "Czech Republic CPI Transport",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPP Index": {
+    "name": "Czech Republic CPI Post & Tele",
+    "security_des": "Czech Republic CPI Post & Tele",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPR Index": {
+    "name": "Czech Republic CPI Recreation",
+    "security_des": "Czech Republic CPI Recreation",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPE Index": {
+    "name": "Czech Republic CPI Education",
+    "security_des": "Czech Republic CPI Education",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPSH Index": {
+    "name": "Czech Republic CPI Restaurants",
+    "security_des": "Czech Republic CPI Restaurants",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCP12 Index": {
+    "name": "Czech CPI Insurance And Financ",
+    "security_des": "Czech CPI Insurance And Financ",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCP13 Index": {
+    "name": "Czech CPI Personal Care Social",
+    "security_des": "Czech CPI Personal Care Social",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CPALCZ Index": {
+    "name": "Eurostat Czech Republic HICP A",
+    "security_des": "Eurostat Czech Republic HICP A",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CPF1CZ Index": {
+    "name": "Eurostat Czech Rep HICP Food &",
+    "security_des": "Eurostat Czech Rep HICP Food &",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CPFOCZ Index": {
+    "name": "EU CPI Food Czech Republic",
+    "security_des": "EU CPI Food Czech Republic",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP11CZ Index": {
+    "name": "EU CPI Bread & Cereals Czech R",
+    "security_des": "EU CPI Bread & Cereals Czech R",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP12CZ Index": {
+    "name": "EU CPI Meat Czech Republic",
+    "security_des": "EU CPI Meat Czech Republic",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP13CZ Index": {
+    "name": "EU CPI Fish & Seafood Czech Re",
+    "security_des": "EU CPI Fish & Seafood Czech Re",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP14CZ Index": {
+    "name": "EU CPI Milk Cheese & Eggs Czec",
+    "security_des": "EU CPI Milk Cheese & Eggs Czec",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP15CZ Index": {
+    "name": "EU CPI Oils & Fats Czech Repub",
+    "security_des": "EU CPI Oils & Fats Czech Repub",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP16CZ Index": {
+    "name": "EU CPI Fruit Czech Republic",
+    "security_des": "EU CPI Fruit Czech Republic",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP17CZ Index": {
+    "name": "EU CPI Vegetables Czech Republ",
+    "security_des": "EU CPI Vegetables Czech Republ",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP18CZ Index": {
+    "name": "EU CPI Sugar Jam Honey Chocola",
+    "security_des": "EU CPI Sugar Jam Honey Chocola",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP19CZ Index": {
+    "name": "EU CPI Food Products NEC Czech",
+    "security_des": "EU CPI Food Products NEC Czech",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CPNACZ Index": {
+    "name": "EU CPI Non Alcoholic Beverages",
+    "security_des": "EU CPI Non Alcoholic Beverages",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZPPMOM Index": {
+    "name": "Czech Republic PPI Industrial",
+    "security_des": "Czech Republic PPI Industrial",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPAMOM Index": {
+    "name": "Czech Republic PPI Agricultura",
+    "security_des": "Czech Republic PPI Agricultura",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2017-03-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPCAM Index": {
+    "name": "Czech Republic PPI Food Produc",
+    "security_des": "Czech Republic PPI Food Produc",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2022-12-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPA10M Index": {
+    "name": "Czech Republic PPI Food Produc",
+    "security_des": "Czech Republic PPI Food Produc",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPA01M Index": {
+    "name": "Czech Republic PPI Processed &",
+    "security_des": "Czech Republic PPI Processed &",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPA03M Index": {
+    "name": "Czech Republic PPI Processed &",
+    "security_des": "Czech Republic PPI Processed &",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPA04M Index": {
+    "name": "Czech Republic PPI Vegetable &",
+    "security_des": "Czech Republic PPI Vegetable &",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPA05M Index": {
+    "name": "Czech Republic PPI Dairy Produ",
+    "security_des": "Czech Republic PPI Dairy Produ",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPA06M Index": {
+    "name": "Czech Republic PPI Mill & Star",
+    "security_des": "Czech Republic PPI Mill & Star",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPA07M Index": {
+    "name": "Czech Republic PPI Bread Cakes",
+    "security_des": "Czech Republic PPI Bread Cakes",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPBM Index": {
+    "name": "Czech Republic PPI Mining & Qu",
+    "security_des": "Czech Republic PPI Mining & Qu",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZPPCM Index": {
+    "name": "Czech Republic PPI Services &",
+    "security_des": "Czech Republic PPI Services &",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EUPPCZY Index": {
+    "name": "Eurostat PPI Czech Republic In",
+    "security_des": "Eurostat PPI Czech Republic In",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "PPENCZY Index": {
+    "name": "Eurostat PPI Czech Republic En",
+    "security_des": "Eurostat PPI Czech Republic En",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPT00BCZ Index": {
+    "name": "Eurostat PPI Mining & Quarryin",
+    "security_des": "Eurostat PPI Mining & Quarryin",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPT00CCZ Index": {
+    "name": "Eurostat PPI Manufacturing Cze",
+    "security_des": "Eurostat PPI Manufacturing Cze",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPT010CZ Index": {
+    "name": "Eurostat PPI Manufacture of Fo",
+    "security_des": "Eurostat PPI Manufacture of Fo",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPTC10CZ Index": {
+    "name": "Eurostat PPI Manufacture of Fo",
+    "security_des": "Eurostat PPI Manufacture of Fo",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "EPT0BCCZ Index": {
+    "name": "Eurostat PPI Manufacturing Min",
+    "security_des": "Eurostat PPI Manufacturing Min",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZEII Index": {
+    "name": "Czech Republic Import Prices",
+    "security_des": "Czech Republic Import Prices",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIE Index": {
+    "name": "Czech Republic Export Prices",
+    "security_des": "Czech Republic Export Prices",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Export price indexes track changes in the prices of goods produced domestically and sold abroad (exports)."
+  },
+  "CZEIIF Index": {
+    "name": "Czech Republic Import Prices F",
+    "security_des": "Czech Republic Import Prices F",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIB Index": {
+    "name": "Czech Republic Import Prices B",
+    "security_des": "Czech Republic Import Prices B",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIII Index": {
+    "name": "Czech Republic Import Prices I",
+    "security_des": "Czech Republic Import Prices I",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIL Index": {
+    "name": "Czech Republic Import Prices L",
+    "security_des": "Czech Republic Import Prices L",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIO Index": {
+    "name": "Czech Republic Import Prices O",
+    "security_des": "Czech Republic Import Prices O",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2017-12-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIC Index": {
+    "name": "Czech Republic Import Prices C",
+    "security_des": "Czech Republic Import Prices C",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIG Index": {
+    "name": "Czech Republic Import Prices G",
+    "security_des": "Czech Republic Import Prices G",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIT Index": {
+    "name": "Czech Republic Import Prices T",
+    "security_des": "Czech Republic Import Prices T",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "CZEIIM Index": {
+    "name": "Czech Republic Import Prices M",
+    "security_des": "Czech Republic Import Prices M",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Import price indexes track changes in the prices of goods produced abroad and sold domestically (imports)."
+  },
+  "EUA7CZ Index": {
+    "name": "EC Consumer Confidence Czech R",
+    "security_des": "EC Consumer Confidence Czech R",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households."
+  },
+  "EUA8CZ Index": {
+    "name": "EC Consumer Confidence Czech R",
+    "security_des": "EC Consumer Confidence Czech R",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households."
+  },
+  "EUESCZ Index": {
+    "name": "European Commission Economic S",
+    "security_des": "European Commission Economic S",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "The Economic Sentiment Indicator tracks overall sentiment in an economy. It is generally derived from the results of both consumer and business surveys. The Economic Sentiment Indicator is calculated from the European Commission's Business and Consumer Surveys. It is constructed from the following indicators: the industrial confidence indicator (40%), the service confidence indicator (30%), the consumer confidence indicator (20%), the construction confidence indicator (5%), and the retail trade confidence indicator (5%)."
+  },
+  "CZCCCOM Index": {
+    "name": "Czech Republic Composite Confi",
+    "security_des": "Czech Republic Composite Confi",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "The Economic Sentiment Indicator tracks overall sentiment in an economy. It is generally derived from the results of both consumer and business surveys. The composite confidence indicator (Economic Sentiment Indicator) is a weighted average of seasonally adjusted confidence indicators in industry, construction, trade, in selected services and of the consumer confidence indicator. <BR>USE AS A FINANCIAL BENCHMARK MAY BE RESTRICTED. SEE {DOCS #2084680<GO>}."
+  },
+  "EUR6CZ Index": {
+    "name": "EC Retail Prices Expected in t",
+    "security_des": "EC Retail Prices Expected in t",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the retail trade industry. The results are based on a survey conducted among a representative sample of businesses in the retail sector."
+  },
+  "EUS6CZ Index": {
+    "name": "EC Services Prices Expected in",
+    "security_des": "EC Services Prices Expected in",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector."
+  },
+  "EUA3CZ Index": {
+    "name": "EC Consumer Confidence Czech R",
+    "security_des": "EC Consumer Confidence Czech R",
+    "indx_source": "European Commission",
+    "seasonality_and_transformation": "% Balance/Diffusion Index SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households."
+  },
+  "CZUEUR Index": {
+    "name": "Czech Unemployment Rate Total",
+    "security_des": "Czech Unemployment Rate Total",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Percent NSA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2024-12-31",
+    "country": "CZ",
+    "des_notes": "The unemployment rate tracks the number of unemployed persons as a percentage of the labor force (the total number of employed plus unemployed). These figures generally come from a household labor force survey."
+  },
+  "CZJLUNR Index": {
+    "name": "Czech Republic Unemployment Ra",
+    "security_des": "Czech Republic Unemployment Ra",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Percent NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks the total number of people who have filed jobless claims with the appropriate government labor office; typically, in order to receive unemployment benefits. This is also sometimes referred to as \"registered unemployment\". The unemployment claims rate measures the number of people filing jobless claims as a percent of (most generally) the labor force (the total number of employed plus unemployed). The share of unemployed persons expresses the share of available job applicants aged 15-64 years in the whole population of the same age. The Ministry of Labour and Social Affairs of the Czech Republic is the source of data on the numbers of the unemployed job applicants aged 15-64 years registered at labour offices. The denominator (number of inhabitants) results from the population balance, which is the key output of the demographic statistics of the Czech Statistical Office. <BR>USE AS A FINANCIAL BENCHMARK MAY BE RESTRICTED. SEE {DOCS #2084680<GO>}."
+  },
+  "UMRTCZ Index": {
+    "name": "Eurostat Unemployment Czech Re",
+    "security_des": "Eurostat Unemployment Czech Re",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Percent SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The unemployment rate tracks the number of unemployed persons as a percentage of the labor force (the total number of employed plus unemployed). These figures generally come from a household labor force survey."
+  },
+  "CZUEL Index": {
+    "name": "Czech Republic Unemployment Pe",
+    "security_des": "Czech Republic Unemployment Pe",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Units/Persons NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-03-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks the total number of people who have filed jobless claims with the appropriate government labor office; typically, in order to receive unemployment benefits. This is also sometimes referred to as registered unemployment."
+  },
+  "CZBLHPTV Index": {
+    "name": "Czech Republic Volume of House",
+    "security_des": "Czech Republic Volume of House",
+    "indx_source": "Czech National Bank",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-05-31",
+    "country": "CZ",
+    "des_notes": "This concept tracks the value (and potentially also the number) of existing mortgages (loans secured on residential property)."
+  },
+  "CZBLHHTV Index": {
+    "name": "Czech Republic Volume of House",
+    "security_des": "Czech Republic Volume of House",
+    "indx_source": "Czech National Bank",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-05-31",
+    "country": "CZ",
+    "des_notes": "Consumer or Household Credit tracks the outstanding amount of credit (or loans) used by consumers to finance purchases of goods or services. At its broadest, this concept can include everything from credit card lending, to auto loans, to lines of credit and mortgages."
+  },
+  "LDHHLHCZ Index": {
+    "name": "ECB MFIs Statistics for Househ",
+    "security_des": "ECB MFIs Statistics for Househ",
+    "indx_source": "European Central Bank",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Consumer or Household Credit tracks the outstanding amount of credit (or loans) used by consumers to finance purchases of goods or services. At its broadest, this concept can include everything from credit card lending, to auto loans, to lines of credit and mortgages."
+  },
+  "LDHHCCCZ Index": {
+    "name": "ECB MFIs Statistics for Househ",
+    "security_des": "ECB MFIs Statistics for Househ",
+    "indx_source": "European Central Bank",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Consumer or Household Credit tracks the outstanding amount of credit (or loans) used by consumers to finance purchases of goods or services. At its broadest, this concept can include everything from credit card lending, to auto loans, to lines of credit and mortgages."
+  },
+  "LDHHOLCZ Index": {
+    "name": "ECB MFIs Statistics for Househ",
+    "security_des": "ECB MFIs Statistics for Househ",
+    "indx_source": "European Central Bank",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Consumer or Household Credit tracks the outstanding amount of credit (or loans) used by consumers to finance purchases of goods or services. At its broadest, this concept can include everything from credit card lending, to auto loans, to lines of credit and mortgages."
+  },
+  "CZTBAL Index": {
+    "name": "Czech Republic Foreign Trade B",
+    "security_des": "Czech Republic Foreign Trade B",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2019-12-31",
+    "country": "CZ",
+    "des_notes": "The international trade balance measures the difference between the movement of merchandise trade leaving a country (exports) and entering a country (imports). This measure tracks the value of the merchandise trade balance."
+  },
+  "CZTBNAL Index": {
+    "name": "Czech Republic Foreign Trade B",
+    "security_des": "Czech Republic Foreign Trade B",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The international trade balance measures the difference between the movement of merchandise trade leaving a country (exports) and entering a country (imports). This measure tracks the value of the merchandise trade balance."
+  },
+  "GTCZK10Y Govt": {
+    "name": "CZECH REPUBLIC",
+    "security_des": "CZGB 3.6 06/03/36",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  }
+}

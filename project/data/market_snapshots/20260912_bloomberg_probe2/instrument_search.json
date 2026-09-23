@@ -1,0 +1,988 @@
+{
+  "Czech Inflation": [
+    {
+      "security": "CZCPMOM<index>",
+      "description": "Czech Republic CPI  Nominal Chng MoM"
+    },
+    {
+      "security": "CZCPYOY<index>",
+      "description": "Czech Republic CPI Nominal Chng YoY"
+    },
+    {
+      "security": "CZCPC13M<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services MoM"
+    },
+    {
+      "security": "CPEXCZY<index>",
+      "description": "Eurostat Czech Republic Core HICP YoY NSA"
+    },
+    {
+      "security": "CZCPI<index>",
+      "description": "Czech Republic CPI"
+    },
+    {
+      "security": "CZCIMPM<index>",
+      "description": "Czech Inflation Monetary Policy Relevant Inflation MoM"
+    },
+    {
+      "security": "CZCIMPY<index>",
+      "description": "Czech Inflation Monetary Policy Relevant Inflation YoY"
+    },
+    {
+      "security": "CZCINY<index>",
+      "description": "Czech Inflation Net Inflation YoY"
+    },
+    {
+      "security": "CZCIXCY<index>",
+      "description": "Czech Inflation Overall Items Excluding Fuel Contribution YoY"
+    },
+    {
+      "security": "CZCIBCM<index>",
+      "description": "Czech Inflation Food Beverage & Tobacco Contribution MoM"
+    },
+    {
+      "security": "CZCIBCY<index>",
+      "description": "Czech Inflation Food Beverage & Tobacco Contribution YoY"
+    },
+    {
+      "security": "CZCIBM<index>",
+      "description": "Czech Inflation Food Beverage & Tobacco MoM"
+    },
+    {
+      "security": "CZCIBY<index>",
+      "description": "Czech Inflation Food Beverage & Tobacco YoY"
+    },
+    {
+      "security": "CZCIFCM<index>",
+      "description": "Czech Inflation Fuel Contribution MoM"
+    },
+    {
+      "security": "CZCIFCY<index>",
+      "description": "Czech Inflation Fuel Contribution YoY"
+    },
+    {
+      "security": "CZCIFM<index>",
+      "description": "Czech Inflation Fuel MoM"
+    },
+    {
+      "security": "CZCIFY<index>",
+      "description": "Czech Inflation Fuel YoY"
+    },
+    {
+      "security": "CZCIITCM<index>",
+      "description": "Czech Inflation Indirect Taxes Contribution MoM"
+    },
+    {
+      "security": "CZCIITCY<index>",
+      "description": "Czech Inflation Indirect Taxes Contribution YoY"
+    },
+    {
+      "security": "CZCINCM<index>",
+      "description": "Czech Inflation Net Inflation Contribution MoM"
+    },
+    {
+      "security": "CZCINCY<index>",
+      "description": "Czech Inflation Net Inflation Contribution YoY"
+    },
+    {
+      "security": "CZCINM<index>",
+      "description": "Czech Inflation Net Inflation MoM"
+    },
+    {
+      "security": "CZCIPM<index>",
+      "description": "Czech Inflation Overall Items MoM"
+    },
+    {
+      "security": "CZCIPY<index>",
+      "description": "Czech Inflation Overall Items YoY"
+    },
+    {
+      "security": "CZCIRCM<index>",
+      "description": "Czech Inflation Regulated Prices Contribution MoM"
+    },
+    {
+      "security": "CZCIRCY<index>",
+      "description": "Czech Inflation Regulated Prices Contribution YoY"
+    },
+    {
+      "security": "CZCIRM<index>",
+      "description": "Czech Inflation Regulated Prices MoM"
+    },
+    {
+      "security": "CZCIRY<index>",
+      "description": "Czech Inflation Regulated Prices YoY"
+    },
+    {
+      "security": "CZCIXCM<index>",
+      "description": "Czech Inflation Overall Items Excluding Fuel Contribution MoM"
+    },
+    {
+      "security": "CZCIXM<index>",
+      "description": "Czech Inflation Overall Items Excluding Fuel MoM"
+    },
+    {
+      "security": "CZCIXY<index>",
+      "description": "Czech Inflation Overall Items Excluding Fuel YoY"
+    },
+    {
+      "security": "CZCP12<index>",
+      "description": "Czech CPI Insurance And Financial Services"
+    },
+    {
+      "security": "CZCP12Y<index>",
+      "description": "Czech CPI Insurance And Financial Services YoY"
+    },
+    {
+      "security": "CZCP13<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services"
+    },
+    {
+      "security": "CZCPC12<index>",
+      "description": "Czech Contribution to Change in CPI Insurance And Financial Services"
+    },
+    {
+      "security": "CZCPC13<index>",
+      "description": "Czech Contribution to Change in CPI Personal Care Social Protection"
+    },
+    {
+      "security": "CZCPC13Y<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services YoY"
+    },
+    {
+      "security": "CZCPI12M<index>",
+      "description": "Czech CPI Insurance And Financial Services MoM"
+    },
+    {
+      "security": "BPDSCZI<index>",
+      "description": "BNP Paribas Data Surprise Index Czechia Inflation"
+    },
+    {
+      "security": "BPESCZI<index>",
+      "description": "BNP Paribas Economic Strength Index Czechia Inflation"
+    }
+  ],
+  "Czech Inflation Core": [
+    {
+      "security": "CPEXCZY<index>",
+      "description": "Eurostat Czech Republic Core HICP YoY NSA"
+    },
+    {
+      "security": "CPEXCZM<index>",
+      "description": "Eurostat Czech Republic Core HICP MoM NSA"
+    },
+    {
+      "security": "OEEOCZCI<index>",
+      "description": "OECD Eco Outlook Czech Rep Core Inflation Index"
+    },
+    {
+      "security": "OEEOCZIN<index>",
+      "description": "OECD Eco Outlook Czech Rep Core Inflation"
+    },
+    {
+      "security": "RR10CCZ<index>",
+      "description": "Real 10 Year Yield Based on Core CPI Czech Republic"
+    },
+    {
+      "security": "RR2YCCZ<index>",
+      "description": "Real 2 Year Yield Based on Core CPI Czech Republic"
+    },
+    {
+      "security": "JFORCZCF<index>",
+      "description": "JPMorgan Czechia Core Inflation Forecast History Index (FHICC)"
+    },
+    {
+      "security": "JFORCZCH<index>",
+      "description": "JPMorgan Czechia Core Inflation Actual History Index (AHICC)"
+    },
+    {
+      "security": "JFORCZCR<index>",
+      "description": "JPMorgan Czechia Core Inflation Forecast Revision Index (FRICC)"
+    },
+    {
+      "security": "CPEXCZ<index>",
+      "description": "Eurostat Czech Republic Core HICP NSA"
+    }
+  ],
+  "Czech core inflation MoM": [
+    {
+      "security": "CPEXCZM<index>",
+      "description": "Eurostat Czech Republic Core HICP MoM NSA"
+    }
+  ],
+  "Czech CPI Food MoM": [
+    {
+      "security": "CPEXCZM<index>",
+      "description": "Eurostat Czech Republic Core HICP MoM NSA"
+    },
+    {
+      "security": "CZCPFMOM<index>",
+      "description": "Czech Republic CPI Food & Non Alcoholic Beverages MoM"
+    },
+    {
+      "security": "CP19CZMM<index>",
+      "description": "EU CPI Food Products NEC Czech Republic MoM"
+    },
+    {
+      "security": "CPEUCZMM<index>",
+      "description": "EU CPI Energy & Unprocessed Food Czech Republic MoM"
+    },
+    {
+      "security": "CPFOCZMM<index>",
+      "description": "EU CPI Food Czech Republic MoM"
+    },
+    {
+      "security": "CPNACZMM<index>",
+      "description": "EU CPI Non Alcoholic Beverages Czech Republic MoM"
+    },
+    {
+      "security": "CPPFCZMM<index>",
+      "description": "EU CPI Processed Food Including Alcohol & Tobacco Czech Republic MoM"
+    },
+    {
+      "security": "CPSACZMM<index>",
+      "description": "EU CPI Seasonal Food Czech Republic MoM"
+    },
+    {
+      "security": "CPUFCZMM<index>",
+      "description": "EU CPI Unprocessed Food Czech Republic MoM"
+    },
+    {
+      "security": "CPXFCZMM<index>",
+      "description": "EU CPI Overall Excluding Seasonal Food Czech Republic MoM"
+    },
+    {
+      "security": "CPXSCZMM<index>",
+      "description": "EU CPI Energy & Seasonal Food Czech Republic MoM"
+    },
+    {
+      "security": "CPF1CZM<index>",
+      "description": "Eurostat Czech Rep HICP Food & non Alcoholic Beverages MoM NSA"
+    },
+    {
+      "security": "CPFDCZM<index>",
+      "description": "Eurostat Czech Republic HICP Food Alcohol & Tobacco MoM NSA"
+    },
+    {
+      "security": "CXEFCZM<index>",
+      "description": "HICP all items ex energy & unprocessed food Czech Rep MoM"
+    },
+    {
+      "security": "CZCIBCM<index>",
+      "description": "Czech Inflation Food Beverage & Tobacco Contribution MoM"
+    },
+    {
+      "security": "CZCIBM<index>",
+      "description": "Czech Inflation Food Beverage & Tobacco MoM"
+    }
+  ],
+  "Czech CPI Alcoholic Beverages MoM": [
+    {
+      "security": "CZCPFMOM<index>",
+      "description": "Czech Republic CPI Food & Non Alcoholic Beverages MoM"
+    },
+    {
+      "security": "CPNACZMM<index>",
+      "description": "EU CPI Non Alcoholic Beverages Czech Republic MoM"
+    },
+    {
+      "security": "CZCPAMOM<index>",
+      "description": "Czech Republic CPI Alcoholic Beverages Tobacco MoM"
+    },
+    {
+      "security": "CP21CZMM<index>",
+      "description": "Eurostat HICP Alcoholic Beverages MoM Czech Republic"
+    },
+    {
+      "security": "CPF1CZM<index>",
+      "description": "Eurostat Czech Rep HICP Food & non Alcoholic Beverages MoM NSA"
+    },
+    {
+      "security": "CPF2CZM<index>",
+      "description": "Eurostat Czech Rep HICP Alcoholic beverages tobacco & narcotics MoM NSA"
+    }
+  ],
+  "Czech Inflation Food": [
+    {
+      "security": "CZCIBCM<index>",
+      "description": "Czech Inflation Food Beverage & Tobacco Contribution MoM"
+    },
+    {
+      "security": "CZCIBCY<index>",
+      "description": "Czech Inflation Food Beverage & Tobacco Contribution YoY"
+    },
+    {
+      "security": "CZCIBM<index>",
+      "description": "Czech Inflation Food Beverage & Tobacco MoM"
+    },
+    {
+      "security": "CZCIBY<index>",
+      "description": "Czech Inflation Food Beverage & Tobacco YoY"
+    },
+    {
+      "security": "CPEXCZY<index>",
+      "description": "Eurostat Czech Republic Core HICP YoY NSA"
+    },
+    {
+      "security": "CPEXCZM<index>",
+      "description": "Eurostat Czech Republic Core HICP MoM NSA"
+    },
+    {
+      "security": "CP19CZ<index>",
+      "description": "EU CPI Food Products NEC Czech Republic"
+    },
+    {
+      "security": "CP19CZMM<index>",
+      "description": "EU CPI Food Products NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP19CZYY<index>",
+      "description": "EU CPI Food Products NEC Czech Republic YoY"
+    },
+    {
+      "security": "CPEUCZ<index>",
+      "description": "EU CPI Energy & Unprocessed Food Czech Republic"
+    },
+    {
+      "security": "CPEUCZMM<index>",
+      "description": "EU CPI Energy & Unprocessed Food Czech Republic MoM"
+    },
+    {
+      "security": "CPEUCZYY<index>",
+      "description": "EU CPI Energy & Unprocessed Food Czech Republic YoY"
+    },
+    {
+      "security": "CPFOCZ<index>",
+      "description": "EU CPI Food Czech Republic"
+    },
+    {
+      "security": "CPFOCZMM<index>",
+      "description": "EU CPI Food Czech Republic MoM"
+    },
+    {
+      "security": "CPFOCZYY<index>",
+      "description": "EU CPI Food Czech Republic YoY"
+    },
+    {
+      "security": "CPNACZ<index>",
+      "description": "EU CPI Non Alcoholic Beverages Czech Republic"
+    },
+    {
+      "security": "CPNACZMM<index>",
+      "description": "EU CPI Non Alcoholic Beverages Czech Republic MoM"
+    },
+    {
+      "security": "CPNACZYY<index>",
+      "description": "EU CPI Non Alcoholic Beverages Czech Republic YoY"
+    },
+    {
+      "security": "CPPFCZ<index>",
+      "description": "EU CPI Processed Food Including Alcohol & Tobacco Czech Republic"
+    },
+    {
+      "security": "CPPFCZMM<index>",
+      "description": "EU CPI Processed Food Including Alcohol & Tobacco Czech Republic MoM"
+    },
+    {
+      "security": "CPPFCZYY<index>",
+      "description": "EU CPI Processed Food Including Alcohol & Tobacco Czech Republic YoY"
+    },
+    {
+      "security": "CPSACZ<index>",
+      "description": "EU CPI Seasonal Food Czech Republic"
+    },
+    {
+      "security": "CPSACZMM<index>",
+      "description": "EU CPI Seasonal Food Czech Republic MoM"
+    },
+    {
+      "security": "CPSACZYY<index>",
+      "description": "EU CPI Seasonal Food Czech Republic YoY"
+    },
+    {
+      "security": "CPUFCZMM<index>",
+      "description": "EU CPI Unprocessed Food Czech Republic MoM"
+    },
+    {
+      "security": "CPUFCZYY<index>",
+      "description": "EU CPI Unprocessed Food Czech Republic YoY"
+    },
+    {
+      "security": "CPXFCZ<index>",
+      "description": "EU CPI Overall Excluding Seasonal Food Czech Republic"
+    },
+    {
+      "security": "CPXFCZMM<index>",
+      "description": "EU CPI Overall Excluding Seasonal Food Czech Republic MoM"
+    },
+    {
+      "security": "CPXFCZYY<index>",
+      "description": "EU CPI Overall Excluding Seasonal Food Czech Republic YoY"
+    },
+    {
+      "security": "CPXSCZ<index>",
+      "description": "EU CPI Energy & Seasonal Food Czech Republic"
+    },
+    {
+      "security": "CPXSCZMM<index>",
+      "description": "EU CPI Energy & Seasonal Food Czech Republic MoM"
+    },
+    {
+      "security": "CPXSCZYY<index>",
+      "description": "EU CPI Energy & Seasonal Food Czech Republic YoY"
+    },
+    {
+      "security": "CZCPF15<index>",
+      "description": "Czech Republic CPI Food & Non Alcoholic Beverages COICOP 1999"
+    },
+    {
+      "security": "CZCPFOOD<index>",
+      "description": "Czech Contribution to Change in CPI Food & Non Alcoholic Beverages YoY"
+    },
+    {
+      "security": "OECZGGCU<index>",
+      "description": "OECD Czech Rep CPI Goods Food Excluding Restaurants Growth Rate"
+    },
+    {
+      "security": "OECZGGCV<index>",
+      "description": "OECD Czech Rep CPI Goods Food Excluding Restaurants YoY"
+    },
+    {
+      "security": "OECZGGCW<index>",
+      "description": "OECD Czech Rep CPI Goods Food Excluding Restaurants Index"
+    },
+    {
+      "security": "OECZGOFS<index>",
+      "description": "Czech Rep CPI OECD Groups All Non-Food Non-Energy Growth Rate"
+    },
+    {
+      "security": "OECZGOFT<index>",
+      "description": "Czech Rep CPI OECD Groups All Non-Food Non-Energy YoY"
+    },
+    {
+      "security": "OECZGOFU<index>",
+      "description": "Czech Rep CPI OECD Groups All Non-Food Non-Energy Index"
+    }
+  ],
+  "Czech Inflation Fuel": [
+    {
+      "security": "CZCIFCM<index>",
+      "description": "Czech Inflation Fuel Contribution MoM"
+    },
+    {
+      "security": "CZCIFCY<index>",
+      "description": "Czech Inflation Fuel Contribution YoY"
+    },
+    {
+      "security": "CZCIFM<index>",
+      "description": "Czech Inflation Fuel MoM"
+    },
+    {
+      "security": "CZCIFY<index>",
+      "description": "Czech Inflation Fuel YoY"
+    },
+    {
+      "security": "CZCIXCY<index>",
+      "description": "Czech Inflation Overall Items Excluding Fuel Contribution YoY"
+    },
+    {
+      "security": "CZCIXCM<index>",
+      "description": "Czech Inflation Overall Items Excluding Fuel Contribution MoM"
+    },
+    {
+      "security": "CZCIXM<index>",
+      "description": "Czech Inflation Overall Items Excluding Fuel MoM"
+    },
+    {
+      "security": "CZCIXY<index>",
+      "description": "Czech Inflation Overall Items Excluding Fuel YoY"
+    },
+    {
+      "security": "CZCPH15<index>",
+      "description": "Czech Republic CPI Housing Water Energy Fuel COICOP 1999"
+    },
+    {
+      "security": "CZCPHOUS<index>",
+      "description": "Czech Contribution to Change in CPI Housing Water Energy & Fuel YoY"
+    },
+    {
+      "security": "CP4FCZ<index>",
+      "description": "EU CPI Solid Fuels Czech Republic"
+    },
+    {
+      "security": "CP4FCZMM<index>",
+      "description": "EU CPI Solid Fuels Czech Republic MoM"
+    },
+    {
+      "security": "CP4FCZYY<index>",
+      "description": "EU CPI Solid Fuels Czech Republic YoY"
+    },
+    {
+      "security": "CP4LCZ<index>",
+      "description": "EU CPI Liquid Fuels Czech Republic"
+    },
+    {
+      "security": "CP4LCZMM<index>",
+      "description": "EU CPI Liquid Fuels Czech Republic MoM"
+    },
+    {
+      "security": "CP4LCZYY<index>",
+      "description": "EU CPI Liquid Fuels Czech Republic YoY"
+    },
+    {
+      "security": "CP7FCZ<index>",
+      "description": "EU CPI Fuels & Lubricants for Personal Transport Equipment Czech Republic"
+    },
+    {
+      "security": "CP7FCZMM<index>",
+      "description": "EU CPI Fuels & Lubricants for Personal Transport Equipment Czech Republic MoM"
+    },
+    {
+      "security": "CP7FCZYY<index>",
+      "description": "EU CPI Fuels & Lubricants for Personal Transport Equipment Czech Republic YoY"
+    },
+    {
+      "security": "CPFUCZ<index>",
+      "description": "EU CPI Liquid Fuels & Fuels & Lubricants for Pers Transp Equip Czech Republic"
+    },
+    {
+      "security": "CPFUCZMM<index>",
+      "description": "EU CPI Liquid Fuels & Fuels & Lubricants for Pers Transp Equip Czech Republic MM"
+    },
+    {
+      "security": "CPFUCZYY<index>",
+      "description": "EU CPI Liquid Fuels & Fuels & Lubricants for Pers Transp Equip Czech Republic YY"
+    },
+    {
+      "security": "CPLGCZ<index>",
+      "description": "EU CPI Electricity Gas Solid Fuels & Heat Energy Czech Republic"
+    },
+    {
+      "security": "CPLGCZMM<index>",
+      "description": "EU CPI Electricity Gas Solid Fuels & Heat Energy Czech Republic MoM"
+    },
+    {
+      "security": "CPLGCZYY<index>",
+      "description": "EU CPI Electricity Gas Solid Fuels & Heat Energy Czech Republic YoY"
+    },
+    {
+      "security": "CPLQCZ<index>",
+      "description": "EU CPI Overall Excl Liquid Fuels & Lubricants for Pers Transp Equip Czech Rep"
+    },
+    {
+      "security": "CPLQCZMM<index>",
+      "description": "EU CPI Overall Excl Liquid Fuels & Lubricants for Pers Transp Equip Czech Rep MM"
+    },
+    {
+      "security": "CPLQCZYY<index>",
+      "description": "EU CPI Overall Excl Liquid Fuels & Lubricants for Pers Transp Equip Czech Rep YY"
+    },
+    {
+      "security": "CPXHCZ<index>",
+      "description": "EU CPI Overall Excluding Housing Water Electricity Gas & Other Fuels Czech Rep"
+    },
+    {
+      "security": "CPXHCZMM<index>",
+      "description": "EU CPI Overall Excluding Housing Water Electricity Gas & Oth Fuels Czech Rep MoM"
+    },
+    {
+      "security": "CPXHCZYY<index>",
+      "description": "EU CPI Overall Excluding Housing Water Electricity Gas & Oth Fuels Czech Rep YoY"
+    },
+    {
+      "security": "CZCPHOMM<index>",
+      "description": "Czech Republic CPI Housing Water Energy Fuel MoM"
+    },
+    {
+      "security": "CZCPHOYY<index>",
+      "description": "Czech Republic CPI Housing Water Energy Fuel YoY"
+    },
+    {
+      "security": "CZCPH<index>",
+      "description": "Czech Republic CPI Housing Water Energy Fuel"
+    },
+    {
+      "security": "CPELCZ<index>",
+      "description": "Eurostat Czech Republic HICP Electricity Gas & Other Fuels NSA"
+    },
+    {
+      "security": "CPELCZM<index>",
+      "description": "Eurostat Czech Republic HICP Electricity Gas & Other Fuels MoM NSA"
+    },
+    {
+      "security": "CPELCZY<index>",
+      "description": "Eurostat Czech Republic HICP Electricity Gas & Other Fuels YoY NSA"
+    }
+  ],
+  "Czech services inflation": [
+    {
+      "security": "CP1GCZYY<index>",
+      "description": "EU CPI Other Services NEC Czech Republic YoY"
+    },
+    {
+      "security": "CZCPC13M<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services MoM"
+    },
+    {
+      "security": "CP1ACZ<index>",
+      "description": "EU CPI Accommodation Services Czech Republic"
+    },
+    {
+      "security": "CP1ACZMM<index>",
+      "description": "EU CPI Accommodation Services Czech Republic MoM"
+    },
+    {
+      "security": "CP1ACZYY<index>",
+      "description": "EU CPI Accommodation Services Czech Republic YoY"
+    },
+    {
+      "security": "CP1FCZ<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic"
+    },
+    {
+      "security": "CP1FCZMM<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP1FCZYY<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic YoY"
+    },
+    {
+      "security": "CP1GCZ<index>",
+      "description": "EU CPI Other Services NEC Czech Republic"
+    },
+    {
+      "security": "CP1GCZMM<index>",
+      "description": "EU CPI Other Services NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP1SCZ<index>",
+      "description": "EU CPI Catering Services Czech Republic"
+    },
+    {
+      "security": "CP1SCZMM<index>",
+      "description": "EU CPI Catering Services Czech Republic MoM"
+    },
+    {
+      "security": "CP1SCZYY<index>",
+      "description": "EU CPI Catering Services Czech Republic YoY"
+    },
+    {
+      "security": "CP44CZ<index>",
+      "description": "EU CPI Water Supply & Miscellaneous Services Relating to Dwelling Czech Republic"
+    },
+    {
+      "security": "CP44CZMM<index>",
+      "description": "EU CPI Water Supply & Miscellaneous Services Relating to Dwelling Czech Rep MoM"
+    },
+    {
+      "security": "CP44CZYY<index>",
+      "description": "EU CPI Water Supply & Miscellaneous Services Relating to Dwelling Czech Rep YoY"
+    },
+    {
+      "security": "CP4OCZ<index>",
+      "description": "EU CPI Other Services Relating to Dwelling NEC Czech Republic"
+    },
+    {
+      "security": "CP4OCZMM<index>",
+      "description": "EU CPI Other Services Relating to Dwelling NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP4OCZYY<index>",
+      "description": "EU CPI Other Services Relating to Dwelling NEC Czech Republic YoY"
+    },
+    {
+      "security": "CP4SCZ<index>",
+      "description": "EU CPI Services for Maintenance & Repair of Dwelling Czech Republic"
+    },
+    {
+      "security": "CP4SCZMM<index>",
+      "description": "EU CPI Services for Maintenance & Repair of Dwelling Czech Republic MoM"
+    },
+    {
+      "security": "CP4SCZYY<index>",
+      "description": "EU CPI Services for Maintenance & Repair of Dwelling Czech Republic YoY"
+    },
+    {
+      "security": "CP56CZ<index>",
+      "description": "EU CPI Goods & Services for Routine Household Maintenance Czech Republic"
+    },
+    {
+      "security": "CP56CZYY<index>",
+      "description": "EU CPI Goods & Services for Routine Household Maintenance Czech Republic YoY"
+    },
+    {
+      "security": "CP5DCZ<index>",
+      "description": "EU CPI Domestic Services & Household Services Czech Republic"
+    },
+    {
+      "security": "CP5DCZYY<index>",
+      "description": "EU CPI Domestic Services & Household Services Czech Republic YoY"
+    },
+    {
+      "security": "CP62CZ<index>",
+      "description": "EU CPI Out Patient Services Czech Republic"
+    },
+    {
+      "security": "CP62CZYY<index>",
+      "description": "EU CPI Out Patient Services Czech Republic YoY"
+    },
+    {
+      "security": "CP63CZ<index>",
+      "description": "EU CPI Hospital Services Czech Republic"
+    },
+    {
+      "security": "CP63CZYY<index>",
+      "description": "EU CPI Hospital Services Czech Republic YoY"
+    },
+    {
+      "security": "CP6DCZ<index>",
+      "description": "EU CPI Dental Services Czech Republic"
+    },
+    {
+      "security": "CP6DCZYY<index>",
+      "description": "EU CPI Dental Services Czech Republic YoY"
+    },
+    {
+      "security": "CP6MCZ<index>",
+      "description": "EU CPI Medical Services Paramedical Services Czech Republic"
+    },
+    {
+      "security": "CP6MCZYY<index>",
+      "description": "EU CPI Medical Services Paramedical Services Czech Republic YoY"
+    },
+    {
+      "security": "CP73CZ<index>",
+      "description": "EU CPI Transport Services Czech Republic"
+    },
+    {
+      "security": "CP73CZMM<index>",
+      "description": "EU CPI Transport Services Czech Republic MoM"
+    },
+    {
+      "security": "CP73CZYY<index>",
+      "description": "EU CPI Transport Services Czech Republic YoY"
+    },
+    {
+      "security": "CP7OCZ<index>",
+      "description": "EU CPI Other Services in Respect of Personal Transport Equipment Czech Republic"
+    },
+    {
+      "security": "CP7OCZMM<index>",
+      "description": "EU CPI Other Services in Respect of Personal Transport Equipment Czech Rep MoM"
+    },
+    {
+      "security": "CP7OCZYY<index>",
+      "description": "EU CPI Other Services in Respect of Personal Transport Equipment Czech Rep YoY"
+    }
+  ],
+  "Czech koruna fixing": [
+    {
+      "security": "CLFXECZK<index>",
+      "description": "Central Bank of Chile Fixing for Czech Koruna"
+    },
+    {
+      "security": "CDCFCREP<index>",
+      "description": "Bank of Canada Daily Noon Rates Czech Republic Koruna"
+    },
+    {
+      "security": "BBNDACCZ<index>",
+      "description": "BIS Internationl Bond & Notes Amounts Outstanding Currency of Issue Czech Koruna"
+    },
+    {
+      "security": "BBNDICCZ<index>",
+      "description": "BIS International Bond & Notes Announced Issues Currency of Issue Czech Koruna"
+    },
+    {
+      "security": "BBNDNCCZ<index>",
+      "description": "BIS International Bond & Notes Net Issues Currency of Issue Czech Koruna"
+    }
+  ],
+  "CZK fixing rate": [
+    {
+      "security": "YCMM0053<index>",
+      "description": "CZK PRIBOR Fixings Curve"
+    },
+    {
+      "security": "KORBCZK<index>",
+      "description": "SMBS Korean Won Basic Rate VS. CZK"
+    },
+    {
+      "security": "USBRCZK<index>",
+      "description": "SMBS USD Basic Rate Vs. CZK"
+    },
+    {
+      "security": "CBKFEUCK<index>",
+      "description": "Commerzbank Fixings Rate - EUR/CZK"
+    },
+    {
+      "security": "CLFXECZK<index>",
+      "description": "Central Bank of Chile Fixing for Czech Koruna"
+    },
+    {
+      "security": "CDCFCREP<index>",
+      "description": "Bank of Canada Daily Noon Rates Czech Republic Koruna"
+    }
+  ],
+  "Czech Republic CPI MoM": [
+    {
+      "security": "CZCPMOM<index>",
+      "description": "Czech Republic CPI  Nominal Chng MoM"
+    },
+    {
+      "security": "CZCPC13M<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services MoM"
+    },
+    {
+      "security": "CZCPFMOM<index>",
+      "description": "Czech Republic CPI Food & Non Alcoholic Beverages MoM"
+    },
+    {
+      "security": "CZCPHOMM<index>",
+      "description": "Czech Republic CPI Housing Water Energy Fuel MoM"
+    },
+    {
+      "security": "CZCPAMOM<index>",
+      "description": "Czech Republic CPI Alcoholic Beverages Tobacco MoM"
+    },
+    {
+      "security": "CZCPCMOM<index>",
+      "description": "Czech Republic CPI Clothing & Footwear MoM"
+    },
+    {
+      "security": "CZCPEMOM<index>",
+      "description": "Czech Republic CPI Education MoM"
+    },
+    {
+      "security": "CZCPHMOM<index>",
+      "description": "Czech Republic CPI Health MoM"
+    },
+    {
+      "security": "CZCPI12M<index>",
+      "description": "Czech CPI Insurance And Financial Services MoM"
+    },
+    {
+      "security": "CZCPMMOM<index>",
+      "description": "Czech Republic CPI Misc Goods & Services MoM COICOP 1999"
+    },
+    {
+      "security": "CZCPNMOM<index>",
+      "description": "Czech Republic CPI Furnishings Households Equipment & Maintenance MoM"
+    },
+    {
+      "security": "CZCPPMOM<index>",
+      "description": "Czech Republic CPI Post & Telecommunication MoM"
+    },
+    {
+      "security": "CZCPRMOM<index>",
+      "description": "Czech Republic CPI Recreation & Culture MoM"
+    },
+    {
+      "security": "CZCPSMOM<index>",
+      "description": "Czech Republic CPI Restaurants & Hotels MoM"
+    },
+    {
+      "security": "CZCPTRMM<index>",
+      "description": "Czech Republic CPI Transport MoM"
+    },
+    {
+      "security": "CPEXCZM<index>",
+      "description": "Eurostat Czech Republic Core HICP MoM NSA"
+    },
+    {
+      "security": "C712CZMM<index>",
+      "description": "EU CPI Motorcycles  Bicycles & Animal Drawn Vehicles Czech Republic MoM"
+    },
+    {
+      "security": "CP11CZMM<index>",
+      "description": "EU CPI Bread & Cereals Czech Republic MoM"
+    },
+    {
+      "security": "CP12CZMM<index>",
+      "description": "EU CPI Meat Czech Republic MoM"
+    },
+    {
+      "security": "CP13CZMM<index>",
+      "description": "EU CPI Fish & Seafood Czech Republic MoM"
+    },
+    {
+      "security": "CP14CZMM<index>",
+      "description": "EU CPI Milk Cheese & Eggs Czech Republic MoM"
+    },
+    {
+      "security": "CP15CZMM<index>",
+      "description": "EU CPI Oils & Fats Czech Republic MoM"
+    },
+    {
+      "security": "CP16CZMM<index>",
+      "description": "EU CPI Fruit Czech Republic MoM"
+    },
+    {
+      "security": "CP17CZMM<index>",
+      "description": "EU CPI Vegetables Czech Republic MoM"
+    },
+    {
+      "security": "CP18CZMM<index>",
+      "description": "EU CPI Sugar Jam Honey Chocolate & Confectionery Czech Republic MoM"
+    },
+    {
+      "security": "CP19CZMM<index>",
+      "description": "EU CPI Food Products NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP1ACZMM<index>",
+      "description": "EU CPI Accommodation Services Czech Republic MoM"
+    },
+    {
+      "security": "CP1CCZMM<index>",
+      "description": "EU CPI Canteens Czech Republic MoM"
+    },
+    {
+      "security": "CP1DCZMM<index>",
+      "description": "EU CPI Hairdressing Salons & Personal Grooming Establishments Czech Republic MoM"
+    },
+    {
+      "security": "CP1ECZMM<index>",
+      "description": "EU CPI Elec Appl for Pers Care Oth Appl Artcls & Prod for Per Care Czech Rep MoM"
+    },
+    {
+      "security": "CP1FCZMM<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP1GCZMM<index>",
+      "description": "EU CPI Other Services NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP1HCZMM<index>",
+      "description": "EU CPI Insurance Connected with Health Czech Republic MoM"
+    },
+    {
+      "security": "CP1ICZMM<index>",
+      "description": "EU CPI Social Protection Czech Republic MoM"
+    },
+    {
+      "security": "CP1JCZMM<index>",
+      "description": "EU CPI Jewellery Clocks & Watches Czech Republic MoM"
+    },
+    {
+      "security": "CP1NCZMM<index>",
+      "description": "EU CPI Personal Effects NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP1OCZMM<index>",
+      "description": "EU CPI Other Personal Effects Czech Republic MoM"
+    },
+    {
+      "security": "CP1PCZMM<index>",
+      "description": "EU CPI Personal Care Czech Republic MoM"
+    },
+    {
+      "security": "CP1RCZMM<index>",
+      "description": "EU CPI Restaurants Cafes & the Like Czech Republic MoM"
+    },
+    {
+      "security": "CP1SCZMM<index>",
+      "description": "EU CPI Catering Services Czech Republic MoM"
+    }
+  ]
+}

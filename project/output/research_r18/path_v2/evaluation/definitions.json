@@ -1,0 +1,32 @@
+{
+  "roster": [
+    "INDEPENDENT_BRIDGE",
+    "STATE_FAST_R15",
+    "STABLE_LOCAL_CORE_R14B",
+    "DAMPED_P95_Q001_R16",
+    "FUEL_ANNUAL_R17",
+    "MCT_FAST_R18",
+    "MCT_SIGNALS_R18",
+    "MCT_SLOW_R18",
+    "FOOD_H0_FAST_R18",
+    "FOOD_H0_SELECT_R18",
+    "FOOD_H0_SLOW_R18"
+  ],
+  "primary_calendar": "Original R16 annual-headline969row support, not filtered by a new model.",
+  "errors": "Forecast minus actual in percentage points. Show failures separately; matched comparisons require identical finite support.",
+  "core": "Monthly core and cumulative log core h1..h, original frozen target. Underlying bands subtract own-origin saved R15 seasonality.",
+  "bootstrap": "12 consecutive calendar-origin blocks;2000draws seed1509; suppress when complete calendar blocks cannot cover all support.",
+  "sustained": "Bands1to3 change>=.5pp annualized, without opposite adjacent>=.5pp. Additional to strict exact-turn test.",
+  "cnb": "Both clocks; same-origin quarter means;0.15pp absolute-error materiality; repeated quarters dependent; every-report omission.",
+  "limitations": [
+    "R18 research replay; frozen monthly origins February2019-July2026. No live September call or untouched holdout.",
+    "Monthly rates compound into annual CPI. CNB forecasts are quarterly averages. Both original report/cutoff clocks are retained.",
+    "Eighteen national category proxies plus separately measured CNB core feed a small common/temporary/sector trend model; they are not an exact core partition.",
+    "Two fixed category filters and a chronological smooth-horizon macro correction are compared with existing controls; early label shortage gives the declared unchanged-parent correction.",
+    "Food h0 uses saved independent nowcast news; its fixed fast/slow decay profiles and saved-error selector are research candidates. Headline h0 remains HARD_BASE.",
+    "All visible models use the same scored dates regardless of checkboxes. Full/recent results, component scores, both CNB clocks, false turns and report omissions remain available in CSVs.",
+    "Annual-index fuel is an existing assumption-conditioned comparator. New household-exposure scenarios have no national point score without identified coverage and baseline.",
+    "No consensus, inflation expectations or confidence survey enters these new independent path forecasts. Current-vintage histories and historical classification recoding remain limitations.",
+    "Defaults display FAST/current core and the new fast category filter for comparison, not model promotion. Scenario ranges are not probability intervals."
+  ]
+}

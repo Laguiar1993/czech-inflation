@@ -1,0 +1,196 @@
+Dokumentace datové sady (DS)
+(Aktualizováno ke dni 10. 3. 2023)
+Název DS: 
+Indexy spotřebitelských cen
+
+Popis datové sady:
+Datová sada obsahuje časovou řadu s indexy spotřebitelských cen podle různých typů indexů (meziměsíční, meziroční, bazické, podíly ročních klouzavých průměrů) a podle oddílů individuální spotřeby (potraviny, odívání, bydlení a další) v České republice od roku 1995. 
+
+Metodické poznámky
+Míry inflace
+Při vyjadřování míry inflace pomocí indexu spotřebitelských cen jsou často uváděna různá čísla, která, i když rozdílná, jsou správná. Je třeba uvést jednoznačně období, za které je míra inflace uváděna, a základ, k němuž se vymezené období porovnává.
+Míra inflace vyjádřená přírůstkem průměrného ročního indexu spotřebitelských cen vyjadřuje procentní změnu průměrné cenové hladiny za 12 posledních měsíců proti průměru 12 předchozích měsíců. 
+Míra inflace vyjádřená přírůstkem indexu spotřebitelských cen ke stejnému měsíci předchozího roku vyjadřuje procentní změnu cenové hladiny ve vykazovaném měsíci daného roku proti stejnému měsíci předchozího roku.
+Míra inflace vyjádřená přírůstkem indexu spotřebitelských cen k předchozímu měsíci vyjadřuje procentní změnu cenové hladiny sledovaného měsíce proti předchozímu měsíci.
+V datové sadě jsou uváděny indexy spotřebitelských cen v procentech, přírůstek indexů (míru inflace) lze spočítat odečtením 100. 
+
+Indexy spotřebitelských cen
+Od ledna 2018 jsou detailní indexy spotřebitelských cen počítány na základě nově zavedené klasifikace ECOICOP (evropská klasifikace individuální spotřeby podle účelu), která zavádí do spotřebního koše podrobnější členění. K této změně dochází dle nařízení Evropského parlamentu a Rady EU 2016/792. Struktura dosud publikovaných indexů zůstává zachována.
+V roce 2017 proběhla komplexní revize váhového systému. Váhy jsou od ledna roku 2018 zaktualizovány na základě výdajů domácností statistiky národních účtů  z roku 2016. Váhy pro detailní cenové reprezentanty jsou vypočteny dle údajů statistiky rodinných účtů z roku 2016 a dalších dostupných zdrojů a šetření. Od ledna roku 2018 jsou publikované cenové indexy vypočteny podle nových revidovaných indexních schémat. 
+Od ledna 2018 došlo u cenových indexů ke změně cenového referenčního období z prosince 2015 na prosinec 2017.  Nově vypočítávané indexy o základu prosinec 2017 = 100 jsou na všech úrovních členění spotřebního koše řetězeny ke stávající bazické časové řadě indexů o základu průměr roku 2015 = 100. Tím je zajištěno pokračování této časové řady, ze které jsou následně počítány indexy k dalším základům (předchozí měsíc = 100, stejné období předchozího roku = 100 a index klouzavých průměrů za posledních 12 měsíců k průměru 12 předcházejících měsíců).
+Cenové indexy jsou vypočítávány na základě zjištěných cen za výběrové soubory reprezentantů a vybrané zpravodajské jednotky agregací jednoduchých indexů cen reprezentantů do úhrnu pomocí výpočetního vzorce typu Laspeyres v modifikované podobě.
+
+p1= cena zboží (služby) ve sledovaném (běžném) období
+p0= cena zboží (služby) v základním období
+p0.q0= stálá váha - výdaje domácností za zboží (službu) v základním období
+
+K jednotlivým typům indexů spotřebitelských cen (položka casz_kod)
+Meziměsíční indexy (casz_kod = B) – sledované (referenční) období je měsíc, základní období předchozí měsíc.
+Meziroční indexy (casz_kod = C) - sledované (referenční) období je měsíc, základní období stejný měsíc předchozího roku.
+Bazické indexy (casz_kod = Z) - sledované (referenční) období je měsíc, základní období průměr z 12 měsíců bazického roku (v případě této datové sady roku 2015).
+Podíl klouzavých průměrů (casz_kod = K) - sledované (referenční) období je uplynulých 12 měsíců, základní období stejných 12 měsíců předchozího roku. 
+
+
+Klasifikace individuání spotřeby
+Oddíly klasifikace COICOP (do r. 2017)
+Kód
+Název
+01
+Potraviny a nealkoholické nápoje
+02
+Alkoholické nápoje, tabák
+03
+Odívání a obuv
+04
+Bydlení, voda, energie, paliva
+05
+Bytové vybavení, zařízení domácnosti, opravy
+06
+Zdraví
+07
+Doprava
+08
+Pošty a telekomunikace
+09
+Rekreace a kultura
+10
+Vzdělávání
+11
+Stravování a ubytování
+12
+Ostatní zboží a služby
+
+Oddíly klasifikace ECOICOP (od r. 2018)
+Kód
+Název
+E01
+Potraviny a nealkoholické nápoje
+E02
+Alkoholické nápoje, tabák
+E03
+Odívání a obuv
+E04
+Bydlení, voda, energie, paliva
+E05
+Bytové vybavení, zařízení domácnosti, opravy
+E06
+Zdraví
+E07
+Doprava
+E08
+Pošty a telekomunikace
+E09
+Rekreace a kultura
+E10
+Vzdělávání
+E11
+Stravování a ubytování
+E12
+Ostatní zboží a služby
+
+Obsahová náplň oddílů COICOP a ECOICOP je shodná.
+
+Podrobné informace k metodice zjišťování jsou zde
+https://www.czso.cz/documents/10180/26822363/manual_isc_2019.docx/57b4942d-ab71-47cc-be6d-0c89b6c3fec0?version=1.1
+
+
+
+Struktura dat:
+Datovou sadu představuje CSV soubor, jednotlivé položky (tvořící sloupce) jsou zprava i zleva ohraničeny znakem ", oddělovačem položek je čárka, oddělovačem desetinné části tečka.
+Každý statistický údaj tvoří jeden řádek souboru, zjištěná hodnota je ve sloupci hodnota.
+Statistický údaj je definován z hlediska věcného (statistická proměnná=ukazatel), časového a územního (území).  
+
+SLOUPEC
+VYZNAM
+POZNAMKA
+idhod
+unikátní identifikátor údaje Veřejné databáze ČSÚ
+využije se v případě dotazu ke konkrétnímu údaji 
+hodnota
+zjištěná hodnota 
+v numerickém formátu, v této datové sadě vyjadřuje cenu v Kč na 2 desetinná místa
+stapro_kod
+kód statistické proměnné
+v této DS pouze 6134 (Index spotřebitelských cen)
+ucel_tep
+klasifikace individuální spotřeby podle účelu 
+pokud není uvedeno, jedná se o souhrnný index (za všechny oddíly)
+ucel_cis
+kód klasifikace individuální spotřeby podle účelu
+do roku 2017 použit číselník 5642, od roku 2018 číselník 6000
+pokud není uvedeno, jedná se o souhrnný index (za všechny oddíly)
+ucel_kod
+kód položky klasifikace individuální spotřeby podle účelu
+kódy jsou v rozsahu 1 až 12 srovnatelné v celé časové řadě (bez ohledu na použitý číselník)
+pokud není uvedeno, jedná se o souhrnný index (za všechny oddíly)
+casz_kod
+kód rozlišující základní období (typ indexu)
+B - meziměsíční (proti předchozímu měsíci
+C - meziroční (proti stejnému měsíci předchozího roku)
+Z - bazický index (proti průměru v roce 2015)
+K - podíl klouzavých průměrů v posledních 12 měsíců proti průměru v předchozích 12 měsících) 
+mesic
+číslo měsíce referenčního období
+
+rok
+rok referenčního období
+pro bazické indexy od roku 1995, pro ostatní typy indexů od roku 2000
+obdobiod
+referenční období – počátek ve formátu RRRR-MM-DD
+počátek sledovaného období (referenčního měsíce)
+obdobido
+referenční období – konec ve formátu RRRR-MM-DD
+konec sledovaného období (referenčního měsíce)
+baz_obdobiod
+základní období – počátek ve formátu RRRR-MM-DD
+počátek základního období 
+baz_obdobido
+základní období – konec ve formátu RRRR-MM-DD
+konec základního období 
+ucel_txt
+text položky klasifikace individuální spotřeby
+pokud není uvedeno, jedná se o souhrnný index (za všechny oddíly spotřeby)
+casz_txt
+text položky rozlišující typ indexu
+
+
+Použité číselníky a referenční údaje:
+
+Pro identifikaci (definování) každého statistického údaje se využívá Statistický metainformační systém ČSÚ (SMS), a to subsystém SMS-UKAZ (statistické proměnné) a SMS-KLAS (statistické číselníky a klasifikace). 
+V datové sadě jsou použity:
+Seznam statistických proměnných - https://www.czso.cz/csu/czso/statisticke-promenne-ukazatele
+KOD
+TEXT
+6134
+Index spotřebitelských cen (životních nákladů)
+
+Číselníky klasifikací individuální spotřeby - úroveň 1 - oddíl 
+kód číselníku ČSÚ 5642 (používaný do roku 2017)
+CSV: https://apl.czso.cz/iSMS/do_cis_export?kodcis=5642&typdat=0&cisjaz=203&format=2 
+XML: https://apl.czso.cz/iSMS/do_cis_export?kodcis=5642&typdat=0&cisjaz=203&format=0
+kód číselníku ČSÚ 6000 (používaný od roku 2018)
+CSV: https://apl.czso.cz/iSMS/do_cis_export?kodcis=6000&typdat=0&cisjaz=203&format=2
+XML  https://apl.czso.cz/iSMS/do_cis_export?kodcis=6000&typdat=0&cisjaz=203&format=0
+
+Číselník pro typy indexů – kód číselníku ČSÚ 7626 (Určení základního období) – vybrané položky
+KODCIS
+Kód
+TEXT
+7626
+B
+předchozí období
+7626
+C
+stejné období předchozího roku
+7626
+K
+stejných 12 měsíců předchozího roku
+7626
+Z
+průměr bazického roku
+
+
+Časové vymezení
+Datová sada obsahuje údaje za měsíce od roku 2000, v případě bazických indexů od roku 1995.
+Pro každý údaj je uveden měsíc a rok referenčního období, navíc rovněž přesný datum počátku a konce referenčního období. (obdobiod, obdobido).
+Základní (bazické) období každého z indexů je přesně vymezeno rovněž jako interval od a do (položky baz_obdobiod a baz_obdobi_do) ve formátu RRRR-MM-DD.

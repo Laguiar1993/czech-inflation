@@ -1,0 +1,29 @@
+{
+ "created_at_utc": "2026-09-18T17:55:07.890896+00:00",
+ "inputs": {
+  "output/research_r24/final/forecasts.csv": "8915c7b32d8f213f2fa7418a42fa13ee4497e25249eb9b9537efe00916f59353",
+  "output/research_r24/final/native_forecasts.csv": "1313155a31572f262f486afa09aaed26ddd8f72c470f9e5bde2c1e74a9222585",
+  "output/research_r24/final/evaluation/cnb_clocks.csv": "5340a7ac5331bab94ec7185f24b74b1bbf7b42ee3f074aa61fd4c0115569ba4e",
+  "output/research_r24/final/evaluation/cnb_pairs.csv": "4bedc65958f726dd668deb95fcae44733d88c443701085b33a02daeae0058496",
+  "output/research_r24/final/evaluation/primary_scoreboard.csv": "042a20da204e7a704fa8f38c8d777e512424bc3fde5bb2ca6d5d3cd1b0c4b09e",
+  "output/research_r24/final/evaluation/block_error_table.csv": "ab6570ac3c7e707d30cc3a3ad2436677bfa3bd35af98c5fc3d8c74ad4cabf9b6",
+  "output/research_r17/attribution/primary_support.csv": "149e4d4be70b8575033fcb21130beefc24495678eef65f66e34af49049770936",
+  "output/research_r14b/attribution/actual_component_targets.csv": "1418e4fb2c46467856fd0a6d86a4c7df122fde837484007f0b6c5ac7bf5fc810",
+  "output/independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+  "data/cnb_mpr_cpi_quarterly.csv": "137cce6c715a358b85740302453e969c8313f1b39a6eeaed0b7e8698940f3a27",
+  "data/cnb_mpr_tables_20260917/cnb_mpr_indicators_long.csv": "f3a7a53bd41d0ec6165e84181cc41c463deb07909904575a2c8bf6b63f79cb3a",
+  "output/cnb_tracker_20260917/component_gaps/component_gaps.csv": "2e47a83c7ed60083a7b1848860c048fd662d96628bf1c1d5ace334e9d61228dc",
+  "CZK_CPI_FORECASTING_LATEST_MODELS_2026-09-14.md": "db7c8c1bba0038e96fe4ace7c8281937a0a41d2e2b9c615338036394bf618d4e",
+  "tools/cnb_rounds_v2/template.html": "7f4cd1eb45bd7f08d7cc55779967f6860231b3fbb134dea77e0183c591ed33e9",
+  "tools/cnb_rounds_v2/build.py": "495891f569b2f1b86d325517dd9b3eb56419e9e00ea52e848ade2fd240e83a71"
+ },
+ "outputs": {
+  "checks.json": "170a9a845fa1cc89a33ce3e7b9cd65136839d2ed92c98e565468a6c14b34f104",
+  "cnb_rounds_v2.html": "6c1bb822c66acae5da7fcdcb334230b00d97c07e3b6d7a5f133453c8cf17363a",
+  "frame_FAST.csv": "e90b0d11c53c062edc00b3038c82a0f1b12bde19245fe3891d83057d4b69e156",
+  "frame_FAST_FOODNORM.csv": "11e4e4ee589c641e9a44d20d4a0df99b48a966c856e7c456782d777f41949d24",
+  "frame_LOCAL_FOODNORM.csv": "355ca10f6eec5b1b10be2520591de4675613b9150d459fd8f399589a63a44159",
+  "frame_SLOPE_FOODNORM.csv": "865cc07c9b7657ce3d90fb6ba83f38899bca6a24242ef70957ec5c4e71bd4949",
+  "replay_data.json": "baf0d52e2531d6190b62c2658710e96c2e5638cbaff41a286db851d966871e93"
+ }
+}

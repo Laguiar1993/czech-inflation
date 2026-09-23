@@ -1,0 +1,23 @@
+{
+  "reviewed_run": "output/research_r17_energy",
+  "hashes_valid": 266,
+  "smoke_or_full_origins": 90,
+  "all_origin_quote_checks": 270,
+  "quote_max_error": 0.0,
+  "future_data_poison_max_error": 0.0,
+  "independent_weekly_czk_litre_max_error": 2.1316282072803006e-14,
+  "independent_monthly_fuel_pp_max_error": 3.730349362740526e-14,
+  "predecision_oil_max_error": 0.0,
+  "R14_spot_parity_error": 0.0,
+  "tax_and_vat_reconciliation_max_error": 0.0,
+  "missing_quote_constant_spot_max_error": 0.0,
+  "h0_untouched_components_and_clocks_exact": true,
+  "fuel_replacement_error": 0.0,
+  "native_derived_fields_match": true,
+  "policy_eligibility_rows": 3060,
+  "policy_facts": 34,
+  "national_policy_candidate_eligible": false,
+  "illustrative_bill_rows": 27,
+  "review_status": "pass",
+  "illustrative_2025_rate_caveat_explicit_all27_rows": true
+}

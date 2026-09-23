@@ -1,0 +1,27 @@
+group,ticker,retrieved_at,status,error,name,source,adjustment,frequency,last_update,periodicity,observations,first_date,last_date,last_value
+eurostat_manufacturing_C,EPM00CCZ Index,2026-09-22T12:47:45.499150+00:00,bdp_error,ValueError: no reference data (ticker probably invalid),,,,,,,,,,
+eurostat_manufacturing_C,EPP00CCZ Index,2026-09-22T12:47:46.054182+00:00,bdp_error,ValueError: no reference data (ticker probably invalid),,,,,,,,,,
+eurostat_manufacturing_C,EPY00CCZ Index,2026-09-22T12:47:46.291694+00:00,bdp_error,ValueError: no reference data (ticker probably invalid),,,,,,,,,,
+eurostat_manufacturing_C,EPA00CCZ Index,2026-09-22T12:47:46.578226+00:00,ok,,Eurostat PPI Manufacturing Cze,Eurostat,MoM% NSA,Monthly,2026-07-31,MONTHLY,318.0,2000-02-29,2026-07-31,0.3
+eurostat_manufacturing_C,EPT00CCZ Index,2026-09-22T12:47:47.390264+00:00,ok,,Eurostat PPI Manufacturing Cze,Eurostat,Index NSA,Monthly,2026-07-31,MONTHLY,319.0,2000-01-31,2026-07-31,117.0
+eurostat_manufacturing_C,EPN00CCZ Index,2026-09-22T12:47:48.076107+00:00,ok,,Eurostat Non Domestic PPI Manu,Eurostat,Index NSA,Monthly,2026-07-31,MONTHLY,319.0,2000-01-31,2026-07-31,112.2
+eurostat_manufacturing_C,EPC00CCZ Index,2026-09-22T12:47:48.766085+00:00,ok,,Eurostat Non Domestic PPI Manu,Eurostat,MoM% NSA,Monthly,2026-07-31,MONTHLY,318.0,2000-02-29,2026-07-31,0.3
+eurostat_manufacturing_C,EPD00CCZ Index,2026-09-22T12:47:49.465077+00:00,ok,,Eurostat Non Domestic PPI Manu,Eurostat,YoY% NSA,Monthly,2026-07-31,MONTHLY,307.0,2001-01-31,2026-07-31,1.9
+eurostat_manufacturing_C,EPB00CCZ Index,2026-09-22T12:47:50.179190+00:00,ok,,Eurostat PPI Manufacturing Cze,Eurostat,YoY% NSA,Monthly,2026-07-31,MONTHLY,307.0,2001-01-31,2026-07-31,2.4
+eurostat_manufacturing_C,EPE00CCZ Index,2026-09-22T12:47:50.962464+00:00,bdp_error,ValueError: no reference data (ticker probably invalid),,,,,,,,,,
+eurostat_bc_and_bd,EPM0BCCZ Index,2026-09-22T12:47:51.198401+00:00,ok,,Eurostat Domestic PPI Manufact,Eurostat,MoM% NSA,Monthly,2026-08-31,MONTHLY,331.0,1999-02-28,2026-08-31,0.4
+eurostat_bc_and_bd,EPP0BCCZ Index,2026-09-22T12:47:51.980598+00:00,ok,,Eurostat Domestic PPI Manufact,Eurostat,Index NSA,Monthly,2026-08-31,MONTHLY,332.0,1999-01-31,2026-08-31,126.2
+eurostat_bc_and_bd,EPM0BDCZ Index,2026-09-22T12:47:53.127866+00:00,ok,,Eurostat Domestic PPI Mining a,Eurostat,MoM% NSA,Monthly,2026-08-31,MONTHLY,331.0,1999-02-28,2026-08-31,0.5
+eurostat_bc_and_bd,EP30BDCZ Index,2026-09-22T12:47:53.975912+00:00,bdh_error,ValueError: no history,EU Domestic PPI Mining and Qua,Eurostat,,Monthly,,,,,,
+eurostat_bc_and_bd,EPA0BCCZ Index,2026-09-22T12:47:54.833707+00:00,ok,,Eurostat PPI Manufacturing Min,Eurostat,MoM% NSA,Monthly,2026-07-31,MONTHLY,318.0,2000-02-29,2026-07-31,0.3
+eurostat_bc_and_bd,EPNBC2CZ Index,2026-09-22T12:47:55.521905+00:00,ok,,Eurostat Non Domestic PPI Manu,Eurostat,Index NSA,Monthly,2026-07-31,MONTHLY,319.0,2000-01-31,2026-07-31,111.9
+eurostat_bc_and_bd,EPPBC2CZ Index,2026-09-22T12:47:56.343418+00:00,bdp_error,ValueError: no reference data (ticker probably invalid),,,,,,,,,,
+oecd_manufacturing,OECZPEBQ Index,2026-09-22T12:47:56.605166+00:00,ok,,OECD Czech Rep Producer Prices,Organisation for Economic Co-o,,Monthly,2022-11-30,MONTHLY,322.0,1996-02-29,2022-11-30,-0.902
+oecd_manufacturing,OECZPEBR Index,2026-09-22T12:47:57.296577+00:00,ok,,OECD Czech Rep Producer Prices,Organisation for Economic Co-o,,Monthly,2022-11-30,MONTHLY,311.0,1997-01-31,2022-11-30,10.623
+oecd_manufacturing,OECZPEBS Index,2026-09-22T12:47:58.049468+00:00,ok,,OECD Czech Rep Producer Prices,Organisation for Economic Co-o,,Monthly,2022-11-30,MONTHLY,323.0,1996-01-31,2022-11-30,120.8
+oecd_manufacturing,OECZPEBU Index,2026-09-22T12:47:58.878553+00:00,ok,,OECD Czech Rep Producer Prices,Organisation for Economic Co-o,,Monthly,2022-12-31,MONTHLY,381.0,1991-01-31,2022-12-31,13.99
+oecd_manufacturing,OECZPEBV Index,2026-09-22T12:47:59.601778+00:00,ok,,OECD Czech Rep Producer Prices,Organisation for Economic Co-o,,Monthly,2022-12-31,MONTHLY,396.0,1990-01-31,2022-12-31,132.0
+czso_manufacturing,CZPPCM Index,2026-09-22T12:48:00.474926+00:00,ok,,Czech Republic PPI Services &,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,MONTHLY,318.0,2000-02-29,2026-08-31,0.4
+czso_manufacturing,CZPPCY Index,2026-09-22T12:48:01.197896+00:00,ok,,Czech Republic PPI Services &,Czech Statistical Office,YoY% NSA,Monthly,2026-08-31,MONTHLY,318.0,2000-02-29,2026-08-31,4.0
+czso_manufacturing,CZPPCMOM Index,2026-09-22T12:48:02.045003+00:00,ok,,Czech Republic PPI Constructio,Czech Statistical Office,MoM% NSA,Monthly,2017-03-31,MONTHLY,267.0,1995-01-31,2017-03-31,0.2
+czso_manufacturing,CZPPCYOY Index,2026-09-22T12:48:02.822912+00:00,ok,,Czech Republic PPI Constructio,Czech Statistical Office,YoY% NSA,Monthly,2017-03-31,MONTHLY,267.0,1995-01-31,2017-03-31,1.3

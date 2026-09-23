@@ -1,0 +1,17 @@
+{
+  "r15_hashes": 38,
+  "r15_hashes_match": true,
+  "broad_start": "2003-01",
+  "broad_end": "2026-07",
+  "broad_finite": {
+    "goods": 283,
+    "services": 283
+  },
+  "fx_first_finite": "2007-01",
+  "warmup_origins": 48,
+  "warmup_raw_checks": 336,
+  "maximum_panel_difference": 0.0,
+  "legacy_clock_earlier_count": 48,
+  "broad_last_observation_eligible_count": 48,
+  "selected_raw_rows_later_than_legacy_clock": 0
+}

@@ -1,0 +1,2 @@
+ticker,name,security_des,crncy,indx_source,des_notes,px_last,last_update_dt,last_update,seasonality_and_transformation,country
+EUA8EMU Index,EC Consumer Confidence Eurozon,EC Consumer Confidence Eurozon,EUR,European Commission,"Consumer confidence tracks sentiment among households or consumers. The results are based on surveys conducted among a random sample of households. Target Audience: households Sample Size: 23,000 households Date of Survey: first 2 or 3 weeks of the month",33.0,2026-08-31,2026-08-31,% Balance/Diffusion Index SA,TE

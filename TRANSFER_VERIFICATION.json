@@ -1,0 +1,105 @@
+{
+  "verified_at": "2026-09-23T06:23:32.020513+00:00",
+  "tests": {
+    "passed": 43,
+    "skipped": 1,
+    "subtests_passed": 22,
+    "skip": "Windows symlink creation privilege unavailable; containment checks remain tested"
+  },
+  "clean_runtime": {
+    "python": "3.12.14 x64",
+    "pins_verified": 55,
+    "pip_check": "passed",
+    "bloomberg_imports": "passed: blpapi 3.26.9.1, xbbg 0.7.7, pdblp 0.1.8"
+  },
+  "different_directory_reproduction": {
+    "restore": {
+      "restored": 0,
+      "already_present": 3
+    },
+    "tree": {
+      "status": "verified",
+      "files": 7457,
+      "source_commit": "fc5eb33e49bcfaf4943de757828643c0d1bd6e97"
+    },
+    "r35": {
+      "status": "passed",
+      "hash_counts": {
+        "output/momentum_r35/final": 1133,
+        "output/inflation_dashboard_r35": 46
+      },
+      "x13_archives": 74,
+      "preserved_r34_hashes": 79,
+      "category_month": "2026-08",
+      "categories": 9,
+      "groups": 37,
+      "coverage": 100.0,
+      "preserved_forecast_origin": "2026-09",
+      "retained_forecast_and_replay": true,
+      "analysis_as_of": "2026-09-22T21:38:58.907740+00:00",
+      "analysis_completed_at": "2026-09-22T21:39:50.344212+00:00",
+      "browser": {
+        "status": "passed",
+        "pageErrors": [],
+        "desktop": "1440x1050",
+        "mobile": "390x844",
+        "checks": {
+          "month": "2026-08",
+          "forecast": "2026-09",
+          "h0": -0.2042311894134946,
+          "weight": 1000,
+          "drivers": -3.1081819841169933,
+          "total": -3.1081819841169933,
+          "breadth": 100
+        }
+      },
+      "driver_total_log_pp": -3.1081819841169933
+    },
+    "path": {
+      "origin": "2026-09",
+      "rows": 39,
+      "h0": -0.2042311894134946
+    },
+    "offline_models": {
+      "status": "passed",
+      "mode": "offline_reproduction_only",
+      "origin": "2026-09",
+      "nowcast_absolute_errors": {
+        "HARD_BASE": 0.0,
+        "HARD_FULL": 0.0,
+        "HARD_HALF": 0.0
+      },
+      "path_max_absolute_error": 0.0,
+      "path_rows": 39,
+      "forecast_published": false
+    }
+  },
+  "new_farm_preparation": {
+    "status": "passed",
+    "readiness": "ready",
+    "historical_frames": "unchanged",
+    "only_feature_change": "September 2026 agri_l0: unavailable -> 4.925872578583464, from newly captured August farm source",
+    "forecast_published": false
+  },
+  "live_bloomberg": {
+    "status": "not_verified",
+    "result": "Desktop API did not respond within bounded 20-second diagnostic",
+    "action": "Sign into Bloomberg on the receiving computer, run doctor --bloomberg, then inspect capture coverage/errors"
+  },
+  "limitations": [
+    "The shipped HTML is a dated R35 snapshot; new CLI forecasts and analysis write new records, not an automatic HTML publication.",
+    "New basket regimes and source-history revisions require reviewed adapters; frozen inputs are never rewritten.",
+    "Old history remains in a private release bundle; the GitHub main tree is a byte-preserving snapshot with two large CSVs restored from gzip."
+  ],
+  "status": "verified",
+  "source_commit": "ae8181b8212e9e70995003f0d7db71e34d7cf30f",
+  "source_project_files": 7459,
+  "source_bytes": 3304863572,
+  "source_manifest": "project/portable/SOURCE_TREE.json",
+  "dashboard_sha256": "14c0cbdb4802fd668d4eae73e0aeaef2854430e4c3be5db0c2939afe27ee02c4",
+  "git_index_byte_check": {
+    "status": "passed",
+    "source_files": 7457,
+    "unique_blobs": 6094
+  }
+}

@@ -1,0 +1,26 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value
+headline_published,CZCPMOM Index,2026-09-12T16:36:56.938331+00:00,Czech Republic CPI  Nominal Ch,Czech Statistical Office,MoM% NSA,Monthly,2026-08-31,ok,MONTHLY,140,2015-01-31,2026-08-31,0.3
+headline_published,CZCPYOY Index,2026-09-12T16:36:57.647383+00:00,Czech Republic CPI Nominal Chn,Czech Statistical Office,YoY% NSA,Monthly,2026-08-31,ok,MONTHLY,140,2015-01-31,2026-08-31,1.9
+regulated_prices,CZCIRM Index,2026-09-12T16:36:58.089755+00:00,Czech Inflation Regulated Pric,Czech National Bank,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,235,2007-01-31,2026-07-31,0.2
+regulated_prices,CZCIRY Index,2026-09-12T16:36:58.619758+00:00,Czech Inflation Regulated Pric,Czech National Bank,YoY% NSA,Monthly,2026-02-28,ok,MONTHLY,230,2007-01-31,2026-02-28,-1.4
+regulated_prices,CZCIRCM Index,2026-09-12T16:36:59.155464+00:00,Czech Inflation Regulated Pric,Czech National Bank,Percentage Points NSA,Monthly,2026-07-31,ok,MONTHLY,235,2007-01-31,2026-07-31,0.03
+hicp_core_administered_fuel,CPEXCZ Index,2026-09-12T16:36:59.650415+00:00,Eurostat Czech Republic Core H,Eurostat,Index NSA,Monthly,2026-07-31,ok,MONTHLY,320,1999-12-31,2026-07-31,103.78
+hicp_core_administered_fuel,CPEXCZM Index,2026-09-12T16:37:00.282973+00:00,Eurostat Czech Republic Core H,Eurostat,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,319,2000-01-31,2026-07-31,1.0
+hicp_core_administered_fuel,CPAPCZ Index,2026-09-12T16:37:00.816819+00:00,EU CPI Administered Prices Cze,Eurostat,Index NSA,Monthly,2026-07-31,ok,MONTHLY,308,2000-12-31,2026-07-31,99.57
+hicp_core_administered_fuel,CPAPCZMM Index,2026-09-12T16:37:01.415264+00:00,EU CPI Administered Prices Cze,Eurostat,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,307,2001-01-31,2026-07-31,0.3
+hicp_core_administered_fuel,CP7FCZ Index,2026-09-12T16:37:02.052937+00:00,EU CPI Fuels & Lubricants for,Eurostat,Index NSA,Monthly,2026-07-31,ok,MONTHLY,320,1999-12-31,2026-07-31,116.63
+hicp_core_administered_fuel,CP7FCZMM Index,2026-09-12T16:37:02.597304+00:00,EU CPI Fuels & Lubricants for,Eurostat,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,319,2000-01-31,2026-07-31,3.5
+import_prices_published,CZEIIMOM Index,2026-09-12T16:37:03.160701+00:00,Czech Republic Import Prices M,Czech Statistical Office,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,233,2007-02-28,2026-07-31,0.5
+import_prices_published,CZEIIYOY Index,2026-09-12T16:37:03.633040+00:00,Czech Republic Import Prices Y,Czech Statistical Office,YoY% NSA,Monthly,2026-07-31,ok,MONTHLY,236,2006-12-31,2026-07-31,4.6
+pump_prices_ec_oil_bulletin,ECOBETCZ Index,2026-09-12T16:37:04.087323+00:00,Czech Republic Euro-super 95 G,European Commission,,Weekly on Friday,2026-09-11,ok,DAILY,1087,2005-01-07,2026-09-11,43708.0
+pump_prices_ec_oil_bulletin,ECOBOTCZ Index,2026-09-12T16:37:04.873674+00:00,Czech Republic Automotive Gas,European Commission,,Weekly on Friday,2026-09-11,ok,DAILY,1087,2005-01-07,2026-09-11,47389.0
+pump_prices_ec_oil_bulletin,ECOBEFCZ Index,2026-09-12T16:37:05.620096+00:00,Czech Republic Euro-super 95 G,European Commission,,Weekly on Friday,2026-09-11,ok,DAILY,1087,2005-01-07,2026-09-11,23282.31
+pump_prices_ec_oil_bulletin,ECOBOFCZ Index,2026-09-12T16:37:06.375518+00:00,Czech Republic Automotive Gas,European Commission,,Weekly on Friday,2026-09-11,ok,DAILY,1087,2005-01-07,2026-09-11,29214.46
+repo_rate,CZBRREPO Index,2026-09-12T16:37:07.099206+00:00,Czech Republic Ceska Narodni B,PRIBOR PANEL BANK DATA,Percent NSA,Intraday,2026-09-11,ok,DAILY,7912,1995-12-08,2026-09-11,3.75
+real_effective_exchange_rate,BISBCZR Index,2026-09-12T16:37:08.148434+00:00,Czech Republic Real Effective,Bank for International Settlem,Index NSA,Monthly,2026-07-31,ok,MONTHLY,391,1994-01-31,2026-07-31,126.71
+real_effective_exchange_rate,OECZFRAA Index,2026-09-12T16:37:08.648162+00:00,OECD Czech Rep Real Effective,Organisation for Economic Co-o,,Monthly,2026-08-31,ok,MONTHLY,405,1992-12-31,2026-08-31,140.02
+real_effective_exchange_rate,BRERCZ Index,2026-09-12T16:37:09.249741+00:00,Bloomberg Economics Czech Rep,Bloomberg Economics,,Daily,2026-09-11,ok,MONTHLY,392,1994-01-31,2026-08-31,127.06
+trade_balance_bop,CZCMTRBA Index,2026-09-12T16:37:09.856934+00:00,Czech Republic BoP Current Acc,Czech National Bank,Value NSA,Monthly,2026-06-30,ok,MONTHLY,270,2004-01-31,2026-06-30,34.83
+agricultural_ppi,CZPPAYOY Index,2026-09-12T16:37:10.414301+00:00,Czech Republic PPI Agricultura,Czech Statistical Office,YoY% NSA,Monthly,2017-03-31,ok,MONTHLY,303,1992-01-31,2017-03-31,3.4
+household_loans,LONSCZHH Index,2026-09-12T16:37:10.933185+00:00,Czech Republic Household & Non,European Central Bank,Value NSA,Monthly,2026-07-31,ok,MONTHLY,295,2002-01-31,2026-07-31,113106.0
+household_loans,CZHHHHTV Index,2026-09-12T16:37:11.544203+00:00,Czech Republic Volume of House,Czech National Bank,Value NSA,Monthly,2026-07-31,ok,MONTHLY,271,2004-01-31,2026-07-31,110979.16

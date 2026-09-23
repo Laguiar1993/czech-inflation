@@ -1,0 +1,21 @@
+COMPONENT SPAN 2019-02..2026-07, y/y RMSE (b) | naive; and (a) for F1b / C3 / C6
+  h= 1 n=88 | F1b 0.772 C3 0.772 C6 0.772 F2_D1_fixed 1.049 | naive 0.937 RW 1.571 | (a) F1b 0.925 C3 0.925 C6 0.925
+  h= 3 n=84 | F1b 1.556 C3 1.556 C6 1.556 F2_D1_fixed 1.898 | naive 2.095 RW 2.697 | (a) F1b 1.611 C3 1.611 C6 1.611
+  h= 6 n=78 | F1b 2.572 C3 2.646 C6 2.572 F2_D1_fixed 3.254 | naive 3.652 RW 4.306 | (a) F1b 2.680 C3 2.747 C6 2.680
+  h= 9 n=72 | F1b 4.054 C3 4.253 C6 4.082 F2_D1_fixed 4.889 | naive 5.278 RW 5.916 | (a) F1b 4.183 C3 4.355 C6 4.191
+  h=12 n=66 | F1b 5.788 C3 6.128 C6 5.980 F2_D1_fixed 6.619 | naive 6.990 RW 7.427 | (a) F1b 5.788 C3 6.128 C6 5.980
+
+BY TARGET REGIME (b), h 7-12: F1b / C3 / C6 / F2 / naive
+  2019-2021 n= 96: 2.23 / 2.27 / 2.23 / 2.29 / 1.86
+  2022-2023 n=144: 7.30 / 7.74 / 7.48 / 8.76 / 8.45
+  2024-2026 n=186: 1.10 / 1.00 / 1.05 / 0.92 / 3.84
+
+RULE for replacing F1b (h=12, object b): >=5% better on the full span, not >2% worse in either origin half, publish rule
+  C3: vs F1b full -5.9% | first half -6.1% | second half +2.6% | publish: h3 +25.7% DM -1.93/-1.87 | h6 +27.5% DM -2.51/-2.40 | h12 +12.3% DM -2.28/-2.27 -> does not replace F1b
+  C6: vs F1b full -3.3% | first half -3.5% | second half +4.6% | publish: h3 +25.7% DM -1.93/-1.87 | h6 +29.6% DM -2.51/-2.50 | h12 +14.5% DM -2.80/-2.81 -> does not replace F1b
+
+QUARTERLY AVERAGES (b), quarters ahead 1..4: F1b / C3 / C6
+  1 ahead (n=84): 1.59 / 1.54 / 1.59
+  2 ahead (n=78): 2.62 / 2.68 / 2.60
+  3 ahead (n=72): 4.05 / 4.26 / 4.08
+  4 ahead (n=23): 5.27 / 5.59 / 5.49

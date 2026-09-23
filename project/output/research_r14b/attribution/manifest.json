@@ -1,0 +1,59 @@
+{
+  "inputs": {
+    "cz_struct.py": "276e69f480d32b9cad72003fb0e88cfc174d1126a72c70a56711ad18b8f48307",
+    "data/local_adapter.py": "4243ba91f3395f61d37f53be312e3a32aa84f53dcdc239cedad20e9a7a49e6d3",
+    "output/independent_bridge_forecasts.csv": "b1377d1c45373b7571a47edd3c373a6b149cae49e9efbd37853566ded00a88d8",
+    "output/research_r14b/attribution/SPEC.md": "f94ed8022127f2f9ec0297ebd8e1d74d59fa9e4a53b0f18bb6cd57c86baeda26",
+    "output/research_r14b/integration/manifest.json": "61eb938a061c44c378ffb800929066b6ea5245c393e6d2fab7fd32a4b69889c1",
+    "output/research_r14b/integration/native_forecasts.csv": "f323b1795e8fc10f0ac898b899e0c8b82d128220c6b0654fe57e6f8d0999e330",
+    "path_attribution_r14.py": "7a64305bdf41d3f3459f376ed4db6e51059b92443394525bcf239b9174f094dd",
+    "test_path_attribution_r14.py": "eac180ea8ae310ab40de1ea81f4b4a9591d132bac10ef701a18333a269189314",
+    "tests/fixtures/cleanup/MANIFEST.json": "0eaeaafd857fd914e237e792f0e8f006645a4a1286fee7b7cf80c9c2444557b1",
+    "tests/fixtures/cleanup/alcohol_tobacco.csv": "1a3f7cfd8eeb3419077359f8a12968182d997495007b462418f5261c187fe115",
+    "tests/fixtures/cleanup/cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+    "tests/fixtures/cleanup/cnb_regulated_mm.csv": "74773b38a1fea1f1ebb09d220aa90409eb3318a697b35ec2b8e1f20e781850db",
+    "tests/fixtures/cleanup/component_food_fuel_mm.csv": "21699e9cd2bc1c87848834113ff2933ab587901adc40616f3ba63384441a419b",
+    "tests/fixtures/cleanup/target_headline_cpi_mm.csv": "0f5f17def39668352b95d3e63278eec66016251d2d4296fb03e59b8a37e5c6eb"
+  },
+  "outputs": {
+    "component_errors.csv": "f24829df40936151156663bc1a126293576346f69a72f2f348015d8b4bddc8df",
+    "component_summary.csv": "51d4dd83b28859e21c9c72ba6dd8d80c1faa595cb45d44240cf6cce4e8cbc646",
+    "coverage.csv": "f234b78ee60701fafdad9956a2494b74418c5bb2f986458743c4ac5b4f292f8e",
+    "oracle_summary.csv": "b553979cd7c8d97ff8c1f89fa37059d1083eb965b0022d6bfec0ce1032d5cd79",
+    "events_h6_h12.csv": "e86ae8bea4ee52ef01a0f1a67ed1444d9c09c1540e08d49fc90b5be41f2a1f6a",
+    "actual_component_targets.csv": "1418e4fb2c46467856fd0a6d86a4c7df122fde837484007f0b6c5ac7bf5fc810"
+  },
+  "models": [
+    "INDEPENDENT_BRIDGE",
+    "STABLE_LOCAL_CORE_R14B",
+    "STABLE_LONG_CORE_R14B",
+    "STABLE_LONG_GAP_R14B",
+    "STABLE_PIPELINE_R14B"
+  ],
+  "n_origins": 90,
+  "n_detail_rows": 27000,
+  "baseline_only": false,
+  "meaning": "Evaluation-only frozen-target single-block oracles; no additive causal shares",
+  "blocks": {
+    "core": {
+      "actual_file": "cnb_core_mm.csv",
+      "weight_column": "weight_core"
+    },
+    "food": {
+      "actual_file": "component_food_fuel_mm.csv",
+      "weight_column": "weight_food"
+    },
+    "fuel": {
+      "actual_file": "component_food_fuel_mm.csv",
+      "weight_column": "weight_fuel"
+    },
+    "administered": {
+      "actual_file": "cnb_regulated_mm.csv",
+      "weight_column": "weight_administered"
+    },
+    "alcohol_tobacco": {
+      "actual_file": "alcohol_tobacco.csv",
+      "weight_column": "weight_alc"
+    }
+  }
+}

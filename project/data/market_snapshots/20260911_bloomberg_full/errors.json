@@ -1,0 +1,47 @@
+[
+  {
+    "ticker": "CZIPITN Index",
+    "stage": "bdp",
+    "error": "ValueError: Missing required CRNCY for CZIPITN Index"
+  },
+  {
+    "ticker": "CZGRIDX Index",
+    "stage": "bdp",
+    "error": "ValueError: Missing required CRNCY for CZGRIDX Index"
+  },
+  {
+    "ticker": "LCTQCZI Index",
+    "stage": "bdp",
+    "error": "ValueError: Missing required CRNCY for LCTQCZI Index"
+  },
+  {
+    "ticker": "LCTOCZI Index",
+    "stage": "bdp",
+    "error": "ValueError: Missing required CRNCY for LCTOCZI Index"
+  },
+  {
+    "ticker": "EUS3CZ Index",
+    "stage": "bdp",
+    "error": "ValueError: Missing required CRNCY for EUS3CZ Index"
+  },
+  {
+    "ticker": "EUB3CZ Index",
+    "stage": "bdp",
+    "error": "ValueError: Missing required CRNCY for EUB3CZ Index"
+  },
+  {
+    "ticker": "GRCPHCPI Index",
+    "stage": "bdp",
+    "error": "ValueError: Missing required CRNCY for GRCPHCPI Index"
+  },
+  {
+    "ticker": "UMRTDE Index",
+    "stage": "bdp",
+    "error": "ValueError: Missing required CRNCY for UMRTDE Index"
+  },
+  {
+    "ticker": "CZEII Index",
+    "stage": "bdp",
+    "error": "ValueError: Missing required CRNCY for CZEII Index"
+  }
+]

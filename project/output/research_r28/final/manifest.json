@@ -1,0 +1,37 @@
+{
+  "inputs": {
+    "models/administered_level_r28.py": "0d97190445f5e5c9653ef8bdbbbc84f577e250cb6e5884ea373e33913191f8f1",
+    "models/benchmarks_r26.py": "3c51c2600ba56c3c2c5cce46ed57c12a655b153c90de576a8e1b1b5657194da2",
+    "r17_common.py": "b0cb5bf5702deec25e3ac5fd053d6dda788bea03e35156cc2ee4f3df0cb95f0e",
+    "tools/research_r28/run.py": "8d553d5d54f58fac7672d8b2e4702c399f14806e24f015ccb0fcb42d090989b5",
+    "docs/implementation/R28_ADMINISTERED_LEVEL_SPEC_2026-09-18.md": "04700c942e2c53fc35b309e812fcb25d510596fce759828a405b28e3b12afa79",
+    "output/research_r27/final/native_forecasts.csv": "5352e2b85eb575ebfccb795250fc9d92b4cb6fd8f178bf8d29b4bc05a0413b4a",
+    "output/research_r27/final/manifest.json": "403b06808fb707b7492f78156c19bf71dce2c317dedffd42652a7f3e06f1ead5",
+    "output/research_r14b/attribution/actual_component_targets.csv": "1418e4fb2c46467856fd0a6d86a4c7df122fde837484007f0b6c5ac7bf5fc810",
+    "data/release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4"
+  },
+  "controls": [
+    "STATE_FAST_R15",
+    "FOOD_ECM_R27"
+  ],
+  "models": [
+    "ADMIN_ZERO_R28",
+    "ADMIN_JAN_ONLY_R28",
+    "ADMIN_RECENT_R28",
+    "ADMIN_HALF_R28",
+    "ADMIN_F000_R28",
+    "ADMIN_F025_R28",
+    "ADMIN_F050_R28",
+    "ADMIN_F075_R28"
+  ],
+  "origin_count": 90,
+  "frame_run": "output/research_r27/final",
+  "frame_model": "FOOD_ECM_R27",
+  "notes": "R28 administered-level candidates on the research roster frame; only the administered block of h1-12 changes; fired January gates kept.",
+  "outputs": {
+    "admin_audit.csv": "2b92b0b140ed31a4cd86477dda7d7cf6d0f9bfd96e0ef9b00ed6c2e9310b0572",
+    "forecasts.csv": "ae1464628f05d728882e62e1f0cbe3afdb24923afdf94b1d7bf7556731b20d06",
+    "native_forecasts.csv": "9ba3ea2b4706b45dce433fcbd4cef177f5d71b9860d69bb26bd22a6413a850a7",
+    "fits.jsonl": "f29f4203c1896b4b809e1d63883c316f098cee1a71f1c8d756177427024007b3"
+  }
+}

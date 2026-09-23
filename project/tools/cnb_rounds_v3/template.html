@@ -1,0 +1,748 @@
+<title>CNB Rounds Replayed</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root {
+  color-scheme: light;
+  --ground: #F2F4F6;
+  --surface: #FFFFFF;
+  --ink: #15202C;
+  --ink-soft: #3A4654;
+  --muted: #647183;
+  --rule: #D5DBE2;
+  --grid: #E8ECF1;
+  --band: #E4ECF4;
+  --band-edge: #B9C8D8;
+  --cnb: #C2132F;
+  --realised: #15202C;
+  --s-roster: #1F5DB4;
+  --s-fast: #B8860B;
+  --s-local: #0A9A8B;
+  --s-phase: #7A4DB0;
+  --chip-off: #E9EDF1;
+  --focus: #1F5DB4;
+  --tip-bg: #15202C;
+  --tip-ink: #F2F4F6;
+  --best: #EAF1FA;
+  --font-display: "Barlow Semi Condensed", "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #0E1318;
+    --surface: #151C24;
+    --ink: #E6EBF1;
+    --ink-soft: #C3CCD6;
+    --muted: #8E9AA8;
+    --rule: #2A3440;
+    --grid: #1E2731;
+    --band: #1A2530;
+    --band-edge: #36485A;
+    --cnb: #F0506A;
+    --realised: #E6EBF1;
+    --s-roster: #4F8AE6;
+    --s-fast: #B8862A;
+    --s-local: #22A896;
+    --s-phase: #9A78D8;
+    --chip-off: #1B232C;
+    --focus: #6FA6FF;
+    --tip-bg: #E6EBF1;
+    --tip-ink: #0E1318;
+    --best: #1C2836;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0E1318;
+  --surface: #151C24;
+  --ink: #E6EBF1;
+  --ink-soft: #C3CCD6;
+  --muted: #8E9AA8;
+  --rule: #2A3440;
+  --grid: #1E2731;
+  --band: #1A2530;
+  --band-edge: #36485A;
+  --cnb: #F0506A;
+  --realised: #E6EBF1;
+  --s-roster: #4F8AE6;
+  --s-fast: #B8862A;
+  --s-local: #22A896;
+  --s-phase: #9A78D8;
+  --chip-off: #1B232C;
+  --focus: #6FA6FF;
+  --tip-bg: #E6EBF1;
+  --tip-ink: #0E1318;
+  --best: #1C2836;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.page {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-block: 36px 72px;
+  padding-inline: 28px;
+  display: grid;
+  gap: 26px;
+}
+@media (max-width: 640px) { .page { padding-inline: 16px; } }
+.eyebrow {
+  font-family: var(--font-data);
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.masthead { display: grid; gap: 12px; }
+h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(34px, 5vw, 50px);
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+  margin: 0;
+  text-wrap: balance;
+}
+.lede { max-width: 66ch; margin: 0; font-size: 16.5px; color: var(--ink-soft); }
+.key { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 13.5px; color: var(--ink-soft); }
+.key span { display: inline-flex; align-items: center; gap: 8px; }
+.key svg { flex: none; }
+
+.board { display: grid; gap: 18px; }
+.board-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr)); gap: 18px; }
+.panel {
+  min-width: 0;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 16px 18px 14px;
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+.panel h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.1;
+  margin: 0;
+}
+.panel .sub { margin: 0; font-size: 13.5px; color: var(--ink-soft); max-width: 70ch; }
+.tablewrap { overflow-x: auto; }
+table.data {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+table.data th, table.data td { padding: 5px 8px; text-align: right; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+table.data th { font-family: var(--font-data); font-weight: 500; font-size: 10.5px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); vertical-align: bottom; }
+table.data th:first-child, table.data td:first-child { text-align: left; white-space: normal; min-width: 150px; }
+table.data td.name { color: var(--ink); }
+table.data td.name .sw { display: inline-block; width: 12px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 7px; }
+table.data td.best { background: var(--best); font-weight: 600; }
+table.data tr.bench td { color: var(--ink-soft); font-style: italic; }
+table.data tr.promoted td.name { text-decoration: underline; text-decoration-color: var(--s-roster); text-underline-offset: 3px; }
+table.data td.dim { color: var(--muted); }
+table.data .group th { border-bottom: 0; padding-bottom: 0; text-align: center; color: var(--ink-soft); }
+.caption { margin: 0; font-size: 12.5px; color: var(--muted); }
+
+.switchboard {
+  display: grid;
+  gap: 10px;
+  padding: 12px 0 14px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  background: var(--ground);
+  z-index: 5;
+}
+@media (min-width: 900px) { .switchboard { position: sticky; top: 0; } }
+.switch-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.actions { display: flex; gap: 14px; }
+.textbtn {
+  font: 600 13px/1 var(--font-body);
+  color: var(--ink-soft);
+  background: none;
+  border: 0;
+  padding: 4px 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 4px;
+}
+.textbtn:hover { text-decoration-color: var(--ink-soft); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  font: 500 13.5px/1 var(--font-body);
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 7px 12px 7px 9px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.chip input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.chip:hover { border-color: var(--muted); }
+.chip[aria-pressed="false"] { background: var(--chip-off); color: var(--muted); }
+.chip[aria-pressed="false"] svg { opacity: 0.3; }
+.chip:has(input:focus-visible), .textbtn:focus-visible, .method summary:focus-visible, select:focus-visible, .toggle input:focus-visible + span {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.controls { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; font-size: 13.5px; color: var(--ink-soft); }
+.controls label { display: inline-flex; align-items: center; gap: 8px; }
+.controls select {
+  font: 500 13.5px/1.2 var(--font-body);
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+.toggle input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.toggle span::before {
+  content: "";
+  display: inline-block;
+  width: 26px; height: 14px;
+  border-radius: 999px;
+  background: var(--chip-off);
+  border: 1px solid var(--rule);
+  vertical-align: -3px;
+  margin-right: 8px;
+  position: relative;
+  box-sizing: border-box;
+}
+.toggle input:checked + span::before { background: var(--focus); border-color: var(--focus); }
+.toggle span::after {
+  content: "";
+  position: absolute;
+  left: 2px; top: 50%;
+  width: 10px; height: 10px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background: var(--surface);
+  transition: left 120ms;
+}
+.toggle span { position: relative; cursor: pointer; }
+.toggle input:checked + span::after { left: 14px; }
+@media (prefers-reduced-motion: reduce) { .toggle span::after { transition: none; } }
+
+.rounds {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr));
+  gap: 22px;
+}
+.year { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 14px; padding-top: 10px; }
+.year h2 { font-family: var(--font-display); font-weight: 600; font-size: 30px; line-height: 1; margin: 0; }
+.year .count { font-family: var(--font-data); font-size: 12px; color: var(--muted); }
+
+.plate {
+  min-width: 0;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 18px 18px 16px;
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+.plate header { display: grid; gap: 3px; }
+.plate h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.1;
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.plate h3 .cs { font-family: var(--font-body); font-weight: 400; font-style: italic; font-size: 15px; color: var(--muted); }
+.meta { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.meta b { font-weight: 600; color: var(--ink-soft); }
+
+.chart { position: relative; }
+.chart svg { display: block; width: 100%; height: auto; touch-action: pan-y; }
+.chart .tick { font-family: var(--font-data); font-size: 10px; fill: var(--muted); font-variant-numeric: tabular-nums; }
+.chart .title { font-family: var(--font-display); font-size: 13px; font-weight: 600; fill: var(--ink-soft); }
+.blocks { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 12px; border-top: 1px solid var(--grid); padding-top: 8px; }
+@media (max-width: 480px) { .blocks { grid-template-columns: 1fr; } }
+.blocks[hidden] { display: none; }
+.blocks .chart .tick { font-size: 9.5px; }
+.tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background: var(--tip-bg);
+  color: var(--tip-ink);
+  font: 12px/1.4 var(--font-data);
+  padding: 8px 10px;
+  border-radius: 6px;
+  min-width: 190px;
+  box-shadow: 0 6px 20px rgba(8, 16, 26, 0.22);
+  display: grid;
+  gap: 2px;
+  font-variant-numeric: tabular-nums;
+  z-index: 3;
+}
+.tip-head { font-weight: 500; margin-bottom: 3px; }
+.tip .row { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto; gap: 7px; align-items: center; }
+.tip .sw { width: 12px; height: 3px; border-radius: 2px; }
+.tip-sub { margin-top: 5px; padding-top: 5px; border-top: 1px solid var(--muted); }
+.tip-note { opacity: 0.7; }
+
+.gaps { display: grid; gap: 6px; border-top: 1px solid var(--grid); padding-top: 10px; }
+.gaps[hidden] { display: none; }
+.gaps table.data td:first-child, .gaps table.data th:first-child { min-width: 0; }
+.gaps td.dom { font-weight: 600; color: var(--ink); }
+.gaps td.who { text-align: left; white-space: nowrap; color: var(--ink-soft); }
+.gaps td.who.model { color: var(--ink); font-weight: 600; }
+
+.score { display: grid; gap: 8px; border-top: 1px solid var(--grid); padding-top: 10px; }
+.misses { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 5px 20px; }
+@media (max-width: 640px) { .misses { grid-template-columns: 1fr; } }
+.misses li { display: grid; grid-template-columns: 12px minmax(0, 1fr) 56px 36px; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-soft); }
+.misses .sw { width: 12px; height: 3px; border-radius: 2px; }
+.misses .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.misses .bar { height: 6px; border-radius: 3px; background: var(--grid); overflow: hidden; }
+.misses .bar i { display: block; height: 100%; border-radius: 3px; }
+.misses .val { text-align: right; font-family: var(--font-data); font-size: 12px; font-variant-numeric: tabular-nums; }
+.misses .best .name, .misses .best .val { color: var(--ink); font-weight: 600; }
+
+.method { border-top: 1px solid var(--rule); padding-top: 14px; color: var(--ink-soft); }
+.method summary { cursor: pointer; font-family: var(--font-display); font-weight: 600; font-size: 20px; color: var(--ink); }
+.method-body { display: grid; gap: 10px; max-width: 72ch; padding-top: 10px; font-size: 14.5px; }
+.method-body p { margin: 0; }
+</style>
+
+<div class="page">
+  <header class="masthead">
+    <div class="eyebrow" id="eyebrow">Czech CPI · CNB Monetary Policy Reports</div>
+    <h1>CNB Rounds Replayed</h1>
+    <p class="lede">Each panel freezes one CNB report. The red points are the bank's forecast of quarterly average inflation, out to the last quarter in that report. The coloured lines are our monthly paths replayed from a simulated cutoff before the report, with current-vintage inputs and no knowledge of the report. The dark line is what happened. Below each headline chart, the same round is shown block by block, and the gap to CNB is split into the blocks that carry it. Lines marked research are not on the roster.</p>
+    <div class="key" aria-label="How to read the charts">
+      <span><svg width="26" height="12" aria-hidden="true"><rect x="0" y="2" width="26" height="8" style="fill:var(--band)"/><line x1="0" y1="6" x2="26" y2="6" style="stroke:var(--band-edge);stroke-dasharray:3 3"/></svg>CNB target, 2 % ± 1 pp</span>
+      <span><svg width="26" height="12" aria-hidden="true"><line x1="1" y1="6" x2="25" y2="6" style="stroke:var(--cnb);stroke-width:3;opacity:0.35"/><circle cx="13" cy="6" r="3.3" style="fill:var(--cnb)"/></svg>CNB forecast: quarterly average, bar spans its three months</span>
+      <span><svg width="26" height="12" aria-hidden="true"><circle cx="13" cy="6" r="3.4" style="fill:var(--surface);stroke:var(--realised);stroke-width:1.3"/></svg>Realised quarterly average</span>
+      <span><svg width="26" height="12" aria-hidden="true"><line x1="2" y1="6" x2="24" y2="6" style="stroke:var(--s-roster);stroke-width:2"/><circle cx="13" cy="6" r="3.2" style="fill:var(--s-roster);stroke:var(--surface);stroke-width:1.1"/></svg>Model quarterly average, in the model's colour</span>
+      <span><svg width="26" height="12" aria-hidden="true"><line x1="13" y1="0" x2="13" y2="12" style="stroke:var(--ink);stroke-dasharray:1.5 2.5"/></svg>Report published</span>
+    </div>
+  </header>
+
+  <section class="board" aria-label="Where the roster stands">
+    <div class="board-grid">
+      <div class="panel">
+        <h2>Next-release nowcast</h2>
+        <p class="sub">Monthly CPI change, first release, forecast on release eve. Lower is better; percentage points.</p>
+        <div class="tablewrap" id="board-nowcast"></div>
+        <p class="caption" id="board-nowcast-source"></p>
+      </div>
+      <div class="panel">
+        <h2>Monthly path, h0–h12</h2>
+        <p class="sub">Annual inflation RMSE on the fixed 969-key support, and quarterly-average RMSE on the matched report-clock pairs against CNB from 2024. Percentage points.</p>
+        <div class="tablewrap" id="board-path"></div>
+        <p class="caption" id="board-path-note"></p>
+      </div>
+    </div>
+    <div class="panel">
+      <h2>Where the path error sits</h2>
+      <p class="sub">RMS of the cumulative weighted block error over h1–12, in percentage points of headline; bias in brackets. Food was the largest block from 2024; R24 and R27 repaired it in two steps. Fuel, administered prices and core are what remains; the last column shows what the R29B core phase rule would do to core.</p>
+      <div class="tablewrap" id="board-blocks"></div>
+    </div>
+  </section>
+
+  <section class="switchboard" aria-label="Series and replay selection">
+    <div class="switch-head">
+      <span class="eyebrow">Series on every chart</span>
+      <span class="actions">
+        <button type="button" class="textbtn" data-action="all">Show all</button>
+        <button type="button" class="textbtn" data-action="default">Reset</button>
+      </span>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="controls">
+      <label for="clock-select">Replay clock <select id="clock-select"><option value="report">before report day</option><option value="cutoff">through CNB cut-off day</option></select></label>
+      <label for="round-select">Round <select id="round-select"><option value="all">all rounds</option></select></label>
+      <label for="focus-select">Split the gap for <select id="focus-select"></select></label>
+      <label class="toggle"><input type="checkbox" id="blocks-toggle" checked><span>Block panels</span></label>
+      <label class="toggle"><input type="checkbox" id="gaps-toggle" checked><span>Gap table</span></label>
+    </div>
+  </section>
+
+  <main class="rounds" id="rounds"></main>
+
+  <details class="method">
+    <summary>How these panels are built</summary>
+    <div class="method-body" id="method"></div>
+  </details>
+</div>
+
+<script>
+(() => {
+  const DATA = /*__DATA__*/null;
+  const SERIES = DATA.series;
+  const byId = Object.fromEntries(SERIES.map(s => [s.id, s]));
+  const MODELS = SERIES.filter(s => s.kind === "model");
+  const STORE = "cnb-rounds-v3-visible-v1";
+  const defaults = () => new Set(SERIES.filter(s => s.default).map(s => s.id));
+  let visible = defaults();
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORE) || "null");
+    if (Array.isArray(saved)) visible = new Set(saved.filter(id => byId[id]));
+  } catch (e) { /* storage unavailable: keep defaults */ }
+  const save = () => { try { localStorage.setItem(STORE, JSON.stringify([...visible])); } catch (e) { /* ignore */ } };
+
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const mi = s => { const [y, m] = s.split("-").map(Number); return y * 12 + (m - 1); };
+  const ms = i => `${Math.floor(i / 12)}-${String((i % 12) + 1).padStart(2, "0")}`;
+  const mLabel = i => `${MONTHS[i % 12]} ${Math.floor(i / 12)}`;
+  const qOf = i => `${Math.floor(i / 12)}Q${Math.floor((i % 12) / 3) + 1}`;
+  const qStart = q => Number(q.slice(0, 4)) * 12 + (Number(q.slice(5)) - 1) * 3;
+  const qLabel = q => `${q.slice(5)}Q${q.slice(2, 4)}`;
+  const dLabel = s => { const [y, m, d] = s.slice(0, 10).split("-").map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
+  const clockLabel = s => { const [d, t] = s.split(" "); return `${dLabel(d)}, ${t} Prague`; };
+  const esc = t => String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const num = (v, dec) => `${v < 0 ? "−" : ""}${Math.abs(v).toFixed(dec)}`;
+  const signed = (v, dec) => `${v < 0 ? "−" : v > 0 ? "+" : ""}${Math.abs(v).toFixed(dec)}`;
+
+  function nice(lo, hi) {
+    const span = Math.max(hi - lo, 0.5);
+    const step = [0.5, 1, 2, 2.5, 5, 10].find(s => span / s <= 7) || 20;
+    return { min: Math.floor(lo / step) * step, max: Math.ceil(hi / step) * step, step };
+  }
+
+  function swatch(s, w = 26) {
+    if (s.kind === "cnb") {
+      return `<svg width="${w}" height="12" aria-hidden="true"><line x1="0" y1="6" x2="${w}" y2="6" style="stroke:var(${s.color});stroke-width:1.5"/><circle cx="${w / 2}" cy="6" r="3.3" style="fill:var(${s.color})"/></svg>`;
+    }
+    return `<svg width="${w}" height="12" aria-hidden="true"><line x1="2" y1="6" x2="${w - 2}" y2="6" style="stroke:var(${s.color});stroke-width:${Math.max(s.width, 2)};stroke-dasharray:${s.dash || "none"};stroke-linecap:round"/></svg>`;
+  }
+
+  /* ---------- roster board ---------- */
+  function renderBoard() {
+    const nc = DATA.board.nowcast;
+    const bestCols = nc.columns.slice(0, 3).map((_, j) => Math.min(...nc.rows.map(r => r.values[j])));
+    document.getElementById("board-nowcast").innerHTML = `<table class="data"><thead><tr><th>Nowcast</th>${nc.columns.map(c => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${
+      nc.rows.map(r => `<tr${r.role === "benchmark" ? ' class="bench"' : ""}><td class="name">${esc(r.name)}</td>${r.values.map((v, j) => `<td${v === bestCols[j] ? ' class="best"' : ""}>${v.toFixed(4)}</td>`).join("")}<td>${esc(r.wins)}</td></tr>`).join("")
+    }</tbody></table>`;
+    document.getElementById("board-nowcast-source").textContent = `Source: ${nc.source}. Material win or loss: at least 0.15 pp less or more absolute error than consensus on the 23 surprises of 0.40 pp or more.`;
+
+    const pb = DATA.board.path;
+    const cols = [["full_h3", "h3"], ["full_h6", "h6"], ["full_h12", "h12"], ["recent_h3", "h3"], ["recent_h6", "h6"], ["recent_h12", "h12"], ["vs_cnb_rmse", "all pairs"], ["vs_cnb_rmse_4q", "4Q ahead"]];
+    const best = Object.fromEntries(cols.map(([k]) => [k, Math.min(...pb.rows.map(r => r[k]))]));
+    const n = pb.rows[0];
+    document.getElementById("board-path").innerHTML = `<table class="data"><thead>
+      <tr class="group"><th></th><th colspan="3">All 90 origins (${n.full_n3}/${n.full_n6}/${n.full_n12})</th><th colspan="3">Origins from 2024 (${n.recent_n3}/${n.recent_n6}/${n.recent_n12})</th><th colspan="2">vs CNB, reports from 2024 (${n.cnb_pairs} / ${n.cnb_pairs_4q} pairs)</th></tr>
+      <tr><th>Path</th>${cols.map(([, l]) => `<th>${l}</th>`).join("")}</tr></thead><tbody>${
+      pb.rows.map(r => `<tr${r.promoted ? ' class="promoted"' : ""}><td class="name" title="${esc(r.label)}">${swatch(byId[r.id], 18)} ${esc(byId[r.id].short)}</td>${cols.map(([k]) => `<td${r[k] === best[k] ? ' class="best"' : ""}>${r[k].toFixed(3)}</td>`).join("")}</tr>`).join("")
+    }<tr class="bench"><td class="name"><span class="sw" style="background:var(--cnb)"></span>CNB published forecast</td><td class="dim" colspan="6">—</td><td>${pb.cnb.rmse.toFixed(3)}</td><td>${pb.cnb.rmse_4q.toFixed(3)}</td></tr></tbody></table>`;
+    const roster = pb.rows.find(r => r.promoted); const below = pb.rows.filter(r => r.vs_cnb_rmse < pb.cnb.rmse).map(r => `${byId[r.id].short} (${r.vs_cnb_rmse.toFixed(3)})`);
+    document.getElementById("board-path-note").textContent = `Bold marks the lowest error in each column; the underlined row is the roster. On the matched pairs from 2024 CNB scores ${pb.cnb.rmse.toFixed(3)} against the roster's ${roster.vs_cnb_rmse.toFixed(3)}, with one more CPI print at every round.${below.length ? ` Below CNB on those pairs: ${below.join(", ")} — a presentation frame or research line, not a declared candidate, and worse than the roster on the full sample.` : ""}`;
+
+    const bl = DATA.board.blocks; const blocks = ["h0", "core", "food", "fuel", "administered", "alcohol_tobacco", "wedge", "total"];
+    const labels = { h0: "h0 month", core: "Core", food: "Food", fuel: "Fuel", administered: "Administered", alcohol_tobacco: "Alcohol & tobacco", wedge: "Wedge", total: "Total path" };
+    const full = bl.filter(r => r.sample === "full"), recent = bl.filter(r => r.sample === "recent"); const rows = [...full, ...recent];
+    document.getElementById("board-blocks").innerHTML = `<table class="data"><thead>
+      <tr class="group"><th></th><th colspan="${full.length}">All origins</th><th colspan="${recent.length}">Origins from 2024</th></tr>
+      <tr><th>Block, h1–12</th>${rows.map(r => `<th title="${esc(byId[r.id].label)}">${esc(byId[r.id].tag)}</th>`).join("")}</tr></thead><tbody>${
+      blocks.map(b => `<tr${b === "total" ? ' class="bench"' : ""}><td class="name">${labels[b]}</td>${rows.map(r => r[b + "_rms"] == null ? `<td class="dim">—</td>` : `<td>${r[b + "_rms"].toFixed(2)} <span class="dim">(${signed(r[b + "_bias"], 2)})</span></td>`).join("")}</tr>`).join("")
+    }</tbody></table>`;
+  }
+
+  /* ---------- switchboard ---------- */
+  const chips = document.getElementById("chips");
+  function renderChips() {
+    chips.innerHTML = SERIES.map(s =>
+      `<label class="chip" aria-pressed="${visible.has(s.id)}" title="${esc(s.note || "")}"><input type="checkbox" data-id="${s.id}" ${visible.has(s.id) ? "checked" : ""}>${swatch(s)}<span>${esc(s.label)}</span></label>`
+    ).join("");
+  }
+  chips.addEventListener("change", e => {
+    const b = e.target.closest("input[data-id]");
+    if (!b) return;
+    const id = b.dataset.id;
+    if (visible.has(id)) visible.delete(id); else visible.add(id);
+    b.closest(".chip").setAttribute("aria-pressed", String(visible.has(id)));
+    save();
+    renderAll();
+  });
+  document.querySelector(".switch-head").addEventListener("click", e => {
+    const a = e.target.closest("[data-action]");
+    if (!a) return;
+    visible = a.dataset.action === "all" ? new Set(SERIES.map(s => s.id)) : defaults();
+    save();
+    renderChips();
+    renderAll();
+  });
+  const clockSelect = document.getElementById("clock-select");
+  const roundSelect = document.getElementById("round-select");
+  const focusSelect = document.getElementById("focus-select");
+  const blocksToggle = document.getElementById("blocks-toggle");
+  const gapsToggle = document.getElementById("gaps-toggle");
+  const dates = [...new Set(Object.values(DATA.reportsByClock).flat().map(r => r.report_date))].sort();
+  roundSelect.innerHTML += dates.map(d => `<option value="${d}">${dLabel(d)}</option>`).join("");
+  focusSelect.innerHTML = MODELS.map(s => `<option value="${s.id}">${esc(s.label)}</option>`).join("");
+  let reports = [];
+  const applySelection = () => {
+    reports = DATA.reportsByClock[clockSelect.value].filter(r => roundSelect.value === "all" || r.report_date === roundSelect.value);
+    buildPlates(); renderAll();
+  };
+  clockSelect.addEventListener("change", applySelection);
+  roundSelect.addEventListener("change", applySelection);
+  focusSelect.addEventListener("change", renderAll);
+  blocksToggle.addEventListener("change", renderAll);
+  gapsToggle.addEventListener("change", renderAll);
+
+  /* ---------- plates ---------- */
+  const rounds = document.getElementById("rounds");
+  function buildPlates() {
+    const perYear = {};
+    reports.forEach(r => { const y = r.report_date.slice(0, 4); perYear[y] = (perYear[y] || 0) + 1; });
+    let html = "", year = null;
+    reports.forEach((r, k) => {
+      const y = r.report_date.slice(0, 4);
+      if (y !== year) {
+        year = y;
+        html += `<div class="year"><h2>${y}</h2><span class="count">${perYear[y]} report${perYear[y] > 1 ? "s" : ""}</span></div>`;
+      }
+      html += `<article class="plate" id="r-${r.id}">
+        <header>
+          <div class="eyebrow">Monetary Policy Report · published ${dLabel(r.report_date)}</div>
+          <h3>${esc(r.season)} ${r.year} <span class="cs" lang="cs">${esc(r.season_cs)} ${r.year}</span></h3>
+          <div class="meta">CNB data cut-off <b>${dLabel(r.cutoff_date)}</b> · replay origin <b>${mLabel(mi(r.origin))}</b> · simulated cutoff ${esc(clockLabel(r.origin_clock))}</div>
+        </header>
+        <div class="chart headline" data-k="${k}"></div>
+        <div class="blocks" data-k="${k}">${DATA.blocks.map(b => `<div class="chart block" data-k="${k}" data-block="${b.id}"></div>`).join("")}</div>
+        <div class="gaps" data-k="${k}"></div>
+        <div class="score" data-k="${k}"></div>
+      </article>`;
+    });
+    rounds.innerHTML = html || "<p>No eligible historical snapshots for this selection.</p>";
+    rounds.querySelectorAll(".chart").forEach(host => {
+      host.addEventListener("pointermove", onMove);
+      host.addEventListener("pointerleave", onLeave);
+    });
+  }
+
+  /* One drawing routine for the headline chart and the four block charts. */
+  function drawChart(host, rep, spec) {
+    const { W, H, M } = spec, PW = W - M.l - M.r, PH = H - M.t - M.b;
+    const start = mi(rep.window.start), end = mi(rep.window.end), n = end - start + 1;
+    const X = i => M.l + ((i - start + 0.5) / n) * PW;
+    const XE = i => M.l + ((i - start) / n) * PW;
+    const models = MODELS.filter(s => visible.has(s.id) && spec.paths[s.id] && spec.paths[s.id].length);
+    const vals = [];
+    if (visible.has("realised")) spec.realised.forEach(p => vals.push(p[1]));
+    if (visible.has("cnb")) spec.cnb.forEach(q => vals.push(q.value));
+    models.forEach(s => spec.paths[s.id].forEach(p => vals.push(p[1])));
+    if (!vals.length) spec.realised.forEach(p => vals.push(p[1]));
+    if (!vals.length) vals.push(0, 3);
+    const lo = spec.band ? Math.min(1, ...vals) : Math.min(...vals), hi = spec.band ? Math.max(3, ...vals) : Math.max(...vals);
+    const pad = spec.band ? 0.35 : 0.08 * Math.max(hi - lo, 1);
+    const sc = nice(lo - pad, hi + pad);
+    const Y = v => M.t + ((sc.max - v) / (sc.max - sc.min)) * PH;
+    const P = [];
+    if (spec.band) P.push(`<rect x="${M.l}" y="${Y(3).toFixed(1)}" width="${PW}" height="${(Y(1) - Y(3)).toFixed(1)}" style="fill:var(--band)"/>`);
+    const steps = Math.round((sc.max - sc.min) / sc.step);
+    const dec = sc.step < 1 ? 1 : 0;
+    const tickEvery = spec.small && steps > 5 ? 2 : 1;
+    for (let k = 0; k <= steps; k++) {
+      const v = sc.min + k * sc.step, yy = Y(v).toFixed(1);
+      P.push(`<line x1="${M.l}" x2="${M.l + PW}" y1="${yy}" y2="${yy}" style="stroke:var(--grid);stroke-width:1"/>`);
+      if (k % tickEvery === 0) P.push(`<text x="${M.l - 5}" y="${(Y(v) + 3.5).toFixed(1)}" text-anchor="end" class="tick">${num(v, dec)}</text>`);
+    }
+    if (spec.band) P.push(`<line x1="${M.l}" x2="${M.l + PW}" y1="${Y(2).toFixed(1)}" y2="${Y(2).toFixed(1)}" style="stroke:var(--band-edge);stroke-width:1;stroke-dasharray:3 3"/>`);
+    else if (sc.min < 0 && sc.max > 0) P.push(`<line x1="${M.l}" x2="${M.l + PW}" y1="${Y(0).toFixed(1)}" y2="${Y(0).toFixed(1)}" style="stroke:var(--band-edge);stroke-width:1"/>`);
+    for (let i = start; i <= end + 1; i++) {
+      if (i % 3 !== 0) continue;
+      const xx = XE(i).toFixed(1);
+      P.push(`<line x1="${xx}" x2="${xx}" y1="${M.t}" y2="${M.t + PH}" style="stroke:var(${i % 12 === 0 ? "--rule" : "--grid"});stroke-width:1"/>`);
+    }
+    P.push(`<line x1="${M.l}" x2="${M.l + PW}" y1="${M.t + PH}" y2="${M.t + PH}" style="stroke:var(--rule);stroke-width:1"/>`);
+    const perQuarter = PW / (n / 3);
+    for (let i = start; i <= end; i++) {
+      if (i % 3 !== 1) continue;
+      const q = qOf(i);
+      if (perQuarter < 30 && Number(q.slice(5)) % 2 === 0) continue;
+      P.push(`<text x="${X(i).toFixed(1)}" y="${H - 8}" text-anchor="middle" class="tick">${qLabel(q)}</text>`);
+    }
+    if (spec.title) P.push(`<text x="${M.l}" y="${M.t - 9}" class="title">${esc(spec.title)}</text>`);
+    else P.push(`<text x="${M.l - 6}" y="${M.t - 12}" text-anchor="end" class="tick">% y/y</text>`);
+
+    const [ry, rm, rd] = rep.report_date.split("-").map(Number);
+    const ri = ry * 12 + (rm - 1);
+    if (ri >= start && ri <= end) {
+      const xr = (M.l + ((ri - start + (rd - 1) / new Date(ry, rm, 0).getDate()) / n) * PW).toFixed(1);
+      P.push(`<line x1="${xr}" x2="${xr}" y1="${M.t - (spec.small ? 2 : 6)}" y2="${M.t + PH}" style="stroke:var(--ink);stroke-width:1;stroke-dasharray:1.5 3;opacity:0.6"/>`);
+      if (!spec.small) P.push(`<text x="${(Number(xr) + 5).toFixed(1)}" y="${M.t - 12}" class="tick">published ${rd} ${MONTHS[rm - 1]}</text>`);
+    }
+    const pts = list => list.map(p => `${X(typeof p[0] === "string" ? mi(p[0]) : p[0]).toFixed(1)},${Y(p[1]).toFixed(1)}`).join(" ");
+    const lw = spec.small ? 0.8 : 1;
+    [...models].reverse().forEach(s => {
+      P.push(`<polyline points="${pts(spec.paths[s.id])}" style="fill:none;stroke:var(${s.color});stroke-width:${(s.width * lw).toFixed(1)};stroke-dasharray:${s.dash || "none"};stroke-linejoin:round;stroke-linecap:round"/>`);
+    });
+    if (visible.has("realised") && spec.realised.length) {
+      P.push(`<polyline points="${pts(spec.realised)}" style="fill:none;stroke:var(--realised);stroke-width:${(2.4 * lw).toFixed(1)};stroke-linejoin:round;stroke-linecap:round"/>`);
+      spec.realisedQ.forEach(q => {
+        P.push(`<circle cx="${X(qStart(q.quarter) + 1).toFixed(1)}" cy="${Y(q.value).toFixed(1)}" r="${spec.small ? 2.6 : 3.5}" style="fill:var(--surface);stroke:var(--realised);stroke-width:1.3"/>`);
+      });
+    }
+    [...models].reverse().forEach(s => {
+      (spec.quarterPoints[s.id] || []).forEach(([q, v]) => {
+        P.push(`<circle cx="${X(qStart(q) + 1).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="${spec.small ? 2.4 : 3.2}" style="fill:var(${s.color});stroke:var(--surface);stroke-width:1.1"/>`);
+      });
+    });
+    if (visible.has("cnb") && spec.cnb.length) {
+      spec.cnb.forEach(q => {
+        const y0 = Y(q.value).toFixed(1);
+        P.push(`<line x1="${XE(qStart(q.quarter)).toFixed(1)}" x2="${XE(qStart(q.quarter) + 3).toFixed(1)}" y1="${y0}" y2="${y0}" style="stroke:var(--cnb);stroke-width:3;opacity:0.3"/>`);
+      });
+      P.push(`<polyline points="${spec.cnb.map(q => `${X(qStart(q.quarter) + 1).toFixed(1)},${Y(q.value).toFixed(1)}`).join(" ")}" style="fill:none;stroke:var(--cnb);stroke-width:1.5;stroke-linejoin:round"/>`);
+      spec.cnb.forEach(q => {
+        P.push(`<circle cx="${X(qStart(q.quarter) + 1).toFixed(1)}" cy="${Y(q.value).toFixed(1)}" r="${spec.small ? 2.6 : 3.4}" style="fill:var(--cnb);stroke:var(--surface);stroke-width:1.2"/>`);
+      });
+    }
+    P.push(`<line class="cross" x1="0" x2="0" y1="${M.t}" y2="${M.t + PH}" style="stroke:var(--ink);stroke-width:1;opacity:0"/>`);
+    host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(spec.aria)}">${P.join("")}</svg><div class="tip" hidden></div>`;
+    host._ctx = {
+      W, H, M, PW, start, end, n, X, title: spec.title || "",
+      realised: new Map(spec.realised.map(p => [typeof p[0] === "string" ? p[0] : ms(p[0]), p[1]])),
+      maps: Object.fromEntries(models.map(s => [s.id, new Map(spec.paths[s.id])])),
+      qpoints: Object.fromEntries(models.map(s => [s.id, new Map(spec.quarterPoints[s.id] || [])])),
+      cnb: new Map(spec.cnb.map(q => [q.quarter, q.value])),
+      realisedQ: new Map(spec.realisedQ.map(q => [q.quarter, q.value])),
+    };
+  }
+
+  const HEAD = { W: 640, H: 330, M: { l: 38, r: 12, t: 26, b: 28 } };
+  const SMALL = { W: 320, H: 170, M: { l: 34, r: 8, t: 22, b: 20 } };
+
+  function renderHeadline(rep, host) {
+    const start = mi(rep.window.start), end = mi(rep.window.end);
+    const realised = [];
+    for (let i = start; i <= end; i++) { const v = DATA.realised[ms(i)]; if (v != null) realised.push([i, v]); }
+    const first = rep.cnb[0], last = rep.cnb[rep.cnb.length - 1];
+    drawChart(host, rep, { ...HEAD, band: true, small: false, paths: rep.paths, quarterPoints: rep.quarter_points, cnb: rep.cnb, realised, realisedQ: rep.realised_quarters,
+      aria: `${rep.season} ${rep.year} report. CNB forecast from ${qLabel(first.quarter)} at ${num(first.value, 1)} % to ${qLabel(last.quarter)} at ${num(last.value, 1)} %. Model paths start from the ${mLabel(mi(rep.origin))} run.` });
+  }
+
+  function renderBlock(rep, host) {
+    const b = rep.blocks[host.dataset.block], label = DATA.blocks.find(x => x.id === host.dataset.block).label;
+    const wt = b.cnb_weight != null ? ` · ${(100 * b.cnb_weight).toFixed(1)} % of the basket` : "";
+    drawChart(host, rep, { ...SMALL, band: false, small: true, title: label + wt, paths: b.paths, quarterPoints: {}, cnb: b.cnb, realised: b.realised, realisedQ: [],
+      aria: `${label}, ${rep.season} ${rep.year} report: model block paths against CNB's quarterly block forecast and the realised block rate.` });
+  }
+
+  function onMove(e) {
+    const host = e.currentTarget, ctx = host._ctx;
+    const svg = host.querySelector("svg");
+    if (!ctx || !svg) return;
+    const r = svg.getBoundingClientRect();
+    const vx = ((e.clientX - r.left) / r.width) * ctx.W;
+    if (vx < ctx.M.l || vx > ctx.M.l + ctx.PW) { onLeave(e); return; }
+    const i = Math.min(ctx.end, Math.max(ctx.start, ctx.start + Math.floor(((vx - ctx.M.l) / ctx.PW) * ctx.n)));
+    const cx = ctx.X(i);
+    const cross = svg.querySelector(".cross");
+    cross.setAttribute("x1", cx);
+    cross.setAttribute("x2", cx);
+    cross.style.opacity = "0.35";
+    const m = ms(i), q = qOf(i), monthRows = [], quarterRows = [];
+    if (visible.has("realised") && ctx.realised.has(m)) monthRows.push([byId.realised, ctx.realised.get(m)]);
+    MODELS.forEach(s => { if (ctx.maps[s.id] && ctx.maps[s.id].has(m)) monthRows.push([s, ctx.maps[s.id].get(m)]); });
+    if (visible.has("realised") && ctx.realisedQ.has(q)) quarterRows.push([byId.realised, ctx.realisedQ.get(q)]);
+    if (visible.has("cnb") && ctx.cnb.has(q)) quarterRows.push([byId.cnb, ctx.cnb.get(q)]);
+    MODELS.forEach(s => { if (ctx.qpoints[s.id] && ctx.qpoints[s.id].has(q)) quarterRows.push([s, ctx.qpoints[s.id].get(q)]); });
+    const rowsHtml = list => list.map(([s, v]) => `<div class="row"><span class="sw" style="background:var(${s.color})"></span><span>${esc(s.short || s.label)}</span><span>${num(v, 1)}</span></div>`).join("");
+    const tip = host.querySelector(".tip");
+    tip.innerHTML = `<div class="tip-head">${ctx.title ? esc(ctx.title.split(" · ")[0]) + " · " : ""}${mLabel(i)}</div>`
+      + (monthRows.length ? rowsHtml(monthRows) : `<div class="tip-note">No monthly values</div>`)
+      + (quarterRows.length ? `<div class="tip-head tip-sub">${qLabel(q)} quarterly average</div>${rowsHtml(quarterRows)}` : "");
+    tip.hidden = false;
+    const hostR = host.getBoundingClientRect();
+    const px = (cx / ctx.W) * r.width + (r.left - hostR.left);
+    const tw = tip.offsetWidth;
+    tip.style.left = `${px + 14 + tw > hostR.width ? Math.max(0, px - 14 - tw) : px + 14}px`;
+    tip.style.top = `${((ctx.M.t + 4) / ctx.H) * r.height}px`;
+  }
+
+  function onLeave(e) {
+    const host = e.currentTarget;
+    const tip = host.querySelector(".tip");
+    const cross = host.querySelector(".cross");
+    if (tip) tip.hidden = true;
+    if (cross) cross.style.opacity = "0";
+  }
+
+  function renderGaps(rep, host) {
+    const s = byId[focusSelect.value];
+    const rows = (rep.gaps[s.id] || []);
+    if (!rows.length) { host.innerHTML = `<p class="caption">No complete model quarter to split for this round.</p>`; return; }
+    const parts = ["core", "food_alc_tobacco", "fuel", "administered", "unexplained"];
+    const heads = { core: "Core", food_alc_tobacco: "Food, A&T", fuel: "Fuel", administered: "Admin.", unexplained: "Unexpl." };
+    const body = rows.map(r => {
+      let dom = null, domv = -1;
+      parts.slice(0, 4).forEach(p => { const v = r.parts[p]; if (v != null && v * Math.sign(r.gap) > domv) { domv = v * Math.sign(r.gap); dom = p; } });
+      let who = "";
+      if (r.realised != null) {
+        const em = Math.abs(r.model - r.realised), ec = Math.abs(r.cnb - r.realised), d = ec - em;
+        who = Math.abs(d) < 0.15 ? `<td class="who">${num(r.realised, 1)} · neither by 0.15</td>` : d > 0 ? `<td class="who model">${num(r.realised, 1)} · model closer by ${d.toFixed(2)}</td>` : `<td class="who">${num(r.realised, 1)} · CNB closer by ${(-d).toFixed(2)}</td>`;
+      } else who = `<td class="who dim">not yet realised</td>`;
+      return `<tr><td>${qLabel(r.quarter)}</td><td>${num(r.model, 2)}</td><td>${num(r.cnb, 2)}</td><td class="dom">${signed(r.gap, 2)}</td>${parts.map(p => r.parts[p] == null ? `<td class="dim">—</td>` : `<td${p === dom ? ' class="dom"' : ""}>${signed(r.parts[p], 2)}</td>`).join("")}${who}</tr>`;
+    }).join("");
+    host.innerHTML = `<p class="caption">Where the gap sits · <b>${esc(s.label)}</b> minus CNB, quarterly average, split into CNB's blocks (basket weight × block rate). Bold: the block pushing hardest in the gap's direction.</p>
+      <div class="tablewrap"><table class="data"><thead><tr><th>Quarter</th><th>Model</th><th>CNB</th><th>Gap</th>${parts.map(p => `<th>${heads[p]}</th>`).join("")}<th style="text-align:left">Outcome</th></tr></thead><tbody>${body}</tbody></table></div>`;
+  }
+
+  function renderScore(rep, host) {
+    const sc = rep.score;
+    if (!sc || !sc.n) {
+      host.innerHTML = `<p class="caption">No complete realised quarter on the evaluation's matched support for this report and clock.</p>`;
+      return;
+    }
+    const items = SERIES.filter(s => s.kind !== "realised" && visible.has(s.id) && sc.mae[s.id] != null)
+      .map(s => [s, sc.mae[s.id]]).sort((a, b) => a[1] - b[1]);
+    if (!items.length) {
+      host.innerHTML = `<p class="caption">Switch on the CNB forecast or a model to compare misses.</p>`;
+      return;
+    }
+    const span = sc.quarters.length > 1 ? `${qLabel(sc.quarters[0])}–${qLabel(sc.quarters[sc.quarters.length - 1])}` : qLabel(sc.quarters[0]);
+    const max = Math.max(...items.map(x => x[1]));
+    host.innerHTML = `<p class="caption">Average miss on quarterly average inflation, ${span} (${sc.n} quarter${sc.n > 1 ? "s" : ""}), in percentage points</p>
+      <ol class="misses">${items.map(([s, v], k) => `<li${k === 0 ? ' class="best"' : ""}><span class="sw" style="background:var(${s.color})"></span><span class="name" title="${esc(s.label)}">${esc(s.label)}</span><span class="bar"><i style="width:${Math.max(3, (v / max) * 100).toFixed(1)}%;background:var(${s.color})"></i></span><span class="val">${v.toFixed(2)}</span></li>`).join("")}</ol>`;
+  }
+
+  function renderAll() {
+    rounds.querySelectorAll(".chart.headline").forEach(host => renderHeadline(reports[Number(host.dataset.k)], host));
+    rounds.querySelectorAll(".blocks").forEach(host => { host.hidden = !blocksToggle.checked; });
+    if (blocksToggle.checked) rounds.querySelectorAll(".chart.block").forEach(host => renderBlock(reports[Number(host.dataset.k)], host));
+    rounds.querySelectorAll(".gaps").forEach(host => { host.hidden = !gapsToggle.checked; if (gapsToggle.checked) renderGaps(reports[Number(host.dataset.k)], host); });
+    rounds.querySelectorAll(".score").forEach(host => renderScore(reports[Number(host.dataset.k)], host));
+  }
+
+  const all = DATA.reportsByClock.report;
+  document.getElementById("eyebrow").textContent =
+    `Czech CPI · roster of ${DATA.roster_date} · ${all.length} CNB Monetary Policy Reports, ${all[0].season} ${all[0].year} to ${all[all.length - 1].season} ${all[all.length - 1].year}`;
+  document.getElementById("method").innerHTML = DATA.method.map(p => `<p>${esc(p)}</p>`).join("");
+  renderBoard();
+  renderChips();
+  applySelection();
+})();
+</script>

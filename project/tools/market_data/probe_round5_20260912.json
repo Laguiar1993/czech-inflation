@@ -1,0 +1,13 @@
+{
+  "note": "Round 5 of the 12 Sep 2026 probe: the user's REER tickers (BRERCZ, BISBCZR, 935.028, BREERCZK, OECZFRAA) against CNB ARAD SREERM101/SREERM103; the labour tickers from the user's list not yet probed; searches for a Bloomberg CZSO/CNB services or non-tradables CPI series and the CZSO monthly LFS 15-64 unemployment rate.",
+  "candidates": {
+    "reer": ["BRERCZ Index", "BISBCZR Index", "935.028 Index", "BREERCZK Index", "OECZFRAA Index"],
+    "labour": ["CZLFTOTL Index", "CZLFACT Index", "CZLFAUN Index", "CZUEURM Index", "CZUEURF Index", "UMLVCZ Index"]
+  },
+  "daily": ["BRERCZ Index", "BREERCZK Index"],
+  "searches": ["Czech Republic real effective exchange rate", "Czech Koruna REER", "Czech Inflation Non-Tradable",
+               "Czech Inflation Tradable", "Czech Republic CPI Services", "Czech Republic CPI Goods",
+               "Czech Republic Unemployment Rate 15-64", "Czech Republic LFS Unemployment Rate Seasonally Adjusted",
+               "Czech General Unemployment Rate"],
+  "max_results": 40
+}

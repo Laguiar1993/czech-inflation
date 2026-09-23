@@ -1,0 +1,52 @@
+{
+  "CZCPI Index": {
+    "name": "Czech Republic CPI",
+    "security_des": "Czech Republic CPI",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPF Index": {
+    "name": "Czech Republic CPI Food & Non",
+    "security_des": "Czech Republic CPI Food & Non",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZPPA10M Index": {
+    "name": "Czech Republic PPI Food Produc",
+    "security_des": "Czech Republic PPI Food Produc",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Producer prices (output) are a measure of the change in the price of goods as they leave their place of production (i.e. prices received by domestic producers for their outputs either on the domestic or foreign market)."
+  },
+  "CZCPYOY Index": {
+    "name": "Czech Republic CPI Nominal Chn",
+    "security_des": "Czech Republic CPI Nominal Chn",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CZCPMOM Index": {
+    "name": "Czech Republic CPI  Nominal Ch",
+    "security_des": "Czech Republic CPI  Nominal Ch",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ",
+    "des_notes": "Consumer prices (CPI) are a measure of prices paid by consumers for a market basket of consumer goods and services. The yearly (or monthly) growth rates represent the inflation rate."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "BRERCZ Index": {
+    "name": "Bloomberg Economics Czech Rep",
+    "security_des": "Bloomberg Economics Czech Rep",
+    "indx_source": "Bloomberg Economics",
+    "indx_freq": "Daily",
+    "last_update_dt": "2026-09-11",
+    "country": "CZ"
+  },
+  "BISBCZR Index": {
+    "name": "Czech Republic Real Effective",
+    "security_des": "Czech Republic Real Effective",
+    "indx_source": "Bank for International Settlem",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "An effective exchange rate (also known as a trade-weighted exchange rate) is a weighted average of the individual exchange rates of a particular country with its main trading partners. The bilateral exchange rates are weighted according to the importance of each partner country's share of trade with the reporting country. The real effective exchange rate (REER) is adjusted for inflation."
+  },
+  "935.028 Index": {
+    "name": "IMF Czech Rep Real Effective E",
+    "security_des": "IMF Czech Rep Real Effective E",
+    "indx_source": "International Monetary Fund",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-06-30",
+    "country": "CZ"
+  },
+  "BREERCZK Index": {
+    "name": "Bloomberg Intelligence REER In",
+    "security_des": "Bloomberg Intelligence REER In",
+    "indx_source": "Bloomberg Intelligence",
+    "indx_freq": "Daily",
+    "last_update_dt": "2026-09-09",
+    "country": "CH",
+    "des_notes": "The Bloomberg-calculated ticker shows the real effective exchange rate (REER) of an economy relative to its top 15 main trading partners. The REER series are based on Bloomberg Intelligence's nominal effective exchange rate (NEER) calculations ALLX NEER <GO>. <BR>They adjust the NEER for changes in relative price levels to capture movements in international price competitiveness. The weightings are dynamic and based on each trading partner's rolling 3-year trade shares. Numbers are subject to revisions if underlying trade or price data are corrected."
+  },
+  "OECZFRAA Index": {
+    "name": "OECD Czech Rep Real Effective",
+    "security_des": "OECD Czech Rep Real Effective",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-08-31",
+    "country": "CZ"
+  },
+  "CZLFTOTL Index": {
+    "name": "Czech Labor Force Total as % o",
+    "security_des": "Czech Labor Force Total as % o",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Percent NSA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2026-03-31",
+    "country": "CZ",
+    "des_notes": "The labor force participation rate is the total labor force as a percent of the working age population."
+  },
+  "CZLFACT Index": {
+    "name": "Czech Republic Economically Ac",
+    "security_des": "Czech Republic Economically Ac",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Units/Persons NSA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2026-03-31",
+    "country": "CZ",
+    "des_notes": "The total labor force (also known as the active population) comprises all persons who fulfill the requirements for inclusion among the employed or the unemployed."
+  },
+  "CZLFAUN Index": {
+    "name": "Czech Republic Economically Ac",
+    "security_des": "Czech Republic Economically Ac",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Units/Persons NSA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2026-03-31",
+    "country": "CZ",
+    "des_notes": "Unemployment measures the number of people who are without work (not in paid employment or self-employed), currently available for work and seeking work (taking specific steps to find work)."
+  },
+  "CZUEURM Index": {
+    "name": "Czech Unemployment Rate Males",
+    "security_des": "Czech Unemployment Rate Males",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Percent NSA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2024-12-31",
+    "country": "CZ",
+    "des_notes": "The unemployment rate tracks the number of unemployed persons as a percentage of the labor force (the total number of employed plus unemployed). These figures generally come from a household labor force survey."
+  },
+  "CZUEURF Index": {
+    "name": "Czech Unemployment Rate Female",
+    "security_des": "Czech Unemployment Rate Female",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Percent NSA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2024-12-31",
+    "country": "CZ",
+    "des_notes": "The unemployment rate tracks the number of unemployed persons as a percentage of the labor force (the total number of employed plus unemployed). These figures generally come from a household labor force survey."
+  },
+  "UMLVCZ Index": {
+    "name": "Eurostat Unemployment Level Cz",
+    "security_des": "Eurostat Unemployment Level Cz",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Units/Persons SA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "Unemployment measures the number of people who are without work (not in paid employment or self-employed), currently available for work and seeking work (taking specific steps to find work)."
+  }
+}

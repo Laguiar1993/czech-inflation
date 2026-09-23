@@ -1,0 +1,48 @@
+{
+  "at_decision": {
+    "ready_at_decision": true,
+    "food_inputs": {
+      "ready": true,
+      "series": [
+        {
+          "series": "agri4",
+          "expected_released_month": "2026-06",
+          "latest_released_month": "2026-06",
+          "stale": false
+        },
+        {
+          "series": "food_ppi",
+          "expected_released_month": "2026-06",
+          "latest_released_month": "2026-06",
+          "stale": false
+        },
+        {
+          "series": "food",
+          "expected_released_month": "2026-06",
+          "latest_released_month": "2026-06",
+          "stale": false
+        }
+      ],
+      "policy": "Existing conservative publication rules; source updater must verify release changes"
+    },
+    "path_fuel": {
+      "observation_end": "2026-07-27 00:00:00",
+      "available_from": "2026-08-03 00:00:00",
+      "latest_due": "2026-07-27 00:00:00",
+      "stale": false,
+      "aggregation": "monthly mean per product, then weighted relative changes",
+      "petrol_share": 0.586409
+    },
+    "current_path_engine_connected": true,
+    "models": [
+      "STATE_FAST_R15",
+      "STABLE_LOCAL_CORE_R14B",
+      "DAMPED_P95_Q001_R16"
+    ]
+  },
+  "prospective_eligible": false,
+  "record_type": "historical_replay",
+  "completed_at": "2026-09-15T08:15:57.033170+00:00",
+  "first_release_at": "2026-08-05T09:00:00+02:00",
+  "limitation": "Research models and reconstructed availability; no forecast accuracy promotion"
+}

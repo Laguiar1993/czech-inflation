@@ -1,0 +1,7 @@
+{
+  "status": "post-score explanatory diagnostic; no new candidate or refit",
+  "transform": "forecast log rate minus R22 season plus R15 season; actual and event definition unchanged",
+  "excluded": "JOINT_HALF_R22: simple-percent mixture has no exact additive log season",
+  "purpose": "Check whether apparent interior turns reflect seasonal disagreement rather than forecast pressure dynamics.",
+  "original_event_labels_unchanged": true
+}

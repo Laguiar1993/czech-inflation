@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "verification": "Full 90-origin refit and scoring; network/database blocked",
+  "byte_identical_payloads": 14,
+  "inputs_verified": 74,
+  "checked_at": "2026-09-09T12:34:11.253407+00:00"
+}

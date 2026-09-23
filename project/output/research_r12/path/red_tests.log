@@ -1,0 +1,323 @@
+FFFFFFFFFFF                                                              [100%]
+================================== FAILURES ===================================
+_____________ test_food_state_centred_and_future_poison_invariant _____________
+
+    def test_food_state_centred_and_future_poison_invariant():
+        y = sample(); t = pd.Period('2012-01','M')
+>       a = food_api().trend_state(y,t)
+            ^^^^^^^^^^
+
+test_path_improvements_r12.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_path_improvements_r12.py:10: in food_api
+    return importlib.import_module('models.food_path_r12')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'models.food_path_r12'
+import_ = <function _gcd_import at 0x000001BF66ACBE20>
+
+>   ???
+E   ModuleNotFoundError: No module named 'models.food_path_r12'
+
+<frozen importlib._bootstrap>:1335: ModuleNotFoundError
+______________ test_causal_trend_handles_pure_seasonal_zero_mean ______________
+
+    def test_causal_trend_handles_pure_seasonal_zero_mean():
+        idx=pd.period_range('2000-01','2014-12',freq='M')
+        q=.3+.4*np.sin(2*np.pi*(idx.month-1)/12)
+>       got=food_api().trend_state(pd.Series(100*np.expm1(q/100),index=idx),'2015-01')
+            ^^^^^^^^^^
+
+test_path_improvements_r12.py:50: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_path_improvements_r12.py:10: in food_api
+    return importlib.import_module('models.food_path_r12')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'models.food_path_r12'
+import_ = <function _gcd_import at 0x000001BF66ACBE20>
+
+>   ???
+E   ModuleNotFoundError: No module named 'models.food_path_r12'
+
+<frozen importlib._bootstrap>:1335: ModuleNotFoundError
+_______ test_cost_features_source_alignment_and_both_clocks_fail_closed _______
+
+    def test_cost_features_source_alignment_and_both_clocks_fail_closed():
+        c=costs(); t=pd.Period('2012-01','M'); clock=clocks()[t]
+>       got=food_api().cost_features(c,t,clock,clock)
+            ^^^^^^^^^^
+
+test_path_improvements_r12.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_path_improvements_r12.py:10: in food_api
+    return importlib.import_module('models.food_path_r12')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'models.food_path_r12'
+import_ = <function _gcd_import at 0x000001BF66ACBE20>
+
+>   ???
+E   ModuleNotFoundError: No module named 'models.food_path_r12'
+
+<frozen importlib._bootstrap>:1335: ModuleNotFoundError
+___________ test_food_cost_future_label_and_source_poison_invariant ___________
+
+    def test_food_cost_future_label_and_source_poison_invariant():
+        y=sample(); c=costs(); t=pd.Period('2012-01','M'); clock=clocks()[t]
+>       a=food_api().forecast_food(y,t,c,clocks(),clock)
+          ^^^^^^^^^^
+
+test_path_improvements_r12.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_path_improvements_r12.py:10: in food_api
+    return importlib.import_module('models.food_path_r12')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'models.food_path_r12'
+import_ = <function _gcd_import at 0x000001BF66ACBE20>
+
+>   ???
+E   ModuleNotFoundError: No module named 'models.food_path_r12'
+
+<frozen importlib._bootstrap>:1335: ModuleNotFoundError
+________ test_direct_targets_calendar_and_delayed_eligibility[monthly] ________
+
+mode = 'monthly'
+
+    @pytest.mark.parametrize('mode',['monthly','cumulative'])
+    def test_direct_targets_calendar_and_delayed_eligibility(mode):
+        y=sample(); t=pd.Period('2012-01','M'); h=12
+>       data=path_api().training_data(y,t,h,mode)
+             ^^^^^^^^^^
+
+test_path_improvements_r12.py:82: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_path_improvements_r12.py:14: in path_api
+    return importlib.import_module('models.cumulative_path_r12')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'models.cumulative_path_r12'
+import_ = <function _gcd_import at 0x000001BF66ACBE20>
+
+>   ???
+E   ModuleNotFoundError: No module named 'models.cumulative_path_r12'
+
+<frozen importlib._bootstrap>:1335: ModuleNotFoundError
+______ test_direct_targets_calendar_and_delayed_eligibility[cumulative] _______
+
+mode = 'cumulative'
+
+    @pytest.mark.parametrize('mode',['monthly','cumulative'])
+    def test_direct_targets_calendar_and_delayed_eligibility(mode):
+        y=sample(); t=pd.Period('2012-01','M'); h=12
+>       data=path_api().training_data(y,t,h,mode)
+             ^^^^^^^^^^
+
+test_path_improvements_r12.py:82: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_path_improvements_r12.py:14: in path_api
+    return importlib.import_module('models.cumulative_path_r12')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'models.cumulative_path_r12'
+import_ = <function _gcd_import at 0x000001BF66ACBE20>
+
+>   ???
+E   ModuleNotFoundError: No module named 'models.cumulative_path_r12'
+
+<frozen importlib._bootstrap>:1335: ModuleNotFoundError
+_______ test_cumulative_reconstruction_exact_products_and_h0_separation _______
+
+    def test_cumulative_reconstruction_exact_products_and_h0_separation():
+        cumulative={h:.15*h+.03*h*h for h in range(1,13)}
+>       got=path_api().reconstruct_cumulative(cumulative,h0=.7)
+            ^^^^^^^^^^
+
+test_path_improvements_r12.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_path_improvements_r12.py:14: in path_api
+    return importlib.import_module('models.cumulative_path_r12')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'models.cumulative_path_r12'
+import_ = <function _gcd_import at 0x000001BF66ACBE20>
+
+>   ???
+E   ModuleNotFoundError: No module named 'models.cumulative_path_r12'
+
+<frozen importlib._bootstrap>:1335: ModuleNotFoundError
+______________ test_matched_h1_and_future_poisoned_direct_paths _______________
+
+    def test_matched_h1_and_future_poisoned_direct_paths():
+        y=sample(); t=pd.Period('2012-01','M')
+>       a=path_api().forecast_targets(y,t,.42)
+          ^^^^^^^^^^
+
+test_path_improvements_r12.py:106: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_path_improvements_r12.py:14: in path_api
+    return importlib.import_module('models.cumulative_path_r12')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'models.cumulative_path_r12'
+import_ = <function _gcd_import at 0x000001BF66ACBE20>
+
+>   ???
+E   ModuleNotFoundError: No module named 'models.cumulative_path_r12'
+
+<frozen importlib._bootstrap>:1335: ModuleNotFoundError
+___________________ test_interior_missing_history_rejected ____________________
+
+    def test_interior_missing_history_rejected():
+        y=sample().drop(pd.Period('2005-06','M'))
+        with pytest.raises(ValueError,match='contiguous'):
+>           food_api().trend_state(y,'2012-01')
+            ^^^^^^^^^^
+
+test_path_improvements_r12.py:119: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_path_improvements_r12.py:10: in food_api
+    return importlib.import_module('models.food_path_r12')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'models.food_path_r12'
+import_ = <function _gcd_import at 0x000001BF66ACBE20>
+
+>   ???
+E   ModuleNotFoundError: No module named 'models.food_path_r12'
+
+<frozen importlib._bootstrap>:1335: ModuleNotFoundError
+_____________ test_replace_food_preserves_short_and_nonfood_legs ______________
+
+    def test_replace_food_preserves_short_and_nonfood_legs():
+>       runner=importlib.import_module('path_improvements_experiment_r12')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_path_improvements_r12.py:125: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'path_improvements_experiment_r12'
+import_ = <function _gcd_import at 0x000001BF66ACBE20>
+
+>   ???
+E   ModuleNotFoundError: No module named 'path_improvements_experiment_r12'
+
+<frozen importlib._bootstrap>:1335: ModuleNotFoundError
+_____ test_scoring_common_panel_keeps_hard_year_and_distinguishes_samples _____
+
+    def test_scoring_common_panel_keeps_hard_year_and_distinguishes_samples():
+>       runner=importlib.import_module('path_improvements_experiment_r12')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_path_improvements_r12.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'path_improvements_experiment_r12'
+import_ = <function _gcd_import at 0x000001BF66ACBE20>
+
+>   ???
+E   ModuleNotFoundError: No module named 'path_improvements_experiment_r12'
+
+<frozen importlib._bootstrap>:1335: ModuleNotFoundError
+=========================== short test summary info ===========================
+FAILED test_path_improvements_r12.py::test_food_state_centred_and_future_poison_invariant
+FAILED test_path_improvements_r12.py::test_causal_trend_handles_pure_seasonal_zero_mean
+FAILED test_path_improvements_r12.py::test_cost_features_source_alignment_and_both_clocks_fail_closed
+FAILED test_path_improvements_r12.py::test_food_cost_future_label_and_source_poison_invariant
+FAILED test_path_improvements_r12.py::test_direct_targets_calendar_and_delayed_eligibility[monthly]
+FAILED test_path_improvements_r12.py::test_direct_targets_calendar_and_delayed_eligibility[cumulative]
+FAILED test_path_improvements_r12.py::test_cumulative_reconstruction_exact_products_and_h0_separation
+FAILED test_path_improvements_r12.py::test_matched_h1_and_future_poisoned_direct_paths
+FAILED test_path_improvements_r12.py::test_interior_missing_history_rejected
+FAILED test_path_improvements_r12.py::test_replace_food_preserves_short_and_nonfood_legs
+FAILED test_path_improvements_r12.py::test_scoring_common_panel_keeps_hard_year_and_distinguishes_samples
+11 failed in 1.07s

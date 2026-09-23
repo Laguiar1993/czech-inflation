@@ -1,0 +1,158 @@
+ h           sample  n  rmse_recorded  rmse_lane  rmse_lane_bbg_truth  rmse_variant  rmse_variant_bbg_truth  max_abs_change_vs_recorded_variant  max_abs_change_vs_lane
+ 3             full 84         1.4483     1.4393               1.4492        1.4395                  1.4496                              0.1899                  0.0198
+ 3 origins_2024plus 28         0.5072     0.5241               0.5257        0.5225                  0.5255                              0.1899                  0.0175
+ 6             full 81         2.2446     2.2439               2.2453        2.2427                  2.2443                              0.1689                  0.0273
+ 6 origins_2024plus 25         0.4629     0.4863               0.4633        0.4806                  0.4595                              0.1402                  0.0252
+12             full 75         4.7689     4.7681               4.7746        4.7668                  4.7734                              0.0242                  0.0291
+12 origins_2024plus 19         0.6590     0.6603               0.6324        0.6551                  0.6280                              0.0242                  0.0261
+{
+ "food_block": {
+  "max_abs_change_pp": 0.042930618471723525,
+  "mean_abs_change_pp": 0.0035070348799486834,
+  "months_over_0p05": 0,
+  "months_over_0p10": 0,
+  "largest": [
+   {
+    "origin": "2023-07",
+    "h": 1,
+    "d": 0.0429
+   },
+   {
+    "origin": "2025-08",
+    "h": 1,
+    "d": 0.0408
+   },
+   {
+    "origin": "2025-07",
+    "h": 1,
+    "d": 0.0402
+   },
+   {
+    "origin": "2025-06",
+    "h": 1,
+    "d": 0.0333
+   },
+   {
+    "origin": "2023-07",
+    "h": 2,
+    "d": 0.0332
+   }
+  ]
+ },
+ "annual_rate": {
+  "max_abs_change_pp": 0.02908485561048746,
+  "by_h": [
+   {
+    "h": 0,
+    "food_max": NaN,
+    "food_mean": NaN,
+    "yy_max": 0.0,
+    "yy_mean": 0.0
+   },
+   {
+    "h": 1,
+    "food_max": 0.04293,
+    "food_mean": 0.01145,
+    "yy_max": 0.00827,
+    "yy_mean": 0.00213
+   },
+   {
+    "h": 2,
+    "food_max": 0.03315,
+    "food_mean": 0.0087,
+    "yy_max": 0.01452,
+    "yy_mean": 0.00374
+   },
+   {
+    "h": 3,
+    "food_max": 0.02601,
+    "food_mean": 0.00669,
+    "yy_max": 0.01981,
+    "yy_mean": 0.00498
+   },
+   {
+    "h": 4,
+    "food_max": 0.0197,
+    "food_mean": 0.00507,
+    "yy_max": 0.02337,
+    "yy_mean": 0.0059
+   },
+   {
+    "h": 5,
+    "food_max": 0.01531,
+    "food_mean": 0.00388,
+    "yy_max": 0.02634,
+    "yy_mean": 0.0066
+   },
+   {
+    "h": 6,
+    "food_max": 0.01183,
+    "food_mean": 0.00294,
+    "yy_max": 0.02726,
+    "yy_mean": 0.00713
+   },
+   {
+    "h": 7,
+    "food_max": 0.00576,
+    "food_mean": 0.00093,
+    "yy_max": 0.0277,
+    "yy_mean": 0.0072
+   },
+   {
+    "h": 8,
+    "food_max": 0.00519,
+    "food_mean": 0.00074,
+    "yy_max": 0.02809,
+    "yy_mean": 0.00725
+   },
+   {
+    "h": 9,
+    "food_max": 0.00443,
+    "food_mean": 0.00058,
+    "yy_max": 0.02852,
+    "yy_mean": 0.00729
+   },
+   {
+    "h": 10,
+    "food_max": 0.00383,
+    "food_mean": 0.00046,
+    "yy_max": 0.02877,
+    "yy_mean": 0.00732
+   },
+   {
+    "h": 11,
+    "food_max": 0.00331,
+    "food_mean": 0.00037,
+    "yy_max": 0.02894,
+    "yy_mean": 0.00734
+   },
+   {
+    "h": 12,
+    "food_max": 0.00284,
+    "food_mean": 0.00029,
+    "yy_max": 0.02908,
+    "yy_mean": 0.00736
+   }
+  ]
+ },
+ "alpha": {
+  "lane_unique": [
+   -0.25
+  ],
+  "variant_unique": [
+   -0.25
+  ],
+  "gap_last_max_abs_change": 0.19536031593139708,
+  "mu_long_max_abs_change": 0.0
+ },
+ "cnb_pairs_2024plus": {
+  "pairs": 34,
+  "rmse_recorded": 0.40526570179672317,
+  "rmse_lane": 0.4099175545841043,
+  "rmse_variant": 0.40626594715258785,
+  "rmse_cnb": 0.37178899761039697,
+  "rmse_lane_4q": 0.5432927086557316,
+  "rmse_variant_4q": 0.5384451572066007,
+  "rmse_cnb_4q": 0.426250199997777
+ }
+}

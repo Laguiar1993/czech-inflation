@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-09-09T09:22:59.597273+00:00",
+  "database": "C:\\Users\\luis_\\economic_db\\czechia.duckdb",
+  "database_read_only": true,
+  "database_size": 108277760,
+  "database_mtime_ns": 1788847911150851900,
+  "source_scripts": [
+    {
+      "path": "C:\\Users\\luis_\\.agents\\skills\\em-macro-forecaster\\scripts\\pull_czso_opendata.py",
+      "sha256": "023405567568d3930c515fe8f3d87a304f269dc3d92937f4ca2530ab9b7bfc2d"
+    },
+    {
+      "path": "C:\\Users\\luis_\\.agents\\skills\\em-macro-forecaster\\scripts\\migrate_to_czechia_db.py",
+      "sha256": "e36aefb334b1b57102f99b3215d56b1230fcd45f5fc975f04573bb5e572db752"
+    },
+    {
+      "path": "C:\\Users\\luis_\\.agents\\skills\\em-macro-forecaster\\scripts\\build_czso_cpi_momentum.py",
+      "sha256": "afc14b62ef767f35f566737873788f669f7877c684e3750511424b59eb9eae9c"
+    },
+    {
+      "path": "C:\\Users\\luis_\\.agents\\skills\\em-macro-forecaster\\scripts\\pull_czso_cpi.py",
+      "sha256": "5a722100ae3194f8d843e429f52f2904de5c80e42d106fa528de4be5e74876cf"
+    },
+    {
+      "path": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\struct_inputs.py",
+      "sha256": "3c81d62a9c9f3ea676f4f593f6b6b942879ade206ece674c8143772f88ed17f2"
+    }
+  ],
+  "raw_cen0101e": {
+    "path": "C:\\Users\\luis_\\em_macro_cache\\czso_opendata\\CEN0101E.csv",
+    "sha256": "e81dc0dece758d0e89adc88e6f8c31f3ba97f8a68dfa67795a794dbe3b858880",
+    "size": 65786613,
+    "mtime_ns": 1788806994308871000
+  }
+}

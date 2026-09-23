@@ -1,0 +1,157 @@
+{
+  "tool": "paper_tvwqrf_experiment",
+  "created_at": "2026-09-12T11:06:43.063075+00:00",
+  "arguments": {
+    "convention": "realtime",
+    "policy": "independent",
+    "horizons": "None",
+    "first_edge": "2010-12",
+    "last_target": "None",
+    "jobs": "7",
+    "lqr": "False",
+    "forest": "{}",
+    "panel_dir": "data\\paper_replication\\paper_model_panel_20260912_luci",
+    "output": "output\\paper_tvwqrf_20260912\\realtime_independent_luci",
+    "limit_edges": "None"
+  },
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "edges": [
+    "2010-12",
+    "2026-06"
+  ],
+  "tasks": 2353,
+  "last_target": "2026-07",
+  "features": [
+    "a6_11",
+    "a6_12",
+    "a6_13",
+    "a6_14",
+    "a6_15",
+    "a6_16",
+    "a6_17",
+    "a6_23",
+    "a6_24",
+    "a6_25",
+    "a6_26",
+    "a6_43",
+    "a6_44",
+    "a6_45",
+    "a6_46",
+    "a6_47",
+    "a6_48",
+    "a6_49",
+    "a6_50",
+    "a6_51",
+    "a6_52",
+    "a6_53",
+    "a6_54",
+    "a6_55",
+    "a6_56",
+    "a6_57",
+    "a6_58",
+    "a6_59",
+    "a6_60",
+    "a6_61",
+    "a6_62",
+    "a6_63",
+    "a6_64",
+    "a6_65",
+    "a6_66"
+  ],
+  "forest": {
+    "n_estimators": 500,
+    "min_samples_leaf": 5,
+    "max_features": 0.3333333333333333,
+    "bootstrap": true,
+    "random_state": 42,
+    "n_jobs": 1
+  },
+  "validation_window": 12,
+  "half_life": 6.0,
+  "schemes": {
+    "TVW1": [
+      [
+        0.25,
+        0.5,
+        0.75
+      ],
+      [
+        0.2,
+        0.4,
+        0.2
+      ],
+      [
+        0.4,
+        0.6,
+        0.4
+      ]
+    ],
+    "TVW2": [
+      [
+        0.3333333333333333,
+        0.5,
+        0.6666666666666666
+      ],
+      [
+        0.2,
+        0.3,
+        0.2
+      ],
+      [
+        0.4,
+        0.5,
+        0.4
+      ]
+    ],
+    "TVW3": [
+      [
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9
+      ],
+      [
+        0.0,
+        0.15,
+        0.3,
+        0.15,
+        0.0
+      ],
+      [
+        0.15,
+        0.35,
+        0.5,
+        0.35,
+        0.15
+      ]
+    ]
+  },
+  "panel_manifest_sha256": "408376e622deeec8beb7990ca39a44acf11b6b1b2a493d12685fd1dcf859877c",
+  "engine_sha256": "dc07cc1d203bed7105ea0cfe2cfef264130f16c75d8d66562ea76f4c26fcce48",
+  "runner_sha256": "8f139aaf7173f602162ebbbbcd4ea0a016f7b35d3d281ed21eeea944c8d95cf1",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "quantile-forest": "1.4.2",
+    "statsmodels": "0.14.6",
+    "scipy": "1.17.1"
+  },
+  "git_head": "709d4b3449f83c4dbceb353d7d3468d94a62b9aa",
+  "seconds": 995.1538095474243
+}

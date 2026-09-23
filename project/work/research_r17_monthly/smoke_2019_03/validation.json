@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "origin_count": 2,
+  "snapshot_count": 38,
+  "h0_noncore_values_weights_exact": true,
+  "fast_r15_r16_exact": true,
+  "firststage_saved_before_secondstage": true,
+  "generated_lineage_hashes_verified": {
+    "firststage_predictions.csv": "83d457713862fef5405686019d38ff903dd2ec52d4703e7cf0a89acf67e044b2",
+    "generated_signals.json": "46eba2d876b703bac29b6b952989ea3f5df30da5661c6bcf7e95a83db5e65aa8",
+    "generated_status.json": "caa98ecb67766f2b9edd67ea0cbcf0a057999b6950a3f17d74dbe802fb995b9f",
+    "snapshots.json": "989fed213027d7e0f9bd81ae4debbf9b0c9c8e895657f3782714eafc86c87cf4"
+  },
+  "firststage_rows": 13680,
+  "core_prediction_rows": 2280,
+  "native_rows": 130,
+  "firststage_outer_missing": 0,
+  "core_outer_missing": 0,
+  "full_run": false,
+  "not_a_core_partition": true
+}

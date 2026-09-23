@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "matched_saved_summary_max_abs_difference": 8.881784197001252e-16,
+  "summary_rows_verified": 84,
+  "h0_equality": true,
+  "h12_conditional_equality": true,
+  "unique_keys": true,
+  "thirteen_points_per_path": true,
+  "cnb_strict_prepublication_clocks": true,
+  "annual_error_allocation_identity_tolerance": 1e-10,
+  "model_fits_run": 0,
+  "forecasting_model_changes": 0,
+  "runtime": {
+    "pandas": "3.0.2",
+    "numpy": "2.4.4"
+  }
+}

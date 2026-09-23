@@ -1,0 +1,93 @@
+Original bridge source hashes and all-origin replay verified.
+Constructed 1/90 core-path origins: 2019-02
+Constructed 11/90 core-path origins: 2019-12
+Constructed 21/90 core-path origins: 2020-10
+Constructed 31/90 core-path origins: 2021-08
+Constructed 41/90 core-path origins: 2022-06
+Constructed 51/90 core-path origins: 2023-04
+Constructed 61/90 core-path origins: 2024-02
+Constructed 71/90 core-path origins: 2024-12
+Constructed 81/90 core-path origins: 2025-10
+Constructed 90/90 core-path origins: 2026-07
+        sample  h                     model  n_common  yy_rmse   yy_bias  mm_rmse
+          full  3      CORE_AGG_MONTHLY_R13        72 1.770754 -0.451792 0.908963
+          full  3   CORE_AGG_CUMULATIVE_R13        72 1.769258 -0.458649 0.907039
+          full  3    CORE_SPLIT_MONTHLY_R13        72 1.685195 -0.433041 0.887775
+          full  3 CORE_SPLIT_CUMULATIVE_R13        72 1.695900 -0.446662 0.885808
+          full  3        INDEPENDENT_BRIDGE        72 1.637608 -0.297351 0.853561
+          full  3                   RF_U_FX        72 1.902088 -0.244061 0.814703
+          full  3                 BVAR_U_FX        72 2.022255 -0.774302 0.839874
+          full  3                     NAIVE        72 2.271645 -0.244181 0.943034
+          full  3               LAST_YOY_RW        72 2.905766  0.067645 1.015690
+          full  6      CORE_AGG_MONTHLY_R13        66 3.117462 -1.056338 0.947674
+          full  6   CORE_AGG_CUMULATIVE_R13        66 3.209168 -1.129453 0.937633
+          full  6    CORE_SPLIT_MONTHLY_R13        66 3.079911 -1.064799 0.940838
+          full  6 CORE_SPLIT_CUMULATIVE_R13        66 3.179623 -1.131655 0.934471
+          full  6        INDEPENDENT_BRIDGE        66 2.767346 -0.759534 0.898844
+          full  6                   RF_U_FX        66 3.112662 -0.593447 0.865800
+          full  6                 BVAR_U_FX        66 3.473881 -1.592464 0.900245
+          full  6                     NAIVE        66 4.003579 -0.557078 0.981700
+          full  6               LAST_YOY_RW        66 4.674559  0.109706 1.058603
+          full 12      CORE_AGG_MONTHLY_R13        54 6.497965 -2.296034 0.941398
+          full 12   CORE_AGG_CUMULATIVE_R13        54 6.823469 -2.675204 1.005946
+          full 12    CORE_SPLIT_MONTHLY_R13        54 6.494246 -2.338341 0.929715
+          full 12 CORE_SPLIT_CUMULATIVE_R13        54 6.861359 -2.741429 1.000344
+          full 12        INDEPENDENT_BRIDGE        54 6.174949 -1.649952 0.955352
+          full 12                   RF_U_FX        54 6.437346 -1.186853 0.931379
+          full 12                 BVAR_U_FX        54 7.004293 -3.238216 0.940037
+          full 12                     NAIVE        54 7.591642 -1.193445 1.006786
+          full 12               LAST_YOY_RW        54 8.100427  0.536687 1.313826
+recent_targets  3      CORE_AGG_MONTHLY_R13        31 0.528616  0.201725 0.301079
+recent_targets  3   CORE_AGG_CUMULATIVE_R13        31 0.525100  0.205447 0.298981
+recent_targets  3    CORE_SPLIT_MONTHLY_R13        31 0.500730  0.206163 0.291540
+recent_targets  3 CORE_SPLIT_CUMULATIVE_R13        31 0.502527  0.212050 0.288018
+recent_targets  3        INDEPENDENT_BRIDGE        31 0.546525  0.018257 0.284943
+recent_targets  3                   RF_U_FX        31 0.673684  0.275034 0.295845
+recent_targets  3                 BVAR_U_FX        31 0.745794 -0.365131 0.332048
+recent_targets  3                     NAIVE        31 1.535875  1.220799 0.659523
+recent_targets  3               LAST_YOY_RW        31 1.928491  0.699437 0.895481
+recent_targets  6      CORE_AGG_MONTHLY_R13        31 0.879626  0.697847 0.325141
+recent_targets  6   CORE_AGG_CUMULATIVE_R13        31 0.885156  0.711854 0.320543
+recent_targets  6    CORE_SPLIT_MONTHLY_R13        31 0.830513  0.704122 0.329919
+recent_targets  6 CORE_SPLIT_CUMULATIVE_R13        31 0.844629  0.722547 0.324404
+recent_targets  6        INDEPENDENT_BRIDGE        31 0.747834  0.326731 0.297531
+recent_targets  6                   RF_U_FX        31 1.344728  0.881808 0.297717
+recent_targets  6                 BVAR_U_FX        31 1.004762 -0.565995 0.317704
+recent_targets  6                     NAIVE        31 2.606426  2.450343 0.659523
+recent_targets  6               LAST_YOY_RW        31 2.862822  1.413254 0.895481
+recent_targets 12      CORE_AGG_MONTHLY_R13        31 2.056674  1.926313 0.366160
+recent_targets 12   CORE_AGG_CUMULATIVE_R13        31 2.098522  1.999412 0.413915
+recent_targets 12    CORE_SPLIT_MONTHLY_R13        31 2.042620  1.935436 0.348999
+recent_targets 12 CORE_SPLIT_CUMULATIVE_R13        31 2.064970  1.990344 0.402262
+recent_targets 12        INDEPENDENT_BRIDGE        31 1.892132  1.180037 0.359150
+recent_targets 12                   RF_U_FX        31 3.413666  2.710851 0.446224
+recent_targets 12                 BVAR_U_FX        31 4.042153 -0.083928 0.372055
+recent_targets 12                     NAIVE        31 4.647634  4.626027 0.611766
+recent_targets 12               LAST_YOY_RW        31 6.222444  3.816930 1.266721
+recent_origins  3      CORE_AGG_MONTHLY_R13        28 0.551514  0.238791 0.301648
+recent_origins  3   CORE_AGG_CUMULATIVE_R13        28 0.549578  0.236859 0.301252
+recent_origins  3    CORE_SPLIT_MONTHLY_R13        28 0.523611  0.229413 0.295381
+recent_origins  3 CORE_SPLIT_CUMULATIVE_R13        28 0.524511  0.229860 0.295376
+recent_origins  3        INDEPENDENT_BRIDGE        28 0.569058  0.038136 0.286489
+recent_origins  3                   RF_U_FX        28 0.485097  0.148758 0.295438
+recent_origins  3                 BVAR_U_FX        28 0.776561 -0.379152 0.337826
+recent_origins  3                     NAIVE        28 1.439406  1.111386 0.640192
+recent_origins  3               LAST_YOY_RW        28 0.915750  0.188176 0.392364
+recent_origins  6      CORE_AGG_MONTHLY_R13        25 0.830839  0.682335 0.294116
+recent_origins  6   CORE_AGG_CUMULATIVE_R13        25 0.832914  0.688332 0.294710
+recent_origins  6    CORE_SPLIT_MONTHLY_R13        25 0.811617  0.695269 0.296852
+recent_origins  6 CORE_SPLIT_CUMULATIVE_R13        25 0.816523  0.702365 0.295019
+recent_origins  6        INDEPENDENT_BRIDGE        25 0.677710  0.253582 0.260548
+recent_origins  6                   RF_U_FX        25 0.768021  0.504658 0.298417
+recent_origins  6                 BVAR_U_FX        25 1.034800 -0.672258 0.319775
+recent_origins  6                     NAIVE        25 2.467487  2.293811 0.637385
+recent_origins  6               LAST_YOY_RW        25 1.106208  0.311690 0.353229
+recent_origins 12      CORE_AGG_MONTHLY_R13        19 1.852501  1.763711 0.319835
+recent_origins 12   CORE_AGG_CUMULATIVE_R13        19 1.929440  1.849748 0.356087
+recent_origins 12    CORE_SPLIT_MONTHLY_R13        19 1.909105  1.829599 0.316325
+recent_origins 12 CORE_SPLIT_CUMULATIVE_R13        19 2.004037  1.931186 0.359121
+recent_origins 12        INDEPENDENT_BRIDGE        19 1.347309  0.729989 0.297480
+recent_origins 12                   RF_U_FX        19 1.614145  1.459644 0.328850
+recent_origins 12                 BVAR_U_FX        19 1.604359 -1.317605 0.327059
+recent_origins 12                     NAIVE        19 4.705267  4.687063 0.717532
+recent_origins 12               LAST_YOY_RW        19 1.174739  0.483055 1.112812

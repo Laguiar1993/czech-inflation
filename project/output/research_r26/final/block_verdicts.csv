@@ -1,0 +1,16 @@
+model,block,differs_from_fast,c1_baseline_every_era,c2_feasible_benchmarks,c4_in_phase,c5_interval,phase_full_h6,phase_origins_2024plus_h6,phase_full_h12,phase_origins_2024plus_h12,boot_n,boot_status,boot_ci_low,boot_ci_high,failed
+CURRENT_CORE,core,True,False,False,False,False,-0.3123457350083826,0.7425517920688084,-0.2361601323283886,0.7401164304897281,75,ok,-0.9573299984878425,16.76321886809001,"1,2,4,5"
+CURRENT_CORE,food,False,True,False,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block
+CURRENT_CORE,fuel,False,True,False,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block
+CURRENT_CORE,administered,False,True,False,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block
+CURRENT_CORE,alcohol_tobacco,False,True,False,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block
+GENTLE_SLOPE,core,True,False,True,False,False,-0.274745940655496,0.48620315822223625,-0.3452838056308965,0.28425332028652145,75,ok,-0.16097548077964358,9.167221729576388,"1,4,5"
+GENTLE_SLOPE,food,False,True,False,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block
+GENTLE_SLOPE,fuel,False,True,False,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block
+GENTLE_SLOPE,administered,False,True,False,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block
+GENTLE_SLOPE,alcohol_tobacco,False,True,False,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block
+FAST_FOODNORM_R24,core,False,True,True,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block
+FAST_FOODNORM_R24,food,True,True,True,False,True,0.48952102964018196,-0.15514547514788754,0.6381651863852604,0.40902377381200455,75,ok,-15.32181938536508,-1.618866916227691,4
+FAST_FOODNORM_R24,fuel,False,True,False,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block
+FAST_FOODNORM_R24,administered,False,True,False,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block
+FAST_FOODNORM_R24,alcohol_tobacco,False,True,False,True,False,,,,,75,ok,0.0,0.0,not_a_candidate_for_this_block

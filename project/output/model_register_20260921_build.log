@@ -1,0 +1,99 @@
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tools\model_register_20260921\build.py:60: Pandas4Warning: Sorting by default when concatenating all DatetimeIndex is deprecated.  In the future, pandas will respect the default of `sort=False`. Specify `sort=True` or `sort=False` to silence this message. If you see this warnings when not directly calling concat, report a bug to pandas.
+  both = pd.concat([a.rename('a'), b.rename('b')], axis=1).dropna()
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tools\model_register_20260921\build.py:60: Pandas4Warning: Sorting by default when concatenating all DatetimeIndex is deprecated.  In the future, pandas will respect the default of `sort=False`. Specify `sort=True` or `sort=False` to silence this message. If you see this warnings when not directly calling concat, report a bug to pandas.
+  both = pd.concat([a.rename('a'), b.rename('b')], axis=1).dropna()
+                                                                                                                                      test    n  exact_share  max_abs_gap                                                                                                                                                                                                                                   conclusion
+                                                                                                            T1 core m/m: fixture vs CZCIXM  235     1.000000     0.000000                                                                                                                                                                  identical inputs on every month: the core block is the same by construction
+                                                                                                       T2 regulated m/m: fixture vs CZCIRM  235     1.000000     0.000000                                                                                                                                                          identical inputs on every month: the administered block is the same by construction
+                                                           T3b headline m/m: frozen CZSO 2015=100-based vs Bloomberg published one-decimal  235     0.085106     0.131499                                                                                                                                                                 published m/m is rounded to one decimal; see T3c for the effect on the paths
+                                                                                T3a CZCIPM vs CZCPMOM (two Bloomberg headline m/m tickers)  139     1.000000     0.000000                                                                                                                                                                                                              the two published tickers agree
+                                                                  T3c R27 path annual rates recompounded on the Bloomberg headline history  969          NaN     0.206835                                                                                                                                                   h12 RMSE 4.769 -> 4.775 (from 2024 0.659 -> 0.631); the scoring truth moves with the input
+                                                                            T4a pump petrol 95: frozen EC bulletin file vs ECOBETCZ / 1000 1081     1.000000     0.000006                                                                                                                                                                                                                     same survey on Bloomberg
+                                                                               T4b pump diesel: frozen EC bulletin file vs ECOBOTCZ / 1000 1081     1.000000     0.000005                                                                                                                                                                                                                     same survey on Bloomberg
+                                                 T4c fuel block re-run: recorded FAST fuel path vs reproduction from the frozen pump panel   90     1.000000     0.000000                                                                                                                                                                       the register re-implements the constant-pump path; parity with the run
+                                                                   T4d fuel block re-run with the Bloomberg pump panel vs the frozen panel   90     0.311111     0.000018                                                                                                                                                                                                   same fuel block with Bloomberg pump prices
+                                                                 T5a food log level: frozen (CZSO 2015=100) vs 100*ln(CZCPF/CZCPF_2015-01)  139     0.007194     0.146845                                                                                                                                                         one-decimal 2025=100 index against the 2015=100 index: the levels differ by rounding
+                                                    T5b food system re-run: recorded FAST food path vs reproduction from the frozen levels   90     1.000000     0.000000                                                                                                                                                                                                                          parity with the run
+                            T5c food system re-run with the Bloomberg food level (farm and producer prices unchanged, no Bloomberg series)   90     0.000000     0.077701                                                                                                                                                                  monthly food rates move by up to 0.078 pp; twelve-month sums by up to 0.096
+                                          T6a alcohol & tobacco m/m: fixture (CZSO 2015=100-based) vs m/m of CZCPA (2025=100, one decimal)  138     0.028986     0.204074                                                                                                                                                                                                              rounding of the published index
+                                                                T6b alcohol & tobacco m/m: fixture vs CZCPAMOM (published one-decimal m/m)  138     0.050725     0.105352                                                                                                                                                                                                                rounding of the published m/m
+                   T6c alcohol & tobacco block re-run: recorded FAST block vs reproduction (expanding same-month mean, month t-1 released)   90     1.000000     0.000000                                                                                                                                                                                                                          parity with the run
+                                                   T6d alcohol & tobacco block with the Bloomberg index (CZCPA) instead of the CZSO series   90     0.000000     0.045542                                                                                                                                                             monthly block forecasts move by up to 0.046 pp; twelve-month sums by up to 0.018
+                                                                               T7a A6 row 45 (Eurostat total domestic PPI index) vs PPTXCZ  439     1.000000     0.000000                                                                                                                                                                                                                                        exact
+                                                  T7b six-month momentum: manufacturing PPI (row 47, the R29B input) vs total PPI (PPTXCZ)  433     0.013857     6.337247                                                                                                                                                                                                                         different aggregates
+               T7c R29B phase classification: manufacturing PPI (Eurostat) vs total PPI (PPTXCZ, Bloomberg-exact), same publication stamps   90     0.766667     6.337247 phase agrees at 69 of 90 origins; disagreements: 2019-03, 2019-04, 2019-05, 2019-06, 2020-02, 2022-12, 2023-02, 2023-03, 2023-04, 2023-05, 2023-06, 2023-07, 2024-02, 2024-03, 2024-04, 2024-05, 2024-06, 2024-07, 2025-01, 2025-03, 2026-04
+                                                             T8 long food history m/m (CZSO division 01, 1995-2025) vs m/m of CPF1CZ Index  359     0.434540     0.794660                                                                                                                                                                                                           see exact share within one decimal
+                                                             T8 long food history m/m (CZSO division 01, 1995-2025) vs m/m of CPFOCZ Index  312     0.285256     0.941089                                                                                                                                                                                                           see exact share within one decimal
+                                                              T8 long food history m/m (CZSO division 01, 1995-2025) vs m/m of CZCPF Index  131     0.625954     0.154083                                                                                                                                                                                                           see exact share within one decimal
+T9 nowcast fuel block: CZSO CENPHMT survey (recorded source) vs the EC bulletin (Bloomberg ECOBETCZ/ECOBOTCZ exact), same measurement rule   90     1.000000     0.677018                                                           block RMSE all 90 prints 0.217 (CZSO) vs 0.201 (bulletin); from 2024 0.158 vs 0.188; headline effect within 0.001 pp either way (exact_share = recorded vs recomputed within 0.05)
+{
+ "T3c_paths_with_bloomberg_headline": {
+  "h3": {
+   "rmse_frozen": 1.4483370973482854,
+   "rmse_bbg": 1.4542411961269057,
+   "rmse_frozen_2024plus": 0.5071741605110427,
+   "rmse_bbg_2024plus": 0.5234673209297859,
+   "max_abs_forecast_change": 0.1802001887646143,
+   "max_abs_actual_change": 0.22940211972108404
+  },
+  "h6": {
+   "rmse_frozen": 2.244603126926088,
+   "rmse_bbg": 2.249193678144087,
+   "rmse_frozen_2024plus": 0.4629079450005251,
+   "rmse_bbg_2024plus": 0.4632169847936998,
+   "max_abs_forecast_change": 0.15135204805929536,
+   "max_abs_actual_change": 0.22940211972108404
+  },
+  "h12": {
+   "rmse_frozen": 4.768932868864873,
+   "rmse_bbg": 4.775464205875278,
+   "rmse_frozen_2024plus": 0.659033837640918,
+   "rmse_bbg_2024plus": 0.631327572358021,
+   "max_abs_forecast_change": 0.0,
+   "max_abs_actual_change": 0.194470959260018
+  }
+ },
+ "T9_nowcast_fuel_block_on_ec_bulletin": {
+  "all": {
+   "block_rmse_czso": 0.2167944656531085,
+   "block_rmse_ec_bbg": 0.20107625812117547,
+   "headline_rmse_pp_czso": 0.007203977503048906,
+   "headline_rmse_pp_ec_bbg": 0.006742579903486199
+  },
+  "prints_2024plus": {
+   "block_rmse_czso": 0.1581845959283036,
+   "block_rmse_ec_bbg": 0.18756510538431886,
+   "headline_rmse_pp_czso": 0.005184747353995033,
+   "headline_rmse_pp_ec_bbg": 0.006446083569831552
+  },
+  "flash_era": {
+   "block_rmse_czso": 0.1502543175400094,
+   "block_rmse_ec_bbg": 0.1509008609136175,
+   "headline_rmse_pp_czso": 0.0049190155709681205,
+   "headline_rmse_pp_ec_bbg": 0.004935811731792574
+  }
+ },
+ "counts": {
+  "register_rows": 107,
+  "by_same_results": {
+   "parity run pending (Bloomberg input lane in cz_struct)": 20,
+   "identical": 19,
+   "stays CZSO": 16,
+   "static": 15,
+   "stays": 9,
+   "follows the nowcast": 5,
+   "not identical: see T5c": 5,
+   "identical (T4d)": 5,
+   "not identical: see T6d": 5,
+   "not identical: see T3c": 5,
+   "switchable: see T9": 2,
+   "not identical: see T7c": 1
+  },
+  "by_lane": {
+   "path": 66,
+   "nowcast": 38,
+   "scoring": 2,
+   "CNB lane": 1
+  }
+ }
+}

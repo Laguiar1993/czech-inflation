@@ -1,0 +1,2 @@
+ticker,name,security_des,indx_source,des_notes,px_last,last_update_dt,last_update,seasonality_and_transformation,eco_release_dt,country
+EUCOCZ Index,European Commission Constructi,European Commission Constructi,European Commission,This concept tracks business sentiment within the construction industry. The results are based on a survey conducted among a representative sample of businesses in the construction sector.,-5.2,2026-08-31,2026-08-31,% Balance/Diffusion Index SA,2026-09-29,CZ

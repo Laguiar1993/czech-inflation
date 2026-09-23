@@ -1,0 +1,61 @@
+{
+  "retrieved_at": "2026-09-10T19:10:34.272372+00:00",
+  "end_date": "2026-09-09",
+  "field": "PX_LAST",
+  "tickers": {
+    "FSBTY1 Index": "brent_year1_user_selected",
+    "TTFGCY1 Index": "gas_year1_user_selected",
+    "TTFGDAHD BCFV Index": "gas_day_ahead_spot",
+    "BCOMAGSP Index": "agriculture_spot_index",
+    "BCOMINSP Index": "industrial_metals_spot_index",
+    "CO1 Comdty": "brent_front_reference",
+    "USDCZK Curncy": "usdczk",
+    "EURCZK Curncy": "eurczk",
+    "CO7 Comdty": "legacy_brent_generic7",
+    "CO13 Comdty": "legacy_brent_generic13",
+    "PRIB03M Index": "pribor_3m",
+    "CKFR0CF Curncy": "fra_3x6",
+    "CKFR0FI Curncy": "fra_6x9",
+    "CKFR0I1 Curncy": "fra_9x12",
+    "CKFR011C Curncy": "fra_12x15",
+    "CKFR1C1F Curncy": "fra_15x18",
+    "CKFR1F1I Curncy": "fra_18x21",
+    "CKFR1I2 Curncy": "fra_21x24",
+    "CZIPITN Index": "industrial_production_level_nsa",
+    "CZGRIDX Index": "building_permits_raw_candidate",
+    "LCTQCZI Index": "nominal_ulc_quarterly",
+    "LCTOCZI Index": "nominal_ulc_annual_benchmark",
+    "EUS3CZ Index": "services_demand_expectations_next3m",
+    "EUB3CZ Index": "construction_employment_expectations",
+    "GRCPHCPI Index": "germany_hicp_level_candidate",
+    "UMRTDE Index": "germany_unemployment_candidate",
+    "CZEII Index": "czech_import_price_level_candidate",
+    "LONSCZNF Index": "nfc_loans_bloomberg_candidate"
+  },
+  "historical_source": "Bloomberg Desktop API / xbbg.blp.bdh",
+  "history_options": {
+    "periodicitySelection": "DAILY",
+    "nonTradingDayFillOption": "ACTIVE_DAYS_ONLY"
+  },
+  "history_start": "2000-01-01; FX 1998-01-01",
+  "reference_fields": [
+    "NAME",
+    "SECURITY_DES",
+    "CRNCY",
+    "QUOTE_UNITS",
+    "INDX_SOURCE",
+    "DES_NOTES",
+    "PX_LAST",
+    "LAST_UPDATE_DT",
+    "LAST_UPDATE"
+  ],
+  "vintage_status": "Current-vintage historical download; not an original-vintage archive.",
+  "availability_rule": "Retrospective daily quotes assumed usable on next calendar day in Prague; no historical publication-time evidence.",
+  "live_quote_policy": "BDP PX_LAST may be intraday. Keep separate from BDH ending before pull day.",
+  "python_executable": "C:\\Users\\luis_\\anaconda3\\python.exe",
+  "versions": {
+    "xbbg": "0.7.7",
+    "blpapi": "3.25.5.1",
+    "pandas": "1.4.4"
+  }
+}

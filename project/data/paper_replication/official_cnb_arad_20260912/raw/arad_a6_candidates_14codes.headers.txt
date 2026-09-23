@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 12:11:32 GMT
+Strict-Transport-Security: max-age=15600000; includeSubdomains; preload
+Content-Type: application/json
+X-ORACLE-DMS-ECID: 219d5012-b2db-46e6-839c-901911ca0e21-000a31ac
+Logged: false
+X-ORACLE-DMS-RID: 0
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: apl.cnb.cz
+Set-Cookie: TS011598fb=017e90341072f2b2443991fd798a54cc91823c2fadfd0bd1dff767005f7fe985db3877f5f02637eed40b122b9915707be5e3dc7903; Path=/; Domain=.www.cnb.cz
+Transfer-Encoding: chunked
+

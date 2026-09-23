@@ -1,0 +1,53 @@
+{
+  "inputs": {
+    "cz_struct.py": "276e69f480d32b9cad72003fb0e88cfc174d1126a72c70a56711ad18b8f48307",
+    "data/local_adapter.py": "4243ba91f3395f61d37f53be312e3a32aa84f53dcdc239cedad20e9a7a49e6d3",
+    "output/independent_bridge_forecasts.csv": "b1377d1c45373b7571a47edd3c373a6b149cae49e9efbd37853566ded00a88d8",
+    "output/research_r14b/attribution/SPEC.md": "f94ed8022127f2f9ec0297ebd8e1d74d59fa9e4a53b0f18bb6cd57c86baeda26",
+    "path_attribution_r14.py": "7a64305bdf41d3f3459f376ed4db6e51059b92443394525bcf239b9174f094dd",
+    "test_path_attribution_r14.py": "eac180ea8ae310ab40de1ea81f4b4a9591d132bac10ef701a18333a269189314",
+    "tests/fixtures/cleanup/MANIFEST.json": "0eaeaafd857fd914e237e792f0e8f006645a4a1286fee7b7cf80c9c2444557b1",
+    "tests/fixtures/cleanup/alcohol_tobacco.csv": "1a3f7cfd8eeb3419077359f8a12968182d997495007b462418f5261c187fe115",
+    "tests/fixtures/cleanup/cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+    "tests/fixtures/cleanup/cnb_regulated_mm.csv": "74773b38a1fea1f1ebb09d220aa90409eb3318a697b35ec2b8e1f20e781850db",
+    "tests/fixtures/cleanup/component_food_fuel_mm.csv": "21699e9cd2bc1c87848834113ff2933ab587901adc40616f3ba63384441a419b",
+    "tests/fixtures/cleanup/target_headline_cpi_mm.csv": "0f5f17def39668352b95d3e63278eec66016251d2d4296fb03e59b8a37e5c6eb"
+  },
+  "outputs": {
+    "component_errors.csv": "46a86df5424b2feced0b3a4f3dda583e846ce75cf21d48d789a95be1f5648b97",
+    "component_summary.csv": "375c8a73c4cfa6a5dfe89fad6a18d131ece8c95326de7665d8da9e7465732d64",
+    "coverage.csv": "5bd240f7cba0862e9bd95b007e9b06e29d06e6cb4f9a9900442402ac32120355",
+    "oracle_summary.csv": "4634302afb373373ea484f071b5b3c3fd6c86012a44da2272f6d26ce0b2c6b29",
+    "events_h6_h12.csv": "8682b8b2103208301e06561c767df2b93db6ebc533c1a37efbe7627cf67c604c",
+    "actual_component_targets.csv": "1418e4fb2c46467856fd0a6d86a4c7df122fde837484007f0b6c5ac7bf5fc810"
+  },
+  "models": [
+    "INDEPENDENT_BRIDGE"
+  ],
+  "n_origins": 90,
+  "n_detail_rows": 5400,
+  "baseline_only": true,
+  "meaning": "Evaluation-only frozen-target single-block oracles; no additive causal shares",
+  "blocks": {
+    "core": {
+      "actual_file": "cnb_core_mm.csv",
+      "weight_column": "weight_core"
+    },
+    "food": {
+      "actual_file": "component_food_fuel_mm.csv",
+      "weight_column": "weight_food"
+    },
+    "fuel": {
+      "actual_file": "component_food_fuel_mm.csv",
+      "weight_column": "weight_fuel"
+    },
+    "administered": {
+      "actual_file": "cnb_regulated_mm.csv",
+      "weight_column": "weight_administered"
+    },
+    "alcohol_tobacco": {
+      "actual_file": "alcohol_tobacco.csv",
+      "weight_column": "weight_alc"
+    }
+  }
+}

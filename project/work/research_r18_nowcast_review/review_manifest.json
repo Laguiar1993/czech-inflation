@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-09-15T07:02:29.752498+00:00",
+  "test_result": "28 passed (19 archive, 5 nowcast reliability, 4 category inputs)",
+  "live_forecasts_created": 0,
+  "files": {
+    "docs/implementation/R18_ARCHIVE_SPEC_2026-09-15.md": "c25eefc3ea7b7b8fcbf47239ceb88e32a66970bbd33d9747590df0529aaa385e",
+    "tools/research_r18/forecast_archive.py": "739d159c928e4af53cd7cf88b769b2e47894750914dd212a48c932a5d76edb4a",
+    "tests/test_r18_forecast_archive.py": "f058fcad8911bc740ec0a1c33d02c0687c1e3f3dde2b97476d82b8df53658cc3",
+    "work/research_r18_nowcast_review/audit_nowcast.py": "838fa3e1b78d9bb3a8ebb26013f6432bdbbf9023ce720623c54b43e759fb72be",
+    "work/research_r18_nowcast_review/arithmetic_audit.json": "2c013520788efbe8b92b4ca3c58652579ccf1cb7b9af8e1cf52c0bcac314716f",
+    "work/research_r18_nowcast_review/independent_predictions.csv": "e31e067a685b878713b30e6a151994b3bd86f74c2a68a73c738c10e97b08769c",
+    "work/research_r18_nowcast_review/FINDINGS.md": "30ef54dff5e93ec5178e873c0f56183e8e824b0f58a15d90e81bb140c7592ece"
+  }
+}

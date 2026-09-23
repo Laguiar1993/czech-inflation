@@ -1,0 +1,251 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "R33 validated forecast comparison",
+  "description": "HARD_BASE CPI m/m percent; deltas, contributions and residual in percentage points. Arithmetic and archive integrity are checked by compare_runs.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "status",
+    "kind",
+    "target",
+    "model",
+    "old_as_of",
+    "new_as_of",
+    "old_point",
+    "new_point",
+    "delta",
+    "components",
+    "residual",
+    "path_changes",
+    "reason"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "ok",
+        "blocked"
+      ]
+    },
+    "kind": {
+      "enum": [
+        "forecast_revision",
+        "replay_revision",
+        "unavailable"
+      ]
+    },
+    "target": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$"
+    },
+    "model": {
+      "enum": [
+        "HARD_BASE",
+        null
+      ]
+    },
+    "old_as_of": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "new_as_of": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "old_point": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "new_point": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "delta": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "old",
+          "new",
+          "delta"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "old": {
+            "type": "number"
+          },
+          "new": {
+            "type": "number"
+          },
+          "delta": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "residual": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "path_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "target_month",
+          "old",
+          "new",
+          "delta"
+        ],
+        "properties": {
+          "target_month": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$"
+          },
+          "old": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "new": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "delta": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "ok"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "forecast_revision",
+              "replay_revision"
+            ]
+          },
+          "target": {
+            "type": "string"
+          },
+          "model": {
+            "const": "HARD_BASE"
+          },
+          "old_as_of": {
+            "type": "string"
+          },
+          "new_as_of": {
+            "type": "string"
+          },
+          "old_point": {
+            "type": "number"
+          },
+          "new_point": {
+            "type": "number"
+          },
+          "delta": {
+            "type": "number"
+          },
+          "residual": {
+            "type": "number"
+          },
+          "components": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "blocked"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "kind": {
+            "const": "unavailable"
+          },
+          "target": {
+            "type": "null"
+          },
+          "model": {
+            "type": "null"
+          },
+          "old_as_of": {
+            "type": "null"
+          },
+          "new_as_of": {
+            "type": "null"
+          },
+          "old_point": {
+            "type": "null"
+          },
+          "new_point": {
+            "type": "null"
+          },
+          "delta": {
+            "type": "null"
+          },
+          "residual": {
+            "type": "null"
+          },
+          "components": {
+            "maxItems": 0
+          },
+          "path_changes": {
+            "maxItems": 0
+          }
+        }
+      }
+    }
+  ]
+}

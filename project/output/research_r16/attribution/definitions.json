@@ -1,0 +1,43 @@
+{
+  "purpose": "Hindsight accounting attribution only. Observed future core is unavailable when forecasting; the oracle is not a usable forecast, model proposal, calibration target or selection rule. No frozen forecasts changed.",
+  "roster": [
+    "INDEPENDENT_BRIDGE",
+    "STABLE_PIPELINE_R14B",
+    "STABLE_LOCAL_CORE_R14B",
+    "STATE_FAST_R15",
+    "RF_RESIDUAL_R15",
+    "DAMPED_P80_Q001_R16",
+    "DAMPED_P80_Q010_R16",
+    "DAMPED_P95_Q001_R16",
+    "DAMPED_P95_Q010_R16",
+    "DAMPED_ADAPT_R16",
+    "TRANSMISSION_OWN_R16",
+    "TRANSMISSION_SERVICES_R16",
+    "TRANSMISSION_GOODS_R16",
+    "TRANSMISSION_BOTH_R16",
+    "BLEND_DAMPED_TRANSMISSION_R16"
+  ],
+  "attribution_models": [
+    "STATE_FAST_R15",
+    "DAMPED_P80_Q001_R16",
+    "DAMPED_P80_Q010_R16",
+    "DAMPED_P95_Q001_R16",
+    "DAMPED_P95_Q010_R16",
+    "DAMPED_ADAPT_R16",
+    "TRANSMISSION_OWN_R16",
+    "TRANSMISSION_SERVICES_R16",
+    "TRANSMISSION_GOODS_R16",
+    "TRANSMISSION_BOTH_R16",
+    "BLEND_DAMPED_TRANSMISSION_R16",
+    "STABLE_LOCAL_CORE_R14B"
+  ],
+  "support": "Exactly the original fifteen-model finite headline annual forecast+actual intersection per origin/horizon. Core cumulative scores and every comparison to FAST use these same dates; no separate larger core sample. A missing required intermediate monthly input raises an error instead of being filled or silently removed.",
+  "monthly_oracle": "For h1..h replace weighted forecast monthly core by the same fixed weight_core times observed monthly core: oracle_mm=forecast_mm+weight_core*(actual_core_mm-forecast_core_mm). Preserve every noncore component, weight and h0. All twelve attribution models must have identical retained monthly blocks and h0, checked against FAST.",
+  "annual_window": "Annual log inflation=100*sum(log1p(headline_mm/100)) across the twelve target-window months, using frozen known history before the origin and a single forecast origin thereafter. At h<12 this window includes unchanged h0, so its error belongs in the retained remainder; h12 excludes h0. No future actual headline month replaces a forecast in the oracle.",
+  "decomposition": "total_error_log=forecast_annual_log-actual_annual_log; core_effect_log=forecast_annual_log-oracle_annual_log; retained_error_log=oracle_annual_log-actual_annual_log. Therefore total=core_effect+retained exactly. The retained remainder is common across all models, up to floating roundoff, and includes noncore/accounting blocks plus h0 when inside the annual window.",
+  "units": "Decomposition and RMSE/MAE use annual log percentage points, not ordinary headline year-on-year percentage-point errors. Core effect is the exact change to headline annual-log error from replacing weighted core, including nonlinear headline compounding. It differs from the unweighted cumulative core error.",
+  "core_cumulative": "Sum over h1..h of 100*(log1p(forecast_core_mm/100)-log1p(actual_core_mm/100)), scored on original common headline dates. No h0 core forecast is required or substituted.",
+  "mean_squares": "E(total^2)=E(core_effect^2)+E(retained^2)+2E(core_effect*retained). The final term is an uncentered cross moment, not covariance unless both component errors have zero mean. A negative cross term identifies offsetting errors; headline accuracy can improve despite a larger own-core error.",
+  "paired": "Every model versus FAST on identical origin/horizon dates. Difference of total squared errors equals difference of core-effect squares plus difference of retained squares (zero within roundoff) plus the cross-moment difference. This is an accounting identity, not a causal finding or statistical significance claim.",
+  "samples": "Full and origins from 2024-01, every h1..12. No outcome-based exclusions beyond original all-fifteen headline support."
+}

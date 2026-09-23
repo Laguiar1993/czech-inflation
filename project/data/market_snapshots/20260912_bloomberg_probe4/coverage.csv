@@ -1,0 +1,4 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value
+services,CPSVCZ Index,2026-09-12T16:41:10.911336+00:00,Eurostat Czech Republic HICP S,Eurostat,Index NSA,Monthly,2026-07-31,ok,MONTHLY,320,1999-12-31,2026-07-31,106.02
+services,CPSVCZM Index,2026-09-12T16:41:11.659896+00:00,Eurostat Czech Republic HICP S,Eurostat,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,319,2000-01-31,2026-07-31,1.8
+services,CPSVCZY Index,2026-09-12T16:41:12.171298+00:00,Eurostat Czech Republic HICP S,Eurostat,YoY% NSA,Monthly,2026-07-31,ok,MONTHLY,308,2000-12-31,2026-07-31,4.3

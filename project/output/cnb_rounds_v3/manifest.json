@@ -1,0 +1,42 @@
+{
+ "created_at_utc": "2026-09-20T16:51:30.973708+00:00",
+ "inputs": {
+  "output/research_r24/final/forecasts.csv": "8915c7b32d8f213f2fa7418a42fa13ee4497e25249eb9b9537efe00916f59353",
+  "output/research_r24/final/native_forecasts.csv": "1313155a31572f262f486afa09aaed26ddd8f72c470f9e5bde2c1e74a9222585",
+  "output/research_r24/final/evaluation/cnb_clocks.csv": "5340a7ac5331bab94ec7185f24b74b1bbf7b42ee3f074aa61fd4c0115569ba4e",
+  "output/research_r24/final/evaluation/cnb_pairs.csv": "4bedc65958f726dd668deb95fcae44733d88c443701085b33a02daeae0058496",
+  "output/research_r24/final/evaluation/primary_scoreboard.csv": "042a20da204e7a704fa8f38c8d777e512424bc3fde5bb2ca6d5d3cd1b0c4b09e",
+  "output/research_r24/final/evaluation/block_error_table.csv": "ab6570ac3c7e707d30cc3a3ad2436677bfa3bd35af98c5fc3d8c74ad4cabf9b6",
+  "output/research_r27/final/forecasts.csv": "3d651fb180949a95b5e3be3557f525f7ccb1ff6c7ba9e1b5dec8659919324cbf",
+  "output/research_r27/final/native_forecasts.csv": "5352e2b85eb575ebfccb795250fc9d92b4cb6fd8f178bf8d29b4bc05a0413b4a",
+  "output/research_r27/final/evaluation/cnb_clocks.csv": "5340a7ac5331bab94ec7185f24b74b1bbf7b42ee3f074aa61fd4c0115569ba4e",
+  "output/research_r27/final/evaluation/cnb_pairs.csv": "86d8c423697937bfc48bd3cbcde1f9d27c53898c82152f2036638c3943779efb",
+  "output/research_r27/final/evaluation/primary_scoreboard.csv": "013442d850a910e438bcfb158799a19bc6107100362f65b420e2576704ca6622",
+  "output/research_r27/final/evaluation/block_error_table.csv": "7178cdad5ffe1f7ebc1ebdf6d81b18f716e36d24729c7a3db2d47b8f450b907c",
+  "output/research_r29b/final/forecasts.csv": "9d95151ffbe7a42394c180c88c7281b376f530e1ce9c81546ba958df5e475980",
+  "output/research_r29b/final/native_forecasts.csv": "273b2abfb8be0cb4c8c4d1296be935aa9614a56e1a583706a9a1cfebb95af5b3",
+  "output/research_r29b/final/evaluation/cnb_clocks.csv": "5340a7ac5331bab94ec7185f24b74b1bbf7b42ee3f074aa61fd4c0115569ba4e",
+  "output/research_r29b/final/evaluation/cnb_pairs.csv": "66c7a8039103483f2f2aa7073237bb07eb99622968dc1ee0b38bcb00d3183d2f",
+  "output/research_r29b/final/evaluation/primary_scoreboard.csv": "a755c9ecca8b1d14a86ae7da6f95aa44da7277e6e80c2f5f2f5765e867279d19",
+  "output/research_r29b/final/evaluation/block_error_table.csv": "b2b58fcd3685e92c7e10511da84de3bbabc1cd8c6f4da95b4287515b8e2ad7ef",
+  "output/research_r17/attribution/primary_support.csv": "149e4d4be70b8575033fcb21130beefc24495678eef65f66e34af49049770936",
+  "output/research_r14b/attribution/actual_component_targets.csv": "1418e4fb2c46467856fd0a6d86a4c7df122fde837484007f0b6c5ac7bf5fc810",
+  "output/independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+  "data/cnb_mpr_cpi_quarterly.csv": "137cce6c715a358b85740302453e969c8313f1b39a6eeaed0b7e8698940f3a27",
+  "data/cnb_mpr_tables_20260917/cnb_mpr_indicators_long.csv": "f3a7a53bd41d0ec6165e84181cc41c463deb07909904575a2c8bf6b63f79cb3a",
+  "output/cnb_tracker_20260917/component_gaps/component_gaps.csv": "2e47a83c7ed60083a7b1848860c048fd662d96628bf1c1d5ace334e9d61228dc",
+  "CZK_CPI_FORECASTING_LATEST_MODELS_2026-09-14.md": "db7c8c1bba0038e96fe4ace7c8281937a0a41d2e2b9c615338036394bf618d4e",
+  "tools/cnb_rounds_v3/template.html": "8d6326dba18b023e6e73d0b7e5a3df50fbeaaa9ef40bd22f92c7f439b1f44f43",
+  "tools/cnb_rounds_v3/build.py": "0836645d3c2b3ea1f9722ade322ef6f43ef3474b54900c635fa475c66d56f5a1"
+ },
+ "outputs": {
+  "checks.json": "4568cfbd944f92f72cb93ace46747835e88b8de8031722f286c3542a5288dfd8",
+  "cnb_rounds_v3.html": "c5565fd98c91033a9445436f3ab0d021cb6d0c00004ce7bc39480e1b02707f6e",
+  "frame_CORE_PHASE_R29B.csv": "b740124f103524da6be8e73bd930f3156a847d563e34b7913a36ac3fc816349c",
+  "frame_FAST.csv": "e90b0d11c53c062edc00b3038c82a0f1b12bde19245fe3891d83057d4b69e156",
+  "frame_LOCAL_R27FOOD.csv": "249c435fc69c3750dc8aa9770c416a98d46f9ac59a105e4cec6a63edf184a834",
+  "frame_R24_PATH.csv": "cfda508b8ed3487abe3566ec0411564a419f1341137519f66c80d6c3c455a15b",
+  "frame_ROSTER_R27.csv": "058c276545cece34ac842abbe94423b3950454664a0f4f07b6bc1809c75f5f32",
+  "replay_data.json": "a92a641e911065fdf31d9716a6b6ff35fd9c5b720b9dc0a208d7d7e49782ac86"
+ }
+}

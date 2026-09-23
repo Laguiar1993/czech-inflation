@@ -1,0 +1,28 @@
+                     run  horizon   n first_edge last_edge  original_rmse  causal_rmse  median_rmse  max_forecast_change
+        paper_full_exact        3 161    2012-02   2025-06       0.716841     0.727978     0.737190             0.227926
+        paper_full_exact        6 155    2012-05   2025-03       0.711370     0.709429     0.727441             0.118682
+        paper_full_exact        9 149    2012-08   2024-12       0.740015     0.739869     0.760083             0.074555
+        paper_full_exact       12 143    2012-11   2024-09       0.686812     0.686219     0.690157             0.083625
+         paper_full_luci        3 161    2012-02   2025-06       0.714560     0.725876     0.737377             0.333290
+         paper_full_luci        6 155    2012-05   2025-03       0.725273     0.721120     0.730542             0.254767
+         paper_full_luci        9 149    2012-08   2024-12       0.740630     0.741941     0.755609             0.203788
+         paper_full_luci       12 143    2012-11   2024-09       0.705713     0.704839     0.696654             0.087816
+      realtime_full_luci        3 171    2012-02   2026-04       0.717058     0.725295     0.726496             0.431666
+      realtime_full_luci        6 165    2012-05   2026-01       0.713837     0.703032     0.697778             0.400836
+      realtime_full_luci        9 159    2012-08   2025-10       0.726382     0.727883     0.740274             0.157347
+      realtime_full_luci       12 153    2012-11   2025-07       0.686834     0.686413     0.682217             0.156821
+realtime_full_luci_month        3 171    2012-02   2026-04       0.694151     0.702081     0.716529             0.438822
+realtime_full_luci_month        6 165    2012-05   2026-01       0.685443     0.677721     0.683399             0.227174
+realtime_full_luci_month        9 159    2012-08   2025-10       0.717275     0.719589     0.727804             0.139023
+realtime_full_luci_month       12 153    2012-11   2025-07       0.659642     0.656755     0.669071             0.107342
+                     run sample  h  n  original_rmse  causal_rmse  bridge_rmse
+      realtime_full_luci   full  1 88       1.105994     1.119867     0.910737
+      realtime_full_luci   full  3 84       1.956544     2.013505     1.537322
+      realtime_full_luci   full  6 81       2.985443     2.981307     2.516379
+      realtime_full_luci   full  9 78       4.221433     4.159908     3.921607
+      realtime_full_luci   full 12 75       5.602016     5.514871     5.394839
+realtime_full_luci_month   full  1 88       1.055264     1.078145     0.910737
+realtime_full_luci_month   full  3 84       1.896522     1.954848     1.537322
+realtime_full_luci_month   full  6 81       2.873858     2.858818     2.516379
+realtime_full_luci_month   full  9 78       4.161988     4.100679     3.921607
+realtime_full_luci_month   full 12 75       5.519760     5.431277     5.394839

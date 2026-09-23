@@ -1,0 +1,322 @@
+{
+  "FSBTY1 Index": {
+    "retrieved_at": "2026-09-10T13:33:09.273535+00:00",
+    "fields": {
+      "FSBTY1 Index": {
+        "name": "Bloomberg Fair Value/ICE Brent",
+        "security_des": "Bloomberg Fair Value/ICE Brent",
+        "crncy": "USD",
+        "quote_units": "USD/barrel",
+        "indx_source": "Bloomberg Fair Value",
+        "des_notes": "The methodology used to derive the curves in the sector can be found in {HELP CFVL <GO>} in the Reference Documents section. An oil product Fair Value using ticker M0 is pricing the balance of month tenor<P>Bloomberg Commodity Fair Value prices are calculated through a proprietary model that uses futures prices, historical spreads,spot prices and other factors. Updates are posted throughout the day. The Fair Values for oil products have used tenor M0 for the balance of month.<P>USE AS A FINANCIAL BENCHMARK MAY BE RESTRICTED. SEE {DOCS #2084680<GO>}",
+        "px_last": 84.77584,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:23:07"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "TTFGCY1 Index": {
+    "retrieved_at": "2026-09-10T13:33:11.230940+00:00",
+    "fields": {
+      "TTFGCY1 Index": {
+        "name": "Netherlands TTF Natural Gas Fo",
+        "security_des": "Netherlands TTF Natural Gas Fo",
+        "crncy": "EUR",
+        "quote_units": "EUR/MWh",
+        "indx_source": "BLOOMBERG COMDTY FV",
+        "des_notes": "SECTOR DESCRIPTION: Physical Forward Prices for natural gas delivered to Virtual Trading Point Netherlands Title Transfer Facility (TTF). The Title Transfer Facility, more commonly known as TTF, is a virtual trading point for natural gas in the Netherlands. This trading point provides facility for a number of traders in Netherlands to trade futures, physical and exchange trades. Set up by Gasunie in 2003, it is almost identical to the National Balancing Point (NBP) in the United Kingdom and allows gas to be traded within the Dutch Gas network. <BR> <BR>More information on TTF can be found here https://www.gasunietransportservices.nl/en/shippers/products-and-services/ttf<BR> <BR>Product Specifications: Units: EUR/Mwh<P>Gas trades on a forward month,forward quarter,forward season or year forward basis. <BR>Day-ahead = delivered next working day (Friday's Price reflects Monday delivery)<BR>Weekend = delivered Saturday, Sunday<BR>Week + 1 = delivered Monday-Friday of the front week<BR>Months: All months are calendar months<BR>Quarters: Q1 = January to March, Q2 = April to June, Q3 = July to September, Q4 = October to December<BR>Seasonal contracts are as follows: <BR>Summer - Apr, May, Jun, Jul, Aug, Sep; <BR>Winter - Oct(Yr1), Nov(Yr1), Dec(Yr1), Jan(Yr2),Feb(Yr2),Mar(Yr2). <BR>Calendar Year - Contracts are Jan-Dec. Gas Year contracts are Oct-Sep Close <P>SOURCE: Data comes from brokers/third parties. Please run {ALLQ<GO>} to see the sources pricing<BR>this ticker.<P>UPDATE INFO: Energy broker pricing on Bloomberg updates on a near real-time basis.  It is <BR>important to note that updates only occur when there is activity in the market, so there may not be<BR>updates on every contract every day.<P>SOURCE METHODOLOGY: N/A<P>HISTORICAL CONSIDERATIONS: N/A<P>DATA DISCOVERY: Generic contracts run continuously and link the underlying specific contracts. <BR>Generics are rolled in order to maintain the correct reference forward contract. For example, <BR>{TTFG1MON Index DES<GO>} represents the first month forward.<P>Specific contracts can be found by running 'TTFG' followed by M (Month), Q (Quarter), S (Season) <BR>or Y (Year). <BR>For example:<BR>{TTFGM F15 Index DES<GO>} - Jan 2015<BR>{TTFGQ Q115 Index DES<GO>} - Q1 2015<BR>{TTFGS SU15 Index DES<GO>} - Summer 2015<BR>{TTFGS WI1516 Index DES<GO>} - Winter 2015/16<BR>{TTFGY 15 Index DES<GO>} -  Year 2015                          <BR>The month contract codes are:<BR>Jan-F  Feb-G  Mar-H  Apr-J  May-K  Jun-M  Jul-N  Aug-Q  Sep-U  Oct-V  Nov-X  Dec-Z<P>RELATED SECTORS/FUNCTIONS:<BR>{ALLX GPTT <GO>} - German GPL/ Dutch TTF Hi Cal Natural Gas Forward Prices<BR>{ALLX EGTF <GO>} - Natural Gas Forward German NCG/ Dutch TTF Hi Cal Forward Prices<P>USE AS A FINANCIAL BENCHMARK MAY BE RESTRICTED. SEE {DOCS #2084680<GO>}",
+        "px_last": 59.78421,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:33:06"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "TTFGDAHD BCFV Index": {
+    "retrieved_at": "2026-09-10T13:33:12.440369+00:00",
+    "fields": {
+      "TTFGDAHD BCFV Index": {
+        "name": "Netherlands TTF Natural Gas Fo",
+        "security_des": "Netherlands TTF Natural Gas Fo",
+        "crncy": "EUR",
+        "quote_units": "EUR/MWh",
+        "indx_source": "BLOOMBERG COMDTY FV",
+        "des_notes": "SECTOR DESCRIPTION: Physical Forward Prices for natural gas delivered to Virtual Trading Point Netherlands Title Transfer Facility (TTF). The Title Transfer Facility, more commonly known as TTF, is a virtual trading point for natural gas in the Netherlands. This trading point provides facility for a number of traders in Netherlands to trade futures, physical and exchange trades. Set up by Gasunie in 2003, it is almost identical to the National Balancing Point (NBP) in the United Kingdom and allows gas to be traded within the Dutch Gas network. <BR> <BR>More information on TTF can be found here https://www.gasunietransportservices.nl/en/shippers/products-and-services/ttf<BR> <BR>Product Specifications: Units: EUR/Mwh<P>Gas trades on a forward month,forward quarter,forward season or year forward basis. <BR>Day-ahead = delivered next working day (Friday's Price reflects Monday delivery)<BR>Weekend = delivered Saturday, Sunday<BR>Week + 1 = delivered Monday-Friday of the front week<BR>Months: All months are calendar months<BR>Quarters: Q1 = January to March, Q2 = April to June, Q3 = July to September, Q4 = October to December<BR>Seasonal contracts are as follows: <BR>Summer - Apr, May, Jun, Jul, Aug, Sep; <BR>Winter - Oct(Yr1), Nov(Yr1), Dec(Yr1), Jan(Yr2),Feb(Yr2),Mar(Yr2). <BR>Calendar Year - Contracts are Jan-Dec. Gas Year contracts are Oct-Sep Close <P>SOURCE: Data comes from brokers/third parties. Please run {ALLQ<GO>} to see the sources pricing<BR>this ticker.<P>UPDATE INFO: Energy broker pricing on Bloomberg updates on a near real-time basis.  It is <BR>important to note that updates only occur when there is activity in the market, so there may not be<BR>updates on every contract every day.<P>SOURCE METHODOLOGY: N/A<P>HISTORICAL CONSIDERATIONS: N/A<P>DATA DISCOVERY: Generic contracts run continuously and link the underlying specific contracts. <BR>Generics are rolled in order to maintain the correct reference forward contract. For example, <BR>{TTFG1MON Index DES<GO>} represents the first month forward.<P>Specific contracts can be found by running 'TTFG' followed by M (Month), Q (Quarter), S (Season) <BR>or Y (Year). <BR>For example:<BR>{TTFGM F15 Index DES<GO>} - Jan 2015<BR>{TTFGQ Q115 Index DES<GO>} - Q1 2015<BR>{TTFGS SU15 Index DES<GO>} - Summer 2015<BR>{TTFGS WI1516 Index DES<GO>} - Winter 2015/16<BR>{TTFGY 15 Index DES<GO>} -  Year 2015                          <BR>The month contract codes are:<BR>Jan-F  Feb-G  Mar-H  Apr-J  May-K  Jun-M  Jul-N  Aug-Q  Sep-U  Oct-V  Nov-X  Dec-Z<P>RELATED SECTORS/FUNCTIONS:<BR>{ALLX GPTT <GO>} - German GPL/ Dutch TTF Hi Cal Natural Gas Forward Prices<BR>{ALLX EGTF <GO>} - Natural Gas Forward German NCG/ Dutch TTF Hi Cal Forward Prices<P>USE AS A FINANCIAL BENCHMARK MAY BE RESTRICTED. SEE {DOCS #2084680<GO>}",
+        "px_last": 82.7,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:26:06"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "BCOMAGSP Index": {
+    "retrieved_at": "2026-09-10T13:33:13.965734+00:00",
+    "fields": {
+      "BCOMAGSP Index": {
+        "name": "BBG Agriculture Spot",
+        "security_des": "BCOMAGSP",
+        "crncy": "USD",
+        "indx_source": "Bloomberg",
+        "px_last": 426.8169,
+        "last_update_dt": "2026-09-09T00:00:00.000Z",
+        "last_update": "2026-09-09T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": [
+      "QUOTE_UNITS",
+      "DES_NOTES"
+    ]
+  },
+  "BCOMINSP Index": {
+    "retrieved_at": "2026-09-10T13:33:15.346438+00:00",
+    "fields": {
+      "BCOMINSP Index": {
+        "name": "BBG Industrial Met Spot",
+        "security_des": "BCOMINSP",
+        "crncy": "USD",
+        "indx_source": "Bloomberg",
+        "px_last": 378.9768,
+        "last_update_dt": "2026-09-09T00:00:00.000Z",
+        "last_update": "2026-09-09T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": [
+      "QUOTE_UNITS",
+      "DES_NOTES"
+    ]
+  },
+  "CO1 Comdty": {
+    "retrieved_at": "2026-09-10T13:33:21.134237+00:00",
+    "fields": {
+      "CO1 Comdty": {
+        "name": "Generic 1st 'CO' Future",
+        "security_des": "CO1",
+        "crncy": "USD",
+        "quote_units": "USD/bbl.",
+        "px_last": 105.25,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:23:17"
+      }
+    },
+    "missing_optional_fields": [
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  },
+  "USDCZK Curncy": {
+    "retrieved_at": "2026-09-10T13:33:22.280287+00:00",
+    "fields": {
+      "USDCZK Curncy": {
+        "name": "USD-CZK X-RATE",
+        "security_des": "USDCZK Curncy",
+        "crncy": "CZK",
+        "px_last": 20.8962,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:33:21"
+      }
+    },
+    "missing_optional_fields": [
+      "QUOTE_UNITS",
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  },
+  "EURCZK Curncy": {
+    "retrieved_at": "2026-09-10T13:33:23.779614+00:00",
+    "fields": {
+      "EURCZK Curncy": {
+        "name": "EUR-CZK X-RATE",
+        "security_des": "EURCZK Curncy",
+        "crncy": "CZK",
+        "px_last": 24.256,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:33:23"
+      }
+    },
+    "missing_optional_fields": [
+      "QUOTE_UNITS",
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  },
+  "CO7 Comdty": {
+    "retrieved_at": "2026-09-10T13:33:29.129863+00:00",
+    "fields": {
+      "CO7 Comdty": {
+        "name": "Generic 7th 'CO' Future",
+        "security_des": "CO7",
+        "crncy": "USD",
+        "quote_units": "USD/bbl.",
+        "px_last": 85.7,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:22:31"
+      }
+    },
+    "missing_optional_fields": [
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  },
+  "CO13 Comdty": {
+    "retrieved_at": "2026-09-10T13:33:34.723138+00:00",
+    "fields": {
+      "CO13 Comdty": {
+        "name": "Generic 13th 'CO' Future",
+        "security_des": "CO13",
+        "crncy": "USD",
+        "quote_units": "USD/bbl.",
+        "px_last": 78.18,
+        "last_update_dt": "2026-09-09T00:00:00.000Z",
+        "last_update": "2026-09-09T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": [
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  },
+  "PRIB03M Index": {
+    "retrieved_at": "2026-09-10T13:33:35.945372+00:00",
+    "fields": {
+      "PRIB03M Index": {
+        "name": "Czech Interbank Offered Rates",
+        "security_des": "Czech Interbank Offered Rates",
+        "crncy": "CZK",
+        "quote_units": "%",
+        "indx_source": "Czech Financial Benchmark Faci",
+        "des_notes": "Czech Interbank Offered Rates 1 Month PRIBOR (or Prague Interbank Offered Rate) is the average interest rate at which unsecured CZK funds are offered by Panel Banks in the interbank market, just prior to 11.00am local time. The calculation of PRIBOR shall take place at 11:00am Prague local time. Individual Panel Bank contributions shall be published at 15:00. Relevant documentation may be found at: https://cfbf.cz/pribor/governance-oversight/code-of-conduct/ and https://cfbf.cz/pribor/<P>Real-time PRIBOR data is fee-liable. Non-subscribers receive 24-hour delayed data on Terminal. From 1st Jan 2026, a CFBF license is required for delayed Data License access. Non-subscribers will lose access over DL 16th June 2026. Contact subscriptions@cfbf.cz for licensing. Real-time users require EID 74556 . Delayed Data License users require EID 100499.",
+        "px_last": 3.86,
+        "last_update_dt": "2026-09-09T00:00:00.000Z",
+        "last_update": "2026-09-09T00:00:00.000Z"
+      }
+    },
+    "missing_optional_fields": []
+  },
+  "CKFR0CF Curncy": {
+    "retrieved_at": "2026-09-10T13:33:37.222714+00:00",
+    "fields": {
+      "CKFR0CF Curncy": {
+        "name": "CZK FRA             3X6",
+        "security_des": "CKFR0CF Curncy",
+        "crncy": "CZK",
+        "px_last": 4.145,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:29:35"
+      }
+    },
+    "missing_optional_fields": [
+      "QUOTE_UNITS",
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  },
+  "CKFR0FI Curncy": {
+    "retrieved_at": "2026-09-10T13:33:38.710305+00:00",
+    "fields": {
+      "CKFR0FI Curncy": {
+        "name": "CZK FRA             6X9",
+        "security_des": "CKFR0FI Curncy",
+        "crncy": "CZK",
+        "px_last": 4.55,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:29:35"
+      }
+    },
+    "missing_optional_fields": [
+      "QUOTE_UNITS",
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  },
+  "CKFR0I1 Curncy": {
+    "retrieved_at": "2026-09-10T13:33:39.580491+00:00",
+    "fields": {
+      "CKFR0I1 Curncy": {
+        "name": "CZK FRA             9X12",
+        "security_des": "CKFR0I1 Curncy",
+        "crncy": "CZK",
+        "px_last": 4.673,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:29:35"
+      }
+    },
+    "missing_optional_fields": [
+      "QUOTE_UNITS",
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  },
+  "CKFR011C Curncy": {
+    "retrieved_at": "2026-09-10T13:33:40.577406+00:00",
+    "fields": {
+      "CKFR011C Curncy": {
+        "name": "CZK FRA            12X15",
+        "security_des": "CKFR011C Curncy",
+        "crncy": "CZK",
+        "px_last": 4.79,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:29:35"
+      }
+    },
+    "missing_optional_fields": [
+      "QUOTE_UNITS",
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  },
+  "CKFR1C1F Curncy": {
+    "retrieved_at": "2026-09-10T13:33:41.832826+00:00",
+    "fields": {
+      "CKFR1C1F Curncy": {
+        "name": "CZK FRA            15X18",
+        "security_des": "CKFR1C1F Curncy",
+        "crncy": "CZK",
+        "px_last": 4.825,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:29:35"
+      }
+    },
+    "missing_optional_fields": [
+      "QUOTE_UNITS",
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  },
+  "CKFR1F1I Curncy": {
+    "retrieved_at": "2026-09-10T13:33:42.717975+00:00",
+    "fields": {
+      "CKFR1F1I Curncy": {
+        "name": "CZK FRA            18X21",
+        "security_des": "CKFR1F1I Curncy",
+        "crncy": "CZK",
+        "px_last": 4.845,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:29:35"
+      }
+    },
+    "missing_optional_fields": [
+      "QUOTE_UNITS",
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  },
+  "CKFR1I2 Curncy": {
+    "retrieved_at": "2026-09-10T13:33:43.650210+00:00",
+    "fields": {
+      "CKFR1I2 Curncy": {
+        "name": "CZK FRA            21X24",
+        "security_des": "CKFR1I2 Curncy",
+        "crncy": "CZK",
+        "px_last": 4.858,
+        "last_update_dt": "2026-09-10T00:00:00.000Z",
+        "last_update": "14:29:35"
+      }
+    },
+    "missing_optional_fields": [
+      "QUOTE_UNITS",
+      "INDX_SOURCE",
+      "DES_NOTES"
+    ]
+  }
+}

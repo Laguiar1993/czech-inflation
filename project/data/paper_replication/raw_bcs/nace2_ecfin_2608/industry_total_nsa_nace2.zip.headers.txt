@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 12 Sep 2026 08:53:31 GMT
+Content-Type: application/zip
+Content-Length: 1075634
+Last-Modified: Tue, 25 Aug 2026 16:47:02 GMT
+ETag: "1069b2-659e1da1b4d80"
+Age: 0
+Accept-Ranges: bytes
+X-FPFIS: 330733947
+Host: ec.europa.eu
+Server: Europa
+Connection: keep-alive
+

@@ -1,0 +1,21 @@
+{
+  "verified_at_utc": "2026-09-14T14:52:37.683335+00:00",
+  "scope": "new research artifacts only; no model test claims",
+  "csv_counts": {
+    "source_register.csv": 23,
+    "candidate_policy_events.csv": 34,
+    "exposure_field_audit.csv": 24,
+    "scenario_assumptions.csv": 15
+  },
+  "unique_source_event_ids": true,
+  "date_and_source_reference_checks": true,
+  "all_national_point_candidates_fail_closed": true,
+  "source_retrieval_log_parsed": true,
+  "archived_pdfs": 2,
+  "relevant_pdf_pages_visually_inspected": [
+    "ERU2024 PDFpage22 printed21",
+    "ERU2026 PDFpage2 printed1"
+  ],
+  "files_hashed": 12,
+  "existing_inputs_or_models_modified_by_this_audit": false
+}

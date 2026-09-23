@@ -1,0 +1,31 @@
+        sample  h                  model  n_common  yy_rmse   yy_bias
+          full  6     INDEPENDENT_BRIDGE        81 2.516379 -0.683358
+          full  6   STABLE_PIPELINE_R14B        81 2.525193 -0.828822
+          full  6 STABLE_LOCAL_CORE_R14B        81 2.624252 -0.749879
+          full  6  STABLE_LONG_CORE_R14B        81 2.513344 -0.791254
+          full  6   STABLE_LONG_GAP_R14B        81 2.495453 -0.594041
+          full 12     INDEPENDENT_BRIDGE        75 5.394839 -1.563595
+          full 12   STABLE_PIPELINE_R14B        75 5.418198 -1.843186
+          full 12 STABLE_LOCAL_CORE_R14B        75 5.397209 -1.635464
+          full 12  STABLE_LONG_CORE_R14B        75 5.477782 -1.450821
+          full 12   STABLE_LONG_GAP_R14B        75 5.582429 -1.018648
+recent_targets  6     INDEPENDENT_BRIDGE        31 0.747834  0.326731
+recent_targets  6   STABLE_PIPELINE_R14B        31 0.727627  0.208589
+recent_targets  6 STABLE_LOCAL_CORE_R14B        31 0.708087  0.339465
+recent_targets  6  STABLE_LONG_CORE_R14B        31 0.628003  0.233615
+recent_targets  6   STABLE_LONG_GAP_R14B        31 0.670504  0.329821
+recent_targets 12     INDEPENDENT_BRIDGE        31 1.892132  1.180037
+recent_targets 12   STABLE_PIPELINE_R14B        31 1.685789  0.849825
+recent_targets 12 STABLE_LOCAL_CORE_R14B        31 2.618622  1.661345
+recent_targets 12  STABLE_LONG_CORE_R14B        31 2.207565  1.424542
+recent_targets 12   STABLE_LONG_GAP_R14B        31 2.728915  1.840496
+recent_origins  6     INDEPENDENT_BRIDGE        25 0.677710  0.253582
+recent_origins  6   STABLE_PIPELINE_R14B        25 0.660393  0.136872
+recent_origins  6 STABLE_LOCAL_CORE_R14B        25 0.466735  0.186219
+recent_origins  6  STABLE_LONG_CORE_R14B        25 0.570081  0.189173
+recent_origins  6   STABLE_LONG_GAP_R14B        25 0.547971  0.222326
+recent_origins 12     INDEPENDENT_BRIDGE        19 1.347309  0.729989
+recent_origins 12   STABLE_PIPELINE_R14B        19 1.210003  0.445286
+recent_origins 12 STABLE_LOCAL_CORE_R14B        19 0.707685  0.493538
+recent_origins 12  STABLE_LONG_CORE_R14B        19 0.906213  0.644917
+recent_origins 12   STABLE_LONG_GAP_R14B        19 0.927234  0.736273

@@ -1,0 +1,66 @@
+{
+  "source": "Czech Statistical Office DataStat open data",
+  "started_at": "2026-09-12T09:27:34.813330+00:00",
+  "vintage_status": "current vintage at retrieval",
+  "datasets": {
+    "CEN02A": {
+      "title": "Aggregated producer price indices, monthly (agricultural producer price index)",
+      "url": "https://data.csu.gov.cz/opendata/sady/CEN02A/distribuce/csv",
+      "retrieved_at": "2026-09-12T09:27:34.813350+00:00",
+      "rows": 17988,
+      "columns": [
+        "Ukazatel",
+        "IndicatorType",
+        "Typ údaje",
+        "TYPUDAJEVYR",
+        "Území",
+        "Uz0",
+        "Měsíce, měsíce klouzavých průměrů, čtvrtletí, roky",
+        "CASMQRMPK",
+        "Hodnota"
+      ],
+      "sha256": "9785cb79d410cea63684ae39111cf7bb136bb197ab485cdd5529a124cd9c322d"
+    },
+    "CENPHMT": {
+      "title": "Average consumer fuel prices, weekly survey",
+      "url": "https://data.csu.gov.cz/opendata/sady/CENPHMT/distribuce/csv",
+      "retrieved_at": "2026-09-12T09:27:35.391735+00:00",
+      "rows": 1854,
+      "columns": [
+        "Ukazatel",
+        "IndicatorType",
+        "Druh PHM",
+        "CENPHM",
+        "Území",
+        "Uz0",
+        "Týdny",
+        "CASTPHM",
+        "Hodnota",
+        "MJ_TEXT",
+        "MJ_SYMBOL"
+      ],
+      "sha256": "e233d452f634db9754b051a735fd8f199cb66b7e198241e94f2e39e880059898"
+    },
+    "CEN0101J": {
+      "title": "Average consumer fuel prices, monthly (to 2025)",
+      "url": "https://data.csu.gov.cz/opendata/sady/CEN0101J/distribuce/csv",
+      "retrieved_at": "2026-09-12T09:27:35.446439+00:00",
+      "rows": 1224,
+      "columns": [
+        "Ukazatel",
+        "IndicatorType",
+        "Druh PHM",
+        "CENPHM1",
+        "Měsíce",
+        "CasM",
+        "Území",
+        "Uz0",
+        "Hodnota"
+      ],
+      "sha256": "4a3447452cd34e3a2a01a3b6dfff4e7914f66b87336341db7b75e6f1ffc8e561"
+    }
+  },
+  "errors": [],
+  "status": "complete",
+  "module_sha256": "391b4cb5eb83ec59fe1d9483eac1b02794dba87eb020d28df0cd716ce5fd7b04"
+}

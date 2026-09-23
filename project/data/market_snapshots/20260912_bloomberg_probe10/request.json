@@ -1,0 +1,58 @@
+{
+  "retrieved_at": "2026-09-12T17:23:12.678536+00:00",
+  "end_date": "2026-09-11",
+  "candidates": {
+    "ppi_sections": [
+      "CZPPMOM Index",
+      "CZPPBM Index",
+      "CZPPCM Index",
+      "CZPPDM Index",
+      "CZPPEM Index",
+      "EPP00BCZ Index",
+      "EPP00CCZ Index",
+      "EPP00DCZ Index",
+      "EPP036CZ Index",
+      "PPTXCZ Index"
+    ],
+    "money": [
+      "CZMSM3 Index",
+      "CZMSM3Y Index"
+    ],
+    "construction_ppi": [
+      "CZPPCMOM Index",
+      "CZPPCYOY Index"
+    ],
+    "daily_markets": [
+      "EURCZK Curncy",
+      "USDCZK Curncy",
+      "PRIB03M Index",
+      "CZBRREPO Index",
+      "GTCZK10Y Govt",
+      "CO1 Comdty"
+    ],
+    "fixing_pattern_probes": [
+      "EURCZK BFIX Curncy",
+      "EURCZK F143 Curncy"
+    ]
+  },
+  "reference_fields": [
+    "NAME",
+    "SECURITY_DES",
+    "INDX_SOURCE",
+    "SEASONALITY_AND_TRANSFORMATION",
+    "INDX_FREQ",
+    "LAST_UPDATE_DT",
+    "COUNTRY",
+    "DES_NOTES"
+  ],
+  "history": "PX_LAST; MONTHLY periodicity for Index tickers, DAILY for Govt",
+  "history_start": "1990-01-01",
+  "vintage_status": "Current-vintage download; not an original-vintage archive.",
+  "python_executable": "C:\\Users\\luis_\\anaconda3\\python.exe",
+  "versions": {
+    "xbbg": "0.7.7",
+    "blpapi": "3.25.5.1",
+    "pandas": "1.4.4"
+  },
+  "completed_at": "2026-09-12T17:23:33.432370+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "note": "Round 10 of the 12 Sep 2026 probe: M3, CZSO and Eurostat-domestic PPI sections (CNB-paper rows 45-49), construction PPI, and daily FX, money-market, repo, 10-year and Brent series in the probe format so every ARAD/CNB/EIA input can be tested for exact equality. EURCZK BFIX/F143 are pattern probes for a Bloomberg 14:30 fixing and may not exist.",
+  "candidates": {
+    "ppi_sections": ["CZPPMOM Index", "CZPPBM Index", "CZPPCM Index", "CZPPDM Index", "CZPPEM Index",
+                     "EPP00BCZ Index", "EPP00CCZ Index", "EPP00DCZ Index", "EPP036CZ Index", "PPTXCZ Index"],
+    "money": ["CZMSM3 Index", "CZMSM3Y Index"],
+    "construction_ppi": ["CZPPCMOM Index", "CZPPCYOY Index"],
+    "daily_markets": ["EURCZK Curncy", "USDCZK Curncy", "PRIB03M Index", "CZBRREPO Index", "GTCZK10Y Govt", "CO1 Comdty"],
+    "fixing_pattern_probes": ["EURCZK BFIX Curncy", "EURCZK F143 Curncy"]
+  },
+  "daily": ["EURCZK Curncy", "USDCZK Curncy", "PRIB03M Index", "CZBRREPO Index", "GTCZK10Y Govt", "CO1 Comdty",
+            "EURCZK BFIX Curncy", "EURCZK F143 Curncy"],
+  "searches": ["EURCZK BFIX", "Czech Koruna Fixing 14:30"],
+  "max_results": 30
+}

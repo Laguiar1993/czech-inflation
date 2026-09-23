@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "food_native_cumulative_log_max_error": 2.6645352591003757e-15,
+  "food_native_conditional_annual_max_error": 0.0,
+  "frozen_food_outputs_modified": false
+}

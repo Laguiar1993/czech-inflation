@@ -1,0 +1,59 @@
+{
+  "tool": "validate_candidates",
+  "created_at": "2026-09-12T09:37:44.664825+00:00",
+  "thresholds_declared_before_run": {
+    "MIN_OVERLAP": 60,
+    "MIN_OVERLAP_SHORT": 24,
+    "IDENTICAL_TOL": 0.051,
+    "IDENTICAL_SHARE": 0.95,
+    "MIRROR_MAE": 0.5,
+    "MIRROR_CORR_LEVEL": 0.98,
+    "MIRROR_CORR_DIFF": 0.9,
+    "APPROX_MAE": 2.0,
+    "APPROX_CORR_LEVEL": 0.9,
+    "RECENT": 36,
+    "PRICE_GROWTH_MAE": 0.1,
+    "PRICE_GROWTH_CORR": 0.98,
+    "IP_GROWTH_MAE": 0.5,
+    "IP_GROWTH_CORR": 0.95,
+    "YOY_MAE": 1.0,
+    "YOY_CORR": 0.98,
+    "ULC_YOY_MAE": 0.15,
+    "RATE_MAE": 0.02,
+    "LOAN_GROWTH_CORR": 0.9,
+    "RUSHIN_CORR": 0.9
+  },
+  "inputs": {
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\bloomberg_candidates_20260911_full_refresh\\candidate_periods_long.csv": "3271f6d1c6820d5011c9ee238e35daf8e4cd9fa0224df0da7aba41f5d05bd910",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_bcs_ecfin_2608\\ecfin_bcs_long.csv": "8f6a0cde9497f36009cf3618d370e2efb5ae64e131d3ef4993ef0ee90fcf285a",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_eurostat_20260912\\tidy\\ei_bsbu_m_r2.csv": "7b19f54d053632a9d0e8a292ed6232c311bf316c0641744bc4fc86bd015802b7",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_eurostat_20260912\\tidy\\ei_bsco_m.csv": "d76e3c9a15bb6e2459b018fafbef989ff8a34df0ce0a9eb2206ed27a834b1da4",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_eurostat_20260912\\tidy\\ei_bsin_m_r2.csv": "75eb9a93cf2a98dbf4f8868e12414f36c3e252dce8337a3772a338290d5ad4ff",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_eurostat_20260912\\tidy\\ei_bsrt_m_r2.csv": "c5f3816e19a96f1d854d2cf158d953405ed61b4338ed468d02df53916bef61ad",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_eurostat_20260912\\tidy\\ei_bsse_m_r2.csv": "a91ba855fe50e81e53b4531f18a2f308dc71cdc0bf09d511829e3916c3aa324b",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_eurostat_20260912\\tidy\\namq_10_lp_ulc_cz.csv": "04d06496daa695bdc82617406d113da7ce3034544ab2e9b5172017ed43d18974",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_eurostat_20260912\\tidy\\prc_hicp_midx_de_cp00.csv": "5045bc7f6592a36081ebc3f87945005fcbff110c7c6a5232f8ab52d24eaae6e1",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_eurostat_20260912\\tidy\\prc_hicp_minr_de_total.csv": "f1d70f1e5895da46ea995aa5db03ed832219a4a018c30baf8bdc2a0d0fc4af5e",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_eurostat_20260912\\tidy\\une_rt_m_cz_de.csv": "6ace3da406df74b1985703d8f206d78b3b22f5ff779f93c5048de77a509f48db"
+  },
+  "outputs": {
+    "bcs_matrix": {
+      "file": "bcs_match_matrix.csv",
+      "sha256": "85c5b43e66da2bd222d20781ae5a8e4cf6a3068376b75da63fe818a06ce810af"
+    },
+    "bcs_verdicts": {
+      "file": "bcs_candidate_verdicts.csv",
+      "sha256": "6c593129302edcf3bf1c44c8bf38716f329240187a3cca44ef02c4d3e44a9382"
+    },
+    "ecfin_vs_eurostat": {
+      "file": "ecfin_vs_eurostat_identity.csv",
+      "sha256": "7e3034b07cd1bcdeae16db5c64a87858b0413674791efa9e1898a0bd7188d152"
+    },
+    "hard_checks": {
+      "file": "hard_candidate_checks.csv",
+      "sha256": "c0925c919c26a10b95bd50b2760188f2d1fa9d016a0d9ccaacc9edace233c527"
+    }
+  },
+  "tool_sha256": "9635d50b1be8d24943c6f64b67141e0b24a25962a1d1114c72b90312668a0e5b",
+  "status": "validation evidence only; admission is decided in the A6 audit"
+}

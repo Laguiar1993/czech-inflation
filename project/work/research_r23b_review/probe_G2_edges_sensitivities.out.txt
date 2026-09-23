@@ -1,0 +1,63 @@
+##### G2 edges and sensitivities
+[PASS] (a) import_mom fails closed when one of its six monthly changes has no publication date
+[FAIL] (a) ppi_mom fails closed when an interior month of its six-month window has no publication date (spec: "all six must be published") :: ppi_mom with the hole = -8.353451, without = -8.353451 (the code reads only the two end levels)
+   delivered PPI source: missing or non-monotone publication dates = 0 -> the deviation cannot have changed a delivered number
+[FAIL] (b) eligible() returns the same latest-40 set when the feature rows arrive unsorted :: sorted: 2016-06..2026-03; shuffled input: 26 rows differ (run.py refuses unsorted features, the function itself does not)
+   share of each feature's training second moment that is its MEAN (mean^2 / mean of squares), by origin year, band 1:
+      ulc_sameq  tightening  import_mom  ppi_mom  fx_news  import_gap  ppi_gap
+   year                                                                          
+   2019       0.61        0.50        0.00     0.00     0.00        0.00     0.00
+   2020       0.64        0.46        0.01     0.01     0.01        0.02     0.00
+   2021       0.66        0.30        0.04     0.04     0.01        0.06     0.03
+   2022       0.64        0.22        0.06     0.03     0.00        0.16     0.10
+   2023       0.23        0.30        0.06     0.02     0.00        0.28     0.11
+   2024       0.04        0.29        0.12     0.06     0.00        0.43     0.19
+   2025       0.03        0.18        0.12     0.07     0.00        0.53     0.27
+   2026       0.05        0.10        0.13     0.06     0.01        0.56     0.27
+   h6 core RMSE on the primary support: FAST, delivered, deviation part alone, level part alone; and the mean of each part
+model                                      PRESS_ULC_R23B  PRESS_DOMESTIC_R23B  PRESS_MOMENTUM_R23B  PRESS_JOINT_R23B  PRESS_SIGNED_R23B  PRESS_LEVELS_R23B
+   rmse_fast_full                                     1.7578               1.7578               1.7578            1.7578             1.7578             1.7578
+   rmse_delivered_full                                1.6287                1.698               1.7843            1.6915             1.7243             1.7406
+   rmse_deviation_part_only_full                       1.603               1.6887               1.7814            1.6625             1.7099             1.7202
+   rmse_level_part_only_full                          1.8097               1.7847               1.7621            1.8034             1.7888             1.7859
+   mean_level_part_full                               0.0938               0.0521              -0.0126            0.0667             0.0435             0.0674
+   mean_deviation_part_full                          -0.2065              -0.1291               0.1058           -0.1331            -0.1254            -0.0384
+   rmse_fast_origins_2024plus                         0.3939               0.3939               0.3939            0.3939             0.3939             0.3939
+   rmse_delivered_origins_2024plus                    0.5123               0.5101               0.4302            0.5142             0.5085             0.5536
+   rmse_deviation_part_only_origins_2024plus          0.5223               0.5169               0.4177            0.5347             0.5307             0.5296
+   rmse_level_part_only_origins_2024plus              0.4047               0.3969               0.4051            0.3975             0.4001             0.4022
+   mean_level_part_origins_2024plus                    0.111               0.0685              -0.0257            0.0274             0.0282             0.1106
+   mean_deviation_part_origins_2024plus               0.0281               0.0849              -0.0177            -0.019             -0.035             0.1502
+   h6 applied correction = coefficient x training MEAN of the feature ("level part") + coefficient x deviation from that mean; correlation with the correction FAST needed:
+              model  n  corr_applied  corr_level_part  corr_deviation_part  mean_abs_level_part  mean_abs_deviation_part
+        PRESS_ULC_R23B 84         0.424           -0.573                0.470                0.091                    0.310
+   PRESS_DOMESTIC_R23B 84         0.265           -0.371                0.290                0.051                    0.257
+   PRESS_MOMENTUM_R23B 84         0.032           -0.214                0.043                0.015                    0.179
+      PRESS_JOINT_R23B 84         0.277           -0.589                0.334                0.066                    0.355
+     PRESS_SIGNED_R23B 84         0.219           -0.476                0.255                0.043                    0.314
+     PRESS_LEVELS_R23B 84         0.143           -0.346                0.208                0.066                    0.198
+[FAIL] (c) the part of the applied correction that comes from non-zero feature means is NOT negatively correlated with the needed correction (no delayed echo left) :: level-part correlations: {'ULC': -0.57, 'DOMESTIC': -0.37, 'MOMENTUM': -0.21, 'JOINT': -0.59, 'SIGNED': -0.48, 'LEVELS': -0.35}
+   PRESS_ULC_R23B         full              delivered (n=84) +0.424   on the primary support (n=81) +0.426
+   PRESS_ULC_R23B         origins_2024plus  delivered (n=25) +0.154   on the primary support (n=25) +0.154
+   PRESS_DOMESTIC_R23B    full              delivered (n=84) +0.265   on the primary support (n=81) +0.267
+   PRESS_DOMESTIC_R23B    origins_2024plus  delivered (n=25) +0.162   on the primary support (n=25) +0.162
+   PRESS_MOMENTUM_R23B    full              delivered (n=84) +0.032   on the primary support (n=81) +0.032
+   PRESS_MOMENTUM_R23B    origins_2024plus  delivered (n=25) -0.410   on the primary support (n=25) -0.410
+   PRESS_JOINT_R23B       full              delivered (n=84) +0.277   on the primary support (n=81) +0.279
+   PRESS_JOINT_R23B       origins_2024plus  delivered (n=25) +0.137   on the primary support (n=25) +0.137
+   PRESS_SIGNED_R23B      full              delivered (n=84) +0.219   on the primary support (n=81) +0.220
+   PRESS_SIGNED_R23B      origins_2024plus  delivered (n=25) +0.072   on the primary support (n=25) +0.072
+   PRESS_LEVELS_R23B      full              delivered (n=84) +0.143   on the primary support (n=81) +0.144
+   PRESS_LEVELS_R23B      origins_2024plus  delivered (n=25) +0.113   on the primary support (n=25) +0.113
+[PASS] (d) no needed-versus-applied sign changes when the 81-origin primary support replaces the 84 matured origins :: []
+   chosen penalty among applied cells: {0.3: 473, 1.0: 104, 3.0: 53, 10.0: 28, 30.0: 24} ; applied 682 of 1080
+   applied cells whose validation gain over no correction is below 1%: 61; below 5%: 189
+   unapplied cells that lost by less than 1%: 355
+   applied cells by number of the 8 folds in which the correction beat no correction: {2: 6, 3: 53, 4: 97, 5: 242, 6: 146, 7: 105, 8: 33}
+   monthly map of c2=1 alone: [-0.167, -0.167, 0.334, 0.836, 1.337, 0.827, 0.316, -0.195, -0.122, -0.049, 0.024, 0.024]
+   monthly map of c1=1 alone: [1.146, 1.146, 0.708, 0.271, -0.167, -0.103, -0.04, 0.024, 0.015, 0.006, -0.003, -0.003]
+   largest |monthly correction| in h7-12: 0.1026 log points; in h1-3 of origins whose band 1 was NOT applied: 0.0465; largest anywhere: 0.4341
+[PASS] (f) cumulative effect of those side lobes at h3, h6, h9, h12 is exactly zero (checked in probe C); they only move h1-2, h4-5, h7-8, h10-11
+   status values in the delivered run: {'estimated': 540} | band statuses: {'nested_selected': 682, 'no_correction_validated': 398}
+[FAIL] (g) a missing current import_gap (used by one candidate) leaves the five candidates that do not use it estimated :: status=missing_current_features: every candidate, including PRESS_ULC_R23B, falls back to FAST (never triggered in the delivered run)
+##### G2 edges and sensitivities: 3 passed, 4 failed, 0 notes

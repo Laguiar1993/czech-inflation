@@ -1,0 +1,31 @@
+identity model - consensus = (baseline - consensus) + sum(dev) + wedge: max |residual| 1.33e-15
+
+UNCERTAINTY BY BLOCK (contribution error weight x (forecast - actual), pp of headline; 90 origins | ex-January)
+block                                            p10     p50     p90     RMS |     p10     p50     p90     RMS
+core (ridge)                                  -0.258  -0.007  +0.185   0.171 |  -0.231  +0.003  +0.200   0.170
+food (X-13 + ridge)                           -0.191  +0.008  +0.162   0.162 |  -0.147  +0.012  +0.161   0.139
+administered (seasonal median + January gate)  -0.161  -0.008  +0.064   0.336 |  -0.152  -0.008  +0.051   0.318
+alcohol & tobacco (same-month mean)           -0.091  -0.007  +0.084   0.080 |  -0.081  -0.005  +0.085   0.077
+fuel (measured weekly)                        -0.005  -0.000  +0.007   0.007 |  -0.004  -0.000  +0.007   0.006
+wedge (reconciliation residual)               -0.033  -0.005  +0.022   0.022 |  -0.034  -0.004  +0.022   0.023
+headline (model - print)                      -0.487  -0.053  +0.290   0.407 |  -0.392  -0.050  +0.312   0.404
+
+=== 2026-06: model -0.07  consensus +0.00  print -0.30  | neutral seasonal baseline +0.09 ===
+block                                         weight  forecast  baseline  contribution  vs baseline   actual  contrib error
+core (ridge)                                   0.545     +0.35     +0.10        +0.191       +0.136    +0.30         +0.027
+food (X-13 + ridge)                            0.169     -0.26     +0.00        -0.044       -0.044    -1.26         +0.169
+administered (seasonal median + January gate)   0.173     +0.10     +0.00        +0.017       +0.017    +0.00         +0.017
+alcohol & tobacco (same-month mean)            0.083     +0.24     +0.00        +0.020       +0.020    +0.36         -0.010
+fuel (measured weekly)                         0.031     -8.35     +1.01        -0.256       -0.287    -8.18         -0.005
+wedge (reconciliation residual, not a block)                                    -0.001
+model - consensus -0.073 = baseline - consensus +0.086 + sum of block deviations -0.158 + wedge -0.001
+
+=== 2026-07: model +0.44  consensus +0.60  print +0.60  | neutral seasonal baseline +0.22 ===
+block                                         weight  forecast  baseline  contribution  vs baseline   actual  contrib error
+core (ridge)                                   0.539     +0.76     +0.50        +0.408       +0.138    +1.00         -0.131
+food (X-13 + ridge)                            0.169     -0.55     -0.55        -0.092       +0.000    -0.40         -0.024
+administered (seasonal median + January gate)   0.179     +0.00     +0.10        +0.000       -0.018    +0.20         -0.036
+alcohol & tobacco (same-month mean)            0.083     +0.20     +0.25        +0.016       -0.004    -0.42         +0.051
+fuel (measured weekly)                         0.031     +3.63     +0.20        +0.111       +0.105    +3.50         +0.004
+wedge (reconciliation residual, not a block)                                    -0.005
+model - consensus -0.162 = baseline - consensus -0.379 + sum of block deviations +0.222 + wedge -0.005

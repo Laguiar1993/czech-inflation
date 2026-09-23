@@ -1,0 +1,10 @@
+     Error messages generated from processing the X-13ARIMA-SEATS spec file
+     C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\forecast_updates_r33\runs\20260922T173009883888Z_cce84a741ef9\scratch\tmpg8audxp_.spc:
+
+
+  
+ WARNING: Automatic transformation selection cannot be done on a
+          series with zero or negative values.
+  
+ WARNING: At least one visually significant trading day peak has been
+          found in one or more of the estimated spectra.

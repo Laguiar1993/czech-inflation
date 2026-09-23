@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "data/research_r14/benchmarks/fmie_release_calendar.csv": "4674bea2c9db8043dccfb6d219e3fdd9837e2f2d4ae569aa3bda065ce0df78f4",
+    "output/independent_nowcast_forecasts.csv": "77ac26bc05906616a07d8f4b33ab6f2eb10b97141295022e172d53461f3e6e98"
+  },
+  "output_sha256": "bd52d42def38f199a6a8ab321e1ff73a168cbabc806c1971aac83ee5aa477339",
+  "rule": "First saved model clock >= PDF issue date plus one calendar day00:00 Europe/Prague; preserve survey_month+12 target, no horizon rollover."
+}

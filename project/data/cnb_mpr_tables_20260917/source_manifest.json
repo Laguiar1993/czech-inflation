@@ -1,0 +1,147 @@
+{
+  "created_at_utc": "2026-09-17T07:29:52.259179+00:00",
+  "registry": "data/cnb_mpr_cpi_quarterly.csv",
+  "registry_sha256": "137cce6c715a358b85740302453e969c8313f1b39a6eeaed0b7e8698940f3a27",
+  "reports": 19,
+  "sources": [
+    {
+      "file": "raw/2022-02-10_winter_2022.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2022/zima_2022/download/zomp_2022_zima_makroindikatory.xlsx",
+      "bytes": 72796,
+      "sha256": "e36d7a34b3e1fa350bdf5bc0b4050076fb5175f08eef50fdf1364c0048cb2f4f",
+      "retrieved_at_utc": "2026-09-17T07:29:39.941221+00:00"
+    },
+    {
+      "file": "raw/2022-05-12_spring_2022.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2022/jaro_2022/download/zomp_2022_jaro_makroindikatory.xlsx",
+      "bytes": 73294,
+      "sha256": "7a213ac5c0895ddd82b4b968c4bf584c00e19160d517dd186338bb0a0fcf4890",
+      "retrieved_at_utc": "2026-09-17T07:29:40.579624+00:00"
+    },
+    {
+      "file": "raw/2022-08-11_summer_2022.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2022/leto_2022/download/zomp_2022_leto_makroindikatory.xlsx",
+      "bytes": 73720,
+      "sha256": "c9d72572a1a41896c9fb222a681a3c8e5f212897539bbbd6c56f084f6f9e88d7",
+      "retrieved_at_utc": "2026-09-17T07:29:41.220645+00:00"
+    },
+    {
+      "file": "raw/2022-11-10_autumn_2022.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2022/podzim_2022/download/zomp_2022_podzim_makroindikatory.xlsx",
+      "bytes": 73604,
+      "sha256": "2abc03afe65bb4b5eb4f07baaa2d20b2ddca327fa4dabbe94520dca3c7133e72",
+      "retrieved_at_utc": "2026-09-17T07:29:41.844602+00:00"
+    },
+    {
+      "file": "raw/2023-02-09_winter_2023.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2023/zima_2023/download/zomp_2023_zima_makroindikatory.xlsx",
+      "bytes": 71531,
+      "sha256": "4bf1c91acb0e7884d01804da017cceb5ef4b628b19118fe86fe38e4daa730dfa",
+      "retrieved_at_utc": "2026-09-17T07:29:42.594461+00:00"
+    },
+    {
+      "file": "raw/2023-05-11_spring_2023.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2023/jaro_2023/download/zomp_2023_jaro_makroindikatory.xlsx",
+      "bytes": 71701,
+      "sha256": "ec643c8939b8bf1c1db30493bc440515ce2ed13cf0a602a20f5a90edf9d17d36",
+      "retrieved_at_utc": "2026-09-17T07:29:43.257326+00:00"
+    },
+    {
+      "file": "raw/2023-08-10_summer_2023.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2023/leto_2023/download/zomp_2023_leto_makroindikatory.xlsx",
+      "bytes": 71702,
+      "sha256": "769ed8d36c52a6f98d32ac5a05d54ce6a28ea7bdc19939d8358da446a3d92119",
+      "retrieved_at_utc": "2026-09-17T07:29:43.962740+00:00"
+    },
+    {
+      "file": "raw/2023-11-09_autumn_2023.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2023/podzim_2023/download/zomp_2023_podzim_makroindikatory.xlsx",
+      "bytes": 71695,
+      "sha256": "d88a19e10880538f12fc7e38f16d2d0725204a30b934f5f01ba1a032b28c154f",
+      "retrieved_at_utc": "2026-09-17T07:29:44.595079+00:00"
+    },
+    {
+      "file": "raw/2024-02-15_winter_2024.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2024/zima_2024/download/zomp_2024_zima_makroindikatory.xlsx",
+      "bytes": 72176,
+      "sha256": "fd26de8befcb15edf2fa63a7b2bf7ad523b6f9e645f16d78537909cc82f0848e",
+      "retrieved_at_utc": "2026-09-17T07:29:45.224633+00:00"
+    },
+    {
+      "file": "raw/2024-05-09_spring_2024.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2024/jaro_2024/download/zomp_2024_jaro_makroindikatory.xlsx",
+      "bytes": 72187,
+      "sha256": "5384f1e865d9c7bf0c75dc542908b85228d1bc4da78781b985dedfbeb53b376b",
+      "retrieved_at_utc": "2026-09-17T07:29:45.849106+00:00"
+    },
+    {
+      "file": "raw/2024-08-08_summer_2024.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2024/leto_2024/download/zomp_2024_leto_makroindikatory.xlsx",
+      "bytes": 72110,
+      "sha256": "b41f52c6655176df81b360c3e9f3eb40ad9c5c9c82d66824650a0827a91cc7f7",
+      "retrieved_at_utc": "2026-09-17T07:29:46.488835+00:00"
+    },
+    {
+      "file": "raw/2024-11-14_autumn_2024.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2024/podzim_2024/download/zomp_2024_podzim_makroindikatory.xlsx",
+      "bytes": 70174,
+      "sha256": "041cc2b65a91bc7b9f0118727a80b6ca94bcd9a094cd9362845832e725ba6d0f",
+      "retrieved_at_utc": "2026-09-17T07:29:47.160678+00:00"
+    },
+    {
+      "file": "raw/2025-02-13_winter_2025.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2025/zima_2025/download/zomp_2025_zima_makroindikatory.xlsx",
+      "bytes": 70145,
+      "sha256": "ce1f7a43e68ad3869488e7f6227cca1a5965032add540eac5489eba9dcd56445",
+      "retrieved_at_utc": "2026-09-17T07:29:47.816665+00:00"
+    },
+    {
+      "file": "raw/2025-05-15_spring_2025.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2025/jaro_2025/download/zomp_2025_jaro_makroindikatory.xlsx",
+      "bytes": 69765,
+      "sha256": "c2f7284b23f05f0d5c469b0d72a67c55a0a3e4a48fb196badd81789d6ac4b0a0",
+      "retrieved_at_utc": "2026-09-17T07:29:48.478972+00:00"
+    },
+    {
+      "file": "raw/2025-08-14_summer_2025.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2025/leto_2025/download/zomp_2025_leto_makroindikatory.xlsx",
+      "bytes": 68993,
+      "sha256": "a59f1901fea56887e4660e4f89626200aaabd2abef7902a1a531eb6a426dbd31",
+      "retrieved_at_utc": "2026-09-17T07:29:49.145728+00:00"
+    },
+    {
+      "file": "raw/2025-11-13_autumn_2025.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2025/podzim_2025/download/zomp_2025_podzim_makroindikatory.xlsx",
+      "bytes": 68841,
+      "sha256": "15dbff017e739a6a06647e65a8efaf8d790902e932ff958031ebe4a9614a43e8",
+      "retrieved_at_utc": "2026-09-17T07:29:49.846946+00:00"
+    },
+    {
+      "file": "raw/2026-02-12_winter_2026.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2026/zima_2026/download/zomp_2026_zima_makroindikatory.xlsx",
+      "bytes": 69260,
+      "sha256": "afc4d088340a0bca6bf679870040b37a89475faf17f537ea3439708906f91964",
+      "retrieved_at_utc": "2026-09-17T07:29:50.468739+00:00"
+    },
+    {
+      "file": "raw/2026-05-14_spring_2026.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2026/jaro_2026/download/zomp_2026_jaro_makroindikatory.xlsx",
+      "bytes": 69585,
+      "sha256": "91c6024db4be17bad00531e0278561e33a441e46a2d9198d0a55f9256ab2d255",
+      "retrieved_at_utc": "2026-09-17T07:29:51.107619+00:00"
+    },
+    {
+      "file": "raw/2026-08-13_summer_2026.xlsx",
+      "url": "https://www.cnb.cz/export/sites/cnb/cs/menova-politika/.galleries/zpravy_o_menove_politice/2026/leto_2026/download/zomp_2026_leto_makroindikatory.xlsx",
+      "bytes": 69844,
+      "sha256": "7a5f075e481891374772f94fcdedafea2f467440abaea023e874d500a30340e9",
+      "retrieved_at_utc": "2026-09-17T07:29:51.740915+00:00"
+    }
+  ],
+  "outputs": {
+    "cnb_mpr_indicators_long.csv": "f3a7a53bd41d0ec6165e84181cc41c463deb07909904575a2c8bf6b63f79cb3a"
+  },
+  "forecast_flag": "bold cell, per the table footnote \"data in bold = CNB forecast\"",
+  "check": "parsed quarterly CPI equals data/cnb_mpr_cpi_quarterly.csv exactly for every report",
+  "use": "CNB forecasts: evaluation references and the separate conditioned lane only; never an input to the independent forecast"
+}

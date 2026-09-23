@@ -1,0 +1,132 @@
+{
+  "inputs": {
+    "data/czso_import_prices_sitc_monthly.csv": "d99b18f86e94a8c6e7f1602cb3472adfcf2d1bd19cf785bcd47f246b5a7dae70",
+    "data/local_adapter.py": "4243ba91f3395f61d37f53be312e3a32aa84f53dcdc239cedad20e9a7a49e6d3",
+    "data/research_r14b/imports/raw/CEN0301.csv": "a397ec2708c347656797d339ea67c3034901478c4110210c3466f1af228d9f9a",
+    "data/research_r14b/imports/raw/CEN0303.csv": "3c36322e9cdf34a4cdff7b9677487566837f80547d64fa0f730c2623fe80aaf2",
+    "data/research_r14b/imports/raw/CEN0303_catalog.json": "aca7551cd1f070320ed113bc369922f44d4a94705e49132c3e87199b447427ce",
+    "data/research_r14b/imports/raw/latest_release.html": "20c12747e0fa0b99fc66713a10dbf744c8073a60037fd52dc8c4d9e9c79179ea",
+    "data/research_r14b/imports/raw/methodology.html": "252b977a2b6a6ae2b1ed57b1bbf78c28f362b8cc0fa1beed5ced49b08238a997",
+    "data/research_r14b/imports/raw/release_2008_01.html": "c83df385cf2e7c0ec4d88cbdbae5e01d7ab8b288dc8f5fade07151dec68a3038",
+    "data/research_r14b/imports/raw/release_2014_01.html": "c8d27ee84d373a8280076e0dca43a950a999e656a41c6f3475b0b26073836825",
+    "data/research_r14b/imports/raw/standard_revision_2024.pdf": "b242aef9f65e6018bb79bcaa6692e27f1037e0264e88107be7fdc4d643a69dd0",
+    "data/research_r14b/imports/raw/statistical_methodology.html": "b28e5b45dcc6042c787355d12ff463bbdc23388325e1c9c3c5e10aeaf7683509",
+    "docs/implementation/R14B_IMPORT_HISTORY_AUDIT.md": "32842af44a422f66383544efffc96b56bc9fff5162d0d4cef14f1ab0c9cef2f6",
+    "PATH_SPEC_v4.md": "4be106b7a80ed352a7e21a456461180fc2bdc88365804bfdf8999e2780f6b714",
+    "path_step4_backtest.py": "97498dfbd4f7aae290188499caf3c1dc37a9bba27136ea24ef00e41bc51419c7",
+    "tests/fixtures/cleanup/core_features.csv": "09bdfeb3353eaaa2ab3b08d815480198ab1dde0d12f59fac08c8651e59dddf23",
+    "tools/r14b_imports/prepare.py": "be583161c050211dedeb6ade5929d1c5d295dbfbba5549544f79af236813288c",
+    "tools/r14b_imports/test_prepare.py": "c9fe1f5e8b4bb08db2e8e4cfda0ad1c243863c11250eaf736a14a934efcacd73"
+  },
+  "outputs": {
+    "overlap_comparison.csv": "46b92a742583e0862958b8ff5472e9bc6a437c25a980e42c93901d8be5aecb88",
+    "overlap_summary.csv": "a0775520d2925c8ac8dd4493ae18824d96d461febd128d627a95a7a76e81d4c9",
+    "imports_monthly_verified.csv": "941dedb4df493f6951a309fff2755a78d49a3871836d89645f5ac3ed705cdfd3",
+    "core_features_extended.csv": "c7976f19b6a28916a67859432193817828eff53ac3e53a83fc44e69708f032ab",
+    "core_feature_extension.csv": "6d59028b5ecb62584bca611fd765c389835bd0157730346eec6ead6642d57a1e"
+  },
+  "sources": [
+    {
+      "file": "data/research_r14b/imports/raw/CEN0303.csv",
+      "url": "https://data.csu.gov.cz/opendata/sady/CEN0303/distribuce/csv",
+      "sha256": "3c36322e9cdf34a4cdff7b9677487566837f80547d64fa0f730c2623fe80aaf2",
+      "bytes": 9844556,
+      "retrieved_completed_utc": "2026-09-09T13:32:35.733581543+00:00"
+    },
+    {
+      "file": "data/research_r14b/imports/raw/CEN0301.csv",
+      "url": "https://data.csu.gov.cz/opendata/sady/CEN0301/distribuce/csv",
+      "sha256": "a397ec2708c347656797d339ea67c3034901478c4110210c3466f1af228d9f9a",
+      "bytes": 19357536,
+      "retrieved_completed_utc": "2026-09-09T13:33:19.968662977+00:00"
+    },
+    {
+      "file": "data/research_r14b/imports/raw/CEN0303_catalog.json",
+      "url": "https://data.csu.gov.cz/api/katalog/v1/sady/CEN0303/vybery",
+      "sha256": "aca7551cd1f070320ed113bc369922f44d4a94705e49132c3e87199b447427ce",
+      "bytes": 2400,
+      "retrieved_completed_utc": "2026-09-09T13:34:35.029517174+00:00"
+    },
+    {
+      "file": "data/research_r14b/imports/raw/methodology.html",
+      "url": "https://csu.gov.cz/indexy_cen_dovozu_a_vyvozu",
+      "sha256": "252b977a2b6a6ae2b1ed57b1bbf78c28f362b8cc0fa1beed5ced49b08238a997",
+      "bytes": 66175,
+      "retrieved_completed_utc": "2026-09-09T13:33:20.282164097+00:00"
+    },
+    {
+      "file": "data/research_r14b/imports/raw/statistical_methodology.html",
+      "url": "https://csu.gov.cz/metodika-statistiky-za-oblast-indexy-cen-vyvozu-a-dovozu",
+      "sha256": "b28e5b45dcc6042c787355d12ff463bbdc23388325e1c9c3c5e10aeaf7683509",
+      "bytes": 69209,
+      "retrieved_completed_utc": "2026-09-09T13:33:20.579063177+00:00"
+    },
+    {
+      "file": "data/research_r14b/imports/raw/standard_revision_2024.pdf",
+      "url": "https://csu.gov.cz/docs/107516/cb4c358c-276c-6fef-997d-246c47e2a14d/standardni_revize_indexu_vyvoznich_a_dovoznich_cen.pdf?version=1.2",
+      "sha256": "b242aef9f65e6018bb79bcaa6692e27f1037e0264e88107be7fdc4d643a69dd0",
+      "bytes": 638750,
+      "retrieved_completed_utc": "2026-09-09T13:34:34.230265141+00:00"
+    },
+    {
+      "file": "data/research_r14b/imports/raw/latest_release.html",
+      "url": "https://csu.gov.cz/ceny-vyvozu-a-dovozu",
+      "sha256": "20c12747e0fa0b99fc66713a10dbf744c8073a60037fd52dc8c4d9e9c79179ea",
+      "bytes": 79009,
+      "retrieved_completed_utc": "2026-09-09T13:34:34.747134686+00:00"
+    },
+    {
+      "file": "data/research_r14b/imports/raw/release_2008_01.html",
+      "url": "https://csu.gov.cz/rychle-informace/indexy-cen-vyvozu-a-dovozu-leden-2008-ac9y0iu5ch",
+      "sha256": "c83df385cf2e7c0ec4d88cbdbae5e01d7ab8b288dc8f5fade07151dec68a3038",
+      "bytes": 162633,
+      "retrieved_completed_utc": "2026-09-09T13:36:36.897360802+00:00"
+    },
+    {
+      "file": "data/research_r14b/imports/raw/release_2014_01.html",
+      "url": "https://csu.gov.cz/rychle-informace/indexy-cen-vyvozu-a-dovozu-leden-2014-1xh613weya",
+      "sha256": "c8d27ee84d373a8280076e0dca43a950a999e656a41c6f3475b0b26073836825",
+      "bytes": 160676,
+      "retrieved_completed_utc": "2026-09-09T13:36:37.440073013+00:00"
+    }
+  ],
+  "extension": {
+    "n": 84,
+    "source_start": "2008-01",
+    "source_end": "2014-12",
+    "fixture_start": "2008-03",
+    "fixture_end": "2015-02",
+    "column": "import_l2",
+    "available_from": "source month+3 start Europe/Prague; conservative reconstructed bound",
+    "finite_existing_cells_changed": 0,
+    "other_columns_changed": 0,
+    "new_rows": 0
+  },
+  "overlap": [
+    {
+      "reference": "official_cpa",
+      "n": 138,
+      "first": "2015-01",
+      "last": "2026-06",
+      "max_abs_difference": 0.0,
+      "n_exceeding_0_1pp": 0
+    },
+    {
+      "reference": "prior_cache",
+      "n": 222,
+      "first": "2008-01",
+      "last": "2026-06",
+      "max_abs_difference": 0.0,
+      "n_exceeding_0_1pp": 0
+    },
+    {
+      "reference": "frozen_core",
+      "n": 137,
+      "first": "2015-01",
+      "last": "2026-05",
+      "max_abs_difference": 2.886579864025407e-15,
+      "n_exceeding_0_1pp": 0
+    }
+  ],
+  "limitation": "Latest-vintage source, not vintage archive; reconstructed availability; historical weighting revisions retained."
+}

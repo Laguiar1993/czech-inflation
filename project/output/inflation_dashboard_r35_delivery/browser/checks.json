@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "pageErrors": [],
+  "desktop": "1440x1050",
+  "mobile": "390x844",
+  "checks": {
+    "month": "2026-08",
+    "forecast": "2026-09",
+    "h0": -0.2042311894134946,
+    "weight": 1000,
+    "drivers": -3.1081819841169933,
+    "total": -3.1081819841169933,
+    "breadth": 100
+  }
+}

@@ -1,0 +1,70 @@
+Frozen bridge replay and source checks passed.
+Constructed food paths 1/90: 2019-02
+Constructed food paths 16/90: 2020-05
+Constructed food paths 31/90: 2021-08
+Constructed food paths 46/90: 2022-11
+Constructed food paths 61/90: 2024-02
+Constructed food paths 76/90: 2025-05
+Constructed food paths 90/90: 2026-07
+        sample  h                      model  n_common  yy_rmse   yy_bias  mm_rmse
+          full  1 FOOD_DOMESTIC_PIPELINE_R14        88 0.908483 -0.085513 0.691495
+          full  1      FOOD_OWN_LEVEL_AR_R14        88 0.924882 -0.121203 0.700443
+          full  1         INDEPENDENT_BRIDGE        88 0.910737 -0.119112 0.691030
+          full  1             FOOD_TREND_R12        88 0.910737 -0.119112 0.691030
+          full  1              FOOD_COST_R12        88 0.910737 -0.119112 0.691030
+          full  3 FOOD_DOMESTIC_PIPELINE_R14        84 1.614228 -0.194992 0.826247
+          full  3      FOOD_OWN_LEVEL_AR_R14        84 1.595423 -0.320139 0.801224
+          full  3         INDEPENDENT_BRIDGE        84 1.537322 -0.300662 0.800266
+          full  3             FOOD_TREND_R12        84 1.537322 -0.300662 0.800266
+          full  3              FOOD_COST_R12        84 1.537322 -0.300662 0.800266
+          full  6 FOOD_DOMESTIC_PIPELINE_R14        81 2.994566 -0.365868 0.864564
+          full  6      FOOD_OWN_LEVEL_AR_R14        81 2.653694 -0.692556 0.843195
+          full  6         INDEPENDENT_BRIDGE        81 2.516379 -0.683358 0.821327
+          full  6             FOOD_TREND_R12        81 2.573899 -0.636038 0.837454
+          full  6              FOOD_COST_R12        81 2.582704 -0.622969 0.836011
+          full 12 FOOD_DOMESTIC_PIPELINE_R14        75 8.177262 -0.281404 1.283162
+          full 12      FOOD_OWN_LEVEL_AR_R14        75 5.992129 -1.448391 0.975075
+          full 12         INDEPENDENT_BRIDGE        75 5.394839 -1.563595 0.924642
+          full 12             FOOD_TREND_R12        75 5.691348 -1.395078 0.955728
+          full 12              FOOD_COST_R12        75 5.714753 -1.369328 0.956414
+recent_targets  1 FOOD_DOMESTIC_PIPELINE_R14        31 0.362935 -0.018447 0.318737
+recent_targets  1      FOOD_OWN_LEVEL_AR_R14        31 0.367490 -0.023784 0.316072
+recent_targets  1         INDEPENDENT_BRIDGE        31 0.365046  0.009063 0.321107
+recent_targets  1             FOOD_TREND_R12        31 0.365046  0.009063 0.321107
+recent_targets  1              FOOD_COST_R12        31 0.365046  0.009063 0.321107
+recent_targets  3 FOOD_DOMESTIC_PIPELINE_R14        31 0.535307 -0.033285 0.304971
+recent_targets  3      FOOD_OWN_LEVEL_AR_R14        31 0.544784 -0.060768 0.300906
+recent_targets  3         INDEPENDENT_BRIDGE        31 0.546525  0.018257 0.284943
+recent_targets  3             FOOD_TREND_R12        31 0.546525  0.018257 0.284943
+recent_targets  3              FOOD_COST_R12        31 0.546525  0.018257 0.284943
+recent_targets  6 FOOD_DOMESTIC_PIPELINE_R14        31 0.717649  0.095862 0.307118
+recent_targets  6      FOOD_OWN_LEVEL_AR_R14        31 0.844061  0.040645 0.311309
+recent_targets  6         INDEPENDENT_BRIDGE        31 0.747834  0.326731 0.297531
+recent_targets  6             FOOD_TREND_R12        31 0.748949  0.138766 0.306926
+recent_targets  6              FOOD_COST_R12        31 0.749541  0.127177 0.306952
+recent_targets 12 FOOD_DOMESTIC_PIPELINE_R14        31 2.695545  1.009404 0.370540
+recent_targets 12      FOOD_OWN_LEVEL_AR_R14        31 2.848477  1.021571 0.405588
+recent_targets 12         INDEPENDENT_BRIDGE        31 1.892132  1.180037 0.359150
+recent_targets 12             FOOD_TREND_R12        31 2.342335  0.972151 0.387261
+recent_targets 12              FOOD_COST_R12        31 2.353579  0.960172 0.387231
+recent_origins  1 FOOD_DOMESTIC_PIPELINE_R14        30 0.366386 -0.011159 0.310299
+recent_origins  1      FOOD_OWN_LEVEL_AR_R14        30 0.371168 -0.016863 0.307776
+recent_origins  1         INDEPENDENT_BRIDGE        30 0.370684  0.012494 0.319385
+recent_origins  1             FOOD_TREND_R12        30 0.370684  0.012494 0.319385
+recent_origins  1              FOOD_COST_R12        30 0.370684  0.012494 0.319385
+recent_origins  3 FOOD_DOMESTIC_PIPELINE_R14        28 0.553713 -0.011491 0.299110
+recent_origins  3      FOOD_OWN_LEVEL_AR_R14        28 0.565630 -0.054249 0.299078
+recent_origins  3         INDEPENDENT_BRIDGE        28 0.569058  0.038136 0.286489
+recent_origins  3             FOOD_TREND_R12        28 0.569058  0.038136 0.286489
+recent_origins  3              FOOD_COST_R12        28 0.569058  0.038136 0.286489
+recent_origins  6 FOOD_DOMESTIC_PIPELINE_R14        25 0.690612  0.082942 0.275185
+recent_origins  6      FOOD_OWN_LEVEL_AR_R14        25 0.772332 -0.086876 0.287681
+recent_origins  6         INDEPENDENT_BRIDGE        25 0.677710  0.253582 0.260548
+recent_origins  6             FOOD_TREND_R12        25 0.691854  0.057557 0.280668
+recent_origins  6              FOOD_COST_R12        25 0.696534  0.050212 0.281410
+recent_origins 12 FOOD_DOMESTIC_PIPELINE_R14        19 1.274127  0.359538 0.303315
+recent_origins 12      FOOD_OWN_LEVEL_AR_R14        19 1.411718 -0.151990 0.305335
+recent_origins 12         INDEPENDENT_BRIDGE        19 1.347309  0.729989 0.297480
+recent_origins 12             FOOD_TREND_R12        19 1.313203  0.112939 0.304440
+recent_origins 12              FOOD_COST_R12        19 1.320293  0.103643 0.304480
+{'status': 'passed', 'refitted_origins': 90, 'byte_identical_payloads': 11, 'verified_inputs': 54, 'network_database': 'blocked', 'checked_at': '2026-09-09T13:25:41.781674+00:00'}

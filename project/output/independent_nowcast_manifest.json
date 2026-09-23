@@ -1,0 +1,20 @@
+{
+  "inputs": {
+    "alcohol_tobacco.csv": "1a3f7cfd8eeb3419077359f8a12968182d997495007b462418f5261c187fe115",
+    "cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+    "cnb_regulated_mm.csv": "74773b38a1fea1f1ebb09d220aa90409eb3318a697b35ec2b8e1f20e781850db",
+    "component_food_fuel_mm.csv": "21699e9cd2bc1c87848834113ff2933ab587901adc40616f3ba63384441a419b",
+    "core_features.csv": "09bdfeb3353eaaa2ab3b08d815480198ab1dde0d12f59fac08c8651e59dddf23",
+    "food_block_features.csv": "a34a50e425650eda7b9ca400f51cb191bba633e6ead07a12b46a75e4184c9537",
+    "fuel_weekly.csv": "a017a7bfd2054097752c0d18ab0d9c42a9a589280c22ae9fce87c6c1ddac8995",
+    "headline_extended_and_states.csv": "dab64ba59634410ee2a183724b5ee2463e24a8c20bb188dab0ab4bab2ad89e94",
+    "slow_block_features_h6h12.csv": "ea1bdff7aed5325193c91e34cd61c5ab40ca91a498e50e38e0a0213d89e99af3",
+    "smooth_features.csv": "96a2d7f4cfbf87410c4f2f692b688d3dbd313cda41e2f1cb0f854f601268703b",
+    "target_headline_cpi_mm.csv": "0f5f17def39668352b95d3e63278eec66016251d2d4296fb03e59b8a37e5c6eb",
+    "output/cz_struct_backtest.csv": "9678c25530d6bb684a2e74ba962f121a10fadf3db97887b2ca6777ff54d4e9cd",
+    "data/czcpmom_survey_history_extended.csv": "2d43dc9f99add7b5d93a8876936e7a726af124eb1f6f40cbfb3c912e5a7a794d"
+  },
+  "noncore": "unchanged reference; full baseline independently replayed before this experiment",
+  "warm_history": "policy-specific sequential ridge; no legacy error file",
+  "vintage_status": "pseudo-OOS using frozen latest-vintage feature frames plus publication rules"
+}

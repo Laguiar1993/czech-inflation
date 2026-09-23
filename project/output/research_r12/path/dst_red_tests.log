@@ -1,0 +1,20 @@
+F                                                                        [100%]
+================================== FAILURES ===================================
+____ test_reconstructed_publication_dates_remain_local_midnight_across_dst ____
+
+    def test_reconstructed_publication_dates_remain_local_midnight_across_dst():
+        runner=importlib.import_module('path_improvements_experiment_r12')
+        features=runner.read(runner.ROOT/'tests/fixtures/cleanup/food_block_features.csv')
+        records,_=runner.verify_cost_mapping(features)
+        for source,expected in [('2015-09','2015-10-26T00:00:00+01:00'),
+                                ('2018-02','2018-03-26T00:00:00+02:00')]:
+            stamp=records.loc[pd.Period(source,'M'),'agri_available_at']
+>           assert stamp == pd.Timestamp(expected)
+E           AssertionError: assert Timestamp('2015-10-25 23:00:00+0100', tz='Europe/Prague') == Timestamp('2015-10-26 00:00:00+0100', tz='UTC+01:00')
+E            +  where Timestamp('2015-10-26 00:00:00+0100', tz='UTC+01:00') = <class 'pandas.Timestamp'>('2015-10-26T00:00:00+01:00')
+E            +    where <class 'pandas.Timestamp'> = pd.Timestamp
+
+test_path_improvements_r12.py:82: AssertionError
+=========================== short test summary info ===========================
+FAILED test_path_improvements_r12.py::test_reconstructed_publication_dates_remain_local_midnight_across_dst
+1 failed, 14 deselected in 3.28s

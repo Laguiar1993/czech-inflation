@@ -1,0 +1,20 @@
+input,fixture_n,replaced_n,not_replaced_n,exact_share,max_abs_gap,first,last
+headline m/m -> CZCPMOM,138,138,0.0,0.07246376811594203,0.10089197224973906,2015-02,2026-07
+food m/m -> CZCPFMOM,138,138,0.0,0.06521739130434782,0.1051881993896166,2015-02,2026-07
+"fuel item m/m (weights, wedge, support): kept CZSO (no exact or rounding-only Bloomberg series)",138,0,,,,,
+CNB core m/m -> CZCIXM,235,235,0.0,1.0,0.0,2007-01,2026-07
+CNB regulated m/m -> CZCIRM,235,235,0.0,1.0,0.0,2007-01,2026-07
+alcohol & tobacco m/m -> CZCPAMOM,138,138,0.0,0.050724637681159424,0.10535183349850086,2015-02,2026-07
+eurczk_mm -> m/m of the monthly mean of EURCZK CNB,236,236,0.0,0.8432203389830508,0.08904015980155644,2007-01,2026-08
+core_l1 -> CZCIXM lag 1,234,234,0.0,1.0,0.0,2007-02,2026-07
+core_l2 -> CZCIXM lag 2,233,233,0.0,1.0,0.0,2007-03,2026-07
+core_l12 -> CZCIXM lag 12,223,223,0.0,1.0,0.0,2008-01,2026-07
+import_l2 -> CZEIIMOM lag 2,137,137,0.0,0.9854014598540146,0.10000000000000564,2015-03,2026-07
+"state -> published y/y at t-1 > 4 (CZCIPY, CZCPYOY)",236,235,1.0,0.9957446808510638,1.0,2007-02,2026-08
+services_l1: kept CZSO (no Bloomberg series),137,0,,,,,
+food_l1 -> CZCPFMOM lag 1,137,137,0.0,0.06569343065693431,0.1051881993896166,2015-03,2026-07
+food_l12 -> CZCPFMOM lag 12,126,126,0.0,0.06349206349206349,0.1051881993896166,2016-02,2026-07
+food_ppi_l1 -> CZPPA10M lag 1,137,137,0.0,0.06569343065693431,0.10039840637450209,2015-03,2026-07
+"agri_l0, agri_l1: kept CZSO (farm prices are not on Bloomberg)",197,0,,,,,
+weekly petrol95 -> EC bulletin on Bloomberg (different survey),528,528,0.0,0.032196969696969696,0.48099999999999454,2016-01-04,2026-08-24
+weekly diesel -> EC bulletin on Bloomberg (different survey),528,528,0.0,0.01893939393939394,1.0960000000000036,2016-01-04,2026-08-24

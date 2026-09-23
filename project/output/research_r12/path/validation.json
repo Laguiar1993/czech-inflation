@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "points": 1170,
+  "max_abs_differences": {
+    "monthly": 2.220446049250313e-16,
+    "contributions": 0.0,
+    "food_long": 0.0,
+    "annual": 5.329070518200751e-15,
+    "h0": 2.220446049250313e-16
+  },
+  "source_hashes_checked": [
+    "independent_bridge_experiment.py",
+    "cz_struct.py",
+    "models/independent_nowcast.py",
+    "models/path_inputs.py",
+    "output/independent_nowcast_forecasts.csv",
+    "output/independent_path_forecasts.csv",
+    "data/cnb_mpr_cpi_quarterly.csv",
+    "output/independent_path_frozen_inputs.csv",
+    "data/admin_announcements_history.csv",
+    "data/release_calendar_cz_cpi.csv",
+    "tests/fixtures/cleanup/MANIFEST.json"
+  ],
+  "short_food_values_reused": 270,
+  "reuse_reason": "Identical code and frozen feature/data hashes. Only X13 h1..3 reused; all weights and nonfood components replayed at all origins.",
+  "cost_raw_mapping": {
+    "agri": {
+      "n_source_months": 196,
+      "max_abs_difference": 0.0,
+      "units": "mean available-product log m/m percentage",
+      "first": "2010-02",
+      "last": "2026-05"
+    },
+    "ppi": {
+      "n_source_months": 137,
+      "max_abs_difference": 0.0,
+      "units": "arithmetic m/m percentage",
+      "first": "2015-02",
+      "last": "2026-06"
+    },
+    "clock_quality": "Reconstructed source publication rules, not archived observation releases; r-2 source cap retained."
+  },
+  "original_target_max_abs_difference": 1.7763568394002505e-15,
+  "target_rows": 10530,
+  "unique_keys": true,
+  "all_origins_retained": true,
+  "h1_monthly_cumulative_max_delta": 0.0,
+  "constant_scale_fix_empirical_max_abs_difference": 0.0,
+  "constant_scale_fix_changed_rows": 0
+}

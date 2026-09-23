@@ -1,0 +1,67 @@
+{
+  "origins": 90,
+  "rows": 1170,
+  "nonfinite_monthly_points": [
+    {
+      "origin": "2019-02",
+      "h": 1,
+      "status": "failed_nonfinite"
+    },
+    {
+      "origin": "2019-02",
+      "h": 2,
+      "status": "failed_nonfinite"
+    },
+    {
+      "origin": "2019-02",
+      "h": 3,
+      "status": "failed_nonfinite"
+    },
+    {
+      "origin": "2019-03",
+      "h": 2,
+      "status": "failed_nonfinite"
+    },
+    {
+      "origin": "2019-03",
+      "h": 3,
+      "status": "failed_nonfinite"
+    },
+    {
+      "origin": "2019-04",
+      "h": 3,
+      "status": "failed_nonfinite"
+    }
+  ],
+  "food_methods": {
+    "seasonal_mean_last_five": 810,
+    "x13": 264,
+    "fallback": 6
+  },
+  "nonfinite_origin_statuses": [
+    "2019-02",
+    "2019-03",
+    "2019-04"
+  ],
+  "cnb_report_quarter_pairs": 66,
+  "cnb_unique_quarters": 18,
+  "cnb_reports": 18,
+  "cnb_scored_report_range": [
+    "2022-02-10",
+    "2026-05-14"
+  ],
+  "cnb_scored_quarter_range": [
+    "2022Q1",
+    "2026Q2"
+  ],
+  "all_checks_passed": true,
+  "original_path_forecasts_unchanged": true,
+  "fingerprints_current": true,
+  "pre_calendar_guard_numeric_sha256_10dp": "5f24b51b68db73ecf69ba6f5ab02a80355594ae5eeedfc9559bf3cf3e986b600",
+  "validated_at": "2026-09-09T08:31:37.182199+00:00",
+  "calendar_guard_forecasts_unchanged_to_10dp": true,
+  "final_numeric_sha256_10dp": "5f24b51b68db73ecf69ba6f5ab02a80355594ae5eeedfc9559bf3cf3e986b600",
+  "final_bridge_forecasts_sha256": "b1377d1c45373b7571a47edd3c373a6b149cae49e9efbd37853566ded00a88d8",
+  "final_manifest_sha256": "ed220f5932da7ac0df214c66f7291c7a6a7b17f171352edcdccd319ae25cae47",
+  "combined_tests_passed": 90
+}

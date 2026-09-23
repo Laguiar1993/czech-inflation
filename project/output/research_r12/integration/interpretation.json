@@ -1,0 +1,23 @@
+{
+  "status": "Post-result diagnostics only; no further fitted variants or automatic promotion.",
+  "nowcast_references": [
+    "R9_BASE",
+    "R9_HALF",
+    "R9_FULL",
+    "TARGET_OWN"
+  ],
+  "pooling_variants": [
+    "POOL_SEPARATE",
+    "POOL_12",
+    "POOL_48"
+  ],
+  "path_variants": [
+    "FOOD_TREND_R12",
+    "FOOD_COST_R12",
+    "DIRECT_MONTHLY_R12",
+    "DIRECT_CUMULATIVE_R12"
+  ],
+  "online_retail_collection": false,
+  "expectations_in_new_estimators": false,
+  "energy_status": "See energy/summary.json; unavailable effects are not measured zeros."
+}

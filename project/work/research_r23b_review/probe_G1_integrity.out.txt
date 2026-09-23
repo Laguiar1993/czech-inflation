@@ -1,0 +1,41 @@
+##### G1 integrity and pre-declaration
+[PASS] fit manifest: all 67 input hashes match the files on disk now :: []
+[PASS] fit manifest: all 14 output hashes match :: []
+[PASS] every file in final/ is covered by the manifest :: []
+[PASS] manifest pins data/cost_pressure_r23b.py
+[PASS] manifest pins models/cost_pressure_r23b.py
+[PASS] manifest pins models/cost_gaps_r23.py
+[PASS] manifest pins data/cost_gaps_r23.py
+[PASS] manifest pins tools/research_r23b/run.py
+[PASS] manifest pins docs/implementation/R23B_MEASUREMENT_REPAIR_SPEC_2026-09-17.md
+[PASS] manifest pins output/research_r21/path_anchor/native_forecasts.csv
+[PASS] manifest pins output/research_r15/states.json
+[PASS] manifest pins r17_common.py
+[PASS] evaluation manifest: all 95 input hashes match (absolute paths) :: []
+[PASS] evaluation manifest: all 47 output hashes match :: []
+[PASS] evaluation manifest pins tools/research_r23b/evaluate.py
+[PASS] evaluation manifest pins tools/research_r23/lead.py
+[PASS] evaluation manifest pins tools/review/evaluate_r17.py
+[PASS] evaluation manifest pins tools/review/evaluate_r15.py
+[PASS] evaluation manifest pins tools/review/evaluate_r16.py
+[PASS] evaluation manifest pins tools/path_diagnostics/gates.py
+[PASS] evaluation manifest pins tools/path_diagnostics/bootstrap.py
+[PASS] evaluation manifest pins tools/path_diagnostics/attribution.py
+[PASS] evaluation manifest pins tools/path_diagnostics/benchmarks.py
+[PASS] evaluation manifest pins tools/path_diagnostics/lead_baselines.py
+   evaluation inputs read by evaluate.py but not pinned by the evaluation manifest itself: []
+[PASS] data/cost_gaps_r23.py is byte-identical to the file the sealed R23 final run used
+[PASS] models/cost_gaps_r23.py is byte-identical to the file the sealed R23 final run used
+[PASS] r17_common.py is byte-identical to the file the sealed R23 final run used
+[PASS] tools/review/evaluate_r17.py identical to the one R23 was evaluated with :: in R23 manifest=True
+[PASS] tools/review/evaluate_r15.py identical to the one R23 was evaluated with :: in R23 manifest=True
+[PASS] tools/review/evaluate_r16.py identical to the one R23 was evaluated with :: in R23 manifest=True
+[PASS] tools/research_r23/lead.py identical to the one R23 was evaluated with :: in R23 manifest=True
+[PASS] data/cnb_mpr_cpi_quarterly.csv identical to the one R23 was evaluated with :: in R23 manifest=True
+   specification last written 08:01:27; newest reviewed code file 08:10:20; first fit output 08:10:52; evaluation manifest 08:14:19
+[PASS] specification file predates every fit output (and its hash is the one pinned in the manifest)
+[PASS] no reviewed code file was written after the first fit output :: {}
+   directories under output/research_r23b: ['final'] (a single run directory; earlier trial runs, if any, left no trace here)
+   path_diagnostics files newer than the run and outside this review: {'standard.py': '08:23:10'}
+[PASS] R23 sealed delivery: all 164 hashed files unchanged on disk :: []
+##### G1 integrity and pre-declaration: 35 passed, 0 failed, 0 notes

@@ -1,0 +1,162 @@
+[
+  {
+    "file": "ERU_E_schema.txt",
+    "url": "https://eru.gov.cz/sites/default/files/obsah/prilohy/jsonschema-monitorovacivyhlaskaev0json_2.txt",
+    "sha256": "bf87bb5ceb6fe3d8edb7c63320e2013a77e0f436b7a4aeb962acc468aedc430e",
+    "bytes": 29988,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "ERU_G_schema.txt",
+    "url": "https://eru.gov.cz/sites/default/files/obsah/prilohy/jsonschema-monitorovacivyhlaskagv0json_2.txt",
+    "sha256": "dd53c9746dfdad4b14d5f4827620dcbce3eaa71df90285340bb0231d594579d6",
+    "bytes": 28743,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "ERU_E_templates.html",
+    "url": "https://eru.gov.cz/vzory-sablon-xlsx-json-souboru-pro-predkladani-souhrnnych-informaci-podle-monitorovaci-vyhlasky",
+    "sha256": "89d929a2f5dceabf3199d8dc498585a91ac61e26801ce8d890590a17aafb920b",
+    "bytes": 88428,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "ERU_G_templates.html",
+    "url": "https://eru.gov.cz/vzory-sablon-xlsx-json-souboru-pro-predkladani-souhrnnych-informaci-podle-monitorovaci-vyhlasky-0",
+    "sha256": "7675c42e117261d07cb62ababcd0ab1d9f4d3ca3532cbf6b27254b68f2436844",
+    "bytes": 88331,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "CZSO_energy_method.html",
+    "url": "https://statistikaamy.csu.gov.cz/statistika-cen-energii",
+    "sha256": "0df6eec474fd4a9e997eb4baee50917022344993d4d884651111ee1b08011a0b",
+    "bytes": 46045,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "CZSO_Elek_2025.html",
+    "url": "https://csu.gov.cz/vykazy/ceny-elek-1-12-mesicni-vykaz-o-cenach-elektricke-energie_psz_2025",
+    "sha256": "1c2ac31cf20e4b8c9b285db97f02f604ed2511b766463a262b44c786e850f9d4",
+    "bytes": 65226,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "CNB_2023_energy.html",
+    "url": "https://www.cnb.cz/cs/menova-politika/zpravy-o-menove-politice/boxy-a-clanky/Dopad-zvysenych-cen-energii-na-domacnosti-a-podniky/",
+    "sha256": "305c09a58854598196ccde81f4efbe8a99713ed0e10b1b3a442f62cd2ee18341",
+    "bytes": 72437,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "ERU_reporting_manual.pdf",
+    "url": "https://eru.gov.cz/sites/default/files/obsah/prilohy/metodickapriruckavyplnovanisablonv31.pdf",
+    "sha256": "2f58d54ed086073fec197566844931887f01a5f34f231ef70a482209ecdbb8cf",
+    "bytes": 447305,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "EUROSTAT_hicp_CZ.html",
+    "url": "https://ec.europa.eu/eurostat/cache/metadata/EN/prc_hicp_esmshi3_cz.htm",
+    "sha256": "56fdfc15f5c4d41e2267d56d0a712044fb34a8c730a73582618f697302602ee0",
+    "bytes": 262416,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "EUROSTAT_electricity_CZ.html",
+    "url": "https://ec.europa.eu/eurostat/cache/metadata/EN/nrg_pc_204_sims_cz.htm",
+    "sha256": "934daad666ae186ded222254b85fcf090742fc1a1837f983b2dd8d6f481e484a",
+    "bytes": 220887,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "EUROSTAT_gas_CZ.html",
+    "url": "https://ec.europa.eu/eurostat/cache/metadata/EN/nrg_pc_202_sims_cz.htm",
+    "sha256": "9f7f4a0086383394d83c0c0c04c66a17f89d5ff8a06db83de0797f9f83bfbf41",
+    "bytes": 215717,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "CZSO_gas_2026.html",
+    "url": "https://csu.gov.cz/vykazy/ceny-e-6-04-ctvrtletni-vykaz-o-cenach-zemniho-plynu-pro-konecne-zakazniky_psz_2026",
+    "sha256": "9b5cb43c3411c67c6eabddda35c72e584363bf37b192ccb83da0a06d5d5016ae",
+    "bytes": 64182,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "CEZ_2026_price_release.html",
+    "url": "https://www.cez.cz/cs/pro-media/tiskove-zpravy/cez-prodej-od-1.-ledna-zlevnuje-elektrinu-i-plyn-pro-16-milionu-domacnosti.-zalohy-se-snizuji-i-diky-poklesu-regulovane-slozky-230772",
+    "sha256": "c4ed9b3a4a6026bb8c84d735f2d32a4c64e5666ca3235a9f7564a7d2eda69a62",
+    "bytes": 204089,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "CZSO_saving_treatment.html",
+    "url": "https://csu.gov.cz/note-to-consumer-prices-of-energy-october-2022",
+    "sha256": "fc28485be6e14b5931cb2ac04632cc7dd758b9223a48f925671c0f33b2c77765",
+    "bytes": 64993,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "ERU_contract_types.html",
+    "url": "https://eru.gov.cz/jake-jsou-typy-smluv-pro-elektrinu-plyn-pro-koncoveho-spotrebitele",
+    "sha256": "c178a518a5cbb6e7edb54fdbf26271b91dd97a616abc39fec67b90c82a39baa8",
+    "bytes": 75660,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "ERU_contract_B.html",
+    "url": "https://eru.gov.cz/co-je-smlouva-typu-b-jak-se-odlisuje-zejmena-od-smlouvy-typu-e-ss-5-odst-1-pism-b-vyhlasky",
+    "sha256": "60e1c7b9a627c55390b886a78e696ad4ae69d66fa27b64a13acf2120c894b6a4",
+    "bytes": 69324,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "ERU_commodity_mean.html",
+    "url": "https://eru.gov.cz/jak-mame-vypocitat-ukazatel-obchodnislozkacenyprumer",
+    "sha256": "067760c8713569d051f4807b6a5e168b345f14950a2ac160df939b31319ac07b",
+    "bytes": 66709,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "ERU_fixed_mean.html",
+    "url": "https://eru.gov.cz/jak-mame-vypocitat-ukazatel-stalyplatprumer",
+    "sha256": "ac64bd0c3650cf3f27b91b18fe53e462eada26bb5bd7c000617b7dad60ab9713",
+    "bytes": 66605,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "ERU_joint_building_population.html",
+    "url": "https://eru.gov.cz/mame-zapocitavat-mezi-konecne-spotrebitele-nebo-podnikajici-fyzicke-osoby-z-pohledu-monitorovaci",
+    "sha256": "35c4a498bb74a4b587b400497d7f6dbe4faa29d8ce1e75ad00d455793cf178d0",
+    "bytes": 67754,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  },
+  {
+    "file": "ERU_exemptions.html",
+    "url": "https://eru.gov.cz/jake-subjekty-proc-jsou-osvobozeny-od-povinnosti-predkladat-informace-podle-monitorovaci-vyhlasky",
+    "sha256": "f9b6119a49b318a1aec2d2d23d9e4a968936fb4a5aee5e347ae58503b08ba39e",
+    "bytes": 69006,
+    "retrieved_at": "2026-09-15",
+    "vintage_status": "retrieval_snapshot_not_archived_publication_vintage"
+  }
+]

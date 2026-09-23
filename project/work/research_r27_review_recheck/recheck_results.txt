@@ -1,0 +1,18 @@
+M00_control_unmodified.py	SURVIVED	11 passed in 0.23s
+M01_drop_trend.py	killed	1 failed, 10 passed in 0.29s
+M02_flip_sign_of_correction.py	killed	1 failed, 10 passed in 0.27s
+M03_decay_steps_minus_1.py	killed	1 failed, 10 passed in 0.27s
+M04_apply_h1_to_h12.py	killed	2 failed, 9 passed in 0.27s
+M05_ignore_publication_mask.py	killed	1 failed, 10 passed in 0.27s
+M06_uncentred_gap.py	killed	1 failed, 10 passed in 0.26s
+M07_clip_at_minus_050.py	killed	1 failed, 10 passed in 0.26s
+M08_gap_at_origin_minus_2.py	killed	1 failed, 10 passed in 0.26s
+M09_no_clip_at_all.py	killed	2 failed, 9 passed in 0.26s
+M10_speed_on_contemporaneous_gap.py	killed	6 failed, 5 passed in 0.27s
+M11_no_minimum_window.py	killed	1 failed, 10 passed in 0.26s
+M12_positive_alpha_allowed.py	killed	1 failed, 10 passed in 0.27s
+M13_no_decay_constant_correction.py	killed	1 failed, 10 passed in 0.27s
+M14_centre_by_window_mean_not_month.py	killed	2 failed, 9 passed in 0.27s
+M15_window_97_months.py	killed	1 failed, 10 passed in 0.28s
+M16_last_common_month_is_last_food_month.py	killed	1 failed, 10 passed in 0.27s
+M99_sabotage_correction_raises.py	killed	3 failed, 8 passed in 0.28s

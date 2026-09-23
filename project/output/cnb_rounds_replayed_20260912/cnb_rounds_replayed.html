@@ -1,0 +1,620 @@
+<title>CNB Rounds Replayed</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root {
+  color-scheme: light;
+  --ground: #F2F4F6;
+  --surface: #FFFFFF;
+  --ink: #15202C;
+  --ink-soft: #3A4654;
+  --muted: #647183;
+  --rule: #D5DBE2;
+  --grid: #E8ECF1;
+  --band: #E4ECF4;
+  --band-edge: #B9C8D8;
+  --cnb: #C2132F;
+  --realised: #15202C;
+  --s-bridge: #1F5DB4;
+  --s-local: #0E8378;
+  --s-pipeline: #3FA394;
+  --s-longcore: #4D7383;
+  --s-longgap: #8298A3;
+  --s-f1b: #7A4DB0;
+  --s-f2: #A688D4;
+  --s-tvw3: #D4700C;
+  --s-qrfmean: #E09F45;
+  --chip-off: #E9EDF1;
+  --focus: #1F5DB4;
+  --tip-bg: #15202C;
+  --tip-ink: #F2F4F6;
+  --font-display: "Barlow Semi Condensed", "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #0E1318;
+    --surface: #151C24;
+    --ink: #E6EBF1;
+    --ink-soft: #C3CCD6;
+    --muted: #8E9AA8;
+    --rule: #2A3440;
+    --grid: #1E2731;
+    --band: #1A2530;
+    --band-edge: #36485A;
+    --cnb: #FF5B72;
+    --realised: #E6EBF1;
+    --s-bridge: #6FA6FF;
+    --s-local: #3CC3B2;
+    --s-pipeline: #7FD8CB;
+    --s-longcore: #7FA3B3;
+    --s-longgap: #A7B8C1;
+    --s-f1b: #B596EA;
+    --s-f2: #D2BEF2;
+    --s-tvw3: #FF9E3D;
+    --s-qrfmean: #F2C27E;
+    --chip-off: #1B232C;
+    --focus: #6FA6FF;
+    --tip-bg: #E6EBF1;
+    --tip-ink: #0E1318;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0E1318;
+  --surface: #151C24;
+  --ink: #E6EBF1;
+  --ink-soft: #C3CCD6;
+  --muted: #8E9AA8;
+  --rule: #2A3440;
+  --grid: #1E2731;
+  --band: #1A2530;
+  --band-edge: #36485A;
+  --cnb: #FF5B72;
+  --realised: #E6EBF1;
+  --s-bridge: #6FA6FF;
+  --s-local: #3CC3B2;
+  --s-pipeline: #7FD8CB;
+  --s-longcore: #7FA3B3;
+  --s-longgap: #A7B8C1;
+  --s-f1b: #B596EA;
+  --s-f2: #D2BEF2;
+  --s-tvw3: #FF9E3D;
+  --s-qrfmean: #F2C27E;
+  --chip-off: #1B232C;
+  --focus: #6FA6FF;
+  --tip-bg: #E6EBF1;
+  --tip-ink: #0E1318;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.page {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 36px 28px 72px;
+  display: grid;
+  gap: 26px;
+}
+.eyebrow {
+  font-family: var(--font-data);
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.masthead { display: grid; gap: 12px; }
+h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(34px, 5vw, 50px);
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+  margin: 0;
+  text-wrap: balance;
+}
+.lede {
+  max-width: 66ch;
+  margin: 0;
+  font-size: 16.5px;
+  color: var(--ink-soft);
+}
+.key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+}
+.key span { display: inline-flex; align-items: center; gap: 8px; }
+.key svg { flex: none; }
+
+.switchboard {
+  display: grid;
+  gap: 10px;
+  padding: 12px 0 14px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  background: var(--ground);
+  z-index: 5;
+}
+@media (min-width: 900px) {
+  .switchboard { position: sticky; top: 0; }
+}
+.switch-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.actions { display: flex; gap: 14px; }
+.textbtn {
+  font: 600 13px/1 var(--font-body);
+  color: var(--ink-soft);
+  background: none;
+  border: 0;
+  padding: 4px 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 4px;
+}
+.textbtn:hover { text-decoration-color: var(--ink-soft); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  font: 500 13.5px/1 var(--font-body);
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 7px 12px 7px 9px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.chip:hover { border-color: var(--muted); }
+.chip[aria-pressed="false"] { background: var(--chip-off); color: var(--muted); }
+.chip[aria-pressed="false"] svg { opacity: 0.3; }
+.chip:focus-visible, .textbtn:focus-visible, .method summary:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.rounds {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr));
+  gap: 22px;
+}
+.year {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding-top: 10px;
+}
+.year h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1;
+  margin: 0;
+}
+.year .count { font-family: var(--font-data); font-size: 12px; color: var(--muted); }
+
+.plate {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 18px 18px 16px;
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+.plate header { display: grid; gap: 3px; }
+.plate h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.1;
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.plate h3 .cs {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+  color: var(--muted);
+}
+.meta {
+  font-size: 13px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.meta b { font-weight: 600; color: var(--ink-soft); }
+
+.chart { position: relative; }
+.chart svg { display: block; width: 100%; height: auto; touch-action: pan-y; }
+.chart .tick {
+  font-family: var(--font-data);
+  font-size: 10px;
+  fill: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background: var(--tip-bg);
+  color: var(--tip-ink);
+  font: 12px/1.4 var(--font-data);
+  padding: 8px 10px;
+  border-radius: 6px;
+  min-width: 190px;
+  box-shadow: 0 6px 20px rgba(8, 16, 26, 0.22);
+  display: grid;
+  gap: 2px;
+  font-variant-numeric: tabular-nums;
+}
+.tip-head { font-weight: 500; margin-bottom: 3px; }
+.tip .row { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto; gap: 7px; align-items: center; }
+.tip .sw { width: 12px; height: 3px; border-radius: 2px; }
+.tip em { font-style: normal; opacity: 0.7; }
+.tip-sub { margin-top: 5px; padding-top: 5px; border-top: 1px solid var(--muted); }
+.tip-note { opacity: 0.7; }
+
+.score {
+  display: grid;
+  gap: 8px;
+  border-top: 1px solid var(--grid);
+  padding-top: 10px;
+}
+.caption { margin: 0; font-size: 12.5px; color: var(--muted); }
+.misses {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 20px;
+}
+@media (max-width: 640px) {
+  .misses { grid-template-columns: 1fr; }
+}
+.misses li {
+  display: grid;
+  grid-template-columns: 12px minmax(0, 1fr) 56px 36px;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+.misses .sw { width: 12px; height: 3px; border-radius: 2px; }
+.misses .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.misses .bar { height: 6px; border-radius: 3px; background: var(--grid); overflow: hidden; }
+.misses .bar i { display: block; height: 100%; border-radius: 3px; }
+.misses .val { text-align: right; font-family: var(--font-data); font-size: 12px; font-variant-numeric: tabular-nums; }
+.misses .best .name, .misses .best .val { color: var(--ink); font-weight: 600; }
+
+.method {
+  border-top: 1px solid var(--rule);
+  padding-top: 14px;
+  color: var(--ink-soft);
+}
+.method summary {
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--ink);
+}
+.method-body { display: grid; gap: 10px; max-width: 72ch; padding-top: 10px; font-size: 14.5px; }
+.method-body p { margin: 0; }
+.method code { font-family: var(--font-data); font-size: 12.5px; }
+</style>
+
+<div class="page">
+  <header class="masthead">
+    <div class="eyebrow" id="eyebrow">Czech CPI · CNB Monetary Policy Reports</div>
+    <h1>CNB Rounds Replayed</h1>
+    <p class="lede">Each panel freezes one CNB report. The red points are the bank's forecast of quarterly average inflation, out to the last quarter in that report. The coloured lines are our models' twelve-month paths from their last run before the report came out, and the dark line is inflation as it actually came in.</p>
+    <div class="key" aria-label="How to read the charts">
+      <span><svg width="26" height="12" aria-hidden="true"><rect x="0" y="2" width="26" height="8" style="fill:var(--band)"/><line x1="0" y1="6" x2="26" y2="6" style="stroke:var(--band-edge);stroke-dasharray:3 3"/></svg>CNB target, 2 % ± 1 pp</span>
+      <span><svg width="26" height="12" aria-hidden="true"><line x1="1" y1="6" x2="25" y2="6" style="stroke:var(--cnb);stroke-width:3;opacity:0.35"/><circle cx="13" cy="6" r="3.3" style="fill:var(--cnb)"/></svg>CNB forecast: quarterly average, bar spans its three months</span>
+      <span><svg width="26" height="12" aria-hidden="true"><circle cx="13" cy="6" r="3.4" style="fill:var(--surface);stroke:var(--realised);stroke-width:1.3"/></svg>Realised quarterly average</span>
+      <span><svg width="26" height="12" aria-hidden="true"><line x1="2" y1="6" x2="24" y2="6" style="stroke:var(--s-bridge);stroke-width:2"/><circle cx="13" cy="6" r="3.2" style="fill:var(--s-bridge);stroke:var(--surface);stroke-width:1.1"/></svg>Model quarterly average, in the model's colour</span>
+      <span><svg width="26" height="12" aria-hidden="true"><line x1="13" y1="0" x2="13" y2="12" style="stroke:var(--ink);stroke-dasharray:1.5 2.5"/></svg>Report published</span>
+    </div>
+  </header>
+
+  <section class="switchboard" aria-label="Series shown on every chart">
+    <div class="switch-head">
+      <span class="eyebrow">Series on every chart</span>
+      <span class="actions">
+        <button type="button" class="textbtn" data-action="all">Show all</button>
+        <button type="button" class="textbtn" data-action="default">Reset</button>
+      </span>
+    </div>
+    <div class="chips" id="chips"></div>
+  </section>
+
+  <main class="rounds" id="rounds"></main>
+
+  <details class="method">
+    <summary>How these panels are built</summary>
+    <div class="method-body" id="method"></div>
+  </details>
+</div>
+
+<script>
+(() => {
+  const DATA = {"series": [{"id": "realised", "label": "Realised CPI inflation", "short": "Realised", "kind": "realised", "color": "--realised", "width": 2.4, "dash": "", "default": true}, {"id": "cnb", "label": "CNB forecast", "short": "CNB", "kind": "cnb", "color": "--cnb", "width": 1.5, "dash": "", "default": true}, {"id": "INDEPENDENT_BRIDGE", "label": "Component bridge", "short": "Component bridge", "kind": "model", "color": "--s-bridge", "width": 2.2, "dash": "", "default": true, "source": "board"}, {"id": "STABLE_LOCAL_CORE_R14B", "label": "Bridge · current core", "short": "Bridge · current core", "kind": "model", "color": "--s-local", "width": 1.6, "dash": "", "default": true, "source": "board"}, {"id": "STABLE_PIPELINE_R14B", "label": "Bridge · cost-chain food", "short": "Bridge · cost-chain food", "kind": "model", "color": "--s-pipeline", "width": 1.6, "dash": "6 3", "default": true, "source": "board"}, {"id": "STABLE_LONG_CORE_R14B", "label": "Bridge · long-run core level", "short": "Bridge · long-run core level", "kind": "model", "color": "--s-longcore", "width": 1.4, "dash": "2 3", "default": false, "source": "board"}, {"id": "STABLE_LONG_GAP_R14B", "label": "Bridge · long-run core gap", "short": "Bridge · long-run core gap", "kind": "model", "color": "--s-longgap", "width": 1.4, "dash": "8 3 2 3", "default": false, "source": "board"}, {"id": "F1b", "label": "Earlier component engine", "short": "Earlier component engine", "kind": "model", "color": "--s-f1b", "width": 1.6, "dash": "", "default": true, "source": "step2", "column": "F1b"}, {"id": "F2", "label": "Trend-gap w/ market expectations", "short": "Trend-gap w/ expectations", "kind": "model", "color": "--s-f2", "width": 1.5, "dash": "6 3", "default": false, "source": "step2", "column": "F2_D1_fixed"}, {"id": "TVWQRF_TVW3_FULLM", "label": "CNB TVW3 w/ nowcast", "short": "CNB TVW3 w/ nowcast", "kind": "model", "color": "--s-tvw3", "width": 1.6, "dash": "", "default": true, "source": "forest", "run_model": "TVW3"}, {"id": "TVWQRF_QRF_MEAN_FULLM", "label": "CNB QRF mean w/ nowcast", "short": "CNB QRF mean w/ nowcast", "kind": "model", "color": "--s-qrfmean", "width": 1.5, "dash": "6 3", "default": false, "source": "forest", "run_model": "QRF_MEAN"}], "realised": {"2020-12": 2.285, "2021-01": 2.162, "2021-02": 2.066, "2021-03": 2.338, "2021-04": 3.063, "2021-05": 2.873, "2021-06": 2.765, "2021-07": 3.375, "2021-08": 4.085, "2021-09": 4.915, "2021-10": 5.798, "2021-11": 5.977, "2021-12": 6.613, "2022-01": 9.877, "2022-02": 11.092, "2022-03": 12.742, "2022-04": 14.161, "2022-05": 15.969, "2022-06": 17.187, "2022-07": 17.526, "2022-08": 17.235, "2022-09": 17.973, "2022-10": 15.093, "2022-11": 16.246, "2022-12": 15.759, "2023-01": 17.496, "2023-02": 16.719, "2023-03": 14.965, "2023-04": 12.711, "2023-05": 11.061, "2023-06": 9.704, "2023-07": 8.772, "2023-08": 8.515, "2023-09": 6.859, "2023-10": 8.498, "2023-11": 7.314, "2023-12": 6.879, "2024-01": 2.322, "2024-02": 1.969, "2024-03": 1.966, "2024-04": 2.853, "2024-05": 2.575, "2024-06": 1.958, "2024-07": 2.151, "2024-08": 2.213, "2024-09": 2.568, "2024-10": 2.836, "2024-11": 2.834, "2024-12": 2.981, "2025-01": 2.804, "2025-02": 2.73, "2025-03": 2.66, "2025-04": 1.849, "2025-05": 2.378, "2025-06": 2.914, "2025-07": 2.697, "2025-08": 2.493, "2025-09": 2.306, "2025-10": 2.495, "2025-11": 2.1, "2025-12": 2.105, "2026-01": 1.623, "2026-02": 1.361, "2026-03": 1.878, "2026-04": 2.464, "2026-05": 2.129, "2026-06": 1.544, "2026-07": 1.73, "2026-08": 1.9}, "reports": [{"id": "2022-winter", "season": "Winter", "season_cs": "zima", "year": 2022, "report_date": "2022-02-10", "cutoff_date": "2022-01-21", "origin": "2021-12", "origin_clock": "2022-01-11 23:59", "window": {"start": "2020-12", "end": "2023-12"}, "cnb": [{"quarter": "2022Q1", "value": 9.637}, {"quarter": "2022Q2", "value": 9.505}, {"quarter": "2022Q3", "value": 8.17}, {"quarter": "2022Q4", "value": 6.627}, {"quarter": "2023Q1", "value": 3.033}, {"quarter": "2023Q2", "value": 2.256}, {"quarter": "2023Q3", "value": 1.993}, {"quarter": "2023Q4", "value": 2.03}], "realised_quarters": [{"quarter": "2022Q1", "value": 11.237}, {"quarter": "2022Q2", "value": 15.772}, {"quarter": "2022Q3", "value": 17.578}, {"quarter": "2022Q4", "value": 15.699}, {"quarter": "2023Q1", "value": 16.393}, {"quarter": "2023Q2", "value": 11.158}, {"quarter": "2023Q3", "value": 8.049}, {"quarter": "2023Q4", "value": 7.564}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2022Q1", 11.177], ["2022Q2", 12.087], ["2022Q3", 11.082], ["2022Q4", 10.125]], "STABLE_LOCAL_CORE_R14B": [["2022Q1", 10.315], ["2022Q2", 10.617], ["2022Q3", 9.739], ["2022Q4", 8.879]], "STABLE_PIPELINE_R14B": [["2022Q1", 11.1], ["2022Q2", 11.858], ["2022Q3", 10.8], ["2022Q4", 9.788]], "STABLE_LONG_CORE_R14B": [["2022Q1", 10.503], ["2022Q2", 10.785], ["2022Q3", 9.498], ["2022Q4", 8.7]], "STABLE_LONG_GAP_R14B": [["2022Q1", 10.563], ["2022Q2", 10.933], ["2022Q3", 9.73], ["2022Q4", 9.018]], "F1b": [["2022Q1", 11.176], ["2022Q2", 11.87], ["2022Q3", 10.664], ["2022Q4", 9.436]], "F2": [["2022Q1", 7.033], ["2022Q2", 6.692], ["2022Q3", 5.364], ["2022Q4", 3.781]], "TVWQRF_TVW3_FULLM": [["2022Q1", 7.073], ["2022Q2", 7.552], ["2022Q3", 6.997], ["2022Q4", 6.175]], "TVWQRF_QRF_MEAN_FULLM": [["2022Q1", 6.819], ["2022Q2", 7.093], ["2022Q3", 6.269], ["2022Q4", 5.158]]}, "paths": {"INDEPENDENT_BRIDGE": [["2021-12", 6.985], ["2022-01", 10.495], ["2022-02", 11.368], ["2022-03", 11.669], ["2022-04", 11.84], ["2022-05", 12.365], ["2022-06", 12.055], ["2022-07", 11.375], ["2022-08", 11.117], ["2022-09", 10.754], ["2022-10", 10.1], ["2022-11", 10.391], ["2022-12", 9.883]], "STABLE_LOCAL_CORE_R14B": [["2021-12", 6.985], ["2022-01", 10.053], ["2022-02", 10.406], ["2022-03", 10.487], ["2022-04", 10.443], ["2022-05", 10.76], ["2022-06", 10.648], ["2022-07", 10.115], ["2022-08", 9.665], ["2022-09", 9.437], ["2022-10", 8.932], ["2022-11", 9.104], ["2022-12", 8.601]], "STABLE_PIPELINE_R14B": [["2021-12", 6.985], ["2022-01", 10.424], ["2022-02", 11.291], ["2022-03", 11.584], ["2022-04", 11.715], ["2022-05", 12.124], ["2022-06", 11.735], ["2022-07", 11.099], ["2022-08", 10.819], ["2022-09", 10.482], ["2022-10", 9.75], ["2022-11", 10.077], ["2022-12", 9.536]], "STABLE_LONG_CORE_R14B": [["2021-12", 6.985], ["2022-01", 10.145], ["2022-02", 10.594], ["2022-03", 10.77], ["2022-04", 10.668], ["2022-05", 10.929], ["2022-06", 10.759], ["2022-07", 10.049], ["2022-08", 9.424], ["2022-09", 9.022], ["2022-10", 8.636], ["2022-11", 8.925], ["2022-12", 8.54]], "STABLE_LONG_GAP_R14B": [["2021-12", 6.985], ["2022-01", 10.174], ["2022-02", 10.654], ["2022-03", 10.861], ["2022-04", 10.788], ["2022-05", 11.077], ["2022-06", 10.935], ["2022-07", 10.253], ["2022-08", 9.656], ["2022-09", 9.282], ["2022-10", 8.925], ["2022-11", 9.243], ["2022-12", 8.887]], "F1b": [["2022-01", 10.517], ["2022-02", 11.381], ["2022-03", 11.63], ["2022-04", 11.702], ["2022-05", 12.149], ["2022-06", 11.759], ["2022-07", 11.03], ["2022-08", 10.713], ["2022-09", 10.25], ["2022-10", 9.505], ["2022-11", 9.714], ["2022-12", 9.09]], "F2": [["2022-01", 7.014], ["2022-02", 7.075], ["2022-03", 7.01], ["2022-04", 6.697], ["2022-05", 6.81], ["2022-06", 6.568], ["2022-07", 5.976], ["2022-08", 5.284], ["2022-09", 4.832], ["2022-10", 4.035], ["2022-11", 3.971], ["2022-12", 3.337]], "TVWQRF_TVW3_FULLM": [["2021-12", 6.985], ["2022-01", 6.46], ["2022-02", 7.214], ["2022-03", 7.544], ["2022-04", 7.396], ["2022-05", 7.625], ["2022-06", 7.635], ["2022-07", 7.25], ["2022-08", 6.796], ["2022-09", 6.944], ["2022-10", 6.06], ["2022-11", 6.507], ["2022-12", 5.957]], "TVWQRF_QRF_MEAN_FULLM": [["2021-12", 6.985], ["2022-01", 6.319], ["2022-02", 6.938], ["2022-03", 7.2], ["2022-04", 6.986], ["2022-05", 7.176], ["2022-06", 7.116], ["2022-07", 6.6], ["2022-08", 6.063], ["2022-09", 6.143], ["2022-10", 5.167], ["2022-11", 5.474], ["2022-12", 4.832]]}, "score": {"quarters": ["2022Q1", "2022Q2", "2022Q3", "2022Q4"], "n": 4, "mae": {"cnb": 6.587, "INDEPENDENT_BRIDGE": 3.954, "STABLE_LOCAL_CORE_R14B": 5.184, "STABLE_PIPELINE_R14B": 4.185, "STABLE_LONG_CORE_R14B": 5.2, "STABLE_LONG_GAP_R14B": 5.01, "F1b": 4.285, "F2": 9.354, "TVWQRF_TVW3_FULLM": 8.122, "TVWQRF_QRF_MEAN_FULLM": 8.737}}}, {"id": "2022-spring", "season": "Spring", "season_cs": "jaro", "year": 2022, "report_date": "2022-05-12", "cutoff_date": "2022-04-22", "origin": "2022-04", "origin_clock": "2022-05-09 23:59", "window": {"start": "2021-04", "end": "2023-12"}, "cnb": [{"quarter": "2022Q2", "value": 14.537}, {"quarter": "2022Q3", "value": 13.865}, {"quarter": "2022Q4", "value": 12.75}, {"quarter": "2023Q1", "value": 7.857}, {"quarter": "2023Q2", "value": 3.786}, {"quarter": "2023Q3", "value": 2.663}, {"quarter": "2023Q4", "value": 2.221}], "realised_quarters": [{"quarter": "2022Q2", "value": 15.772}, {"quarter": "2022Q3", "value": 17.578}, {"quarter": "2022Q4", "value": 15.699}, {"quarter": "2023Q1", "value": 16.393}, {"quarter": "2023Q2", "value": 11.158}, {"quarter": "2023Q3", "value": 8.049}, {"quarter": "2023Q4", "value": 7.564}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2022Q2", 13.642], ["2022Q3", 13.715], ["2022Q4", 13.037], ["2023Q1", 8.378]], "STABLE_LOCAL_CORE_R14B": [["2022Q2", 13.406], ["2022Q3", 13.19], ["2022Q4", 13.021], ["2023Q1", 9.042]], "STABLE_PIPELINE_R14B": [["2022Q2", 13.39], ["2022Q3", 13.164], ["2022Q4", 12.509], ["2023Q1", 7.871]], "STABLE_LONG_CORE_R14B": [["2022Q2", 13.536], ["2022Q3", 13.719], ["2022Q4", 13.867], ["2023Q1", 10.039]], "STABLE_LONG_GAP_R14B": [["2022Q2", 13.614], ["2022Q3", 14.032], ["2022Q4", 14.405], ["2023Q1", 10.764]], "F1b": [["2022Q3", 13.894], ["2022Q4", 13.154], ["2023Q1", 8.306]], "F2": [["2022Q3", 12.119], ["2022Q4", 10.826], ["2023Q1", 6.495]], "TVWQRF_TVW3_FULLM": [["2022Q2", 13.706], ["2022Q3", 14.917], ["2022Q4", 16.088], ["2023Q1", 11.658]], "TVWQRF_QRF_MEAN_FULLM": [["2022Q2", 13.66], ["2022Q3", 14.484], ["2022Q4", 15.516], ["2023Q1", 10.93]]}, "paths": {"INDEPENDENT_BRIDGE": [["2022-04", 12.982], ["2022-05", 13.794], ["2022-06", 14.151], ["2022-07", 13.872], ["2022-08", 13.748], ["2022-09", 13.526], ["2022-10", 13.005], ["2022-11", 13.05], ["2022-12", 13.055], ["2023-01", 9.606], ["2023-02", 8.473], ["2023-03", 7.054], ["2023-04", 6.647]], "STABLE_LOCAL_CORE_R14B": [["2022-04", 12.982], ["2022-05", 13.547], ["2022-06", 13.689], ["2022-07", 13.369], ["2022-08", 13.118], ["2022-09", 13.083], ["2022-10", 12.754], ["2022-11", 13.119], ["2022-12", 13.191], ["2023-01", 9.927], ["2023-02", 9.266], ["2023-03", 7.933], ["2023-04", 7.813]], "STABLE_PIPELINE_R14B": [["2022-04", 12.982], ["2022-05", 13.527], ["2022-06", 13.661], ["2022-07", 13.288], ["2022-08", 13.183], ["2022-09", 13.021], ["2022-10", 12.444], ["2022-11", 12.54], ["2022-12", 12.544], ["2023-01", 9.061], ["2023-02", 7.994], ["2023-03", 6.557], ["2023-04", 6.108]], "STABLE_LONG_CORE_R14B": [["2022-04", 12.982], ["2022-05", 13.677], ["2022-06", 13.948], ["2022-07", 13.758], ["2022-08", 13.647], ["2022-09", 13.751], ["2022-10", 13.561], ["2022-11", 13.965], ["2022-12", 14.074], ["2023-01", 10.82], ["2023-02", 10.266], ["2023-03", 9.032], ["2023-04", 9.022]], "STABLE_LONG_GAP_R14B": [["2022-04", 12.982], ["2022-05", 13.755], ["2022-06", 14.106], ["2022-07", 13.994], ["2022-08", 13.96], ["2022-09", 14.142], ["2022-10", 14.029], ["2022-11", 14.503], ["2022-12", 14.683], ["2023-01", 11.478], ["2023-02", 10.993], ["2023-03", 9.822], ["2023-04", 9.884]], "F1b": [["2022-05", 13.932], ["2022-06", 14.319], ["2022-07", 14.069], ["2022-08", 13.921], ["2022-09", 13.691], ["2022-10", 13.131], ["2022-11", 13.168], ["2022-12", 13.162], ["2023-01", 9.648], ["2023-02", 8.397], ["2023-03", 6.872], ["2023-04", 6.314]], "F2": [["2022-05", 13.37], ["2022-06", 13.222], ["2022-07", 12.684], ["2022-08", 12.034], ["2022-09", 11.638], ["2022-10", 10.873], ["2022-11", 10.888], ["2022-12", 10.717], ["2023-01", 7.647], ["2023-02", 6.657], ["2023-03", 5.18], ["2023-04", 4.645]], "TVWQRF_TVW3_FULLM": [["2022-04", 12.982], ["2022-05", 13.696], ["2022-06", 14.44], ["2022-07", 14.472], ["2022-08", 14.709], ["2022-09", 15.57], ["2022-10", 15.457], ["2022-11", 16.333], ["2022-12", 16.473], ["2023-01", 12.526], ["2023-02", 11.639], ["2023-03", 10.809], ["2023-04", 10.655]], "TVWQRF_QRF_MEAN_FULLM": [["2022-04", 12.982], ["2022-05", 13.701], ["2022-06", 14.296], ["2022-07", 14.148], ["2022-08", 14.309], ["2022-09", 14.996], ["2022-10", 14.912], ["2022-11", 15.763], ["2022-12", 15.874], ["2023-01", 11.841], ["2023-02", 10.925], ["2023-03", 10.024], ["2023-04", 9.794]]}, "score": {"quarters": ["2022Q2", "2022Q3", "2022Q4", "2023Q1"], "n": 4, "mae": {"cnb": 4.109, "INDEPENDENT_BRIDGE": 4.168, "STABLE_LOCAL_CORE_R14B": 4.196, "STABLE_PIPELINE_R14B": 4.627, "STABLE_LONG_CORE_R14B": 3.571, "STABLE_LONG_GAP_R14B": 3.157, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 2.463, "TVWQRF_QRF_MEAN_FULLM": 2.713}}}, {"id": "2022-summer", "season": "Summer", "season_cs": "léto", "year": 2022, "report_date": "2022-08-11", "cutoff_date": "2022-07-22", "origin": "2022-07", "origin_clock": "2022-08-09 23:59", "window": {"start": "2021-07", "end": "2024-12"}, "cnb": [{"quarter": "2022Q3", "value": 19.493}, {"quarter": "2022Q4", "value": 19.656}, {"quarter": "2023Q1", "value": 16.168}, {"quarter": "2023Q2", "value": 11.459}, {"quarter": "2023Q3", "value": 6.262}, {"quarter": "2023Q4", "value": 4.244}, {"quarter": "2024Q1", "value": 2.676}, {"quarter": "2024Q2", "value": 2.126}, {"quarter": "2024Q3", "value": 2.265}, {"quarter": "2024Q4", "value": 2.464}], "realised_quarters": [{"quarter": "2022Q3", "value": 17.578}, {"quarter": "2022Q4", "value": 15.699}, {"quarter": "2023Q1", "value": 16.393}, {"quarter": "2023Q2", "value": 11.158}, {"quarter": "2023Q3", "value": 8.049}, {"quarter": "2023Q4", "value": 7.564}, {"quarter": "2024Q1", "value": 2.086}, {"quarter": "2024Q2", "value": 2.462}, {"quarter": "2024Q3", "value": 2.31}, {"quarter": "2024Q4", "value": 2.884}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2022Q3", 18.181], ["2022Q4", 20.326], ["2023Q1", 18.193], ["2023Q2", 16.855]], "STABLE_LOCAL_CORE_R14B": [["2022Q3", 17.554], ["2022Q4", 17.982], ["2023Q1", 14.334], ["2023Q2", 11.324]], "STABLE_PIPELINE_R14B": [["2022Q3", 17.875], ["2022Q4", 19.506], ["2023Q1", 17.496], ["2023Q2", 15.97]], "STABLE_LONG_CORE_R14B": [["2022Q3", 17.839], ["2022Q4", 19.198], ["2023Q1", 16.487], ["2023Q2", 14.344]], "STABLE_LONG_GAP_R14B": [["2022Q3", 17.935], ["2022Q4", 19.597], ["2023Q1", 17.194], ["2023Q2", 15.338]], "F1b": [["2022Q4", 20.516], ["2023Q1", 18.059], ["2023Q2", 15.728]], "F2": [["2022Q4", 16.47], ["2023Q1", 12.318], ["2023Q2", 8.398]], "TVWQRF_TVW3_FULLM": [["2022Q3", 18.81], ["2022Q4", 21.859], ["2023Q1", 18.667], ["2023Q2", 16.167]], "TVWQRF_QRF_MEAN_FULLM": [["2022Q3", 18.545], ["2022Q4", 20.863], ["2023Q1", 17.278], ["2023Q2", 14.337]]}, "paths": {"INDEPENDENT_BRIDGE": [["2022-07", 17.605], ["2022-08", 18.086], ["2022-09", 18.851], ["2022-10", 19.372], ["2022-11", 20.473], ["2022-12", 21.133], ["2023-01", 18.393], ["2023-02", 18.41], ["2023-03", 17.776], ["2023-04", 17.458], ["2023-05", 16.806], ["2023-06", 16.301], ["2023-07", 15.787]], "STABLE_LOCAL_CORE_R14B": [["2022-07", 17.605], ["2022-08", 17.423], ["2022-09", 17.633], ["2022-10", 17.507], ["2022-11", 18.089], ["2022-12", 18.351], ["2023-01", 15.1], ["2023-02", 14.571], ["2023-03", 13.332], ["2023-04", 12.291], ["2023-05", 11.279], ["2023-06", 10.402], ["2023-07", 9.782]], "STABLE_PIPELINE_R14B": [["2022-07", 17.605], ["2022-08", 17.752], ["2022-09", 18.267], ["2022-10", 18.469], ["2022-11", 19.675], ["2022-12", 20.375], ["2023-01", 17.634], ["2023-02", 17.744], ["2023-03", 17.109], ["2023-04", 16.707], ["2023-05", 15.909], ["2023-06", 15.294], ["2023-07", 14.834]], "STABLE_LONG_CORE_R14B": [["2022-07", 17.605], ["2022-08", 17.708], ["2022-09", 18.204], ["2022-10", 18.364], ["2022-11", 19.304], ["2022-12", 19.927], ["2023-01", 16.979], ["2023-02", 16.73], ["2023-03", 15.753], ["2023-04", 14.974], ["2023-05", 14.3], ["2023-06", 13.759], ["2023-07", 13.481]], "STABLE_LONG_GAP_R14B": [["2022-07", 17.605], ["2022-08", 17.804], ["2022-09", 18.395], ["2022-10", 18.652], ["2022-11", 19.703], ["2022-12", 20.437], ["2023-01", 17.583], ["2023-02", 17.438], ["2023-03", 16.56], ["2023-04", 15.88], ["2023-05", 15.293], ["2023-06", 14.84], ["2023-07", 14.652]], "F1b": [["2022-08", 18.266], ["2022-09", 19.17], ["2022-10", 19.697], ["2022-11", 20.622], ["2022-12", 21.228], ["2023-01", 18.384], ["2023-02", 18.317], ["2023-03", 17.476], ["2023-04", 16.802], ["2023-05", 15.692], ["2023-06", 14.691], ["2023-07", 13.714]], "F2": [["2022-08", 17.253], ["2022-09", 17.025], ["2022-10", 16.376], ["2022-11", 16.537], ["2022-12", 16.497], ["2023-01", 13.4], ["2023-02", 12.491], ["2023-03", 11.064], ["2023-04", 9.646], ["2023-05", 8.326], ["2023-06", 7.222], ["2023-07", 6.405]], "TVWQRF_TVW3_FULLM": [["2022-07", 17.605], ["2022-08", 18.77], ["2022-09", 20.055], ["2022-10", 20.697], ["2022-11", 21.977], ["2022-12", 22.902], ["2023-01", 19.018], ["2023-02", 18.729], ["2023-03", 18.253], ["2023-04", 17.198], ["2023-05", 15.999], ["2023-06", 15.304], ["2023-07", 14.32]], "TVWQRF_QRF_MEAN_FULLM": [["2022-07", 17.605], ["2022-08", 18.434], ["2022-09", 19.597], ["2022-10", 19.87], ["2022-11", 20.95], ["2022-12", 21.769], ["2023-01", 17.791], ["2023-02", 17.353], ["2023-03", 16.691], ["2023-04", 15.52], ["2023-05", 14.169], ["2023-06", 13.322], ["2023-07", 12.232]]}, "score": {"quarters": ["2022Q3", "2022Q4", "2023Q1", "2023Q2"], "n": 4, "mae": {"cnb": 1.599, "INDEPENDENT_BRIDGE": 3.181, "STABLE_LOCAL_CORE_R14B": 1.133, "STABLE_PIPELINE_R14B": 2.504, "STABLE_LONG_CORE_R14B": 1.76, "STABLE_LONG_GAP_R14B": 2.309, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 3.668, "TVWQRF_QRF_MEAN_FULLM": 2.549}}}, {"id": "2022-autumn", "season": "Autumn", "season_cs": "podzim", "year": 2022, "report_date": "2022-11-10", "cutoff_date": "2022-10-21", "origin": "2022-10", "origin_clock": "2022-11-09 23:59", "window": {"start": "2021-10", "end": "2024-12"}, "cnb": [{"quarter": "2022Q4", "value": 18.413}, {"quarter": "2023Q1", "value": 14.867}, {"quarter": "2023Q2", "value": 10.192}, {"quarter": "2023Q3", "value": 6.953}, {"quarter": "2023Q4", "value": 4.232}, {"quarter": "2024Q1", "value": 2.729}, {"quarter": "2024Q2", "value": 2.128}, {"quarter": "2024Q3", "value": 2.16}, {"quarter": "2024Q4", "value": 2.389}], "realised_quarters": [{"quarter": "2022Q4", "value": 15.699}, {"quarter": "2023Q1", "value": 16.393}, {"quarter": "2023Q2", "value": 11.158}, {"quarter": "2023Q3", "value": 8.049}, {"quarter": "2023Q4", "value": 7.564}, {"quarter": "2024Q1", "value": 2.086}, {"quarter": "2024Q2", "value": 2.462}, {"quarter": "2024Q3", "value": 2.31}, {"quarter": "2024Q4", "value": 2.884}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2022Q4", 18.771], ["2023Q1", 15.571], ["2023Q2", 13.824], ["2023Q3", 13.546]], "STABLE_LOCAL_CORE_R14B": [["2022Q4", 18.697], ["2023Q1", 15.063], ["2023Q2", 12.041], ["2023Q3", 10.544]], "STABLE_PIPELINE_R14B": [["2022Q4", 18.698], ["2023Q1", 15.481], ["2023Q2", 13.532], ["2023Q3", 13.191]], "STABLE_LONG_CORE_R14B": [["2022Q4", 18.756], ["2023Q1", 15.393], ["2023Q2", 12.983], ["2023Q3", 12.575]], "STABLE_LONG_GAP_R14B": [["2022Q4", 18.864], ["2023Q1", 15.828], ["2023Q2", 13.778], ["2023Q3", 13.744]], "F1b": [["2023Q1", 15.159], ["2023Q2", 13.241], ["2023Q3", 11.915]], "F2": [["2023Q1", 14.384], ["2023Q2", 10.576], ["2023Q3", 8.449]], "TVWQRF_TVW3_FULLM": [["2022Q4", 19.705], ["2023Q1", 17.377], ["2023Q2", 15.226], ["2023Q3", 14.123]], "TVWQRF_QRF_MEAN_FULLM": [["2022Q4", 19.37], ["2023Q1", 16.434], ["2023Q2", 13.781], ["2023Q3", 12.082]]}, "paths": {"INDEPENDENT_BRIDGE": [["2022-10", 18.149], ["2022-11", 18.897], ["2022-12", 19.268], ["2023-01", 16.163], ["2023-02", 15.762], ["2023-03", 14.789], ["2023-04", 14.267], ["2023-05", 13.783], ["2023-06", 13.423], ["2023-07", 13.4], ["2023-08", 13.825], ["2023-09", 13.412], ["2023-10", 13.545]], "STABLE_LOCAL_CORE_R14B": [["2022-10", 18.149], ["2022-11", 18.838], ["2022-12", 19.103], ["2023-01", 15.832], ["2023-02", 15.301], ["2023-03", 14.056], ["2023-04", 13.011], ["2023-05", 11.996], ["2023-06", 11.117], ["2023-07", 10.647], ["2023-08", 10.798], ["2023-09", 10.188], ["2023-10", 9.822]], "STABLE_PIPELINE_R14B": [["2022-10", 18.149], ["2022-11", 18.848], ["2022-12", 19.097], ["2023-01", 16.018], ["2023-02", 15.703], ["2023-03", 14.722], ["2023-04", 14.112], ["2023-05", 13.478], ["2023-06", 13.007], ["2023-07", 13.055], ["2023-08", 13.44], ["2023-09", 13.079], ["2023-10", 13.134]], "STABLE_LONG_CORE_R14B": [["2022-10", 18.149], ["2022-11", 18.897], ["2022-12", 19.223], ["2023-01", 16.007], ["2023-02", 15.632], ["2023-03", 14.539], ["2023-04", 13.644], ["2023-05", 12.939], ["2023-06", 12.365], ["2023-07", 12.205], ["2023-08", 12.833], ["2023-09", 12.686], ["2023-10", 12.787]], "STABLE_LONG_GAP_R14B": [["2022-10", 18.149], ["2022-11", 19.005], ["2022-12", 19.439], ["2023-01", 16.322], ["2023-02", 16.069], ["2023-03", 15.094], ["2023-04", 14.317], ["2023-05", 13.734], ["2023-06", 13.284], ["2023-07", 13.249], ["2023-08", 14.005], ["2023-09", 13.978], ["2023-10", 14.202]], "F1b": [["2022-11", 18.819], ["2022-12", 19.127], ["2023-01", 15.885], ["2023-02", 15.303], ["2023-03", 14.289], ["2023-04", 13.825], ["2023-05", 13.237], ["2023-06", 12.662], ["2023-07", 12.287], ["2023-08", 12.215], ["2023-09", 11.243], ["2023-10", 10.934]], "F2": [["2022-11", 18.435], ["2022-12", 18.494], ["2023-01", 15.419], ["2023-02", 14.561], ["2023-03", 13.172], ["2023-04", 11.788], ["2023-05", 10.504], ["2023-06", 9.437], ["2023-07", 8.825], ["2023-08", 8.673], ["2023-09", 7.848], ["2023-10", 7.169]], "TVWQRF_TVW3_FULLM": [["2022-10", 18.149], ["2022-11", 19.812], ["2022-12", 21.155], ["2023-01", 17.478], ["2023-02", 17.61], ["2023-03", 17.043], ["2023-04", 16.195], ["2023-05", 15.131], ["2023-06", 14.351], ["2023-07", 13.836], ["2023-08", 14.091], ["2023-09", 14.443], ["2023-10", 14.001]], "TVWQRF_QRF_MEAN_FULLM": [["2022-10", 18.149], ["2022-11", 19.451], ["2022-12", 20.509], ["2023-01", 16.736], ["2023-02", 16.624], ["2023-03", 15.941], ["2023-04", 14.947], ["2023-05", 13.678], ["2023-06", 12.717], ["2023-07", 11.988], ["2023-08", 12.046], ["2023-09", 12.213], ["2023-10", 11.583]]}, "score": {"quarters": ["2022Q4", "2023Q1", "2023Q2", "2023Q3"], "n": 4, "mae": {"cnb": 1.576, "INDEPENDENT_BRIDGE": 3.014, "STABLE_LOCAL_CORE_R14B": 1.927, "STABLE_PIPELINE_R14B": 2.857, "STABLE_LONG_CORE_R14B": 2.602, "STABLE_LONG_GAP_R14B": 3.011, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 3.783, "TVWQRF_QRF_MEAN_FULLM": 2.592}}}, {"id": "2023-winter", "season": "Winter", "season_cs": "zima", "year": 2023, "report_date": "2023-02-09", "cutoff_date": "2023-01-20", "origin": "2022-12", "origin_clock": "2023-01-10 23:59", "window": {"start": "2021-12", "end": "2024-12"}, "cnb": [{"quarter": "2023Q1", "value": 16.308}, {"quarter": "2023Q2", "value": 11.308}, {"quarter": "2023Q3", "value": 7.776}, {"quarter": "2023Q4", "value": 7.623}, {"quarter": "2024Q1", "value": 2.285}, {"quarter": "2024Q2", "value": 1.95}, {"quarter": "2024Q3", "value": 2.064}, {"quarter": "2024Q4", "value": 2.162}], "realised_quarters": [{"quarter": "2023Q1", "value": 16.393}, {"quarter": "2023Q2", "value": 11.158}, {"quarter": "2023Q3", "value": 8.049}, {"quarter": "2023Q4", "value": 7.564}, {"quarter": "2024Q1", "value": 2.086}, {"quarter": "2024Q2", "value": 2.462}, {"quarter": "2024Q3", "value": 2.31}, {"quarter": "2024Q4", "value": 2.884}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2023Q1", 11.356], ["2023Q2", 8.172], ["2023Q3", 5.665], ["2023Q4", 6.829]], "STABLE_LOCAL_CORE_R14B": [["2023Q1", 11.78], ["2023Q2", 8.773], ["2023Q3", 7.204], ["2023Q4", 9.033]], "STABLE_PIPELINE_R14B": [["2023Q1", 11.293], ["2023Q2", 7.934], ["2023Q3", 5.41], ["2023Q4", 6.545]], "STABLE_LONG_CORE_R14B": [["2023Q1", 11.552], ["2023Q2", 8.375], ["2023Q3", 7.128], ["2023Q4", 9.781]], "STABLE_LONG_GAP_R14B": [["2023Q1", 11.755], ["2023Q2", 8.894], ["2023Q3", 7.999], ["2023Q4", 11.047]], "F1b": [["2023Q1", 10.913], ["2023Q2", 6.873], ["2023Q3", 3.703], ["2023Q4", 3.363]], "F2": [["2023Q1", 11.793], ["2023Q2", 8.229], ["2023Q3", 6.295], ["2023Q4", 7.517]], "TVWQRF_TVW3_FULLM": [["2023Q1", 11.145], ["2023Q2", 8.325], ["2023Q3", 7.044], ["2023Q4", 9.009]], "TVWQRF_QRF_MEAN_FULLM": [["2023Q1", 10.908], ["2023Q2", 7.496], ["2023Q3", 5.737], ["2023Q4", 7.209]]}, "paths": {"INDEPENDENT_BRIDGE": [["2022-12", 15.814], ["2023-01", 12.283], ["2023-02", 11.469], ["2023-03", 10.317], ["2023-04", 9.221], ["2023-05", 8.078], ["2023-06", 7.218], ["2023-07", 6.154], ["2023-08", 5.894], ["2023-09", 4.946], ["2023-10", 7.145], ["2023-11", 6.498], ["2023-12", 6.843]], "STABLE_LOCAL_CORE_R14B": [["2022-12", 15.814], ["2023-01", 12.543], ["2023-02", 12.01], ["2023-03", 10.788], ["2023-04", 9.746], ["2023-05", 8.731], ["2023-06", 7.841], ["2023-07", 7.343], ["2023-08", 7.45], ["2023-09", 6.82], ["2023-10", 9.283], ["2023-11", 8.63], ["2023-12", 9.187]], "STABLE_PIPELINE_R14B": [["2022-12", 15.814], ["2023-01", 12.203], ["2023-02", 11.429], ["2023-03", 10.246], ["2023-04", 9.095], ["2023-05", 7.829], ["2023-06", 6.878], ["2023-07", 5.898], ["2023-08", 5.611], ["2023-09", 4.721], ["2023-10", 6.852], ["2023-11", 6.222], ["2023-12", 6.56]], "STABLE_LONG_CORE_R14B": [["2022-12", 15.814], ["2023-01", 12.428], ["2023-02", 11.78], ["2023-03", 10.447], ["2023-04", 9.377], ["2023-05", 8.333], ["2023-06", 7.416], ["2023-07", 7.093], ["2023-08", 7.373], ["2023-09", 6.917], ["2023-10", 9.707], ["2023-11", 9.374], ["2023-12", 10.261]], "STABLE_LONG_GAP_R14B": [["2022-12", 15.814], ["2023-01", 12.53], ["2023-02", 11.985], ["2023-03", 10.75], ["2023-04", 9.789], ["2023-05", 8.852], ["2023-06", 8.04], ["2023-07", 7.84], ["2023-08", 8.247], ["2023-09", 7.911], ["2023-10", 10.85], ["2023-11", 10.636], ["2023-12", 11.656]], "F1b": [["2023-01", 12.04], ["2023-02", 11.096], ["2023-03", 9.603], ["2023-04", 8.084], ["2023-05", 6.714], ["2023-06", 5.821], ["2023-07", 4.585], ["2023-08", 3.964], ["2023-09", 2.559], ["2023-10", 4.186], ["2023-11", 2.975], ["2023-12", 2.928]], "F2": [["2023-01", 12.746], ["2023-02", 11.969], ["2023-03", 10.665], ["2023-04", 9.364], ["2023-05", 8.158], ["2023-06", 7.164], ["2023-07", 6.614], ["2023-08", 6.515], ["2023-09", 5.756], ["2023-10", 7.826], ["2023-11", 7.055], ["2023-12", 7.669]], "TVWQRF_TVW3_FULLM": [["2022-12", 15.814], ["2023-01", 12.055], ["2023-02", 11.149], ["2023-03", 10.23], ["2023-04", 9.221], ["2023-05", 8.261], ["2023-06", 7.494], ["2023-07", 6.776], ["2023-08", 7.315], ["2023-09", 7.041], ["2023-10", 9.358], ["2023-11", 8.589], ["2023-12", 9.081]], "TVWQRF_QRF_MEAN_FULLM": [["2022-12", 15.814], ["2023-01", 11.931], ["2023-02", 10.945], ["2023-03", 9.849], ["2023-04", 8.583], ["2023-05", 7.453], ["2023-06", 6.452], ["2023-07", 5.626], ["2023-08", 5.992], ["2023-09", 5.592], ["2023-10", 7.689], ["2023-11", 6.8], ["2023-12", 7.138]]}, "score": {"quarters": ["2023Q1", "2023Q2", "2023Q3", "2023Q4"], "n": 4, "mae": {"cnb": 0.142, "INDEPENDENT_BRIDGE": 2.786, "STABLE_LOCAL_CORE_R14B": 2.328, "STABLE_PIPELINE_R14B": 2.996, "STABLE_LONG_CORE_R14B": 2.691, "STABLE_LONG_GAP_R14B": 2.609, "F1b": 4.578, "F2": 2.333, "TVWQRF_TVW3_FULLM": 2.633, "TVWQRF_QRF_MEAN_FULLM": 2.954}}}, {"id": "2023-spring", "season": "Spring", "season_cs": "jaro", "year": 2023, "report_date": "2023-05-11", "cutoff_date": "2023-04-21", "origin": "2023-04", "origin_clock": "2023-05-10 23:59", "window": {"start": "2022-04", "end": "2024-12"}, "cnb": [{"quarter": "2023Q2", "value": 11.637}, {"quarter": "2023Q3", "value": 8.323}, {"quarter": "2023Q4", "value": 8.333}, {"quarter": "2024Q1", "value": 2.502}, {"quarter": "2024Q2", "value": 2.101}, {"quarter": "2024Q3", "value": 1.973}, {"quarter": "2024Q4", "value": 1.813}], "realised_quarters": [{"quarter": "2023Q2", "value": 11.158}, {"quarter": "2023Q3", "value": 8.049}, {"quarter": "2023Q4", "value": 7.564}, {"quarter": "2024Q1", "value": 2.086}, {"quarter": "2024Q2", "value": 2.462}, {"quarter": "2024Q3", "value": 2.31}, {"quarter": "2024Q4", "value": 2.884}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2023Q2", 12.192], ["2023Q3", 9.556], ["2023Q4", 10.517], ["2024Q1", 5.589]], "STABLE_LOCAL_CORE_R14B": [["2023Q2", 12.388], ["2023Q3", 10.375], ["2023Q4", 11.925], ["2024Q1", 7.257]], "STABLE_PIPELINE_R14B": [["2023Q2", 12.101], ["2023Q3", 9.356], ["2023Q4", 10.234], ["2024Q1", 5.169]], "STABLE_LONG_CORE_R14B": [["2023Q2", 12.173], ["2023Q3", 9.552], ["2023Q4", 10.636], ["2024Q1", 5.924]], "STABLE_LONG_GAP_R14B": [["2023Q2", 12.248], ["2023Q3", 9.86], ["2023Q4", 11.205], ["2024Q1", 6.73]], "F1b": [["2023Q3", 9.376], ["2023Q4", 10.033], ["2024Q1", 4.65]], "F2": [["2023Q3", 9.088], ["2023Q4", 9.344], ["2024Q1", 4.421]], "TVWQRF_TVW3_FULLM": [["2023Q2", 12.223], ["2023Q3", 10.466], ["2023Q4", 12.674], ["2024Q1", 7.708]], "TVWQRF_QRF_MEAN_FULLM": [["2023Q2", 12.259], ["2023Q3", 10.377], ["2023Q4", 12.491], ["2024Q1", 7.48]]}, "paths": {"INDEPENDENT_BRIDGE": [["2023-04", 13.577], ["2023-05", 12.165], ["2023-06", 10.833], ["2023-07", 10.037], ["2023-08", 9.847], ["2023-09", 8.783], ["2023-10", 11.088], ["2023-11", 10.109], ["2023-12", 10.354], ["2024-01", 5.569], ["2024-02", 5.491], ["2024-03", 5.707], ["2024-04", 5.951]], "STABLE_LOCAL_CORE_R14B": [["2023-04", 13.577], ["2023-05", 12.318], ["2023-06", 11.27], ["2023-07", 10.636], ["2023-08", 10.626], ["2023-09", 9.864], ["2023-10", 12.278], ["2023-11", 11.505], ["2023-12", 11.993], ["2024-01", 7.142], ["2024-02", 7.177], ["2024-03", 7.451], ["2024-04", 7.613]], "STABLE_PIPELINE_R14B": [["2023-04", 13.577], ["2023-05", 12.045], ["2023-06", 10.682], ["2023-07", 9.866], ["2023-08", 9.617], ["2023-09", 8.585], ["2023-10", 10.798], ["2023-11", 9.821], ["2023-12", 10.082], ["2024-01", 5.181], ["2024-02", 5.071], ["2024-03", 5.255], ["2024-04", 5.398]], "STABLE_LONG_CORE_R14B": [["2023-04", 13.577], ["2023-05", 12.101], ["2023-06", 10.841], ["2023-07", 9.995], ["2023-08", 9.8], ["2023-09", 8.86], ["2023-10", 11.064], ["2023-11", 10.22], ["2023-12", 10.623], ["2024-01", 5.756], ["2024-02", 5.846], ["2024-03", 6.171], ["2024-04", 6.386]], "STABLE_LONG_GAP_R14B": [["2023-04", 13.577], ["2023-05", 12.177], ["2023-06", 10.991], ["2023-07", 10.22], ["2023-08", 10.109], ["2023-09", 9.251], ["2023-10", 11.548], ["2023-11", 10.787], ["2023-12", 11.28], ["2024-01", 6.467], ["2024-02", 6.651], ["2024-03", 7.073], ["2024-04", 7.383]], "F1b": [["2023-05", 12.062], ["2023-06", 10.651], ["2023-07", 9.875], ["2023-08", 9.701], ["2023-09", 8.553], ["2023-10", 10.73], ["2023-11", 9.631], ["2023-12", 9.737], ["2024-01", 4.815], ["2024-02", 4.542], ["2024-03", 4.594], ["2024-04", 4.609]], "F2": [["2023-05", 11.977], ["2023-06", 10.624], ["2023-07", 9.736], ["2023-08", 9.313], ["2023-09", 8.216], ["2023-10", 10.012], ["2023-11", 8.907], ["2023-12", 9.112], ["2024-01", 4.625], ["2024-02", 4.293], ["2024-03", 4.344], ["2024-04", 4.089]], "TVWQRF_TVW3_FULLM": [["2023-04", 13.577], ["2023-05", 12.148], ["2023-06", 10.944], ["2023-07", 10.304], ["2023-08", 10.529], ["2023-09", 10.564], ["2023-10", 12.725], ["2023-11", 12.131], ["2023-12", 13.165], ["2024-01", 7.405], ["2024-02", 7.719], ["2024-03", 8.0], ["2024-04", 7.933]], "TVWQRF_QRF_MEAN_FULLM": [["2023-04", 13.577], ["2023-05", 12.191], ["2023-06", 11.008], ["2023-07", 10.283], ["2023-08", 10.396], ["2023-09", 10.451], ["2023-10", 12.532], ["2023-11", 11.973], ["2023-12", 12.969], ["2024-01", 7.203], ["2024-02", 7.497], ["2024-03", 7.739], ["2024-04", 7.595]]}, "score": {"quarters": ["2023Q2", "2023Q3", "2023Q4", "2024Q1"], "n": 4, "mae": {"cnb": 0.484, "INDEPENDENT_BRIDGE": 2.249, "STABLE_LOCAL_CORE_R14B": 3.272, "STABLE_PIPELINE_R14B": 2.001, "STABLE_LONG_CORE_R14B": 2.357, "STABLE_LONG_GAP_R14B": 2.797, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 3.553, "TVWQRF_QRF_MEAN_FULLM": 3.437}}}, {"id": "2023-summer", "season": "Summer", "season_cs": "léto", "year": 2023, "report_date": "2023-08-10", "cutoff_date": "2023-07-21", "origin": "2023-07", "origin_clock": "2023-08-09 23:59", "window": {"start": "2022-07", "end": "2025-12"}, "cnb": [{"quarter": "2023Q3", "value": 8.187}, {"quarter": "2023Q4", "value": 8.189}, {"quarter": "2024Q1", "value": 2.549}, {"quarter": "2024Q2", "value": 2.348}, {"quarter": "2024Q3", "value": 1.871}, {"quarter": "2024Q4", "value": 1.785}, {"quarter": "2025Q1", "value": 1.574}, {"quarter": "2025Q2", "value": 1.59}, {"quarter": "2025Q3", "value": 1.815}, {"quarter": "2025Q4", "value": 1.954}], "realised_quarters": [{"quarter": "2023Q3", "value": 8.049}, {"quarter": "2023Q4", "value": 7.564}, {"quarter": "2024Q1", "value": 2.086}, {"quarter": "2024Q2", "value": 2.462}, {"quarter": "2024Q3", "value": 2.31}, {"quarter": "2024Q4", "value": 2.884}, {"quarter": "2025Q1", "value": 2.731}, {"quarter": "2025Q2", "value": 2.38}, {"quarter": "2025Q3", "value": 2.499}, {"quarter": "2025Q4", "value": 2.233}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2023Q3", 7.951], ["2023Q4", 8.179], ["2024Q1", 2.819], ["2024Q2", 3.463]], "STABLE_LOCAL_CORE_R14B": [["2023Q3", 8.238], ["2023Q4", 9.145], ["2024Q1", 4.047], ["2024Q2", 4.975]], "STABLE_PIPELINE_R14B": [["2023Q3", 8.063], ["2023Q4", 8.321], ["2024Q1", 2.759], ["2024Q2", 3.151]], "STABLE_LONG_CORE_R14B": [["2023Q3", 8.044], ["2023Q4", 8.379], ["2024Q1", 2.9], ["2024Q2", 3.64]], "STABLE_LONG_GAP_R14B": [["2023Q3", 8.095], ["2023Q4", 8.6], ["2024Q1", 3.301], ["2024Q2", 4.244]], "F1b": [["2023Q4", 8.131], ["2024Q1", 2.817], ["2024Q2", 3.37]], "F2": [["2023Q4", 8.033], ["2024Q1", 3.002], ["2024Q2", 3.316]], "TVWQRF_TVW3_FULLM": [["2023Q3", 8.18], ["2023Q4", 8.493], ["2024Q1", 2.201], ["2024Q2", 2.76]], "TVWQRF_QRF_MEAN_FULLM": [["2023Q3", 8.343], ["2023Q4", 9.276], ["2024Q1", 3.614], ["2024Q2", 4.544]]}, "paths": {"INDEPENDENT_BRIDGE": [["2023-07", 8.678], ["2023-08", 8.238], ["2023-09", 6.937], ["2023-10", 8.946], ["2023-11", 7.771], ["2023-12", 7.821], ["2024-01", 3.007], ["2024-02", 2.732], ["2024-03", 2.717], ["2024-04", 3.312], ["2024-05", 3.47], ["2024-06", 3.608], ["2024-07", 3.83]], "STABLE_LOCAL_CORE_R14B": [["2023-07", 8.678], ["2023-08", 8.5], ["2023-09", 7.536], ["2023-10", 9.688], ["2023-11", 8.733], ["2023-12", 9.014], ["2024-01", 4.111], ["2024-02", 3.969], ["2024-03", 4.06], ["2024-04", 4.736], ["2024-05", 5.021], ["2024-06", 5.167], ["2024-07", 5.397]], "STABLE_PIPELINE_R14B": [["2023-07", 8.678], ["2023-08", 8.334], ["2023-09", 7.177], ["2023-10", 9.109], ["2023-11", 7.905], ["2023-12", 7.95], ["2024-01", 2.99], ["2024-02", 2.671], ["2024-03", 2.616], ["2024-04", 3.128], ["2024-05", 3.147], ["2024-06", 3.177], ["2024-07", 3.454]], "STABLE_LONG_CORE_R14B": [["2023-07", 8.678], ["2023-08", 8.305], ["2023-09", 7.15], ["2023-10", 9.098], ["2023-11", 7.97], ["2023-12", 8.07], ["2024-01", 3.04], ["2024-02", 2.823], ["2024-03", 2.837], ["2024-04", 3.428], ["2024-05", 3.686], ["2024-06", 3.807], ["2024-07", 4.011]], "STABLE_LONG_GAP_R14B": [["2023-07", 8.678], ["2023-08", 8.356], ["2023-09", 7.252], ["2023-10", 9.254], ["2023-11", 8.189], ["2023-12", 8.356], ["2024-01", 3.375], ["2024-02", 3.224], ["2024-03", 3.305], ["2024-04", 3.966], ["2024-05", 4.29], ["2024-06", 4.476], ["2024-07", 4.747]], "F1b": [["2023-08", 8.184], ["2023-09", 6.856], ["2023-10", 8.863], ["2023-11", 7.723], ["2023-12", 7.806], ["2024-01", 3.015], ["2024-02", 2.74], ["2024-03", 2.695], ["2024-04", 3.256], ["2024-05", 3.381], ["2024-06", 3.472], ["2024-07", 3.596]], "F2": [["2023-08", 8.18], ["2023-09", 7.036], ["2023-10", 8.753], ["2023-11", 7.602], ["2023-12", 7.745], ["2024-01", 3.26], ["2024-02", 2.876], ["2024-03", 2.87], ["2024-04", 3.316], ["2024-05", 3.335], ["2024-06", 3.296], ["2024-07", 3.398]], "TVWQRF_TVW3_FULLM": [["2023-07", 8.678], ["2023-08", 8.29], ["2023-09", 7.572], ["2023-10", 9.293], ["2023-11", 8.002], ["2023-12", 8.183], ["2024-01", 2.35], ["2024-02", 1.932], ["2024-03", 2.321], ["2024-04", 2.765], ["2024-05", 2.795], ["2024-06", 2.721], ["2024-07", 2.555]], "TVWQRF_QRF_MEAN_FULLM": [["2023-07", 8.678], ["2023-08", 8.458], ["2023-09", 7.894], ["2023-10", 9.743], ["2023-11", 8.728], ["2023-12", 9.357], ["2024-01", 3.624], ["2024-02", 3.356], ["2024-03", 3.861], ["2024-04", 4.411], ["2024-05", 4.636], ["2024-06", 4.585], ["2024-07", 4.389]]}, "score": {"quarters": ["2023Q3", "2023Q4", "2024Q1", "2024Q2"], "n": 4, "mae": {"cnb": 0.335, "INDEPENDENT_BRIDGE": 0.612, "STABLE_LOCAL_CORE_R14B": 1.561, "STABLE_PIPELINE_R14B": 0.533, "STABLE_LONG_CORE_R14B": 0.703, "STABLE_LONG_GAP_R14B": 1.02, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 0.368, "TVWQRF_QRF_MEAN_FULLM": 1.404}}}, {"id": "2023-autumn", "season": "Autumn", "season_cs": "podzim", "year": 2023, "report_date": "2023-11-09", "cutoff_date": "2023-10-20", "origin": "2023-09", "origin_clock": "2023-10-09 23:59", "window": {"start": "2022-09", "end": "2025-12"}, "cnb": [{"quarter": "2023Q4", "value": 7.487}, {"quarter": "2024Q1", "value": 2.724}, {"quarter": "2024Q2", "value": 2.601}, {"quarter": "2024Q3", "value": 2.236}, {"quarter": "2024Q4", "value": 2.751}, {"quarter": "2025Q1", "value": 1.847}, {"quarter": "2025Q2", "value": 1.973}, {"quarter": "2025Q3", "value": 2.224}, {"quarter": "2025Q4", "value": 2.297}], "realised_quarters": [{"quarter": "2023Q4", "value": 7.564}, {"quarter": "2024Q1", "value": 2.086}, {"quarter": "2024Q2", "value": 2.462}, {"quarter": "2024Q3", "value": 2.31}, {"quarter": "2024Q4", "value": 2.884}, {"quarter": "2025Q1", "value": 2.731}, {"quarter": "2025Q2", "value": 2.38}, {"quarter": "2025Q3", "value": 2.499}, {"quarter": "2025Q4", "value": 2.233}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2023Q4", 8.629], ["2024Q1", 3.176], ["2024Q2", 3.917], ["2024Q3", 3.958]], "STABLE_LOCAL_CORE_R14B": [["2023Q4", 8.861], ["2024Q1", 3.539], ["2024Q2", 4.251], ["2024Q3", 4.491]], "STABLE_PIPELINE_R14B": [["2023Q4", 8.755], ["2024Q1", 3.178], ["2024Q2", 3.639], ["2024Q3", 3.541]], "STABLE_LONG_CORE_R14B": [["2023Q4", 8.704], ["2024Q1", 3.138], ["2024Q2", 3.755], ["2024Q3", 4.046]], "STABLE_LONG_GAP_R14B": [["2023Q4", 8.835], ["2024Q1", 3.455], ["2024Q2", 4.276], ["2024Q3", 4.768]], "F1b": [["2023Q4", 8.601], ["2024Q1", 3.307], ["2024Q2", 4.262], ["2024Q3", 4.502]], "F2": [["2023Q4", 8.315], ["2024Q1", 3.169], ["2024Q2", 3.381], ["2024Q3", 3.114]], "TVWQRF_TVW3_FULLM": [["2023Q4", 8.49], ["2024Q1", 2.058], ["2024Q2", 2.479], ["2024Q3", 2.418]], "TVWQRF_QRF_MEAN_FULLM": [["2023Q4", 8.794], ["2024Q1", 3.234], ["2024Q2", 4.343], ["2024Q3", 4.826]]}, "paths": {"INDEPENDENT_BRIDGE": [["2023-09", 7.385], ["2023-10", 9.391], ["2023-11", 8.239], ["2023-12", 8.258], ["2024-01", 3.349], ["2024-02", 3.039], ["2024-03", 3.141], ["2024-04", 3.77], ["2024-05", 3.964], ["2024-06", 4.017], ["2024-07", 3.95], ["2024-08", 3.872], ["2024-09", 4.051]], "STABLE_LOCAL_CORE_R14B": [["2023-09", 7.385], ["2023-10", 9.493], ["2023-11", 8.448], ["2023-12", 8.642], ["2024-01", 3.678], ["2024-02", 3.46], ["2024-03", 3.48], ["2024-04", 4.082], ["2024-05", 4.297], ["2024-06", 4.375], ["2024-07", 4.444], ["2024-08", 4.438], ["2024-09", 4.592]], "STABLE_PIPELINE_R14B": [["2023-09", 7.385], ["2023-10", 9.45], ["2023-11", 8.331], ["2023-12", 8.485], ["2024-01", 3.407], ["2024-02", 3.038], ["2024-03", 3.089], ["2024-04", 3.627], ["2024-05", 3.674], ["2024-06", 3.615], ["2024-07", 3.541], ["2024-08", 3.433], ["2024-09", 3.649]], "STABLE_LONG_CORE_R14B": [["2023-09", 7.385], ["2023-10", 9.414], ["2023-11", 8.291], ["2023-12", 8.407], ["2024-01", 3.365], ["2024-02", 3.059], ["2024-03", 2.99], ["2024-04", 3.588], ["2024-05", 3.801], ["2024-06", 3.877], ["2024-07", 3.972], ["2024-08", 3.993], ["2024-09", 4.173]], "STABLE_LONG_GAP_R14B": [["2023-09", 7.385], ["2023-10", 9.48], ["2023-11", 8.422], ["2023-12", 8.604], ["2024-01", 3.617], ["2024-02", 3.376], ["2024-03", 3.372], ["2024-04", 4.04], ["2024-05", 4.322], ["2024-06", 4.467], ["2024-07", 4.628], ["2024-08", 4.714], ["2024-09", 4.961]], "F1b": [["2023-10", 9.359], ["2023-11", 8.196], ["2023-12", 8.248], ["2024-01", 3.412], ["2024-02", 3.172], ["2024-03", 3.338], ["2024-04", 4.023], ["2024-05", 4.306], ["2024-06", 4.457], ["2024-07", 4.447], ["2024-08", 4.424], ["2024-09", 4.636]], "F2": [["2023-10", 9.071], ["2023-11", 7.882], ["2023-12", 7.991], ["2024-01", 3.461], ["2024-02", 3.043], ["2024-03", 3.003], ["2024-04", 3.416], ["2024-05", 3.4], ["2024-06", 3.327], ["2024-07", 3.286], ["2024-08", 3.05], ["2024-09", 3.007]], "TVWQRF_TVW3_FULLM": [["2023-09", 7.385], ["2023-10", 9.136], ["2023-11", 8.063], ["2023-12", 8.27], ["2024-01", 2.336], ["2024-02", 1.894], ["2024-03", 1.945], ["2024-04", 2.338], ["2024-05", 2.576], ["2024-06", 2.522], ["2024-07", 2.365], ["2024-08", 2.276], ["2024-09", 2.613]], "TVWQRF_QRF_MEAN_FULLM": [["2023-09", 7.385], ["2023-10", 9.213], ["2023-11", 8.301], ["2023-12", 8.868], ["2024-01", 3.232], ["2024-02", 3.103], ["2024-03", 3.368], ["2024-04", 3.975], ["2024-05", 4.446], ["2024-06", 4.609], ["2024-07", 4.725], ["2024-08", 4.673], ["2024-09", 5.079]]}, "score": {"quarters": ["2023Q4", "2024Q1", "2024Q2", "2024Q3"], "n": 4, "mae": {"cnb": 0.232, "INDEPENDENT_BRIDGE": 1.315, "STABLE_LOCAL_CORE_R14B": 1.68, "STABLE_PIPELINE_R14B": 1.173, "STABLE_LONG_CORE_R14B": 1.305, "STABLE_LONG_GAP_R14B": 1.728, "F1b": 1.563, "F2": 0.889, "TVWQRF_TVW3_FULLM": 0.269, "TVWQRF_QRF_MEAN_FULLM": 1.694}}}, {"id": "2024-winter", "season": "Winter", "season_cs": "zima", "year": 2024, "report_date": "2024-02-15", "cutoff_date": "2024-01-26", "origin": "2024-01", "origin_clock": "2024-02-14 23:59", "window": {"start": "2023-01", "end": "2025-12"}, "cnb": [{"quarter": "2024Q1", "value": 2.863}, {"quarter": "2024Q2", "value": 2.649}, {"quarter": "2024Q3", "value": 2.252}, {"quarter": "2024Q4", "value": 2.716}, {"quarter": "2025Q1", "value": 1.747}, {"quarter": "2025Q2", "value": 1.901}, {"quarter": "2025Q3", "value": 2.109}, {"quarter": "2025Q4", "value": 2.116}], "realised_quarters": [{"quarter": "2024Q1", "value": 2.086}, {"quarter": "2024Q2", "value": 2.462}, {"quarter": "2024Q3", "value": 2.31}, {"quarter": "2024Q4", "value": 2.884}, {"quarter": "2025Q1", "value": 2.731}, {"quarter": "2025Q2", "value": 2.38}, {"quarter": "2025Q3", "value": 2.499}, {"quarter": "2025Q4", "value": 2.233}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2024Q1", 1.401], ["2024Q2", 1.631], ["2024Q3", 1.464], ["2024Q4", 1.954]], "STABLE_LOCAL_CORE_R14B": [["2024Q1", 1.54], ["2024Q2", 1.877], ["2024Q3", 1.897], ["2024Q4", 2.728]], "STABLE_PIPELINE_R14B": [["2024Q1", 1.483], ["2024Q2", 1.539], ["2024Q3", 1.225], ["2024Q4", 1.699]], "STABLE_LONG_CORE_R14B": [["2024Q1", 1.467], ["2024Q2", 1.64], ["2024Q3", 1.622], ["2024Q4", 2.465]], "STABLE_LONG_GAP_R14B": [["2024Q1", 1.512], ["2024Q2", 1.821], ["2024Q3", 1.943], ["2024Q4", 2.921]], "F1b": [["2024Q2", 1.756], ["2024Q3", 1.742], ["2024Q4", 2.458]], "F2": [["2024Q2", 1.736], ["2024Q3", 1.68], ["2024Q4", 2.139]], "TVWQRF_TVW3_FULLM": [["2024Q1", 1.566], ["2024Q2", 1.827], ["2024Q3", 1.459], ["2024Q4", 1.861]], "TVWQRF_QRF_MEAN_FULLM": [["2024Q1", 1.669], ["2024Q2", 2.178], ["2024Q3", 2.181], ["2024Q4", 3.057]]}, "paths": {"INDEPENDENT_BRIDGE": [["2024-01", 1.759], ["2024-02", 1.306], ["2024-03", 1.139], ["2024-04", 1.58], ["2024-05", 1.702], ["2024-06", 1.61], ["2024-07", 1.433], ["2024-08", 1.307], ["2024-09", 1.652], ["2024-10", 1.848], ["2024-11", 1.868], ["2024-12", 2.147], ["2025-01", 2.36]], "STABLE_LOCAL_CORE_R14B": [["2024-01", 1.759], ["2024-02", 1.49], ["2024-03", 1.371], ["2024-04", 1.835], ["2024-05", 1.919], ["2024-06", 1.877], ["2024-07", 1.827], ["2024-08", 1.706], ["2024-09", 2.158], ["2024-10", 2.496], ["2024-11", 2.594], ["2024-12", 3.094], ["2025-01", 3.257]], "STABLE_PIPELINE_R14B": [["2024-01", 1.759], ["2024-02", 1.423], ["2024-03", 1.268], ["2024-04", 1.634], ["2024-05", 1.597], ["2024-06", 1.386], ["2024-07", 1.198], ["2024-08", 1.038], ["2024-09", 1.438], ["2024-10", 1.571], ["2024-11", 1.572], ["2024-12", 1.955], ["2025-01", 2.046]], "STABLE_LONG_CORE_R14B": [["2024-01", 1.759], ["2024-02", 1.417], ["2024-03", 1.226], ["2024-04", 1.617], ["2024-05", 1.682], ["2024-06", 1.621], ["2024-07", 1.553], ["2024-08", 1.432], ["2024-09", 1.882], ["2024-10", 2.218], ["2024-11", 2.331], ["2024-12", 2.845], ["2025-01", 3.023]], "STABLE_LONG_GAP_R14B": [["2024-01", 1.759], ["2024-02", 1.462], ["2024-03", 1.314], ["2024-04", 1.75], ["2024-05", 1.863], ["2024-06", 1.849], ["2024-07", 1.828], ["2024-08", 1.752], ["2024-09", 2.249], ["2024-10", 2.631], ["2024-11", 2.787], ["2024-12", 3.346], ["2025-01", 3.567]], "F1b": [["2024-02", 1.327], ["2024-03", 1.188], ["2024-04", 1.661], ["2024-05", 1.825], ["2024-06", 1.781], ["2024-07", 1.649], ["2024-08", 1.576], ["2024-09", 2.001], ["2024-10", 2.289], ["2024-11", 2.371], ["2024-12", 2.715], ["2025-01", 2.994]], "F2": [["2024-02", 1.358], ["2024-03", 1.331], ["2024-04", 1.753], ["2024-05", 1.755], ["2024-06", 1.699], ["2024-07", 1.675], ["2024-08", 1.459], ["2024-09", 1.906], ["2024-10", 1.957], ["2024-11", 1.973], ["2024-12", 2.486], ["2025-01", 3.135]], "TVWQRF_TVW3_FULLM": [["2024-01", 1.759], ["2024-02", 1.382], ["2024-03", 1.558], ["2024-04", 1.931], ["2024-05", 1.873], ["2024-06", 1.676], ["2024-07", 1.288], ["2024-08", 1.302], ["2024-09", 1.788], ["2024-10", 1.733], ["2024-11", 1.706], ["2024-12", 2.143], ["2025-01", 1.91]], "TVWQRF_QRF_MEAN_FULLM": [["2024-01", 1.759], ["2024-02", 1.538], ["2024-03", 1.711], ["2024-04", 2.18], ["2024-05", 2.196], ["2024-06", 2.157], ["2024-07", 1.82], ["2024-08", 1.967], ["2024-09", 2.757], ["2024-10", 2.78], ["2024-11", 2.939], ["2024-12", 3.452], ["2025-01", 3.442]]}, "score": {"quarters": ["2024Q1", "2024Q2", "2024Q3", "2024Q4"], "n": 4, "mae": {"cnb": 0.298, "INDEPENDENT_BRIDGE": 0.823, "STABLE_LOCAL_CORE_R14B": 0.425, "STABLE_PIPELINE_R14B": 0.949, "STABLE_LONG_CORE_R14B": 0.637, "STABLE_LONG_GAP_R14B": 0.405, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 0.757, "TVWQRF_QRF_MEAN_FULLM": 0.251}}}, {"id": "2024-spring", "season": "Spring", "season_cs": "jaro", "year": 2024, "report_date": "2024-05-09", "cutoff_date": "2024-04-26", "origin": "2024-03", "origin_clock": "2024-04-09 23:59", "window": {"start": "2023-03", "end": "2025-12"}, "cnb": [{"quarter": "2024Q2", "value": 2.439}, {"quarter": "2024Q3", "value": 2.114}, {"quarter": "2024Q4", "value": 2.515}, {"quarter": "2025Q1", "value": 2.351}, {"quarter": "2025Q2", "value": 1.898}, {"quarter": "2025Q3", "value": 1.884}, {"quarter": "2025Q4", "value": 1.856}], "realised_quarters": [{"quarter": "2024Q2", "value": 2.462}, {"quarter": "2024Q3", "value": 2.31}, {"quarter": "2024Q4", "value": 2.884}, {"quarter": "2025Q1", "value": 2.731}, {"quarter": "2025Q2", "value": 2.38}, {"quarter": "2025Q3", "value": 2.499}, {"quarter": "2025Q4", "value": 2.233}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2024Q2", 2.564], ["2024Q3", 2.519], ["2024Q4", 3.231], ["2025Q1", 3.049]], "STABLE_LOCAL_CORE_R14B": [["2024Q2", 2.462], ["2024Q3", 2.364], ["2024Q4", 3.089], ["2025Q1", 2.905]], "STABLE_PIPELINE_R14B": [["2024Q2", 2.445], ["2024Q3", 2.324], ["2024Q4", 3.021], ["2025Q1", 2.76]], "STABLE_LONG_CORE_R14B": [["2024Q2", 2.371], ["2024Q3", 2.251], ["2024Q4", 3.088], ["2025Q1", 3.104]], "STABLE_LONG_GAP_R14B": [["2024Q2", 2.38], ["2024Q3", 2.284], ["2024Q4", 3.157], ["2025Q1", 3.217]], "F1b": [["2024Q2", 2.41], ["2024Q3", 2.263], ["2024Q4", 2.854], ["2025Q1", 2.605]], "F2": [["2024Q2", 2.292], ["2024Q3", 2.105], ["2024Q4", 2.434], ["2025Q1", 2.702]], "TVWQRF_TVW3_FULLM": [["2024Q2", 2.035], ["2024Q3", 1.193], ["2024Q4", 1.684], ["2025Q1", 0.727]], "TVWQRF_QRF_MEAN_FULLM": [["2024Q2", 2.231], ["2024Q3", 1.874], ["2024Q4", 3.002], ["2025Q1", 2.706]]}, "paths": {"INDEPENDENT_BRIDGE": [["2024-03", 2.012], ["2024-04", 2.486], ["2024-05", 2.626], ["2024-06", 2.581], ["2024-07", 2.445], ["2024-08", 2.363], ["2024-09", 2.749], ["2024-10", 3.031], ["2024-11", 3.146], ["2024-12", 3.516], ["2025-01", 3.047], ["2025-02", 3.08], ["2025-03", 3.019]], "STABLE_LOCAL_CORE_R14B": [["2024-03", 2.012], ["2024-04", 2.463], ["2024-05", 2.505], ["2024-06", 2.417], ["2024-07", 2.329], ["2024-08", 2.173], ["2024-09", 2.59], ["2024-10", 2.892], ["2024-11", 2.955], ["2024-12", 3.421], ["2025-01", 2.957], ["2025-02", 2.955], ["2025-03", 2.802]], "STABLE_PIPELINE_R14B": [["2024-03", 2.012], ["2024-04", 2.442], ["2024-05", 2.491], ["2024-06", 2.403], ["2024-07", 2.254], ["2024-08", 2.139], ["2024-09", 2.58], ["2024-10", 2.796], ["2024-11", 2.893], ["2024-12", 3.373], ["2025-01", 2.786], ["2025-02", 2.79], ["2025-03", 2.703]], "STABLE_LONG_CORE_R14B": [["2024-03", 2.012], ["2024-04", 2.418], ["2024-05", 2.414], ["2024-06", 2.282], ["2024-07", 2.205], ["2024-08", 2.06], ["2024-09", 2.487], ["2024-10", 2.84], ["2024-11", 2.953], ["2024-12", 3.47], ["2025-01", 3.08], ["2025-02", 3.154], ["2025-03", 3.078]], "STABLE_LONG_GAP_R14B": [["2024-03", 2.012], ["2024-04", 2.422], ["2024-05", 2.423], ["2024-06", 2.295], ["2024-07", 2.228], ["2024-08", 2.093], ["2024-09", 2.53], ["2024-10", 2.896], ["2024-11", 3.022], ["2024-12", 3.553], ["2025-01", 3.178], ["2025-02", 3.267], ["2025-03", 3.205]], "F1b": [["2024-04", 2.382], ["2024-05", 2.469], ["2024-06", 2.38], ["2024-07", 2.226], ["2024-08", 2.115], ["2024-09", 2.447], ["2024-10", 2.684], ["2024-11", 2.77], ["2024-12", 3.109], ["2025-01", 2.617], ["2025-02", 2.624], ["2025-03", 2.575]], "F2": [["2024-04", 2.353], ["2024-05", 2.311], ["2024-06", 2.212], ["2024-07", 2.144], ["2024-08", 1.883], ["2024-09", 2.288], ["2024-10", 2.296], ["2024-11", 2.268], ["2024-12", 2.739], ["2025-01", 2.782], ["2025-02", 2.696], ["2025-03", 2.628]], "TVWQRF_TVW3_FULLM": [["2024-03", 2.012], ["2024-04", 2.326], ["2024-05", 2.056], ["2024-06", 1.723], ["2024-07", 1.248], ["2024-08", 0.89], ["2024-09", 1.442], ["2024-10", 1.469], ["2024-11", 1.519], ["2024-12", 2.063], ["2025-01", 0.903], ["2025-02", 0.687], ["2025-03", 0.592]], "TVWQRF_QRF_MEAN_FULLM": [["2024-03", 2.012], ["2024-04", 2.38], ["2024-05", 2.251], ["2024-06", 2.061], ["2024-07", 1.709], ["2024-08", 1.592], ["2024-09", 2.322], ["2024-10", 2.499], ["2024-11", 2.855], ["2024-12", 3.652], ["2025-01", 2.775], ["2025-02", 2.665], ["2025-03", 2.679]]}, "score": {"quarters": ["2024Q2", "2024Q3", "2024Q4", "2025Q1"], "n": 4, "mae": {"cnb": 0.242, "INDEPENDENT_BRIDGE": 0.244, "STABLE_LOCAL_CORE_R14B": 0.108, "STABLE_PIPELINE_R14B": 0.049, "STABLE_LONG_CORE_R14B": 0.182, "STABLE_LONG_GAP_R14B": 0.217, "F1b": 0.064, "F2": 0.213, "TVWQRF_TVW3_FULLM": 1.187, "TVWQRF_QRF_MEAN_FULLM": 0.203}}}, {"id": "2024-summer", "season": "Summer", "season_cs": "léto", "year": 2024, "report_date": "2024-08-08", "cutoff_date": "2024-07-26", "origin": "2024-06", "origin_clock": "2024-07-09 23:59", "window": {"start": "2023-06", "end": "2026-12"}, "cnb": [{"quarter": "2024Q3", "value": 2.039}, {"quarter": "2024Q4", "value": 2.316}, {"quarter": "2025Q1", "value": 2.187}, {"quarter": "2025Q2", "value": 1.749}, {"quarter": "2025Q3", "value": 1.902}, {"quarter": "2025Q4", "value": 2.001}, {"quarter": "2026Q1", "value": 1.922}, {"quarter": "2026Q2", "value": 2.005}, {"quarter": "2026Q3", "value": 2.094}, {"quarter": "2026Q4", "value": 2.152}], "realised_quarters": [{"quarter": "2024Q3", "value": 2.31}, {"quarter": "2024Q4", "value": 2.884}, {"quarter": "2025Q1", "value": 2.731}, {"quarter": "2025Q2", "value": 2.38}, {"quarter": "2025Q3", "value": 2.499}, {"quarter": "2025Q4", "value": 2.233}, {"quarter": "2026Q1", "value": 1.621}, {"quarter": "2026Q2", "value": 2.046}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2024Q3", 1.934], ["2024Q4", 2.469], ["2025Q1", 2.26], ["2025Q2", 2.235]], "STABLE_LOCAL_CORE_R14B": [["2024Q3", 2.189], ["2024Q4", 2.835], ["2025Q1", 2.603], ["2025Q2", 2.392]], "STABLE_PIPELINE_R14B": [["2024Q3", 2.062], ["2024Q4", 2.595], ["2025Q1", 2.274], ["2025Q2", 2.041]], "STABLE_LONG_CORE_R14B": [["2024Q3", 2.143], ["2024Q4", 2.786], ["2025Q1", 2.574], ["2025Q2", 2.496]], "STABLE_LONG_GAP_R14B": [["2024Q3", 2.176], ["2024Q4", 2.873], ["2025Q1", 2.717], ["2025Q2", 2.696]], "F1b": [["2024Q3", 1.864], ["2024Q4", 2.336], ["2025Q1", 2.048], ["2025Q2", 1.951]], "F2": [["2024Q3", 2.112], ["2024Q4", 2.391], ["2025Q1", 2.611], ["2025Q2", 2.224]], "TVWQRF_TVW3_FULLM": [["2024Q3", 2.125], ["2024Q4", 2.769], ["2025Q1", 1.669], ["2025Q2", 1.178]], "TVWQRF_QRF_MEAN_FULLM": [["2024Q3", 2.256], ["2024Q4", 3.039], ["2025Q1", 2.331], ["2025Q2", 2.183]]}, "paths": {"INDEPENDENT_BRIDGE": [["2024-06", 2.279], ["2024-07", 1.988], ["2024-08", 1.747], ["2024-09", 2.066], ["2024-10", 2.323], ["2024-11", 2.373], ["2024-12", 2.71], ["2025-01", 2.278], ["2025-02", 2.27], ["2025-03", 2.231], ["2025-04", 1.926], ["2025-05", 2.23], ["2025-06", 2.55]], "STABLE_LOCAL_CORE_R14B": [["2024-06", 2.279], ["2024-07", 2.184], ["2024-08", 1.985], ["2024-09", 2.399], ["2024-10", 2.66], ["2024-11", 2.701], ["2024-12", 3.145], ["2025-01", 2.662], ["2025-02", 2.642], ["2025-03", 2.506], ["2025-04", 2.087], ["2025-05", 2.436], ["2025-06", 2.654]], "STABLE_PIPELINE_R14B": [["2024-06", 2.279], ["2024-07", 2.076], ["2024-08", 1.845], ["2024-09", 2.266], ["2024-10", 2.437], ["2024-11", 2.455], ["2024-12", 2.892], ["2025-01", 2.333], ["2025-02", 2.289], ["2025-03", 2.199], ["2025-04", 1.763], ["2025-05", 2.076], ["2025-06", 2.284]], "STABLE_LONG_CORE_R14B": [["2024-06", 2.279], ["2024-07", 2.161], ["2024-08", 1.939], ["2024-09", 2.328], ["2024-10", 2.6], ["2024-11", 2.651], ["2024-12", 3.107], ["2025-01", 2.628], ["2025-02", 2.613], ["2025-03", 2.482], ["2025-04", 2.127], ["2025-05", 2.539], ["2025-06", 2.821]], "STABLE_LONG_GAP_R14B": [["2024-06", 2.279], ["2024-07", 2.177], ["2024-08", 1.972], ["2024-09", 2.378], ["2024-10", 2.669], ["2024-11", 2.738], ["2024-12", 3.212], ["2025-01", 2.752], ["2025-02", 2.756], ["2025-03", 2.643], ["2025-04", 2.307], ["2025-05", 2.74], ["2025-06", 3.042]], "F1b": [["2024-07", 1.941], ["2024-08", 1.678], ["2024-09", 1.972], ["2024-10", 2.215], ["2024-11", 2.246], ["2024-12", 2.547], ["2025-01", 2.088], ["2025-02", 2.059], ["2025-03", 1.997], ["2025-04", 1.666], ["2025-05", 1.941], ["2025-06", 2.246]], "F2": [["2024-07", 2.168], ["2024-08", 1.89], ["2024-09", 2.278], ["2024-10", 2.269], ["2024-11", 2.225], ["2024-12", 2.679], ["2025-01", 2.706], ["2025-02", 2.604], ["2025-03", 2.523], ["2025-04", 2.019], ["2025-05", 2.227], ["2025-06", 2.427]], "TVWQRF_TVW3_FULLM": [["2024-06", 2.279], ["2024-07", 1.953], ["2024-08", 1.868], ["2024-09", 2.553], ["2024-10", 2.565], ["2024-11", 2.601], ["2024-12", 3.142], ["2025-01", 1.762], ["2025-02", 1.641], ["2025-03", 1.604], ["2025-04", 1.044], ["2025-05", 1.209], ["2025-06", 1.282]], "TVWQRF_QRF_MEAN_FULLM": [["2024-06", 2.279], ["2024-07", 1.977], ["2024-08", 2.049], ["2024-09", 2.741], ["2024-10", 2.783], ["2024-11", 2.872], ["2024-12", 3.461], ["2025-01", 2.213], ["2025-02", 2.366], ["2025-03", 2.413], ["2025-04", 1.993], ["2025-05", 2.223], ["2025-06", 2.333]]}, "score": {"quarters": ["2024Q3", "2024Q4", "2025Q1", "2025Q2"], "n": 4, "mae": {"cnb": 0.503, "INDEPENDENT_BRIDGE": 0.352, "STABLE_LOCAL_CORE_R14B": 0.077, "STABLE_PIPELINE_R14B": 0.333, "STABLE_LONG_CORE_R14B": 0.134, "STABLE_LONG_GAP_R14B": 0.119, "F1b": 0.527, "F2": 0.242, "TVWQRF_TVW3_FULLM": 0.641, "TVWQRF_QRF_MEAN_FULLM": 0.202}}}, {"id": "2024-autumn", "season": "Autumn", "season_cs": "podzim", "year": 2024, "report_date": "2024-11-14", "cutoff_date": "2024-10-31", "origin": "2024-10", "origin_clock": "2024-11-10 23:59", "window": {"start": "2023-10", "end": "2026-12"}, "cnb": [{"quarter": "2024Q4", "value": 3.022}, {"quarter": "2025Q1", "value": 2.937}, {"quarter": "2025Q2", "value": 2.567}, {"quarter": "2025Q3", "value": 2.634}, {"quarter": "2025Q4", "value": 2.45}, {"quarter": "2026Q1", "value": 2.242}, {"quarter": "2026Q2", "value": 2.275}, {"quarter": "2026Q3", "value": 2.223}, {"quarter": "2026Q4", "value": 2.149}], "realised_quarters": [{"quarter": "2024Q4", "value": 2.884}, {"quarter": "2025Q1", "value": 2.731}, {"quarter": "2025Q2", "value": 2.38}, {"quarter": "2025Q3", "value": 2.499}, {"quarter": "2025Q4", "value": 2.233}, {"quarter": "2026Q1", "value": 1.621}, {"quarter": "2026Q2", "value": 2.046}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2024Q4", 2.716], ["2025Q1", 2.339], ["2025Q2", 1.865], ["2025Q3", 1.494]], "STABLE_LOCAL_CORE_R14B": [["2024Q4", 2.923], ["2025Q1", 2.686], ["2025Q2", 2.528], ["2025Q3", 2.577]], "STABLE_PIPELINE_R14B": [["2024Q4", 2.843], ["2025Q1", 2.522], ["2025Q2", 1.874], ["2025Q3", 1.423]], "STABLE_LONG_CORE_R14B": [["2024Q4", 2.925], ["2025Q1", 2.662], ["2025Q2", 2.454], ["2025Q3", 2.534]], "STABLE_LONG_GAP_R14B": [["2024Q4", 2.932], ["2025Q1", 2.691], ["2025Q2", 2.506], ["2025Q3", 2.609]], "F1b": [["2025Q1", 2.661], ["2025Q2", 2.47], ["2025Q3", 2.459]], "F2": [["2025Q1", 3.095], ["2025Q2", 2.799], ["2025Q3", 2.707]], "TVWQRF_TVW3_FULLM": [["2024Q4", 2.944], ["2025Q1", 2.275], ["2025Q2", 1.99], ["2025Q3", 1.757]], "TVWQRF_QRF_MEAN_FULLM": [["2024Q4", 2.954], ["2025Q1", 2.387], ["2025Q2", 2.229], ["2025Q3", 2.053]]}, "paths": {"INDEPENDENT_BRIDGE": [["2024-10", 2.726], ["2024-11", 2.605], ["2024-12", 2.818], ["2025-01", 2.388], ["2025-02", 2.399], ["2025-03", 2.231], ["2025-04", 1.657], ["2025-05", 1.763], ["2025-06", 2.174], ["2025-07", 1.832], ["2025-08", 1.438], ["2025-09", 1.213], ["2025-10", 1.116]], "STABLE_LOCAL_CORE_R14B": [["2024-10", 2.726], ["2024-11", 2.799], ["2024-12", 3.245], ["2025-01", 2.756], ["2025-02", 2.727], ["2025-03", 2.575], ["2025-04", 2.141], ["2025-05", 2.473], ["2025-06", 2.97], ["2025-07", 2.688], ["2025-08", 2.491], ["2025-09", 2.552], ["2025-10", 2.663]], "STABLE_PIPELINE_R14B": [["2024-10", 2.726], ["2024-11", 2.709], ["2024-12", 3.093], ["2025-01", 2.605], ["2025-02", 2.589], ["2025-03", 2.372], ["2025-04", 1.668], ["2025-05", 1.786], ["2025-06", 2.168], ["2025-07", 1.763], ["2025-08", 1.341], ["2025-09", 1.164], ["2025-10", 1.006]], "STABLE_LONG_CORE_R14B": [["2024-10", 2.726], ["2024-11", 2.801], ["2024-12", 3.248], ["2025-01", 2.762], ["2025-02", 2.703], ["2025-03", 2.521], ["2025-04", 2.059], ["2025-05", 2.399], ["2025-06", 2.903], ["2025-07", 2.629], ["2025-08", 2.448], ["2025-09", 2.524], ["2025-10", 2.651]], "STABLE_LONG_GAP_R14B": [["2024-10", 2.726], ["2024-11", 2.808], ["2024-12", 3.263], ["2025-01", 2.783], ["2025-02", 2.732], ["2025-03", 2.558], ["2025-04", 2.103], ["2025-05", 2.451], ["2025-06", 2.963], ["2025-07", 2.696], ["2025-08", 2.524], ["2025-09", 2.608], ["2025-10", 2.743]], "F1b": [["2024-11", 2.649], ["2024-12", 2.906], ["2025-01", 2.578], ["2025-02", 2.734], ["2025-03", 2.671], ["2025-04", 2.164], ["2025-05", 2.352], ["2025-06", 2.894], ["2025-07", 2.702], ["2025-08", 2.407], ["2025-09", 2.268], ["2025-10", 2.261]], "F2": [["2024-11", 2.709], ["2024-12", 3.165], ["2025-01", 3.191], ["2025-02", 3.088], ["2025-03", 3.006], ["2025-04", 2.5], ["2025-05", 2.708], ["2025-06", 3.19], ["2025-07", 2.918], ["2025-08", 2.586], ["2025-09", 2.617], ["2025-10", 2.42]], "TVWQRF_TVW3_FULLM": [["2024-10", 2.726], ["2024-11", 2.752], ["2024-12", 3.354], ["2025-01", 2.348], ["2025-02", 2.229], ["2025-03", 2.249], ["2025-04", 1.747], ["2025-05", 1.914], ["2025-06", 2.308], ["2025-07", 1.799], ["2025-08", 1.542], ["2025-09", 1.929], ["2025-10", 1.795]], "TVWQRF_QRF_MEAN_FULLM": [["2024-10", 2.726], ["2024-11", 2.731], ["2024-12", 3.404], ["2025-01", 2.41], ["2025-02", 2.347], ["2025-03", 2.404], ["2025-04", 1.924], ["2025-05", 2.155], ["2025-06", 2.609], ["2025-07", 2.101], ["2025-08", 1.828], ["2025-09", 2.231], ["2025-10", 2.081]]}, "score": {"quarters": ["2024Q4", "2025Q1", "2025Q2", "2025Q3"], "n": 4, "mae": {"cnb": 0.167, "INDEPENDENT_BRIDGE": 0.52, "STABLE_LOCAL_CORE_R14B": 0.078, "STABLE_PIPELINE_R14B": 0.458, "STABLE_LONG_CORE_R14B": 0.055, "STABLE_LONG_GAP_R14B": 0.081, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 0.412, "TVWQRF_QRF_MEAN_FULLM": 0.253}}}, {"id": "2025-winter", "season": "Winter", "season_cs": "zima", "year": 2025, "report_date": "2025-02-13", "cutoff_date": "2025-01-24", "origin": "2025-01", "origin_clock": "2025-02-05 23:59", "window": {"start": "2024-01", "end": "2026-12"}, "cnb": [{"quarter": "2025Q1", "value": 2.575}, {"quarter": "2025Q2", "value": 2.235}, {"quarter": "2025Q3", "value": 2.39}, {"quarter": "2025Q4", "value": 2.399}, {"quarter": "2026Q1", "value": 2.241}, {"quarter": "2026Q2", "value": 2.148}, {"quarter": "2026Q3", "value": 2.0}, {"quarter": "2026Q4", "value": 1.987}], "realised_quarters": [{"quarter": "2025Q1", "value": 2.731}, {"quarter": "2025Q2", "value": 2.38}, {"quarter": "2025Q3", "value": 2.499}, {"quarter": "2025Q4", "value": 2.233}, {"quarter": "2026Q1", "value": 1.621}, {"quarter": "2026Q2", "value": 2.046}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2025Q1", 2.594], ["2025Q2", 2.578], ["2025Q3", 2.705], ["2025Q4", 2.901]], "STABLE_LOCAL_CORE_R14B": [["2025Q1", 2.583], ["2025Q2", 2.464], ["2025Q3", 2.529], ["2025Q4", 2.627]], "STABLE_PIPELINE_R14B": [["2025Q1", 2.606], ["2025Q2", 2.514], ["2025Q3", 2.572], ["2025Q4", 2.81]], "STABLE_LONG_CORE_R14B": [["2025Q1", 2.55], ["2025Q2", 2.363], ["2025Q3", 2.452], ["2025Q4", 2.632]], "STABLE_LONG_GAP_R14B": [["2025Q1", 2.553], ["2025Q2", 2.376], ["2025Q3", 2.476], ["2025Q4", 2.668]], "F1b": [["2025Q2", 2.493], ["2025Q3", 2.534], ["2025Q4", 2.61]], "F2": [["2025Q2", 2.237], ["2025Q3", 2.175], ["2025Q4", 1.914]], "TVWQRF_TVW3_FULLM": [["2025Q1", 2.847], ["2025Q2", 2.951], ["2025Q3", 2.982], ["2025Q4", 3.156]], "TVWQRF_QRF_MEAN_FULLM": [["2025Q1", 2.9], ["2025Q2", 3.018], ["2025Q3", 3.049], ["2025Q4", 3.29]]}, "paths": {"INDEPENDENT_BRIDGE": [["2025-01", 2.609], ["2025-02", 2.626], ["2025-03", 2.548], ["2025-04", 2.202], ["2025-05", 2.516], ["2025-06", 3.017], ["2025-07", 2.718], ["2025-08", 2.628], ["2025-09", 2.768], ["2025-10", 2.768], ["2025-11", 2.88], ["2025-12", 3.054], ["2026-01", 3.045]], "STABLE_LOCAL_CORE_R14B": [["2025-01", 2.609], ["2025-02", 2.644], ["2025-03", 2.497], ["2025-04", 2.071], ["2025-05", 2.409], ["2025-06", 2.911], ["2025-07", 2.635], ["2025-08", 2.444], ["2025-09", 2.508], ["2025-10", 2.541], ["2025-11", 2.549], ["2025-12", 2.791], ["2026-01", 2.674]], "STABLE_PIPELINE_R14B": [["2025-01", 2.609], ["2025-02", 2.645], ["2025-03", 2.565], ["2025-04", 2.135], ["2025-05", 2.465], ["2025-06", 2.943], ["2025-07", 2.585], ["2025-08", 2.47], ["2025-09", 2.661], ["2025-10", 2.648], ["2025-11", 2.737], ["2025-12", 3.045], ["2026-01", 2.921]], "STABLE_LONG_CORE_R14B": [["2025-01", 2.609], ["2025-02", 2.61], ["2025-03", 2.43], ["2025-04", 1.971], ["2025-05", 2.308], ["2025-06", 2.809], ["2025-07", 2.533], ["2025-08", 2.367], ["2025-09", 2.457], ["2025-10", 2.516], ["2025-11", 2.554], ["2025-12", 2.826], ["2026-01", 2.739]], "STABLE_LONG_GAP_R14B": [["2025-01", 2.609], ["2025-02", 2.614], ["2025-03", 2.436], ["2025-04", 1.981], ["2025-05", 2.321], ["2025-06", 2.826], ["2025-07", 2.553], ["2025-08", 2.391], ["2025-09", 2.484], ["2025-10", 2.547], ["2025-11", 2.59], ["2025-12", 2.867], ["2026-01", 2.785]], "F1b": [["2025-02", 2.61], ["2025-03", 2.526], ["2025-04", 2.152], ["2025-05", 2.427], ["2025-06", 2.899], ["2025-07", 2.575], ["2025-08", 2.461], ["2025-09", 2.566], ["2025-10", 2.52], ["2025-11", 2.588], ["2025-12", 2.723], ["2026-01", 2.674]], "F2": [["2025-02", 2.497], ["2025-03", 2.423], ["2025-04", 1.929], ["2025-05", 2.146], ["2025-06", 2.635], ["2025-07", 2.375], ["2025-08", 2.054], ["2025-09", 2.095], ["2025-10", 1.836], ["2025-11", 1.803], ["2025-12", 2.104], ["2026-01", 2.521]], "TVWQRF_TVW3_FULLM": [["2025-01", 2.609], ["2025-02", 2.83], ["2025-03", 3.103], ["2025-04", 2.59], ["2025-05", 2.853], ["2025-06", 3.411], ["2025-07", 2.995], ["2025-08", 2.825], ["2025-09", 3.126], ["2025-10", 3.006], ["2025-11", 3.037], ["2025-12", 3.425], ["2026-01", 3.301]], "TVWQRF_QRF_MEAN_FULLM": [["2025-01", 2.609], ["2025-02", 2.899], ["2025-03", 3.193], ["2025-04", 2.652], ["2025-05", 2.931], ["2025-06", 3.47], ["2025-07", 3.018], ["2025-08", 2.88], ["2025-09", 3.248], ["2025-10", 3.149], ["2025-11", 3.187], ["2025-12", 3.533], ["2026-01", 3.422]]}, "score": {"quarters": ["2025Q1", "2025Q2", "2025Q3", "2025Q4"], "n": 4, "mae": {"cnb": 0.144, "INDEPENDENT_BRIDGE": 0.302, "STABLE_LOCAL_CORE_R14B": 0.164, "STABLE_PIPELINE_R14B": 0.227, "STABLE_LONG_CORE_R14B": 0.161, "STABLE_LONG_GAP_R14B": 0.16, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 0.523, "TVWQRF_QRF_MEAN_FULLM": 0.603}}}, {"id": "2025-spring", "season": "Spring", "season_cs": "jaro", "year": 2025, "report_date": "2025-05-15", "cutoff_date": "2025-04-25", "origin": "2025-04", "origin_clock": "2025-05-05 23:59", "window": {"start": "2024-04", "end": "2026-12"}, "cnb": [{"quarter": "2025Q2", "value": 2.381}, {"quarter": "2025Q3", "value": 2.47}, {"quarter": "2025Q4", "value": 2.425}, {"quarter": "2026Q1", "value": 2.304}, {"quarter": "2026Q2", "value": 2.209}, {"quarter": "2026Q3", "value": 2.103}, {"quarter": "2026Q4", "value": 2.065}], "realised_quarters": [{"quarter": "2025Q2", "value": 2.38}, {"quarter": "2025Q3", "value": 2.499}, {"quarter": "2025Q4", "value": 2.233}, {"quarter": "2026Q1", "value": 1.621}, {"quarter": "2026Q2", "value": 2.046}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2025Q2", 2.541], ["2025Q3", 2.573], ["2025Q4", 2.76], ["2026Q1", 2.831]], "STABLE_LOCAL_CORE_R14B": [["2025Q2", 2.531], ["2025Q3", 2.567], ["2025Q4", 2.663], ["2026Q1", 2.514]], "STABLE_PIPELINE_R14B": [["2025Q2", 2.536], ["2025Q3", 2.571], ["2025Q4", 2.777], ["2026Q1", 2.772]], "STABLE_LONG_CORE_R14B": [["2025Q2", 2.606], ["2025Q3", 2.872], ["2025Q4", 3.182], ["2026Q1", 3.17]], "STABLE_LONG_GAP_R14B": [["2025Q2", 2.599], ["2025Q3", 2.843], ["2025Q4", 3.131], ["2026Q1", 3.097]], "F1b": [["2025Q3", 2.564], ["2025Q4", 2.757], ["2026Q1", 2.83]], "F2": [["2025Q3", 2.43], ["2025Q4", 2.178], ["2026Q1", 2.565]], "TVWQRF_TVW3_FULLM": [["2025Q2", 2.455], ["2025Q3", 2.626], ["2025Q4", 3.017], ["2026Q1", 2.34]], "TVWQRF_QRF_MEAN_FULLM": [["2025Q2", 2.488], ["2025Q3", 2.547], ["2025Q4", 2.866], ["2026Q1", 2.267]]}, "paths": {"INDEPENDENT_BRIDGE": [["2025-04", 2.174], ["2025-05", 2.478], ["2025-06", 2.97], ["2025-07", 2.608], ["2025-08", 2.507], ["2025-09", 2.605], ["2025-10", 2.643], ["2025-11", 2.741], ["2025-12", 2.897], ["2026-01", 2.699], ["2026-02", 2.853], ["2026-03", 2.941], ["2026-04", 3.196]], "STABLE_LOCAL_CORE_R14B": [["2025-04", 2.174], ["2025-05", 2.461], ["2025-06", 2.959], ["2025-07", 2.676], ["2025-08", 2.482], ["2025-09", 2.542], ["2025-10", 2.575], ["2025-11", 2.584], ["2025-12", 2.829], ["2026-01", 2.522], ["2026-02", 2.531], ["2026-03", 2.489], ["2026-04", 2.55]], "STABLE_PIPELINE_R14B": [["2025-04", 2.174], ["2025-05", 2.467], ["2025-06", 2.966], ["2025-07", 2.615], ["2025-08", 2.479], ["2025-09", 2.619], ["2025-10", 2.637], ["2025-11", 2.705], ["2025-12", 2.99], ["2026-01", 2.68], ["2026-02", 2.782], ["2026-03", 2.853], ["2026-04", 2.978]], "STABLE_LONG_CORE_R14B": [["2025-04", 2.174], ["2025-05", 2.535], ["2025-06", 3.108], ["2025-07", 2.901], ["2025-08", 2.787], ["2025-09", 2.929], ["2025-10", 3.044], ["2025-11", 3.103], ["2025-12", 3.399], ["2026-01", 3.14], ["2026-02", 3.187], ["2026-03", 3.183], ["2026-04", 3.283]], "STABLE_LONG_GAP_R14B": [["2025-04", 2.174], ["2025-05", 2.528], ["2025-06", 3.094], ["2025-07", 2.879], ["2025-08", 2.758], ["2025-09", 2.893], ["2025-10", 3.001], ["2025-11", 3.052], ["2025-12", 3.341], ["2026-01", 3.074], ["2026-02", 3.114], ["2026-03", 3.103], ["2026-04", 3.196]], "F1b": [["2025-05", 2.477], ["2025-06", 2.97], ["2025-07", 2.603], ["2025-08", 2.495], ["2025-09", 2.594], ["2025-10", 2.639], ["2025-11", 2.739], ["2025-12", 2.893], ["2026-01", 2.692], ["2026-02", 2.852], ["2026-03", 2.947], ["2026-04", 3.199]], "F2": [["2025-05", 2.393], ["2025-06", 2.886], ["2025-07", 2.628], ["2025-08", 2.309], ["2025-09", 2.353], ["2025-10", 2.097], ["2025-11", 2.066], ["2025-12", 2.371], ["2026-01", 2.577], ["2026-02", 2.559], ["2026-03", 2.559], ["2026-04", 2.554]], "TVWQRF_TVW3_FULLM": [["2025-04", 2.174], ["2025-05", 2.364], ["2025-06", 2.828], ["2025-07", 2.524], ["2025-08", 2.411], ["2025-09", 2.942], ["2025-10", 2.835], ["2025-11", 2.93], ["2025-12", 3.286], ["2026-01", 2.266], ["2026-02", 2.332], ["2026-03", 2.423], ["2026-04", 2.461]], "TVWQRF_QRF_MEAN_FULLM": [["2025-04", 2.174], ["2025-05", 2.394], ["2025-06", 2.896], ["2025-07", 2.515], ["2025-08", 2.321], ["2025-09", 2.804], ["2025-10", 2.659], ["2025-11", 2.754], ["2025-12", 3.185], ["2026-01", 2.156], ["2026-02", 2.272], ["2026-03", 2.373], ["2026-04", 2.36]]}, "score": {"quarters": ["2025Q2", "2025Q3", "2025Q4", "2026Q1"], "n": 4, "mae": {"cnb": 0.226, "INDEPENDENT_BRIDGE": 0.493, "STABLE_LOCAL_CORE_R14B": 0.385, "STABLE_PIPELINE_R14B": 0.481, "STABLE_LONG_CORE_R14B": 0.774, "STABLE_LONG_GAP_R14B": 0.734, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 0.426, "TVWQRF_QRF_MEAN_FULLM": 0.359}}}, {"id": "2025-summer", "season": "Summer", "season_cs": "léto", "year": 2025, "report_date": "2025-08-14", "cutoff_date": "2025-07-25", "origin": "2025-07", "origin_clock": "2025-08-04 23:59", "window": {"start": "2024-07", "end": "2027-12"}, "cnb": [{"quarter": "2025Q3", "value": 2.686}, {"quarter": "2025Q4", "value": 2.652}, {"quarter": "2026Q1", "value": 2.558}, {"quarter": "2026Q2", "value": 2.481}, {"quarter": "2026Q3", "value": 2.17}, {"quarter": "2026Q4", "value": 2.144}, {"quarter": "2027Q1", "value": 2.512}, {"quarter": "2027Q2", "value": 2.488}, {"quarter": "2027Q3", "value": 2.487}, {"quarter": "2027Q4", "value": 2.475}], "realised_quarters": [{"quarter": "2025Q3", "value": 2.499}, {"quarter": "2025Q4", "value": 2.233}, {"quarter": "2026Q1", "value": 1.621}, {"quarter": "2026Q2", "value": 2.046}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2025Q3", 2.651], ["2025Q4", 2.82], ["2026Q1", 2.897], ["2026Q2", 3.497]], "STABLE_LOCAL_CORE_R14B": [["2025Q3", 2.658], ["2025Q4", 2.852], ["2026Q1", 2.782], ["2026Q2", 3.08]], "STABLE_PIPELINE_R14B": [["2025Q3", 2.688], ["2025Q4", 2.903], ["2026Q1", 2.924], ["2026Q2", 3.412]], "STABLE_LONG_CORE_R14B": [["2025Q3", 2.645], ["2025Q4", 2.807], ["2026Q1", 2.732], ["2026Q2", 3.075]], "STABLE_LONG_GAP_R14B": [["2025Q3", 2.647], ["2025Q4", 2.814], ["2026Q1", 2.744], ["2026Q2", 3.092]], "F1b": [["2025Q4", 2.88], ["2026Q1", 3.052], ["2026Q2", 3.776]], "F2": [["2025Q4", 2.237], ["2026Q1", 2.59], ["2026Q2", 2.64]], "TVWQRF_TVW3_FULLM": [["2025Q3", 2.779], ["2025Q4", 3.149], ["2026Q1", 2.825], ["2026Q2", 3.12]], "TVWQRF_QRF_MEAN_FULLM": [["2025Q3", 2.725], ["2025Q4", 2.888], ["2026Q1", 2.448], ["2026Q2", 2.731]]}, "paths": {"INDEPENDENT_BRIDGE": [["2025-07", 2.73], ["2025-08", 2.604], ["2025-09", 2.618], ["2025-10", 2.712], ["2025-11", 2.783], ["2025-12", 2.966], ["2026-01", 2.818], ["2026-02", 2.912], ["2026-03", 2.961], ["2026-04", 3.525], ["2026-05", 3.426], ["2026-06", 3.541], ["2026-07", 3.559]], "STABLE_LOCAL_CORE_R14B": [["2025-07", 2.73], ["2025-08", 2.576], ["2025-09", 2.669], ["2025-10", 2.734], ["2025-11", 2.774], ["2025-12", 3.048], ["2026-01", 2.766], ["2026-02", 2.8], ["2026-03", 2.781], ["2026-04", 3.169], ["2026-05", 3.041], ["2026-06", 3.031], ["2026-07", 2.963]], "STABLE_PIPELINE_R14B": [["2025-07", 2.73], ["2025-08", 2.605], ["2025-09", 2.729], ["2025-10", 2.761], ["2025-11", 2.814], ["2025-12", 3.135], ["2026-01", 2.881], ["2026-02", 2.927], ["2026-03", 2.963], ["2026-04", 3.445], ["2026-05", 3.369], ["2026-06", 3.423], ["2026-07", 3.377]], "STABLE_LONG_CORE_R14B": [["2025-07", 2.73], ["2025-08", 2.562], ["2025-09", 2.643], ["2025-10", 2.694], ["2025-11", 2.729], ["2025-12", 2.997], ["2026-01", 2.711], ["2026-02", 2.749], ["2026-03", 2.736], ["2026-04", 3.128], ["2026-05", 3.036], ["2026-06", 3.062], ["2026-07", 3.03]], "STABLE_LONG_GAP_R14B": [["2025-07", 2.73], ["2025-08", 2.564], ["2025-09", 2.646], ["2025-10", 2.699], ["2025-11", 2.736], ["2025-12", 3.006], ["2026-01", 2.721], ["2026-02", 2.761], ["2026-03", 2.75], ["2026-04", 3.144], ["2026-05", 3.053], ["2026-06", 3.08], ["2026-07", 3.051]], "F1b": [["2025-08", 2.603], ["2025-09", 2.62], ["2025-10", 2.736], ["2025-11", 2.843], ["2025-12", 3.062], ["2026-01", 2.945], ["2026-02", 3.066], ["2026-03", 3.146], ["2026-04", 3.754], ["2026-05", 3.706], ["2026-06", 3.869], ["2026-07", 3.933]], "F2": [["2025-08", 2.404], ["2025-09", 2.436], ["2025-10", 2.168], ["2025-11", 2.125], ["2025-12", 2.419], ["2026-01", 2.614], ["2026-02", 2.584], ["2026-03", 2.571], ["2026-04", 2.866], ["2026-05", 2.554], ["2026-06", 2.499], ["2026-07", 2.41]], "TVWQRF_TVW3_FULLM": [["2025-07", 2.73], ["2025-08", 2.577], ["2025-09", 3.031], ["2025-10", 2.859], ["2025-11", 3.066], ["2025-12", 3.522], ["2026-01", 2.707], ["2026-02", 2.784], ["2026-03", 2.983], ["2026-04", 3.311], ["2026-05", 3.072], ["2026-06", 2.978], ["2026-07", 2.769]], "TVWQRF_QRF_MEAN_FULLM": [["2025-07", 2.73], ["2025-08", 2.516], ["2025-09", 2.929], ["2025-10", 2.658], ["2025-11", 2.792], ["2025-12", 3.215], ["2026-01", 2.338], ["2026-02", 2.373], ["2026-03", 2.634], ["2026-04", 2.932], ["2026-05", 2.675], ["2026-06", 2.585], ["2026-07", 2.285]]}, "score": {"quarters": ["2025Q3", "2025Q4", "2026Q1", "2026Q2"], "n": 4, "mae": {"cnb": 0.494, "INDEPENDENT_BRIDGE": 0.867, "STABLE_LOCAL_CORE_R14B": 0.744, "STABLE_PIPELINE_R14B": 0.882, "STABLE_LONG_CORE_R14B": 0.715, "STABLE_LONG_GAP_R14B": 0.724, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 0.869, "TVWQRF_QRF_MEAN_FULLM": 0.598}}}, {"id": "2025-autumn", "season": "Autumn", "season_cs": "podzim", "year": 2025, "report_date": "2025-11-13", "cutoff_date": "2025-10-24", "origin": "2025-10", "origin_clock": "2025-11-04 23:59", "window": {"start": "2024-10", "end": "2027-12"}, "cnb": [{"quarter": "2025Q4", "value": 2.214}, {"quarter": "2026Q1", "value": 2.176}, {"quarter": "2026Q2", "value": 2.201}, {"quarter": "2026Q3", "value": 2.153}, {"quarter": "2026Q4", "value": 2.25}, {"quarter": "2027Q1", "value": 2.534}, {"quarter": "2027Q2", "value": 2.467}, {"quarter": "2027Q3", "value": 2.462}, {"quarter": "2027Q4", "value": 2.481}], "realised_quarters": [{"quarter": "2025Q4", "value": 2.233}, {"quarter": "2026Q1", "value": 1.621}, {"quarter": "2026Q2", "value": 2.046}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2025Q4", 2.166], ["2026Q1", 1.918], ["2026Q2", 2.234], ["2026Q3", 2.296]], "STABLE_LOCAL_CORE_R14B": [["2025Q4", 2.282], ["2026Q1", 2.108], ["2026Q2", 2.345], ["2026Q3", 2.333]], "STABLE_PIPELINE_R14B": [["2025Q4", 2.252], ["2026Q1", 1.978], ["2026Q2", 2.138], ["2026Q3", 1.996]], "STABLE_LONG_CORE_R14B": [["2025Q4", 2.282], ["2026Q1", 2.128], ["2026Q2", 2.454], ["2026Q3", 2.594]], "STABLE_LONG_GAP_R14B": [["2025Q4", 2.292], ["2026Q1", 2.169], ["2026Q2", 2.526], ["2026Q3", 2.699]], "F1b": [["2026Q1", 1.81], ["2026Q2", 2.063]], "F2": [["2026Q1", 2.624], ["2026Q2", 2.69]], "TVWQRF_TVW3_FULLM": [["2025Q4", 2.322], ["2026Q1", 1.671], ["2026Q2", 1.841], ["2026Q3", 1.635]], "TVWQRF_QRF_MEAN_FULLM": [["2025Q4", 2.335], ["2026Q1", 1.667], ["2026Q2", 1.954], ["2026Q3", 1.91]]}, "paths": {"INDEPENDENT_BRIDGE": [["2025-10", 2.215], ["2025-11", 2.132], ["2025-12", 2.151], ["2026-01", 1.884], ["2026-02", 1.941], ["2026-03", 1.929], ["2026-04", 2.375], ["2026-05", 2.17], ["2026-06", 2.156], ["2026-07", 2.169], ["2026-08", 2.261], ["2026-09", 2.458], ["2026-10", 2.538]], "STABLE_LOCAL_CORE_R14B": [["2025-10", 2.215], ["2025-11", 2.201], ["2025-12", 2.43], ["2026-01", 2.119], ["2026-02", 2.124], ["2026-03", 2.082], ["2026-04", 2.448], ["2026-05", 2.305], ["2026-06", 2.282], ["2026-07", 2.232], ["2026-08", 2.274], ["2026-09", 2.493], ["2026-10", 2.635]], "STABLE_PIPELINE_R14B": [["2025-10", 2.215], ["2025-11", 2.175], ["2025-12", 2.366], ["2026-01", 2.002], ["2026-02", 1.987], ["2026-03", 1.944], ["2026-04", 2.295], ["2026-05", 2.101], ["2026-06", 2.019], ["2026-07", 1.872], ["2026-08", 1.943], ["2026-09", 2.173], ["2026-10", 2.236]], "STABLE_LONG_CORE_R14B": [["2025-10", 2.215], ["2025-11", 2.2], ["2025-12", 2.43], ["2026-01", 2.118], ["2026-02", 2.144], ["2026-03", 2.123], ["2026-04", 2.51], ["2026-05", 2.414], ["2026-06", 2.437], ["2026-07", 2.435], ["2026-08", 2.535], ["2026-09", 2.813], ["2026-10", 3.015]], "STABLE_LONG_GAP_R14B": [["2025-10", 2.215], ["2025-11", 2.211], ["2025-12", 2.45], ["2026-01", 2.149], ["2026-02", 2.185], ["2026-03", 2.174], ["2026-04", 2.572], ["2026-05", 2.487], ["2026-06", 2.52], ["2026-07", 2.529], ["2026-08", 2.64], ["2026-09", 2.929], ["2026-10", 3.142]], "F1b": [["2025-11", 2.072], ["2025-12", 2.062], ["2026-01", 1.778], ["2026-02", 1.838], ["2026-03", 1.815], ["2026-04", 2.227], ["2026-05", 1.996], ["2026-06", 1.967], ["2026-07", 1.967]], "F2": [["2025-11", 2.146], ["2025-12", 2.444], ["2026-01", 2.643], ["2026-02", 2.619], ["2026-03", 2.611], ["2026-04", 2.912], ["2026-05", 2.604], ["2026-06", 2.554], ["2026-07", 2.505]], "TVWQRF_TVW3_FULLM": [["2025-10", 2.215], ["2025-11", 2.204], ["2025-12", 2.548], ["2026-01", 1.641], ["2026-02", 1.612], ["2026-03", 1.759], ["2026-04", 2.105], ["2026-05", 1.734], ["2026-06", 1.685], ["2026-07", 1.448], ["2026-08", 1.454], ["2026-09", 2.003], ["2026-10", 1.805]], "TVWQRF_QRF_MEAN_FULLM": [["2025-10", 2.215], ["2025-11", 2.22], ["2025-12", 2.569], ["2026-01", 1.638], ["2026-02", 1.603], ["2026-03", 1.76], ["2026-04", 2.145], ["2026-05", 1.819], ["2026-06", 1.897], ["2026-07", 1.688], ["2026-08", 1.714], ["2026-09", 2.328], ["2026-10", 2.125]]}, "score": {"quarters": ["2025Q4", "2026Q1", "2026Q2"], "n": 3, "mae": {"cnb": 0.243, "INDEPENDENT_BRIDGE": 0.184, "STABLE_LOCAL_CORE_R14B": 0.278, "STABLE_PIPELINE_R14B": 0.156, "STABLE_LONG_CORE_R14B": 0.321, "STABLE_LONG_GAP_R14B": 0.363, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 0.114, "TVWQRF_QRF_MEAN_FULLM": 0.08}}}, {"id": "2026-winter", "season": "Winter", "season_cs": "zima", "year": 2026, "report_date": "2026-02-12", "cutoff_date": "2026-01-23", "origin": "2026-01", "origin_clock": "2026-02-04 23:59", "window": {"start": "2025-01", "end": "2027-12"}, "cnb": [{"quarter": "2026Q1", "value": 1.572}, {"quarter": "2026Q2", "value": 1.511}, {"quarter": "2026Q3", "value": 1.471}, {"quarter": "2026Q4", "value": 1.648}, {"quarter": "2027Q1", "value": 2.06}, {"quarter": "2027Q2", "value": 2.084}, {"quarter": "2027Q3", "value": 2.079}, {"quarter": "2027Q4", "value": 2.057}], "realised_quarters": [{"quarter": "2026Q1", "value": 1.621}, {"quarter": "2026Q2", "value": 2.046}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2026Q1", 1.568], ["2026Q2", 1.727], ["2026Q3", 1.83], ["2026Q4", 2.239]], "STABLE_LOCAL_CORE_R14B": [["2026Q1", 1.586], ["2026Q2", 1.722], ["2026Q3", 1.668], ["2026Q4", 1.994]], "STABLE_PIPELINE_R14B": [["2026Q1", 1.564], ["2026Q2", 1.69], ["2026Q3", 1.531], ["2026Q4", 1.915]], "STABLE_LONG_CORE_R14B": [["2026Q1", 1.592], ["2026Q2", 1.789], ["2026Q3", 1.89], ["2026Q4", 2.373]], "STABLE_LONG_GAP_R14B": [["2026Q1", 1.587], ["2026Q2", 1.771], ["2026Q3", 1.859], ["2026Q4", 2.328]], "F1b": [["2026Q2", 1.533]], "F2": [["2026Q2", 1.615]], "TVWQRF_TVW3_FULLM": [["2026Q1", 1.671], ["2026Q2", 1.806], ["2026Q3", 1.622], ["2026Q4", 1.717]], "TVWQRF_QRF_MEAN_FULLM": [["2026Q1", 1.805], ["2026Q2", 2.183], ["2026Q3", 2.397], ["2026Q4", 2.708]]}, "paths": {"INDEPENDENT_BRIDGE": [["2026-01", 1.637], ["2026-02", 1.558], ["2026-03", 1.509], ["2026-04", 1.833], ["2026-05", 1.653], ["2026-06", 1.694], ["2026-07", 1.68], ["2026-08", 1.754], ["2026-09", 2.057], ["2026-10", 1.898], ["2026-11", 2.32], ["2026-12", 2.499], ["2027-01", 2.79]], "STABLE_LOCAL_CORE_R14B": [["2026-01", 1.637], ["2026-02", 1.603], ["2026-03", 1.518], ["2026-04", 1.849], ["2026-05", 1.68], ["2026-06", 1.637], ["2026-07", 1.576], ["2026-08", 1.608], ["2026-09", 1.82], ["2026-10", 1.673], ["2026-11", 2.052], ["2026-12", 2.256], ["2027-01", 2.438]], "STABLE_PIPELINE_R14B": [["2026-01", 1.637], ["2026-02", 1.553], ["2026-03", 1.503], ["2026-04", 1.842], ["2026-05", 1.641], ["2026-06", 1.588], ["2026-07", 1.397], ["2026-08", 1.436], ["2026-09", 1.76], ["2026-10", 1.558], ["2026-11", 1.951], ["2026-12", 2.236], ["2027-01", 2.412]], "STABLE_LONG_CORE_R14B": [["2026-01", 1.637], ["2026-02", 1.609], ["2026-03", 1.529], ["2026-04", 1.866], ["2026-05", 1.746], ["2026-06", 1.754], ["2026-07", 1.742], ["2026-08", 1.83], ["2026-09", 2.098], ["2026-10", 2.007], ["2026-11", 2.432], ["2026-12", 2.681], ["2027-01", 2.907]], "STABLE_LONG_GAP_R14B": [["2026-01", 1.637], ["2026-02", 1.604], ["2026-03", 1.52], ["2026-04", 1.853], ["2026-05", 1.729], ["2026-06", 1.732], ["2026-07", 1.716], ["2026-08", 1.799], ["2026-09", 2.063], ["2026-10", 1.967], ["2026-11", 2.387], ["2026-12", 2.631], ["2027-01", 2.853]], "F1b": [["2026-02", 1.485], ["2026-03", 1.401], ["2026-04", 1.676], ["2026-05", 1.461], ["2026-06", 1.461], ["2026-07", 1.389]], "F2": [["2026-02", 1.564], ["2026-03", 1.55], ["2026-04", 1.841], ["2026-05", 1.53], ["2026-06", 1.475], ["2026-07", 1.421]], "TVWQRF_TVW3_FULLM": [["2026-01", 1.637], ["2026-02", 1.652], ["2026-03", 1.724], ["2026-04", 2.022], ["2026-05", 1.746], ["2026-06", 1.65], ["2026-07", 1.426], ["2026-08", 1.54], ["2026-09", 1.899], ["2026-10", 1.406], ["2026-11", 1.741], ["2026-12", 2.003], ["2027-01", 1.884]], "TVWQRF_QRF_MEAN_FULLM": [["2026-01", 1.637], ["2026-02", 1.816], ["2026-03", 1.961], ["2026-04", 2.301], ["2026-05", 2.057], ["2026-06", 2.19], ["2026-07", 2.121], ["2026-08", 2.296], ["2026-09", 2.774], ["2026-10", 2.337], ["2026-11", 2.708], ["2026-12", 3.08], ["2027-01", 3.162]]}, "score": {"quarters": ["2026Q1", "2026Q2"], "n": 2, "mae": {"cnb": 0.292, "INDEPENDENT_BRIDGE": 0.186, "STABLE_LOCAL_CORE_R14B": 0.179, "STABLE_PIPELINE_R14B": 0.206, "STABLE_LONG_CORE_R14B": 0.143, "STABLE_LONG_GAP_R14B": 0.154, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 0.145, "TVWQRF_QRF_MEAN_FULLM": 0.16}}}, {"id": "2026-spring", "season": "Spring", "season_cs": "jaro", "year": 2026, "report_date": "2026-05-14", "cutoff_date": "2026-04-24", "origin": "2026-04", "origin_clock": "2026-05-05 23:59", "window": {"start": "2025-04", "end": "2027-12"}, "cnb": [{"quarter": "2026Q2", "value": 2.179}, {"quarter": "2026Q3", "value": 2.346}, {"quarter": "2026Q4", "value": 2.604}, {"quarter": "2027Q1", "value": 3.079}, {"quarter": "2027Q2", "value": 2.421}, {"quarter": "2027Q3", "value": 2.129}, {"quarter": "2027Q4", "value": 1.957}], "realised_quarters": [{"quarter": "2026Q2", "value": 2.046}], "quarter_points": {"INDEPENDENT_BRIDGE": [["2026Q2", 2.459], ["2026Q3", 2.62], ["2026Q4", 3.212], ["2027Q1", 3.95]], "STABLE_LOCAL_CORE_R14B": [["2026Q2", 2.294], ["2026Q3", 2.152], ["2026Q4", 2.443], ["2027Q1", 2.952]], "STABLE_PIPELINE_R14B": [["2026Q2", 2.323], ["2026Q3", 2.24], ["2026Q4", 2.762], ["2027Q1", 3.469]], "STABLE_LONG_CORE_R14B": [["2026Q2", 2.382], ["2026Q3", 2.53], ["2026Q4", 3.137], ["2027Q1", 3.904]], "STABLE_LONG_GAP_R14B": [["2026Q2", 2.378], ["2026Q3", 2.513], ["2026Q4", 3.109], ["2027Q1", 3.862]], "TVWQRF_TVW3_FULLM": [["2026Q2", 2.413], ["2026Q3", 2.688], ["2026Q4", 3.669], ["2027Q1", 4.089]], "TVWQRF_QRF_MEAN_FULLM": [["2026Q2", 2.453], ["2026Q3", 2.852], ["2026Q4", 4.053], ["2027Q1", 4.928]]}, "paths": {"INDEPENDENT_BRIDGE": [["2026-04", 2.518], ["2026-05", 2.39], ["2026-06", 2.468], ["2026-07", 2.412], ["2026-08", 2.558], ["2026-09", 2.891], ["2026-10", 2.812], ["2026-11", 3.308], ["2026-12", 3.516], ["2027-01", 3.802], ["2027-02", 4.198], ["2027-03", 3.851], ["2027-04", 3.792]], "STABLE_LOCAL_CORE_R14B": [["2026-04", 2.518], ["2026-05", 2.217], ["2026-06", 2.146], ["2026-07", 2.077], ["2026-08", 2.093], ["2026-09", 2.286], ["2026-10", 2.128], ["2026-11", 2.499], ["2026-12", 2.702], ["2027-01", 2.947], ["2027-02", 3.23], ["2027-03", 2.678], ["2027-04", 2.418]], "STABLE_PIPELINE_R14B": [["2026-04", 2.518], ["2026-05", 2.242], ["2026-06", 2.209], ["2026-07", 2.07], ["2026-08", 2.158], ["2026-09", 2.492], ["2026-10", 2.359], ["2026-11", 2.815], ["2026-12", 3.111], ["2027-01", 3.35], ["2027-02", 3.72], ["2027-03", 3.336], ["2027-04", 3.192]], "STABLE_LONG_CORE_R14B": [["2026-04", 2.518], ["2026-05", 2.305], ["2026-06", 2.322], ["2026-07", 2.341], ["2026-08", 2.47], ["2026-09", 2.778], ["2026-10", 2.733], ["2026-11", 3.193], ["2026-12", 3.486], ["2027-01", 3.819], ["2027-02", 4.184], ["2027-03", 3.708], ["2027-04", 3.525]], "STABLE_LONG_GAP_R14B": [["2026-04", 2.518], ["2026-05", 2.301], ["2026-06", 2.314], ["2026-07", 2.328], ["2026-08", 2.454], ["2026-09", 2.757], ["2026-10", 2.709], ["2026-11", 3.165], ["2026-12", 3.453], ["2027-01", 3.782], ["2027-02", 4.143], ["2027-03", 3.662], ["2027-04", 3.475]], "F1b": [["2026-05", 2.343], ["2026-06", 2.403], ["2026-07", 2.317]], "F2": [["2026-05", 2.217], ["2026-06", 2.186], ["2026-07", 2.154]], "TVWQRF_TVW3_FULLM": [["2026-04", 2.518], ["2026-05", 2.226], ["2026-06", 2.495], ["2026-07", 2.389], ["2026-08", 2.497], ["2026-09", 3.179], ["2026-10", 3.005], ["2026-11", 3.653], ["2026-12", 4.349], ["2027-01", 4.044], ["2027-02", 4.302], ["2027-03", 3.922], ["2027-04", 3.55]], "TVWQRF_QRF_MEAN_FULLM": [["2026-04", 2.518], ["2026-05", 2.245], ["2026-06", 2.597], ["2026-07", 2.53], ["2026-08", 2.651], ["2026-09", 3.375], ["2026-10", 3.28], ["2026-11", 4.035], ["2026-12", 4.843], ["2027-01", 4.678], ["2027-02", 5.135], ["2027-03", 4.97], ["2027-04", 4.721]]}, "score": {"quarters": ["2026Q2"], "n": 1, "mae": {"cnb": 0.133, "INDEPENDENT_BRIDGE": 0.413, "STABLE_LOCAL_CORE_R14B": 0.248, "STABLE_PIPELINE_R14B": 0.277, "STABLE_LONG_CORE_R14B": 0.336, "STABLE_LONG_GAP_R14B": 0.332, "F1b": null, "F2": null, "TVWQRF_TVW3_FULLM": 0.367, "TVWQRF_QRF_MEAN_FULLM": 0.407}}}, {"id": "2026-summer", "season": "Summer", "season_cs": "léto", "year": 2026, "report_date": "2026-08-13", "cutoff_date": "2026-07-24", "origin": "2026-07", "origin_clock": "2026-08-04 23:59", "window": {"start": "2025-07", "end": "2028-12"}, "cnb": [{"quarter": "2026Q3", "value": 1.904}, {"quarter": "2026Q4", "value": 2.389}, {"quarter": "2027Q1", "value": 2.825}, {"quarter": "2027Q2", "value": 2.421}, {"quarter": "2027Q3", "value": 2.501}, {"quarter": "2027Q4", "value": 2.184}, {"quarter": "2028Q1", "value": 2.469}, {"quarter": "2028Q2", "value": 2.403}, {"quarter": "2028Q3", "value": 2.391}, {"quarter": "2028Q4", "value": 2.394}], "realised_quarters": [], "quarter_points": {"INDEPENDENT_BRIDGE": [["2026Q3", 1.625], ["2026Q4", 1.944], ["2027Q1", 2.553], ["2027Q2", 2.642]], "STABLE_LOCAL_CORE_R14B": [["2026Q3", 1.73], ["2026Q4", 2.024], ["2027Q1", 2.501], ["2027Q2", 2.326]], "STABLE_PIPELINE_R14B": [["2026Q3", 1.782], ["2026Q4", 2.153], ["2027Q1", 2.693], ["2027Q2", 2.647]], "STABLE_LONG_CORE_R14B": [["2026Q3", 1.761], ["2026Q4", 2.123], ["2027Q1", 2.581], ["2027Q2", 2.337]], "STABLE_LONG_GAP_R14B": [["2026Q3", 1.768], ["2026Q4", 2.152], ["2027Q1", 2.634], ["2027Q2", 2.413]], "TVWQRF_TVW3_FULLM": [["2026Q3", 1.718], ["2026Q4", 1.933], ["2027Q1", 1.968], ["2027Q2", 1.531]], "TVWQRF_QRF_MEAN_FULLM": [["2026Q3", 1.779], ["2026Q4", 2.228], ["2027Q1", 2.442], ["2027Q2", 2.201]]}, "paths": {"INDEPENDENT_BRIDGE": [["2026-07", 1.542], ["2026-08", 1.583], ["2026-09", 1.749], ["2026-10", 1.591], ["2026-11", 2.037], ["2026-12", 2.204], ["2027-01", 2.481], ["2027-02", 2.808], ["2027-03", 2.371], ["2027-04", 2.302], ["2027-05", 2.509], ["2027-06", 3.114], ["2027-07", 3.187]], "STABLE_LOCAL_CORE_R14B": [["2026-07", 1.542], ["2026-08", 1.739], ["2026-09", 1.908], ["2026-10", 1.727], ["2026-11", 2.078], ["2026-12", 2.268], ["2027-01", 2.503], ["2027-02", 2.777], ["2027-03", 2.224], ["2027-04", 2.024], ["2027-05", 2.205], ["2027-06", 2.75], ["2027-07", 2.729]], "STABLE_PIPELINE_R14B": [["2026-07", 1.542], ["2026-08", 1.782], ["2026-09", 2.023], ["2026-10", 1.816], ["2026-11", 2.203], ["2026-12", 2.44], ["2027-01", 2.66], ["2027-02", 2.952], ["2027-03", 2.467], ["2027-04", 2.33], ["2027-05", 2.528], ["2027-06", 3.083], ["2027-07", 3.008]], "STABLE_LONG_CORE_R14B": [["2026-07", 1.542], ["2026-08", 1.77], ["2026-09", 1.971], ["2026-10", 1.821], ["2026-11", 2.177], ["2026-12", 2.37], ["2027-01", 2.61], ["2027-02", 2.856], ["2027-03", 2.277], ["2027-04", 2.05], ["2027-05", 2.216], ["2027-06", 2.745], ["2027-07", 2.708]], "STABLE_LONG_GAP_R14B": [["2026-07", 1.542], ["2026-08", 1.778], ["2026-09", 1.985], ["2026-10", 1.843], ["2026-11", 2.207], ["2026-12", 2.407], ["2027-01", 2.655], ["2027-02", 2.909], ["2027-03", 2.337], ["2027-04", 2.118], ["2027-05", 2.291], ["2027-06", 2.829], ["2027-07", 2.8]], "TVWQRF_TVW3_FULLM": [["2026-07", 1.542], ["2026-08", 1.551], ["2026-09", 2.06], ["2026-10", 1.614], ["2026-11", 1.923], ["2026-12", 2.262], ["2027-01", 1.822], ["2027-02", 2.246], ["2027-03", 1.836], ["2027-04", 1.475], ["2027-05", 1.355], ["2027-06", 1.763], ["2027-07", 1.389]], "TVWQRF_QRF_MEAN_FULLM": [["2026-07", 1.542], ["2026-08", 1.571], ["2026-09", 2.225], ["2026-10", 1.852], ["2026-11", 2.207], ["2026-12", 2.625], ["2027-01", 2.254], ["2027-02", 2.703], ["2027-03", 2.37], ["2027-04", 2.076], ["2027-05", 2.023], ["2027-06", 2.504], ["2027-07", 2.191]]}, "score": {"quarters": [], "n": 0, "mae": {"cnb": null, "INDEPENDENT_BRIDGE": null, "STABLE_LOCAL_CORE_R14B": null, "STABLE_PIPELINE_R14B": null, "STABLE_LONG_CORE_R14B": null, "STABLE_LONG_GAP_R14B": null, "TVWQRF_TVW3_FULLM": null, "TVWQRF_QRF_MEAN_FULLM": null}}}], "method": ["<b>CNB forecast.</b> Quarterly averages of year-on-year CPI inflation from each report's chart data (<code>data/cnb_mpr_cpi_quarterly.csv</code>), forecast quarters only, drawn at the middle month of each quarter.", "<b>Model dots.</b> Each model's average inflation over the CNB's forecast quarters, drawn at the same mid-quarter point as the CNB's. Months before the model run use realised inflation, as in the misses; a quarter gets a dot only when all three of its months are available.", "<b>Which model run.</b> For each report, the latest run whose decision clock, the eve of the CPI release for its first month, falls before 00:00 Prague on the report date. Month 0 of the component bridge, its four Bridge · variants and the two CNB forest lines is our release-eve nowcast (HARD_BASE); later months are forecasts. Year-on-year values are compounded from the monthly path and realised history.", "<b>Component bridge and its variants.</b> The component bridge forecasts core, food, administered prices, fuel and alcohol/tobacco separately and adds them with basket weights. The four Bridge · variants replace its food block with a cost-chain food model and its fuel block with constant pump prices; current core, long-run core level and long-run core gap also replace its core model.", "<b>Earlier component engine and trend-gap.</b> Taken from <code>output/path_step2.csv</code> for the same origin month. They start at month 1 and use their own nowcast for month 0. The trend-gap model uses financial-market inflation expectations.", "<b>CNB TVW3 and QRF mean w/ nowcast.</b> Our replication of the CNB working paper's quantile regression forest on the real-time panel with all 72 predictors (LUCI and the Rushin index included, Bloomberg commodity series) and a calendar-month feature: TVW3 weights five quantiles, QRF mean uses the forest's average. Each run uses only data released before its clock, at today's vintage; for LUCI and the Rushin index that means histories the CNB has since re-estimated.", "<b>Realised.</b> Current-vintage CPI, compounded from monthly changes; first releases can differ by rounding. August 2026 is the year-on-year rate from CZSO's release of 10 September 2026 (1.9 %), added because the frozen backtest inputs end in July.", "<b>Average miss.</b> Absolute error on quarterly average inflation over the report's forecast quarters that have fully come in and that every run from month 0 covers. A model quarter uses realised months before the model run and forecasts after it. The CNB is scored on the same quarters. A line without the ranking bar does not cover all of those quarters. Neighbouring reports share outcomes, so the panels are not independent tests."], "f_object": "a"};
+  const SERIES = DATA.series;
+  const byId = Object.fromEntries(SERIES.map(s => [s.id, s]));
+  const STORE = "cnb-rounds-visible-v1";
+  const defaults = () => new Set(SERIES.filter(s => s.default).map(s => s.id));
+  let visible = defaults();
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORE) || "null");
+    if (Array.isArray(saved)) visible = new Set(saved.filter(id => byId[id]));
+  } catch (e) { /* storage unavailable: keep defaults */ }
+  const save = () => { try { localStorage.setItem(STORE, JSON.stringify([...visible])); } catch (e) { /* ignore */ } };
+
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const mi = s => { const [y, m] = s.split("-").map(Number); return y * 12 + (m - 1); };
+  const ms = i => `${Math.floor(i / 12)}-${String((i % 12) + 1).padStart(2, "0")}`;
+  const mLabel = i => `${MONTHS[i % 12]} ${Math.floor(i / 12)}`;
+  const qOf = i => `${Math.floor(i / 12)}Q${Math.floor((i % 12) / 3) + 1}`;
+  const qStart = q => Number(q.slice(0, 4)) * 12 + (Number(q.slice(5)) - 1) * 3;
+  const qLabel = q => `${q.slice(5)}Q${q.slice(2, 4)}`;
+  const dLabel = s => { const [y, m, d] = s.slice(0, 10).split("-").map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
+  const clockLabel = s => { const [d, t] = s.split(" "); return `${dLabel(d)}, ${t} Prague`; };
+  const esc = t => String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const num = (v, dec) => `${v < 0 ? "−" : ""}${Math.abs(v).toFixed(dec)}`;
+
+  function nice(lo, hi) {
+    const span = hi - lo;
+    const step = [0.5, 1, 2, 2.5, 5, 10].find(s => span / s <= 7) || 20;
+    return { min: Math.floor(lo / step) * step, max: Math.ceil(hi / step) * step, step };
+  }
+
+  function swatch(s, w = 26) {
+    if (s.kind === "cnb") {
+      return `<svg width="${w}" height="12" aria-hidden="true"><line x1="0" y1="6" x2="${w}" y2="6" style="stroke:var(${s.color});stroke-width:1.5"/><circle cx="${w / 2}" cy="6" r="3.3" style="fill:var(${s.color})"/></svg>`;
+    }
+    return `<svg width="${w}" height="12" aria-hidden="true"><line x1="2" y1="6" x2="${w - 2}" y2="6" style="stroke:var(${s.color});stroke-width:${Math.max(s.width, 2)};stroke-dasharray:${s.dash || "none"};stroke-linecap:round"/></svg>`;
+  }
+
+  const chips = document.getElementById("chips");
+  function renderChips() {
+    chips.innerHTML = SERIES.map(s =>
+      `<button type="button" class="chip" data-id="${s.id}" aria-pressed="${visible.has(s.id)}">${swatch(s)}<span>${esc(s.label)}</span></button>`
+    ).join("");
+  }
+  chips.addEventListener("click", e => {
+    const b = e.target.closest(".chip");
+    if (!b) return;
+    const id = b.dataset.id;
+    if (visible.has(id)) visible.delete(id); else visible.add(id);
+    b.setAttribute("aria-pressed", String(visible.has(id)));
+    save();
+    renderAll();
+  });
+  document.querySelector(".switch-head").addEventListener("click", e => {
+    const a = e.target.closest("[data-action]");
+    if (!a) return;
+    visible = a.dataset.action === "all" ? new Set(SERIES.map(s => s.id)) : defaults();
+    save();
+    renderChips();
+    renderAll();
+  });
+
+  const W = 640, H = 330, M = { l: 38, r: 12, t: 26, b: 28 };
+  const PW = W - M.l - M.r, PH = H - M.t - M.b;
+  const rounds = document.getElementById("rounds");
+
+  function buildPlates() {
+    const perYear = {};
+    DATA.reports.forEach(r => { const y = r.report_date.slice(0, 4); perYear[y] = (perYear[y] || 0) + 1; });
+    let html = "", year = null;
+    DATA.reports.forEach((r, k) => {
+      const y = r.report_date.slice(0, 4);
+      if (y !== year) {
+        year = y;
+        html += `<div class="year"><h2>${y}</h2><span class="count">${perYear[y]} report${perYear[y] > 1 ? "s" : ""}</span></div>`;
+      }
+      html += `<article class="plate" id="r-${r.id}">
+        <header>
+          <div class="eyebrow">Monetary Policy Report · published ${dLabel(r.report_date)}</div>
+          <h3>${esc(r.season)} ${r.year} <span class="cs" lang="cs">${esc(r.season_cs)} ${r.year}</span></h3>
+          <div class="meta">CNB data cut-off <b>${dLabel(r.cutoff_date)}</b> · our paths: the <b>${mLabel(mi(r.origin))}</b> run, made ${esc(clockLabel(r.origin_clock))}</div>
+        </header>
+        <div class="chart" data-k="${k}"></div>
+        <div class="score" data-k="${k}"></div>
+      </article>`;
+    });
+    rounds.innerHTML = html;
+    rounds.querySelectorAll(".chart").forEach(host => {
+      host.addEventListener("pointermove", onMove);
+      host.addEventListener("pointerleave", onLeave);
+    });
+  }
+
+  function renderChart(rep, host) {
+    const start = mi(rep.window.start), end = mi(rep.window.end), n = end - start + 1;
+    const X = i => M.l + ((i - start + 0.5) / n) * PW;
+    const XE = i => M.l + ((i - start) / n) * PW;
+    const realised = [];
+    for (let i = start; i <= end; i++) {
+      const v = DATA.realised[ms(i)];
+      if (v != null) realised.push([i, v]);
+    }
+    const models = SERIES.filter(s => s.kind === "model" && visible.has(s.id) && rep.paths[s.id] && rep.paths[s.id].length);
+    const vals = [];
+    if (visible.has("realised")) realised.forEach(p => vals.push(p[1]));
+    if (visible.has("cnb")) rep.cnb.forEach(q => vals.push(q.value));
+    models.forEach(s => rep.paths[s.id].forEach(p => vals.push(p[1])));
+    if (!vals.length) realised.forEach(p => vals.push(p[1]));
+    const sc = nice(Math.min(1, ...vals) - 0.35, Math.max(3, ...vals) + 0.35);
+    const Y = v => M.t + ((sc.max - v) / (sc.max - sc.min)) * PH;
+    const P = [];
+
+    P.push(`<rect x="${M.l}" y="${Y(3).toFixed(1)}" width="${PW}" height="${(Y(1) - Y(3)).toFixed(1)}" style="fill:var(--band)"/>`);
+    const steps = Math.round((sc.max - sc.min) / sc.step);
+    const dec = sc.step < 1 ? 1 : 0;
+    for (let k = 0; k <= steps; k++) {
+      const v = sc.min + k * sc.step, yy = Y(v).toFixed(1);
+      P.push(`<line x1="${M.l}" x2="${M.l + PW}" y1="${yy}" y2="${yy}" style="stroke:var(--grid);stroke-width:1"/>`);
+      P.push(`<text x="${M.l - 6}" y="${(Y(v) + 3.5).toFixed(1)}" text-anchor="end" class="tick">${num(v, dec)}</text>`);
+    }
+    P.push(`<line x1="${M.l}" x2="${M.l + PW}" y1="${Y(2).toFixed(1)}" y2="${Y(2).toFixed(1)}" style="stroke:var(--band-edge);stroke-width:1;stroke-dasharray:3 3"/>`);
+    for (let i = start; i <= end + 1; i++) {
+      if (i % 3 !== 0) continue;
+      const xx = XE(i).toFixed(1);
+      P.push(`<line x1="${xx}" x2="${xx}" y1="${M.t}" y2="${M.t + PH}" style="stroke:var(${i % 12 === 0 ? "--rule" : "--grid"});stroke-width:1"/>`);
+    }
+    P.push(`<line x1="${M.l}" x2="${M.l + PW}" y1="${M.t + PH}" y2="${M.t + PH}" style="stroke:var(--rule);stroke-width:1"/>`);
+    const perQuarter = PW / (n / 3);
+    for (let i = start; i <= end; i++) {
+      if (i % 3 !== 1) continue;
+      const q = qOf(i);
+      if (perQuarter < 30 && Number(q.slice(5)) % 2 === 0) continue;
+      P.push(`<text x="${X(i).toFixed(1)}" y="${H - 9}" text-anchor="middle" class="tick">${qLabel(q)}</text>`);
+    }
+    P.push(`<text x="${M.l - 6}" y="${M.t - 12}" text-anchor="end" class="tick">% y/y</text>`);
+
+    const [ry, rm, rd] = rep.report_date.split("-").map(Number);
+    const ri = ry * 12 + (rm - 1);
+    if (ri >= start && ri <= end) {
+      const xr = (M.l + ((ri - start + (rd - 1) / new Date(ry, rm, 0).getDate()) / n) * PW).toFixed(1);
+      P.push(`<line x1="${xr}" x2="${xr}" y1="${M.t - 6}" y2="${M.t + PH}" style="stroke:var(--ink);stroke-width:1;stroke-dasharray:1.5 3;opacity:0.6"/>`);
+      P.push(`<text x="${(Number(xr) + 5).toFixed(1)}" y="${M.t - 12}" class="tick">published ${rd} ${MONTHS[rm - 1]}</text>`);
+    }
+
+    const pts = list => list.map(p => `${X(typeof p[0] === "string" ? mi(p[0]) : p[0]).toFixed(1)},${Y(p[1]).toFixed(1)}`).join(" ");
+    [...models].reverse().forEach(s => {
+      P.push(`<polyline points="${pts(rep.paths[s.id])}" style="fill:none;stroke:var(${s.color});stroke-width:${s.width};stroke-dasharray:${s.dash || "none"};stroke-linejoin:round;stroke-linecap:round"/>`);
+    });
+    if (visible.has("realised") && realised.length) {
+      P.push(`<polyline points="${pts(realised)}" style="fill:none;stroke:var(--realised);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>`);
+      rep.realised_quarters.forEach(q => {
+        P.push(`<circle cx="${X(qStart(q.quarter) + 1).toFixed(1)}" cy="${Y(q.value).toFixed(1)}" r="3.5" style="fill:var(--surface);stroke:var(--realised);stroke-width:1.3"/>`);
+      });
+    }
+    [...models].reverse().forEach(s => {
+      (rep.quarter_points[s.id] || []).forEach(([q, v]) => {
+        P.push(`<circle cx="${X(qStart(q) + 1).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="3.2" style="fill:var(${s.color});stroke:var(--surface);stroke-width:1.1"/>`);
+      });
+    });
+    if (visible.has("cnb") && rep.cnb.length) {
+      rep.cnb.forEach(q => {
+        const y0 = Y(q.value).toFixed(1);
+        P.push(`<line x1="${XE(qStart(q.quarter)).toFixed(1)}" x2="${XE(qStart(q.quarter) + 3).toFixed(1)}" y1="${y0}" y2="${y0}" style="stroke:var(--cnb);stroke-width:3;opacity:0.3"/>`);
+      });
+      P.push(`<polyline points="${rep.cnb.map(q => `${X(qStart(q.quarter) + 1).toFixed(1)},${Y(q.value).toFixed(1)}`).join(" ")}" style="fill:none;stroke:var(--cnb);stroke-width:1.5;stroke-linejoin:round"/>`);
+      rep.cnb.forEach(q => {
+        P.push(`<circle cx="${X(qStart(q.quarter) + 1).toFixed(1)}" cy="${Y(q.value).toFixed(1)}" r="3.4" style="fill:var(--cnb);stroke:var(--surface);stroke-width:1.2"/>`);
+      });
+    }
+    P.push(`<line class="cross" x1="0" x2="0" y1="${M.t}" y2="${M.t + PH}" style="stroke:var(--ink);stroke-width:1;opacity:0"/>`);
+
+    const first = rep.cnb[0], last = rep.cnb[rep.cnb.length - 1];
+    const aria = `${rep.season} ${rep.year} report. CNB forecast from ${qLabel(first.quarter)} at ${num(first.value, 1)} % to ${qLabel(last.quarter)} at ${num(last.value, 1)} %. Model paths start from the ${mLabel(mi(rep.origin))} run.`;
+    host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(aria)}">${P.join("")}</svg><div class="tip" hidden></div>`;
+    host._ctx = {
+      start, end, n, X,
+      maps: Object.fromEntries(models.map(s => [s.id, new Map(rep.paths[s.id])])),
+      qpoints: Object.fromEntries(models.map(s => [s.id, new Map(rep.quarter_points[s.id] || [])])),
+      cnb: new Map(rep.cnb.map(q => [q.quarter, q.value])),
+      realisedQ: new Map(rep.realised_quarters.map(q => [q.quarter, q.value])),
+    };
+  }
+
+  function onMove(e) {
+    const host = e.currentTarget, ctx = host._ctx;
+    const svg = host.querySelector("svg");
+    if (!ctx || !svg) return;
+    const r = svg.getBoundingClientRect();
+    const vx = ((e.clientX - r.left) / r.width) * W;
+    if (vx < M.l || vx > M.l + PW) { onLeave(e); return; }
+    const i = Math.min(ctx.end, Math.max(ctx.start, ctx.start + Math.floor(((vx - M.l) / PW) * ctx.n)));
+    const cx = ctx.X(i);
+    const cross = svg.querySelector(".cross");
+    cross.setAttribute("x1", cx);
+    cross.setAttribute("x2", cx);
+    cross.style.opacity = "0.35";
+    const m = ms(i), q = qOf(i), monthRows = [], quarterRows = [];
+    if (visible.has("realised") && DATA.realised[m] != null) monthRows.push([byId.realised, DATA.realised[m]]);
+    SERIES.forEach(s => {
+      if (s.kind === "model" && ctx.maps[s.id] && ctx.maps[s.id].has(m)) monthRows.push([s, ctx.maps[s.id].get(m)]);
+    });
+    if (visible.has("realised") && ctx.realisedQ.has(q)) quarterRows.push([byId.realised, ctx.realisedQ.get(q)]);
+    if (visible.has("cnb") && ctx.cnb.has(q)) quarterRows.push([byId.cnb, ctx.cnb.get(q)]);
+    SERIES.forEach(s => {
+      if (s.kind === "model" && ctx.qpoints[s.id] && ctx.qpoints[s.id].has(q)) quarterRows.push([s, ctx.qpoints[s.id].get(q)]);
+    });
+    const rowsHtml = list => list.map(([s, v]) => `<div class="row"><span class="sw" style="background:var(${s.color})"></span><span>${esc(s.short || s.label)}</span><span>${num(v, 1)}</span></div>`).join("");
+    const tip = host.querySelector(".tip");
+    tip.innerHTML = `<div class="tip-head">${mLabel(i)}</div>`
+      + (monthRows.length ? rowsHtml(monthRows) : `<div class="tip-note">No monthly values</div>`)
+      + (quarterRows.length ? `<div class="tip-head tip-sub">${qLabel(q)} quarterly average</div>${rowsHtml(quarterRows)}` : "");
+    tip.hidden = false;
+    const hostR = host.getBoundingClientRect();
+    const px = (cx / W) * r.width + (r.left - hostR.left);
+    const tw = tip.offsetWidth;
+    tip.style.left = `${px + 14 + tw > hostR.width ? Math.max(0, px - 14 - tw) : px + 14}px`;
+    tip.style.top = `${((M.t + 4) / H) * r.height}px`;
+  }
+
+  function onLeave(e) {
+    const host = e.currentTarget;
+    const tip = host.querySelector(".tip");
+    const cross = host.querySelector(".cross");
+    if (tip) tip.hidden = true;
+    if (cross) cross.style.opacity = "0";
+  }
+
+  function renderScore(rep, host) {
+    const sc = rep.score;
+    if (!sc || !sc.n) {
+      host.innerHTML = `<p class="caption">None of this report's forecast quarters has fully come in yet, so there is nothing to score.</p>`;
+      return;
+    }
+    const items = SERIES.filter(s => s.kind !== "realised" && visible.has(s.id) && sc.mae[s.id] != null)
+      .map(s => [s, sc.mae[s.id]]).sort((a, b) => a[1] - b[1]);
+    if (!items.length) {
+      host.innerHTML = `<p class="caption">Switch on the CNB forecast or a model to compare misses.</p>`;
+      return;
+    }
+    const span = sc.quarters.length > 1 ? `${qLabel(sc.quarters[0])}–${qLabel(sc.quarters[sc.quarters.length - 1])}` : qLabel(sc.quarters[0]);
+    const max = Math.max(...items.map(x => x[1]));
+    host.innerHTML = `<p class="caption">Average miss on quarterly average inflation, ${span} (${sc.n} quarter${sc.n > 1 ? "s" : ""}), in percentage points</p>
+      <ol class="misses">${items.map(([s, v], k) => `<li${k === 0 ? ' class="best"' : ""}><span class="sw" style="background:var(${s.color})"></span><span class="name" title="${esc(s.label)}">${esc(s.label)}</span><span class="bar"><i style="width:${Math.max(3, (v / max) * 100).toFixed(1)}%;background:var(${s.color})"></i></span><span class="val">${v.toFixed(2)}</span></li>`).join("")}</ol>`;
+  }
+
+  function renderAll() {
+    rounds.querySelectorAll(".chart").forEach(host => renderChart(DATA.reports[Number(host.dataset.k)], host));
+    rounds.querySelectorAll(".score").forEach(host => renderScore(DATA.reports[Number(host.dataset.k)], host));
+  }
+
+  const reports = DATA.reports;
+  document.getElementById("eyebrow").textContent =
+    `Czech CPI · ${reports.length} CNB Monetary Policy Reports · ${reports[0].season} ${reports[0].year} to ${reports[reports.length - 1].season} ${reports[reports.length - 1].year}`;
+  document.getElementById("method").innerHTML = DATA.method.map(p => `<p>${p}</p>`).join("");
+  renderChips();
+  buildPlates();
+  renderAll();
+})();
+</script>

@@ -1,0 +1,330 @@
+PAGE 5
+4
+ECB
+Working Paper Series No 1168
+April 2010
+Abstract
+In this paper we analyse the pass-through of a commodity price shock along 
+the food price chain in the euro area. Unlike the existing literature, which 
+mainly focuses on food commodity prices quoted in international markets, we 
+use a novel database that accounts for the role of the Common Agricultural 
+Policy in the European Union. We model several departures from the linear 
+pass-through benchmark and compare alternative specifications with 
+aggregate and disaggregate food data. Overall, when the appropriate dataset 
+and methodology are used, it is possible to identify a significant and long-
+lasting food price pass-through. The results of our regressions are applied to 
+the strong increase in food prices in the 2007-08 period; a simple 
+decomposition exercise shows that commodity prices are the main 
+determinant of the increase in producer and consumer prices, thus solving the 
+pass-through puzzle highlighted in the existing literature for the euro area. 
+Keywords: food commodity prices; inflation; non-linearities; pass-through. 
+JEL classification: C32; C53; E3; Q17. 
+PAGE 6
+5
+ECB
+Working Paper Series No 1168
+April 2010
+Non-technical summary 
+This paper analyses the transmission of commodity price shocks along the food price 
+chain in the euro area. Conventional wisdom holds that increases in commodity 
+prices are passed through, at least partially , to retail prices. Yet, formal statistical 
+tests typically struggle to find a robust food price pass-through in the euro area. What 
+explains this puzzle? One hypothesis is that the existing studies look at the wrong 
+food commodity data: the international commodity prices that are at the heart of most 
+empirical investigations are a poor approximation for the commodity cost pressures 
+faced by euro area producers. This is because they do not account for the distortions 
+induced by the Common Agricultural Policy in Europe. A second hypothesis is that 
+these studies generally neglect that the pass-through may be non-linear and may 
+depend on the sign, size and volatility of the impulse. These effects have been shown 
+to matter for the transmission of oil price shocks to both real and nominal variables, 
+but so far they have been neglected in the context of food prices. 
+We investigate these hypotheses using a novel database of farm-gate and internal 
+market prices of food commodities collected in the European Union. These prices 
+take implicitly into account the presence of the Common Agricultural Policy in 
+Europe. We also model several departures from the linear pass-through benchmark 
+and compare alternative specifications with aggregate and disaggregate food data. 
+Our investigation highlights a number of interesting results. Contrary to the existing 
+literature, we find evidence of a statistically and economically significant food price 
+pass-through in the euro area, provided that the Common Agricultural Policy is put 
+into the picture. We also find that asymmetries and non-linearities are statistically 
+and economically significant, and hence have to be accounted for in order to 
+precisely measure the impact of a commodity price shock on consumer prices. A 
+model-based decomposition of the factors driving the rise in food prices at the 
+consumer level between 2006 and mid-2008 shows that commodity prices were a key 
+determinant of the increase in food consumer prices, thus solving the pass-through 
+puzzle highlighted in the literature. Finally, the disaggregate approach highlights 
+important differences in the structure  of pass-through for the various food items, 
+which are lost when aggregate indices are used. 
+A few implications of our findings for the monitoring, modelling and forecasting of 
+food prices in the euro area are worth mentioning. The Common Agricultural Policy 
+plays an important role in the transmission mechanism of food price shocks in the 
+euro area and the novel database adopted in this paper may provide valuable 
+information for the assessment of near-term food price developments. Moreover, 
+models of pass-through for the euro area should be preferably estimated at a 
+disaggregated level and should ideally allow for non-linear pass-through. 
+PAGE 15
+14
+ECB
+Working Paper Series No 1168
+April 2010
+in particular, depicts two such food commodity indices, one based on EU internal 
+market prices (FCI) and another using international commodity prices only (FCI 
+international). It shows that between 1997 and 2005 international commodity prices 
+have been significantly more volatile than EU internal market prices. During that 
+period, commodity prices in international markets have been generally below CAP 
+intervention prices, so that this period of relative tranquillity might be the reflex of 
+the stabilisation effects of the CAP on internal market prices in the EU. However, as 
+commodity prices in international markets progressively crossed EU intervention 
+prices from 2006 onwards, the two series have drifted upwards in tandem, 
+consistently with the idea that the CAP, by design, mainly provides a floor against 
+price falls. 
+[Insert Figure 2 about here] 
+3. Methodology 
+Many studies look at the price transmission mechanism in food commodity markets. 
+The vast majority adopts structural models of mark-up pricing, where consumer 
+prices are a function of a number of cost factors (unit labour cost, cost of energy, the 
+exchange rate) including commodity prices, as well as indicators of the cyclical 
+position of the economy (see Bloch et al, 2004 ). This approach has the benefit of 
+allowing to model the determinants of retail prices, but the choice of explanatory 
+factors is somewhat arbitrary. 
+An alternative approach used by Furlong and Ingenito (1996), Krichene (2008), and 
+Zoli (2009), among others, is to model the pass-through by means of VAR models.
+15
+This paper follows the latter approach. It considers an unrestricted vector 
+autoregression model for the euro area and investigates the interaction between 
+commodity prices, producer prices and consumer prices for the six food commodities 
+mentioned in the previous section (cereal, meat, dairy, fats, coffee and sugar). It also 
+considers an aggregate version of the model, were individual series are aggregated to 
+form price indices. 
+The reduced form VAR may be written as 
+t i t
+p
+i
+it y A k yH  
+ 
+¦
+1
+ (1)
+where ty  is a ( n × 1) vector of endogenous variables, k is the  ( n × 1) intercept 
+vector, iA  is the ith (n × n) matrix of autoregressive coefficients for i = 1, 2, ..., p,
+and tH is the ( n × 1) generalisation of a white noise process. 16 The vector of 
+endogenous variables includes the first l og-differences of both producer prices ( ppit)
+and consumer prices ( hicpt) of specific food items, as well as either the first log-
+                                                                                                                                                                        
+commodity prices, by contrast, we adopt “use-based” weights. These are derived from the structure of 
+euro area domestic demand (domestic production plus imports minus exports) in the period 2004-06, 
+and follow an experimental scheme envisaged by the European Central Bank, which is described in 
+detail in the box entitled “Euro area non-energy commodity price indices compiled by the ECB” 
+published in the December 2008 issue of the ECB Monthly Bulletin. See: 
+http://www.ecb.int/pub/pdf/mobu/mb200812en.pdf
+.
+15 A comprehensive review of the empirical methodologies employed in the literature is in Vavra and 
+Goodwin (2005).
+16 The system is identified using a Choleski decomposition and imposing that commodity prices (and 
+their non-linear transformation, as we will discu ss later) come first in the ordering of innovations, 
+followed by producer and consumer prices. This ordering corresponds to the pricing chain 
+assumption.
+PAGE 16
+15
+ECB
+Working Paper Series No 1168
+April 2010
+differences of the corresponding commodity price (ct) in the linear specification or its 
+non-linear transformations, as detailed below. 
+The non-linear specifications of commodity prices considered in this paper are the 
+following: a) asymmetric specification, in which increases and decreases in the price 
+of a commodity are considered as separate variables;
+17 b) scaled specification, which 
+takes the volatility of commodity prices into account; 18 c) net1 specification, where 
+the relevant commodity price variable is characterized by the net amount by which 
+these prices have gone up over the last year; 19 and d) net2 specification, which is a 
+modification of the latter and considers two years instead of one. 
+The asymmetric specification captures the type of non-linearity that occurs when a 
+price shock is transmitted differently depending on the sign. In this specification, 
+positive (
+
+tc ) and negative (
+
+tc ) rates of change of commodity price are separated as 
+follows: 
+otherwise
+cifcc
+tt
+t
+0
+0
+!
+¯
+®
+­ 
+
+otherwise
+cifcc
+tt
+t
+0
+0
+
+¯
+®
+­ 
+
+The scaled specification captures the threshold effects, which occur when larger 
+shocks bring about a different response than smaller shocks. The following AR(12)-
+GARCH(1,1) representation of a specific food commodity price is considered: 
+¸¸
+¹
+·
+¨¨
+©
+§ 
+   
+     
+
+
+
+ttt
+ttt
+tt t
+t ttt
+h cSCPI
+h eh
+h N I e
+e ccc
+^
+1 2 1 1 0
+1
+12 121 1 0
+/ , 0max
+) , 0 ( .~
+...
+J J J
+DDD
+The net1 specification considers the variable NCPIt, which is defined as the amount 
+by which the log of a specific commodity price in month t, cpt, exceeds the 
+maximum value over the previous twelve months; and 0 otherwise. That is: 
+^` 121 ,...,max, 0max  tttt pcpcpNCPI
+                                                           
+17 See Vavra and Goodwin (2005)  and references therein for an interpretation of the asymmetric 
+specification. 
+18 The scaled specification was developed by Lee et al (1995) in the context of the analysis of oil price 
+impact on economic activity. The idea behind this specification is that oil price increases after a long 
+period of price stability have more dramatic macroeconomic consequences than those that are mere 
+corrections of oil price decreases during the previous quarter. We adapt this specification to our 
+context considering that an increase in food commodity prices is likely to have a larger impact in a 
+stable price environment than in an environment where price movements are frequent and erratic, 
+given that price changes in a volatile environment are more likely to be quickly reversed. 
+19 The net specification was proposed by Hamilton (1996) in the context of oil shock impacts. The 
+idea behind this specification is that oil price movements must be novel (and thus potentially 
+disturbing to producers and consumers) to have an impact. As such, oil price increases that simply 
+reverse previous decreases have little or no effect. We adapt this specification to our context assuming 
+that increases in food commodity prices cascade along the food price chain only if they are big enough 
+to reverse any decrease observed in the previous quarters. 
+PAGE 17
+16
+ECB
+Working Paper Series No 1168
+April 2010
+The net2 specification considers the variable NCPI2t, which is defined as NCPIt,
+considering 24 months instead of 12 months. 20 The net1 and the net2 specifications 
+are slightly different ways to capture the state-dependent pass-through, which occurs 
+when the transmission of a shock depends on particular features affecting the state of 
+the economy. 
+4. Results 
+This section reports the main findings of the paper. On the basis of the Akaike 
+Information Criterion (AIC) and Schwarz Bayesian Information Criterion (SC), 
+reported in Table 2, we conclude that non-linearities matter for all food items, 
+irrespective of the (international or EU internal) measure of commodity prices. 
+[Insert Table 2 about here] 
+Looking at the models with EU internal commodity prices in Panel A, the scaled 
+specification is preferred for cereal, coffee, fats and meat; the net2 specification is 
+preferred for dairy products and sugar. We recall that the scaled specification 
+captures the idea that a shock in an envi ronment of stable prices is more easily 
+recognized as such, and has a larger economic pass-through than if the same shock 
+occurred in a more volatile environment. Likewise, the net2 specification assumes 
+that prices are raised only when commodity prices cross some arbitrarily identified 
+threshold, and are hardly reduced when commodity prices fall – an idea also 
+incorporated in the asymmetric specification. Both specifications allow for the 
+possibility that the pass-through of commodity price shocks may be different 
+depending on the size and sign of the underlying shock. 
+At the aggregate level, the net1 and net2 models outperform the scaled specification. 
+We conjecture that this is because price uncertainty is often market-specific and, 
+therefore, aggregate models may find it more difficult to capture this uncertainty 
+properly. Along with other considerations, this result indicates that a disaggregated 
+approach is to be preferred when dealing with non-linearities. 
+These results are quite robust, and remain valid when international commodity prices 
+are introduced (see Panel B in Table 2). 
+In what follows, we will mainly look at pass-through patterns from EU internal 
+market prices for the food commodities under the CAP and international prices for 
+the commodities not subject to such intervention (coffee and sugar). When 
+international commodity prices are used, it will be made clear in the text. 
+4.1. Significance and speed of pass-through 
+We measure the speed of pass-through as the number of months in which the impulse 
+response function of producer and consumer prices to a commodity price shock is 
+significantly different from zero, using 95% confidence bands. With only few 
+exceptions (mostly in the transmission to producer prices) commodity price changes 
+are generally found to significantly affect prices further down the food production 
+chain. 
+Table 3 reports the persistence (in number of months) of a commodity price shock on 
+food producer prices. Beyond the variability across specifications, there are 
+indications of different speeds of pass-through for different commodity shocks. The 
+fastest pass-through is found on meat items, where the significant lags vary from a 
+                                                           
+20 We construct scaled, net1 and net2 specifications also for commodity price decreases (that is, 
+SCPDt, NCPDt, and NCPD2t). However, in no case these are found to have a statistically significant 
+impact on consumer prices, and hence they have been eliminated from the VAR models. 
+PAGE 18
+17
+ECB
+Working Paper Series No 1168
+April 2010
+contemporaneous effect to three months in the net1 and net2 models, where the 
+transformed variable already incorporates some delay. Fats products have also a 
+relatively fast pass-through, with significant lags of between 2 and 5 months, 
+depending on the specification. The impulse response function for sugar products 
+decreases quickly and is not significant at the 95% confidence level. For this item 
+there is no systematic pass-through from commodity price shocks to producer prices. 
+Shocks in cereal and coffee prices are found to have a protracted impact on food 
+producer prices, with persistence ranging from 5 to 8 months in the various 
+specifications. Finally, dairy products present the slowest pass-through, possibly as a 
+consequence of the relatively long processing times of these products. 
+Unsurprisingly, the aggregate regression using the aggregate Food Commodity Index 
+(FCI) yields intermediate results, with persistence ranging between 6 and 7 months. 
+[Insert Table 3 about here] 
+The pass-through of a commodity price shock to food consumer prices reported in 
+Table 4 takes as expected a longer time (the impulse responses are significant for up 
+to 10 months). The relative speeds of pass-through for different commodity shocks 
+are in line with those observed for PPI, with meat presenting the fastest pass-through, 
+followed by fats, coffee, cereal and dairy products. We now observe an instantaneous 
+pass-through for sugar, which however is not systematically significant across 
+models. The aggregate regression using the FCI indicates that a change in food 
+commodity prices can affect the corresponding components of HICP food for around 
+eight to nine months. The long-ranging predictive power of EU internal food 
+commodity prices, together with their extreme timeliness, highlights the importance 
+of this dataset for forecasting and policymaking. 
+[Insert Table 4 about here] 
+These results strongly contrast with thos e obtained using the internationally traded 
+commodity prices (not reported in the table).
+21 When international commodity prices 
+are used (for cereal, dairy, fats and meat), no significant pass-through to HICP food 
+items is found, except for a quick pass-through (of 2 months) in the case of fats and a 
+somewhat longer pass-through (of 7-8 months) in the case of dairy products. 
+4.2. Size of pass-through 
+The cumulated impulse responses to a unit shock in commodity prices provide a 
+measure of the overall elasticities ac ross different model specifications and 
+commodities.
+22 These are shown in Tables 5 and 6, where each column reports the 
+impact on a particular component of HICP and PPI food prices and the last column 
+reports the weighted average of the impacts, using the weights reported on the top 
+row of the table. The impact is measured as the cumulated impulse response to the 
+shock over time, in this case expressed in quarters rather than months, for the sake of 
+conciseness. 
+Table 5 reports the pass-through patterns for various HICP food items. Panel A 
+considers the linear case. A number of results stand out. First, there is a large 
+dispersion of elasticities across different food items: the cumulated impact after 6 
+                                                           
+21 They are available from the authors upon request. 
+22 We make all specifications comparable to each other by scaling down the impulse responses to 
+commodity disturbances in the cases of SCPI (dividing by the sample mean of the standard deviation, 
+ht), NCPI and NCPI2 (in both cases dividing by the ratio between standard deviations of growth rate 
+of commodity price and such variables). 

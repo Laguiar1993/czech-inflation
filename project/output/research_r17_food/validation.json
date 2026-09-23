@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "all_original_origins_retained": 90,
+  "snapshot_count": 126,
+  "standalone_prediction_rows": 9072,
+  "original_nonfood_h0_weights_exact": true,
+  "r15_fast_equals_r16_control": true,
+  "original_clocks_exact": true,
+  "shared_training_calendars": true,
+  "food_target_reconstruction_max_abs": 3.774758283725532e-15,
+  "future_upstream_forecast_used": false,
+  "finite_outer_food_rows": 6480,
+  "expected_outer_food_rows": 6480,
+  "full_run": true
+}

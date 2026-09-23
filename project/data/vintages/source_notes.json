@@ -1,0 +1,32 @@
+{
+  "methodology": {
+    "source": "https://statistikaamy.csu.gov.cz/jak-ocistit-nezamestnanost",
+    "publication_date": "2025-05-26",
+    "raw_file": "raw/methodology-2025.html",
+    "sha256": "00d16344535b257fc73a1f25bb59736a9aa9bd8f2272e66d8b87718ee18ba5f7",
+    "transition_release": "2025-06-02",
+    "transition_reference": "2025-04",
+    "nsa_added_with_transition": true
+  },
+  "imports_cache": {
+    "file": "data/czso_import_prices_sitc_monthly.csv",
+    "sha256": "d99b18f86e94a8c6e7f1602cb3472adfcf2d1bd19cf785bcd47f246b5a7dae70",
+    "rows": 222,
+    "start": "2008-01",
+    "end": "2026-06",
+    "columns": [
+      "month",
+      "value",
+      "source"
+    ],
+    "historical_vintages": false
+  },
+  "artifacts": {
+    "historical_csv_sha256": "37519e58db90ab0f9f026fcf2d62b44df46a512f58596ab3985e14787044657a",
+    "latest_snapshot_sha256": "641b8b0b57740c7517202ff644c1cdb291de19aa4750423cb98a21521cc4f3ff"
+  },
+  "earlier_source_discovery": {
+    "2013-01": "https://csu.gov.cz/rychle-informace/miry-zamestnanosti-nezamestnanosti-a-ekonomicke-aktivity-leden-2013-aivs0ix6s0",
+    "status": "Located by search; not in delivered archive. Earlier aliases require separate recovery."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "inputs": {
+    "output/independent_nowcast_forecasts.csv": "77ac26bc05906616a07d8f4b33ab6f2eb10b97141295022e172d53461f3e6e98",
+    "output/independent_nowcast_hard_errors.csv": "937751450c9fd321a547efeb1c89be16a0c9159d6edf3b254a24670dcf725a9d",
+    "tests/fixtures/cleanup/core_features.csv": "09bdfeb3353eaaa2ab3b08d815480198ab1dde0d12f59fac08c8651e59dddf23",
+    "work/model_briefing_20260914/nowcast_release_evidence.csv": "ea4ffcb4b83d0ae05dcf16e55c35fc7d7b0ba12d79566546868ab6f338c1b4a5",
+    "data/release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+    "models/released_error_research_r21.py": "e7a1a013b6f8622ea2080ace2da79901d63818438c98d51d6c58ce82e7eacfd7",
+    "models/independent_nowcast.py": "7c031f70b2488b1427d17af4839e74a81e6444332a48b96f52deb2e139f9ddab",
+    "cz_struct.py": "276e69f480d32b9cad72003fb0e88cfc174d1126a72c70a56711ad18b8f48307",
+    "config.py": "571a2321f22dc9c417e24fd22eb9168cd0dd4c94f5c93c730c64d89c73f97afd",
+    "docs/implementation/R21_RESEARCH_SPEC_2026-09-15.md": "dfe151a21f7b2c029f9311cd9c86b0fc40a0ad1b88c2f09442153c8947458056",
+    "tools/research_r21/nowcast.py": "062a05833d5a73cee029f19789f1b910a422e1029353b4dd8bcbc614cde3374e"
+  },
+  "models": [
+    "CORE_RF_MEAN_R21",
+    "CORE_RF_MEDIAN_R21",
+    "HARD_BASE",
+    "HARD_FULL",
+    "HARD_HALF",
+    "HEADLINE_ENET_R21",
+    "HEADLINE_MEAN_R21"
+  ],
+  "notes": "Four fixed research candidates; benchmark attached after prediction.",
+  "outputs": {
+    "core_features_at_decision.csv": "ebc90f54abac03f74e9f35873bfb142adad634433fa0e7ea473e3c82cc253984",
+    "headline_features.csv": "83dfb7d2896d94b0efefc0f60668966262193be8fd0334af7cafca9e41d1c654",
+    "predictions.csv": "a1a68c685f52391a72732d60c00335ef2594a5936e44b2fd9243c99c6d0aa326",
+    "training.csv": "14f60aaef86a5ff611a0a445af134198c66e09832e5f2a3f1af568db0f14179f"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "unit_tests": 17,
+  "independent_first_h12_training_n": 24,
+  "coefficient_max_error": 2.7755575615628914e-17,
+  "annual_product_max_error": 6.927791673660977e-14,
+  "all_training_reference_and_endpoint_clocks_checked": true,
+  "smoke_outputs_verified": 14,
+  "bug_fix_before_full_run": "Missing any season now disables the full path as already specified; smoke output unchanged; no parameter change."
+}

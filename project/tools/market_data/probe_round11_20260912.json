@@ -1,0 +1,10 @@
+{
+  "note": "Round 11 of the 12 Sep 2026 probe: USD/CZK Bloomberg fixings (the R14 fuel block converts Brent with the CNB USD fixing) and the Eurostat PPI m/m ticker paired with EUPPCZY (CNB-paper row 45).",
+  "candidates": {
+    "usdczk_fixings": ["USDCZK F143 Curncy", "USDCZK BFIX Curncy"],
+    "ppi": ["EUPPCZM Index"]
+  },
+  "daily": ["USDCZK F143 Curncy", "USDCZK BFIX Curncy"],
+  "searches": [],
+  "max_results": 15
+}

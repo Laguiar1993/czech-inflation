@@ -1,0 +1,59 @@
+{
+  "tool": "cnb_luci",
+  "created_at": "2026-09-12T10:46:21.043570+00:00",
+  "inputs_verified_against_sources_json": {
+    "raw/arad_indicators-data-by-codes_LUCI_6codes.json": "1c2bae6738a497facba58a7f1d238b00083e06b0e128c65fd268fb0ce6c100ed",
+    "raw/zomp_2026_leto_podkladova_data.xlsx": "4d44bac00dc49d85a6c0e5c7e5fdb607167dddbc862e1a519ad9a0c6f65585d0"
+  },
+  "report_dates_file": {
+    "path": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\cnb_mpr_cpi_quarterly.csv",
+    "sha256": "137cce6c715a358b85740302453e969c8313f1b39a6eeaed0b7e8698940f3a27"
+  },
+  "arad_codes": {
+    "luci_total": "MLUCLUTXXINDQ",
+    "luci_wages_labour_costs": "MLUCLUWXXSTDQ",
+    "luci_employment": "MLUCLUEXXSTDQ",
+    "luci_unemployment": "MLUCLUUXXSTDQ",
+    "luci_demand_for_labour": "MLUCLUDXXSTDQ",
+    "luci_other": "MLUCLURXXSTDQ"
+  },
+  "snapshot_id": 95,
+  "report": "summer 2026",
+  "report_date": "2026-08-13",
+  "last_observed_quarter": "2026Q1",
+  "forecast_quarters_dropped": {
+    "n": 11,
+    "first": "2026Q2",
+    "last": "2028Q4"
+  },
+  "rules": {
+    "values": "ARAD snapshot 95 (Monetary Policy Report Summer 2026 baseline), two decimals, current vintage",
+    "observed_quarters": "a report published in quarter P observes quarters up to P-2; later quarters are CNB forecasts and are dropped",
+    "available_from_assumed": "report date of the CNB report published in quarter q+2 (data/cnb_mpr_cpi_quarterly.csv); before the listed dates, the 15th of the report month (Feb/May/Aug/Nov) of q+2"
+  },
+  "checks": {
+    "max_abs_difference_vs_report_workbook": {
+      "luci_total": 0.004985006945124937,
+      "luci_wages_labour_costs": 0.004962993590491002,
+      "luci_employment": 0.004988584164509979,
+      "luci_unemployment": 0.004989257134529999,
+      "luci_demand_for_labour": 0.004950666847592003,
+      "luci_other": 0.004942641004807999
+    },
+    "workbook_quarters_compared": {
+      "n": 92,
+      "first": "2006Q1",
+      "last": "2028Q4"
+    },
+    "rounding_tolerance": 0.0051,
+    "max_abs_gap_components_sum_vs_total": 0.020000000000000018
+  },
+  "rows": 105,
+  "first_period": "2000Q1",
+  "last_period": "2026Q1",
+  "output": {
+    "file": "luci_quarterly.csv",
+    "sha256": "1c514f05d7fab1ab9bda06242d46e1cf16bb223e193451001a24f1706e411f84"
+  },
+  "tool_sha256": "434859e2abd0e6ac4db844ab626d2a9cde99b18bd34bb64c9b9d4cbefe5b843a"
+}

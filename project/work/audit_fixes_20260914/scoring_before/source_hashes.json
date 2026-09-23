@@ -1,0 +1,46 @@
+[
+  {
+    "path": "output/independent_nowcast_forecasts.csv",
+    "sha256": "77ac26bc05906616a07d8f4b33ab6f2eb10b97141295022e172d53461f3e6e98"
+  },
+  {
+    "path": "output/independent_nowcast_scores.csv",
+    "sha256": "6173e69c740c38be9fd5f4cdba4f561154cb3ec391aea0b95099f219da2d15db"
+  },
+  {
+    "path": "output/independent_nowcast_releases.csv",
+    "sha256": "35b3ceda5a70d197a82f42ff49fae9c6081afd27a6d78e6ed743e63651fcc894"
+  },
+  {
+    "path": "output/independent_nowcast_selection.json",
+    "sha256": "363a2b6a2077608e4fcda958c74e927a25551dcfc494eefeb36a5c74a6afa6ba"
+  },
+  {
+    "path": "output/independent_nowcast_bootstrap.csv",
+    "sha256": "90b61ecd92fd833a6b67dd9cc2057d2369ff3e9214c9ee1a5a20c9f815fd7dfa"
+  },
+  {
+    "path": "output/cnb_rounds_replayed_20260912/cnb_rounds_replayed.html",
+    "sha256": "adf7346b63e260e4af457364538e758673d5c36b16e52256f741ba3399a78ead"
+  },
+  {
+    "path": "output/research_r14b/integration/forecasts.csv",
+    "sha256": "72b8724e545b802cb594bd1e5b6c3033a2557f78461b4d34ccab37ae8c34b89e"
+  },
+  {
+    "path": "output/path_step2.csv",
+    "sha256": "67fd5532af5b744dbc6c8983227182d4f96e4672f4724f7e391a0fda6786fe06"
+  },
+  {
+    "path": "output/paper_tvwqrf_20260912/realtime_full_luci_month/forecasts.csv",
+    "sha256": "63e19fa31619707398dd1e59aa6cf5e519406865290ebf070aa95d8ab89c0799"
+  },
+  {
+    "path": "output/paper_tvwqrf_20260912/realtime_full_luci_month_recent/forecasts.csv",
+    "sha256": "090393cba69e5bea6e04f22f49d30a4373eeece093a716d5a6afe211767a3587"
+  },
+  {
+    "path": "output/paper_tvwqrf_20260912/path_scores_luci_month/board_a_forecasts.csv",
+    "sha256": "a48de9978c4744c4554a7775fcc685298f84f921c89c55dc43e577f92d9b0d2e"
+  }
+]

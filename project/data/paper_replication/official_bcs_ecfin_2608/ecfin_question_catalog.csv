@@ -1,0 +1,592 @@
+archive,section,code,description,kind
+building_total_nsa_nace2.zip,Countries,EU,European Union (current composition),catalog
+building_total_nsa_nace2.zip,Countries,EA,Euro area,catalog
+building_total_nsa_nace2.zip,Countries,BE,Belgium,catalog
+building_total_nsa_nace2.zip,Countries,BG,Bulgaria,catalog
+building_total_nsa_nace2.zip,Countries,CZ,Czechia,catalog
+building_total_nsa_nace2.zip,Countries,DK,Denmark,catalog
+building_total_nsa_nace2.zip,Countries,DE,Germany,catalog
+building_total_nsa_nace2.zip,Countries,EE,Estonia,catalog
+building_total_nsa_nace2.zip,Countries,IE,Ireland,catalog
+building_total_nsa_nace2.zip,Countries,EL,Greece,catalog
+building_total_nsa_nace2.zip,Countries,ES,Spain,catalog
+building_total_nsa_nace2.zip,Countries,FR,France,catalog
+building_total_nsa_nace2.zip,Countries,HR,Croatia,catalog
+building_total_nsa_nace2.zip,Countries,IT,Italy,catalog
+building_total_nsa_nace2.zip,Countries,CY,Cyprus,catalog
+building_total_nsa_nace2.zip,Countries,LV,Latvia,catalog
+building_total_nsa_nace2.zip,Countries,LT,Lithuania,catalog
+building_total_nsa_nace2.zip,Countries,LU,Luxembourg,catalog
+building_total_nsa_nace2.zip,Countries,HU,Hungary,catalog
+building_total_nsa_nace2.zip,Countries,MT,Malta,catalog
+building_total_nsa_nace2.zip,Countries,NL,Netherlands,catalog
+building_total_nsa_nace2.zip,Countries,AT,Austria,catalog
+building_total_nsa_nace2.zip,Countries,PL,Poland,catalog
+building_total_nsa_nace2.zip,Countries,PT,Portugal,catalog
+building_total_nsa_nace2.zip,Countries,RO,Romania,catalog
+building_total_nsa_nace2.zip,Countries,SI,Slovenia,catalog
+building_total_nsa_nace2.zip,Countries,SK,Slovak Republic,catalog
+building_total_nsa_nace2.zip,Countries,FI,Finland,catalog
+building_total_nsa_nace2.zip,Countries,SE,Sweden,catalog
+building_total_nsa_nace2.zip,Countries,UK,United Kingdom,catalog
+building_total_nsa_nace2.zip,Countries,ME,Montenegro,catalog
+building_total_nsa_nace2.zip,Countries,MK,North Macedonia,catalog
+building_total_nsa_nace2.zip,Countries,AL,Albania,catalog
+building_total_nsa_nace2.zip,Countries,RS,Serbia,catalog
+building_total_nsa_nace2.zip,Countries,TR,Türkiye,catalog
+building_total_nsa_nace2.zip,Construction sub-sectors,TOT,TOTAL construction as a whole,catalog
+building_total_nsa_nace2.zip,Construction sub-sectors,The exact wording of the questions can be found in the User Guide available on our main web page ▬►,User Guide,catalog
+building_total_nsa_nace2.zip,Monthly Questions,COF,Confidence Indicator (Q3 + Q4) / 2,catalog
+building_total_nsa_nace2.zip,Monthly Questions,1,Building activity development over the past 3 months,catalog
+building_total_nsa_nace2.zip,Monthly Questions,2,Main factors currently limiting your building activity,catalog
+building_total_nsa_nace2.zip,Monthly Questions,3,Evolution of your current overall order books,catalog
+building_total_nsa_nace2.zip,Monthly Questions,4,Employment expectations over the next 3 months,catalog
+building_total_nsa_nace2.zip,Monthly Questions,5,Prices expectations over the next 3 months,catalog
+building_total_nsa_nace2.zip,Answers,B,Balance not seasonally adjusted (not s.a),catalog
+building_total_nsa_nace2.zip,Answers,F1,None (% n.s.a. - monthly question 2),catalog
+building_total_nsa_nace2.zip,Answers,F2,Insufficient demand (% n.s.a. - monthly question 2),catalog
+building_total_nsa_nace2.zip,Answers,F3,Weather conditions (% n.s.a. - monthly question 2),catalog
+building_total_nsa_nace2.zip,Answers,F4,Shortage of labour force (% n.s.a. - monthly question 2),catalog
+building_total_nsa_nace2.zip,Answers,F5,Shortage of material and/or equipment (% n.s.a. - monthly question 2),catalog
+building_total_nsa_nace2.zip,Answers,F6,Other factors (% n.s.a. - monthly question 2),catalog
+building_total_nsa_nace2.zip,Answers,F7,Financial constraints (% n.s.a. - monthly question 2),catalog
+building_total_nsa_nace2.zip,Answers,QM,Number of months (n.s.a. - quarterly question 6),catalog
+building_total_nsa_nace2.zip,Frequency,M,Monthly,catalog
+building_total_sa_nace2.zip,Countries,EU,European Union (current composition),catalog
+building_total_sa_nace2.zip,Countries,EA,Euro area,catalog
+building_total_sa_nace2.zip,Countries,BE,Belgium,catalog
+building_total_sa_nace2.zip,Countries,BG,Bulgaria,catalog
+building_total_sa_nace2.zip,Countries,CZ,Czechia,catalog
+building_total_sa_nace2.zip,Countries,DK,Denmark,catalog
+building_total_sa_nace2.zip,Countries,DE,Germany,catalog
+building_total_sa_nace2.zip,Countries,EE,Estonia,catalog
+building_total_sa_nace2.zip,Countries,IE,Ireland,catalog
+building_total_sa_nace2.zip,Countries,EL,Greece,catalog
+building_total_sa_nace2.zip,Countries,ES,Spain,catalog
+building_total_sa_nace2.zip,Countries,FR,France,catalog
+building_total_sa_nace2.zip,Countries,HR,Croatia,catalog
+building_total_sa_nace2.zip,Countries,IT,Italy,catalog
+building_total_sa_nace2.zip,Countries,CY,Cyprus,catalog
+building_total_sa_nace2.zip,Countries,LV,Latvia,catalog
+building_total_sa_nace2.zip,Countries,LT,Lithuania,catalog
+building_total_sa_nace2.zip,Countries,LU,Luxembourg,catalog
+building_total_sa_nace2.zip,Countries,HU,Hungary,catalog
+building_total_sa_nace2.zip,Countries,MT,Malta,catalog
+building_total_sa_nace2.zip,Countries,NL,Netherlands,catalog
+building_total_sa_nace2.zip,Countries,AT,Austria,catalog
+building_total_sa_nace2.zip,Countries,PL,Poland,catalog
+building_total_sa_nace2.zip,Countries,PT,Portugal,catalog
+building_total_sa_nace2.zip,Countries,RO,Romania,catalog
+building_total_sa_nace2.zip,Countries,SI,Slovenia,catalog
+building_total_sa_nace2.zip,Countries,SK,Slovak Republic,catalog
+building_total_sa_nace2.zip,Countries,FI,Finland,catalog
+building_total_sa_nace2.zip,Countries,SE,Sweden,catalog
+building_total_sa_nace2.zip,Countries,UK,United Kingdom,catalog
+building_total_sa_nace2.zip,Countries,ME,Montenegro,catalog
+building_total_sa_nace2.zip,Countries,MK,North Macedonia,catalog
+building_total_sa_nace2.zip,Countries,AL,Albania,catalog
+building_total_sa_nace2.zip,Countries,RS,Serbia,catalog
+building_total_sa_nace2.zip,Countries,TR,Türkiye,catalog
+building_total_sa_nace2.zip,Construction sub-sectors,TOT,TOTAL construction as a whole,catalog
+building_total_sa_nace2.zip,Construction sub-sectors,The exact wording of the questions can be found in the User Guide available on our main web page ▬►,User Guide,catalog
+building_total_sa_nace2.zip,Monthly Questions,COF,Confidence Indicator (Q3 + Q4) / 2,catalog
+building_total_sa_nace2.zip,Monthly Questions,1,Building activity development over the past 3 months,catalog
+building_total_sa_nace2.zip,Monthly Questions,2,Main factors currently limiting your building activity,catalog
+building_total_sa_nace2.zip,Monthly Questions,3,Evolution of your current overall order books,catalog
+building_total_sa_nace2.zip,Monthly Questions,4,Employment expectations over the next 3 months,catalog
+building_total_sa_nace2.zip,Monthly Questions,5,Prices expectations over the next 3 months,catalog
+building_total_sa_nace2.zip,Answers,BS,Balance seasonally adjusted (s.a),catalog
+building_total_sa_nace2.zip,Answers,F1S,None (% s.a. - monthly question 2),catalog
+building_total_sa_nace2.zip,Answers,F2S,Insufficient demand (% s.a. - monthly question 2),catalog
+building_total_sa_nace2.zip,Answers,F3S,Weather conditions (% s.a. - monthly question 2),catalog
+building_total_sa_nace2.zip,Answers,F4S,Shortage of labour force (% s.a. - monthly question 2),catalog
+building_total_sa_nace2.zip,Answers,F5S,Shortage of material and/or equipment (% s.a. - monthly question 2),catalog
+building_total_sa_nace2.zip,Answers,F6S,Other factors (% s.a. - monthly question 2),catalog
+building_total_sa_nace2.zip,Answers,F7S,Financial constraints (% s.a. - monthly question 2),catalog
+building_total_sa_nace2.zip,Answers,QMS,Number of months (s.a. - quarterly question 6),catalog
+building_total_sa_nace2.zip,Frequency,M,Monthly,catalog
+consumer_total_nsa_nace2.zip,Countries,EU,European Union (current composition),catalog
+consumer_total_nsa_nace2.zip,Countries,EA,Euro area,catalog
+consumer_total_nsa_nace2.zip,Countries,BE,Belgium,catalog
+consumer_total_nsa_nace2.zip,Countries,BG,Bulgaria,catalog
+consumer_total_nsa_nace2.zip,Countries,CZ,Czechia,catalog
+consumer_total_nsa_nace2.zip,Countries,DK,Denmark,catalog
+consumer_total_nsa_nace2.zip,Countries,DE,Germany,catalog
+consumer_total_nsa_nace2.zip,Countries,EE,Estonia,catalog
+consumer_total_nsa_nace2.zip,Countries,IE,Ireland,catalog
+consumer_total_nsa_nace2.zip,Countries,EL,Greece,catalog
+consumer_total_nsa_nace2.zip,Countries,ES,Spain,catalog
+consumer_total_nsa_nace2.zip,Countries,FR,France,catalog
+consumer_total_nsa_nace2.zip,Countries,HR,Croatia,catalog
+consumer_total_nsa_nace2.zip,Countries,IT,Italy,catalog
+consumer_total_nsa_nace2.zip,Countries,CY,Cyprus,catalog
+consumer_total_nsa_nace2.zip,Countries,LV,Latvia,catalog
+consumer_total_nsa_nace2.zip,Countries,LT,Lithuania,catalog
+consumer_total_nsa_nace2.zip,Countries,LU,Luxembourg,catalog
+consumer_total_nsa_nace2.zip,Countries,HU,Hungary,catalog
+consumer_total_nsa_nace2.zip,Countries,MT,Malta,catalog
+consumer_total_nsa_nace2.zip,Countries,NL,Netherlands,catalog
+consumer_total_nsa_nace2.zip,Countries,AT,Austria,catalog
+consumer_total_nsa_nace2.zip,Countries,PL,Poland,catalog
+consumer_total_nsa_nace2.zip,Countries,PT,Portugal,catalog
+consumer_total_nsa_nace2.zip,Countries,RO,Romania,catalog
+consumer_total_nsa_nace2.zip,Countries,SI,Slovenia,catalog
+consumer_total_nsa_nace2.zip,Countries,SK,Slovak Republic,catalog
+consumer_total_nsa_nace2.zip,Countries,FI,Finland,catalog
+consumer_total_nsa_nace2.zip,Countries,SE,Sweden,catalog
+consumer_total_nsa_nace2.zip,Countries,UK,United Kingdom,catalog
+consumer_total_nsa_nace2.zip,Countries,ME,Montenegro,catalog
+consumer_total_nsa_nace2.zip,Countries,MK,North Macedonia,catalog
+consumer_total_nsa_nace2.zip,Countries,AL,Albania,catalog
+consumer_total_nsa_nace2.zip,Countries,RS,Serbia,catalog
+consumer_total_nsa_nace2.zip,Countries,TR,Türkiye,catalog
+consumer_total_nsa_nace2.zip,Consumer sub-categories,TOT,TOTAL Consumer,catalog
+consumer_total_nsa_nace2.zip,Consumer sub-categories,The exact wording of the questions can be found in the User Guide available on our main web page ▬►,User Guide,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,COF,Confidence Indicator (Q1 + Q2 + Q4 + Q9) / 4,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,1,Financial situation over last 12 months,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,2,Financial situation over next 12 months,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,3,General economic situation over last 12 months,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,4,General economic situation over next 12 months,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,5,Price trends over last 12 months,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,6,Price trends over next 12 months,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,7,Unemployment expectations over next 12 months,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,8,Major purchases at present,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,9,Major purchases over next 12 months,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,11,Savings over next 12 months,catalog
+consumer_total_nsa_nace2.zip,Monthly Questions,12,Statement on financial situation of household,catalog
+consumer_total_nsa_nace2.zip,Quarterly Questions,14,Purchase or build a home within the next 12 months,catalog
+consumer_total_nsa_nace2.zip,Quarterly Questions,15,Home improvements over the next 12 months,catalog
+consumer_total_nsa_nace2.zip,Answers,B,Balance not seasonally adjusted (not s.a),catalog
+consumer_total_nsa_nace2.zip,Frequency,M,Monthly,catalog
+consumer_total_nsa_nace2.zip,Frequency,Q,Quarterly,catalog
+consumer_total_sa_nace2.zip,Countries,EU,European Union (current composition),catalog
+consumer_total_sa_nace2.zip,Countries,EA,Euro area,catalog
+consumer_total_sa_nace2.zip,Countries,BE,Belgium,catalog
+consumer_total_sa_nace2.zip,Countries,BG,Bulgaria,catalog
+consumer_total_sa_nace2.zip,Countries,CZ,Czechia,catalog
+consumer_total_sa_nace2.zip,Countries,DK,Denmark,catalog
+consumer_total_sa_nace2.zip,Countries,DE,Germany,catalog
+consumer_total_sa_nace2.zip,Countries,EE,Estonia,catalog
+consumer_total_sa_nace2.zip,Countries,IE,Ireland,catalog
+consumer_total_sa_nace2.zip,Countries,EL,Greece,catalog
+consumer_total_sa_nace2.zip,Countries,ES,Spain,catalog
+consumer_total_sa_nace2.zip,Countries,FR,France,catalog
+consumer_total_sa_nace2.zip,Countries,HR,Croatia,catalog
+consumer_total_sa_nace2.zip,Countries,IT,Italy,catalog
+consumer_total_sa_nace2.zip,Countries,CY,Cyprus,catalog
+consumer_total_sa_nace2.zip,Countries,LV,Latvia,catalog
+consumer_total_sa_nace2.zip,Countries,LT,Lithuania,catalog
+consumer_total_sa_nace2.zip,Countries,LU,Luxembourg,catalog
+consumer_total_sa_nace2.zip,Countries,HU,Hungary,catalog
+consumer_total_sa_nace2.zip,Countries,MT,Malta,catalog
+consumer_total_sa_nace2.zip,Countries,NL,Netherlands,catalog
+consumer_total_sa_nace2.zip,Countries,AT,Austria,catalog
+consumer_total_sa_nace2.zip,Countries,PL,Poland,catalog
+consumer_total_sa_nace2.zip,Countries,PT,Portugal,catalog
+consumer_total_sa_nace2.zip,Countries,RO,Romania,catalog
+consumer_total_sa_nace2.zip,Countries,SI,Slovenia,catalog
+consumer_total_sa_nace2.zip,Countries,SK,Slovak Republic,catalog
+consumer_total_sa_nace2.zip,Countries,FI,Finland,catalog
+consumer_total_sa_nace2.zip,Countries,SE,Sweden,catalog
+consumer_total_sa_nace2.zip,Countries,UK,United Kingdom,catalog
+consumer_total_sa_nace2.zip,Countries,ME,Montenegro,catalog
+consumer_total_sa_nace2.zip,Countries,MK,North Macedonia,catalog
+consumer_total_sa_nace2.zip,Countries,AL,Albania,catalog
+consumer_total_sa_nace2.zip,Countries,RS,Serbia,catalog
+consumer_total_sa_nace2.zip,Countries,TR,Türkiye,catalog
+consumer_total_sa_nace2.zip,Consumer sub-categories,TOT,TOTAL Consumer,catalog
+consumer_total_sa_nace2.zip,Consumer sub-categories,The exact wording of the questions can be found in the User Guide available on our main web page ▬►,User Guide,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,COF,Confidence Indicator (Q1 + Q2 + Q4 + Q9) / 4,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,1,Financial situation over last 12 months,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,2,Financial situation over next 12 months,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,3,General economic situation over last 12 months,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,4,General economic situation over next 12 months,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,5,Price trends over last 12 months,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,6,Price trends over next 12 months,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,7,Unemployment expectations over next 12 months,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,8,Major purchases at present,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,9,Major purchases over next 12 months,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,11,Savings over next 12 months,catalog
+consumer_total_sa_nace2.zip,Monthly Questions,12,Statement on financial situation of household,catalog
+consumer_total_sa_nace2.zip,Quarterly Questions,14,Purchase or build a home within the next 12 months,catalog
+consumer_total_sa_nace2.zip,Quarterly Questions,15,Home improvements over the next 12 months,catalog
+consumer_total_sa_nace2.zip,Answers,BS,Balance seasonally adjusted (s.a),catalog
+consumer_total_sa_nace2.zip,Frequency,M,Monthly,catalog
+consumer_total_sa_nace2.zip,Frequency,Q,Quarterly,catalog
+industry_total_nsa_nace2.zip,Countries,EU,European Union (current composition),catalog
+industry_total_nsa_nace2.zip,Countries,EA,Euro area,catalog
+industry_total_nsa_nace2.zip,Countries,BE,Belgium,catalog
+industry_total_nsa_nace2.zip,Countries,BG,Bulgaria,catalog
+industry_total_nsa_nace2.zip,Countries,CZ,Czechia,catalog
+industry_total_nsa_nace2.zip,Countries,DK,Denmark,catalog
+industry_total_nsa_nace2.zip,Countries,DE,Germany,catalog
+industry_total_nsa_nace2.zip,Countries,EE,Estonia,catalog
+industry_total_nsa_nace2.zip,Countries,IE,Ireland,catalog
+industry_total_nsa_nace2.zip,Countries,EL,Greece,catalog
+industry_total_nsa_nace2.zip,Countries,ES,Spain,catalog
+industry_total_nsa_nace2.zip,Countries,FR,France,catalog
+industry_total_nsa_nace2.zip,Countries,HR,Croatia,catalog
+industry_total_nsa_nace2.zip,Countries,IT,Italy,catalog
+industry_total_nsa_nace2.zip,Countries,CY,Cyprus,catalog
+industry_total_nsa_nace2.zip,Countries,LV,Latvia,catalog
+industry_total_nsa_nace2.zip,Countries,LT,Lithuania,catalog
+industry_total_nsa_nace2.zip,Countries,LU,Luxembourg,catalog
+industry_total_nsa_nace2.zip,Countries,HU,Hungary,catalog
+industry_total_nsa_nace2.zip,Countries,MT,Malta,catalog
+industry_total_nsa_nace2.zip,Countries,NL,Netherlands,catalog
+industry_total_nsa_nace2.zip,Countries,AT,Austria,catalog
+industry_total_nsa_nace2.zip,Countries,PL,Poland,catalog
+industry_total_nsa_nace2.zip,Countries,PT,Portugal,catalog
+industry_total_nsa_nace2.zip,Countries,RO,Romania,catalog
+industry_total_nsa_nace2.zip,Countries,SI,Slovenia,catalog
+industry_total_nsa_nace2.zip,Countries,SK,Slovak Republic,catalog
+industry_total_nsa_nace2.zip,Countries,FI,Finland,catalog
+industry_total_nsa_nace2.zip,Countries,SE,Sweden,catalog
+industry_total_nsa_nace2.zip,Countries,UK,United Kingdom,catalog
+industry_total_nsa_nace2.zip,Countries,ME,Montenegro,catalog
+industry_total_nsa_nace2.zip,Countries,MK,North Macedonia,catalog
+industry_total_nsa_nace2.zip,Countries,AL,Albania,catalog
+industry_total_nsa_nace2.zip,Countries,RS,Serbia,catalog
+industry_total_nsa_nace2.zip,Countries,TR,Türkiye,catalog
+industry_total_nsa_nace2.zip,Industry sub-sectors,TOT,TOTAL Manufacturing,catalog
+industry_total_nsa_nace2.zip,Industry sub-sectors,The exact wording of the questions can be found in the User Guide available on our main web page ▬►,User Guide,catalog
+industry_total_nsa_nace2.zip,Monthly Questions,COF,Confidence Indicator (Q2 - Q4 + Q5) / 3,catalog
+industry_total_nsa_nace2.zip,Monthly Questions,1,Production trend observed in recent months,catalog
+industry_total_nsa_nace2.zip,Monthly Questions,2,Assessment of order-book levels,catalog
+industry_total_nsa_nace2.zip,Monthly Questions,3,Assessment of export order-book levels,catalog
+industry_total_nsa_nace2.zip,Monthly Questions,4,Assessment of stocks of finished products,catalog
+industry_total_nsa_nace2.zip,Monthly Questions,5,Production expectations for the months ahead,catalog
+industry_total_nsa_nace2.zip,Monthly Questions,6,Selling price expectations for the months ahead,catalog
+industry_total_nsa_nace2.zip,Monthly Questions,7,Employment expectations for the months ahead,catalog
+industry_total_nsa_nace2.zip,Quarterly Questions,8,Factors limiting the production,catalog
+industry_total_nsa_nace2.zip,Quarterly Questions,9,Assessment of current production capacity,catalog
+industry_total_nsa_nace2.zip,Quarterly Questions,11,New orders in recent months,catalog
+industry_total_nsa_nace2.zip,Quarterly Questions,13,Current level of capacity utilization,catalog
+industry_total_nsa_nace2.zip,Quarterly Questions,15,Competitive position inside EU,catalog
+industry_total_nsa_nace2.zip,Quarterly Questions,16,Competitive position outside EU,catalog
+industry_total_nsa_nace2.zip,Answers,B,Balance not seasonally adjusted (n.s.a),catalog
+industry_total_nsa_nace2.zip,Answers,F1,None (% n.s.a - quarterly question 8),catalog
+industry_total_nsa_nace2.zip,Answers,F2,Demand (% n.s.a - quarterly question 8),catalog
+industry_total_nsa_nace2.zip,Answers,F3,Labour (% n.s.a - quarterly question 8),catalog
+industry_total_nsa_nace2.zip,Answers,F4,Shortage of material and/or equipment (% n.s.a - quarterly question 8),catalog
+industry_total_nsa_nace2.zip,Answers,F5,Other (% n.s.a - quarterly question 8),catalog
+industry_total_nsa_nace2.zip,Answers,F6,Financial (% n.s.a - quarterly question 8),catalog
+industry_total_nsa_nace2.zip,Answers,QM,months (n.s.a - quarterly question 10),catalog
+industry_total_nsa_nace2.zip,Answers,QP,% (n.s.a - quarterly question 13),catalog
+industry_total_nsa_nace2.zip,Frequency,M,Monthly,catalog
+industry_total_nsa_nace2.zip,Frequency,Q,Quarterly,catalog
+industry_total_sa_nace2.zip,Countries,EU,European Union (current composition),catalog
+industry_total_sa_nace2.zip,Countries,EA,Euro area,catalog
+industry_total_sa_nace2.zip,Countries,BE,Belgium,catalog
+industry_total_sa_nace2.zip,Countries,BG,Bulgaria,catalog
+industry_total_sa_nace2.zip,Countries,CZ,Czechia,catalog
+industry_total_sa_nace2.zip,Countries,DK,Denmark,catalog
+industry_total_sa_nace2.zip,Countries,DE,Germany,catalog
+industry_total_sa_nace2.zip,Countries,EE,Estonia,catalog
+industry_total_sa_nace2.zip,Countries,IE,Ireland,catalog
+industry_total_sa_nace2.zip,Countries,EL,Greece,catalog
+industry_total_sa_nace2.zip,Countries,ES,Spain,catalog
+industry_total_sa_nace2.zip,Countries,FR,France,catalog
+industry_total_sa_nace2.zip,Countries,HR,Croatia,catalog
+industry_total_sa_nace2.zip,Countries,IT,Italy,catalog
+industry_total_sa_nace2.zip,Countries,CY,Cyprus,catalog
+industry_total_sa_nace2.zip,Countries,LV,Latvia,catalog
+industry_total_sa_nace2.zip,Countries,LT,Lithuania,catalog
+industry_total_sa_nace2.zip,Countries,LU,Luxembourg,catalog
+industry_total_sa_nace2.zip,Countries,HU,Hungary,catalog
+industry_total_sa_nace2.zip,Countries,MT,Malta,catalog
+industry_total_sa_nace2.zip,Countries,NL,Netherlands,catalog
+industry_total_sa_nace2.zip,Countries,AT,Austria,catalog
+industry_total_sa_nace2.zip,Countries,PL,Poland,catalog
+industry_total_sa_nace2.zip,Countries,PT,Portugal,catalog
+industry_total_sa_nace2.zip,Countries,RO,Romania,catalog
+industry_total_sa_nace2.zip,Countries,SI,Slovenia,catalog
+industry_total_sa_nace2.zip,Countries,SK,Slovak Republic,catalog
+industry_total_sa_nace2.zip,Countries,FI,Finland,catalog
+industry_total_sa_nace2.zip,Countries,SE,Sweden,catalog
+industry_total_sa_nace2.zip,Countries,UK,United Kingdom,catalog
+industry_total_sa_nace2.zip,Countries,ME,Montenegro,catalog
+industry_total_sa_nace2.zip,Countries,MK,North Macedonia,catalog
+industry_total_sa_nace2.zip,Countries,AL,Albania,catalog
+industry_total_sa_nace2.zip,Countries,RS,Serbia,catalog
+industry_total_sa_nace2.zip,Countries,TR,Türkiye,catalog
+industry_total_sa_nace2.zip,Industry sub-sectors,TOT,TOTAL Manufacturing,catalog
+industry_total_sa_nace2.zip,Industry sub-sectors,The exact wording of the questions can be found in the User Guide available on our main web page ▬►,User Guide,catalog
+industry_total_sa_nace2.zip,Monthly Questions,COF,Confidence Indicator (Q2 - Q4 + Q5) / 3,catalog
+industry_total_sa_nace2.zip,Monthly Questions,1,Production trend observed in recent months,catalog
+industry_total_sa_nace2.zip,Monthly Questions,2,Assessment of order-book levels,catalog
+industry_total_sa_nace2.zip,Monthly Questions,3,Assessment of export order-book levels,catalog
+industry_total_sa_nace2.zip,Monthly Questions,4,Assessment of stocks of finished products,catalog
+industry_total_sa_nace2.zip,Monthly Questions,5,Production expectations for the months ahead,catalog
+industry_total_sa_nace2.zip,Monthly Questions,6,Selling price expectations for the months ahead,catalog
+industry_total_sa_nace2.zip,Monthly Questions,7,Employment expectations for the months ahead,catalog
+industry_total_sa_nace2.zip,Quarterly Questions,8,Factors limiting the production,catalog
+industry_total_sa_nace2.zip,Quarterly Questions,9,Assessment of current production capacity,catalog
+industry_total_sa_nace2.zip,Quarterly Questions,11,New orders in recent months,catalog
+industry_total_sa_nace2.zip,Quarterly Questions,13,Current level of capacity utilization,catalog
+industry_total_sa_nace2.zip,Quarterly Questions,15,Competitive position inside EU,catalog
+industry_total_sa_nace2.zip,Quarterly Questions,16,Competitive position outside EU,catalog
+industry_total_sa_nace2.zip,Answers,B,Balance not seasonally adjusted (not s.a),catalog
+industry_total_sa_nace2.zip,Answers,BS,Balance seasonally adjusted (s.a),catalog
+industry_total_sa_nace2.zip,Answers,F1S,None (% s.a. - quarterly question 8),catalog
+industry_total_sa_nace2.zip,Answers,F2S,Demand (% s.a. - quarterly question 8),catalog
+industry_total_sa_nace2.zip,Answers,F3S,Labour (% s.a. - quarterly question 8),catalog
+industry_total_sa_nace2.zip,Answers,F4S,Shortage of material and/or equipment (% s.a. - quarterly question 8),catalog
+industry_total_sa_nace2.zip,Answers,F5S,Other (% s.a. - quarterly question 8),catalog
+industry_total_sa_nace2.zip,Answers,F6S,Financial (% s.a. - quarterly question 8),catalog
+industry_total_sa_nace2.zip,Answers,QMS,months (s.a. - quarterly question 10),catalog
+industry_total_sa_nace2.zip,Answers,QPS,% (s.a. - quarterly question 13),catalog
+industry_total_sa_nace2.zip,Frequency,M,Monthly,catalog
+industry_total_sa_nace2.zip,Frequency,Q,Quarterly,catalog
+main_indicators_sa_nace2.zip,Countries,EU,European Union (current composition),catalog
+main_indicators_sa_nace2.zip,Countries,EA,Euro area,catalog
+main_indicators_sa_nace2.zip,Countries,BE,Belgium,catalog
+main_indicators_sa_nace2.zip,Countries,BG,Bulgaria,catalog
+main_indicators_sa_nace2.zip,Countries,CZ,Czechia,catalog
+main_indicators_sa_nace2.zip,Countries,DK,Denmark,catalog
+main_indicators_sa_nace2.zip,Countries,DE,Germany,catalog
+main_indicators_sa_nace2.zip,Countries,EE,Estonia,catalog
+main_indicators_sa_nace2.zip,Countries,IE,Ireland,catalog
+main_indicators_sa_nace2.zip,Countries,EL,Greece,catalog
+main_indicators_sa_nace2.zip,Countries,ES,Spain,catalog
+main_indicators_sa_nace2.zip,Countries,FR,France,catalog
+main_indicators_sa_nace2.zip,Countries,HR,Croatia,catalog
+main_indicators_sa_nace2.zip,Countries,IT,Italy,catalog
+main_indicators_sa_nace2.zip,Countries,CY,Cyprus,catalog
+main_indicators_sa_nace2.zip,Countries,LV,Latvia,catalog
+main_indicators_sa_nace2.zip,Countries,LT,Lithuania,catalog
+main_indicators_sa_nace2.zip,Countries,LU,Luxembourg,catalog
+main_indicators_sa_nace2.zip,Countries,HU,Hungary,catalog
+main_indicators_sa_nace2.zip,Countries,MT,Malta,catalog
+main_indicators_sa_nace2.zip,Countries,NL,Netherlands,catalog
+main_indicators_sa_nace2.zip,Countries,AT,Austria,catalog
+main_indicators_sa_nace2.zip,Countries,PL,Poland,catalog
+main_indicators_sa_nace2.zip,Countries,PT,Portugal,catalog
+main_indicators_sa_nace2.zip,Countries,RO,Romania,catalog
+main_indicators_sa_nace2.zip,Countries,SI,Slovenia,catalog
+main_indicators_sa_nace2.zip,Countries,SK,Slovak Republic,catalog
+main_indicators_sa_nace2.zip,Countries,FI,Finland,catalog
+main_indicators_sa_nace2.zip,Countries,SE,Sweden,catalog
+main_indicators_sa_nace2.zip,Countries,UK,United Kingdom,catalog
+main_indicators_sa_nace2.zip,Countries,ME,Montenegro,catalog
+main_indicators_sa_nace2.zip,Countries,MK,North Macedonia,catalog
+main_indicators_sa_nace2.zip,Countries,AL,Albania,catalog
+main_indicators_sa_nace2.zip,Countries,RS,Serbia,catalog
+main_indicators_sa_nace2.zip,Countries,TR,Türkiye,catalog
+main_indicators_sa_nace2.zip,Surveys,INDU,Industrial confidence indicator (40%),catalog
+main_indicators_sa_nace2.zip,Surveys,SERV,Services confidence indicator (30 %),catalog
+main_indicators_sa_nace2.zip,Surveys,CONS,Consumer confidence indicator (20%),catalog
+main_indicators_sa_nace2.zip,Surveys,RETA,Retail trade confidence indicator (5%),catalog
+main_indicators_sa_nace2.zip,Surveys,BUIL,Construction confidence indicator (5%),catalog
+main_indicators_sa_nace2.zip,Surveys,ESI,The Economic sentiment indicator is a composite measure (average = 100),catalog
+main_indicators_sa_nace2.zip,Surveys,EEI,The Employment expectations indicator is a composite measure (average = 100),catalog
+main_indicators_sa_nace2.zip,Surveys,"For details on the methodology, see in the User Guide on our main webpage:",User Guide,catalog
+main_indicators_sa_nace2.zip,Monthly Questions,COF,Confidence Indicator,catalog
+main_indicators_sa_nace2.zip,Answers,B,Balance not seasonally adjusted (not s.a),catalog
+main_indicators_sa_nace2.zip,Answers,BS,Balance seasonally adjusted (s.a),catalog
+main_indicators_sa_nace2.zip,Frequency,M,Monthly,catalog
+retail_total_nsa_nace2.zip,Countries,EU,European Union (current composition),catalog
+retail_total_nsa_nace2.zip,Countries,EA,Euro area,catalog
+retail_total_nsa_nace2.zip,Countries,BE,Belgium,catalog
+retail_total_nsa_nace2.zip,Countries,BG,Bulgaria,catalog
+retail_total_nsa_nace2.zip,Countries,CZ,Czechia,catalog
+retail_total_nsa_nace2.zip,Countries,DK,Denmark,catalog
+retail_total_nsa_nace2.zip,Countries,DE,Germany,catalog
+retail_total_nsa_nace2.zip,Countries,EE,Estonia,catalog
+retail_total_nsa_nace2.zip,Countries,IE,Ireland,catalog
+retail_total_nsa_nace2.zip,Countries,EL,Greece,catalog
+retail_total_nsa_nace2.zip,Countries,ES,Spain,catalog
+retail_total_nsa_nace2.zip,Countries,FR,France,catalog
+retail_total_nsa_nace2.zip,Countries,HR,Croatia,catalog
+retail_total_nsa_nace2.zip,Countries,IT,Italy,catalog
+retail_total_nsa_nace2.zip,Countries,CY,Cyprus,catalog
+retail_total_nsa_nace2.zip,Countries,LV,Latvia,catalog
+retail_total_nsa_nace2.zip,Countries,LT,Lithuania,catalog
+retail_total_nsa_nace2.zip,Countries,LU,Luxembourg,catalog
+retail_total_nsa_nace2.zip,Countries,HU,Hungary,catalog
+retail_total_nsa_nace2.zip,Countries,MT,Malta,catalog
+retail_total_nsa_nace2.zip,Countries,NL,Netherlands,catalog
+retail_total_nsa_nace2.zip,Countries,AT,Austria,catalog
+retail_total_nsa_nace2.zip,Countries,PL,Poland,catalog
+retail_total_nsa_nace2.zip,Countries,PT,Portugal,catalog
+retail_total_nsa_nace2.zip,Countries,RO,Romania,catalog
+retail_total_nsa_nace2.zip,Countries,SI,Slovenia,catalog
+retail_total_nsa_nace2.zip,Countries,SK,Slovak Republic,catalog
+retail_total_nsa_nace2.zip,Countries,FI,Finland,catalog
+retail_total_nsa_nace2.zip,Countries,SE,Sweden,catalog
+retail_total_nsa_nace2.zip,Countries,UK,United Kingdom,catalog
+retail_total_nsa_nace2.zip,Countries,ME,Montenegro,catalog
+retail_total_nsa_nace2.zip,Countries,MK,North Macedonia,catalog
+retail_total_nsa_nace2.zip,Countries,AL,Albania,catalog
+retail_total_nsa_nace2.zip,Countries,RS,Serbia,catalog
+retail_total_nsa_nace2.zip,Countries,TR,Türkiye,catalog
+retail_total_nsa_nace2.zip,Retail trade sub-sectors,TOT,TOTAL of retail trade,catalog
+retail_total_nsa_nace2.zip,Retail trade sub-sectors,The exact wording of the questions can be found in the User Guide available on our main web page ▬►,User Guide,catalog
+retail_total_nsa_nace2.zip,Monthly Questions,COF,Confidence Indicator (Q1 - Q2 + Q4) / 3,catalog
+retail_total_nsa_nace2.zip,Monthly Questions,1,Business activity (sales) development over the past 3 months,catalog
+retail_total_nsa_nace2.zip,Monthly Questions,2,Volume of stock currently hold,catalog
+retail_total_nsa_nace2.zip,Monthly Questions,3,Orders expectations over the next 3 months,catalog
+retail_total_nsa_nace2.zip,Monthly Questions,4,Business activity expectations over the next 3 months,catalog
+retail_total_nsa_nace2.zip,Monthly Questions,5,Employment expectations over the next 3 months,catalog
+retail_total_nsa_nace2.zip,Monthly Questions,6,Prices expectations over the next 3 months,catalog
+retail_total_nsa_nace2.zip,Answers,B,Balance not seasonally adjusted (not s.a),catalog
+retail_total_nsa_nace2.zip,Frequency,M,Monthly,catalog
+retail_total_nsa_nace2.zip,Frequency,Q,Quarterly,catalog
+retail_total_sa_nace2.zip,Countries,EU,European Union (current composition),catalog
+retail_total_sa_nace2.zip,Countries,EA,Euro area,catalog
+retail_total_sa_nace2.zip,Countries,BE,Belgium,catalog
+retail_total_sa_nace2.zip,Countries,BG,Bulgaria,catalog
+retail_total_sa_nace2.zip,Countries,CZ,Czechia,catalog
+retail_total_sa_nace2.zip,Countries,DK,Denmark,catalog
+retail_total_sa_nace2.zip,Countries,DE,Germany,catalog
+retail_total_sa_nace2.zip,Countries,EE,Estonia,catalog
+retail_total_sa_nace2.zip,Countries,IE,Ireland,catalog
+retail_total_sa_nace2.zip,Countries,EL,Greece,catalog
+retail_total_sa_nace2.zip,Countries,ES,Spain,catalog
+retail_total_sa_nace2.zip,Countries,FR,France,catalog
+retail_total_sa_nace2.zip,Countries,HR,Croatia,catalog
+retail_total_sa_nace2.zip,Countries,IT,Italy,catalog
+retail_total_sa_nace2.zip,Countries,CY,Cyprus,catalog
+retail_total_sa_nace2.zip,Countries,LV,Latvia,catalog
+retail_total_sa_nace2.zip,Countries,LT,Lithuania,catalog
+retail_total_sa_nace2.zip,Countries,LU,Luxembourg,catalog
+retail_total_sa_nace2.zip,Countries,HU,Hungary,catalog
+retail_total_sa_nace2.zip,Countries,MT,Malta,catalog
+retail_total_sa_nace2.zip,Countries,NL,Netherlands,catalog
+retail_total_sa_nace2.zip,Countries,AT,Austria,catalog
+retail_total_sa_nace2.zip,Countries,PL,Poland,catalog
+retail_total_sa_nace2.zip,Countries,PT,Portugal,catalog
+retail_total_sa_nace2.zip,Countries,RO,Romania,catalog
+retail_total_sa_nace2.zip,Countries,SI,Slovenia,catalog
+retail_total_sa_nace2.zip,Countries,SK,Slovak Republic,catalog
+retail_total_sa_nace2.zip,Countries,FI,Finland,catalog
+retail_total_sa_nace2.zip,Countries,SE,Sweden,catalog
+retail_total_sa_nace2.zip,Countries,UK,United Kingdom,catalog
+retail_total_sa_nace2.zip,Countries,ME,Montenegro,catalog
+retail_total_sa_nace2.zip,Countries,MK,North Macedonia,catalog
+retail_total_sa_nace2.zip,Countries,AL,Albania,catalog
+retail_total_sa_nace2.zip,Countries,RS,Serbia,catalog
+retail_total_sa_nace2.zip,Countries,TR,Türkiye,catalog
+retail_total_sa_nace2.zip,Countries,EU_2019,European Union without United Kingdom,catalog
+retail_total_sa_nace2.zip,Countries,EU28,European Union with United Kingdom,catalog
+retail_total_sa_nace2.zip,Retail trade sub-sectors,TOT,TOTAL of retail trade,catalog
+retail_total_sa_nace2.zip,Retail trade sub-sectors,The exact wording of the questions can be found in the User Guide available on our main web page ▬►,User Guide,catalog
+retail_total_sa_nace2.zip,Monthly Questions,COF,Confidence Indicator (Q1 - Q2 + Q4) / 3,catalog
+retail_total_sa_nace2.zip,Monthly Questions,1,Business activity (sales) development over the past 3 months,catalog
+retail_total_sa_nace2.zip,Monthly Questions,2,Volume of stock currently hold,catalog
+retail_total_sa_nace2.zip,Monthly Questions,3,Orders expectations over the next 3 months,catalog
+retail_total_sa_nace2.zip,Monthly Questions,4,Business activity expectations over the next 3 months,catalog
+retail_total_sa_nace2.zip,Monthly Questions,5,Employment expectations over the next 3 months,catalog
+retail_total_sa_nace2.zip,Monthly Questions,6,Prices expectations over the next 3 months,catalog
+retail_total_sa_nace2.zip,Answers,BS,Balance seasonally adjusted (s.a),catalog
+retail_total_sa_nace2.zip,Frequency,M,Monthly,catalog
+services_total_nsa_nace2.zip,Countries,EU,European Union (current composition),catalog
+services_total_nsa_nace2.zip,Countries,EA,Euro area,catalog
+services_total_nsa_nace2.zip,Countries,BE,Belgium,catalog
+services_total_nsa_nace2.zip,Countries,BG,Bulgaria,catalog
+services_total_nsa_nace2.zip,Countries,CZ,Czechia,catalog
+services_total_nsa_nace2.zip,Countries,DK,Denmark,catalog
+services_total_nsa_nace2.zip,Countries,DE,Germany,catalog
+services_total_nsa_nace2.zip,Countries,EE,Estonia,catalog
+services_total_nsa_nace2.zip,Countries,IE,Ireland,catalog
+services_total_nsa_nace2.zip,Countries,EL,Greece,catalog
+services_total_nsa_nace2.zip,Countries,ES,Spain,catalog
+services_total_nsa_nace2.zip,Countries,FR,France,catalog
+services_total_nsa_nace2.zip,Countries,HR,Croatia,catalog
+services_total_nsa_nace2.zip,Countries,IT,Italy,catalog
+services_total_nsa_nace2.zip,Countries,CY,Cyprus,catalog
+services_total_nsa_nace2.zip,Countries,LV,Latvia,catalog
+services_total_nsa_nace2.zip,Countries,LT,Lithuania,catalog
+services_total_nsa_nace2.zip,Countries,LU,Luxembourg,catalog
+services_total_nsa_nace2.zip,Countries,HU,Hungary,catalog
+services_total_nsa_nace2.zip,Countries,MT,Malta,catalog
+services_total_nsa_nace2.zip,Countries,NL,Netherlands,catalog
+services_total_nsa_nace2.zip,Countries,AT,Austria,catalog
+services_total_nsa_nace2.zip,Countries,PL,Poland,catalog
+services_total_nsa_nace2.zip,Countries,PT,Portugal,catalog
+services_total_nsa_nace2.zip,Countries,RO,Romania,catalog
+services_total_nsa_nace2.zip,Countries,SI,Slovenia,catalog
+services_total_nsa_nace2.zip,Countries,SK,Slovak Republic,catalog
+services_total_nsa_nace2.zip,Countries,FI,Finland,catalog
+services_total_nsa_nace2.zip,Countries,SE,Sweden,catalog
+services_total_nsa_nace2.zip,Countries,UK,United Kingdom,catalog
+services_total_nsa_nace2.zip,Countries,ME,Montenegro,catalog
+services_total_nsa_nace2.zip,Countries,MK,North Macedonia,catalog
+services_total_nsa_nace2.zip,Countries,AL,Albania,catalog
+services_total_nsa_nace2.zip,Countries,RS,Serbia,catalog
+services_total_nsa_nace2.zip,Countries,TR,Türkiye,catalog
+services_total_nsa_nace2.zip,Services sub-sectors,TOT,TOTAL Services,catalog
+services_total_nsa_nace2.zip,Services sub-sectors,The exact wording of the questions can be found in the User Guide available on our main web page ▬►,User Guide,catalog
+services_total_nsa_nace2.zip,Monthly Questions,COF,Confidence Indicator (Q1 + Q2 + Q3) / 3,catalog
+services_total_nsa_nace2.zip,Monthly Questions,1,Business situation development over the past 3 months,catalog
+services_total_nsa_nace2.zip,Monthly Questions,2,Evolution of the demand over the past 3 months,catalog
+services_total_nsa_nace2.zip,Monthly Questions,3,Expectation of the demand over the next 3 months,catalog
+services_total_nsa_nace2.zip,Monthly Questions,5,Expectations of the employment over the next 3 months,catalog
+services_total_nsa_nace2.zip,Monthly Questions,6,Expectations of the prices over the next 3 months,catalog
+services_total_nsa_nace2.zip,Quarterly Questions,7,Factors limiting the business,catalog
+services_total_nsa_nace2.zip,Quarterly Questions,8,Current level of capacity utilization,catalog
+services_total_nsa_nace2.zip,Answers,B,Balance not seasonally adjusted (n.s.a),catalog
+services_total_nsa_nace2.zip,Answers,F1,None (% n.s.a - quarterly question 7),catalog
+services_total_nsa_nace2.zip,Answers,F2,Demand (% n.s.a - quarterly question 7),catalog
+services_total_nsa_nace2.zip,Answers,F3,Labour (% n.s.a - quarterly question 7),catalog
+services_total_nsa_nace2.zip,Answers,F4,Equipment (% n.s.a - quarterly question 7),catalog
+services_total_nsa_nace2.zip,Answers,F5,Financial (% n.s.a - quarterly question 7),catalog
+services_total_nsa_nace2.zip,Answers,F6,Other (% n.s.a - quarterly question 7),catalog
+services_total_nsa_nace2.zip,Answers,QP,% (n.s.a - quarterly question 8),catalog
+services_total_nsa_nace2.zip,Frequency,M,Monthly,catalog
+services_total_nsa_nace2.zip,Frequency,Q,Quarterly,catalog
+services_total_sa_nace2.zip,Countries,EU,European Union (current composition),catalog
+services_total_sa_nace2.zip,Countries,EA,Euro area,catalog
+services_total_sa_nace2.zip,Countries,BE,Belgium,catalog
+services_total_sa_nace2.zip,Countries,BG,Bulgaria,catalog
+services_total_sa_nace2.zip,Countries,CZ,Czechia,catalog
+services_total_sa_nace2.zip,Countries,DK,Denmark,catalog
+services_total_sa_nace2.zip,Countries,DE,Germany,catalog
+services_total_sa_nace2.zip,Countries,EE,Estonia,catalog
+services_total_sa_nace2.zip,Countries,IE,Ireland,catalog
+services_total_sa_nace2.zip,Countries,EL,Greece,catalog
+services_total_sa_nace2.zip,Countries,ES,Spain,catalog
+services_total_sa_nace2.zip,Countries,FR,France,catalog
+services_total_sa_nace2.zip,Countries,HR,Croatia,catalog
+services_total_sa_nace2.zip,Countries,IT,Italy,catalog
+services_total_sa_nace2.zip,Countries,CY,Cyprus,catalog
+services_total_sa_nace2.zip,Countries,LV,Latvia,catalog
+services_total_sa_nace2.zip,Countries,LT,Lithuania,catalog
+services_total_sa_nace2.zip,Countries,LU,Luxembourg,catalog
+services_total_sa_nace2.zip,Countries,HU,Hungary,catalog
+services_total_sa_nace2.zip,Countries,MT,Malta,catalog
+services_total_sa_nace2.zip,Countries,NL,Netherlands,catalog
+services_total_sa_nace2.zip,Countries,AT,Austria,catalog
+services_total_sa_nace2.zip,Countries,PL,Poland,catalog
+services_total_sa_nace2.zip,Countries,PT,Portugal,catalog
+services_total_sa_nace2.zip,Countries,RO,Romania,catalog
+services_total_sa_nace2.zip,Countries,SI,Slovenia,catalog
+services_total_sa_nace2.zip,Countries,SK,Slovak Republic,catalog
+services_total_sa_nace2.zip,Countries,FI,Finland,catalog
+services_total_sa_nace2.zip,Countries,SE,Sweden,catalog
+services_total_sa_nace2.zip,Countries,UK,United Kingdom,catalog
+services_total_sa_nace2.zip,Countries,ME,Montenegro,catalog
+services_total_sa_nace2.zip,Countries,MK,North Macedonia,catalog
+services_total_sa_nace2.zip,Countries,AL,Albania,catalog
+services_total_sa_nace2.zip,Countries,RS,Serbia,catalog
+services_total_sa_nace2.zip,Countries,TR,Türkiye,catalog
+services_total_sa_nace2.zip,Services sub-sectors,TOT,TOTAL Services,catalog
+services_total_sa_nace2.zip,Services sub-sectors,The exact wording of the questions can be found in the User Guide available on our main web page ▬►,User Guide,catalog
+services_total_sa_nace2.zip,Monthly Questions,COF,Confidence Indicator (Q1 + Q2 + Q3) / 3,catalog
+services_total_sa_nace2.zip,Monthly Questions,1,Business situation development over the past 3 months,catalog
+services_total_sa_nace2.zip,Monthly Questions,2,Evolution of the demand over the past 3 months,catalog
+services_total_sa_nace2.zip,Monthly Questions,3,Expectation of the demand over the next 3 months,catalog
+services_total_sa_nace2.zip,Monthly Questions,5,Expectations of the employment over the next 3 months,catalog
+services_total_sa_nace2.zip,Monthly Questions,6,Expectations of the prices over the next 3 months,catalog
+services_total_sa_nace2.zip,Quarterly Questions,7,Factors limiting the business,catalog
+services_total_sa_nace2.zip,Quarterly Questions,8,Current level of capacity utilization,catalog
+services_total_sa_nace2.zip,Answers,BS,Balance seasonally adjusted (s.a),catalog
+services_total_sa_nace2.zip,Answers,F1S,None (% s.a. - quarterly question 7),catalog
+services_total_sa_nace2.zip,Answers,F2S,Demand (% s.a. - quarterly question 7),catalog
+services_total_sa_nace2.zip,Answers,F3S,Labour forces (% s.a. - quarterly question 7),catalog
+services_total_sa_nace2.zip,Answers,F4S,Equipment and/or Space (% s.a. - quarterly question 7),catalog
+services_total_sa_nace2.zip,Answers,F5S,Financial (% s.a. - quarterly question 7),catalog
+services_total_sa_nace2.zip,Answers,F6S,Other (% s.a. - quarterly question 7),catalog
+services_total_sa_nace2.zip,Answers,QPS,% (s.a - quarterly question 8),catalog
+services_total_sa_nace2.zip,Frequency,M,Monthly,catalog
+services_total_sa_nace2.zip,Frequency,Q,Quarterly,catalog

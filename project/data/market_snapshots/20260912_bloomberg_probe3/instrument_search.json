@@ -1,0 +1,455 @@
+{
+  "Czech Inflation Adjusted": [],
+  "Czech adjusted inflation excluding fuel": [],
+  "EU CPI Services Czech Republic": [
+    {
+      "security": "CP4SCZ<index>",
+      "description": "EU CPI Services for Maintenance & Repair of Dwelling Czech Republic"
+    },
+    {
+      "security": "CP4SCZMM<index>",
+      "description": "EU CPI Services for Maintenance & Repair of Dwelling Czech Republic MoM"
+    },
+    {
+      "security": "CP4SCZYY<index>",
+      "description": "EU CPI Services for Maintenance & Repair of Dwelling Czech Republic YoY"
+    },
+    {
+      "security": "CPHACZ<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic"
+    },
+    {
+      "security": "CPHACZMM<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic MoM"
+    },
+    {
+      "security": "CPHACZYY<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic YoY"
+    },
+    {
+      "security": "CPMCCZ<index>",
+      "description": "EU CPI Services Miscellaneous Czech Republic"
+    },
+    {
+      "security": "CPMCCZMM<index>",
+      "description": "EU CPI Services Miscellaneous Czech Republic MoM"
+    },
+    {
+      "security": "CPMCCZYY<index>",
+      "description": "EU CPI Services Miscellaneous Czech Republic YoY"
+    },
+    {
+      "security": "CPTCCZ<index>",
+      "description": "EU CPI Services Related to Communication Czech Republic"
+    },
+    {
+      "security": "CPTCCZMM<index>",
+      "description": "EU CPI Services Related to Communication Czech Republic MoM"
+    },
+    {
+      "security": "CPTCCZYY<index>",
+      "description": "EU CPI Services Related to Communication Czech Republic YoY"
+    },
+    {
+      "security": "CPTHCZ<index>",
+      "description": "EU CPI Services Related to Housing Czech Republic"
+    },
+    {
+      "security": "CPTHCZMM<index>",
+      "description": "EU CPI Services Related to Housing Czech Republic MoM"
+    },
+    {
+      "security": "CPTHCZYY<index>",
+      "description": "EU CPI Services Related to Housing Czech Republic YoY"
+    },
+    {
+      "security": "CPTNCZ<index>",
+      "description": "EU CPI Services Related to Recreation Including Repairs & Pers Care Czech Rep"
+    },
+    {
+      "security": "CPTNCZMM<index>",
+      "description": "EU CPI Services Related to Recreation Incl Repairs & Pers Care Czech Rep MoM"
+    },
+    {
+      "security": "CPTNCZYY<index>",
+      "description": "EU CPI Services Related to Recreation Incl Repairs & Pers Care Czech Rep YoY"
+    },
+    {
+      "security": "CPTSCZ<index>",
+      "description": "EU CPI Services Related to Transport Czech Republic"
+    },
+    {
+      "security": "CPTSCZMM<index>",
+      "description": "EU CPI Services Related to Transport Czech Republic MoM"
+    },
+    {
+      "security": "CPTSCZYY<index>",
+      "description": "EU CPI Services Related to Transport Czech Republic YoY"
+    },
+    {
+      "security": "CPXPCZ<index>",
+      "description": "EU CPI Services Rel to Recr & Pers Care Excl Pack Holidays & Accom Czech Rep"
+    },
+    {
+      "security": "CPXPCZMM<index>",
+      "description": "EU CPI Services Rel to Recr & Pers Care Excl Pack Holidays & Accom Czech Rep MoM"
+    },
+    {
+      "security": "CPXPCZYY<index>",
+      "description": "EU CPI Services Rel to Recr & Pers Care Excl Pack Holidays & Accom Czech Rep YoY"
+    },
+    {
+      "security": "CP1GCZYY<index>",
+      "description": "EU CPI Other Services NEC Czech Republic YoY"
+    },
+    {
+      "security": "CP1ACZ<index>",
+      "description": "EU CPI Accommodation Services Czech Republic"
+    },
+    {
+      "security": "CP1ACZMM<index>",
+      "description": "EU CPI Accommodation Services Czech Republic MoM"
+    },
+    {
+      "security": "CP1ACZYY<index>",
+      "description": "EU CPI Accommodation Services Czech Republic YoY"
+    },
+    {
+      "security": "CP1FCZ<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic"
+    },
+    {
+      "security": "CP1FCZMM<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP1FCZYY<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic YoY"
+    },
+    {
+      "security": "CP1GCZ<index>",
+      "description": "EU CPI Other Services NEC Czech Republic"
+    },
+    {
+      "security": "CP1GCZMM<index>",
+      "description": "EU CPI Other Services NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP1SCZ<index>",
+      "description": "EU CPI Catering Services Czech Republic"
+    },
+    {
+      "security": "CP1SCZMM<index>",
+      "description": "EU CPI Catering Services Czech Republic MoM"
+    },
+    {
+      "security": "CP1SCZYY<index>",
+      "description": "EU CPI Catering Services Czech Republic YoY"
+    },
+    {
+      "security": "CP44CZ<index>",
+      "description": "EU CPI Water Supply & Miscellaneous Services Relating to Dwelling Czech Republic"
+    },
+    {
+      "security": "CP44CZMM<index>",
+      "description": "EU CPI Water Supply & Miscellaneous Services Relating to Dwelling Czech Rep MoM"
+    },
+    {
+      "security": "CP44CZYY<index>",
+      "description": "EU CPI Water Supply & Miscellaneous Services Relating to Dwelling Czech Rep YoY"
+    },
+    {
+      "security": "CP4OCZ<index>",
+      "description": "EU CPI Other Services Relating to Dwelling NEC Czech Republic"
+    }
+  ],
+  "Eurostat Czech Republic HICP Services": [
+    {
+      "security": "CPGGCZ<index>",
+      "description": "Eurostat Czech Republic HICP Goods NSA"
+    },
+    {
+      "security": "CPGGCZM<index>",
+      "description": "Eurostat Czech Republic HICP Goods MoM NSA"
+    },
+    {
+      "security": "CPGGCZY<index>",
+      "description": "Eurostat Czech Republic HICP Goods YoY NSA"
+    },
+    {
+      "security": "CPMSCZ<index>",
+      "description": "Eurostat Czech Republic HICP Misc Goods & Services NSA"
+    },
+    {
+      "security": "CPMSCZM<index>",
+      "description": "Eurostat Czech Republic HICP Misc Goods & Services MoM NSA"
+    },
+    {
+      "security": "CPMSCZY<index>",
+      "description": "Eurostat Czech Republic HICP Misc Goods & Services YoY NSA"
+    },
+    {
+      "security": "CPSVCZ<index>",
+      "description": "Eurostat Czech Republic HICP Services NSA"
+    },
+    {
+      "security": "CPSVCZM<index>",
+      "description": "Eurostat Czech Republic HICP Services MoM NSA"
+    },
+    {
+      "security": "CPSVCZY<index>",
+      "description": "Eurostat Czech Republic HICP Services YoY NSA"
+    },
+    {
+      "security": "EUWE12CZ<index>",
+      "description": "Eurostat HICP Weights Misc Goods & Services Czech Republic"
+    },
+    {
+      "security": "EUWE4DCZ<index>",
+      "description": "Eurostat HICP Weights Services for the Maint & Repair of the Dwl Czech Republic"
+    },
+    {
+      "security": "EUWE5KCZ<index>",
+      "description": "Eurostat HICP Weights Goods & Services for Routine Hhold Maint Czech Republic"
+    },
+    {
+      "security": "EUWE5MCZ<index>",
+      "description": "Eurostat HICP Weights Domestic Services & Hhold Services Czech Republic"
+    },
+    {
+      "security": "EUWE6DCZ<index>",
+      "description": "Eurostat HICP Weights Out-Patient Services Czech Republic"
+    },
+    {
+      "security": "EUWE6ECZ<index>",
+      "description": "Eurostat HICP Weights Medical Services & Paramedical Services Czech Republic"
+    },
+    {
+      "security": "EUWE6FCZ<index>",
+      "description": "Eurostat HICP Weights Dental Services Czech Republic"
+    },
+    {
+      "security": "EUWE6GCZ<index>",
+      "description": "Eurostat HICP Weights Hospital Services Czech Republic"
+    },
+    {
+      "security": "EUWE7ICZ<index>",
+      "description": "Eurostat HICP Weights Transport Services Czech Republic"
+    },
+    {
+      "security": "EUWE7OCZ<index>",
+      "description": "Eurostat HICP Weights Other Purchased Transport Services Czech Republic"
+    },
+    {
+      "security": "EUWE8ACZ<index>",
+      "description": "Eurostat HICP Weights Postal Services Czech Republic"
+    },
+    {
+      "security": "EUWE8BCZ<index>",
+      "description": "Eurostat HICP Weights Telephone & Telefax Eq & Services Czech Republic"
+    },
+    {
+      "security": "EUWE8DCZ<index>",
+      "description": "Eurostat HICP Weights Telephone & Telefax Services Czech Republic"
+    },
+    {
+      "security": "EUWE9OCZ<index>",
+      "description": "Eurostat HICP Weights Recral & Cultural Services Czech Republic"
+    },
+    {
+      "security": "EUWE9PCZ<index>",
+      "description": "Eurostat HICP Weights Recral & Sporting Services Czech Republic"
+    },
+    {
+      "security": "EUWE9QCZ<index>",
+      "description": "Eurostat HICP Weights Cultural Services Czech Republic"
+    },
+    {
+      "security": "EUWEAACZ<index>",
+      "description": "Eurostat HICP Weights Catering Services Czech Republic"
+    },
+    {
+      "security": "EUWEADCZ<index>",
+      "description": "Eurostat HICP Weights Acc Services Czech Republic"
+    },
+    {
+      "security": "EUWEBMCZ<index>",
+      "description": "Eurostat HICP Weights Financial Services N.E.C. Czech Republic"
+    },
+    {
+      "security": "EUWEGDCZ<index>",
+      "description": "Eurostat HICP Weights Goods Excl Services Czech Republic"
+    },
+    {
+      "security": "EUWESMCZ<index>",
+      "description": "Eurostat HICP Weights Services Misc Czech Republic"
+    },
+    {
+      "security": "EUWESRCZ<index>",
+      "description": "Eurostat HICP Weights Services Excl Goods Czech Republic"
+    }
+  ],
+  "Czech Republic CPI Services": [
+    {
+      "security": "CZCPC13M<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services MoM"
+    },
+    {
+      "security": "CZCP12<index>",
+      "description": "Czech CPI Insurance And Financial Services"
+    },
+    {
+      "security": "CZCP12Y<index>",
+      "description": "Czech CPI Insurance And Financial Services YoY"
+    },
+    {
+      "security": "CZCP13<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services"
+    },
+    {
+      "security": "CZCPC12<index>",
+      "description": "Czech Contribution to Change in CPI Insurance And Financial Services"
+    },
+    {
+      "security": "CZCPC13Y<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services YoY"
+    },
+    {
+      "security": "CZCPI12M<index>",
+      "description": "Czech CPI Insurance And Financial Services MoM"
+    },
+    {
+      "security": "CZCPMI<index>",
+      "description": "Czech Republic CPI Miscellaneous Goods & Services COICOP 1999"
+    },
+    {
+      "security": "CZCPMMOM<index>",
+      "description": "Czech Republic CPI Misc Goods & Services MoM COICOP 1999"
+    },
+    {
+      "security": "CZCPMYOY<index>",
+      "description": "Czech Republic CPI Misc Goods & Services YoY COICOP 1999"
+    },
+    {
+      "security": "OECZGSHA<index>",
+      "description": "OECD Czech Rep CPI Services Rent Index"
+    },
+    {
+      "security": "OECZGSJM<index>",
+      "description": "OECD Czech Rep CPI Services Less Housing Index"
+    },
+    {
+      "security": "CP1GCZYY<index>",
+      "description": "EU CPI Other Services NEC Czech Republic YoY"
+    },
+    {
+      "security": "CP1ACZ<index>",
+      "description": "EU CPI Accommodation Services Czech Republic"
+    },
+    {
+      "security": "CP1ACZMM<index>",
+      "description": "EU CPI Accommodation Services Czech Republic MoM"
+    },
+    {
+      "security": "CP1ACZYY<index>",
+      "description": "EU CPI Accommodation Services Czech Republic YoY"
+    },
+    {
+      "security": "CP1FCZ<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic"
+    },
+    {
+      "security": "CP1FCZMM<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP1FCZYY<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic YoY"
+    },
+    {
+      "security": "CP1GCZ<index>",
+      "description": "EU CPI Other Services NEC Czech Republic"
+    },
+    {
+      "security": "CP1GCZMM<index>",
+      "description": "EU CPI Other Services NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP1SCZ<index>",
+      "description": "EU CPI Catering Services Czech Republic"
+    },
+    {
+      "security": "CP1SCZMM<index>",
+      "description": "EU CPI Catering Services Czech Republic MoM"
+    },
+    {
+      "security": "CP1SCZYY<index>",
+      "description": "EU CPI Catering Services Czech Republic YoY"
+    },
+    {
+      "security": "CP44CZ<index>",
+      "description": "EU CPI Water Supply & Miscellaneous Services Relating to Dwelling Czech Republic"
+    },
+    {
+      "security": "CP44CZMM<index>",
+      "description": "EU CPI Water Supply & Miscellaneous Services Relating to Dwelling Czech Rep MoM"
+    },
+    {
+      "security": "CP44CZYY<index>",
+      "description": "EU CPI Water Supply & Miscellaneous Services Relating to Dwelling Czech Rep YoY"
+    },
+    {
+      "security": "CP4OCZ<index>",
+      "description": "EU CPI Other Services Relating to Dwelling NEC Czech Republic"
+    },
+    {
+      "security": "CP4OCZMM<index>",
+      "description": "EU CPI Other Services Relating to Dwelling NEC Czech Republic MoM"
+    },
+    {
+      "security": "CP4OCZYY<index>",
+      "description": "EU CPI Other Services Relating to Dwelling NEC Czech Republic YoY"
+    },
+    {
+      "security": "CP4SCZ<index>",
+      "description": "EU CPI Services for Maintenance & Repair of Dwelling Czech Republic"
+    },
+    {
+      "security": "CP4SCZMM<index>",
+      "description": "EU CPI Services for Maintenance & Repair of Dwelling Czech Republic MoM"
+    },
+    {
+      "security": "CP4SCZYY<index>",
+      "description": "EU CPI Services for Maintenance & Repair of Dwelling Czech Republic YoY"
+    },
+    {
+      "security": "CP56CZ<index>",
+      "description": "EU CPI Goods & Services for Routine Household Maintenance Czech Republic"
+    },
+    {
+      "security": "CP56CZYY<index>",
+      "description": "EU CPI Goods & Services for Routine Household Maintenance Czech Republic YoY"
+    },
+    {
+      "security": "CP5DCZ<index>",
+      "description": "EU CPI Domestic Services & Household Services Czech Republic"
+    },
+    {
+      "security": "CP5DCZYY<index>",
+      "description": "EU CPI Domestic Services & Household Services Czech Republic YoY"
+    },
+    {
+      "security": "CP62CZ<index>",
+      "description": "EU CPI Out Patient Services Czech Republic"
+    },
+    {
+      "security": "CP62CZYY<index>",
+      "description": "EU CPI Out Patient Services Czech Republic YoY"
+    },
+    {
+      "security": "CP63CZ<index>",
+      "description": "EU CPI Hospital Services Czech Republic"
+    }
+  ],
+  "Czech Inflation Core Excluding Fuel": []
+}

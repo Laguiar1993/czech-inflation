@@ -1,0 +1,31 @@
+{
+  "version": "momentum_r35_fixed_v1",
+  "period": 12,
+  "minimum_observations": 96,
+  "transform": "log",
+  "automdl": "installed binary defaults; no manual model selection or retries",
+  "outlier_types": [
+    "ao",
+    "ls",
+    "tc"
+  ],
+  "outlier_effects_retained": true,
+  "x11_mode": "mult",
+  "x11_final": "omitted: retain AO/LS/TC effects in D11",
+  "return_table": "d11",
+  "save_tables": [
+    "d10",
+    "d11",
+    "d12",
+    "d13"
+  ],
+  "append_forecasts": false,
+  "append_backcasts": false,
+  "calendar_regressors": [],
+  "easter_policy": "none for all groups; no pre-established robust holiday specification",
+  "spectrum_logqs": true,
+  "spectrum_robustsa": false,
+  "qs_flag_p_value_below": 0.01,
+  "timeout_seconds": 120,
+  "other_options": "installed X13 defaults, executable SHA256 and effective .udg archived"
+}

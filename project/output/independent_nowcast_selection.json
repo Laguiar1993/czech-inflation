@@ -1,0 +1,6 @@
+{
+  "main_policy": "hard",
+  "ESI_promoted": false,
+  "selection_status": "exploratory; no untouched historical holdout",
+  "rule": "BASE RMSE improves >=2%; MAE deterioration <=2%; recent RMSE deterioration <=5%"
+}

@@ -1,0 +1,48 @@
+{
+ "candidate": "ALC_STEPS_R30",
+ "c1_block_every_sample": false,
+ "c2_headline_every_sample_and_surprises": false,
+ "c3_specificity": false,
+ "c4_in_phase": true,
+ "c5_interval": false,
+ "failed": [
+  "1",
+  "2",
+  "3",
+  "5"
+ ],
+ "promotable": false,
+ "promoted_object": "simplest equivalent of the grid: ALC_STEPS_THETA055_R30 (condition 3 not met as declared)",
+ "best_grid_member": "ALC_STEPS_THETA055_R30",
+ "bootstrap_vs_best_grid": {
+  "n": 90,
+  "block": 12,
+  "draws": 2000,
+  "seed": 1509,
+  "mean_loss_difference": 0.006541746544980108,
+  "bootstrap_mean": 0.0065512195927390875,
+  "ci_low": -0.001701526882953436,
+  "ci_high": 0.018144319897143033,
+  "bootstrap_probability_improvement": 0.0885,
+  "status": "ok"
+ },
+ "bootstrap_vs_recorded": {
+  "n": 90,
+  "block": 12,
+  "draws": 2000,
+  "seed": 1509,
+  "mean_loss_difference": -0.031189907830351755,
+  "bootstrap_mean": -0.024120876414542077,
+  "ci_low": -0.26553160636565065,
+  "ci_high": 0.16033352991587124,
+  "bootstrap_probability_improvement": 0.5495,
+  "status": "ok"
+ },
+ "phase": {
+  "n_active": 40,
+  "sign_agreement": 0.5,
+  "correlation": 0.26154838138414255,
+  "mean_needed_active": 0.23866443048793423,
+  "mean_applied_active": 0.3714407582931126
+ }
+}

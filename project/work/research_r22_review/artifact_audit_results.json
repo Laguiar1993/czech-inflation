@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "Every manifest source/output hash verifies",
+    "All seven models retain the 90 x 13 FAST support and h0",
+    "Every noncore component and weight preserved exactly",
+    "Headline monthly changes equal frozen FAST plus weighted core substitution",
+    "All 90 saved fitted core paths equal native forecasts",
+    "All linear predictive responses reproduced independently from coefficient powers",
+    "First and last origins, including ENET and RF paths/responses, reproduce"
+  ],
+  "max_linear_response_difference": 2.942091015256665e-15,
+  "max_repeat_forecast_difference": 0.0,
+  "status_counts": {
+    "estimated": 630
+  },
+  "minimum_training_rows": 40,
+  "maximum_training_rows": 96
+}

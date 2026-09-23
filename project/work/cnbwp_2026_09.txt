@@ -1,0 +1,1308 @@
+\n---PAGE 1---\nWorking Paper Series 09/2026
+AI-Based Forecasting of Czech Inflation:
+Quantile Regression Forests
+with Dynamic Weights
+Filip Blaha, Jan Botka, Josef Švéda,
+Aleš Michl\n---PAGE 2---\nThe Working Paper Series of the Czech National Bank (CNB) is intended to disseminate the results of the
+CNB’s research projects as well as the other research activities of both the staff of the CNB and collaborating
+outside contributors, including invited speakers. The Series aims to present original research contributions
+relevant to central banks. It is refereed internationally. The referee process is managed by the CNB Research
+Division. The working papers are circulated to stimulate discussion. The views expressed are those of the
+authors and do not necessarily reflect the official views of the CNB.
+Distributed by the Czech National Bank, available at www.cnb.cz
+Reviewed by: Jakub Moučka (CNB)
+Project Coordinator: Martin Hodula
+Issued by: © Czech National Bank, April 2026\n---PAGE 3---\nAI-Based Forecasting of Czech Inflation: Quantile Regression Forests
+with Dynamic Weights
+FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl∗
+Abstract
+WeconstructaquantileregressionforestforinflationforecastingintheCzechRepublic,inspired
+by growing literature on the use of Machine Learning in macroeconomics and finance. We
+contribute to the literature by implementing an optimisation scheme with time-varying weights
+that incorporates information from the entire distribution to form the point forecast. By
+dynamically reflecting the distribution of future inflation paths, our framework outperforms both
+standard mean and median point forecasts and delivers gains relative to conventional linear
+benchmark models. We also forecast individual inflation subcomponents that enable us to
+disentangle the drivers of future inflation and its risks. Furthermore, we integrate the
+Shapley-valuedecompositiontoenhancetheinterpretabilityofourresultsandadjustthemodel’s
+predictorsforasmallopeneconomy.
+JELCodes: C53,C55,E31,E37,E52.
+Keywords: Czech Republic, forecasting, inflation, machine learning, quantile regression
+forest,smallopeneconomy,timevaryingweights.
+∗FilipBlaha,CzechNationalBank;MasarykUniversity;filip.blaha@cnb.cz
+JanBotka,CzechNationalBank;InstituteofEconomicStudies,CharlesUniversity;jan.botka@cnb.cz
+JosefŠvéda,CzechNationalBank;InstituteofEconomicStudies,CharlesUniversity;josef.sveda@cnb.cz
+AlešMichl,CzechNationalBank;ales.michl@cnb.cz
+Wegratefullyacknowledge comments andsuggestionsfromMartinHodula, MicheleLenza, Štefan Lyócsa, and
+MartinCˇasta. WealsoacknowledgetheuseofOpenAILLMmodelsforeditingthepaper. Theviewsexpressed
+arethoseoftheauthorsandnotnecessarilythoseoftheCzechNationalBank. Allerrorsandomissionsremainthe
+faultoftheauthors.\n---PAGE 4---\n2 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+1. Introduction
+The inflation surge across advanced economies in 2022 and 2023 exposed the limitations of
+traditional macroeconomic forecasting models. Many classical frameworks were built on linear
+andhistoricallystablerelationships. Asaresult,theystruggledtocapturethesuddenandnonlinear
+shifts in price dynamics and the macroeconomic environment. This episode highlights two related
+needs for monetary policy. First, policymakers require models that can detect abrupt changes in
+inflation dynamics and adapt quickly to the new signals. Second, especially as inflation moves
+back towards target, they must carefully assess the balance of risks around the forecast. It matters
+whether inflation risks remain tilted upward or instead point to a sharper disinflation. Misjudging
+thisbalancethreatenseitherareignitinginflationsurgeoreasingpolicytoolate.
+Toaddresstheseneeds,thispaperdevelopsaforecastingframeworkthatcapturesboththeexpected
+inflation path and the associated forecast distribution. We employ an AI-based1 machine learning
+approach—aQuantileRegressionForest(QRF)—buildingonthegrowingliteratureonnonlinear
+macroeconomic forecasting (Chakraborty and Joseph, 2017; Medeiros et al., 2021; Chen et al.,
+2019), and in particular Lenza et al. (2025). The QRF structure allows us to model nonlinearities
+andstatedependencewithoutimposingrestrictivefunctionalforms.
+We extend this framework by introducing a Time-Varying Weighted Quantile Combination
+(TVW-QRF) model that generates tail-sensitive, dynamically updated point forecasts for Czech
+inflation. WhilestandardQRFapplicationstypicallyrelyonthemedianormeanoftheconditional
+distribution, our approach assigns time-varying weights to different quantiles based on recent
+forecast performance. Our contribution thus lies in dynamically exploiting the entire forecast
+distribution rather than focusing on the mean or median. The weighting mechanism is inspired by
+Meligkotsidou et al. (2014), who apply a similar approach in quantile linear regression models for
+equity premium forecasting. We adapt their approach to the distributional structure of the QRF
+framework.
+Beyond the weighting scheme, we tailor the predictor set to the structural features of a small open
+economy, placing greater emphasis on external price pressures, global demand indicators, and
+exchange-rate channels. We further disaggregate the Consumer Price Index (CPI) and generate
+forecasts for the major CPI subcomponents, enabling us to track heterogeneous price dynamics
+across economic sectors. Finally, to address the common criticism that machine learning tools
+operate as “black boxes”, we include a Shapley value decomposition that allows us to quantify the
+contributionofeachpredictortotheforecast.
+Ourfindingspointtoseveralkeyresults. First,dynamicallyweightedquantilecombinationsdeliver
+asignificantimprovementinpointforecastaccuracyrelativetoboththeQRFmeanandmedian,as
+well as to other econometric benchmarks. These results are particularly important during periods
+of heightened inflation and regime switches, when the ability to shift weight toward tail quantiles
+of the inflation distribution enablesthe model to capture the evolving risk balance more effectively
+thanstaticcentral-tendencyforecasts.
+Second, the disaggregated CPI forecasts reveal sizeable heterogeneity across price categories.
+Food and fuel prices contribute disproportionately to short-term fluctuations, reflecting their
+sensitivity to global commodity markets and supply shocks, while core inflation evolves more
+1InlinewithRussellandNorvig(2022),machinelearningisconsideredasubsetofAI.Inthispaper,“AI-based”
+refersexclusivelytomachinelearningmethods.\n---PAGE 5---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 3
+gradually and displays a smoother, more persistent evolution. This decomposition enables a more
+precise understanding of the sources of inflation pressures and their expected
+persistence—informationdirectlyrelevantforpolicyconsiderations.
+Moreover, the Shapley-value decomposition enhances the interpretability of our AI-based
+framework. Among the predictors employed, domestic real activity, together with external
+predictorssuchasforeignproducerpricesandexchange-ratemovements,accountsforasignificant
+share of the forecasted risk, which is consistent with the structural characteristics of a small open
+economy. Domestic expectations also drive our forecast, especially during periods of elevated
+uncertainty.
+The remainder of the paper proceeds as follows. Section 2 reviews the related literature. Section 3
+outlines the methodology, and Section 4 describes the data. Section 5 presents the benchmark
+models used to evaluate our framework’s performance. Section 6 reports the main results and
+discussestheirimplications. Section7concludes.
+2. Related Literature
+2.1NonlinearInflationDynamicsandMacroeconomicModelling
+An extensive empirical literature shows that the relationship between inflation and economic
+activity is neither stable nor linear. Instead, inflation dynamics display state dependence,
+asymmetric responses, and regime shifts, features that complicate both forecasting and policy
+analysis. This stands in contrast to the traditional representation of this relationship in the Phillips
+curve (Phillips, 1958), which forms the backbone of many linear models, including the New
+Keynesian Phillips Curve (NKPC) and variants used in structural and Dynamic Stochastic General
+Equilibrium (DSGE) frameworks (Galí and Gertler, 1999).2 The traditional Phillips curve is built
+onastablelinkbetweeneconomicactivityandpricepressures. However,earlierevidencesuggests
+a flattening of the Phillips curve during recent decades (summarised, e.g., by Smith et al., 2025),
+with several studies attributing this decline in sensitivity to rising trade openness and global
+integration (Gilchrist and Zakrajsek, 2019; Firat, 2024; Auer et al., 2017). These lead to reduced
+responsiveness of domestic prices to domestic economic conditions, providing one explanation for
+theobservedweakeningoftherelationship(DelNegroetal.,2020).
+Yet, recent evidence indicates that such flattening is not permanent. Instead, the underlying
+dynamics resemble state dependence. During the COVID-19 period and the subsequent inflation
+surge, researchers documented a re-intensification of the Phillips curve (Benigno and Eggertsson,
+2023;Inoueetal.,2024). Thesefindingssupportearlierevidencethatthecurve’sslopedependson
+the inflation environment. For example, Benigno and Ricci (2011), Babb and Detmeister (2017),
+and Forbes et al. (2021) show that the Phillips curve steepens at high inflation levels and flattens
+when inflation is low, while Harding et al. (2022) and Costain et al. (2022) emphasise the role of
+nominalrigidities. Moreover,thetransmissionofshocksitselfmaybenonlinear,withlargeshocks
+propagatingmorequicklyandforcefullythansmallones(Cavalloetal.,2024).
+Nonlinearitiesinmacroeconomicmodellingalsoarisefromfinancialconditions. Akeycontribution
+inthisareacomesfromAdrianetal.(2019),whointroducetheconceptof“vulnerablegrowth”and
+2This does not diminish the value of structural macroeconomic models in the policy toolkit. Their discipline,
+interpretability and internally coherent narrative remain substantial for monetary policy, economic analysis,
+and communication. The point is rather that their linear and stable specifications may face limitations when
+relationshipsevolveacrossregimes.\n---PAGE 6---\n4 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+show,usingquantileregression,thatadversefinancialconditionsdisproportionatelyaffectthelower
+tailofGDPgrowth. SimilarresultsareobtainedforEuropebyFigueresandJarocin´ski(2020). This
+line of work demonstrates that macro-financial linkages are highly state-dependent, with stronger
+effects in periods of stress. Building on this idea, Adams et al. (2021) and López-Salido and Loria
+(2024)showthattighteningfinancialconditionspredictupwardunemploymentrisksanddownside
+inflationrisks. Relatedcontributions(AmburgeyandMcCracken,2024;Kiley,2022;Boyarchenko
+etal.,2023)furtherlinkfinancialinstabilitytomacroeconomictailoutcomes.
+Other frameworks directly account for nonlinearity and its effect on economic growth.
+Chavleishvili and Manganelli (2024) employ quantile vector autoregressions to show that financial
+shocks translate into more substantial real effects when accompanied by negative macroeconomic
+shocks, while Chavleishvili and Kremer (2023) highlight the role of systemic stress indicators in
+explaining the severity of the Great Recession. time-varying quantile models such as Korobilis
+et al. (2021) point to financial predictors, especially household and private-sector credit, as key
+driversofinflationtailrisks.
+2.2InflationForecastingandMachineLearning
+If the price dynamics is shaped by nonlinearities, thresholds and state-dependent forces, the
+question becomes how to forecast inflation in practice. The limitations of traditional parametric
+frameworksarewellknown. Simplebenchmarkssuchasrandomwalks,univariateautoregressions
+or unobserved-components models remain surprisingly difficult to outperform (Atkeson and
+Ohanian, 2001; Stock and Watson, 2007, 2010; Faust and Wright, 2013). These outcomes,
+however, do not necessarily show that they are sufficient (Clark et al., 2024). Rather, it reflects the
+compromisebetweenparsimonyandflexibilityoflinearmodels.
+The difficulty of forecasting the nonlinear inflation behaviour has prompted growing interest in
+machine learning (ML). ML methods alleviate several of these issues by flexibly estimating
+nonlinear functions and interactions without requiring explicit parametric assumptions (Buckmann
+and Joseph, 2022). Although early applications appeared already in the 1990s (summarised, e.g.,
+by Masini et al., 2023), the widespread use of ML in macroeconomic forecasting became feasible
+only with broader access to large datasets. For example, Garcia et al. (2017) provide one of the
+first successful applications using Brazilian inflation data, showing that high-dimensional
+approaches, such as shrinkage and complete subset regression (CSR) methods, improve
+forecastingperformance.
+Subsequent work confirms the strong performance of nonlinear ML models. Masini et al. (2023)
+show that algorithms such as Random Forests (RF), neural networks, and boosting methods
+perform exceptionally well in environments with structural breaks, nonlinearities, or many
+predictors. Likewise, Goulet Coulombe et al. (2022) find that nonlinear ML methods provide
+substantialgainsduringperiodsofmacroeconomicuncertaintyandfinancialstress.
+RF, introduced by Breiman (2001), has attracted particular attention due to its robustness,
+interpretability, and strong empirical performance. Using US inflation data, Chakraborty and
+Joseph (2017) show that RF outperforms both linear benchmarks and competing ML methods,
+especially at short forecast horizons, a finding later confirmed by Chen et al. (2019).
+Predictor-importance measures in RF repeatedly emphasise the role of commodity prices,
+exchange rates, and labour-market indicators. Medeiros et al. (2021) further demonstrate that RF
+improves forecasts for US core inflation even relative to high-dimensional linear methods such as
+LASSOorneural-network-basedarchitectures.\n---PAGE 7---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 5
+For distribution forecasting, Meinshausen (2006) extends RF to QRF, allowing the full conditional
+distribution of inflation to be estimated. A recent paper by Lenza et al. (2025) finds that QRF
+outperforms linear quantile regression models for core inflation in the euro area, with gains less
+significant for headline inflation. These results highlight the importance of modelling nonlinear
+quantiledynamicsforatleastsomecomponentsofCPI.
+An alternative distributional approach builds directly on quantile regression rather than on
+tree-based methods used by Lenza et al. (2025). Meligkotsidou et al. (2014) propose a quantile
+regression framework for equity premium prediction that combines information from multiple
+conditional quantiles. These include the trimean of Tukey (1977), the three-quantile estimator of
+Gastwirth (1966), and the five-quantile estimator suggested by Judge et al. (1988), which naturally
+exploit the entire distributional information. This Composite Quantile Regression approach is
+robust against outliers and distribution misspecification, effectively capturing tail risk effects and
+various forms of predictability across the return distribution. Furthermore, the methodology’s
+ability to incorporate a Time-Varying Weighted (TVW) scheme tends to outperform a purely static
+approach, as it allows the model to adapt to shifts in market sentiment, regulatory conditions, and
+fundamental macroeconomic relationships over time, thereby providing superior out-of-sample
+performance.
+2.3MachineLearninginSmallOpenEconomies
+The potential of machine learning frameworks is particularly evident in Small Open Economies
+(SOEs). Theirinflationdynamicsareshapednotonlybydomesticactivitybutalsobyimportprice
+pass-through, exchange rate movements, volatile global commodity prices, and external demand
+conditions. These channels introduce additional nonlinearities and state dependencies, while short
+sample sizes and frequent structural breaks further complicate the forecasting exercise. In this
+environment, flexible methods that can accommodate a richer set of predictors without imposing
+manyfunctionalrestrictionsmayofferadvantagesrelativetoconventionaleconometricmodels.
+Several studies suggest that tree-based models perform well in SOEs. Using a broad sample of
+advanced economies, Kohlscheen (2023) finds that RF generally outperforms econometric
+benchmarksandhighlightstheroleofinflationexpectations. PositiveresultsforRFarereportedin
+Pakistan, India, and Taiwan (Mirza et al., 2024; Das and Das, 2024; Li et al., 2023), though Li
+et al. (2023) note that XGBoost performs even better in their setting. In the Netherlands, van de
+Winkel and Vedder (2024) show that RF improves short-term inflation forecasting accuracy
+relative to AR benchmarks, whereas Schnorrenberger and Schmidt (2024) find that shrinkage
+methodsdominatetree-basedmodelswhenonlyasmallpredictorsetisused. EvidencefromChile
+similarlysuggeststhatRFperformswellwhenricherdatasetsareavailable(Lealetal.,2020).
+On the other hand, some studies report weaker RF performance in countries such as Japan and the
+United Kingdom. Liu (2024) show that LASSO outperforms RF for Japanese core inflation during
+a period of unprecedented inflation acceleration, and Joseph et al. (2024) find that ridge regression
+yields more stable forecasts for UK CPI. They argue that RF’s nonlinear flexibility can introduce
+excessivenoisewheninflationisrelativelystable.
+In the context of the Czech economy, applications of machine learning to macroeconomic
+forecasting remain relatively limited. Vochozka et al. (2021) use neural networks to model Czech
+inflation and show that the Phillips curve provides little explanatory power. Pavlova (2022)
+demonstrate that ML methods effectively capture nonlinear relationships between labour costs and
+inflation. RF is also used to forecast Czech GDP by Gawthorpe (2021), while Benecká (2025)\n---PAGE 8---\n6 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+appliesRFandQRFtoproducer-priceinflationandfindsthemsuperiortotraditionalbenchmarks.
+Although prior studies apply RF and QRF to various macroeconomic settings, to the best of our
+knowledge, no existing work develops a quantile-combination framework with time-varying
+weights for CPI inflation, and applications of QRF to consumer price inflation in SOEs remain
+scarce. This paper addresses this gap, offering a flexible point- and distribution-forecasting
+framework tailored to economies characterised by short time series, external shocks and structural
+changes.
+3. Methodology
+We build directly on the work of Lenza et al. (2025), who applied QRF (Meinshausen, 2006), an
+extensionoftheRFframework(Breiman,2001). Ratherthanproducingasinglepointforecast,QRF
+estimatesthefullconditionaldistributionofinflation,therebyprovidinganasymmetricmeasureof
+forecastuncertainty.
+In the original implementation, point forecasts are typically derived from standard summary
+statistics of this distribution, such as the mean or median. While these measures are informative,
+they may not fully reflect the balance of risks during periods of elevated volatility, when tail
+outcomes become more relevant for policy. We therefore extend the framework by incorporating a
+broadersetofdistributionalinformationintotheconstructionofthepointforecast. Specifically,we
+develop a TVW Quantile Combination approach within the QRF framework. This method
+constructs the final forecast as a weighted average of selected quantiles, including those associated
+with elevated inflation risks. By allowing the weights to adjust over time, the approach remains
+sensitive to shifts in the distribution of risks. For a central bank concerned not only with the
+expected inflation path but also with its surrounding uncertainty, such a framework provides a
+relevanttoolkittosupportmonetarydecisions.
+3.1QuantileRegressionForest
+Quantile Regression Forest (QRF), introduced by Meinshausen (2006), extends the classical
+Random Forest framework of Breiman (2001) by providing a nonparametric estimate of the full
+conditional distribution of the target variable. The method builds an ensemble of regression trees
+on bootstrap samples of the training data, where each tree is grown using random subsets of
+predictorsateachsplit,ensuringlowcorrelationacrosstreesandreducingvariance.
+For a given input vector X , the prediction is constructed by aggregating observations that fall into
+t
+thesameterminalleavesacrosstheforest. Thisinducesadata-drivensetofadaptiveweightsw(X )
+i t
+over the training sample, reflecting the proximity between X and past observations in the feature
+t
+space. Formally,theconditionaldistributionofinflationπ
+t+h
+givenX
+t
+isestimatedas
+N
+F(cid:98)t (π
+t+h
+|X
+t
+)(q)= ∑w
+i
+(X
+t
+)I(π
+i
+≤q) (1)
+i=1
+where the weights w(X ) are determined by the frequency with which observation i appears in the
+i t
+sameterminalnodesasX acrosstheensemble.
+t
+This representation allows QRF to directly estimate conditional quantiles without imposing
+distributional assumptions. In contrast to the standard Random Forest, which approximates the\n---PAGE 9---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 7
+conditional mean, QRF recovers the entire predictive distribution, enabling inference on
+asymmetric risks and tail behaviour. This property is particularly relevant in macroeconomic
+forecasting, where the distribution of outcomes may shift across regimes and where policy
+decisionsdependnotonlyoncentraltendenciesbutalsoonthebalanceofrisks.
+3.2TVW-QRF:QuantileCombinationFramework
+(h)
+Let q (cid:98)αk (X t ) denote the QRF-based forecast of the conditional α k -quantile of h-step-ahead month-
+on-month inflation π t+h , given the predictor set X t . We consider a finite set of quantiles A(s) =
+{α ,...,α } for a given specification s∈{1,2,3}. The final TVW-QRF point forecast is a convex
+1 K
+combinationofthesequantiles:
+K
+(s) (s,h) (h)
+y = ∑ w q (X ), (2)
+(cid:98)t+h|t t,k (cid:98)αk t
+k=1
+(s,h)
+wherew isthevectoroftimevaryingweights.
+t
+Moreover, we test our TVW-QRF against the typical methods aggregating the conditional
+distributionoftheQRF:theQRFMedian(qˆ )andtheQRFMean(expectedvalue).
+0.50
+3.3Time-VaryingWeightEstimation: ADynamicOptimisation
+Following the approach used for quantile linear regression by Meligkotsidou et al. (2014), we
+(s,h)
+estimate the optimal weights w by solving a constrained minimisation problem based on a
+t
+kernel-weightedleastsquarescriterionoverarollingvalidationwindowof12months.
+3.3.1OptimisationProblem
+(s,h)
+The weights w are determined by minimising the weighted sum of squared errors between the
+t
+past realised inflation rates and their corresponding quantile combinations within the validation
+window:
+(cid:16) (cid:17)⊤ (cid:16) (cid:17)
+(s,h) (h) (s,h) (h) (s,h)
+w
+t
+=argmin y
+t
+−Q
+t
+w Ωt y
+t
+−Q
+t
+w , (3)
+w∈RK
+(cid:124) (cid:123)(cid:122) (cid:125)
+WeightedSumofSquaredErrors
+s.t. 1 ⊤w=1, w≥0, ℓ(s)≤w≤u(s).
+This quadratic optimisation is subject to constraints: (1) Simplex Constraint (1⊤w=1 and w≥0);
+and(2)StabilityBounds(ℓ(s) andu(s)),enforcingstabilityandinterpretability.
+3.3.2ExponentialKernelWeights(Ωt )
+The diagonal matrix Ωt =diag(ω
+1
+,...,ω
+12
+) contains the exponential kernel weights, which apply
+greater emphasis to the most recent observations in the 12-month validation window (dynamic
+weighting). Theweightω assignedtoanobservationiperiodsoldiscalculatedas:
+i
+2−i
+H
+−
+L
+1
+ω = , i=1,...,12, HL=6. (4)
+i
+∑
+12 2−m
+H
+−
+L
+1
+m=1
+Here, HL=6 denotes the half-life in months. The exponential kernel dynamically assigns greater
+weight to recent data. The half-life of 6 months ensures that an observation is considered only\n---PAGE 10---\n8 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+half as relevant after six months as the most recent data point. This approach allows our quantile
+combinationtoreactswiftlyandpreciselytothecurrent,relevanteconomicinformation.
+Moreover, it accounts for the well-established notion that macroeconomic relationships and
+parameters evolve over time and, therefore, tackles the possible limits of our forecast. In practical
+forecastingexercises,themodelisinevitablyexposedtoomitted-variablebias,limitedsamplesize,
+and imperfect identification of predictors that may signal regime transitions. Moreover, the
+predictor space can occasionally attain values that the tree-based model has not previously
+encountered, which further contributes to systematic forecast bias. In periods of transition into a
+high-inflation regime that is absent from the historical training data, this bias tends to be negative,
+with the median prediction systematically underestimating the true inflation rate. The TVW
+procedure mitigates this effect by shifting attention toward higher predictive quantiles, thereby
+partially compensating for the model’s structural underestimation in the upper tail of the
+distribution. In an idealised setting with an infinite sample and complete information, the median
+or mean forecast would be sufficient and unbiased. Under realistic data limitations, however, the
+quantile-weighted approach provides a more robust approximation by explicitly correcting for
+asymmetries and regime-dependent distortions that standard central-tendency forecasts might
+struggletocapture.
+3.4SpecificationofWeightSchemes
+WeevaluatetheTVW-QRFacrossthreedifferentspecifications,s,determinedbythechosensetof
+quantiles(A(s))andtheirassociatedstabilitybounds(ℓ(s) andu(s)):
+TVW1: A(1)={0.25,0.50,0.75}, ℓ(1)=(0.20,0.40,0.20)⊤, u(1)=(0.40,0.60,0.40)⊤, (5)
+TVW2: A(2)={1/3,0.50,2/3}, ℓ(2)=(0.20,0.30,0.20)⊤, u(2)=(0.40,0.50,0.40)⊤, (6)
+TVW3: A(3)={0.10,0.25,0.50,0.75,0.90},
+ℓ(3)=(0,0.15,0.30,0.15,0)⊤, u(3)=(0.15,0.35,0.50,0.35,0.15)⊤. (7)
+More specifically, following the approach of Meligkotsidou et al. (2014), we use TVW1 based
+on Tukey’s Trimean (Tukey, 1977) and TVW2 based on the Gastwirth three-quantile estimator
+(Gastwirth, 1966). The TVW3 specification is based on the five-quantile estimator proposed by
+Judgeetal.(1988).
+We evaluate the model using an expanding window forecast. Starting from an initial date T , the
+0
+QRFmodelisinitiallytrainedonallavailablehistoricaldatauptotimet−h. Atthisforecastorigin
+(s)
+t, the QRF model generates the h-step-ahead forecast y , where the most recent 12 months (up
+(cid:98)t+h|t
+(s,h)
+to t−h) are reserved for the validation of weights w . The entire sample window then expands
+t
+by one period, the QRF model is retrained on the newly available data, and the next forecast is
+generated. Sucharecursiveprocessensuresthat,ateverystep,thepredictionisgeneratedusingthe
+informationavailabletoaforecasteratthattime(uptot−h).
+3.5PredictorImportanceviaShapleyValues
+Interpreting nonlinear ML models often requires tools that decompose individual predictions into
+contributionsattributabletoeachpredictor. WeemployShapleyvalues,aconceptfromcooperative
+gametheorydevelopedbyShapley(1953). GivenapredictorspaceN ={1,...,p},quantileα and
+k\n---PAGE 11---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 9
+horizon h, the Shapley value φ (x) of predictor j represents its average marginal contribution to
+j,k,h
+(h)
+themodeloutputq (x)acrossallpossiblepredictorcoalitions.
+(cid:98)αk
+Since the exact computation of φ faces computational constraints, we use approximation
+j,k,h
+methods. Specifically, we implement the Tree SHAP Monte Carlo approach (Štrumbelj and
+Kononenko, 2014; Lundberg et al., 2020) for every prediction. This method efficiently
+approximates Shapley values through sampling of predictor permutations and averaging their
+marginalcontributions.
+Cross-temporal and cross-horizon comparability requires establishing a model-independent
+baseline b and reference dataset X . We set the baseline at b=0. Therefore, when φ (x)>0,
+bg j,k
+predictor j at its observed value (with non-coalition predictors sampled from X ) drives the
+bg
+conditional quantile Q towards a pro-inflationary direction. Conversely, φ (x) < 0 signals
+αk j,k
+deflationary pressure. For the reference dataset X , we select observations from 2005-2019,
+bg
+capturing the stable post-EU membership and pre-pandemic era. The Monte Carlo procedure
+(n = 400) replaces missing predictors in x with row-wise samples from X , maintaining
+sim bg
+predictor dependencies. This fixed reference set, rather than period-specific training data, ensures
+consistentcounterfactualscenariosacrossdifferentpredictions.
+Finaladjustmentensuresexactdecompositionateachpredictionpoint:
+p
+(h)
+q (x)−b = ∑ φ (x) (8)
+(cid:98)αk j,k,h
+j=1
+Predictor j’s relative contribution is measured through its proportional share, which we aggregate
+overtimeandhorizons:
+|φ (x)|
+j,k,h,t
+s (x)= (9)
+j,k,h,t p
+∑ n=1 |φ n,k,h,t (x)|
+We organise the predictors into six economic categories based on economic theory and variable
+characteristics (Table A6). Reporting individual contributions is not informative given the large
+number of predictors and their strong multicollinearity. We therefore aggregate Shapley
+contributions within each group and report their combined share in the forecast. This yields a
+decompositionintermsofbroadinflationdrivers. Theresultsaredescriptiveratherthancausal.
+4. Data
+4.1Predictors
+The empirical foundation of our forecasting framework relies on a comprehensive dataset
+comprising 72 macroeconomic and financial indicators spanning the period from May 2002 to
+September2025.
+Adetailedoverviewofallpredictors,includingtheirdefinitionsandtransformations,isprovidedin
+Table A6 in the Appendix. The predictor set is structured into seven primary categories (G1–G7),
+similar to the dataset constructed by Lenza et al. (2025), designed to capture key economic\n---PAGE 12---\n10 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+channels relevant to inflation dynamics: inflation expectations, real activity, confidence and
+sentiment, producer price indices, financial sector and commodity prices. Given that the Czech
+Republic is considered an SOE with deep trade linkages, our dataset also emphasises external
+pressures,includingindicatorsofforeigndemandandpricesignalsfromkeytradingpartners,with
+particularfocusonGermany.
+First,weseasonallyadjustedalltimeseriesusingtheX-13ARIMA-SEATSmethod(Findleyetal.,
+1998; U.S. Census Bureau, 2023). Then we tested the stationarity of all series using the
+Augmented Dickey-Fuller (ADF) test (Dickey and Fuller, 1979) and the
+Kwiatkowski-Phillips-Schmidt-Shin (KPSS) test (Kwiatkowski et al., 1992). Based on the testing
+results, and in line with usual practice, each series is transformed into one of the following forms:
+(i) no transformation in case that predictor is already stationary, (ii) log-difference (∆ln(X
+t
+)), or
+(iii)simpledifference(∆X
+t
+).
+Wealsomadeseveraladditionaladjustmentstoourdata. First,thefuelpricepredictor(seePredictor
+64 in Table A6) was constructed from four highly correlated time series for various fuel types,
+obtained from the Czech Statistical Office (CZSO, 2025). It includes Petrol 95 Natural (CZK/l),
+Petrol 98 Super plus (CZK/l), Diesel (CZK/l), and Liquefied Petroleum Gas (LPG) (CZK/l). We
+standardisedthetimeseries,appliedprincipalcomponentanalysis(Jolliffe,2002),andretainedthe
+firstcomponent.3
+Second, missing initial observations for selected predictors—most notably the Rushin Index
+(Predictor14)—areimputedusingthefactor-basedprocedureofChenandLabonne(2023).
+Third, incorporating Refinitiv’s commodity futures, namely natural gas and Brent crude oil (see
+Predictor 65 and Predictor 66 in Table A6), requires a specific time shift to maintain predictive
+coherence. A futures contract (F ) observed at time t for delivery in twelve months serves as
+t,t+12
+the market’s expectation for the price P . Consequently, to use this predictor in a predictive
+t+12
+model, the series is shifted forward by 12 periods in the regression sample. This ensures that the
+future market expectation observed at time t serves as the appropriate explanatory predictor for
+inflationattimet+12.
+Fourth, predictors capturing labour cost dynamics—specifically the LUCI Total Index (Predictor
+15), its subcomponent LUCI Wages and Labour Costs (Predictor 16), and Nominal Unit Labour
+Costs (Predictor 17)—are not available at a monthly frequency for the Czech Republic. We
+therefore apply the temporal disaggregation method of Chow and Lin (1971) to interpolate
+quarterlyobservationsintomonthlyseries.
+4.2PredictedVariable
+Unlike Lenza et al. (2025), who focused on annualised h-period inflation, our main predicted
+variable is the classical month-to-month inflation rate (π ) for each individual month at horizons
+t+h
+h∈{3,6,9,12}months.
+TheindexusedforheadlineinflationistheCPI,constructedbytheCzechStatisticalOffice(CZSO).
+Moreover, we forecast the month-on-month change in its four subcomponents, which allows us to
+track the dynamics and nonlinearities within individual price categories. These subcomponents
+(coreinflation,foodinflation,administrativeprices,andfuelinflation)arecomputedandpublished
+3Thefirstcomponentexplainedover93%ofthetotalvariance.\n---PAGE 13---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 11
+by the Czech National Bank (CNB). Unlike the Harmonised Index of Consumer Prices (HICP)
+targeted by the European Central Bank (ECB), the CPI (and correspondingly core inflation) also
+includesimputedrent,reflectingthecostofowner-occupiedhousing. Themonth-on-monthinflation
+rate(πt )isdefinedas:
+(cid:18) (cid:19)
+CPI
+t
+πt = −1 ×100% (10)
+CPI
+t−1
+5. Benchmark Models
+Asafirstclassofbenchmarks,weemployastandardAutoregressiveprocess(AR)ofthirdorder,a
+RandomWalk,andanAutoregressiveIntegratedMovingAverage(ARIMA)process.
+TheARprocessoforder p,whichservesasourmainlinearreference,isformallydefinedas:
+p
+πt =c+∑φ
+i
+π
+t−i
++εt (11)
+i=1
+The Random Walk (RW) model, often serving as the fundamental persistence benchmark (where
+the best forecast is the last observed value), is also included. This model assumes that the inflation
+ratefollows:
+πt =π
+t−1
++εt (12)
+The ARIMA(p,d,q) model generalizes these processes by combining the autoregressive (φ),
+integrated (differencing, d), and moving average (θ) components. Using the backward shift
+operatorB,theARIMAmodelisformallydefinedas:
+φ(B)(1−B)d πt =c+θ(B)εt (13)
+where πt is the inflation rate, φ(B) and θ(B) are the autoregressive and moving average operators,
+and εt is the white noise error term. The ARIMA extension allows for modelling non-stationarity
+throughdifferencing,whiletheARandMAcomponentscaptureautocorrelationpatternsanderror
+termdependencies. Inourcase,the(3,1,3)specificationisapplied.
+Last but not least, as a key linear competitor, we use the Ensemble Linear Quantile Regression
+(LQR), following the methodology described by Lenza et al. (2025). LQR is a linear model that
+explicitlyestimatestheα-quantile(qˆ )byminimizingtheasymmetricallyweightedabsoluteerrors
+α
+(KoenkerandBassett,1978):
+ 
+min ∑ α|π
+i
+−X
+i
+′ β|+ ∑ (1−α)|π
+i
+−X
+i
+′ β| (14)
+β i:πi ≥X
+i
+′β i:πi <X
+i
+′β\n---PAGE 14---\n12 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+To mimic a linear QRF benchmark, the LQR ensemble aggregates forecasts from approximately
+500 individual quantile regression models. Each of these 500 LQR models is randomly fit using
+fourpredictorsplusthreelaggedterms.
+6. Results
+6.1WeightedApproachesEvaluation
+WetrainourmodelfromMay2002toDecember2010,thenforecastforagivenforecastinghorizon,
+move by one month, and repeat this process until our data sample is exhausted. By using this
+expanding-windowout-of-samplestrategy,weaimtomimicreal-timeforecasting.
+We report the results in Table 1. The TVW point forecasts consistently outperform the baseline
+mean and median4 across all forecast horizons, as measured by the Root Mean Squared Error
+(RMSE). The same pattern holds for each subcomponent of headline inflation, with the exception
+of administrative prices, which are, in general, very difficult to forecast from past (see Appendix
+TableA1).
+The findings indicate that relevant predictive information resides beyond the central tendency of
+theQRFdistributionandisnotfullycapturedbythemeanormedian. Thetime-varyingweighting
+scheme appears to exploit this information by dynamically reallocating weights across quantiles in
+response to evolving economic conditions. Among the alternative specifications, TVW3 performs
+best and is statistically superior to both TVW1 and TVW2 across horizons and components. We,
+therefore,retainTVW3asthebenchmarkspecificationfortheremainderoftheanalysis.
+Table1: RMSEComparison: TVWModelsvs. QRFDerivatives(HeadlineInflation)
+Horizon Median Mean TVW1 TVW2 TVW3
+3Months 0.731 0.713 0.694 0.701 0.669 ∗∗
+6Months 0.708 0.723 0.688 0.693 0.661 ∗
+9Months 0.748 0.737 0.732 0.738 0.712
+12Months 0.707 0.700 0.687 0.690 0.662 ∗
+Note: BoldfaceindicatesthebestmodelaccordingtothelowestRMSE.·,*,**,and***denotestatisticalsignificanceofthe
+improvementinRMSEatthe10%,5%,1%,and0.1%levels,respectively,basedontheDiebold–Marianotest.
+6.2ComparativeBenchmarkPerformance
+Our benchmark comparison shows a strong empirical performance of our model relative to
+conventional linear benchmarks. The TVW3 specification mostly outperforms all econometric
+benchmarksacrossallforecasthorizons(h=3,6,9and12months)forheadline(Table2),coreand
+food inflation (see Appendix Table A2), demonstrating that our dynamic, quantile-based approach
+effectively exploits nonlinear information and inflation asymmetry that traditional models fail to
+capture.5 For fuel inflation and administrative prices (see Appendix Table A2), our model also
+4Lenzaetal.(2025)employsthemedianasthepointforecastwithintheQRFframework.
+5LQR Ensemble shows a slightly smaller RMSE for a twelve-month ahead prediction of headline inflation.
+RandomWalkperformsexactlythesameforthe3-month-aheadpredictionofcoreinflation.\n---PAGE 15---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 13
+outperforms linear benchmarks across most horizons, with some exceptions where the benchmark
+modelsprovideforecastsofsimilarquality.
+For the QRF derivatives, the results show that the TVW3 specification consistently outperforms
+alternative variants, with statistically significant improvements at most horizons, indicating robust
+gainsfromtheproposedweightingscheme.
+Table2: RMSEComparison: TVW3vs. EconometricBenchmarks(HeadlineInflation)
+Horizon LQREnsemble RW AR ARIMA TVW3
+3Months 0.739 0.896 0.710 0.716 0.669
+6Months 0.748 0.715 0.740 0.736 0.661 ∗
+9Months 0.765 1.005 0.753 0.787 0.712 ·
+12Months 0.659 0.874 0.765 0.772 0.662
+Note: BoldfaceindicatesthebestmodelaccordingtothelowestRMSE.·,*,**,and***denotestatisticalsignificanceofthe
+improvementinRMSEatthe10%,5%,1%,and0.1%levels,respectively,basedontheDiebold–Marianotest.
+Overall, the results indicate that our TVW-QRF specification outperforms classical linear
+benchmarks across most horizons for all inflation subcomponents. This provides evidence of a
+nonlinear structure and shifting tail risk in Czech inflation dynamics, which our time-varying QRF
+specificationcanbettercapture.
+6.3DistributionCalibrationandEvaluation
+Let F(·) denote the forecast Cumulative Distribution Function (CDF). We assess our distribution
+t
+forecast calibration by testing whether the Probability Integral Transform (PIT)6 of the realised
+valuesofπt followsauniformdistributionU(0,1)(Dieboldetal.,1998). Forthistask,weadoptthe
+proceduredevelopedbyRossiandSekhposyan(2019),whichisbasedontheKolmogorov–Smirnov
+test and also provides a graphical representation of calibration results. The diagonal line in Figure
+1 represents perfect calibration, while the dashed edge lines indicate the 95% confidence interval;
+theredlinecorrespondstoourforecast.
+6ThisrepresentstheCDFcorrespondingtoF(·).
+t\n---PAGE 16---\n14 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+Figure1: CalibrationResultsforHeadlineInflation(LQRvsQRF)
+Note: ThesolidblacklinerepresentstheempiricalCDFofthePITvalues. Thedashedredlinesdenotethe95%confidence
+bandsfortheKolmogorov–Smirnovtest,followingRossiandSekhposyan(2019). Theleftcolumnrepresentstheresultsfor
+thebenchmarkmodelLQR,andtherightcolumnfortheQRF.
+For headline inflation, we do not reject the null hypothesis for either the QRF or LQR models,
+indicatingthattheforecastsfrombothmodelsarewellcalibratedacrossallhorizons(h=3,6,9,12).
+ThisisevidencedbytheempiricalCDFofthePITvalues(solidblackline)lyingprimarilywithinthe
+95%confidencebands(dashedredlines). Forindividualinflationsubcomponents,minordeviations
+emerge at longer horizons (see Appendix Figures A1, A2, A3, A4). However, these departures are
+limited in magnitude and do not materially alter the overall calibration performance. Overall, the
+resultssuggestthatQRFdistributionforecastsremainwell-behaved,particularlyatshorterhorizons.
+We assess the probabilistic performance across models using the Continuous Ranked Probability
+Score (CRPS). As a proper scoring rule (Gneiting and Raftery, 2007), it measures the distance
+between the forecast CDF and the realised inflation. Unlike point forecast metrics such as the
+RMSE,itevaluatestheentiredistribution,jointlycapturingsharpnessandcalibration. Lowervalues,
+therefore,indicatesuperiorforecastperformance.
+The CRPS results for headline inflation (Table 3) indicate that the QRF distribution forecast
+performs particularly well at the three- and nine-month horizons. At the six- and twelve-month
+horizons,theperformanceofQRFandtheLQRensembleisbroadlycomparable.
+We find a similar pattern across inflation subcomponents, although the relative performance varies
+(see Appendix Table A3). For core inflation, QRF delivers consistently lower CRPS values across
+three-,six-andnine-monthhorizons. Forfuelandfoodinflation,differencesbetweenthemodelsare
+modest and economically small, and for administrative prices, LQR achieves slightly lower CRPS\n---PAGE 17---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 15
+valuesacrossthehorizons.
+Table3: ContinuousRankedProbabilityScore(CRPS)Approximation(HeadlineInflation)
+Horizon LQR QRF
+3Months 0.298 0.284
+6Months 0.296 0.295
+9Months 0.316 0.308
+12Months 0.294 0.294
+Note:BoldfaceindicatesthebestmodelaccordingtothelowestCRPSapproximation.
+6.4ForecastDistributionandRealisedInflation
+The forecast distribution allows us to assess how inflation risks, as captured by the model, evolve
+around the point forecast. It indicates whether inflation is more likely to exceed or fall short of
+the projection. Figure 2 presents the out-of-sample distribution forecast, representing the risk, for
+the headline year-on-year (YoY) inflation at a six-month horizon (h = 6).7 The YoY forecast is
+constructedusingrealisedinflationatt−6asthebaseperiodandthepredictedcumulativeinflation
+over the subsequent six months. The blue area represents the 90% prediction interval constructed
+fromthe5thand95thconditionalquantiles. The5thquantilecapturesdownsideinflationrisk,while
+the95thquantilecapturesupsideinflationrisk. Theredlinedenotestherealisedinflation. Formost
+of the sample, the realised inflation rate lies within the interval, which indicates that the model
+capturestheprevailinguncertaintyreasonablywell.
+A clear exception emerges during the inflation surge of 2021–2023. In this period, realised
+inflation exceeds the upper tail. This episode reflects a sharp and unprecedented shift in inflation
+dynamics that most contemporary forecasting models failed to anticipate. Since the QRF model
+draws conclusions only from historical relationships, which were marked by low and stable
+inflation, it was not able to fully accommodate such extreme values in real time.8 Importantly,
+once observations from the high-inflation period enter the training sample, the model adapts. The
+updated distribution becomes wider and more responsive to large inflationary movements, which
+suggestsimprovedrobustnesstofutureshocks.9
+7We show in Table A4 that the TVW3 specification gives the best performance and also beats the benchmark
+models(TableA5).
+8Thishighlightsaknownlimitationoftree-basedmethods: theydonotextrapolatebeyondtherangeofobserved
+historicalpaths. Whilelinearmodelsarecapableofsomeextrapolation,theydidnotperformbetterbecauseofthe
+ineffectivereflectionofstate-dependentrelationshipsbetweentheexplainedvariableandpredictors.
+9Weconstructanin-sampleanalysistosupportourclaimthatthemodelisnowwellpreparedtoforecastperiods
+ofhighinflation(seeFigureA5).\n---PAGE 18---\n16 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+Figure2: ModelPerformance: HeadlineYoYInflation(h=6)
+Note:ThefigureillustratestherealisedYoYinflation(redline),ourpointforecastoftheTVW3specification(darkblueline),
+andthecorresponding90%predictioninterval(QRF5thand95thquantiles,lightblueshadedarea).
+Although inflation has declined from its peak after 2022 and moved closer to target, the balance of
+risks has not fully normalised. To assess how much renewed upward pressure may still be present,
+weexaminetherelationshipbetweenrealisedinflationandtheupsideinflationrisk.
+Figure 3 illustrates this evolution. Specifically, we compute the difference between realised year-
+on-year inflation and the corresponding 95th conditional quantile. We interpret this measure as an
+indicator of upside inflation pressure. Positive values indicate that realised inflation remains below
+the95thquantile,whilenegativevaluesimplythatrealisedinflationexceededit.
+Before 2022, the upside inflation pressure was small and relatively stable, reflecting that the risk
+of an inflation surge was limited. This changed at the end of 2021, when realised inflation briefly
+exceeded the 95th conditional quantile. During the period of elevated inflation between mid-2022
+and2024,themodelsignalledstrongupsideinflationpressure.
+Whileinflationhassincedeclinedfromitspeak,thebehaviourofupsideinflationpressuresuggests
+that the risk environment has not fully normalised. As shown in Figure 3, the average level (black
+dashedlines)ofupsidepressuresincemid-2024remainssomewhathigherthaninthepre-pandemic
+period. This suggests that risks remain tilted to the upside relative to earlier years. Even if point
+forecastshavemovedclosetotarget,policymakersshouldremaincautiousinreducingpolicyrates
+tooquickly,asresidualupsidepressurescouldre-igniteinflation.\n---PAGE 19---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 17
+Figure3: EvolutionofUpsideInflationPressure(h=6)
+Note: ThefigureillustratesthedifferencebetweenrealisedYoYinflationandthecorresponding95thquantile,interpretedas
+upside inflation pressure (red line). The dashed black line represents the average inflation pressure, split into two periods:
+beforethehigh-inflationepisode(2019–2021)andtheperiodofreturntotheinflationtarget(frommid-2024onwards).
+6.5DisaggregatedUpsideInflationRiskandHistoricalDecomposition
+We next examine the sources of upside inflation risk (the upper 95th quantile) to better interpret
+our results for policy making analysis. We proceed in two complementary steps. First, we
+disaggregate headline inflation into its main CPI components and examine their contribution to the
+upside inflation risk. This identifies which price categories account for higher inflation. Second,
+we apply a Shapley value decomposition to descriptively attribute upside inflation risk to the
+underlying predictors and to trace how their contributions shift between periods of relative price
+stabilityandepisodesofelevatedinflation.
+6.5.1DisaggregatedInflationRisk
+WebeginwiththedisaggregatedstructureoftheCPI.Specifically,wecomputetheupsideinflation
+risk for three key components: i) core inflation, ii) food inflation, and iii) fuel inflation—alongside
+headline inflation. To give the subcomponent forecasts an economic interpretation, we weight the
+forecastsbytheirrespectivesharesintheCPIbasket.
+Figure4showsthatduringtheinflationsurgeof2022–2023,fuelpricescontributedinsomeperiods
+most strongly to the 95th quantile forecasts. The dominant role reflects their exposure to global
+commoditymarkets,exchangeratemovements,andsupplydisruptions.
+Core inflation, together with food inflation, behaves differently. Its 95th quantile evolves more
+gradually and exhibits smaller short-term fluctuations. However, once elevated, upside risks tend
+to persist. By late 2023, fuel prices still account for a substantial portion of the remaining upside
+inflation risk, while core inflation contributes more steadily but with less magnitude. The results
+suggest that a large portion of the upside risk lies outside the influence of monetary policy. As a
+consequence,thereisalowerneedforatightermonetarypolicybecauseoftheupsiderisks.\n---PAGE 20---\n18 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+Figure4: 95thQuantileForecastValueComparisonAcrossInflationComponents
+Note: Thefiguredisplaysthepredicted95thquantileforYoYheadlineinflationanditsthreesubcomponentsovertheout-of-
+sampleperiod.
+6.5.2PredictorImportanceusingShapleyValues
+The forecasts presented above tell us how the risks evolve. The next question is what drives these
+riskswithinthemodels. Toanswerthis,wedecomposethepredictedquantilesusingShapleyvalues.
+This decomposition is descriptive, not causal. Shapley values attribute each forecast to the average
+marginal contribution of predictors within the trained QRF model, not to how inflation transmits
+throughtheeconomy.10 Shapleyvaluesdecompositionshould,therefore,serveasacomplementto
+structuralmodels,notitssubstitute.
+We focus primarily on the 95th conditional quantile, which represents the upside inflation risk,
+and complement it with results for the 5th quantile, representing the downside risk. Because the
+decompositionisapplieddirectlytotheconditionalquantile,itidentifiesdriversoftherisksandnot
+thedriversofthepointforecast.
+The 95th quantile decomposition (Figure 5) illustrates which groups of predictors contribute most
+to forecasting upside inflation risk. Each colour corresponds to a predictor group as defined in
+Table A6, and its share reflects the group’s relative predictive importance. We see evolving
+dynamics throughout the years. From 2012 to 2017, the upside risk was largely associated with
+real activity (light blue), pointing to domestic demand as the main source of the risk. Later, before
+the COVID pandemic, foreign influence (turquoise) gained prominence, suggesting an increased
+roleforexternalshocks.
+10Duetothelargenumberofvariablesandtheinterconnectednessofeconomicindicators, somepredictorsmay
+exhibitsimilartrendsandbesignificantlycorrelated.Whilethisdoesnotposeanyproblemforthepredictionitself,
+whichisnotaffectedbymulticollinearity,similarvariablesmightstealeachother’scontributiontotheforecastand
+thusaffecttheShapleyvalues’share. Groupingvariablesresolveswithin-groupcollinearitybutdoesnotaddress
+similaritybetweenvariablesacrossgroups.\n---PAGE 21---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 19
+During the COVID pandemic, the risk was spread out, and no group seemed to be its driver. This
+changeddramaticallyduringthepeakinflationperiod,wheninflationexpectations(orange)became
+thedominantcontributortotheuppertail. Inthisphase,themodelincreasinglylinkedupsideriskto
+potentialshiftsinexpectations,whichmightbeinterpretedasthepossibilityofunanchoredinflation
+expectations. However, commodity and energy variables (light red) play a comparatively modest
+role in the decomposition, despite the result from above showing the prominent role of fuel prices
+and their widely recognised macroeconomic importance during this period. This likely reflects
+the fact that inflation expectations indicators embed information from multiple channels, including
+commodityprices. Anycausalityremarksshouldthereforebetakenwithagrainofsalt.
+Although the importance of expectations has decreased since 2023, it remains above its pre-2022
+levels. The latest forecasts suggest that real activity (light blue) and producer prices (PPI, light
+green) now account for a larger share of the upside risk. This shift suggests that demand-side
+conditionsandcostpressurescurrentlyplayalargerroleinexplainingtheupsiderisks.
+Figure5: PredictorContributionstothe95thQuantileForecastforHeadlineInflation(h=6)
+Note:Thefigureshowstheimportanceofdifferenteconomicgroupsinthepredictionofthe95thquantilebasedontheshares
+ofabsoluteShapleyvalues.
+Turning to the downside inflation risk, Figure 6 reports the Shapley decomposition of the 5th
+conditional quantile. The importance dynamics across predictor groups is much more stable over
+time. Downside risks are predominantly shaped by PPI (light green), and real activity (light blue)
+predictors.
+Duringthe2022–2023inflationsurge,inflationpersistencebecamerelevantforashortperiod. Inan
+environmentcharacterisedbyadynamicsnotpreviouslyobservedinthetrainingsample,themodel
+placed greater weight on persistence. This reflects an adaptive learning mechanism rather than a
+structural claim about transmission. However, after the inflation returned to the target, the largest
+importanceisagainassociatedwithPPI.\n---PAGE 22---\n20 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+Figure6: PredictorContributionstothe5thQuantileForecastforHeadlineInflation(h=6)
+Note: Thefigureshowstheimportanceofdifferenteconomicgroupsinthepredictionofthe5thquantilebasedontheshares
+ofabsoluteShapleyvalues.
+7. Conclusion
+Thispaperaddressesapracticalmonetarypolicyquestion: howtoforecastinflationwheneconomic
+relationshipsarenonlinearandstate-dependent? Insuchenvironments,linearmodelsbuiltonstable
+historical relationships struggle to capture shifts in dynamics. At the same time, policymakers do
+not act on point forecasts alone. They assess the risks surrounding the projection. Sound policy
+requires understanding not only the most likely path of inflation, but also reflects whether risks are
+tiltedupwardordownward.
+WerespondtothisneedbydevelopingaquantileregressionforestframeworktailoredtotheCzech
+economy and improved it with a time-varying weighted quantile combination. Our methodology
+exploits the full conditional distribution of inflation. By reallocating weights across quantiles over
+time,themodeladaptstochangesintheriskenvironmentandincorporatestailinformationdirectly
+into the construction of the point forecast. Empirically, the dynamically weighted specification
+outperforms both the standard QRF mean and median, as well as conventional linear benchmarks,
+acrossforecasthorizons.
+Beyond point forecast accuracy, we quantify the risks surrounding the projection. We construct an
+indicatorofupsideinflationpressurebasedonthedistancebetweenrealisedinflationandtheupper
+conditional quantile. We find that, even after inflation declined from its peak, the average level of
+upsideinflationpressureremainsslightlyhigherthaninthepre-surgeperiod.
+We further break headline inflation into its main subcomponents to identify the source of these
+pressures. The results reveal that they have recently been largely driven by fuel prices. This
+componentreflectsglobalcommoditydevelopments,wherethedirectinfluenceofmonetarypolicy
+is limited. To enhance interpretability, we applied a Shapley-value decomposition to the forecasts.
+The contribution of predictors varies across states of the economy. In the most recent period,\n---PAGE 23---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 21
+domestic real activity indicators, producer prices, and inflation expectations have played a
+prominentroleinshapingthepredictionofupsideinflationrisk.
+The framework has clear limitations. It did not fully anticipate the magnitude of the 2021 inflation
+surge. This reflects a structural property of tree-based models: they do not extrapolate beyond
+patterns present in the training sample. Given a historical record dominated by low and stable
+inflation, extreme values were largely absent from the training data. However, once high-inflation
+observations entered the training set, the model adapted and is now equipped to handle potential
+inflationsurgesinfuture.
+The contribution of this paper lies in organising information about inflation and the surrounding
+risks. As inflation returns toward target, understanding the sources of the remaining risks becomes
+increasingly important. A tool that shows whether risks stem from globally driven signals or from
+more persistent domestic pressures can help inform this assessment. The TVW-QRF model does
+not prescribe policy choices nor replace policy judgement, but offers a structured way to read
+developments in inflation and provides an interpretation of how the balance of risks evolves over
+time.\n---PAGE 24---\n22 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+References
+ADAMS, P. A., T. ADRIAN, N. BOYARCHENKO, AND D. GIANNONE (2021): “Forecasting
+MacroeconomicRisks.” InternationalJournalofForecasting,37(3):1173–1191.
+ADRIAN, T., N. BOYARCHENKO, AND D. GIANNONE (2019): “Vulnerable Growth.” American
+EconomicReview,109(4):1263–1289.
+AMBURGEY, A. ANDM. W. MCCRACKEN (2024): “Growth-at-RiskIsInvestment-at-Risk.” FRB
+St.LouisWorkingPaperNo.2023-020,FederalReserveBankofSt.Louis.
+ATKESON, A. AND L. E. OHANIAN (2001): “Are Phillips Curves Useful for Forecasting
+Inflation?” FederalReserveBankofMinneapolisQuarterlyReview,25(1):2–11.
+AUER, R., C. E. V. BORIO, AND A. J. FILARDO (2017): “The Globalisation of Inflation:
+The Growing Importance of Global Value Chains.” BIS Working Paper No. 602, Bank
+forInternationalSettlements.
+BABB, N. R. AND A. K. DETMEISTER (2017): “Nonlinearities in the Phillips Curve for the
+United States: Evidence Using Metropolitan Data.” Finance and Economics Discussion
+Series,2017-070. BoardofGovernorsoftheFederalReserveSystem.
+BENECKÁ,S. (2025): “ForecastingDisaggregatedProducerPrices: AFusionofMachineLearning
+andEconometricTechniques.” CNBWorkingPaperNo.2/2025,CzechNationalBank.
+BENIGNO, P. AND G. B. EGGERTSSON (2023): “It’s Baaack: The Surge in Inflation in the
+2020sandtheReturnoftheNon-LinearPhillipsCurve.” NBERWorkingPaperNo.31197,
+NationalBureauofEconomicResearch.
+BENIGNO, P. AND L. A. RICCI (2011): “The Inflation-Output Trade-Off with Downward Wage
+Rigidities.” AmericanEconomicReview,101(4):1436–1466.
+BOYARCHENKO, N., R. K. CRUMP, L. ELIAS, AND I. L. GAFFNEY (2023): “WhatIs“Outlook-
+at-Risk?”.” LibertyStreetEconomics20230215,FederalReserveBankofNewYork.
+BREIMAN, L. (2001): “RandomForests.” MachineLearning,45(1):5–32.
+BUCKMANN, M. AND A. JOSEPH (2022): “AnInterpretableMachineLearningWorkflowwithan
+ApplicationtoEconomicForecasting.” BoEWorkingPaperNo.984,BankofEngland.
+CAVALLO, A., F. LIPPI, AND K. MIYAHARA (2024): “Large Shocks Travel Fast.” American
+EconomicReview: Insights,6(4):558–574.
+CHAKRABORTY, C.ANDA.JOSEPH (2017): “MachineLearningatCentralBanks.” BoEWorking
+PaperNo.674,BankofEngland.
+CHAVLEISHVILI, S. AND M. KREMER (2023): “Measuring Systemic Financial Stress and Its
+RisksforGrowth.” ECBWorkingPaperSeriesNo.2842,EuropeanCentralBank
+CHAVLEISHVILI, S. AND S. MANGANELLI (2024): “ForecastingandStressTestingwithQuantile
+VectorAutoregression.” JournalofAppliedEconometrics,39(1):66–85.
+CHEN, B. AND P. LABONNE (2023): “FBI: Factor-Based Imputation for Missing Data.”
+Software/Code. Rimplementation.Availableat: (https://github.com/cykbennie/fbi).\n---PAGE 25---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 23
+CHEN, J. C., A. DUNN, K. HOOD, A. DRIESSEN, AND A. BATCH (2019): Off to the Races: A
+ComparisonofMachineLearningandAlternativeDataforPredictingEconomicIndicators.
+In Big Data for Twenty-First-Century Economic Statistics, pages 373–402. University of
+ChicagoPress.
+CHOW, G. C. AND A.-L. LIN (1971): “Best Linear Unbiased Interpolation, Distribution, and
+Extrapolation of Time Series by Related Series.” The Review of Economics and Statistics,
+53(4):372–375.
+CLARK, T. E., F. HUBER, G. KOOP, AND M. MARCELLINO (2024): “ForecastingU.S.Inflation
+Using Bayesian Nonparametric Models.” The Annals of Applied Statistics, Institute of
+MathematicalStatistics,18(2):1421–1444.
+COSTAIN, J., A. NAKOV, AND B. PETIT (2022): “Flattening of the Phillips Curve with State-
+DependentPricesandWages.” TheEconomicJournal,132(642):546–581.
+CZSO (2025): “Average Consumer Fuel Prices in the Czech Republic.” Inflation, Consumer
+Prices;Prices,Inflation;Statistics;Publicdatabase,CzechStatisticalOffice.
+DAS, P. K. AND P. K. DAS (2024): “Forecasting and Analyzing Predictors of Inflation Rate:
+UsingMachineLearningApproach.” JournalofQuantitativeEconomics,22(2):493–517.
+DEL NEGRO, M., M. LENZA, G. E. PRIMICERI, AND A. TAMBALOTTI (2020): “What’sUpwith
+thePhillipsCurve?” NBERWorkingPaper27003,NationalBureauofEconomicResearch.
+DICKEY, D. A. AND W. A. FULLER (1979): “Distribution of the Estimators for Autoregressive
+Time Series with a Unit Root.” Journal of the American Statistical Association, 74(366a):
+427–431.
+DIEBOLD, F. X., T. A. GUNTHER, AND A. S. TAY (1998): “Evaluating Density Forecasts with
+Applications to Financial Risk Management.” International Economic Review, 39(4):863–
+883.
+FAUST, J. AND J. H. WRIGHT (2013): Forecasting Inflation. In Handbook of Economic
+Forecasting, volume 2 of, pages 2–56. Elsevier, eds. by Graham Elliott, and Allan
+Timmermann.
+FIGUERES, J. M. AND M. JAROCIN´SKI (2020): “VulnerableGrowthintheEuroArea: Measuring
+theFinancialConditions.” EconomicsLetters,191.
+FINDLEY, D. F., B. C. MONSELL, W. R. BELL, M. C. OTTO, AND B. C. CHEN (1998): “New
+Capabilities and Methods of the X-12-ARIMA Seasonal Adjustment Program.” Journal of
+Business&EconomicStatistics,16(2):127–152.
+FIRAT, M. (2024): “The China Shock, Market Concentration and the U.S. Phillips Curve.” IMF
+WorkingPaperNo.4765603,InternationalMonetaryFund.
+FORBES, K. J., J. GAGNON, AND C. G. COLLINS (2021): “Low Inflation Bends the Phillips
+Curve around the World: Extended Results.” PIIE Working Paper No. 21-15, Peterson
+InstituteforInternationalEconomics.
+GALÍ, J. AND M. GERTLER (1999): “Inflation Dynamics: A Structural Econometric Analysis.”
+JournalofMonetaryEconomics,44(2):195–222.
+GARCIA, M. G., M. C. MEDEIROS, AND G. F. VASCONCELOS (2017): “Real-time Inflation
+Forecasting with High-dimensional Models: The Case of Brazil.” International Journal of
+Forecasting,33(3):679–693.\n---PAGE 26---\n24 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+GASTWIRTH, J. L. (1966): “On Robust Procedures.” Journal of the American Statistical
+Association,61:929–948.
+GAWTHORPE, K. (2021): “RandomForestasaModelforCzechForecasting.” PragueEconomic
+Papers,30(3):336–357.
+GILCHRIST, S. AND E. ZAKRAJSEK (2019): “Trade Exposure and the Evolution of Inflation
+Dynamics.” Finance and Economics Discussion Series 2019-007, Board of Governors of
+theFederalReserveSystem.
+GNEITING, T. AND A. E. RAFTERY (2007): “Strictly Proper Scoring Rules, Prediction, and
+Estimation.” JournaloftheAmericanStatisticalAssociation,102(477):359–378.
+GOULET COULOMBE, P., M. LEROUX, D. STEVANOVIC, AND S. SURPRENANT (2022):
+“How is Machine Learning Useful for Macroeconomic Forecasting?” Journal of Applied
+Econometrics,37(5):920–964.
+HARDING, M., J.LINDÉ, ANDM.TRABANDT (2022): “ResolvingtheMissingDeflationPuzzle.”
+JournalofMonetaryEconomics,126:15–34.
+INOUE, A., B. ROSSI, AND Y. WANG (2024): “Has the Phillips Curve Flattened?” French Stata
+Users’GroupMeetings202422,StataUsersGroup.
+JOLLIFFE, I. T. (2002): PrincipalComponentAnalysis. Springer,2ndedition.
+JOSEPH, A., G. POTJAGAILO, C. CHAKRABORTY, AND G. KAPETANIOS (2024): “Forecasting
+UKinflationbottomup.” InternationalJournalofForecasting,40(4):1521–1538.
+JUDGE, G. G., R. C. HILL, W. E. GRIFFITHS, H. LÜTKEPOHL, AND T. C. LEE (1988):
+“IntroductiontotheTheoryandPracticeofEconometrics.” JohnWiley&Sons.
+KILEY, M. T. (2022): “Unemployment Risk.” Journal of Money, Credit and Banking, 54(5):
+1407–1424.
+KOENKER, R. AND G. BASSETT (1978): “Regression Quantiles.” Econometrica: Journal of the
+EconometricSociety,46(1):33–50.
+KOHLSCHEEN, E. (2023): “What Does Machine Learning Say about the Drivers of Inflation?”
+BISWorkingPaperNo.980,BankforInternationalSettlements.
+KOROBILIS,D.,B.LANDAU,A.MUSSO,ANDA.PHELLA (2021): “TheTime-VaryingEvolution
+ofInflationRisks.” ECBWorkingPaperNo.2600,EuropeanCentralBank.
+KWIATKOWSKI, D., P. C. PHILLIPS, P. SCHMIDT, AND Y. SHIN (1992): “Testing the Null
+Hypothesis of Stationarity against the Alternative of a Unit Root: How Sure Are We that
+EconomicTimeSeriesHaveaUnitRoot?” JournalofEconometrics,54(1-3):159–178.
+LEAL, F., C. MOLINA, AND E. ZILBERMAN (2020): “Inflation Forecast in Chile with Machine
+LearningMethods.” BCChWorkingPaperNo.860,BancoCentraldeChile.
+LENZA, M., I. MOUTACHAKER, AND J. PAREDES (2025): “Density Forecasts of Inflation: A
+QuantileRegressionForestApproach.” EuropeanEconomicReview,178(C).
+LI, Y.-S., P.-F. PAI, AND Y.-L. LIN (2023): “Forecasting Inflation Rates by Extreme Gradient
+Boosting with the Genetic Algorithm.” Journal of Ambient Intelligence and Humanized
+Computing,14(3):2211–2220.\n---PAGE 27---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 25
+LIU, Y. (2024): “MendingtheCrystalBall: EnhancedInflationForecastswithMachineLearning.”
+IMFWorkingPaperNo.24/206,InternationalMonetaryFund.
+LUNDBERG, S. M., G. ERION, H. CHEN, A. DEGRAVE, J. M. PRUTKIN, B. NAIR, R. KATZ,
+J. HIMMELFARB, N. BANSAL, AND S.-I. LEE (2020): “From Local Explanations to
+Global Understanding with Explainable AI for Trees.” Nature Machine Intelligence, 2(1):
+56–67.
+LÓPEZ-SALIDO, D. AND F. LORIA (2024): “InflationatRisk.” JournalofMonetaryEconomics,
+145(Supplement).
+MASINI, R. P., M. C. MEDEIROS, AND E. F. MENDES (2023): “MachineLearningAdvancesfor
+TimeSeriesForecasting.” JournalofEconomicSurveys,37(1):76–111.
+MEDEIROS, M. C., G. F. R. VASCONCELOS, VEIGA, AND E. ZILBERMAN (2021): “Forecasting
+InflationinaData-RichEnvironment: TheBenefitsofMachineLearningMethods.”Journal
+ofBusiness&EconomicStatistics,39(1):98–119.
+MEINSHAUSEN, N. (2006): “Quantile Regression Forests.” Journal of Machine Learning
+Research,7(6):983–999.
+MELIGKOTSIDOU, L., E. PANOPOULOU, I. D. VRONTOS, AND S. D. VRONTOS (2014): “A
+QuantileRegressionApproachtoEquityPremiumPrediction.” JournalofForecasting, 33:
+558–576.
+MIRZA,N.,S.K.A.RIZVI,B.NAQVI,ANDM.UMAR (2024): “InflationPredictioninEmerging
+Economies: Machine Learning and FX Reserves Integration for Enhanced Forecasting.”
+InternationalReviewofFinancialAnalysis,94(2024).
+PAVLOVA, A. (2022): “Non-linearitybetweenPriceInflationandLaborCosts: TheCaseofCentral
+European Countries.” IES Working Paper No. 25/2022, Insitute of Economic Studies,
+FacultyofSocialSciences,CharlesUniversity.
+PHILLIPS,A.W. (1958): “TheRelationbetweenUnemploymentandtheRateofChangeofMoney
+WageRatesintheUnitedKingdom,1861-1957.” Economica,25(100):283–299.
+ROSSI, B. AND T. SEKHPOSYAN (2019): “Alternative Tests for Correct Specification of
+ConditionalPredictiveDensities.” JournalofEconometrics,208(2):638–657.
+RUSSELL, S. J. AND P. NORVIG (2022): ArtificialIntelligence: AModernApproachPrenticeHall
+SeriesinArtificialIntelligence. Pearson,Boston,Fourthedition.
+SCHNORRENBERGER, R. AND A. SCHMIDT (2024): “Harnessing Machine Learning for Real-
+TimeInflationNowcasting.” DNBWorkingPaper806,DeNederlandscheBank.
+SHAPLEY, L. (1953): A Value for n-Person Games. In Contributions to the Theory of Games,
+volume2of,pages307–317. PrincetonUniversityPress.
+SMITH, S. C., A. TIMMERMANN, AND J. H. WRIGHT (2025): “Breaks in the Phillips Curve:
+EvidenceFromPanelData.” JournalofAppliedEconometrics,40(2):131–148.
+STOCK, J.H.ANDM.W.WATSON (2010): “ModelingInflationAftertheCrisis.” NBERWorking
+PaperNo.16488,NationalBureauofEconomicResearch.
+STOCK,J.H.ANDM.W.WATSON (2007): “WhyHasU.S.InflationBecomeHardertoForecast?”
+JournalofMoney,CreditandBanking,39:3–33.\n---PAGE 28---\n26 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+TUKEY, J. W. (1977): “ExploratoryDataAnalysis.” Addison-Wesley.
+U.S. CENSUS BUREAU (2023): “X-13ARIMA-SEATSSeasonalAdjustmentProgram.” Website.
+Availableat: (https://www.census.gov/srd/x13as/).
+VAN DE WINKEL, E. AND C. VEDDER (2024): “Is Machine learning Beneficial for
+Macroeconomic Forecasting with Limited Observations? Evidence from the Netherlands.”
+CPBDiscussionPaper456,CPBNetherlandsBureauforEconomicPolicyAnalysis.
+VOCHOZKA, M., T. KRULICKY, AND L. NOVOTNA (2021): “Assessing Inflation in CR Using
+ArtificialIntelligence.” InSHSWebofConferences,volume129,03034.EDPSciences.
+ŠTRUMBELJ, E. AND I. KONONENKO (2014): “Explaining Prediction Models and Individual
+Predictions with Feature Contributions.” Knowledge and Information Systems, 41(3):647–
+665.\n---PAGE 29---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 27
+Appendix A: Supplementary Materials
+TableA1: RMSEComparisonAcrossInflationComponentsandForecastHorizons(h)
+InflationComponent Horizon Median Mean TVW1 TVW2 TVW3
+3Months 0.413 0.413 0.397 0.399 0.378∗∗
+6Months 0.355 0.349 0.340 0.346 0.319∗
+Coreinflation
+9Months 0.479 0.484 0.458 0.465 0.431∗
+12Months 0.378 0.376 0.357 0.365 0.333∗
+3Months 3.228 3.305 3.129 3.177 3.046∗∗∗
+6Months 3.501 3.692 3.453 3.464 3.355∗∗∗
+Fuelinflation
+9Months 3.388 3.503 3.346 3.349 3.217∗∗∗
+12Months 3.460 3.480 3.354 3.385 3.219∗∗∗
+3Months 0.936 0.933 0.900 0.915 0.872∗
+6Months 0.977 0.979 0.950 0.959 0.909∗∗∗
+Foodinflation
+9Months 0.984 0.988 0.959 0.968 0.923∗∗
+12Months 0.922 0.915 0.878 0.896 0.838∗∗
+3Months 3.151 3.539 3.321 3.326 3.218
+6Months 3.206 3.394 3.217 3.215 3.142
+Administrativeprices
+9Months 3.260 3.314 3.236 3.256 3.190
+12Months 3.201 3.207 3.204 3.195 3.152
+Note: BoldfaceindicatesthebestmodelaccordingtothelowestRMSE.·,*,**,and***denotestatisticalsignificanceofthe
+improvementinRMSEatthe10%,5%,1%,and0.1%levels,respectively,basedontheDiebold–Marianotest.\n---PAGE 30---\n28 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+TableA2: RMSEComparison: TVW3vs. EconometricBenchmarks
+InflationComponent Horizon LQREnsemble RW AR ARIMA TVW3
+3Months 0.454 0.378 0.436 0.423 0.378
+6Months 0.380 0.370 0.482 0.470 0.319
+Coreinflation
+9Months 0.495 0.506 0.495 0.488 0.431∗∗∗
+12Months 0.368 0.469 0.503 0.499 0.333
+3Months 3.292 4.714 3.290 3.220 3.046
+6Months 3.363 4.635 3.308 3.348 3.355
+Fuelinflation
+9Months 3.439 4.893 3.357 3.395 3.217·
+12Months 3.413 4.852 3.368 3.406 3.219·
+3Months 0.972 1.453 0.974 1.043 0.872·
+6Months 0.972 1.033 0.974 1.125 0.909∗
+Foodinflation
+9Months 0.989 1.466 0.972 1.060 0.923∗
+12Months 0.899 1.023 0.976 0.976 0.838∗∗∗
+3Months 3.196 4.494 3.340 3.204 3.218
+6Months 3.226 3.499 3.202 3.221 3.142
+Administrativeprices
+9Months 3.256 4.658 3.260 3.355 3.190
+12Months 3.118 4.472 3.318 3.398 3.152
+Note: BoldfaceindicatesthebestmodelaccordingtothelowestRMSE.·,*,**,and***denotestatisticalsignificanceofthe
+improvementinRMSEatthe10%,5%,1%,and0.1%levels,respectively,basedontheDiebold–Marianotest.\n---PAGE 31---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 29
+TableA3: ContinuousRankedProbabilityScore(CRPS)ApproximationAcrossInflation
+ComponentsandForecastHorizons(h)
+InflationComponent Horizon LQR QRF
+3Months 0.236 0.224
+6Months 0.197 0.191
+Coreinflation
+9Months 0.264 0.256
+12Months 0.177 0.196
+3Months 1.618 1.613
+6Months 1.697 1.728
+Fuelinflation
+9Months 1.726 1.694
+12Months 1.727 1.727
+3Months 0.518 0.508
+6Months 0.522 0.527
+Foodinflation
+9Months 0.532 0.526
+12Months 0.494 0.497
+3Months 0.759 0.787
+6Months 0.784 0.819
+Administrativeprices
+9Months 0.782 0.795
+12Months 0.796 0.807
+Note:BoldfaceindicatesthebestmodelaccordingtothelowestCRPSapproximation.
+TableA4: RMSEforYoYTransformation: QRFandTVWModels
+Horizon QRF(Median) QRF(Mean) TVW1 TVW2 TVW3
+6Months 2.304 2.224 2.089 2.173 1.973
+Note:ThetablereportsRMSEforYoYheadlineinflationforecastsbasedonQRFandTVWspecifications.YoYinflationrates
+areconstructedusinganout-of-sampleforecastofsemi-annualinflationathorizont+6combinedwithrealisedinflationover
+theprecedingsixmonths(t−6). Theresulting12-monthinflationpathisrecalculatedintoanindexform,fromwhichYoY
+inflationratesarecomputed.BoldfaceindicatesthebestmodelaccordingtothelowestRMSE.
+TableA5: RMSEforYoYTransformation: EconometricBenchmarks
+Horizon LQR RW AR(3) ARIMA TVW3
+6Months 2.567 2.653 2.449 2.944 1.973
+Note: The table reports RMSE for YoY headline inflation forecasts from standard econometric benchmark models and the
+best-performing QRF-based specification (TVW3). YoY inflation rates are constructed using an out-of-sample forecast of
+semi-annualinflationathorizont+6combinedwithrealisedinflationovertheprecedingsixmonths(t−6). Theresulting
+12-monthinflationpathisrecalculatedintoanindexform,fromwhichYoYinflationratesarecomputed. Boldfaceindicates
+thebestmodelaccordingtothelowestRMSE.\n---PAGE 32---\n30 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+FigureA1: CalibrationResultsforFoodInflation(LQRvsQRF)
+Note: ThesolidblacklinerepresentstheempiricalCDFofthePITvalues. Thedashedredlinesdenotethe95%confidence
+bandsfortheKolmogorov–Smirnovtest,followingRossiandSekhposyan(2019). Theleftcolumnrepresentstheresultsfor
+thebenchmarkmodelLQR,andtherightcolumnfortheQRF.\n---PAGE 33---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 31
+FigureA2: CalibrationResultsforFuelInflation(LQRvsQRF)
+Note: ThesolidblacklinerepresentstheempiricalCDFofthePITvalues. Thedashedredlinesdenotethe95%confidence
+bandsfortheKolmogorov–Smirnovtest,followingRossiandSekhposyan(2019). Theleftcolumnrepresentstheresultsfor
+thebenchmarkmodelLQR,andtherightcolumnfortheQRF.\n---PAGE 34---\n32 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+FigureA3: CalibrationResultsforAdministrativeprices(LQRvsQRF)
+Note: ThesolidblacklinerepresentstheempiricalCDFofthePITvalues. Thedashedredlinesdenotethe95%confidence
+bandsfortheKolmogorov–Smirnovtest,followingRossiandSekhposyan(2019). Theleftcolumnrepresentstheresultsfor
+thebenchmarkmodelLQR,andtherightcolumnfortheQRF.\n---PAGE 35---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 33
+FigureA4: CalibrationResultsforCoreInflation(LQRvsQRF)
+Note: ThesolidblacklinerepresentstheempiricalCDFofthePITvalues. Thedashedredlinesdenotethe95%confidence
+bandsfortheKolmogorov–Smirnovtest,followingRossiandSekhposyan(2019). Theleftcolumnrepresentstheresultsfor
+thebenchmarkmodelLQR,andtherightcolumnfortheQRF.\n---PAGE 36---\n34 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+FigureA5: In-SampleAnalysisofSemi-AnnualForecast(h=6)
+Note:ThefigureillustratestherealisedYoYinflation(redline),ourpointforecastoftheTVW3specification(darkblueline),
+andthecorresponding90%predictioninterval(QRF5thand95thquantiles,lightblueshadedarea).
+TableA6: Predictors(p=72)UsedintheQRFModel
+No. Category Transf. Description(Source)
+G1: RealActivityCzechRepublic
+1. G1: RealActivityCZ 0 EC business and consumer surveys - Production
+developmentobservedoverthepast3months
+2. G1: RealActivityCZ 0 EC business and consumer surveys - Production
+expectationsoverthenext3months
+3. G1: RealActivityCZ 3 EC business and consumer surveys - Business
+situationdevelopmentoverthepast3months
+4. G1: RealActivityCZ 3 EC business and consumer surveys - Evolution of
+demandoverthepast3months
+5. G1: RealActivityCZ 3 ECbusinessandconsumersurveys-Businessactivity
+(sales)developmentoverthepast3months
+6. G1: RealActivityCZ 3 ECbusinessandconsumersurveys-Buildingactivity
+developmentoverthepast3months
+7. G1: RealActivityCZ 3 ECbusinessandconsumersurveys-Factorslimiting
+buildingactivity: shortageoflabour
+8. G1: RealActivityCZ 3 ECbusinessandconsumersurveys-Factorslimiting
+buildingactivity: shortageofmaterial/equipment
+9. G1: RealActivityCZ 3 ECbusinessandconsumersurveys-Factorslimiting
+buildingactivity: financialconstraints\n---PAGE 37---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 35
+TableA6(Continuation)
+No. Category Transf. Description(Source)
+10. G1: RealActivityCZ 3 EC business and consumer surveys - Financial
+situationoverthenext13months
+11. G1: RealActivityCZ 0 Unemployment
+12. G1: RealActivityCZ 0 Indexofindustrialproduction
+13. G1: RealActivityCZ 0 Buildingpermits-CZSO11
+14. G1: RealActivityCZ 0 RushinIndex12
+15. G1: RealActivityCZ 0 LUCI(LabourUtilisationCompositeIndex): Total13
+16. G1: RealActivityCZ 0 LUCI (Labour Utilisation Composite Index): Wages
+andLabourcosts
+17. G1: RealActivityCZ 0 Unitlaborcosts: Nominalunitlaborcosts
+G2: Foreigninfluence
+18. G2: Foreigninfluence 0 EC business and consumer surveys - Industrial
+confidenceindicator(DE)
+19. G2: Foreigninfluence 3 EC business and consumer surveys - Services
+confidenceindicator(DE)
+20. G2: Foreigninfluence 3 EC business and consumer surveys - Retail
+confidenceindicator(DE)
+21. G2: Foreigninfluence 3 EC business and consumer surveys - Construction
+confidenceindicator(DE)
+22. G2: Foreigninfluence 2 E C business and consumer surveys - Retail
+confidenceindicator(PL)
+23. G2: Foreigninfluence 2 Harmonisedindexofconsumerprices(DE)
+24. G2: Foreigninfluence 0 Unemployment(DE)
+25. G2: Foreigninfluence 2 External economic relations: Balance of trade
+(FOB/FOB)
+26. G2: Foreigninfluence 2 Importprices
+27. G2: Foreigninfluence 0 Inflation expectations: Domestic inflation
+expectationsinEurozone-balanceofanswers
+28. G2: Foreigninfluence 0 Inflation expectations: Perceived inflation in
+Eurozone-balanceofanswers
+G3: Confidence/SentimentCzechRepublic
+29. G3: Confidence/SentimentCZ 3 EC business and consumer surveys - Industrial
+confidenceindicator
+30. G3: Confidence/SentimentCZ 3 EC business and consumer surveys - Expectation of
+thedemandoverthenext3months
+11Thetimeserieswastransformedfromthecumulativeformintothenumberofbuildingpermitseachmonth.
+12Rushin Index is index of economic activity for Czech Republic constructed by CNB. It captures the common
+dynamics of four alternative high-frequency indicators and six standard macroeconomic monthly indicators of
+activity.
+13LUCIisanindexcompiledbytheCNBthataggregatesinformationfromtwentylabormarketindicatorsusing
+theprincipalcomponentanalysismethod.\n---PAGE 38---\n36 FilipBlaha,JanBotka,JosefŠvéda,andAlešMichl
+TableA6(Continuation)
+No. Category Transf. Description(Source)
+31. G3: Confidence/SentimentCZ 3 EC business and consumer surveys - Expectation of
+theemploymentoverthenext3months
+32. G3: Confidence/SentimentCZ 0 EC business and consumer surveys - Services
+confidenceindicator
+33. G3: Confidence/SentimentCZ 3 ECbusinessandconsumersurveys-Expectationsof
+the number of orders placed with suppliers over the
+next3months
+34. G3: Confidence/SentimentCZ 3 ECbusinessandconsumersurveys-Businessactivity
+expectationsoverthenext3months
+35. G3: Confidence/SentimentCZ 3 EC business and consumer surveys - Employment
+expectationsoverthenext3months
+36. G3: Confidence/SentimentCZ 3 EC business and consumer surveys - Retail
+confidenceindicator
+37. G3: Confidence/SentimentCZ 3 EC business and consumer surveys - Employment
+expectationsoverthenext3months-construction
+38. G3: Confidence/SentimentCZ 3 EC business and consumer surveys - Construction
+confidenceindicator
+39. G3: Confidence/SentimentCZ 3 EC business and consumer surveys - Financial
+situationoverthelast13months
+40. G3: Confidence/SentimentCZ 3 ECbusinessandconsumersurveys-Savingsoverthe
+next13months
+41. G3: Confidence/SentimentCZ 3 ECbusinessandconsumersurveys-Unemployment
+expectationsoverthenext13months
+42. G3: Confidence/SentimentCZ 3 ECbusinessandconsumersurveys-Majorpurchases
+overthenext13months
+G4: PPI(ProducerPriceIndex)
+43. G4: PPI 0 YoY change in Producer prices of agricultural
+products
+44. G4: PPI 0 YoYchangeinProducerpricesofindustrialproducts
+45. G4: PPI 2 Producerpricesofindustrialproducts-Total
+46. G4: PPI 2 Producer prices of industrial products - Mineral
+resources
+47. G4: PPI 2 Producerpricesofindustrialproducts-Manufactured
+goods
+48. G4: PPI 2 Producer prices of industrial products - Electricity,
+gas,andsteam
+49. G4: PPI 2 Producerpricesofindustrialproducts-Water
+50. G4: PPI 2 Producer prices of agricultural products - Animal
+basedproducts
+51. G4: PPI 2 Producerpricesofagriculturalproducts-Plantbased
+products
+52. G4: PPI 2 Producerpricesofagriculturalproducts-Agricultural
+productionandfish\n---PAGE 39---\nAI-BasedForecastingofCzechInflation: QuantileRegressionForestswithDynamicWeights 37
+TableA6(Continuation)
+No. Category Transf. Description(Source)
+G5: Financial
+53. G5: Financial 0 Yieldof10-yeargov. debt,monthlyaverage
+54. G5: Financial 0 PRIBOR:Domesticinterbankdepositmarketrate-3
+months,valueattheendofthemonth
+55. G5: Financial 0 2Weekreporate,valueattheendofthemonth
+56. G5: Financial 2 Realeffectiveexchangerate: DeflatedbyPPI
+57. G5: Financial 2 Realeffectiveexchangerate: DeflatedbyCPI
+58. G5: Financial 2 Clientloans: Residents-Non-financialcorporations,
+balance
+59. G5: Financial 2 Clientloans: Residents-Households,balance
+G6: CommoditiesandEnergy
+60. G6: Commodities/Energy 0 Commodityprices: BrentCrudeOil,USD/barrel
+61. G6: Commodities/Energy 2 Commodity prices: Average natural gas price in
+Europe
+62. G6: Commodities/Energy 2 Commodityprices: Industrialmetalspriceindex
+63. G6: Commodities/Energy 2 Commodityprices: Foodcommoditypriceindex
+64. G6: Commodities/Energy 2 PrincipalComponentsofFuelprices-CZSO14
+65. G6: Commodities/Energy 0 Refinitiv-TRPCNaturalGas
+66. G6: Commodities/Energy 0 Refinitiv-ICEEuropeBrentCrudeElectronicEnergy
+Future
+G7: InflationExpectations
+67. G7: InflationExpectations 3 Sellingpriceexpectationsoverthenext3months
+68. G7: InflationExpectations 3 Price expectations over the next 3 months -
+construction
+69. G7: InflationExpectations 0 Inflation expectations: Inflation expectations in the
+horizon 3 years by financial markets - in percentage
+points
+70. G7: InflationExpectations 0 Inflation expectations: Inflation expectations in the
+horizon 1 year by financial markets in percentage
+points
+71. G7: InflationExpectations 0 Inflation expectations: Perceived inflation - balance
+ofanswers
+72. G7: InflationExpectations 0 Inflation expectations: Expected domestic inflation -
+balanceofanswers
+Note:Transformations:0denotesnotransformation(level);2denoteslog-difference(ln(Xt)−ln(X
+t−1
+));and3denotessimple
+difference(Xt−X t−1 ).Sources:Eurostat,ARADCNB,CZSO,Refinitiv.WeconstructourdatasetbasedonLenzaetal.(2025)
+andfurtherenrichthevariablesbythoserelevantfortheSOE.Concerningthevariabletransformation,weproceedbytesting
+ourtimeseriesforstationarityusingADFandKPSStests.
+14Weusefourhighlycorrelatedtimeseries-Petrol95ONatural(CZK/l),Petrol98OSuperplus(CZK/l),Diesel
+(CZK/l) and Liquefied Petroleum Gas (LPG) (CZK/l). The Dataset includes only PCA’s first component, which
+explainsmorethan93%ofthevarianceconfirmingsimilarityoftheseseries.\n---PAGE 40---\nCNB Working Paper Series (since 2025)
+WP 9/2026 Filip Blaha AI-Based Forecasting of Czech Inflation: Quantile Regression Forests
+Jan Botka with Dynamic Weights
+Josef Švéda
+Aleš Michl
+WP 8/2026 Martijn Boermans Hedging Against Inflation: International Evidence on Investor Clientele
+Laurens Swinkels Effects
+WP 7/2026 Zuzana Gric Euroisation and the Bank Lending Channel of Monetary Policy:
+Jan Janků Evidence from Czechia
+Simona Malovaná
+WP 6/2026 František Mašek Households’ Inflation Expectations and Consumption in
+Macroeconomic Models: A Negative Real Income Channel
+WP 5/2026 Volha Audzei International Spillovers from Euro Area Monetary Policy to Advanced
+Michal Franta Small Open Economies: Investment Behavior of Czech Firms
+WP 4/2026 Josef Simpartl Social Media as a Monetary Policy Tool? Evidence from a Survey
+Experiment
+WP 3/2026 Tomáš Šestořád Monetary Policy and the Output Gap in DSGE Models for Small Open
+Jan Vlček Economies: Insights from the Czech Republic
+Karel Musil
+WP 2/2026 Martin Hodula When Monetary and Macroprudential Policies Tighten Together:
+Simona Malovaná Evidence from the Czech Mortgage Market
+Lukáš Pfeifer
+WP 1/2026 Jiří Gregor Chasing Lower Rates: How Households Balance Refinancing
+Jan Janků Incentives and Debt Constraints
+WP 13/2025 Oxana Babecká Web Reviews as a New Leading Indicator for Nowcasting Travel
+Kucharčuková Expenditure in Balance of Payments Statistics
+Jan Brůha
+Petr Štěrba
+WP 12/2025 Jan Janků Credit Shocks Fade, Output Shocks Persist: A Meta-Analysis of 2,600
+Simona Malovaná VAR Estimates Across 63 Countries
+Josef Bajzík
+Klára Moravcová
+Ngoc Anh Ngo
+WP 11/2025 Martin Hodula When Foreign Rates Matter More: Domestic Investor Responses in a
+Simona Malovaná Small Open Economy
+WP 10/2025 Volha Audzei Does Firms’ Financing in Foreign Currency Matter for Monetary
+Jan Brůha Policy?
+Ivan Sutóris
+WP 9/2025 Volha Audzei Dynamic Sparse Adaptive Learning
+Sergey Slobodyan
+WP 8/2025 Michal Franta Inflation at Risk: The Czech Case
+Jan Vlček
+WP 7/2025 František Brázdik Upgrading the Czech National Bank’s Core Forecasting Model g3+
+Karel Musil
+Tomáš Pokorný
+Tomáš Šestořád
+Jaromír Tonner
+Jan Žáček
+WP 6/2025 Raphael Auer The Rise of Generative AI: Modelling Exposure, Substitution, and
+David Köpfer Inequality Effects on the US Labour Market
+Josef Švéda
+WP 5/2025 Josef Švéda Navigating Banking Resilience: Bail-Ins & Bailouts in the Czech
+Banking Sector\n---PAGE 41---\nCNB Working Paper Series (since 2025)
+WP 4/2025 Ivan Trubelík Instant Payments in Czechia: Adoption and Future Trends
+Tomáš Karhánek
+Simona Malovaná
+Aleš Michl
+WP 3/2025 Daniel Štodt Non-Linearity of Government Spending Multiplier: The Case of a
+Small Open Economy
+WP 2/2025 Soňa Benecká Forecasting Disaggregated Producer Prices: A Fusion of Machine
+Learning and Econometric Techniques
+WP 1/2025 Martin Hodula Payment Holidays, Credit Risk, and Borrower-Based Limits: Insights
+Lukáš Pfeifer from the Czech Mortgage Market\n---PAGE 42---\nCZECH NATIONAL BANK
+Na Příkopě 28
+115 03 Prague 1
+Czech Republic
+RESEARCH DIVISION
+www.cnb.cz
+research@cnb.cz
+ISSN 1803-7070

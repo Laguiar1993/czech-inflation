@@ -1,0 +1,26 @@
+month,series,mean,last,nobs,first_quote_date,last_quote_date,calendar_month_complete,period_status,available_from_assumed,availability_basis,availability_timezone,snapshot_end_date,retrieved_at
+2026-09,FSBTY1 Index,81.59285714285714,83.47,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,TTFGCY1 Index,54.41914285714285,58.1,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,TTFGDAHD BCFV Index,73.96785714285716,80.0,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,BCOMAGSP Index,431.46486666666664,426.8169,6,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,BCOMINSP Index,371.7358,378.9768,6,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,CO1 Comdty,96.88714285714286,101.21,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,USDCZK Curncy,20.8383,20.8529,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,EURCZK Curncy,24.202714285714286,24.261,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,CO7 Comdty,82.14571428571428,84.28,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,CO13 Comdty,77.35714285714286,78.18,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,PRIB03M Index,3.8614285714285717,3.86,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,CKFR0CF Curncy,4.121142857142857,4.113,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,CKFR0FI Curncy,4.444999999999999,4.488,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,CKFR0I1 Curncy,4.573428571428571,4.6,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,CKFR011C Curncy,4.669571428571429,4.7,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,CKFR1C1F Curncy,4.694857142857143,4.725,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,CKFR1F1I Curncy,4.7184285714285705,4.75,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,CKFR1I2 Curncy,4.738428571428571,4.765,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,brent_front_usd,96.88714285714286,101.21,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,brent_y1_usd,81.59285714285714,83.47,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,gas_y1_eur,54.41914285714285,58.1,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,usdczk,20.8383,20.8529,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,eurczk,24.202714285714286,24.261,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,brent_y1_czk,1700.261291142857,1740.5915630000002,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00
+2026-09,gas_y1_czk,1317.1242754285715,1409.5641,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-09,2026-09-10T13:33:07.398248+00:00

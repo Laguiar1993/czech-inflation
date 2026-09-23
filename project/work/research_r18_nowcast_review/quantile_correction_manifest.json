@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-09-15T07:19:02.187840+00:00",
+  "scope": "requested R18 quantile grid with supports <=60; final output parity",
+  "files": {
+    "audit_verified_quantiles.py": "18fb6341cda11be384a669ac92cfcd0bfe94dc7dca1e864c71b88f2d6f66b3df",
+    "verified_quantile_receipt.json": "59ce93b968829097812efe5d3553314be7f93dbedbf6156ebc6cce464ffb0968",
+    "verified_quantile_changes.csv": "8807f8234228699f67cf2d850f228e51152b151ddcff73fdeadb4dd3270c5f3b",
+    "verified_coverage_changes.csv": "fad6eb72486aa0f54a95963c37e590fc542e7910e184f2dcaba93b56c3b5fa3e",
+    "verified_score_changes.csv": "fc8a85d962f60615e4a5eb76b7513bd5affb01a1d8478c4c0aaef2529c31cea8",
+    "final_quantile_parity_receipt.json": "9fd2ddac39e2fe181b6b03d9a6d768ca1c2ae3540f39fa217338f9dbcba32b83",
+    "QUANTILE_CORRECTION_NOTE.md": "85003ab205e55c53fe57a3ba9ad2bb23786a656235af04b85d12d8c7fbd95b3d"
+  }
+}

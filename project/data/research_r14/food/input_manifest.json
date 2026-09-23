@@ -1,0 +1,25 @@
+{
+  "inputs": {
+    "tests/fixtures/cleanup/component_food_fuel_mm.csv": "21699e9cd2bc1c87848834113ff2933ab587901adc40616f3ba63384441a419b",
+    "data/cz_agri_prices_raw.csv": "e2f22820cf75abe08155f01cfe2b2e2dfab909bc481deac998ba177c2821c5a6",
+    "data/cz_ppi_product_raw.csv": "da8139f29192093a2ac62beb1e25f6227af11ad87817e46d8b60c72c362994b7",
+    "data/release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4"
+  },
+  "outputs": {
+    "pipeline_log_levels.csv": "11b95512b1feef65bdd835d4b4c6cf3789dd6bd176733f59e2a0738fc4462069",
+    "pipeline_available_from.csv": "5f392e03580ddffb49cd3301bb7596b8a73c9d51484572b0f34ddd357763f713",
+    "agri4_physical_prices.csv": "94c911276be1167a6fa7c66fc4a0316f9ae3622e8f9fd761a90928853e43029d"
+  },
+  "first": "2015-01",
+  "last": "2026-07",
+  "months": 139,
+  "agri_products": [
+    "Pšenice potravinářská [t]",
+    "Mléko kravské Q. tř. j. [tis. l.]",
+    "Prasata jatečná  j.tř. SEU v JUT [t]",
+    "Kuřata jatečná v živém I.tř.j [t]"
+  ],
+  "food_reconstruction_max_abs_difference": 3.774758283725532e-15,
+  "units": "100 log-level points, each series normalized to zero in January 2015",
+  "vintage": "Latest stored raw histories with reconstructed availability, no model fits"
+}

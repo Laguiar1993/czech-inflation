@@ -1,0 +1,12 @@
+{
+  "note": "Round 6 of the 12 Sep 2026 probe: candidates surfaced by the round-5 searches. OECD LFS 15-64 unemployment (the CZSO concept the path models use); J.P. Morgan CPI- and PPI-based REERs and other REER variants against CNB ARAD SREERM101/103; HICP and OECD services and goods components that could stand in for the ARAD tradables/non-tradables split or the CZSO service groups of the R10 category model.",
+  "candidates": {
+    "unemployment_15_64": ["OECZRUAX Index", "OECZRUAW Index"],
+    "reer_more": ["JBDCCZK Index", "JBDPCZK Index", "JBMCCZK Index", "JBMPCZK Index", "OECZFRAB Index", "OEEOCZXA Index", ".REER_CZK G Index"],
+    "cpi_components": ["CP1SCZ Index", "CP1SCZMM Index", "CP1ACZ Index", "CP1ACZMM Index", "OECZGSJM Index", "OECZGSHA Index", "CPNGCZYY Index"]
+  },
+  "daily": ["JBDCCZK Index", "JBDPCZK Index", "JBMCCZK Index", "JBMPCZK Index"],
+  "searches": ["EU CPI Actual Rentals Czech Republic", "EU CPI Package Holidays Czech Republic", "Czech Republic CPI Imputed Rent",
+               "Czech Republic CPI Rent"],
+  "max_results": 30
+}

@@ -1,0 +1,63 @@
+model_input,reference,ticker,transform,first,last,n,corr,mean_abs_gap,max_abs_gap,max_gap_at,share_within_tol,tol,verdict
+Headline CPI m/m,"fixture target_headline_cpi_mm, rounded 0.1",CZCPMOM Index,published m/m,2015-02,2026-07,138,0.9996,0.0043,0.1,2016-11,0.957,0.05,identical
+Headline CPI y/y,compounded from fixture m/m,CZCPYOY Index,published y/y,2016-01,2026-07,127,1.0,0.024,0.1064,2016-11,0.992,0.06,identical
+Headline CPI m/m,fixture (CZSO base-2015 index),CZCPI Index,m/m from 2025=100 level,2015-02,2026-07,138,0.9954,0.0601,0.2081,2016-08,0.507,0.05,close
+CPI food (01) m/m,fixture (CZSO base-2015 index),CZCPF Index,m/m from 2025=100 level,2015-02,2026-07,138,0.9986,0.047,0.1541,2016-09,0.609,0.05,close
+CPI alcohol and tobacco (02) m/m,fixture (CZSO base-2015 index),CZCPA Index,m/m from 2025=100 level,2015-02,2026-07,138,0.9984,0.0546,0.2041,2015-08,0.543,0.05,close
+CNB regulated prices m/m,fixture cnb_regulated_mm (CNB ARAD),CZCIRM Index,published m/m,2007-01,2026-07,235,1.0,0.0,0.0,2007-01,1.0,0.05,identical
+Headline CPI m/m,"fixture, rounded 0.1",CZCIPM Index,published m/m,2015-02,2026-07,138,0.9996,0.0043,0.1,2016-11,0.957,0.05,identical
+CPI fuel (07.22) m/m,"fixture, rounded 0.1",CZCIFM Index,published m/m,2015-02,2026-07,138,0.9914,0.1391,4.4,2022-06,0.565,0.05,close
+CPI food (01) m/m,"fixture, rounded 0.1",CZCPFMOM Index,published m/m,2015-02,2026-07,138,0.9998,0.0058,0.1,2015-09,0.942,0.05,close
+CPI alcohol and tobacco (02) m/m,"fixture, rounded 0.1",CZCPAMOM Index,published m/m,2015-02,2026-07,138,0.9998,0.0051,0.1,2016-01,0.949,0.05,close
+CPI services m/m,fixture services_l1 shifted back 1 month (CZSO cpi_services),CPSVCZM Index,"HICP services, published m/m",2015-02,2026-06,137,0.2912,0.4566,3.0044,2024-09,0.27,0.1,different
+CPI services m/m,fixture services_l1 shifted back 1 month (CZSO cpi_services),CPSVCZ Index,"HICP services, m/m from level",2015-02,2026-06,137,0.2933,0.4537,2.9767,2024-09,0.27,0.1,different
+CNB core inflation m/m,fixture cnb_core_mm (CNB ARAD),CZCIXM Index,published m/m,2007-01,2026-07,235,1.0,0.0,0.0,2007-01,1.0,0.05,identical
+CNB core inflation m/m,fixture cnb_core_mm (CNB ARAD),CZCINM Index,published m/m,2007-01,2026-07,235,0.7477,0.254,1.1,2007-11,0.123,0.05,different
+CNB core inflation m/m,fixture cnb_core_mm (CNB ARAD),CZCIMPM Index,published m/m,2007-01,2026-07,235,0.5632,0.3094,5.2,2023-01,0.106,0.05,different
+CNB regulated prices m/m,fixture cnb_regulated_mm (CNB ARAD),CPAPCZMM Index,"HICP administered, published m/m",2007-01,2026-07,235,0.973,0.2774,9.0,2023-01,0.677,0.1,different
+CNB core inflation m/m,fixture cnb_core_mm (CNB ARAD),CPEXCZM Index,"HICP core, published m/m",2007-01,2026-07,235,0.8341,0.1294,2.7,2008-01,0.774,0.1,different
+CPI fuel (07.22) m/m,fixture component_food_fuel_mm.fuel (CZSO),CP7FCZ Index,"HICP fuels, m/m from level",2015-02,2026-07,138,0.9999,0.0403,0.1574,2016-04,0.949,0.1,close
+CPI fuel (07.22) m/m,fixture component_food_fuel_mm.fuel (CZSO),CP7FCZMM Index,"HICP fuels, published m/m",2015-02,2026-07,138,0.9999,0.0415,0.1765,2019-04,0.928,0.1,close
+Food-products PPI (CZ-CPA 10) m/m,data/cz_ppi_product_raw.csv (CZSO CEN0201B),CZPPA10M Index,published m/m,2015-02,2026-07,138,0.9995,0.019,0.1004,2015-04,0.993,0.1,identical
+Food-products PPI (CZ-CPA 10) m/m,data/cz_ppi_product_raw.csv (CZSO CEN0201B),EPT010CZ Index,"Eurostat index, m/m from level",2015-02,2026-07,138,0.9684,0.1635,0.935,2020-03,0.384,0.1,different
+Import prices m/m,fixture import_l2 shifted back 2 months (CZSO CEN0301),CZEII Index,m/m from level,2015-01,2026-05,137,0.9875,0.0389,2.3749,2016-04,0.993,0.1,close
+Import prices m/m,data/czso_import_prices_sitc_monthly.csv (CZSO CEN0303),CZEII Index,m/m from level,2008-01,2026-06,222,0.9921,0.0325,2.3749,2016-04,0.995,0.1,close
+A6 row 26 import prices,A6 row 26: cnb_arad:SIMCSUM2005PM01+SIMCSUM2015PM01 (mm_index_previous_month_100),CZEII Index,m/m from level,2007-03,2026-07,231,0.9922,0.0316,2.3749,2016-04,0.996,0.1,close
+Import prices m/m,fixture import_l2 shifted back 2 months (CZSO CEN0301),CZEIIMOM Index,published m/m,2015-01,2026-05,137,1.0,0.0015,0.1,2017-06,1.0,0.1,identical
+Import prices m/m,data/czso_import_prices_sitc_monthly.csv (CZSO CEN0303),CZEIIMOM Index,published m/m,2008-01,2026-06,222,1.0,0.0009,0.1,2017-06,1.0,0.1,identical
+A6 row 26 import prices,A6 row 26: cnb_arad:SIMCSUM2005PM01+SIMCSUM2015PM01 (mm_index_previous_month_100),CZEIIMOM Index,published m/m,2007-02,2026-07,233,1.0,0.0009,0.1,2017-06,1.0,0.1,identical
+Household price expectations (BS-PT-NY),fixture core_features.household_exp,EUA8CZ Index,level,2007-01,2026-08,236,1.0,0.0,0.0,2007-01,1.0,0.05,identical
+A6 row 72,A6 row 72: eurostat:ei_bsco_m:BS-PT-NY:SA:CZ (balance),EUA8CZ Index,level,1995-01,2026-08,380,1.0,0.0,0.0,1995-01,1.0,0.05,identical
+A6 row 71,A6 row 71: eurostat:ei_bsco_m:BS-PT-LY:SA:CZ (balance),EUA7CZ Index,level,1995-01,2026-08,380,1.0,0.0,0.0,1995-01,1.0,0.05,identical
+Economic sentiment indicator,fixture core_features.esi (Eurostat),EUESCZ Index,level,2007-01,2026-07,235,0.9999,0.0949,0.3,2008-03,0.234,0.05,close
+Economic sentiment indicator,fixture core_features.esi (Eurostat),CZCCCOM Index,level,2007-01,2026-07,235,0.9761,91.7626,97.5,2007-11,0.0,0.05,different
+Unemployment rate (unemployment_nsa),data/vintages/unemployment_latest_snapshot.csv (CZSO),CZUEUR Index,level,2005-03,2024-12,80,0.996,0.1518,0.4918,2024-09,0.2,0.05,close
+Unemployment rate (unemployment_nsa),data/vintages/unemployment_latest_snapshot.csv (CZSO),UMRTCZ Index,level,1993-01,2026-07,403,0.9971,0.1326,0.6434,2013-02,0.268,0.05,close
+Unemployment rate (unemployment_nsa),data/vintages/unemployment_latest_snapshot.csv (CZSO),CZJLUNR Index,level,2005-01,2026-07,259,0.9037,0.9317,1.9404,2016-03,0.004,0.05,different
+Unemployment rate (unemployment_trend_cycle),data/vintages/unemployment_latest_snapshot.csv (CZSO),CZUEUR Index,level,2005-03,2024-12,80,0.9964,0.1427,0.5429,2009-06,0.175,0.05,close
+Unemployment rate (unemployment_trend_cycle),data/vintages/unemployment_latest_snapshot.csv (CZSO),UMRTCZ Index,level,1993-01,2026-07,403,0.998,0.1158,0.6019,2022-11,0.268,0.05,close
+Unemployment rate (unemployment_trend_cycle),data/vintages/unemployment_latest_snapshot.csv (CZSO),CZJLUNR Index,level,2005-01,2026-07,259,0.9016,0.9387,1.9993,2016-02,0.008,0.05,different
+A6 row 44,A6 row 44: eurostat:sts_inppd_m:PRC_PRR_DOM:B-E36:PCH_SM:CZ (yoy_change_pct),EUPPCZY Index,published y/y,1991-01,2026-07,427,1.0,0.0,0.0,1991-01,1.0,0.05,identical
+A6 row 46,A6 row 46: eurostat:sts_inppd_m:PRC_PRR_DOM:B:I21:CZ (index_level),EPT00BCZ Index,m/m from levels,2000-02,2026-07,318,0.8799,0.5022,15.866,2023-01,0.195,0.1,different
+A6 row 47,A6 row 47: eurostat:sts_inppd_m:PRC_PRR_DOM:C:I21:CZ (index_level),EPT00CCZ Index,m/m from levels,2000-02,2026-07,318,0.7297,0.3953,3.0197,2020-03,0.113,0.1,different
+A6 row 52,A6 row 52: czso:CEN02032:0:IM; before 2010-01 rebuilt from cnb_arad:MOPAAPPXXNAJYOYPECM (mm_index_previous_month_100),CZPPAYOY Index,published m/m vs index-100,2002-05,2017-03,179,0.326,10.2665,32.4953,2009-06,0.006,0.1,different
+A6 row 52,A6 row 52: czso:CEN02032:0:IM; before 2010-01 rebuilt from cnb_arad:MOPAAPPXXNAJYOYPECM (mm_index_previous_month_100),CZPPAMOM Index,published rate vs index-100,2002-05,2017-03,179,0.9178,0.5314,5.1,2012-09,0.475,0.1,different
+A6 row 53,A6 row 53: cnb_arad:SVSDM12 (percent),GTCZK10Y Govt,monthly mean level,2007-03,2026-07,233,0.9991,0.0447,0.3084,2009-06,0.682,0.05,close
+A6 row 55,A6 row 55: cnb_arad:SFTP01M11 (percent),CZBRREPO Index,month-end level,1995-12,2026-07,368,1.0,0.0027,0.25,2002-10,0.989,0.01,close
+A6 row 57,A6 row 57: cnb_arad:SREERM103 (index_level),BISBCZR Index,m/m from levels,1999-02,2026-07,330,0.9562,0.3575,1.5573,2015-05,0.206,0.1,different
+A6 row 57,A6 row 57: cnb_arad:SREERM103 (index_level),OECZFRAA Index,m/m from levels,1999-02,2026-07,330,0.965,0.2777,1.9277,2015-04,0.255,0.1,different
+A6 row 57,A6 row 57: cnb_arad:SREERM103 (index_level),BRERCZ Index,m/m from levels,1999-02,2026-07,330,0.5884,1.3497,5.6797,2002-06,0.064,0.1,different
+A6 row 56,A6 row 56: cnb_arad:SREERM101 (index_level),BISBCZR Index,m/m from levels,1999-02,2026-07,330,0.8694,0.5671,4.3595,2023-01,0.179,0.1,different
+A6 row 59,"A6 row 59: cnb_arad:SUCM102211XXX101101 (level, stock_czk)",CZBLHPTV Index,y/y from levels,2003-01,2026-05,281,0.9906,1.5326,11.2775,2004-03,0.11,0.2,close
+A6 row 59,"A6 row 59: cnb_arad:SUCM102211XXX101101 (level, stock_czk)",CZBLHHTV Index,y/y from levels,2003-01,2026-05,281,0.999,0.3278,2.3148,2014-11,0.552,0.2,close
+A6 row 59,"A6 row 59: cnb_arad:SUCM102211XXX101101 (level, stock_czk)",CZHHHHTV Index,y/y from levels,2005-01,2026-07,259,0.1248,22.5843,176.3512,2020-04,0.0,0.2,different
+A6 row 59,"A6 row 59: cnb_arad:SUCM102211XXX101101 (level, stock_czk)",LONSCZHH Index,y/y from levels,2003-01,2026-07,283,0.9247,4.5018,26.3294,2008-06,0.042,0.2,different
+A6 row 25,A6 row 25: cnb_arad:SVEVZM4 (level),CZTBAL Index,level divided by 1,1993-01,2019-12,324,0.9721,10961.0076,38670.947,2017-03,0.0,1.0,different
+A6 row 25,A6 row 25: cnb_arad:SVEVZM4 (level),CZTBNAL Index,level divided by 1,2005-01,2026-07,259,0.95,17469.9022,56480.976,2024-03,0.0,1.0,different
+A6 row 25,A6 row 25: cnb_arad:SVEVZM4 (level),CZCMTRBA Index,level divided by 1,2004-01,2026-06,270,0.9932,16874.389,56466.85,2024-03,0.0,1.0,close
+EC Oil Bulletin gross_petrol95 (CZK/l),data/research_r14/fuel/pump_weekly.csv,ECOBETCZ Index,ISO-week level divided by 1000,2005-01-03,2026-08-31,1081,1.0,0.0,0.0,2018-06-04,1.0,0.01,identical
+CZSO weekly petrol95 (CZK/l),"fixture fuel_weekly.csv (CZSO CENPHMT, Mondays)",ECOBETCZ Index,ISO-week level divided by 1000,2016-01-04,2026-08-24,528,1.0,0.0052,0.481,2022-04-18,0.994,0.2,identical
+EC Oil Bulletin gross_diesel (CZK/l),data/research_r14/fuel/pump_weekly.csv,ECOBOTCZ Index,ISO-week level divided by 1000,2005-01-03,2026-08-31,1081,1.0,0.0,0.0,2005-01-17,1.0,0.01,identical
+CZSO weekly diesel (CZK/l),"fixture fuel_weekly.csv (CZSO CENPHMT, Mondays)",ECOBOTCZ Index,ISO-week level divided by 1000,2016-01-04,2026-08-24,528,0.9999,0.0073,1.096,2024-11-18,0.992,0.2,close
+EC Oil Bulletin net_petrol95 (CZK/l),data/research_r14/fuel/pump_weekly.csv,ECOBEFCZ Index,ISO-week level divided by 1000,2005-01-03,2026-08-31,1081,1.0,0.0,0.031,2026-07-27,0.999,0.01,close
+EC Oil Bulletin net_diesel (CZK/l),data/research_r14/fuel/pump_weekly.csv,ECOBOFCZ Index,ISO-week level divided by 1000,2005-01-03,2026-08-31,1081,0.9999,0.0018,1.939,2026-07-20,0.998,0.01,close

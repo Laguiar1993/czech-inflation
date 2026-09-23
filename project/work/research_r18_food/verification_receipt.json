@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "verified_inputs": 103,
+  "verified_outputs": 17,
+  "reconstructed_coefficients": 180,
+  "reconstructed_selections": 90,
+  "training_rows": 68400,
+  "coefficient_max_abs": 7.771561172376096e-16,
+  "log_path_max_abs": 4.440892098500626e-16,
+  "h0_nonfood_exact": true,
+  "all_training_maturity_and_endpoints_valid": true,
+  "primary_keys": 969,
+  "models": 3,
+  "origins": 90,
+  "source_first_release_clock": "90 matching; detail release clock used for labels independently"
+}

@@ -1,0 +1,45 @@
+{
+  "BOPCECZK Index": {
+    "name": "Bank of Portugal Currency Fixi",
+    "security_des": "Bank of Portugal Currency Fixi",
+    "indx_source": "Bank of Portugal",
+    "indx_freq": "Intraday",
+    "country": "PO"
+  },
+  "BFCFCZK Index": {
+    "name": "Belgium Currency Fixing in CZK",
+    "security_des": "Belgium Currency Fixing in CZK",
+    "indx_source": "National Bank of Belgium",
+    "indx_freq": "Intraday",
+    "last_update_dt": "2001-12-28",
+    "country": "BE",
+    "des_notes": "Fixed by Banque Nationale De Belgique at 2.15 p.m. local time.                  *STARTS 1/92*"
+  },
+  "DKCFCZK Index": {
+    "name": "Denmark Currency Fixing CZK",
+    "security_des": "Denmark Currency Fixing CZK",
+    "indx_source": "Danmarks Nationbank",
+    "indx_freq": "Intraday",
+    "last_update_dt": "2012-07-16",
+    "country": "DE",
+    "des_notes": "This sector has stopped pricing from July 16.  Please use {DCB8 <GO>} for Danish Kroner fixings."
+  },
+  "SSEFCZK Index": {
+    "name": "Stockholm Stock Exchange Forei",
+    "security_des": "Stockholm Stock Exchange Forei",
+    "indx_source": "NASDAQ OMX",
+    "indx_freq": "Daily",
+    "country": "SW",
+    "des_notes": "Stockholm Stock Exchange Foreign Exchange Fixing"
+  },
+  "CZNWWAGE Index": {
+    "name": "Czech Republic Average Gross M",
+    "security_des": "Czech Republic Average Gross M",
+    "indx_source": "Czech Statistical Office",
+    "seasonality_and_transformation": "Value NSA",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2026-06-30",
+    "country": "CZ",
+    "des_notes": "This concept generally tracks total remuneration (in cash or in kind) paid to employees in return for work done (or paid leave)."
+  }
+}

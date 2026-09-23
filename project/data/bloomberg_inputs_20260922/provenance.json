@@ -1,0 +1,315 @@
+{
+ "built_at_utc": "2026-09-22T13:02:06.928852+00:00",
+ "snapshots": {
+  "data\\market_snapshots\\20260912_bloomberg_probe\\history_long.csv": "7d18e2afbf702e5d9d9a07bbd78af330ddb13e8641002bceec8058c24959d241",
+  "data\\market_snapshots\\20260912_bloomberg_probe10\\history_long.csv": "6631d51ad352c32feca93e8f719cb37a13737f82fc72009af9ca6f507599668d",
+  "data\\market_snapshots\\20260912_bloomberg_probe11\\history_long.csv": "294119cf563c7be0037f023262597f2003af08b82c0556df84cde307af50e06e",
+  "data\\market_snapshots\\20260912_bloomberg_probe12\\history_long.csv": "08c8b7b56e0441cb69e860131bb139d6f415e8a6ba490ed85a4aa3346025237e",
+  "data\\market_snapshots\\20260912_bloomberg_probe14\\history_long.csv": "e62ab19b4fe42e2b03cedc6894605fb26ee5e384d426b763c3b0a29f24449fde",
+  "data\\market_snapshots\\20260912_bloomberg_probe15\\history_long.csv": "f3990e206ce9c2589368e697746e6a5f8273a5287c496c27ea8709ae4823e55e",
+  "data\\market_snapshots\\20260912_bloomberg_probe16\\history_long.csv": "48aa73aaa53f093a12f2ec62a78ade741be7598652ecf0648b8fa55c1aec2c52",
+  "data\\market_snapshots\\20260912_bloomberg_probe2\\history_long.csv": "e454ce893ae974656e6081d53adb3206acb103ef765af054eb94868f4f0eaecf",
+  "data\\market_snapshots\\20260912_bloomberg_probe3\\history_long.csv": "eb00f4b051a3c2026b5dfeba092639d9300bfe9d5efdbbeac086d738be91127a",
+  "data\\market_snapshots\\20260912_bloomberg_probe4\\history_long.csv": "9e88184b6173e0085df97bdae73c22e5f96fa6a69bc8a5094db1214a384e0261",
+  "data\\market_snapshots\\20260912_bloomberg_probe5\\history_long.csv": "4203ebb67322a4de2d0c9ed6f1782e89053ad169c9539bfd4555b6f4af5fa344",
+  "data\\market_snapshots\\20260912_bloomberg_probe6\\history_long.csv": "86e9858ce65dfd4052b7ce733b59fa717fd617c3d45f52b3b55a69cac38eb5cb",
+  "data\\market_snapshots\\20260912_bloomberg_probe7\\history_long.csv": "1b40f9c31e6503b8476a2fa271b8c988a69ceb36fefa5216a144d94df90be72b",
+  "data\\market_snapshots\\20260912_bloomberg_probe8\\history_long.csv": "6d104116c039c3f52bc10eafa534d30195873b5e11bf9c9cc14f914cba0edde9",
+  "data\\market_snapshots\\20260912_bloomberg_probe9\\history_long.csv": "c0c5c0ad24c8d43cd96ca9647e552f7f1e10753bccec8f34116c7e89340764e6",
+  "data\\market_snapshots\\20260922_bloomberg_ppi_probe\\history_long.csv": "4e6c3711baff839c6c4d8035fdf520130bfa96cc63b44a9b2b7c4cbb0d98b879",
+  "data\\market_snapshots\\20260922_bloomberg_ppi_probe2\\history_long.csv": "0deee1c03b654d190c89ba88e9dfa74a33f3362061add8d8c301c92c334a340e"
+ },
+ "columns": {
+  "nowcast/headline.cpi_mm": {
+   "ticker": "CZCPMOM Index",
+   "transform": "published m/m",
+   "months_from_bloomberg": 138,
+   "first": "2015-02",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 0.07246376811594203,
+   "max_abs_gap": 0.10089197224973906
+  },
+  "nowcast/components.food": {
+   "ticker": "CZCPFMOM Index",
+   "transform": "published m/m",
+   "months_from_bloomberg": 138,
+   "first": "2015-02",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 0.06521739130434782,
+   "max_abs_gap": 0.1051881993896166
+  },
+  "nowcast/components.fuel": {
+   "ticker": null,
+   "transform": "kept: CZSO fuel item m/m (no exact or rounding-only Bloomberg series)",
+   "months_kept_from_previous_source": 138
+  },
+  "nowcast/core.core": {
+   "ticker": "CZCIXM Index",
+   "transform": "published m/m",
+   "months_from_bloomberg": 235,
+   "first": "2007-01",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 1.0,
+   "max_abs_gap": 0.0
+  },
+  "nowcast/regulated": {
+   "ticker": "CZCIRM Index",
+   "transform": "published m/m",
+   "months_from_bloomberg": 235,
+   "first": "2007-01",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 1.0,
+   "max_abs_gap": 0.0
+  },
+  "nowcast/alcohol.alcohol_tobacco": {
+   "ticker": "CZCPAMOM Index",
+   "transform": "published m/m",
+   "months_from_bloomberg": 138,
+   "first": "2015-02",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 0.050724637681159424,
+   "max_abs_gap": 0.10535183349850086
+  },
+  "nowcast/features.eurczk_mm": {
+   "ticker": "EURCZK CNB Curncy",
+   "transform": "m/m of the monthly mean of the daily fixing, mean rounded to 3 dp",
+   "months_from_bloomberg": 236,
+   "first": "2007-01",
+   "last": "2026-08",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 0.8432203389830508,
+   "max_abs_gap": 0.08904015980155644
+  },
+  "nowcast/features.core_l1": {
+   "ticker": "CZCIXM Index",
+   "transform": "published m/m, lag 1",
+   "months_from_bloomberg": 234,
+   "first": "2007-02",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 1.0,
+   "max_abs_gap": 0.0
+  },
+  "nowcast/features.core_l2": {
+   "ticker": "CZCIXM Index",
+   "transform": "published m/m, lag 2",
+   "months_from_bloomberg": 233,
+   "first": "2007-03",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 1.0,
+   "max_abs_gap": 0.0
+  },
+  "nowcast/features.core_l12": {
+   "ticker": "CZCIXM Index",
+   "transform": "published m/m, lag 12",
+   "months_from_bloomberg": 223,
+   "first": "2008-01",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 1.0,
+   "max_abs_gap": 0.0
+  },
+  "nowcast/features.import_l2": {
+   "ticker": "CZEIIMOM Index",
+   "transform": "published m/m, lag 2",
+   "months_from_bloomberg": 137,
+   "first": "2015-03",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 0.9854014598540146,
+   "max_abs_gap": 0.10000000000000564
+  },
+  "nowcast/features.state": {
+   "ticker": "CZCIPY Index (to 2014), CZCPYOY Index (2015-)",
+   "transform": "published y/y at t-1 > 4",
+   "months_from_bloomberg": 235,
+   "first": "2007-02",
+   "last": "2026-08",
+   "months_kept_from_previous_source": 1,
+   "kept_span": [
+    "2007-01",
+    "2007-01"
+   ],
+   "exact_share": 0.9957446808510638,
+   "max_abs_gap": 1.0
+  },
+  "nowcast/features.exp12": {
+   "ticker": null,
+   "transform": "kept: survey column dropped by the HARD policy",
+   "months_kept_from_previous_source": 235
+  },
+  "nowcast/features.exp36": {
+   "ticker": null,
+   "transform": "kept: survey column dropped by the HARD policy",
+   "months_kept_from_previous_source": 235
+  },
+  "nowcast/features.household_exp": {
+   "ticker": null,
+   "transform": "kept: survey column dropped by the HARD policy",
+   "months_kept_from_previous_source": 236
+  },
+  "nowcast/features.esi": {
+   "ticker": null,
+   "transform": "kept: survey column dropped by the HARD policy",
+   "months_kept_from_previous_source": 235
+  },
+  "nowcast/features.services_l1": {
+   "ticker": null,
+   "transform": "kept: CZSO services proxy (no Bloomberg series)",
+   "months_kept_from_previous_source": 137
+  },
+  "nowcast/food_features.food_l1": {
+   "ticker": "CZCPFMOM Index",
+   "transform": "published m/m, lag 1",
+   "months_from_bloomberg": 137,
+   "first": "2015-03",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 0.06569343065693431,
+   "max_abs_gap": 0.1051881993896166
+  },
+  "nowcast/food_features.food_l12": {
+   "ticker": "CZCPFMOM Index",
+   "transform": "published m/m, lag 12",
+   "months_from_bloomberg": 126,
+   "first": "2016-02",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 0.06349206349206349,
+   "max_abs_gap": 0.1051881993896166
+  },
+  "nowcast/food_features.food_ppi_l1": {
+   "ticker": "CZPPA10M Index",
+   "transform": "published m/m, lag 1",
+   "months_from_bloomberg": 137,
+   "first": "2015-03",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 0.06569343065693431,
+   "max_abs_gap": 0.10039840637450209
+  },
+  "nowcast/food_features.agri_l0": {
+   "ticker": null,
+   "transform": "kept: CZSO farm-price basket (not on Bloomberg)",
+   "months_kept_from_previous_source": 197
+  },
+  "nowcast/food_features.agri_l1": {
+   "ticker": null,
+   "transform": "kept: CZSO farm-price basket (not on Bloomberg)",
+   "months_kept_from_previous_source": 196
+  },
+  "nowcast/weekly_fuel_variant_b.petrol95": {
+   "ticker": "ECOBETCZ Index",
+   "transform": "EC Weekly Oil Bulletin, CZK/l, Friday stamp mapped to the ISO-week Monday (different survey from CZSO CENPHMT)",
+   "weeks_from_bloomberg": 528,
+   "exact_share": 0.032196969696969696,
+   "max_abs_gap": 0.48099999999999454
+  },
+  "nowcast/weekly_fuel_variant_b.diesel": {
+   "ticker": "ECOBOTCZ Index",
+   "transform": "EC Weekly Oil Bulletin, CZK/l, Friday stamp mapped to the ISO-week Monday (different survey from CZSO CENPHMT)",
+   "weeks_from_bloomberg": 528,
+   "exact_share": 0.01893939393939394,
+   "max_abs_gap": 1.0960000000000036
+  },
+  "nowcast/weekly_fuel.petrol95": {
+   "ticker": null,
+   "transform": "variant A keeps the CZSO CENPHMT Monday survey",
+   "weeks_kept_from_previous_source": 528
+  },
+  "nowcast/weekly_fuel.diesel": {
+   "ticker": null,
+   "transform": "variant A keeps the CZSO CENPHMT Monday survey",
+   "weeks_kept_from_previous_source": 528
+  },
+  "path/headline_mm": {
+   "ticker": "CZCIPM Index (2007-2014), CZCPMOM Index (2015-)",
+   "transform": "published m/m; months before 2007 kept from the frozen file",
+   "months_from_bloomberg": 235,
+   "first": "2007-01",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 191,
+   "kept_span": [
+    "1991-02",
+    "2006-12"
+   ],
+   "exact_share": 0.0851063829787234,
+   "max_abs_gap": 0.1314994606256617
+  },
+  "path/food_levels.food": {
+   "ticker": "CZCPF Index",
+   "transform": "100*ln(level / level at 2015-01), one-decimal 2025=100 index",
+   "months_from_bloomberg": 139,
+   "first": "2015-01",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 0.007194244604316547,
+   "max_abs_gap": 0.14684541185671662
+  },
+  "path/food_levels.agri4": {
+   "ticker": null,
+   "transform": "kept: CZSO farm-price basket (not on Bloomberg)",
+   "months_kept_from_previous_source": 139
+  },
+  "path/food_levels.food_ppi": {
+   "ticker": null,
+   "transform": "kept: CZSO food-products PPI level (not on Bloomberg)",
+   "months_kept_from_previous_source": 139
+  },
+  "path/food_available_from": {
+   "ticker": null,
+   "transform": "kept: publication stamps of the three series (release calendar; unchanged by the source)"
+  },
+  "path/alcohol_mm": {
+   "ticker": "CZCPAMOM Index",
+   "transform": "published m/m",
+   "months_from_bloomberg": 138,
+   "first": "2015-02",
+   "last": "2026-07",
+   "months_kept_from_previous_source": 0,
+   "kept_span": null,
+   "exact_share": 0.050724637681159424,
+   "max_abs_gap": 0.10535183349850086
+  },
+  "path/pump_weekly.gross_petrol95": {
+   "ticker": "ECOBETCZ Index",
+   "transform": "EC Weekly Oil Bulletin, CZK/l, \u00f71000, Friday stamp mapped to the ISO-week Monday",
+   "weeks_from_bloomberg": 1081,
+   "weeks_kept_from_previous_source": 0,
+   "exact_share": 0.1267345050878816,
+   "max_abs_gap": 5.759999964993767e-06
+  },
+  "path/pump_weekly.gross_diesel": {
+   "ticker": "ECOBOTCZ Index",
+   "transform": "EC Weekly Oil Bulletin, CZK/l, \u00f71000, Friday stamp mapped to the ISO-week Monday",
+   "weeks_from_bloomberg": 1081,
+   "weeks_kept_from_previous_source": 0,
+   "exact_share": 0.12580943570767808,
+   "max_abs_gap": 5.000000015797923e-06
+  },
+  "path/pump_weekly.net_and_tax_columns": {
+   "ticker": null,
+   "transform": "kept: net prices, VAT and excise columns of the frozen panel (the constant-pump control reads gross prices only)"
+  }
+ }
+}

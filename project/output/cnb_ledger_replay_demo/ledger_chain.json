@@ -1,0 +1,17 @@
+[
+  {
+    "entry_id": "1ffcb1fd3ce4000e_2026-05-14",
+    "mode": "replay_not_prospective",
+    "run": "output/research_r20/runs_final/20260915T082214Z_e1d40da2",
+    "path_table": "output/current_path_r24/20260915T082214Z_e1d40da2_foodnorm/path_r24.csv",
+    "path_sha256": "1ffcb1fd3ce4000e168c687a95a73bb7cc58739f64f7586777d89f51f5f47bfb",
+    "tables": "data/cnb_mpr_tables_20260917",
+    "cnb_report_date": "2026-05-14",
+    "origin": "2026-07",
+    "as_of": "2026-08-04T23:59:00+02:00",
+    "rows_added": 30,
+    "rows_total": 30,
+    "ledger_sha256_before": null,
+    "ledger_sha256_after": "a7fa4df623de21d69e75f57f56c3c3f3c5909692abbf7fe40e9175e4a89278ac"
+  }
+]

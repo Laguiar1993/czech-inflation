@@ -1,0 +1,12 @@
+{
+ "FAST_FOODNORM_max_abs_gap_vs_run": 0.0,
+ "FAST_max_abs_gap_vs_run": 0.0,
+ "swap_arithmetic_reproduces_R24_candidate_max_abs_gap": 0.0,
+ "rounds": {
+  "mae": 0.0,
+  "gap": 7.105427357601002e-15,
+  "n_mae": 108,
+  "n_gap": 1520
+ },
+ "board_max_abs_gap_vs_evaluation": 0.0
+}

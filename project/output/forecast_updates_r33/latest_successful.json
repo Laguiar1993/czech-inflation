@@ -1,0 +1,17 @@
+{
+  "entries": {
+    "prospective|2026-09|HARD_BASE|mm_pct|875bfacfa4355febadfbe80423967d84b651227e9efc264ed8397653e3dea782": {
+      "as_of": "2026-09-22T17:50:01.527361+00:00",
+      "manifest_sha256": "e5c547c823e6db6fc7fe4c5624c8d9c22f0d99a2e2531315b153acc5496a4f71",
+      "recorded_at": "2026-09-22T17:50:01.527361+00:00",
+      "run_directory": "runs/20260922T175001527361Z_7c5389d7016a"
+    },
+    "replay|2026-07|HARD_BASE|mm_pct|875bfacfa4355febadfbe80423967d84b651227e9efc264ed8397653e3dea782": {
+      "as_of": "2026-08-04T23:59:00+02:00",
+      "manifest_sha256": "dc03a2f3bc45a5b8bc93b2bf437adf9a7f7dd4e075d627eac9f2613b39c61f82",
+      "recorded_at": "2026-09-22T17:30:09.883888+00:00",
+      "run_directory": "runs/20260922T173009883888Z_cce84a741ef9"
+    }
+  },
+  "schema_version": "forecast_updates_r33/run-v1"
+}

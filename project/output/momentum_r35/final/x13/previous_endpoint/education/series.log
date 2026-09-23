@@ -1,0 +1,90 @@
+1
+    Log for X-13ARIMA-SEATS program (Version 1.1 Build 62)  Sep 22, 2026  22.39.42 
+    *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+
+ Type of  Series      Additional                   Series title
+ Adjust.  Ident.      Identifiers
+
+
+  M-MLT    series -------- -------- R35 monthly CPI index                             
+  Moving seasonality ratio     :       4.224
+  I/C Ratio                    :       0.100
+  Stable Seasonal F, B1 table  :    1540.930
+  Stable Seasonal F, D8 table  :    3053.714
+  Moving Seasonal F, D8 table  :       1.289
+  Identifiable seasonality     : yes
+    M01 :      0.005
+    M02 :      0.001
+    M03 :      0.000
+    M04 :      0.183
+    M05 :      0.000
+    M06 :      0.090
+    M07 :      0.042
+    M08 :      0.085
+    M09 :      0.058
+    M10 :      0.074
+    M11 :      0.060
+    Q   :      0.047
+    Q2  :      0.053
+
+  QS statistic for seasonality:
+  log(Original Series)                              137.91  (P-Value =     0.0000)
+  log(Original Series (EV adj))                     234.97  (P-Value =     0.0000)
+  Residuals                                           0.00  (P-Value =     1.0000)
+  log(Seasonally Adjusted Series)                    61.00  (P-Value =     0.0000)
+  log(SA Series (EV adj))                             0.00  (P-Value =     1.0000)
+  Irregular Series                                    0.00  (P-Value =     1.0000)
+  Irregular Series (EV adj)                           0.00  (P-Value =     1.0000)
+
+  QS statistic for seasonality (starting 2018.Aug):
+  Original Series                                    92.93  (P-Value =     0.0000)
+  Original Series (EV adj)                          147.78  (P-Value =     0.0000)
+  Residuals                                           0.00  (P-Value =     1.0000)
+  Seasonally Adjusted Series                         46.20  (P-Value =     0.0000)
+  Seasonally Adjusted Series (EV adj)                 0.00  (P-Value =     1.0000)
+  Irregular Series                                    0.00  (P-Value =     1.0000)
+  Irregular Series (EV adj)                           0.00  (P-Value =     1.0000)
+
+ 
+
+  Peak probabilities for Tukey spectrum estimator
+  Spectrum estimated from 2018.Aug to 2026.Jul.
+
+                                          S1       S2       S3       S4       S5       S6       TD
+                                        ------   ------   ------   ------   ------   ------   ------
+  Model Residuals                                                                                  
+  Prior Adjusted Series (Table B1)         *        **       **       *        **       **         
+  Seasonally adjusted series (D11)                                                      *          
+  Irregular (D13)                                                                                * 
+  ----------
+     ** - Peak Probability > 0.99,
+      * - 0.90 < Peak Probability < 0.99
+
+
+
+  NP statistic for residual seasonality:
+
+  NP statistic for residual seasonality (Full series)
+                                                  Residual Seasonality?
+  log(Seasonally Adjusted Series)                          no
+  log(Seasonally Adjusted Series (EV adj))                 no
+
+  NP statistic for residual seasonality (Series start in 2018.Aug)
+                                                  Residual Seasonality?
+  log(Seasonally Adjusted Series)                          no
+  log(Seasonally Adjusted Series (EV adj))                 no
+
+ Spectral Peak Summary:
+  Seasonal Spectral Peaks : sa
+        TD Spectral Peaks : none
+  
+  
+ For Peak Probability > 0.99
+  Seasonal Tukey Spectral Peaks : ori
+        TD Tukey Spectral Peaks : none
+  
+ For Peak Probability > 0.90
+  Seasonal Tukey Spectral Peaks : ori sa
+        TD Tukey Spectral Peaks : irr

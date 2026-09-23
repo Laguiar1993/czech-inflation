@@ -1,0 +1,31 @@
+B4.1 CZSO division-01 base index: mean of 2015 = 99.983 (base year 2015=100 if ~100); bazobdobiod/bazobdobido values for casz Z: [('2015-01-01', '2015-12-31')]
+     classification labels present for division 01 rows: ['CZCOICOP', 'ECOICOP'] | ucel_cis: ['5642', '6000']
+     documentation file date line: "Aktualizovano ke dni 10. 3. 2023" (opened by the reviewer); real-time 2019 vintages are NOT in the repository, so identity with the 2019 vintage is unverified offline
+
+B4.2 food block h12, origins from 2024 (n=19): candidate minus baseline squared loss per origin
+         e_base  e_cand      d
+origin                        
+2024-01   -1.07   -3.16   8.83
+2024-02   -0.96   -2.90   7.49
+2024-03   -2.10   -3.97  11.34
+2024-04    0.02   -1.80   3.24
+2024-05   -1.69   -3.73  11.09
+2024-06   -2.31   -4.42  14.20
+2024-07   -1.41   -3.53  10.48
+2024-08    0.02   -2.09   4.37
+2024-09    2.81    0.56  -7.58
+2024-10    1.47   -0.87  -1.41
+2024-11    3.12    0.70  -9.26
+2024-12    3.32    1.10  -9.78
+2025-01    3.57    1.53 -10.43
+2025-02    4.85    2.62 -16.64
+2025-03    5.76    3.78 -18.89
+2025-04    5.62    3.52 -19.17
+2025-05    6.29    4.16 -22.18
+2025-06    8.21    5.98 -31.61
+2025-07    8.28    6.05 -31.88
+improved 11 of 19; sum d -107.8; top-3 improvements carry 79% of the era gain
+   full               n=78 improved 54  sum d   -575.2  share of full-sample gain 100.0%
+   origins_2019_2021  n=35 improved 27  sum d   -132.3  share of full-sample gain  23.0%
+   origins_2022_2023  n=24 improved 16  sum d   -335.1  share of full-sample gain  58.3%
+   origins_2024plus   n=19 improved 11  sum d   -107.8  share of full-sample gain  18.7%

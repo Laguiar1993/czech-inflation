@@ -1,0 +1,21 @@
+{
+  "root": "output/research_r24/final",
+  "tables": "data/cnb_mpr_tables_20260917",
+  "models": [
+    "STATE_FAST_R15",
+    "STABLE_LOCAL_CORE_R14B",
+    "FOOD_NORM_SHIFT_R24"
+  ],
+  "outputs": {
+    "component_gaps.csv": "2e47a83c7ed60083a7b1848860c048fd662d96628bf1c1d5ace334e9d61228dc",
+    "dominant_blocks.csv": "36bbe32dcfa27a4fec3150187204bfa3930379b5482eae14b22dafd1a2497c15",
+    "first_calls_with_driver.csv": "57d23c42b1453d70351bb9a41a3721e8e770f5ce22d3b94187e313e5133c07c8",
+    "unexplained_summary.csv": "94b4b4e792abf777bd17348fad79d187778d816af23f48ba08ad4937f5cb16b7"
+  },
+  "inputs": {
+    "output/research_r14b/attribution/actual_component_targets.csv": "1418e4fb2c46467856fd0a6d86a4c7df122fde837484007f0b6c5ac7bf5fc810",
+    "tools/cnb_tracker/component_gaps.py": "e2d647ac70a9c9630aa2b87f5550024869f787f7c560d178a88b6b9ff179ba6b",
+    "tools/cnb_tracker/run_component_gaps.py": "37711872cbf1af18ec32b55c089e1cff6167df85095ea70abc6d11e2fa8d8bff"
+  },
+  "note": "Accounting of ex-ante gaps against CNB blocks. The h0 month uses realised block rates; see component_gaps.py. CNB forecasts never enter a model."
+}

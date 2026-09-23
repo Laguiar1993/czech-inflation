@@ -1,0 +1,3 @@
+series,observation_month,value,units,source,available_from
+core,2026-08,0.3,mm_pct,https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes?snList=&periodFrom=1735689600000&periodTo=1790099025959&roleId=U&type=single&setParams=&chartData=SCPIMZM09MOMPECNA%3A0 ; sha256=7bbb3a3a1216e41b68d03b19f88b8c2ef4e8e931d22780c90e699cbc378d29f3,2026-09-22T17:43:58.430957+00:00
+regulated,2026-08,0,mm_pct,https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes?snList=&periodFrom=1735689600000&periodTo=1790099025959&roleId=U&type=single&setParams=&chartData=SCPIMZM02MOMPECNA%3A0 ; sha256=1654fa44e93e002447227cca6dccd80311edb4472f96f2649de4d9d085b3f107,2026-09-22T17:43:58.430957+00:00

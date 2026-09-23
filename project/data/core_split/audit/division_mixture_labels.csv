@@ -1,0 +1,23 @@
+coicop_code,coicop_label_cs,subgroup_code,subgroup_label_cs
+0,Úhrn,,
+01,Potraviny a nealkoholické nápoje,,
+02,"Alkoholické nápoje, tabák",,
+03,Odívání a obuv,,
+04,"Bydlení, voda, energie, paliva",,
+04,"Bydlení, voda, energie, paliva",041,Nájemné za bydlení
+04,"Bydlení, voda, energie, paliva",042,Imputované nájemné za bydlení (náklady vlastnického bydlení)
+05,"Vybavení, zařízení a služby pro domácnost",,
+06,Zdraví,,
+07,Doprava,,
+07,Doprava,073,Osobní doprava
+08,Informace a telekomunikace,,
+08,Informace a telekomunikace,081,Informační a telekomunikační zařízení a příslušenství
+08,Informace a telekomunikace,083,Informační a telekomunikační služby
+09,"Rekreace, sport a kultura",,
+09,"Rekreace, sport a kultura",094,Rekreační služby
+09,"Rekreace, sport a kultura",096,Kulturní služby
+09,"Rekreace, sport a kultura",098,Organizovaná dovolená a zájezdy
+10,Vzdělávání,,
+11,Stravovací a ubytovací služby,,
+12,Pojištění a finanční služby,,
+13,"Osobní a sociální péče, různé zboží a služby",,

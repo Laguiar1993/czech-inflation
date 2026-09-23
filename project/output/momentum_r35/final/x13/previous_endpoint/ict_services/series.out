@@ -1,0 +1,1892 @@
+  Reading input spec file from series.spc
+
+1
+
+               U. S. Department of Commerce, U. S. Census Bureau
+
+              X-13ARIMA-SEATS monthly seasonal adjustment Method,
+                          Release Version 1.1 Build 62
+
+
+           This software application provides an enhanced version of
+             Statistics Canada's X-11-ARIMA extension (Dagum, 1980)
+                 of the X-11 variant of the Census Method II of
+                      Shiskin, Young and Musgrave (1967).
+
+            It also provides an ARIMA model-based method following
+       Hillmer and Tiao (1982) and Burman (1980) that is very similar
+       to the update of the method of SEATS (Gomez and Maravall, 1996)
+                produced at the Bank of Spain by G. Caporello and
+               A. Maravall for TSW (Caporello and Maravall, 2004).
+          The present application includes additional enhancements.
+
+         X-13ARIMA-SEATS includes an automatic ARIMA model selection procedure
+          based largely on the procedure of Gomez and Maravall (1998)
+            as implemented in TRAMO (1996) and subsequent revisions.
+
+              Primary Programmers: Brian Monsell, Mark Otto and,
+                 for the ARIMA model-based signal extraction,
+                      Gianluca Caporello and Victor Gomez
+
+
+     Series Title- R35 monthly CPI index
+     Series Name- series
+     Sep 22, 2026  22.39.26 
+
+        -Period covered-  1st month,2015 to  7th month,2026
+        -Type of run - multiplicative seasonal adjustment
+
+        -Sigma limits for graduating extreme values are  1.5 and  2.5 .
+        -3x3 moving average used in section 1 of each iteration, 
+         3x5 moving average in section 2 of iterations B and C,
+         moving average for final seasonal factors chosen by Global MSR.
+        -Spectral plots generated for selected series
+        -Spectral plots generated for series starting in 2018.Aug
+
+ FILE SAVE REQUESTS (* indicates file exists and will be overwritten)
+  series.d10  final seasonal factors
+  series.d11  final seasonally adjusted data
+  series.d12  final trend cycle
+  series.d13  final irregular component
+  series.out  program output file
+  series.err  program error file
+  series.udg  seasonal adjustment and model diagnostics file
+        R35 monthly CPI index            PAGE   1, SERIES series
+
+     Contents of spc file series.spc
+
+ Line #
+ ------
+      1: series { title="R35 monthly CPI index" start=2015.1 period=12 data=(
+      2: 100.3 100.2 100.2 100.3 100 99.799999999999997
+      3: 99.799999999999997 99.799999999999997 99.900000000000006 99.900000000000006 99.900000000000006 99.900000000000006
+      4: 99.799999999999997 99.799999999999997 99.799999999999997 99.799999999999997 99.799999999999997 99.799999999999997
+      5: 100 100.09999999999999 100.3 100.3 99.400000000000006 99.400000000000006
+      6: 99.5 100.40000000000001 100.40000000000001 100.3 100.2 99.900000000000006
+      7: 99.599999999999994 99.599999999999994 99.5 99.099999999999994 99.099999999999994 98.900000000000006
+      8: 98.900000000000006 98.900000000000006 98.900000000000006 98.900000000000006 98.799999999999997 98.700000000000003
+      9: 98.599999999999994 98.599999999999994 98.599999999999994 98.599999999999994 98.599999999999994 98.5
+     10: 98.299999999999997 98.200000000000003 98.200000000000003 98.200000000000003 98 97.900000000000006
+     11: 97.700000000000003 97.700000000000003 97.599999999999994 97.299999999999997 95.700000000000003 95.400000000000006
+     12: 95.5 95.5 94.900000000000006 94.599999999999994 95.099999999999994 95.099999999999994
+     13: 95.099999999999994 95 95.299999999999997 95.299999999999997 95 95
+     14: 95 95 95.200000000000003 95.200000000000003 95.200000000000003 95.200000000000003
+     15: 94.900000000000006 94.900000000000006 94.900000000000006 94.900000000000006 94.799999999999997 94.799999999999997
+     16: 94.900000000000006 94.900000000000006 95 95 95 95
+     17: 95.099999999999994 95.099999999999994 95.5 96.299999999999997 96.400000000000006 96.5
+     18: 96.5 96.599999999999994 97.200000000000003 97.799999999999997 97.799999999999997 97.799999999999997
+     19: 98.599999999999994 98.400000000000006 98.400000000000006 98.400000000000006 98.400000000000006 98.5
+     20: 98.5 98.5 98.700000000000003 98.700000000000003 98.799999999999997 100.2
+     21: 100.09999999999999 100.09999999999999 100 99.900000000000006 99.799999999999997 99.700000000000003
+     22: 100.09999999999999 100.09999999999999 100.2 100.2 101.2 101.8
+     23: 101.8 101.8 101.8 101.8 101.8 101.90000000000001
+     24: 101.59999999999999 102.09999999999999 102.5 102.7 102.59999999999999 102.40000000000001
+     25: 102.40000000000001
+     26: ) }
+     27: transform { function=log }
+     28: automdl { }
+     29: outlier { types=(ao ls tc) }
+     30: x11 { mode=mult save=(d10 d11 d12 d13) appendfcst=no appendbcst=no savelog=all }
+     31: spectrum { logqs=yes robustsa=no print=all savelog=all }
+     32: check { }
+        R35 monthly CPI index            PAGE   2, SERIES series
+
+ A 1  Time series data (for the span analyzed)
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec        TOTAL  
+ -----------------------------------------------------------------------------
+  2015         100.     100.     100.     100.     100.     100.
+               100.     100.     100.     100.     100.     100.         1200.
+ 
+  2016         100.     100.     100.     100.     100.     100.
+               100.     100.     100.     100.      99.      99.         1198.
+ 
+  2017         100.     100.     100.     100.     100.     100.
+               100.     100.     100.      99.      99.      99.         1197.
+ 
+  2018          99.      99.      99.      99.      99.      99.
+                99.      99.      99.      99.      99.      99.         1185.
+ 
+  2019          98.      98.      98.      98.      98.      98.
+                98.      98.      98.      97.      96.      95.         1170.
+ 
+  2020          96.      96.      95.      95.      95.      95.
+                95.      95.      95.      95.      95.      95.         1141.
+ 
+  2021          95.      95.      95.      95.      95.      95.
+                95.      95.      95.      95.      95.      95.         1140.
+ 
+  2022          95.      95.      95.      95.      95.      95.
+                95.      95.      96.      96.      96.      97.         1145.
+ 
+  2023          97.      97.      97.      98.      98.      98.
+                99.      98.      98.      98.      98.      99.         1174.
+ 
+  2024          99.      99.      99.      99.      99.     100.
+               100.     100.     100.     100.     100.     100.         1193.
+ 
+  2025         100.     100.     100.     100.     101.     102.
+               102.     102.     102.     102.     102.     102.         1214.
+ 
+  2026         102.     102.     103.     103.     103.     102.
+               102.                                                       716.
+ 
+  AVGE          98.      98.      98.      98.      99.      99.
+                99.      98.      98.      98.      98.      98.
+
+  Table Total-     13673.90   Mean-      98.37   Std. Dev.-       2.28
+                              Min -      94.60        Max -     102.70
+        R35 monthly CPI index            PAGE   3, SERIES series
+                        Automatic ARIMA Model Selection
+
+                    Procedure based closely on TRAMO method 
+                         of Gomez and Maravall (2000)
+              "Automatic Modeling Methods for Univariate Series",
+                            A Course in Time Series
+                  (Edited by D. Pena, G. C. Tiao, R. S. Tsay),
+                         New York : J. Wiley and Sons
+
+
+     Maximum order for regular ARMA parameters :   2
+     Maximum order for seasonal ARMA parameters :   1
+     Maximum order for regular differencing :   2
+     Maximum order for seasonal differencing :   1
+
+   Results of Unit Root Test for identifying orders of differencing:
+     Regular difference order :   1
+     Seasonal difference order :   0
+
+     Mean is not significant.
+
+  Automatic model choice : (1 1 2)
+
+
+  Final Checks for Identified Model
+
+
+  Checking for Unit Roots.
+   Regular unit root found.
+   ( 0, 2, 2) ( 0, 0, 0)
+
+  Checking for nonseasonal overdifferencing.
+   Nonseasonal MA not within  0.001 of 1.0 - model passes test.
+
+  Checking for insignificant ARMA coefficients.
+
+  Final automatic model choice : (0 2 2)
+   End of automatic model selection procedure.
+
+ Average absolute percentage error in within-sample forecasts:
+  Last year:   0.17      Last-1 year:   0.16     Last-2 year:   0.25
+  Last three years:    0.19
+
+ Estimation converged in   12 ARMA iterations,  147 function evaluations.
+
+ Regression Model
+ ------------------------------------------------------------------------------
+                             Parameter        Standard
+ Variable                     Estimate           Error      t-value
+ ------------------------------------------------------------------------------
+ Automatically Identified Outliers
+   TC2016.Nov                  -0.0080         0.00108        -7.35
+   TC2017.Feb                   0.0076         0.00108         7.03
+   LS2019.Nov                  -0.0150         0.00122       -12.35
+   LS2020.Mar                  -0.0053         0.00122        -4.37
+   LS2020.May                   0.0062         0.00122         5.07
+   LS2022.Oct                   0.0070         0.00122         5.74
+   LS2023.Mar                   0.0052         0.00123         4.23
+   TC2023.Apr                   0.0049         0.00110         4.50
+   TC2023.Jul                   0.0078         0.00108         7.19
+   TC2024.Jun                   0.0123         0.00108        11.35
+   LS2025.May                   0.0092         0.00123         7.43
+   TC2025.Jun                   0.0048         0.00110         4.39
+   AO2026.Jan                  -0.0037         0.00079        -4.72
+ ------------------------------------------------------------------------------
+
+
+ ARIMA Model:  (0 2 2)
+   Nonseasonal differences: 2
+                                              Standard
+ Parameter                    Estimate          Errors
+ -----------------------------------------------------
+ Nonseasonal MA                                    
+   Lag  1                       0.7481         0.08410
+   Lag  2                       0.1406         0.08441
+
+ Variance                       0.16127E-05
+ SE of Var                      0.19485E-06
+ -----------------------------------------------------
+
+ Likelihood Statistics
+ ------------------------------------------------------------------
+ Number of observations (nobs)                                  139
+ Effective number of observations (nefobs)                      137
+ Number of parameters estimated (np)                             16
+ Log likelihood                                            718.5032
+ Transformation Adjustment                                -628.5863
+ Adjusted Log likelihood (L)                                89.9169
+ AIC                                                      -147.8338 
+ AICC (F-corrected-AIC)                                   -143.3005 
+ Hannan Quinn                                             -128.8481 
+ BIC                                                      -101.1141 
+ ------------------------------------------------------------------
+
+
+ DIAGNOSTIC CHECKING
+  Sample Autocorrelations of the Residuals with the Ljung-Box diagnostic.
+
+  Lag      1     2     3     4     5     6     7     8     9    10    11    12
+  ACF  -0.01 -0.05 -0.11 -0.14  0.05  0.13  0.08  0.10 -0.07 -0.01  0.00  0.01
+  SE    0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09
+  Q     0.02  0.35  1.99  4.64  5.04  7.40  8.35  9.93 10.66 10.68 10.68 10.71
+  DF       0     0     1     2     3     4     5     6     7     8     9    10
+  P    0.000 0.000 0.158 0.098 0.169 0.116 0.138 0.128 0.154 0.221 0.298 0.380
+
+  Lag     13    14    15    16    17    18    19    20    21    22    23    24
+  ACF   0.02 -0.12 -0.03 -0.06 -0.09  0.16  0.14 -0.03  0.05 -0.11 -0.01  0.17
+  SE    0.09  0.09  0.09  0.09  0.09  0.09  0.10  0.10  0.10  0.10  0.10  0.10
+  Q    10.76 12.95 13.07 13.69 14.91 19.16 22.41 22.57 23.02 25.15 25.19 30.26
+  DF      11    12    13    14    15    16    17    18    19    20    21    22
+  P    0.464 0.373 0.443 0.473 0.458 0.260 0.169 0.208 0.236 0.196 0.239 0.112
+
+  The P-values approximate the probability of observing a Q-value at least
+  this large when the model fitted is correct.  When DF is positive, small
+  values of P, customarily those below 0.05, indicate model inadequacy.
+
+  Sample Autocorrelations of the Residuals
+                 -1.0 -0.8 -0.6 -0.4 -0.2  0.0  0.2  0.4  0.6  0.8  1.0
+                   +----+----+----+----+----+----+----+----+----+----+
+            1                           .   |   .                     -0.013
+            2                           .  X|   .                     -0.048
+            3                           .XXX|   .                     -0.107
+            4                           .XXX|   .                     -0.136
+            5                           .   |X  .                      0.052
+            6                           .   |XXX.                      0.128
+            7                           .   |XX .                      0.081
+            8                          .    |XXX .                     0.103
+            9                          .  XX|    .                    -0.070
+           10                          .    |    .                    -0.012
+           11                          .    |    .                     0.003
+           12       - - - - - - - - -  .    |    .  - - - - - - - -    0.015
+           13                          .    |    .                     0.017
+           14                          . XXX|    .                    -0.119
+           15                          .   X|    .                    -0.027
+           16                          .  XX|    .                    -0.063
+           17                          .  XX|    .                    -0.088
+           18                          .    |XXXX.                     0.163
+           19                          .    |XXXX.                     0.142
+           20                          .   X|    .                    -0.031
+           21                          .    |X   .                     0.053
+           22                          . XXX|    .                    -0.113
+           23                          .    |    .                    -0.015
+           24       - - - - - - - - -  .    |XXXX.  - - - - - - - -    0.173
+  
+  Sample Autocorrelations of the Squared Residuals with the Ljung-Box diagnostic.
+
+  Lag      1     2     3     4     5     6     7     8     9    10    11    12
+  ACF  -0.06  0.03  0.04  0.01 -0.04  0.02 -0.09  0.03 -0.09  0.06 -0.01 -0.12
+  SE    0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09
+  Q     0.50  0.61  0.81  0.83  1.11  1.19  2.49  2.62  3.83  4.29  4.30  6.52
+  DF       0     0     1     2     3     4     5     6     7     8     9    10
+  P    0.000 0.000 0.367 0.662 0.775 0.880 0.778 0.855 0.799 0.830 0.890 0.770
+
+  Lag     13    14    15    16    17    18    19    20    21    22    23    24
+  ACF  -0.08  0.13 -0.05 -0.01 -0.07  0.04 -0.05 -0.11 -0.08  0.05 -0.10  0.16
+  SE    0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09  0.09
+  Q     7.49 10.06 10.38 10.39 11.15 11.40 11.80 13.70 14.63 15.03 16.76 21.02
+  DF      11    12    13    14    15    16    17    18    19    20    21    22
+  P    0.758 0.611 0.662 0.733 0.742 0.784 0.812 0.748 0.746 0.775 0.725 0.519
+
+  The P-values approximate the probability of observing a Q-value at least
+  this large when the model fitted is correct in a way that supports the
+  standard interpretations of the test statistics, standard errors, and
+  prediction intervals output by X-13ARIMA-SEATS. When DF is positive, small
+  values of P, customarily those below 0.05, suggest that model-based
+  inferences about statistical significance and uncertainty will be less
+  dependable than usual.
+
+  Sample Autocorrelations of the Squared Residuals
+                 -1.0 -0.8 -0.6 -0.4 -0.2  0.0  0.2  0.4  0.6  0.8  1.0
+                   +----+----+----+----+----+----+----+----+----+----+
+            1                           .  X|   .                     -0.060
+            2                           .   |X  .                      0.028
+            3                           .   |X  .                      0.038
+            4                           .   |   .                      0.009
+            5                           .  X|   .                     -0.044
+            6                           .   |X  .                      0.023
+            7                           . XX|   .                     -0.094
+            8                           .   |X  .                      0.029
+            9                           . XX|   .                     -0.090
+           10                           .   |X  .                      0.055
+           11                           .   |   .                     -0.011
+           12       - - - - - - - - -   .XXX|   .   - - - - - - - -   -0.121
+           13                           . XX|   .                     -0.080
+           14                           .   |XXX.                      0.129
+           15                          .   X|    .                    -0.045
+           16                          .    |    .                    -0.007
+           17                          .  XX|    .                    -0.069
+           18                          .    |X   .                     0.040
+           19                          .   X|    .                    -0.050
+           20                          . XXX|    .                    -0.108
+           21                          .  XX|    .                    -0.075
+           22                          .    |X   .                     0.049
+           23                          . XXX|    .                    -0.102
+           24       - - - - - - - - -  .    |XXXX.  - - - - - - - -    0.159
+  
+ Histogram of the Standardized and Mean-Centered Residuals
+  Standard
+  Deviations    Frequency
+
+  Outlier [#####
+
+       -3 +#####
+          |##
+       -2 +######
+          |######
+       -1 +##############
+          |####################
+        0 +##############################
+          |########################
+        1 +###########
+          |######
+        2 +##
+          |##
+        3 +#
+
+  Outlier [###
+
+  One '#'= 1 observation[s]
+
+ Tabular Histogram of the Standardized and Mean-Centered Residuals
+
+  Standard
+  Deviations    Frequency
+  Standard
+  Deviations    Frequency
+
+ -3.00                 5
+
+ -2.50                 2
+
+ -2.00                 6
+
+ -1.50                 6
+
+ -1.00                14
+
+ -0.50                20
+
+  0.00                30
+
+  0.50                24
+
+  1.00                11
+
+  1.50                 6
+
+  2.00                 2
+
+  2.50                 2
+
+  3.00                 1
+
+  Residuals with |t|>3.25
+
+  Obs       t-value
+  -----------------
+  2015.Mar    -3.66
+  2017.Aug    -4.15
+  2020.Jul     4.45
+  2020.Sep    -3.33
+  2021.May    -3.70
+  2022.Jul     4.53
+  2024.Nov     3.95
+  2026.Apr    -3.39
+
+ Summary Statistics for the Unstandardized Residuals
+  Minimum                    -0.003
+  Maximum                     0.004
+  Median                      0.000
+  Robust Std Dev              0.001
+
+ Normality Statistics for regARIMA Model Residuals:
+
+    Number of residuals  :    137
+
+    Skewness coefficient :    0.0909    
+    Geary's a            :    0.7121   (significant at one percent level)
+    Kurtosis             :    4.5966   (significant at one percent level)
+
+  A significant value of one of these statistics indicates that the
+  standardized residuals do not follow a standard normal distribution.
+  If the regARIMA model fits the data well, such lack of normality
+  ordinarily causes no problems.
+
+  However, a significant value can occur because certain data effects are
+  not captured well by the model. Sometimes these effects can be captured
+  by additional or different regressors (e.g. trading day, holiday or 
+  outlier regressors).
+
+  There are other important effects that can cause a significant value,
+  such as random variation of the coefficients or time-varying conditional
+  variances, which cannot be represented by regARIMA models. These other
+  effects cause the t-tests, AIC's and forecast coverage intervals of
+  X-13ARIMA-SEATS to have reduced reliability. Their presence is often
+  indicated by significant (high) values of the Ljung-Box Q-statistics of
+  the squared residuals.
+
+ Durbin-Watson Statistic for regARIMA Model Residuals:
+  dw =     2.016125
+
+ Friedman Non-Parametric Test for regARIMA Model Residuals:
+  ken =    20.020979 ( Asymptotically distributed as Chi-Square(11), P-Value =     0.045054 )
+
+ QS Statistic for regARIMA Model Residuals (full series):             5.39
+                                                       (P-Value =     0.0674)
+
+ QS Statistic for regARIMA Model Residuals (starting 2018.Aug):       0.00
+                                                       (P-Value =     1.0000)
+
+
+  At least one visually significant residual trading day peaks has been
+  found in the spectral plot of the following series starting in 2018.Aug:
+
+          regARIMA model residuals (1 Trading Day peak(s))
+
+
+
+
+      10*LOG(SPECTRUM) of the regARIMA model residuals
+      Spectrum estimated from 2018.Aug to 2026.Jul.
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+     -53.20I                   *                                         I    -53.20
+           I                   *                           *             I
+           I                   *                           *            SI
+           I                   *                           *            SI
+     -54.34I                   *                          **        *   SI    -54.34
+           I                   *                          **        *   SI
+           I                   *S                         **        *   SI
+           I                   *S                   S     **        *   SI
+     -55.48I            *   ****S                   S     **        *   SI    -55.48
+           I            *   ****S    *             *S     **        *   SI
+           I            *   ****S    *             *S     **        *   SI
+           I            *   ****S    *             *S     **    T   *   SI
+     -56.62I            *   ****S   **             *S     **    T   *   SI    -56.62
+           I            *   ****S   **     *       *S    ***    T   *   SI
+           I            *   ****S   **     *  *    *S    ***    T  **   SI
+           I            *   ****S   **     *  *    *S    ***    T  **   SI
+     -57.76I            *   ****S   **    S*  *    *S   ****    T  **   SI    -57.76
+           I            *   ****S   **    S*  *    *S   ****    T  **   SI
+           I     *      ** *****S   ***   S*  *    *S   ****    T  **   SI
+           I *   *      ** *****S*  ***   S****    *S   ****    T  **   SI
+     -58.90I***  *      ** *****S*  ***   S****    *S   ****    T  **   SI    -58.90
+           I***  *      ** *****S* ****   S****    *S   ****    T  **   SI
+           I***  *      ** *****S* ****   S****    *S   ****    T  **   SI
+           I***  **     ** *****S* ****   S*****   *S   ****   *T  **  *SI
+     -60.04I***  **     ********S******  *S*****   *S   ****   *T  **  *SI    -60.04
+           I***  **     ********S******* *S*****   *S*  *****  *T* **  *SI
+           I*******     ********S******* *S*****   *S*  *****  *T* **  *SI
+           I*******     ********S*********S*****   *S* ******  *T* *** *SI
+     -61.18I*******     ********S*********S*****   *S* ******  *T* *** *SI    -61.18
+           I*******     ********S*********S*****   *S* ******  *T***** *SI
+           I*******     ********S*********S*****   *S* ******  *T***** *SI
+           I*******    *********S*********S*****   *S*T******  *T***** *SI
+     -62.32I*******    *********S*********S*****  **S*T******  *T***** *SI    -62.32
+           I*******    *********S*********S*****  **S*T****** S*T*******SI
+           I*******    *********S*********S*****  **S*T****** S*T*******SI
+           I*******    *********S*********S****** **S*T*******S*T*******SI
+     -63.46I*******    *********S*********S****** **S*T*******S*T*******SI    -63.46
+           I*******    *********S*********S****** **S*T*******S*T*******SI
+           I*******    *********S*********S****** **S*T*******S*T*******SI
+           I*******    *********S*********S*********S*T*******S*T*******SI
+     -64.60I*******    *********S*********S*********S*T*******S*T*******SI    -64.60
+           I********   *********S*********S*********S*T*******S*T*******SI
+           I********   *********S*********S*********S*T*******S*T*******SI
+           I********   *********S*********S*********S*T*******S*T*******SI
+     -65.74I********   *********S*********S*********S*T*******S*T*******SI    -65.74
+           I********   *********S*********S*********S*T*******S*T*******SI
+           I********   *********S*********S*********S*T*******S*T*******SI
+           I********  S*********S*********S*********S*T*******S*T*******SI
+     -66.89I********  S*********S*********S*********S*T*******S*T*******SI    -66.89
+           I********  S*********S*********S*********S*T*******S*T*******SI
+           I********  S*********S*********S*********S*T*******S*T*******SI
+           I********* S*********S*********S*********S*T*******S*T*******SI
+     -68.03I**********S*********S*********S*********S*T*******S*T*******SI    -68.03
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+            S=SEASONAL FREQUENCIES, T=TRADING DAY FREQUENCIES
+
+
+ FORECASTING
+  Origin  2026.Jul
+  Number        12
+
+  Forecasts and Standard Errors of the Transformed Data
+   ------------------------------
+                         Standard
+       Date   Forecast      Error
+   ------------------------------
+   2026.Aug       4.63      0.001
+   2026.Sep       4.63      0.002
+   2026.Oct       4.63      0.003
+   2026.Nov       4.63      0.003
+   2026.Dec       4.63      0.004
+   2027.Jan       4.63      0.004
+   2027.Feb       4.63      0.005
+   2027.Mar       4.63      0.006
+   2027.Apr       4.64      0.006
+   2027.May       4.64      0.007
+   2027.Jun       4.64      0.007
+   2027.Jul       4.64      0.008
+   ------------------------------
+
+  Confidence intervals with coverage probability ( 0.95000
+  On the Original Scale
+   ---------------------------------------
+       Date      Lower  Forecast     Upper
+   ---------------------------------------
+   2026.Aug     102.22    102.47    102.73
+   2026.Sep     102.14    102.55    102.96
+   2026.Oct     102.09    102.63    103.17
+   2026.Nov     102.05    102.70    103.36
+   2026.Dec     102.01    102.78    103.56
+   2027.Jan     101.98    102.86    103.75
+   2027.Feb     101.94    102.94    103.95
+   2027.Mar     101.91    103.02    104.14
+   2027.Apr     101.87    103.10    104.34
+   2027.May     101.83    103.18    104.54
+   2027.Jun     101.79    103.26    104.74
+   2027.Jul     101.75    103.33    104.94
+   ---------------------------------------
+        R35 monthly CPI index            PAGE   4, SERIES series
+  
+ A 8  RegARIMA combined outlier component
+      (AO, LS, TC outliers included)
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015         99.3     99.3     99.3     99.3     99.3     99.3
+               99.3     99.3     99.3     99.3     99.3     99.3          99.3
+ 
+  2016         99.3     99.3     99.3     99.3     99.3     99.3
+               99.3     99.3     99.3     99.3     98.5     98.7          99.2
+ 
+  2017         98.9     99.8     99.6     99.5     99.5     99.4
+               99.4     99.3     99.3     99.3     99.3     99.3          99.4
+ 
+  2018         99.3     99.3     99.3     99.3     99.3     99.3
+               99.3     99.3     99.3     99.3     99.3     99.3          99.3
+ 
+  2019         99.3     99.3     99.3     99.3     99.3     99.3
+               99.3     99.3     99.3     99.3     97.8     97.8          99.0
+ 
+  2020         97.8     97.8     97.3     97.3     97.9     97.9
+               97.9     97.9     97.9     97.9     97.9     97.9          97.8
+ 
+  2021         97.9     97.9     97.9     97.9     97.9     97.9
+               97.9     97.9     97.9     97.9     97.9     97.9          97.9
+ 
+  2022         97.9     97.9     97.9     97.9     97.9     97.9
+               97.9     97.9     97.9     98.6     98.6     98.6          98.1
+ 
+  2023         98.6     98.6     99.1     99.6     99.4     99.3
+              100.0     99.7     99.6     99.4     99.3     99.2          99.3
+ 
+  2024         99.2     99.2     99.1     99.1     99.1    100.3
+              100.0     99.7     99.5     99.4     99.3     99.2          99.4
+ 
+  2025         99.2     99.2     99.1     99.1    100.0    100.5
+              100.3    100.2    100.2    100.1    100.1    100.1          99.8
+ 
+  2026         99.7    100.0    100.0    100.0    100.0    100.0
+              100.0                                                      100.0
+ 
+  AVGE         98.9     99.0     98.9     99.0     99.1     99.2
+               99.2     99.1     99.0     99.1     98.8     98.8
+
+  Table Total-     13761.64   Mean-      99.00   Std. Dev.-       1.25
+                              Min -      97.29        Max -     100.50
+
+ A 8.A  RegARIMA outlier component
+  From  2026.Aug to 2027.Jul
+  Observations         12
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2026                                                          
+                       100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2027        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0                                                      100.0
+ 
+        R35 monthly CPI index            PAGE   5, SERIES series
+
+ A 8.AO  RegARIMA AO outlier component
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2016        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2017        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2018        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2019        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2020        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2021        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2022        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2023        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2024        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2025        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2026         99.6    100.0    100.0    100.0    100.0    100.0
+              100.0                                                       99.9
+ 
+  AVGE        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0
+
+  Table Total-     13899.63   Mean-     100.00   Std. Dev.-       0.03
+                              Min -      99.63        Max -     100.00
+        R35 monthly CPI index            PAGE   6, SERIES series
+
+ A 8.LS  RegARIMA level change outlier component
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015         99.3     99.3     99.3     99.3     99.3     99.3
+               99.3     99.3     99.3     99.3     99.3     99.3          99.3
+ 
+  2016         99.3     99.3     99.3     99.3     99.3     99.3
+               99.3     99.3     99.3     99.3     99.3     99.3          99.3
+ 
+  2017         99.3     99.3     99.3     99.3     99.3     99.3
+               99.3     99.3     99.3     99.3     99.3     99.3          99.3
+ 
+  2018         99.3     99.3     99.3     99.3     99.3     99.3
+               99.3     99.3     99.3     99.3     99.3     99.3          99.3
+ 
+  2019         99.3     99.3     99.3     99.3     99.3     99.3
+               99.3     99.3     99.3     99.3     97.8     97.8          99.0
+ 
+  2020         97.8     97.8     97.3     97.3     97.9     97.9
+               97.9     97.9     97.9     97.9     97.9     97.9          97.8
+ 
+  2021         97.9     97.9     97.9     97.9     97.9     97.9
+               97.9     97.9     97.9     97.9     97.9     97.9          97.9
+ 
+  2022         97.9     97.9     97.9     97.9     97.9     97.9
+               97.9     97.9     97.9     98.6     98.6     98.6          98.1
+ 
+  2023         98.6     98.6     99.1     99.1     99.1     99.1
+               99.1     99.1     99.1     99.1     99.1     99.1          99.0
+ 
+  2024         99.1     99.1     99.1     99.1     99.1     99.1
+               99.1     99.1     99.1     99.1     99.1     99.1          99.1
+ 
+  2025         99.1     99.1     99.1     99.1    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0          99.7
+ 
+  2026        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0                                                      100.0
+ 
+  AVGE         98.9     98.9     98.9     98.9     99.0     99.0
+               99.0     98.9     98.9     99.0     98.9     98.9
+
+  Table Total-     13752.23   Mean-      98.94   Std. Dev.-       1.27
+                              Min -      97.29        Max -     100.00
+        R35 monthly CPI index            PAGE   7, SERIES series
+
+ A 8.TC  RegARIMA temporary change outlier component
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2016        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0     99.2     99.4          99.9
+ 
+  2017         99.6    100.5    100.3    100.2    100.2    100.1
+              100.1    100.1    100.0    100.0    100.0    100.0         100.1
+ 
+  2018        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2019        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2020        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2021        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2022        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2023        100.0    100.0    100.0    100.5    100.3    100.2
+              101.0    100.7    100.5    100.3    100.2    100.2         100.3
+ 
+  2024        100.1    100.1    100.1    100.0    100.0    101.3
+              100.9    100.6    100.4    100.3    100.2    100.1         100.3
+ 
+  2025        100.1    100.1    100.1    100.0    100.0    100.5
+              100.3    100.2    100.2    100.1    100.1    100.1         100.2
+ 
+  2026        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0                                                      100.0
+ 
+  AVGE        100.0    100.1    100.0    100.1    100.0    100.2
+              100.2    100.1    100.1    100.1    100.0    100.0
+
+  Table Total-     13909.86   Mean-     100.07   Std. Dev.-       0.23
+                              Min -      99.21        Max -     101.26
+
+ A 8.TC.A  RegARIMA temporary change outlier component
+  From  2026.Aug to 2027.Jul
+  Observations         12
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2026                                                          
+                       100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2027        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0                                                      100.0
+ 
+        R35 monthly CPI index            PAGE   8, SERIES series
+  
+ B 1  Original series (prior adjusted)
+      (adjusted for regARIMA factors)
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec        TOTAL  
+ -----------------------------------------------------------------------------
+  2015         101.     101.     101.     101.     101.     101.
+               101.     101.     101.     101.     101.     101.         1209.
+ 
+  2016         101.     101.     101.     101.     101.     101.
+               101.     101.     101.     101.     101.     101.         1208.
+ 
+  2017         101.     101.     101.     101.     101.     101.
+               100.     100.     100.     100.     100.     100.         1204.
+ 
+  2018         100.     100.     100.     100.     100.      99.
+                99.      99.      99.      99.      99.      99.         1193.
+ 
+  2019          99.      99.      99.      99.      99.      99.
+                98.      98.      98.      98.      98.      98.         1182.
+ 
+  2020          98.      98.      98.      97.      97.      97.
+                97.      97.      97.      97.      97.      97.         1167.
+ 
+  2021          97.      97.      97.      97.      97.      97.
+                97.      97.      97.      97.      97.      97.         1165.
+ 
+  2022          97.      97.      97.      97.      97.      97.
+                97.      97.      98.      98.      98.      98.         1167.
+ 
+  2023          98.      98.      98.      98.      98.      98.
+                99.      99.      99.      99.      99.      99.         1182.
+ 
+  2024          99.      99.     100.     100.     100.     100.
+               100.     100.     100.     101.     101.     100.         1200.
+ 
+  2025         101.     101.     101.     101.     101.     101.
+               101.     102.     102.     102.     102.     102.         1216.
+ 
+  2026         102.     102.     102.     103.     103.     102.
+               102.                                                       717.
+ 
+  AVGE          99.      99.      99.      99.      99.      99.
+                99.      99.      99.      99.      99.      99.
+
+  Table Total-     13809.93   Mean-      99.35   Std. Dev.-       1.63
+                              Min -      96.85        Max -     102.69
+
+ B 1.A  Forecasts of (prior adjusted) original series
+  From  2026.Aug to 2027.Jul
+  Observations         12
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec        TOTAL  
+ -----------------------------------------------------------------------------
+  2026                                                          
+                        102.     103.     103.     103.     103.          513.
+ 
+  2027         103.     103.     103.     103.     103.     103.
+               103.                                                       722.
+ 
+        R35 monthly CPI index            PAGE   9, SERIES series
+
+ C 17  Final weights for irregular component
+  From  2015.Jan to 2026.Jul
+  Observations        139
+  Lower sigma limit    1.50
+  Upper sigma limit    2.50
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         S.D.  
+ -----------------------------------------------------------------------------
+  2015        100.0    100.0    100.0      0.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0      0.0           0.0
+ 
+  2016        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0     91.3    100.0    100.0           0.0
+ 
+  2017        100.0    100.0    100.0    100.0      0.0    100.0
+                0.0    100.0    100.0      0.0    100.0    100.0           0.0
+ 
+  2018        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0           0.0
+ 
+  2019        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0      0.0           0.1
+ 
+  2020        100.0      0.0     89.6     90.8    100.0    100.0
+              100.0      0.0    100.0      0.0     37.0    100.0           0.0
+ 
+  2021        100.0    100.0    100.0    100.0    100.0     99.0
+               48.4    100.0    100.0    100.0    100.0    100.0           0.1
+ 
+  2022        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0      0.0    100.0    100.0    100.0    100.0           0.1
+ 
+  2023        100.0    100.0     21.1    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0      0.0           0.0
+ 
+  2024        100.0    100.0    100.0    100.0     90.2    100.0
+              100.0      0.0    100.0    100.0    100.0      0.0           0.0
+ 
+  2025          0.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0           0.0
+ 
+  2026        100.0      6.0     89.1      0.0     29.8    100.0
+              100.0                                                        0.0
+ 
+        R35 monthly CPI index            PAGE  10, SERIES series
+
+ D 8  Final unmodified SI ratios
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015         99.9     99.9    100.0    100.2    100.0     99.9
+              100.0    100.0    100.1    100.1    100.1    100.0         100.0
+ 
+  2016         99.9     99.9    100.0    100.0    100.0     99.9
+              100.0    100.0    100.1    100.1    100.1     99.9         100.0
+ 
+  2017         99.9     99.9    100.1    100.1    100.1    100.0
+               99.9    100.0    100.1     99.9    100.0     99.9         100.0
+ 
+  2018         99.9    100.0    100.0    100.1    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2019         99.9     99.9    100.0    100.1    100.0    100.0
+               99.9    100.1    100.1    100.0    100.0     99.8         100.0
+ 
+  2020        100.0    100.1    100.1    100.0    100.0    100.0
+              100.0     99.8    100.1    100.2     99.9     99.9         100.0
+ 
+  2021         99.9     99.9    100.1    100.0    100.0    100.1
+               99.9    100.0    100.0    100.1    100.0     99.9         100.0
+ 
+  2022        100.0    100.0    100.0    100.0    100.0     99.9
+               99.9     99.8    100.1    100.1    100.0    100.0         100.0
+ 
+  2023         99.9    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.1    100.1    100.0    100.1         100.0
+ 
+  2024        100.0     99.9    100.1    100.0     99.9     99.9
+              100.0    100.1    100.1    100.0     99.9     99.8         100.0
+ 
+  2025        100.1    100.0    100.1    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0     99.9     99.9         100.0
+ 
+  2026         99.9     99.9    100.2    100.3    100.1    100.0
+              100.0                                                      100.0
+ 
+  AVGE        100.0    100.0    100.1    100.1    100.0    100.0
+              100.0    100.0    100.1    100.0    100.0     99.9
+
+  Table Total-     13900.00   Mean-     100.00   Std. Dev.-       0.08
+                              Min -      99.76        Max -     100.27
+
+            Due to the small residual mean square error all the analysis
+            of variance tests for this series may be invalid.
+        R35 monthly CPI index            PAGE  11, SERIES series
+
+ D 8.B  Final unmodified SI ratios, with labels for outliers and extreme values
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ ---------------------------------------------------------------------
+               Jan       Feb       Mar       Apr       May       Jun  
+               Jul       Aug       Sep       Oct       Nov       Dec  
+ ---------------------------------------------------------------------
+  2015        99.9      99.9     100.0     100.2*    100.0      99.9  
+             100.0     100.0     100.1     100.1     100.1     100.0* 
+ 
+  2016        99.9      99.9     100.0     100.0     100.0      99.9  
+             100.0     100.0     100.1     100.1*    100.1#     99.9  
+ 
+  2017        99.9      99.9#    100.1     100.1     100.1*    100.0  
+              99.9*    100.0     100.1      99.9*    100.0      99.9  
+ 
+  2018        99.9     100.0     100.0     100.1     100.0     100.0  
+             100.0     100.0     100.0     100.0     100.0     100.0  
+ 
+  2019        99.9      99.9     100.0     100.1     100.0     100.0  
+              99.9     100.1     100.1     100.0 -   100.0#     99.8*-
+ 
+  2020       100.0     100.1*    100.1&    100.0*    100.0#    100.0  
+             100.0      99.8*    100.1     100.2*     99.9*     99.9  
+ 
+  2021        99.9      99.9     100.1     100.0     100.0     100.1* 
+              99.9*    100.0     100.0     100.1     100.0      99.9  
+ 
+  2022       100.0     100.0     100.0     100.0     100.0      99.9  
+              99.9      99.8*    100.1     100.1#    100.0     100.0  
+ 
+  2023        99.9     100.0     100.0&    100.0#    100.0     100.0  
+             100.0#    100.0     100.1     100.1     100.0     100.1* 
+ 
+  2024       100.0      99.9     100.1     100.0      99.9*     99.9# 
+             100.0     100.1*    100.1     100.0      99.9      99.8* 
+ 
+  2025       100.1*    100.0     100.1     100.0     100.0#    100.0# 
+             100.0     100.0     100.0     100.0      99.9      99.9  
+ 
+  2026        99.9#     99.9*    100.2*    100.3*    100.1*    100.0  
+             100.0                                                    
+ 
+
+  Key to symbols:
+    *  : extreme value as determined by X-11 extreme value procedure
+    #  : regARIMA outlier (either AO, LS, TC, or Ramp)
+    &  : more than one type of regARIMA outlier
+    -  : values around a level shift most likely to be influenced by it
+ 
+        R35 monthly CPI index            PAGE  12, SERIES series
+
+ D 9  Final replacement values for SI ratios
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ ---------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec 
+ ---------------------------------------------------------------
+  2015     ******** ******** ********    100.1 ******** ********
+           ******** ******** ******** ******** ********     99.9
+ 
+  2016     ******** ******** ******** ******** ******** ********
+           ******** ******** ********    100.1 ******** ********
+ 
+  2017     ******** ******** ******** ********    100.0 ********
+              100.0 ******** ********    100.0 ******** ********
+ 
+  2018     ******** ******** ******** ******** ******** ********
+           ******** ******** ******** ******** ******** ********
+ 
+  2019     ******** ******** ******** ******** ******** ********
+           ******** ******** ******** ******** ********     99.9
+ 
+  2020     ********     99.9    100.1    100.0 ******** ********
+           ********    100.0 ********    100.0    100.0 ********
+ 
+  2021     ******** ******** ******** ******** ********    100.1
+               99.9 ******** ******** ******** ******** ********
+ 
+  2022     ******** ******** ******** ******** ******** ********
+           ********    100.0 ******** ******** ******** ********
+ 
+  2023     ******** ********    100.0 ******** ******** ********
+           ******** ******** ******** ******** ********    100.0
+ 
+  2024     ******** ******** ******** ********     99.9 ********
+           ********    100.0 ******** ******** ********     99.9
+ 
+  2025        100.0 ******** ******** ******** ******** ********
+           ******** ******** ******** ******** ******** ********
+ 
+  2026     ********    100.0    100.2    100.1    100.1 ********
+           ********                                             
+ 
+
+ D 9.A  Moving seasonality ratio
+ ---------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+ ---------------------------------------------------------------
+   I          0.054    0.046    0.043    0.053    0.038    0.050
+   S          0.008    0.007    0.009    0.009    0.005    0.009
+ RATIO        6.771    6.463    5.078    6.099    7.319    5.288
+
+
+
+ ---------------------------------------------------------------
+               Jul      Aug      Sep      Oct      Nov      Dec 
+ ---------------------------------------------------------------
+   I          0.041    0.027    0.050    0.037    0.040    0.043
+   S          0.008    0.005    0.007    0.007    0.007    0.008
+ RATIO        5.265    4.966    7.313    5.448    5.287    5.422
+
+
+
+        R35 monthly CPI index            PAGE  13, SERIES series
+
+ D 10  Final seasonal factors
+  From  2015.Jan to 2026.Jul
+  Observations        139
+  Seasonal filter    3 x 5 moving average
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015        99.90    99.92   100.02   100.06   100.02    99.95
+              99.98   100.02   100.11   100.07   100.04    99.91        100.00
+ 
+  2016        99.90    99.92   100.02   100.07   100.02    99.96
+              99.98   100.02   100.10   100.06   100.03    99.91        100.00
+ 
+  2017        99.90    99.93   100.02   100.06   100.01    99.97
+              99.97   100.02   100.10   100.05   100.02    99.92        100.00
+ 
+  2018        99.91    99.93   100.04   100.06   100.01    99.99
+              99.96   100.02   100.10   100.04   100.00    99.93        100.00
+ 
+  2019        99.92    99.93   100.05   100.05   100.01   100.00
+              99.95   100.01   100.09   100.03    99.99    99.94        100.00
+ 
+  2020        99.94    99.94   100.06   100.04   100.01   100.01
+              99.95   100.00   100.08   100.03    99.99    99.95        100.00
+ 
+  2021        99.96    99.95   100.07   100.02   100.00   100.00
+              99.95    99.99   100.08   100.04    99.99    99.96        100.00
+ 
+  2022        99.97    99.95   100.07   100.01    99.99    99.99
+              99.97    99.99   100.07   100.04    99.98    99.96        100.00
+ 
+  2023        99.97    99.97   100.07   100.00    99.99    99.98
+              99.98    99.99   100.06   100.04    99.98    99.97        100.00
+ 
+  2024        99.97    99.98   100.07   100.00   100.00    99.97
+              99.99   100.00   100.05   100.02    99.97    99.96        100.00
+ 
+  2025        99.97    99.99   100.08   100.01   100.00    99.97
+              99.99   100.01   100.04   100.01    99.96    99.95        100.00
+ 
+  2026        99.96   100.00   100.09   100.02   100.01    99.97
+              99.99                                                     100.01
+ 
+  AVGE        99.94    99.95   100.05   100.03   100.00    99.98
+              99.97   100.01   100.08   100.04    99.99    99.94
+
+  Table Total-     13899.93   Mean-     100.00   Std. Dev.-       0.05
+                              Min -      99.90        Max -     100.11
+
+ D 10.A  Final seasonal component forecasts
+  From  2026.Aug to 2027.Jul
+  Observations         12
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2026                                                          
+                      100.01   100.04   100.00    99.95    99.95         99.99
+ 
+  2027        99.96   100.01   100.09   100.03   100.01    99.97
+              99.99                                                     100.01
+ 
+        R35 monthly CPI index            PAGE  14, SERIES series
+
+ D 11  Final seasonally adjusted data
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec        TOTAL  
+ -----------------------------------------------------------------------------
+  2015         100.     100.     100.     100.     100.     100.
+               100.     100.     100.     100.     100.     100.         1200.
+ 
+  2016         100.     100.     100.     100.     100.     100.
+               100.     100.     100.     100.      99.      99.         1198.
+ 
+  2017         100.     100.     100.     100.     100.     100.
+               100.     100.      99.      99.      99.      99.         1197.
+ 
+  2018          99.      99.      99.      99.      99.      99.
+                99.      99.      99.      99.      99.      99.         1185.
+ 
+  2019          98.      98.      98.      98.      98.      98.
+                98.      98.      98.      97.      96.      95.         1170.
+ 
+  2020          96.      96.      95.      95.      95.      95.
+                95.      95.      95.      95.      95.      95.         1141.
+ 
+  2021          95.      95.      95.      95.      95.      95.
+                95.      95.      95.      95.      95.      95.         1140.
+ 
+  2022          95.      95.      95.      95.      95.      95.
+                95.      95.      95.      96.      96.      97.         1145.
+ 
+  2023          97.      97.      97.      98.      98.      98.
+                99.      98.      98.      98.      98.      99.         1174.
+ 
+  2024          99.      99.      99.      99.      99.     100.
+               100.     100.     100.     100.     100.     100.         1193.
+ 
+  2025         100.     100.     100.     100.     101.     102.
+               102.     102.     102.     102.     102.     102.         1215.
+ 
+  2026         102.     102.     102.     103.     103.     102.
+               102.                                                       716.
+ 
+  AVGE          98.      98.      98.      98.      99.      99.
+                99.      98.      98.      98.      98.      98.
+
+  Table Total-     13673.97   Mean-      98.37   Std. Dev.-       2.28
+                              Min -      94.56        Max -     102.68
+        R35 monthly CPI index            PAGE  15, SERIES series
+
+ D 12  Final trend cycle
+  From  2015.Jan to 2026.Jul
+  Observations        139
+  Trend filter     9-term Henderson moving average
+  I/C ratio        0.46
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec        TOTAL  
+ -----------------------------------------------------------------------------
+  2015         100.     100.     100.     100.     100.     100.
+               100.     100.     100.     100.     100.     100.         1200.
+ 
+  2016         100.     100.     100.     100.     100.     100.
+               100.     100.     100.     100.     100.     100.         1200.
+ 
+  2017         100.     100.     100.     100.     100.     100.
+               100.     100.      99.      99.      99.      99.         1196.
+ 
+  2018          99.      99.      99.      99.      99.      99.
+                99.      99.      99.      99.      99.      99.         1184.
+ 
+  2019          98.      98.      98.      98.      98.      98.
+                98.      98.      97.      97.      96.      96.         1170.
+ 
+  2020          96.      95.      95.      95.      95.      95.
+                95.      95.      95.      95.      95.      95.         1141.
+ 
+  2021          95.      95.      95.      95.      95.      95.
+                95.      95.      95.      95.      95.      95.         1140.
+ 
+  2022          95.      95.      95.      95.      95.      95.
+                95.      95.      95.      96.      96.      96.         1145.
+ 
+  2023          97.      97.      97.      97.      97.      98.
+                98.      98.      98.      98.      98.      98.         1171.
+ 
+  2024          98.      98.      99.      99.      99.      99.
+                99.      99.      99.     100.     100.     100.         1189.
+ 
+  2025         100.     100.     100.     100.     101.     101.
+               101.     102.     102.     102.     102.     102.         1212.
+ 
+  2026         102.     102.     102.     102.     102.     102.
+               102.                                                       716.
+ 
+  AVGE          98.      98.      98.      98.      98.      98.
+                98.      98.      98.      98.      98.      98.
+
+  Table Total-     13664.51   Mean-      98.31   Std. Dev.-       2.24
+                              Min -      94.63        Max -     102.47
+        R35 monthly CPI index            PAGE  16, SERIES series
+
+ D 13  Final irregular component
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         S.D.  
+ -----------------------------------------------------------------------------
+  2015        100.0    100.0    100.0    100.2    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.1           0.1
+ 
+  2016        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0     99.2     99.4           0.3
+ 
+  2017         99.6    100.5    100.4    100.3    100.3    100.1
+              100.0    100.1    100.1     99.9    100.0    100.0           0.2
+ 
+  2018        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0    100.0     99.9    100.0    100.0    100.1           0.0
+ 
+  2019        100.0    100.0    100.0    100.1    100.0    100.0
+              100.0    100.0    100.0     99.9    100.0     99.8           0.1
+ 
+  2020        100.0    100.1    100.1     99.9    100.0    100.0
+              100.0     99.8    100.1    100.1     99.9    100.0           0.1
+ 
+  2021        100.0    100.0    100.0    100.0    100.0    100.1
+               99.9    100.0    100.0    100.0    100.0    100.0           0.0
+ 
+  2022        100.0    100.0    100.0    100.0    100.0    100.0
+              100.0     99.8    100.0    100.0    100.0    100.0           0.1
+ 
+  2023        100.0    100.0     99.9    100.5    100.4    100.3
+              101.0    100.6    100.4    100.3    100.3    100.2           0.4
+ 
+  2024        100.1    100.0    100.1    100.0    100.0    101.2
+              100.9    100.7    100.5    100.3    100.2    100.0           0.5
+ 
+  2025        100.3    100.1    100.0    100.0    100.0    100.5
+              100.4    100.3    100.2    100.1    100.1    100.1           0.2
+ 
+  2026         99.6     99.9    100.1    100.2    100.1    100.0
+              100.0                                                        0.2
+ 
+  S.D.          0.2      0.2      0.1      0.2      0.1      0.4
+                0.4      0.3      0.2      0.2      0.3      0.2
+
+  Table Total-     13909.54   Mean-     100.07   Std. Dev.-       0.24
+                              Min -      99.22        Max -     101.23
+        R35 monthly CPI index            PAGE  17, SERIES series
+
+ D 16  Combined adjustment factors
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015        99.90    99.92   100.02   100.06   100.02    99.95
+              99.98   100.02   100.11   100.07   100.04    99.91        100.00
+ 
+  2016        99.90    99.92   100.02   100.07   100.02    99.96
+              99.98   100.02   100.10   100.06   100.03    99.91        100.00
+ 
+  2017        99.90    99.93   100.02   100.06   100.01    99.97
+              99.97   100.02   100.10   100.05   100.02    99.92        100.00
+ 
+  2018        99.91    99.93   100.04   100.06   100.01    99.99
+              99.96   100.02   100.10   100.04   100.00    99.93        100.00
+ 
+  2019        99.92    99.93   100.05   100.05   100.01   100.00
+              99.95   100.01   100.09   100.03    99.99    99.94        100.00
+ 
+  2020        99.94    99.94   100.06   100.04   100.01   100.01
+              99.95   100.00   100.08   100.03    99.99    99.95        100.00
+ 
+  2021        99.96    99.95   100.07   100.02   100.00   100.00
+              99.95    99.99   100.08   100.04    99.99    99.96        100.00
+ 
+  2022        99.97    99.95   100.07   100.01    99.99    99.99
+              99.97    99.99   100.07   100.04    99.98    99.96        100.00
+ 
+  2023        99.97    99.97   100.07   100.00    99.99    99.98
+              99.98    99.99   100.06   100.04    99.98    99.97        100.00
+ 
+  2024        99.97    99.98   100.07   100.00   100.00    99.97
+              99.99   100.00   100.05   100.02    99.97    99.96        100.00
+ 
+  2025        99.97    99.99   100.08   100.01   100.00    99.97
+              99.99   100.01   100.04   100.01    99.96    99.95        100.00
+ 
+  2026        99.96   100.00   100.09   100.02   100.01    99.97
+              99.99                                                     100.01
+ 
+  AVGE        99.94    99.95   100.05   100.03   100.00    99.98
+              99.97   100.01   100.08   100.04    99.99    99.94
+
+  Table Total-     13899.93   Mean-     100.00   Std. Dev.-       0.05
+                              Min -      99.90        Max -     100.11
+
+ D 16.A  Combined adjustment component forecasts
+  From  2026.Aug to 2027.Jul
+  Observations         12
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2026                                                          
+                      100.01   100.04   100.00    99.95    99.95         99.99
+ 
+  2027        99.96   100.01   100.09   100.03   100.01    99.97
+              99.99                                                     100.01
+ 
+        R35 monthly CPI index            PAGE  18, SERIES series
+
+ E 4  Ratios of annual totals
+  From          2015 to 2025
+  Observations         11
+ -----------------------------------
+  Year       Unmodified     Modified
+                  (D11)         (E2)
+ -----------------------------------
+  2015           100.00       100.00
+ 
+  2016           100.00       100.00
+ 
+  2017           100.00       100.02
+ 
+  2018           100.00       100.00
+ 
+  2019           100.00       100.00
+ 
+  2020           100.00       100.00
+ 
+  2021           100.00       100.00
+ 
+  2022           100.00       100.00
+ 
+  2023           100.00       100.01
+ 
+  2024           100.00       100.06
+ 
+  2025           100.00       100.01
+ 
+        R35 monthly CPI index            PAGE  19, SERIES series
+
+ E 5  Month-to-month percent change in the original series
+  From  2015.Feb to 2026.Jul
+  Observations        138
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                  -0.1      0.0      0.1     -0.3     -0.2
+                0.0      0.0      0.1      0.0      0.0      0.0          -0.0
+ 
+  2016         -0.1      0.0      0.0      0.0      0.0      0.0
+                0.2      0.1      0.2      0.0     -0.9      0.0          -0.0
+ 
+  2017          0.1      0.9      0.0     -0.1     -0.1     -0.3
+               -0.3      0.0     -0.1     -0.4      0.0     -0.2          -0.0
+ 
+  2018          0.0      0.0      0.0      0.0     -0.1     -0.1
+               -0.1      0.0      0.0      0.0      0.0     -0.1          -0.0
+ 
+  2019         -0.2     -0.1      0.0      0.0     -0.2     -0.1
+               -0.2      0.0     -0.1     -0.3     -1.6     -0.3          -0.3
+ 
+  2020          0.1      0.0     -0.6     -0.3      0.5      0.0
+                0.0     -0.1      0.3      0.0     -0.3      0.0          -0.0
+ 
+  2021          0.0      0.0      0.2      0.0      0.0      0.0
+               -0.3      0.0      0.0      0.0     -0.1      0.0          -0.0
+ 
+  2022          0.1      0.0      0.1      0.0      0.0      0.0
+                0.1      0.0      0.4      0.8      0.1      0.1           0.1
+ 
+  2023          0.0      0.1      0.6      0.6      0.0      0.0
+                0.8     -0.2      0.0      0.0      0.0      0.1           0.2
+ 
+  2024          0.0      0.0      0.2      0.0      0.1      1.4
+               -0.1      0.0     -0.1     -0.1     -0.1     -0.1           0.1
+ 
+  2025          0.4      0.0      0.1      0.0      1.0      0.6
+                0.0      0.0      0.0      0.0      0.0      0.1           0.2
+ 
+  2026         -0.3      0.5      0.4      0.2     -0.1     -0.2
+                0.0                                                        0.1
+ 
+  AVGE          0.0      0.1      0.1      0.0      0.1      0.1
+                0.0     -0.0      0.1      0.0     -0.3     -0.0
+
+  Table Total-         2.14   Mean-       0.02   Std. Dev.-       0.31
+                              Min -      -1.64        Max -       1.42
+        R35 monthly CPI index            PAGE  20, SERIES series
+
+ E 6  Month-to-month percent change in seasonally adjusted series (D11)
+  From  2015.Feb to 2026.Jul
+  Observations        138
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                  -0.1     -0.1      0.1     -0.3     -0.1
+               -0.0     -0.0      0.0      0.0      0.0      0.1          -0.0
+ 
+  2016         -0.1     -0.0     -0.1     -0.0      0.0      0.1
+                0.2      0.1      0.1      0.0     -0.9      0.1          -0.0
+ 
+  2017          0.1      0.9     -0.1     -0.1     -0.1     -0.3
+               -0.3     -0.0     -0.2     -0.4      0.0     -0.1          -0.0
+ 
+  2018          0.0     -0.0     -0.1     -0.0     -0.1     -0.1
+               -0.1     -0.1     -0.1      0.1      0.0     -0.0          -0.0
+ 
+  2019         -0.2     -0.1     -0.1      0.0     -0.2     -0.1
+               -0.2     -0.1     -0.2     -0.2     -1.6     -0.3          -0.3
+ 
+  2020          0.1      0.0     -0.8     -0.3      0.6     -0.0
+                0.1     -0.2      0.2      0.0     -0.3      0.0          -0.0
+ 
+  2021         -0.0      0.0      0.1      0.0      0.0     -0.0
+               -0.3     -0.0     -0.1      0.0     -0.1      0.0          -0.0
+ 
+  2022          0.1      0.0     -0.0      0.1      0.0     -0.0
+                0.1     -0.0      0.3      0.9      0.2      0.1           0.1
+ 
+  2023         -0.0      0.1      0.5      0.7      0.0      0.0
+                0.8     -0.2     -0.1      0.0      0.1      0.1           0.2
+ 
+  2024         -0.0     -0.0      0.1      0.1      0.1      1.4
+               -0.1     -0.0     -0.1     -0.1     -0.0     -0.1           0.1
+ 
+  2025          0.4     -0.0      0.0      0.1      1.0      0.6
+               -0.0     -0.0     -0.0      0.0      0.1      0.1           0.2
+ 
+  2026         -0.3      0.5      0.3      0.3     -0.1     -0.2
+               -0.0                                                        0.1
+ 
+  AVGE          0.0      0.1     -0.0      0.1      0.1      0.1
+                0.0     -0.1     -0.0      0.0     -0.2      0.0
+
+  Table Total-         2.05   Mean-       0.01   Std. Dev.-       0.31
+                              Min -      -1.60        Max -       1.44
+        R35 monthly CPI index            PAGE  21, SERIES series
+
+ E 7  Month-to-month percent change in final trend cycle (D12)
+  From  2015.Feb to 2026.Jul
+  Observations        138
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                  -0.1     -0.1     -0.1     -0.1     -0.1
+               -0.1     -0.0      0.0      0.0      0.0      0.0          -0.0
+ 
+  2016         -0.0     -0.0     -0.1     -0.0      0.0      0.1
+                0.1      0.1      0.1      0.0     -0.0     -0.1           0.0
+ 
+  2017         -0.1     -0.0      0.0     -0.0     -0.1     -0.1
+               -0.1     -0.2     -0.2     -0.2     -0.1     -0.1          -0.1
+ 
+  2018         -0.0     -0.0     -0.0     -0.1     -0.1     -0.1
+               -0.1     -0.1     -0.0      0.0     -0.0     -0.1          -0.0
+ 
+  2019         -0.1     -0.1     -0.1     -0.1     -0.1     -0.1
+               -0.1     -0.1     -0.2     -0.2     -1.6     -0.1          -0.2
+ 
+  2020         -0.1     -0.1     -0.7     -0.1      0.5     -0.0
+                0.0      0.0      0.0     -0.0     -0.1     -0.0          -0.0
+ 
+  2021         -0.0      0.0      0.1      0.1      0.0     -0.1
+               -0.1     -0.1     -0.1     -0.0      0.0      0.0          -0.0
+ 
+  2022          0.0      0.0      0.0      0.0      0.0      0.1
+                0.1      0.1      0.2      0.9      0.1      0.1           0.1
+ 
+  2023          0.1      0.1      0.6      0.1      0.1      0.1
+                0.1      0.1      0.1      0.1      0.1      0.1           0.2
+ 
+  2024          0.1      0.1      0.1      0.1      0.2      0.2
+                0.2      0.2      0.1      0.1      0.1      0.1           0.1
+ 
+  2025          0.1      0.1      0.1      0.1      1.0      0.1
+                0.1      0.1      0.1      0.1      0.1      0.1           0.2
+ 
+  2026          0.1      0.2      0.2      0.1      0.0     -0.0
+               -0.0                                                        0.1
+ 
+  AVGE          0.0      0.0      0.0      0.0      0.1      0.0
+                0.0      0.0      0.0      0.1     -0.1      0.0
+
+  Table Total-         2.06   Mean-       0.01   Std. Dev.-       0.22
+                              Min -      -1.64        Max -       1.03
+        R35 monthly CPI index            PAGE  22, SERIES series
+
+ E 8  Month-to-month percent change in original series adjusted for calendar factors (A18)
+  From  2015.Feb to 2026.Jul
+  Observations        138
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015                  -0.1      0.0      0.1     -0.3     -0.2
+                0.0      0.0      0.1      0.0      0.0      0.0          -0.0
+ 
+  2016         -0.1      0.0      0.0      0.0      0.0      0.0
+                0.2      0.1      0.2      0.0     -0.9      0.0          -0.0
+ 
+  2017          0.1      0.9      0.0     -0.1     -0.1     -0.3
+               -0.3      0.0     -0.1     -0.4      0.0     -0.2          -0.0
+ 
+  2018          0.0      0.0      0.0      0.0     -0.1     -0.1
+               -0.1      0.0      0.0      0.0      0.0     -0.1          -0.0
+ 
+  2019         -0.2     -0.1      0.0      0.0     -0.2     -0.1
+               -0.2      0.0     -0.1     -0.3     -1.6     -0.3          -0.3
+ 
+  2020          0.1      0.0     -0.6     -0.3      0.5      0.0
+                0.0     -0.1      0.3      0.0     -0.3      0.0          -0.0
+ 
+  2021          0.0      0.0      0.2      0.0      0.0      0.0
+               -0.3      0.0      0.0      0.0     -0.1      0.0          -0.0
+ 
+  2022          0.1      0.0      0.1      0.0      0.0      0.0
+                0.1      0.0      0.4      0.8      0.1      0.1           0.1
+ 
+  2023          0.0      0.1      0.6      0.6      0.0      0.0
+                0.8     -0.2      0.0      0.0      0.0      0.1           0.2
+ 
+  2024          0.0      0.0      0.2      0.0      0.1      1.4
+               -0.1      0.0     -0.1     -0.1     -0.1     -0.1           0.1
+ 
+  2025          0.4      0.0      0.1      0.0      1.0      0.6
+                0.0      0.0      0.0      0.0      0.0      0.1           0.2
+ 
+  2026         -0.3      0.5      0.4      0.2     -0.1     -0.2
+                0.0                                                        0.1
+ 
+  AVGE          0.0      0.1      0.1      0.0      0.1      0.1
+                0.0     -0.0      0.1      0.0     -0.3     -0.0
+
+  Table Total-         2.14   Mean-       0.02   Std. Dev.-       0.31
+                              Min -      -1.64        Max -       1.42
+        R35 monthly CPI index            PAGE  23, SERIES series
+
+ E 18  Final adjustment ratios
+  From  2015.Jan to 2026.Jul
+  Observations        139
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2015         99.9     99.9    100.0    100.1    100.0     99.9
+              100.0    100.0    100.1    100.1    100.0     99.9         100.0
+ 
+  2016         99.9     99.9    100.0    100.1    100.0    100.0
+              100.0    100.0    100.1    100.1    100.0     99.9         100.0
+ 
+  2017         99.9     99.9    100.0    100.1    100.0    100.0
+              100.0    100.0    100.1    100.1    100.0     99.9         100.0
+ 
+  2018         99.9     99.9    100.0    100.1    100.0    100.0
+              100.0    100.0    100.1    100.0    100.0     99.9         100.0
+ 
+  2019         99.9     99.9    100.1    100.1    100.0    100.0
+              100.0    100.0    100.1    100.0    100.0     99.9         100.0
+ 
+  2020         99.9     99.9    100.1    100.0    100.0    100.0
+               99.9    100.0    100.1    100.0    100.0    100.0         100.0
+ 
+  2021        100.0     99.9    100.1    100.0    100.0    100.0
+              100.0    100.0    100.1    100.0    100.0    100.0         100.0
+ 
+  2022        100.0    100.0    100.1    100.0    100.0    100.0
+              100.0    100.0    100.1    100.0    100.0    100.0         100.0
+ 
+  2023        100.0    100.0    100.1    100.0    100.0    100.0
+              100.0    100.0    100.1    100.0    100.0    100.0         100.0
+ 
+  2024        100.0    100.0    100.1    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2025        100.0    100.0    100.1    100.0    100.0    100.0
+              100.0    100.0    100.0    100.0    100.0    100.0         100.0
+ 
+  2026        100.0    100.0    100.1    100.0    100.0    100.0
+              100.0                                                      100.0
+ 
+  AVGE         99.9    100.0    100.1    100.0    100.0    100.0
+              100.0    100.0    100.1    100.0    100.0     99.9
+
+  Table Total-     13899.93   Mean-     100.00   Std. Dev.-       0.05
+                              Min -      99.90        Max -     100.11
+
+ E 18.A  Final adjustment ratio forecasts
+  From  2026.Aug to 2027.Jul
+  Observations         12
+ -----------------------------------------------------------------------------
+               Jan      Feb      Mar      Apr      May      Jun 
+               Jul      Aug      Sep      Oct      Nov      Dec         AVGE  
+ -----------------------------------------------------------------------------
+  2026                                                          
+                       100.0    100.0    100.0     99.9     99.9         100.0
+ 
+  2027        100.0    100.0    100.1    100.0    100.0    100.0
+              100.0                                                      100.0
+ 
+
+  QS statistic for seasonality:
+  log(Original Series)                                0.00  (P-Value =     1.0000)
+  log(Original Series (EV adj))                       5.44  (P-Value =     0.0657)
+  Residuals                                           5.39  (P-Value =     0.0674)
+  log(Seasonally Adjusted Series)                     0.00  (P-Value =     1.0000)
+  log(SA Series (EV adj))                             0.00  (P-Value =     1.0000)
+  Irregular Series                                    0.00  (P-Value =     1.0000)
+  Irregular Series (EV adj)                           0.00  (P-Value =     1.0000)
+
+  QS statistic for seasonality (starting 2018.Aug):
+  log(Original Series)                                0.00  (P-Value =     1.0000)
+  log(Original Series (EV adj))                       0.00  (P-Value =     1.0000)
+  Residuals                                           0.00  (P-Value =     1.0000)
+  log(Seasonally Adjusted Series)                     0.00  (P-Value =     1.0000)
+  log(SA Series (EV adj))                             0.00  (P-Value =     1.0000)
+  Irregular Series                                    0.00  (P-Value =     1.0000)
+  Irregular Series (EV adj)                           0.00  (P-Value =     1.0000)
+        R35 monthly CPI index            PAGE  24, SERIES series
+
+
+  Visually significant residual trading day peaks have been
+  found in the spectral plots of the following series starting in 2018.Aug:
+
+          differenced, transformed prior adjusted series (Table B1) (1 Trading Day peak(s))
+
+          differenced, transformed seasonally adjusted series (Table D11) (1 Trading Day peak(s))
+
+          Irregular component (Table D13) (1 Seasonal and 
+
+
+ WARNING: Series should not be a candidate for seasonal adjustment
+          because the spectrum of the prior adjusted series (Table B1)
+          has no visually significant seasonal peaks.
+
+          If this is a component series of an indirectly adjusted
+          composite series, consider using type = trend or type = summary
+          in the x11 spec.
+        R35 monthly CPI index            PAGE  25, SERIES series
+ G 0  10*LOG(SPECTRUM) of the differenced, transformed Prior Adjusted Series
+      (Table B1).  Spectrum estimated from 2018.Aug to 2026.Jul.
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+     -45.57I *                                                           I    -45.57
+           I *                                                           I
+           I *                                                           I
+           I *                                                           I
+     -47.18I *                                                           I    -47.18
+           I *                                                           I
+           I**                                                           I
+           I**                                                           I
+     -48.79I**                                                           I    -48.79
+           I**                                                           I
+           I**                                                           I
+           I**                                                           I
+     -50.40I**                                                           I    -50.40
+           I**                                                           I
+           I**                                                           I
+           I***                                                          I
+     -52.01I***                                                          I    -52.01
+           I***                                                          I
+           I***                *                                         I
+           I***                *                                         I
+     -53.62I***                *                                         I    -53.62
+           I***                *                                         I
+           I***                *                                         I
+           I***         *      *                                         I
+     -55.24I***         *   * **S                          *             I    -55.24
+           I***         *   ****S                         **            SI
+           I***         *   ****S    *              S     **            SI
+           I***         *   ****S    *             *S     **        *   SI
+     -56.85I****        *   ****S   **             *S     **        *   SI    -56.85
+           I**** *      *   ****S   **     *       *S     **        *   SI
+           I**** *      *   ****S   **     *  *    *S     **        *   SI
+           I******      ** *****S   ***   S*  *    *S     **    T   *   SI
+     -58.46I******      ** *****S   ***   S*  *    *S    ***    T   *   SI    -58.46
+           I*******     ** *****S*  ***   S** *    *S    ***    T  **   SI
+           I*******     ** *****S* ****   S****    *S    ***    T  **   SI
+           I*******     ********S* ****   S****    *S   ****    T  **   SI
+     -60.07I*******     ********S*******  S****    *S   ****    T  **   SI    -60.07
+           I*******    *********S******* *S*****   *S   ****    T  **   SI
+           I*******    *********S******* *S*****   *S   ****    T  **   SI
+           I*******    *********S*********S*****   *S*  ****   *T  **   SI
+     -61.68I*******    *********S*********S*****   *S*  ****   *T  **  *SI    -61.68
+           I*******    *********S*********S*****   *S* ******  *T* **  *SI
+           I*******    *********S*********S*****   *S* ******  *T* **  *SI
+           I*******    *********S*********S*****   *S* ******  *T***** *SI
+     -63.29I********   *********S*********S*****  **S*T******  *T***** *SI    -63.29
+           I********   *********S*********S*****  **S*T******  *T***** *SI
+           I********   *********S*********S****** **S*T******  *T*******SI
+           I********   *********S*********S****** **S*T****** S*T*******SI
+     -64.90I********  S*********S*********S*********S*T*******S*T*******SI    -64.90
+           I********  S*********S*********S*********S*T*******S*T*******SI
+           I********  S*********S*********S*********S*T*******S*T*******SI
+           I********* S*********S*********S*********S*T*******S*T*******SI
+     -66.51I**********S*********S*********S*********S*T*******S*T*******SI    -66.51
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+            S=SEASONAL FREQUENCIES, T=TRADING DAY FREQUENCIES
+        R35 monthly CPI index            PAGE  26, SERIES series
+ G 1  10*LOG(SPECTRUM) of the differenced, transformed seasonally adjusted 
+      data (Table D11).  Spectrum estimated from 2018.Aug to 2026.Jul.
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+     -41.90I*                                                            I    -41.90
+           I*                                                            I
+           I*                                                            I
+           I*                                                            I
+     -43.03I*                                                            I    -43.03
+           I*                                                            I
+           I*                                                            I
+           I*                                                            I
+     -44.15I*                                                            I    -44.15
+           I**                                                           I
+           I**                                                           I
+           I**                                                           I
+     -45.28I**                                                           I    -45.28
+           I**                     *                                     I
+           I**                     *                                     I
+           I**                     *                              *      I
+     -46.41I**                     *                              *      I    -46.41
+           I**                     *                  T           *      I
+           I***        **          *         *        T           *      I
+           I***        **          *   *     *        T           *      I
+     -47.53I***        **          *   *   * **       T           *      I    -47.53
+           I****       **     *    *  **  S* **       T           *      I
+           I****       **     *    *  **  S****       T          **      I
+           I*****     S**     *    ** **  S****       T          **      I
+     -48.66I*****     S**     *    ** *** S****       T          **      I    -48.66
+           I*****     S**     *   *** ****S****       T          **      I
+           I*****     S**     *   ********S****       T          **      I
+           I*****     S**     *   ********S****       T          **      I
+     -49.79I******   *S**     *   ********S****       T          **      I    -49.79
+           I******   *S**     *   ********S****       T*         **      I
+           I******   *S**     **  ********S****       T*         ***     I
+           I******   *S**     **  ********S****       T*         ***     I
+     -50.91I******   *S**     **  ********S****       T*         ***     I    -50.91
+           I*******  *S***    **  ********S****       T*        T***     I
+           I******* **S***    **  ********S*****     *T*        T***     I
+           I******* **S***    **  ********S*****     *T*        T***     I
+     -52.04I**********S***    **  ********S*****     *T*        T***     I    -52.04
+           I**********S***    **  ********S*****     *T*        T***     I
+           I**********S***    ** *********S*****     *T*    *   T***     I
+           I**********S***   *** *********S*****     *T*    *   T***     I
+     -53.16I**********S***   ***S*********S*****     *T*    *   T***     I    -53.16
+           I**********S***   ***S*********S*****     *T*   **   T***    SI
+           I**********S***   ***S*********S*****    S*T*   **  *T***    SI
+           I**********S***   ***S*********S*****    S*T*   *** *T***    SI
+     -54.29I**********S***   ***S*********S*****    S*T*   *** *T***    SI    -54.29
+           I**********S***   ***S*********S******   S*T*   ***S*T****   SI
+           I**********S****  ***S*********S******   S*T*   ***S*T****   SI
+           I**********S****  ***S*********S******  *S*T*   ***S*T****  *SI
+     -55.42I**********S****  ***S*********S******  *S*T**  ***S*T****  *SI    -55.42
+           I**********S****  ***S*********S*********S*T** ****S*T****  *SI
+           I**********S**** ****S*********S*********S*T** ****S*T****  *SI
+           I**********S**** ****S*********S*********S*T** ****S*T****  *SI
+     -56.54I**********S*********S*********S*********S*T*******S*T*******SI    -56.54
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+            S=SEASONAL FREQUENCIES, T=TRADING DAY FREQUENCIES
+        R35 monthly CPI index            PAGE  27, SERIES series
+ G 2  10*LOG(SPECTRUM) of the Irregular (Table D13).  
+      Spectrum estimated from 2018.Aug to 2026.Jul.
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+     -56.70I                  *                                          I    -56.70
+           I                  *                                          I
+           I                  *                                          I
+           I                  *                                          I
+     -58.11I                  *     *                                    I    -58.11
+           I                  *     *                                    I
+           I                  *     *                                    I
+           I                  *     *                                    I
+     -59.51I                 **     *      *                             I    -59.51
+           I                 **     **     *                        *    I
+           I                 **     **     *                        *    I
+           I                 **     **     *               *        *    I
+     -60.91I                 **     ***    *               *        *    I    -60.91
+           I                 **     ***    *              **        *    I
+           I                 **     ***    *              **        *    I
+           I                 **     ***    ** *           **        *    I
+     -62.32I                 **     ***    ** *           **        *    I    -62.32
+           I                 **     ****  S** *           **        *    I
+           I                ***    *****  S** *           **        *    I
+           I                ***    *****  S****           **        *    I
+     -63.72I           *    ***    *****  S****           **        *    I    -63.72
+           I           *    ***    *****  S*****          **        *    I
+           I           *   *****   *****  S*****          **        *    I
+           I           *   *****   ****** S*****        ****    T   *    I
+     -65.13I           **  *****   *******S*****        ****    T   *    I    -65.13
+           I           ** ******   *******S*****   *    ****    T   *    I
+           I           ** ******   *******S*****   *   *****    T   *    I
+           I           *********   *******S*****   *S  *****    T  **    I
+     -66.53I           *********   *******S*****   *S  *****    T  **    I    -66.53
+           I           *********   *******S*****   *S  *****    T  **    I
+           I          S*********   *******S*****   *S  *****    T  **    I
+           I          S*********  ********S******  *S* *****    T  **    I
+     -67.93I*         S*********  ********S****** **S*T*****    T* **    I    -67.93
+           I*         S*********S ********S****** **S*T******  *T* **    I
+           I*         S*********S ********S****** **S*T******  *T* **    I
+           I**        S*********S*********S*********S*T******  *T* ***   I
+     -69.34I**        S*********S*********S*********S*T******  *T*****   I    -69.34
+           I**  **    S*********S*********S*********S*T******  *T*****   I
+           I*** **    S*********S*********S*********S*T******  *T*****   I
+           I******    S*********S*********S*********S*T******  *T*****   I
+     -70.74I******   *S*********S*********S*********S*T******  *T*****   I    -70.74
+           I******   *S*********S*********S*********S*T*******S*T*****   I
+           I*******  *S*********S*********S*********S*T*******S*T*****   I
+           I*******  *S*********S*********S*********S*T*******S*T*****   I
+     -72.14I*******  *S*********S*********S*********S*T*******S*T*****   I    -72.14
+           I**********S*********S*********S*********S*T*******S*T*****   I
+           I**********S*********S*********S*********S*T*******S*T*****   I
+           I**********S*********S*********S*********S*T*******S*T******  I
+     -73.55I**********S*********S*********S*********S*T*******S*T******  I    -73.55
+           I**********S*********S*********S*********S*T*******S*T******  I
+           I**********S*********S*********S*********S*T*******S*T******  I
+           I**********S*********S*********S*********S*T*******S*T******* I
+     -74.95I**********S*********S*********S*********S*T*******S*T*******SI    -74.95
+ ++++++++++I+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++I
+            S=SEASONAL FREQUENCIES, T=TRADING DAY FREQUENCIES
+        R35 monthly CPI index            PAGE  28, SERIES series
+
+  Peak probabilities for Tukey spectrum estimator
+  Spectrum estimated from 2018.Aug to 2026.Jul.
+
+                                          S1       S2       S3       S4       S5       S6       TD
+                                        ------   ------   ------   ------   ------   ------   ------
+  Model Residuals                        0.184    0.988*   0.446    0.905*   0.805    0.726    0.546  
+  Prior Adjusted Series (Table B1)       0.117    0.702    0.656    0.992**  0.197    0.920*   0.139  
+  Seasonally adjusted series (D11)       0.630    0.225    0.211    0.224    0.452    0.819    0.907* 
+  Irregular (D13)                        0.493    0.009    0.692    0.892    0.069    0.217    0.362  
+  ----------
+     ** - Peak Probability > 0.99,
+      * - 0.90 < Peak Probability < 0.99
+
+
+
+  NP statistic for residual seasonality:
+
+  NP statistic for residual seasonality (Full series)
+                                                  Residual Seasonality?
+  log(Seasonally Adjusted Series)                          no
+  log(Seasonally Adjusted Series (EV adj))                 no
+
+  NP statistic for residual seasonality (Series start in 2018.Aug)
+                                                  Residual Seasonality?
+  log(Seasonally Adjusted Series)                          no
+  log(Seasonally Adjusted Series (EV adj))                 no

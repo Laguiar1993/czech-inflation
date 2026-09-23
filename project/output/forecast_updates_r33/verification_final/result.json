@@ -1,0 +1,41 @@
+{
+  "command": [
+    "C:\\Users\\luis_\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools/forecast_updates_r33",
+    "-p",
+    "test_*.py",
+    "-q"
+  ],
+  "frozen_hashes_unchanged": {
+    "cz_struct.py": true,
+    "data/bloomberg_inputs_20260922_foodppi/MANIFEST.json": true,
+    "data/release_calendar_cz_cpi.csv": true,
+    "forecast_independent.py": true,
+    "tools/live_bundle_r32/adapter.py": true,
+    "tools/live_bundle_r32/cli.py": true,
+    "tools/live_bundle_r32/runner.py": true
+  },
+  "prospective_run_validated": true,
+  "recorded_at": "2026-09-22T17:53:41.324246+00:00",
+  "replay_comparison_validated": true,
+  "returncode": 0,
+  "source_gates": {
+    "as_of_not_future_at_recording": true,
+    "calendar_known_by_as_of": true,
+    "completed_before_first_release": true,
+    "component_conservation": true,
+    "manual_observations_available_by_as_of": true,
+    "no_hard_residual_fallback": true,
+    "prospective_recording_within_300_seconds": true,
+    "published": true,
+    "real_model_ready": true,
+    "snapshot_completed_by_as_of": true,
+    "x13_no_food_fallback": true
+  },
+  "summary": "----------------------------------------------------------------------\nRan 39 tests in 7.261s\n\nOK"
+}

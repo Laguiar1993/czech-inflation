@@ -1,0 +1,21 @@
+{
+  "tool": "paper_tvwqrf_path",
+  "created_at": "2026-09-12T11:28:57.914248+00:00",
+  "runs": {
+    "FULLM": "output/paper_tvwqrf_20260912/realtime_full_luci_month",
+    "INDEPM": "output/paper_tvwqrf_20260912/realtime_independent_luci_month"
+  },
+  "inputs": {
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\research_r14b\\integration\\forecasts.csv": "72b8724e545b802cb594bd1e5b6c3033a2557f78461b4d34ccab37ae8c34b89e",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\independent_bridge_forecasts.csv": "b1377d1c45373b7571a47edd3c373a6b149cae49e9efbd37853566ded00a88d8",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\independent_nowcast_forecasts.csv": "77ac26bc05906616a07d8f4b33ab6f2eb10b97141295022e172d53461f3e6e98",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\path_step2.csv": "67fd5532af5b744dbc6c8983227182d4f96e4672f4724f7e391a0fda6786fe06",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\cnb_mpr_cpi_quarterly.csv": "137cce6c715a358b85740302453e969c8313f1b39a6eeaed0b7e8698940f3a27"
+  },
+  "run_manifests": {
+    "FULLM": "18033f7fa8f1d49730cd8be26240c4170ebf59bed3b62a2fc1bf79e01105eef3",
+    "INDEPM": "fe826e1313d7b5ac83db191f2ab217be92f084e9fc3ce03a0e18b854f6f3b05e"
+  },
+  "scorer_sha256": "130cdb18558dd0c6b9883521bcb2cac7655080a07f9c284066b4aee0ecd0907b"
+}

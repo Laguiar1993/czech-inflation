@@ -1,0 +1,9 @@
+{
+  "data/cost_gaps_r23.py": "28ad70ecf805b1268f600abd96f2e398b4644b71cd19551366be59d896df3986",
+  "models/cost_gaps_r23.py": "dfc0400a9d7e6c9aa404495bc9e0785a54a9d0867186c47a60d54a642bed5ba1",
+  "tools/research_r23/run.py": "43aa1d55ef8878b09c01b39f612f78d09952875e74e6bfb25b477db8505cefeb",
+  "tools/research_r23/lead.py": "77786ea3949678e400d7ac151f6ec55cb2e439a63c44c88ec011bb77e35191ee",
+  "tools/research_r23/evaluate.py": "0e5627805e84c8aeed1d260f020af48d18ffc6aab0124dd2c200eb0dd9b12a48",
+  "tests/test_cost_gaps_r23.py": "00d68d2d8b3ce9e579c881fe67993bf1fe7a62b37325c18af49574e8d9ed8875",
+  "docs/implementation/R23_COST_GAPS_SPEC_2026-09-16.md": "53653883f0163346eeb59dc1c5cf141b68279880a5a5083c1dc83decf0377781"
+}

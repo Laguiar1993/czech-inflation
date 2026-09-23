@@ -1,0 +1,74 @@
+{
+  "retrieved_at": "2026-09-22T12:46:39.490152+00:00",
+  "end_date": "2026-09-21",
+  "candidates": {
+    "ppi_nace_and_aggregates": [
+      "PPTXCZ Index",
+      "EPPBE4CZ Index",
+      "EPP0BDCZ Index",
+      "EPPIGKCZ Index",
+      "PPIGCZ Index",
+      "PPENCZ Index",
+      "EPENBCZ Index",
+      "PPCGCZ Index",
+      "EPP0CGCZ Index",
+      "EPPCG1CZ Index",
+      "PPDGCZ Index",
+      "PPNGCZ Index",
+      "PPXECZ Index",
+      "EPPBC3CZ Index",
+      "EPP00BCZ Index",
+      "EPP00CCZ Index",
+      "EPP00DCZ Index",
+      "EPP036CZ Index",
+      "EPP0CCZ Index",
+      "EPPCCZ Index",
+      "PPMFCZ Index",
+      "CZPPCM Index"
+    ],
+    "import_prices_sitc": [
+      "CZEII Index",
+      "CZEIIF Index",
+      "CZEIIB Index",
+      "CZEIII Index",
+      "CZEIIL Index",
+      "CZEIIO Index",
+      "CZEIIC Index",
+      "CZEIIG Index",
+      "CZEIIT Index",
+      "CZEIIM Index"
+    ],
+    "export_prices_sitc": [
+      "CZEIE Index",
+      "CZEIEF Index",
+      "CZEIEB Index",
+      "CZEIEI Index",
+      "CZEIEL Index",
+      "CZEIEO Index",
+      "CZEIEC Index",
+      "CZEIEG Index",
+      "CZEIET Index",
+      "CZEIEM Index"
+    ]
+  },
+  "reference_fields": [
+    "NAME",
+    "SECURITY_DES",
+    "INDX_SOURCE",
+    "SEASONALITY_AND_TRANSFORMATION",
+    "INDX_FREQ",
+    "LAST_UPDATE_DT",
+    "COUNTRY",
+    "DES_NOTES"
+  ],
+  "history": "PX_LAST; MONTHLY periodicity for Index tickers, DAILY for Govt",
+  "history_start": "1990-01-01",
+  "vintage_status": "Current-vintage download; not an original-vintage archive.",
+  "python_executable": "C:\\Users\\luis_\\anaconda3\\python.exe",
+  "versions": {
+    "xbbg": "0.7.7",
+    "blpapi": "3.25.5.1",
+    "pandas": "1.4.4"
+  },
+  "completed_at": "2026-09-22T12:47:10.556974+00:00"
+}

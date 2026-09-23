@@ -1,0 +1,21 @@
+                                   0                       1                    2                    3
+model            FOOD_ZERO_DRIFT_R24  FOOD_ROBUST_WINDOW_R24  FOOD_NORM_SHIFT_R24  FOOD_NORM_REFIT_R24
+c1_food_h12                    False                    True                 True                 True
+c2_food_h3_h6                  False                    True                 True                 True
+c3_headline_h12                False                    True                 True                 True
+c4_bias_2024                   False                    True                 True                 True
+all_four                       False                    True                 True                 True
+food_h12_full         8.497 vs 7.842          7.400 vs 7.842       7.357 vs 7.842       7.380 vs 7.842
+food_h12_2024         4.217 vs 4.129          3.063 vs 4.129       3.373 vs 4.129       3.412 vs 4.129
+food_h3_pct                     8.52                   -0.97                -2.01                -1.88
+food_h6_pct                     7.54                   -2.65                -3.94                -3.66
+yy_h12_full         5.0051 vs 4.8695        4.7962 vs 4.8695     4.8008 vs 4.8695     4.8032 vs 4.8695
+yy_h12_2024         0.7085 vs 0.8580        0.6608 vs 0.8580     0.6646 vs 0.8580     0.6712 vs 0.8580
+bias_2024           -2.501 vs +2.305        +0.746 vs +2.305     +0.187 vs +2.305     +0.235 vs +2.305
+
+Pass all four, in declared preference order: ['FOOD_NORM_SHIFT_R24', 'FOOD_ROBUST_WINDOW_R24', 'FOOD_NORM_REFIT_R24'] -> selected: FOOD_NORM_SHIFT_R24
+ZERO_DRIFT (control, never promoted) passes all four: False
+
+Sensitivity, headline h12 on every matured origin (n=78, 2019-02..2025-07):
+   full               n=78  FAST 4.7775  ZERO_DRIFT 4.9129  ROBUST_WINDOW 4.7051  NORM_SHIFT 4.7094  NORM_REFIT 4.7117
+   origins_2024plus   n=19  FAST 0.8580  ZERO_DRIFT 0.7085  ROBUST_WINDOW 0.6608  NORM_SHIFT 0.6646  NORM_REFIT 0.6712

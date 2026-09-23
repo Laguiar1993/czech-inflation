@@ -1,0 +1,18 @@
+{
+  "history_start": "2015-01-01",
+  "candidates": {
+    "path_levels": [
+      "CZCPI Index",
+      "CZCPF Index"
+    ],
+    "path_ppi": [
+      "CZPPA10M Index"
+    ],
+    "reconciliation": [
+      "CZCPYOY Index",
+      "CZCPMOM Index"
+    ]
+  },
+  "daily": [],
+  "searches": []
+}

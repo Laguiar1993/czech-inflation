@@ -1,0 +1,1289 @@
+{
+  "tool": "build_paper_panel",
+  "created_at": "2026-09-12T10:47:56.589242+00:00",
+  "paper_sample": [
+    "2002-05",
+    "2025-09"
+  ],
+  "x13_binary": "C:\\Users\\luis_\\x13as\\x13as\\x13as.exe",
+  "rows_present": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+  ],
+  "rows_missing": [],
+  "model_choice": {
+    "13": "bbg__building_permits_raw_candidate__as_reported",
+    "25": "local__trade_balance__as_stored",
+    "54": "bbg__pribor_3m__month_last",
+    "60": "bbg__brent_front_reference__month_mean",
+    "61": "bbg__gas_day_ahead_spot__month_mean",
+    "62": "bbg__industrial_metals_spot_index__month_mean",
+    "63": "bbg__agriculture_spot_index__month_mean",
+    "65": "bbg__gas_year1_user_selected__month_mean",
+    "66": "bbg__brent_year1_user_selected__month_mean",
+    "17": "bbg__nominal_ulc_quarterly__as_reported"
+  },
+  "luci_file": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_cnb_luci_20260912\\luci_quarterly.csv",
+  "column_kinds": {
+    "a6_01": "survey",
+    "a6_02": "survey",
+    "a6_03": "survey",
+    "a6_04": "survey",
+    "a6_05": "survey",
+    "a6_06": "survey",
+    "a6_07": "survey",
+    "a6_08": "survey",
+    "a6_09": "survey",
+    "a6_10": "survey",
+    "a6_11": "hard",
+    "a6_12": "hard",
+    "a6_13": "hard",
+    "a6_14": "hard",
+    "a6_15": "hard",
+    "a6_16": "hard",
+    "a6_17": "hard",
+    "a6_18": "survey",
+    "a6_19": "survey",
+    "a6_20": "survey",
+    "a6_21": "survey",
+    "a6_22": "survey",
+    "a6_23": "hard",
+    "a6_24": "hard",
+    "a6_25": "hard",
+    "a6_26": "hard",
+    "a6_27": "expectation",
+    "a6_28": "expectation",
+    "a6_29": "survey",
+    "a6_30": "survey",
+    "a6_31": "survey",
+    "a6_32": "survey",
+    "a6_33": "survey",
+    "a6_34": "survey",
+    "a6_35": "survey",
+    "a6_36": "survey",
+    "a6_37": "survey",
+    "a6_38": "survey",
+    "a6_39": "survey",
+    "a6_40": "survey",
+    "a6_41": "survey",
+    "a6_42": "survey",
+    "a6_43": "hard",
+    "a6_44": "hard",
+    "a6_45": "hard",
+    "a6_46": "hard",
+    "a6_47": "hard",
+    "a6_48": "hard",
+    "a6_49": "hard",
+    "a6_50": "hard",
+    "a6_51": "hard",
+    "a6_52": "hard",
+    "a6_53": "hard",
+    "a6_54": "hard",
+    "a6_55": "hard",
+    "a6_56": "hard",
+    "a6_57": "hard",
+    "a6_58": "hard",
+    "a6_59": "hard",
+    "a6_60": "hard",
+    "a6_61": "hard",
+    "a6_62": "hard",
+    "a6_63": "hard",
+    "a6_64": "hard",
+    "a6_65": "hard",
+    "a6_66": "hard",
+    "a6_67": "expectation",
+    "a6_68": "expectation",
+    "a6_69": "expectation",
+    "a6_70": "expectation",
+    "a6_71": "expectation",
+    "a6_72": "expectation"
+  },
+  "paper_convention": {
+    "rows": {
+      "1": {
+        "source": "eurostat:ei_bsin_m_r2:BS-IPT:SA:CZ",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "2": {
+        "source": "eurostat:ei_bsin_m_r2:BS-IPE:SA:CZ",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "3": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SABC:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 1
+      },
+      "4": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SARM:SA:CZ",
+        "x13": "x13",
+        "transform": "T3",
+        "missing_before_imputation": 1
+      },
+      "5": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-RPBS:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "6": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-CTA-BAL:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "7": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-FLBA4-PC:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "8": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-FLBA5-PC:SA:CZ",
+        "x13": "failed: X13Error",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "9": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-FLBA7-PC:SA:CZ",
+        "x13": "x13",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "10": {
+        "source": "eurostat:ei_bsco_m:BS-FS-NY:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "11": {
+        "source": "eurostat:une_rt_m:SA:TOTAL:T:PC_ACT:CZ",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "12": {
+        "source": "czso:PRU01C:sa_calendar_adjusted_level",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "13": {
+        "source": "bbg__building_permits_raw_candidate__as_reported",
+        "x13": "x13",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "14": {
+        "source": "cnb:rushin:monthly_mean_of_weekly",
+        "transform": "T0",
+        "missing_before_imputation": 74
+      },
+      "15": {
+        "source": "cnb_luci:luci_total",
+        "chow_lin": "monthly unemployment rate as indicator",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "16": {
+        "source": "cnb_luci:luci_wages_labour_costs",
+        "chow_lin": "monthly unemployment rate as indicator",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "17": {
+        "source": "bbg__nominal_ulc_quarterly__as_reported",
+        "chow_lin": "monthly unemployment rate as indicator",
+        "x13": "x13",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "18": {
+        "source": "eurostat:ei_bsin_m_r2:BS-ICI:SA:DE",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "19": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SCI:SA:DE",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "20": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-RCI:SA:DE",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "21": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-CCI-BAL:SA:DE",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "22": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-RCI:SA:PL",
+        "transform": "T2 undefined (non-positive values): T3 used",
+        "missing_before_imputation": 0
+      },
+      "23": {
+        "source": "eurostat:prc_hicp_minr:TOTAL:I25:DE",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 0
+      },
+      "24": {
+        "source": "eurostat:une_rt_m:SA:TOTAL:T:PC_ACT:DE",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "25": {
+        "source": "local__trade_balance__as_stored",
+        "x13": "x13",
+        "transform": "T2 undefined (non-positive values): T3 used",
+        "missing_before_imputation": 33
+      },
+      "26": {
+        "source": "czso:CEN0303:sitc_total:mm_pct",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 69
+      },
+      "27": {
+        "source": "eurostat:ei_bsco_m:BS-PT-NY:SA:EA20",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "28": {
+        "source": "eurostat:ei_bsco_m:BS-PT-LY:SA:EA20",
+        "x13": "x13",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "29": {
+        "source": "eurostat:ei_bsin_m_r2:BS-ICI:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "30": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SAEM:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 1
+      },
+      "31": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SEEM:SA:CZ",
+        "x13": "x13",
+        "transform": "T3",
+        "missing_before_imputation": 1
+      },
+      "32": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SCI:SA:CZ",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "33": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-ROP:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "34": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-REBS:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "35": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-REM:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "36": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-RCI:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "37": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-CEME-BAL:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "38": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-CCI-BAL:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "39": {
+        "source": "eurostat:ei_bsco_m:BS-FS-LY:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "40": {
+        "source": "eurostat:ei_bsco_m:BS-SV-NY:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "41": {
+        "source": "eurostat:ei_bsco_m:BS-UE-NY:SA:CZ",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "42": {
+        "source": "eurostat:ei_bsco_m:BS-MP-NY:SA:CZ",
+        "x13": "x13",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "43": {
+        "source": "czso:CEN02032:0:IM:chained_yoy; czso:CEN02A:614507:IR",
+        "transform": "T0",
+        "missing_before_imputation": 104
+      },
+      "44": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:B-E36:PCH_SM:CZ",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "45": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:B-E36:I21:CZ",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 0
+      },
+      "46": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:B:I21:CZ",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 0
+      },
+      "47": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:C:I21:CZ",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 0
+      },
+      "48": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:D:I21:CZ",
+        "x13": "failed: X13Error",
+        "transform": "T2",
+        "missing_before_imputation": 0
+      },
+      "49": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:E36:I21:CZ",
+        "x13": "failed: X13Error",
+        "transform": "T2",
+        "missing_before_imputation": 0
+      },
+      "50": {
+        "source": "czso:CEN02032:130000:IM",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 93
+      },
+      "51": {
+        "source": "czso:CEN02032:100000:IM",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 93
+      },
+      "52": {
+        "source": "czso:CEN02032:0:IM",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 93
+      },
+      "53": {
+        "source": "cnb_arad:SVSDM12",
+        "x13": "x13",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "54": {
+        "source": "bbg__pribor_3m__month_last",
+        "x13": "x13",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "55": {
+        "source": "cnb_arad:SFTP01M11",
+        "x13": "failed: X13Error",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "56": {
+        "source": "cnb_arad:SREERM101",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 0
+      },
+      "57": {
+        "source": "cnb_arad:SREERM103",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 0
+      },
+      "58": {
+        "source": "cnb_arad:SUCM100311XXX101101",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 33
+      },
+      "59": {
+        "source": "cnb_arad:SUCM102211XXX101101",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 33
+      },
+      "60": {
+        "source": "bbg__brent_front_reference__month_mean",
+        "x13": "x13",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "61": {
+        "source": "bbg__gas_day_ahead_spot__month_mean",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 106
+      },
+      "62": {
+        "source": "bbg__industrial_metals_spot_index__month_mean",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 0
+      },
+      "63": {
+        "source": "bbg__agriculture_spot_index__month_mean",
+        "x13": "x13",
+        "transform": "T2",
+        "missing_before_imputation": 0
+      },
+      "64": {
+        "source": "czso:CEN0101J:0722101; czso:CEN0101J:0722201; czso:CEN0101J:0722202; czso:CEN0101J:0722301",
+        "x13_diesel": "x13",
+        "x13_lpg": "x13",
+        "x13_petrol95": "x13",
+        "x13_petrol98_super_plus": "x13",
+        "pc1_variance_share": 0.942503843015398,
+        "transform": "T2 undefined (non-positive values): T3 used",
+        "missing_before_imputation": 0
+      },
+      "65": {
+        "source": "bbg__gas_year1_user_selected__month_mean",
+        "x13": "x13",
+        "transform": "T0",
+        "forward_shift_months": 12,
+        "missing_before_imputation": 143
+      },
+      "66": {
+        "source": "bbg__brent_year1_user_selected__month_mean",
+        "x13": "x13",
+        "transform": "T0",
+        "forward_shift_months": 12,
+        "missing_before_imputation": 146
+      },
+      "67": {
+        "source": "eurostat:ei_bsin_m_r2:BS-ISPE:SA:CZ",
+        "x13": "x13",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "68": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-CPE-BAL:SA:CZ",
+        "x13": "x13",
+        "transform": "T3",
+        "missing_before_imputation": 0
+      },
+      "69": {
+        "source": "cnb_fmie:mean:36m",
+        "x13": "x13",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "70": {
+        "source": "cnb_fmie:mean:12m",
+        "x13": "x13",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "71": {
+        "source": "eurostat:ei_bsco_m:BS-PT-LY:SA:CZ",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      },
+      "72": {
+        "source": "eurostat:ei_bsco_m:BS-PT-NY:SA:CZ",
+        "transform": "T0",
+        "missing_before_imputation": 0
+      }
+    },
+    "imputation": {
+      "factors": 8,
+      "balanced_columns": 56,
+      "columns": {
+        "a6_03": "imputed 1 months",
+        "a6_04": "imputed 1 months",
+        "a6_14": "imputed 74 months",
+        "a6_25": "imputed 33 months",
+        "a6_26": "imputed 69 months",
+        "a6_30": "imputed 1 months",
+        "a6_31": "imputed 1 months",
+        "a6_43": "imputed 104 months",
+        "a6_50": "imputed 93 months",
+        "a6_51": "imputed 93 months",
+        "a6_52": "imputed 93 months",
+        "a6_58": "imputed 33 months",
+        "a6_59": "imputed 33 months",
+        "a6_61": "imputed 106 months",
+        "a6_65": "imputed 143 months",
+        "a6_66": "imputed 146 months"
+      }
+    },
+    "dropped_empty_columns": []
+  },
+  "realtime_convention": {
+    "rows": {
+      "1": {
+        "source": "eurostat:ei_bsin_m_r2:BS-IPT:SA:CZ",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "2": {
+        "source": "eurostat:ei_bsin_m_r2:BS-IPE:SA:CZ",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "3": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SABC:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "4": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SARM:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "5": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-RPBS:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "6": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-CTA-BAL:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "7": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-FLBA4-PC:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "8": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-FLBA5-PC:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "9": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-FLBA7-PC:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "10": {
+        "source": "eurostat:ei_bsco_m:BS-FS-NY:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "11": {
+        "source": "eurostat:une_rt_m:SA:TOTAL:T:PC_ACT:CZ",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "12": {
+        "source": "czso:PRU01C:sa_calendar_adjusted_level",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "13": {
+        "source": "bbg__building_permits_raw_candidate__as_reported",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "14": {
+        "source": "cnb:rushin:monthly_mean_of_weekly",
+        "transform": "T0",
+        "missing_rows": 74
+      },
+      "15": {
+        "source": "cnb_luci:luci_total",
+        "transform": "T0",
+        "quarterly": "latest published quarter",
+        "missing_rows": 0
+      },
+      "16": {
+        "source": "cnb_luci:luci_wages_labour_costs",
+        "transform": "T0",
+        "quarterly": "latest published quarter",
+        "missing_rows": 0
+      },
+      "17": {
+        "source": "bbg__nominal_ulc_quarterly__as_reported",
+        "transform": "T0",
+        "quarterly": "latest published quarter",
+        "missing_rows": 0
+      },
+      "18": {
+        "source": "eurostat:ei_bsin_m_r2:BS-ICI:SA:DE",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "19": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SCI:SA:DE",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "20": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-RCI:SA:DE",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "21": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-CCI-BAL:SA:DE",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "22": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-RCI:SA:PL",
+        "transform": "T2 undefined (non-positive values): T3 used",
+        "missing_rows": 0
+      },
+      "23": {
+        "source": "eurostat:prc_hicp_minr:TOTAL:I25:DE",
+        "transform": "T2",
+        "missing_rows": 0
+      },
+      "24": {
+        "source": "eurostat:une_rt_m:SA:TOTAL:T:PC_ACT:DE",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "25": {
+        "source": "local__trade_balance__as_stored",
+        "transform": "T2 undefined (non-positive values): T3 used",
+        "missing_rows": 33
+      },
+      "26": {
+        "source": "czso:CEN0303:sitc_total:mm_pct",
+        "transform": "T2",
+        "missing_rows": 70
+      },
+      "27": {
+        "source": "eurostat:ei_bsco_m:BS-PT-NY:SA:EA20",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "28": {
+        "source": "eurostat:ei_bsco_m:BS-PT-LY:SA:EA20",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "29": {
+        "source": "eurostat:ei_bsin_m_r2:BS-ICI:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "30": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SAEM:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "31": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SEEM:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "32": {
+        "source": "eurostat:ei_bsse_m_r2:BS-SCI:SA:CZ",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "33": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-ROP:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "34": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-REBS:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "35": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-REM:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "36": {
+        "source": "eurostat:ei_bsrt_m_r2:BS-RCI:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "37": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-CEME-BAL:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "38": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-CCI-BAL:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "39": {
+        "source": "eurostat:ei_bsco_m:BS-FS-LY:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "40": {
+        "source": "eurostat:ei_bsco_m:BS-SV-NY:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "41": {
+        "source": "eurostat:ei_bsco_m:BS-UE-NY:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "42": {
+        "source": "eurostat:ei_bsco_m:BS-MP-NY:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "43": {
+        "source": "czso:CEN02032:0:IM:chained_yoy; czso:CEN02A:614507:IR",
+        "transform": "T0",
+        "missing_rows": 104
+      },
+      "44": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:B-E36:PCH_SM:CZ",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "45": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:B-E36:I21:CZ",
+        "transform": "T2",
+        "missing_rows": 0
+      },
+      "46": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:B:I21:CZ",
+        "transform": "T2",
+        "missing_rows": 0
+      },
+      "47": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:C:I21:CZ",
+        "transform": "T2",
+        "missing_rows": 0
+      },
+      "48": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:D:I21:CZ",
+        "transform": "T2",
+        "missing_rows": 0
+      },
+      "49": {
+        "source": "eurostat:sts_inppd_m:PRC_PRR_DOM:E36:I21:CZ",
+        "transform": "T2",
+        "missing_rows": 0
+      },
+      "50": {
+        "source": "czso:CEN02032:130000:IM",
+        "transform": "T2",
+        "missing_rows": 93
+      },
+      "51": {
+        "source": "czso:CEN02032:100000:IM",
+        "transform": "T2",
+        "missing_rows": 93
+      },
+      "52": {
+        "source": "czso:CEN02032:0:IM",
+        "transform": "T2",
+        "missing_rows": 93
+      },
+      "53": {
+        "source": "cnb_arad:SVSDM12",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "54": {
+        "source": "bbg__pribor_3m__month_last",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "55": {
+        "source": "cnb_arad:SFTP01M11",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "56": {
+        "source": "cnb_arad:SREERM101",
+        "transform": "T2",
+        "missing_rows": 0
+      },
+      "57": {
+        "source": "cnb_arad:SREERM103",
+        "transform": "T2",
+        "missing_rows": 0
+      },
+      "58": {
+        "source": "cnb_arad:SUCM100311XXX101101",
+        "transform": "T2",
+        "missing_rows": 33
+      },
+      "59": {
+        "source": "cnb_arad:SUCM102211XXX101101",
+        "transform": "T2",
+        "missing_rows": 33
+      },
+      "60": {
+        "source": "bbg__brent_front_reference__month_mean",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "61": {
+        "source": "bbg__gas_day_ahead_spot__month_mean",
+        "transform": "T2",
+        "missing_rows": 105
+      },
+      "62": {
+        "source": "bbg__industrial_metals_spot_index__month_mean",
+        "transform": "T2",
+        "missing_rows": 0
+      },
+      "63": {
+        "source": "bbg__agriculture_spot_index__month_mean",
+        "transform": "T2",
+        "missing_rows": 0
+      },
+      "64": {
+        "source": "czso:CEN0101J:0722101; czso:CEN0101J:0722201; czso:CEN0101J:0722202; czso:CEN0101J:0722301",
+        "transform": "T2 undefined for a principal component: T3 of the component re-estimated at each row"
+      },
+      "65": {
+        "source": "bbg__gas_year1_user_selected__month_mean",
+        "transform": "T0",
+        "forward_shift_months": 12,
+        "missing_rows": 142
+      },
+      "66": {
+        "source": "bbg__brent_year1_user_selected__month_mean",
+        "transform": "T0",
+        "forward_shift_months": 12,
+        "missing_rows": 145
+      },
+      "67": {
+        "source": "eurostat:ei_bsin_m_r2:BS-ISPE:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "68": {
+        "source": "eurostat:ei_bsbu_m_r2:BS-CPE-BAL:SA:CZ",
+        "transform": "T3",
+        "missing_rows": 0
+      },
+      "69": {
+        "source": "cnb_fmie:mean:36m",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "70": {
+        "source": "cnb_fmie:mean:12m",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "71": {
+        "source": "eurostat:ei_bsco_m:BS-PT-LY:SA:CZ",
+        "transform": "T0",
+        "missing_rows": 0
+      },
+      "72": {
+        "source": "eurostat:ei_bsco_m:BS-PT-NY:SA:CZ",
+        "transform": "T0",
+        "missing_rows": 0
+      }
+    },
+    "eves": {
+      "2002-05": "2002-07-09",
+      "2002-06": "2002-08-09",
+      "2002-07": "2002-09-09",
+      "2002-08": "2002-10-09",
+      "2002-09": "2002-11-09",
+      "2002-10": "2002-12-09",
+      "2002-11": "2003-01-09",
+      "2002-12": "2003-02-09",
+      "2003-01": "2003-03-09",
+      "2003-02": "2003-04-09",
+      "2003-03": "2003-05-09",
+      "2003-04": "2003-06-09",
+      "2003-05": "2003-07-09",
+      "2003-06": "2003-08-09",
+      "2003-07": "2003-09-09",
+      "2003-08": "2003-10-09",
+      "2003-09": "2003-11-09",
+      "2003-10": "2003-12-09",
+      "2003-11": "2004-01-09",
+      "2003-12": "2004-02-09",
+      "2004-01": "2004-03-09",
+      "2004-02": "2004-04-09",
+      "2004-03": "2004-05-09",
+      "2004-04": "2004-06-09",
+      "2004-05": "2004-07-09",
+      "2004-06": "2004-08-09",
+      "2004-07": "2004-09-09",
+      "2004-08": "2004-10-09",
+      "2004-09": "2004-11-09",
+      "2004-10": "2004-12-09",
+      "2004-11": "2005-01-09",
+      "2004-12": "2005-02-09",
+      "2005-01": "2005-03-09",
+      "2005-02": "2005-04-09",
+      "2005-03": "2005-05-09",
+      "2005-04": "2005-06-09",
+      "2005-05": "2005-07-09",
+      "2005-06": "2005-08-09",
+      "2005-07": "2005-09-09",
+      "2005-08": "2005-10-09",
+      "2005-09": "2005-11-09",
+      "2005-10": "2005-12-09",
+      "2005-11": "2006-01-09",
+      "2005-12": "2006-02-09",
+      "2006-01": "2006-03-09",
+      "2006-02": "2006-04-09",
+      "2006-03": "2006-05-09",
+      "2006-04": "2006-06-09",
+      "2006-05": "2006-07-09",
+      "2006-06": "2006-08-09",
+      "2006-07": "2006-09-09",
+      "2006-08": "2006-10-09",
+      "2006-09": "2006-11-09",
+      "2006-10": "2006-12-09",
+      "2006-11": "2007-01-09",
+      "2006-12": "2007-02-09",
+      "2007-01": "2007-03-09",
+      "2007-02": "2007-04-09",
+      "2007-03": "2007-05-09",
+      "2007-04": "2007-06-09",
+      "2007-05": "2007-07-09",
+      "2007-06": "2007-08-09",
+      "2007-07": "2007-09-09",
+      "2007-08": "2007-10-09",
+      "2007-09": "2007-11-09",
+      "2007-10": "2007-12-09",
+      "2007-11": "2008-01-09",
+      "2007-12": "2008-02-09",
+      "2008-01": "2008-03-09",
+      "2008-02": "2008-04-09",
+      "2008-03": "2008-05-09",
+      "2008-04": "2008-06-09",
+      "2008-05": "2008-07-09",
+      "2008-06": "2008-08-09",
+      "2008-07": "2008-09-09",
+      "2008-08": "2008-10-09",
+      "2008-09": "2008-11-09",
+      "2008-10": "2008-12-09",
+      "2008-11": "2009-01-09",
+      "2008-12": "2009-02-09",
+      "2009-01": "2009-03-09",
+      "2009-02": "2009-04-09",
+      "2009-03": "2009-05-09",
+      "2009-04": "2009-06-09",
+      "2009-05": "2009-07-09",
+      "2009-06": "2009-08-09",
+      "2009-07": "2009-09-09",
+      "2009-08": "2009-10-09",
+      "2009-09": "2009-11-09",
+      "2009-10": "2009-12-09",
+      "2009-11": "2010-01-09",
+      "2009-12": "2010-02-08",
+      "2010-01": "2010-03-08",
+      "2010-02": "2010-04-08",
+      "2010-03": "2010-05-09",
+      "2010-04": "2010-06-08",
+      "2010-05": "2010-07-11",
+      "2010-06": "2010-08-08",
+      "2010-07": "2010-09-08",
+      "2010-08": "2010-10-10",
+      "2010-09": "2010-11-08",
+      "2010-10": "2010-12-08",
+      "2010-11": "2011-01-09",
+      "2010-12": "2011-02-08",
+      "2011-01": "2011-03-08",
+      "2011-02": "2011-04-10",
+      "2011-03": "2011-05-09",
+      "2011-04": "2011-06-08",
+      "2011-05": "2011-07-11",
+      "2011-06": "2011-08-08",
+      "2011-07": "2011-09-08",
+      "2011-08": "2011-10-09",
+      "2011-09": "2011-11-08",
+      "2011-10": "2011-12-08",
+      "2011-11": "2012-01-08",
+      "2011-12": "2012-02-15",
+      "2012-01": "2012-03-08",
+      "2012-02": "2012-04-09",
+      "2012-03": "2012-05-09",
+      "2012-04": "2012-06-10",
+      "2012-05": "2012-07-10",
+      "2012-06": "2012-08-08",
+      "2012-07": "2012-09-09",
+      "2012-08": "2012-10-08",
+      "2012-09": "2012-11-08",
+      "2012-10": "2012-12-09",
+      "2012-11": "2013-01-08",
+      "2012-12": "2013-02-10",
+      "2013-01": "2013-03-10",
+      "2013-02": "2013-04-08",
+      "2013-03": "2013-05-09",
+      "2013-04": "2013-06-09",
+      "2013-05": "2013-07-08",
+      "2013-06": "2013-08-08",
+      "2013-07": "2013-09-08",
+      "2013-08": "2013-10-08",
+      "2013-09": "2013-11-10",
+      "2013-10": "2013-12-08",
+      "2013-11": "2014-01-08",
+      "2013-12": "2014-02-11",
+      "2014-01": "2014-03-09",
+      "2014-02": "2014-04-08",
+      "2014-03": "2014-05-11",
+      "2014-04": "2014-06-08",
+      "2014-05": "2014-07-08",
+      "2014-06": "2014-08-10",
+      "2014-07": "2014-09-08",
+      "2014-08": "2014-10-08",
+      "2014-09": "2014-11-09",
+      "2014-10": "2014-12-08",
+      "2014-11": "2015-01-08",
+      "2014-12": "2015-02-08",
+      "2015-01": "2015-03-08",
+      "2015-02": "2015-04-08",
+      "2015-03": "2015-05-11",
+      "2015-04": "2015-06-08",
+      "2015-05": "2015-07-08",
+      "2015-06": "2015-08-09",
+      "2015-07": "2015-09-08",
+      "2015-08": "2015-10-08",
+      "2015-09": "2015-11-08",
+      "2015-10": "2015-12-08",
+      "2015-11": "2016-01-11",
+      "2015-12": "2016-02-11",
+      "2016-01": "2016-03-08",
+      "2016-02": "2016-04-10",
+      "2016-03": "2016-05-09",
+      "2016-04": "2016-06-08",
+      "2016-05": "2016-07-11",
+      "2016-06": "2016-08-08",
+      "2016-07": "2016-09-08",
+      "2016-08": "2016-10-09",
+      "2016-09": "2016-11-08",
+      "2016-10": "2016-12-08",
+      "2016-11": "2017-01-09",
+      "2016-12": "2017-02-09",
+      "2017-01": "2017-03-08",
+      "2017-02": "2017-04-09",
+      "2017-03": "2017-05-09",
+      "2017-04": "2017-06-08",
+      "2017-05": "2017-07-11",
+      "2017-06": "2017-08-08",
+      "2017-07": "2017-09-10",
+      "2017-08": "2017-10-08",
+      "2017-09": "2017-11-08",
+      "2017-10": "2017-12-10",
+      "2017-11": "2018-01-09",
+      "2017-12": "2018-02-13",
+      "2018-01": "2018-03-08",
+      "2018-02": "2018-04-09",
+      "2018-03": "2018-05-09",
+      "2018-04": "2018-06-10",
+      "2018-05": "2018-07-10",
+      "2018-06": "2018-08-08",
+      "2018-07": "2018-09-09",
+      "2018-08": "2018-10-08",
+      "2018-09": "2018-11-08",
+      "2018-10": "2018-12-09",
+      "2018-11": "2019-01-09",
+      "2018-12": "2019-02-12",
+      "2019-01": "2019-03-10",
+      "2019-02": "2019-04-09",
+      "2019-03": "2019-05-12",
+      "2019-04": "2019-06-10",
+      "2019-05": "2019-07-10",
+      "2019-06": "2019-08-11",
+      "2019-07": "2019-09-09",
+      "2019-08": "2019-10-09",
+      "2019-09": "2019-11-10",
+      "2019-10": "2019-12-09",
+      "2019-11": "2020-01-12",
+      "2019-12": "2020-02-13",
+      "2020-01": "2020-03-09",
+      "2020-02": "2020-04-13",
+      "2020-03": "2020-05-12",
+      "2020-04": "2020-06-09",
+      "2020-05": "2020-07-09",
+      "2020-06": "2020-08-12",
+      "2020-07": "2020-09-09",
+      "2020-08": "2020-10-11",
+      "2020-09": "2020-11-09",
+      "2020-10": "2020-12-09",
+      "2020-11": "2021-01-12",
+      "2020-12": "2021-02-11",
+      "2021-01": "2021-03-09",
+      "2021-02": "2021-04-12",
+      "2021-03": "2021-05-10",
+      "2021-04": "2021-06-09",
+      "2021-05": "2021-07-12",
+      "2021-06": "2021-08-09",
+      "2021-07": "2021-09-09",
+      "2021-08": "2021-10-10",
+      "2021-09": "2021-11-09",
+      "2021-10": "2021-12-09",
+      "2021-11": "2022-01-11",
+      "2021-12": "2022-02-13",
+      "2022-01": "2022-03-09",
+      "2022-02": "2022-04-10",
+      "2022-03": "2022-05-09",
+      "2022-04": "2022-06-09",
+      "2022-05": "2022-07-12",
+      "2022-06": "2022-08-09",
+      "2022-07": "2022-09-11",
+      "2022-08": "2022-10-10",
+      "2022-09": "2022-11-09",
+      "2022-10": "2022-12-11",
+      "2022-11": "2023-01-10",
+      "2022-12": "2023-02-09",
+      "2023-01": "2023-03-09",
+      "2023-02": "2023-04-12",
+      "2023-03": "2023-05-10",
+      "2023-04": "2023-06-11",
+      "2023-05": "2023-07-12",
+      "2023-06": "2023-08-09",
+      "2023-07": "2023-09-10",
+      "2023-08": "2023-10-09",
+      "2023-09": "2023-11-09",
+      "2023-10": "2023-12-10",
+      "2023-11": "2024-01-10",
+      "2023-12": "2024-02-14",
+      "2024-01": "2024-03-10",
+      "2024-02": "2024-04-09",
+      "2024-03": "2024-05-12",
+      "2024-04": "2024-06-10",
+      "2024-05": "2024-07-09",
+      "2024-06": "2024-08-11",
+      "2024-07": "2024-09-09",
+      "2024-08": "2024-10-09",
+      "2024-09": "2024-11-10",
+      "2024-10": "2024-12-09",
+      "2024-11": "2025-01-12",
+      "2024-12": "2025-02-05",
+      "2025-01": "2025-03-04",
+      "2025-02": "2025-04-03",
+      "2025-03": "2025-05-05",
+      "2025-04": "2025-06-03",
+      "2025-05": "2025-07-03",
+      "2025-06": "2025-08-04",
+      "2025-07": "2025-09-03",
+      "2025-08": "2025-10-05",
+      "2025-09": "2025-11-04",
+      "2025-10": "2025-12-03",
+      "2025-11": "2026-01-06",
+      "2025-12": "2026-02-04",
+      "2026-01": "2026-03-03",
+      "2026-02": "2026-04-06",
+      "2026-03": "2026-05-05",
+      "2026-04": "2026-06-03",
+      "2026-05": "2026-07-06",
+      "2026-06": "2026-08-04",
+      "2026-07": "2026-09-03",
+      "2026-08": "2026-10-09"
+    }
+  },
+  "inputs": {
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\a6_inputs_20260912\\exact_inputs_long.csv": "cfd02def49bd5dd90f0e567e89bbba4ffc79701061ec58d5944dff7d82d3b23b",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\a6_inputs_20260912\\candidate_inputs_long.csv": "d06aefef3b387d6a7650bd669f304ed45c6bcb59ad1ed9633f932adffb4c7d67",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\cnb_paper_a6_audit_20260912\\a6_audit.csv": "f79e6449d1930525fcba51c6a995e7de8b651334be28c7d1bf31c8e96b3eb100",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\headline_extended_and_states.csv": "dab64ba59634410ee2a183724b5ee2463e24a8c20bb188dab0ab4bab2ad89e94",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\paper_replication\\official_cnb_luci_20260912\\luci_quarterly.csv": "1c514f05d7fab1ab9bda06242d46e1cf16bb223e193451001a24f1706e411f84"
+  },
+  "outputs": {
+    "paper": {
+      "file": "paper_convention_panel.csv",
+      "sha256": "c587b8037d62025aa0bf3a196aaa39dd90e5b14e79343b907c4da98a35b81de8"
+    },
+    "realtime": {
+      "file": "realtime_panel.csv",
+      "sha256": "fa7105c58960ff013654e423b36add2f93311f702c52476f9e7d033f46cf3ad5"
+    },
+    "target": {
+      "file": "target_cpi_mm.csv",
+      "sha256": "f969a55e7750d3310b1d938fe96269669b51041bafed037622ffe7d055d1df35"
+    }
+  },
+  "tool_sha256": "219e0273c089486a2ed1926578cad82cbe873715067f3f28b120825c3801fafd"
+}

@@ -1,0 +1,92 @@
+{
+ "M00_control_unmodified": {
+  "exit_code": 0,
+  "survived": true,
+  "summary": "8 passed in 0.15s"
+ },
+ "M99_sabotage_correction_raises": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "2 failed, 6 passed in 0.15s"
+ },
+ "M01_drop_trend": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "1 failed, 7 passed in 0.16s"
+ },
+ "M02_flip_sign_of_correction": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "1 failed, 7 passed in 0.16s"
+ },
+ "M03_decay_steps_minus_1": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "1 failed, 7 passed in 0.15s"
+ },
+ "M04_apply_h1_to_h12": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "2 failed, 6 passed in 0.16s"
+ },
+ "M05_ignore_publication_mask": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "1 failed, 7 passed in 0.15s"
+ },
+ "M06_uncentred_gap": {
+  "exit_code": 0,
+  "survived": true,
+  "summary": "8 passed in 0.15s"
+ },
+ "M07_clip_at_minus_050": {
+  "exit_code": 0,
+  "survived": true,
+  "summary": "8 passed in 0.15s"
+ },
+ "M08_gap_at_origin_minus_2": {
+  "exit_code": 0,
+  "survived": true,
+  "summary": "8 passed in 0.15s"
+ },
+ "M09_no_clip_at_all": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "1 failed, 7 passed in 0.16s"
+ },
+ "M10_speed_on_contemporaneous_gap": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "4 failed, 4 passed in 0.16s"
+ },
+ "M11_no_minimum_window": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "1 failed, 7 passed in 0.16s"
+ },
+ "M12_positive_alpha_allowed": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "1 failed, 7 passed in 0.16s"
+ },
+ "M13_no_decay_constant_correction": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "1 failed, 7 passed in 0.15s"
+ },
+ "M14_centre_by_window_mean_not_month": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "1 failed, 7 passed in 0.15s"
+ },
+ "M15_window_97_months": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "1 failed, 7 passed in 0.16s"
+ },
+ "M16_last_common_month_is_last_food_month": {
+  "exit_code": 1,
+  "survived": false,
+  "summary": "1 failed, 7 passed in 0.15s"
+ }
+}

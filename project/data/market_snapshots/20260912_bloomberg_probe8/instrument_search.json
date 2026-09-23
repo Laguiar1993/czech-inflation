@@ -1,0 +1,439 @@
+{
+  "Czech National Bank Fixing": [],
+  "CZK Fixing": [
+    {
+      "security": "YCMM0053<index>",
+      "description": "CZK PRIBOR Fixings Curve"
+    },
+    {
+      "security": "KORBCZK<index>",
+      "description": "SMBS Korean Won Basic Rate VS. CZK"
+    },
+    {
+      "security": "USBRCZK<index>",
+      "description": "SMBS USD Basic Rate Vs. CZK"
+    },
+    {
+      "security": "BFCFCZK<index>",
+      "description": "Belgium Currency Fixing in CZK"
+    },
+    {
+      "security": "BOPCECZK<index>",
+      "description": "Bank of Portugal Currency Fixing EUR CZK"
+    },
+    {
+      "security": "DKCFCZK<index>",
+      "description": "Denmark Currency Fixing CZK"
+    },
+    {
+      "security": "LITACZK<index>",
+      "description": "Lietuvos Bankas Lithuania Lita Fixing In CZK"
+    },
+    {
+      "security": "LLCFCZK<index>",
+      "description": "Lithuania LTL Currency Fixing Against CZK"
+    },
+    {
+      "security": "MVCFCZK<index>",
+      "description": "Moldova Leu Currency Fixing CZK"
+    },
+    {
+      "security": "SSEFCZK<index>",
+      "description": "Stockholm Stock Exchange Foreign Exchange Fixing CZK"
+    },
+    {
+      "security": "STCFCZ<index>",
+      "description": "Slovenia SIT Currency Fixing Against CZK"
+    },
+    {
+      "security": "TLFXCZK<index>",
+      "description": "Bank of Turkey CZK vs TRY Fixing"
+    },
+    {
+      "security": "CBKFEUCK<index>",
+      "description": "Commerzbank Fixings Rate - EUR/CZK"
+    },
+    {
+      "security": "CLFXECZK<index>",
+      "description": "Central Bank of Chile Fixing for Czech Koruna"
+    },
+    {
+      "security": "CDCFCREP<index>",
+      "description": "Bank of Canada Daily Noon Rates Czech Republic Koruna"
+    },
+    {
+      "security": "BV3M0480 BVLI<index>",
+      "description": "CZK Czech Republic Government Bond BVAL Yield Curve 3 Month"
+    },
+    {
+      "security": "BV100480 BVLI<index>",
+      "description": "CZK Czech Republic Government Bond BVAL Yield Curve 10 Year"
+    },
+    {
+      "security": "BV050480 BVLI<index>",
+      "description": "CZK Czech Republic Government Bond BVAL Yield Curve 5 Year"
+    },
+    {
+      "security": "BV010480 BVLI<index>",
+      "description": "CZK Czech Republic Government Bond BVAL Yield Curve 1 Year"
+    },
+    {
+      "security": "BV020480 BVLI<index>",
+      "description": "CZK Czech Republic Government Bond BVAL Yield Curve 2 Year"
+    },
+    {
+      "security": "F3YYZ01Y FICV<index>",
+      "description": "CRV: MY CZK sovs fixed Fitted Curve 1Y"
+    },
+    {
+      "security": "F3YYZ02Y FICV<index>",
+      "description": "CRV: MY CZK sovs fixed Fitted Curve 2Y"
+    },
+    {
+      "security": "F3YYZ03Y FICV<index>",
+      "description": "CRV: MY CZK sovs fixed Fitted Curve 3Y"
+    },
+    {
+      "security": "F3YYZ04Y FICV<index>",
+      "description": "CRV: MY CZK sovs fixed Fitted Curve 4Y"
+    },
+    {
+      "security": "F3YYZ05Y FICV<index>",
+      "description": "CRV: MY CZK sovs fixed Fitted Curve 5Y"
+    },
+    {
+      "security": "F3YYZ06M FICV<index>",
+      "description": "CRV: MY CZK sovs fixed Fitted Curve 6M"
+    },
+    {
+      "security": "F3YYZ06Y FICV<index>",
+      "description": "CRV: MY CZK sovs fixed Fitted Curve 6Y"
+    },
+    {
+      "security": "F3YYZ07Y FICV<index>",
+      "description": "CRV: MY CZK sovs fixed Fitted Curve 7Y"
+    },
+    {
+      "security": "F3YYZ08Y FICV<index>",
+      "description": "CRV: MY CZK sovs fixed Fitted Curve 8Y"
+    },
+    {
+      "security": "F3YYZ09Y FICV<index>",
+      "description": "CRV: MY CZK sovs fixed Fitted Curve 9Y"
+    }
+  ],
+  "EURCZK Fixing": [],
+  "Czech Koruna CNB Fixing Rate": [],
+  "Czech Inflation Expectations Financial Market": [],
+  "Czech National Bank Inflation Expectations": [],
+  "Czech Republic Average Wage": [
+    {
+      "security": "CZRWYOY<index>",
+      "description": "Czech Republic Average Gross Monthly Real Wage YoY"
+    },
+    {
+      "security": "CZNWYOY<index>",
+      "description": "Czech Republic Average Gross Monthly Nominal Wage YoY"
+    },
+    {
+      "security": "CZNWWAGE<index>",
+      "description": "Czech Republic Average Gross Monthly Nominal Wage"
+    },
+    {
+      "security": "CZIIL<index>",
+      "description": "Czech Republic Avg Gross Wages in Industry"
+    },
+    {
+      "security": "CZIILMOM<index>",
+      "description": "Czech Republic Avg Gross Wages in Industry MoM"
+    },
+    {
+      "security": "CZIILYOY<index>",
+      "description": "Czech Republic Avg Gross Wages in Industry YoY"
+    },
+    {
+      "security": "CZNWYBS<index>",
+      "description": "Czech Republic Avg Nominal Wages YoY Business sphere"
+    },
+    {
+      "security": "CZNWYNBS<index>",
+      "description": "Czech Republic Avg Nominal Wages YoY Non Business sphere"
+    },
+    {
+      "security": "CZRWYBS<index>",
+      "description": "Czech Republic Avg Real Wages YoY Business sphere"
+    },
+    {
+      "security": "CZRWYNBS<index>",
+      "description": "Czech Republic Avg Real Wages YoY Non Business sphere"
+    },
+    {
+      "security": "OAAWCZCN<index>",
+      "description": "Czech Republic Average Annual Wages 2016 Constant Prices and NCU"
+    },
+    {
+      "security": "OAAWCZCR<index>",
+      "description": "Czech Republic Average Annual Wages Current Prices in NCU"
+    },
+    {
+      "security": "OAAWCZER<index>",
+      "description": "Czech Republic Average Annual Wages 2016 Constant Prices and USD Exch rates"
+    },
+    {
+      "security": "OAAWCZPP<index>",
+      "description": "Czech Republic Average Annual Wages 2016 Constant Prices and USD PPPs"
+    },
+    {
+      "security": "CZNWBWA<index>",
+      "description": "Nominal Wage in CZK Business Sphere"
+    },
+    {
+      "security": "CZNWNBWA<index>",
+      "description": "Nominal Wage in CZK Non Business Sphere"
+    }
+  ],
+  "Czech Republic Labour Cost Index": [
+    {
+      "security": "LCTOCZI<index>",
+      "description": "Eurostat Unit Labor Cost Nominal Czech Rep"
+    },
+    {
+      "security": "LNTNCZY<index>",
+      "description": "Eurostat Labor Costs Nominal Values Czech Republic YoY WDA"
+    },
+    {
+      "security": "LNTNCZ<index>",
+      "description": "Eurostat Labor Costs Nominal Values Czech Republic WDA"
+    },
+    {
+      "security": "LNTWCZQ<index>",
+      "description": "Eurostat Labor Costs Nominal Wages Czech Republic QoQ"
+    },
+    {
+      "security": "LCTQCZI<index>",
+      "description": "Eurostat Unit Labor Cost Nominal Czech Rep NSA"
+    },
+    {
+      "security": "LNTICZ<index>",
+      "description": "Eurostat Labor Costs Czech Republic Total excluding construction industry NSA"
+    },
+    {
+      "security": "LNTNCZQ<index>",
+      "description": "Eurostat Labor Costs Nominal Values Czech Republic QoQ WDA"
+    },
+    {
+      "security": "LCTOCZ<index>",
+      "description": "Eurostat Unit Labour Cost Growth Total Economy Czech Republic"
+    },
+    {
+      "security": "LCTQCZIS<index>",
+      "description": "Eurostat Unit Labor Cost Nominal Czech Rep SWDA"
+    },
+    {
+      "security": "LNTFCZQ<index>",
+      "description": "Labour Costs Construction Czech Rep QoQ"
+    },
+    {
+      "security": "LNTFCZY<index>",
+      "description": "Labour Costs Construction Czech Rep YoY"
+    },
+    {
+      "security": "LNTOCZ<index>",
+      "description": "Eurostat Labour non-wage costs nsa Czech Republic"
+    },
+    {
+      "security": "LNTOCZQ<index>",
+      "description": "Eurostat Labour non-wage costs nsa Czech Republic QoQ"
+    },
+    {
+      "security": "LNTOCZY<index>",
+      "description": "Eurostat Labour non-wage costs nsa Czech Republic YoY"
+    },
+    {
+      "security": "LNTWCZY<index>",
+      "description": "Eurostat Labor Costs Nominal Wages Czech Republic YoY"
+    },
+    {
+      "security": "LNTFCZ<index>",
+      "description": "Labour Costs Construction Czech Rep"
+    },
+    {
+      "security": "LNTICZQ<index>",
+      "description": "Eurostat Labor Costs Czech Republic Total excluding construction industry NSA"
+    },
+    {
+      "security": "LNTICZY<index>",
+      "description": "Eurostat Labor Costs Czech Republic Total excluding construction industry NSA"
+    },
+    {
+      "security": "LNTNOCZ<index>",
+      "description": "Eurostat Labor Cost Other Than Wages & Salaries Czech Rep WDA"
+    },
+    {
+      "security": "LNTNOCZQ<index>",
+      "description": "Eurostat Labor Cost Other Than Wages & Salaries Czech Rep WDA QoQ"
+    },
+    {
+      "security": "LNTNOCZY<index>",
+      "description": "Eurostat Labor Cost Other Than Wages & Salaries Czech Rep WDA YoY"
+    },
+    {
+      "security": "LNTNXCZ<index>",
+      "description": "Eurostat Labor Cost Excluding Bonuses Czech Rep WDA"
+    },
+    {
+      "security": "LNTNXCZQ<index>",
+      "description": "Eurostat Labor Cost Excluding Bonuses Czech Rep WDA QoQ"
+    },
+    {
+      "security": "LNTNXCZY<index>",
+      "description": "Eurostat Labor Cost Excluding Bonuses Czech Rep WDA YoY"
+    },
+    {
+      "security": "LNTWCZ<index>",
+      "description": "Eurostat Labor Costs Nominal Wages Czech Republic"
+    },
+    {
+      "security": "OECZTQKU<index>",
+      "description": "OECD Czech Rep Early Estimate ULC Indicators Unit Labour Costs Growth SA"
+    },
+    {
+      "security": "OECZTQKV<index>",
+      "description": "OECD Czech Rep Early Estimate ULC Indicators Unit Labour Costs YoY SA"
+    },
+    {
+      "security": "OECZTQKW<index>",
+      "description": "OECD Czech Rep Early Estimate ULC Indicators Unit Labour Costs Index"
+    },
+    {
+      "security": "OECZTQKX<index>",
+      "description": "OECD Czech Rep Early Estimate ULC Indicators Unit Labour Costs Index SA"
+    },
+    {
+      "security": "OEEOCZLC<index>",
+      "description": "OECD Eco Outlook Czech Rep Unit Labour Cost in Total Economy"
+    }
+  ],
+  "Czech Republic House Price": [
+    {
+      "security": "CZRSRYOY<index>",
+      "description": "Czech Republic Retail Sales Households Constant Prices YoY"
+    },
+    {
+      "security": "EUGHCZ<index>",
+      "description": "Eurostat Annual GDP Constant Prices Czech Republic Household Consumption"
+    },
+    {
+      "security": "OEHHCZFB<index>",
+      "description": "OECD Czech Republic Household Expenditure on Food & Non-Alc Bevs Current Prices"
+    },
+    {
+      "security": "DFHCCZN<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure Price Deflator (2010=100)"
+    },
+    {
+      "security": "DFHCCZNY<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure Price Deflator (2010=100) YoY"
+    },
+    {
+      "security": "DFHCCZS<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure Price Deflator (2010=100)"
+    },
+    {
+      "security": "DFHCCZSQ<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure Price Deflator (2010=100) QoQ"
+    },
+    {
+      "security": "DFHCCZSY<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure Price Deflator (2010=100) YoY"
+    },
+    {
+      "security": "EUHCCZI<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure Current Prices"
+    },
+    {
+      "security": "EUHCCZN<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure Current Prices"
+    },
+    {
+      "security": "EVHCCZN<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure  Chained 2010 Prices"
+    },
+    {
+      "security": "EVHCCZN5<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure  Chained 2015 Prices NSA"
+    },
+    {
+      "security": "EVHCCZNQ<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure Chained 2010 Prices QoQ"
+    },
+    {
+      "security": "EVHCCZNY<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure  Chained 2010 Prices YoY"
+    },
+    {
+      "security": "EVHCCZS<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure  Chained 2010 Prices"
+    },
+    {
+      "security": "EVHCCZS5<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure  Chained 2015 Prices"
+    },
+    {
+      "security": "EVHCCZSQ<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure  Chained 2010 Prices QoQ"
+    },
+    {
+      "security": "EVHCCZSY<index>",
+      "description": "Czech Rep Households Final Consumption Expenditure  Chained 2010 Prices YoY"
+    },
+    {
+      "security": "OEHPCZEH<index>",
+      "description": "OECD Czechia Real House Price Index"
+    },
+    {
+      "security": "GLPPCRAO<index>",
+      "description": "Czech Republic Residential Property Prices All Owner Occupied Dwellings NSA"
+    },
+    {
+      "security": "CP55CZ<index>",
+      "description": "EU CPI Tools & Equipment for House & Garden Czech Republic"
+    },
+    {
+      "security": "CP55CZYY<index>",
+      "description": "EU CPI Tools & Equipment for House & Garden Czech Republic YoY"
+    },
+    {
+      "security": "EUWE5JCZ<index>",
+      "description": "Eurostat HICP Weights Tools & Eq for House & Garden Czech Republic"
+    },
+    {
+      "security": "HOPICZQQ<index>",
+      "description": "Eurostat House Price Index Czech Republic QoQ"
+    },
+    {
+      "security": "HOPICZYY<index>",
+      "description": "Eurostat House Price Index Czech Republic YoY"
+    },
+    {
+      "security": "OEHPCZEI<index>",
+      "description": "OECD House Price Ratios Czech Republic Price to Income"
+    },
+    {
+      "security": "OEHPCZER<index>",
+      "description": "OECD House Price Ratios Czech Republic Price to Rent"
+    },
+    {
+      "security": "CP52CZ<index>",
+      "description": "EU CPI Household Textiles Czech Republic"
+    },
+    {
+      "security": "CP52CZMM<index>",
+      "description": "EU CPI Household Textiles Czech Republic MoM"
+    },
+    {
+      "security": "CP52CZYY<index>",
+      "description": "EU CPI Household Textiles Czech Republic YoY"
+    }
+  ]
+}

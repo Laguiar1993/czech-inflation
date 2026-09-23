@@ -1,0 +1,27 @@
+##### E2 block tables and leave-one-year-out
+[PASS] block_error_table.csv: 96 cells (2 models x 3 horizons x 2 samples x 8 parts) equal own cumulation :: max abs diff=8.882e-16
+   FAST, H=12, RMS of cumulative weighted error (pp of headline):
+sample            full  origins_2024plus
+   block                                   
+   administered     1.979             0.323
+   alcohol_tobacco  0.271             0.106
+   core             2.329             0.316
+   food             1.407             0.728
+   fuel             0.592             0.444
+   h0               0.419             0.212
+   total            4.516             0.864
+   wedge            0.246             0.194
+[PASS] block_benchmarks.csv: 36 cells (3 blocks x 2 models x 3 horizons x 2 samples): model, zero-change and seasonal-naive RMSE equal own code :: max abs diff=8.882e-16
+[PASS] leave_one_origin_year_out.csv: 138 cells at h3/h6/h12 equal own RMSE deltas against FAST :: max abs diff=8.882e-16
+   headline h6 RMSE minus FAST, leaving out one origin year:
+              DOMESTIC  JOINT  LEVELS  MOMENTUM  SIGNED    ULC
+   omitted_year                                                  
+   2019            -0.011 -0.019   0.010    -0.033  -0.011 -0.005
+   2020            -0.012 -0.020   0.010    -0.034  -0.012 -0.006
+   2021            -0.018  0.011   0.015     0.003   0.004  0.001
+   2022            -0.014 -0.031   0.012    -0.034  -0.020 -0.022
+   2023             0.013 -0.012   0.018    -0.047  -0.002  0.020
+   2024            -0.016 -0.025   0.005    -0.034  -0.016 -0.010
+   2025            -0.021 -0.026  -0.002    -0.033  -0.016 -0.014
+   2026            -0.011 -0.018   0.009    -0.032  -0.011 -0.005
+##### E2 block tables and leave-one-year-out: 3 passed, 0 failed, 0 notes

@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "output/audit_fixes_20260914/nowcast/independent_nowcast_releases.csv": "20ca26f3a1a04a82f4888d7d3882cd28040ff1421fca92b0eca8b287ec53f661",
+    "output/research_r13/nowcast/release_rows.csv": "0eba3928278836c1e67f7dd432b9f417a06388d9e4767b8d788757c49c3655d5",
+    "output/research_r17/path/evaluation/cnb_quarter_projections.csv": "31966fc0a418e9fe72c0b69e6fa6f1d2f9988f4fb306fbb7f2c33852b67e35f9",
+    "output/research_r17/path/evaluation/cnb_clocks.csv": "5340a7ac5331bab94ec7185f24b74b1bbf7b42ee3f074aa61fd4c0115569ba4e",
+    "data/cnb_mpr_cpi_quarterly.csv": "137cce6c715a358b85740302453e969c8313f1b39a6eeaed0b7e8698940f3a27",
+    "data/czcpmom_survey_history_extended.csv": "2d43dc9f99add7b5d93a8876936e7a726af124eb1f6f40cbfb3c912e5a7a794d",
+    "data/release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+    "work/model_briefing_20260914/ANALYSIS_SCOPE.md": "183a17e4cfe933b3db12f823161fe417ea90b602e48649c5c19323ebf635b1fa"
+  },
+  "outputs": {
+    "cnb_all_vintage_turn_calls.csv": "0d44af636a3f321a43129fa8278751a5a2890aa7adfdfef1eeb8fb617d2909a1",
+    "headline_turn_event_priority.csv": "08c8b7983ea088830d7af6e35a256eb61f120b9754649265cce332d8d5650fee",
+    "headline_turn_opportunities.csv": "d5fc1b41853b34aab8323f5c75a22d2f2560339d6c661f97d47a466b23496bbe",
+    "headline_turn_summary.csv": "dc090ec70717cfa4f07f02041511627c682e08ad0812cde2e8d05d957d698dac",
+    "nowcast_large_events.csv": "a80dbba2311fa8263039ccbfff56ec2084dd77efde84a06efa9af15019c95f91",
+    "nowcast_release_evidence.csv": "ea4ffcb4b83d0ae05dcf16e55c35fc7d7b0ba12d79566546868ab6f338c1b4a5",
+    "nowcast_summary.csv": "204aea656a466ede91b6951b67f47f81c7367223666741dee29d83e8735c8a69"
+  },
+  "script_sha256": "15414e1a4b483f81973523176e0bc1699abad88e02edf92d79758545b3b78a5a",
+  "interpretation": "Descriptive frozen-forecast analysis; no fitting or model selection"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "calendar_august_release_source.md": "baec28e5a2f407ca90aab44d95b797fdb1fbf1f59e99224ecd464a6dd4afb272",
+    "calendar_media_source.md": "fc7e4f457ddbabd43f6d7be39447aae3de2fe235eef4c6e43af9ab257e5507e6",
+    "live_calendar_cz_cpi_20260922.csv": "149298cf4bb71743dcca4016a1550f4b92297b8dc35bd51665e204903f6f5ce7"
+  },
+  "recorded_at": "2026-09-22T17:50:00.528349+00:00",
+  "rule": "CZSO news releases always at 09:00 local time per official media guidance; October dates per official August CPI release.",
+  "source_urls": [
+    "https://csu.gov.cz/statistika/information_for_media",
+    "https://csu.gov.cz/rychle-informace/consumer-price-indices-inflation-august-2026"
+  ],
+  "timezone": "Europe/Prague"
+}

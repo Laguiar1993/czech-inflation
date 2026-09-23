@@ -1,0 +1,9 @@
+{
+  "filename": "czech-inflation-original-history-20260923.bundle",
+  "bytes": 502019488,
+  "sha256": "d39dae6e882d8ca5838718983497ee19d117a1501b68045f2a856d764e109733",
+  "branch": "codex/independent-cpi-20260909",
+  "source_commit": "ae8181b8212e9e70995003f0d7db71e34d7cf30f",
+  "complete_history": true,
+  "release_tag": "r35-portable-2026-09-23"
+}

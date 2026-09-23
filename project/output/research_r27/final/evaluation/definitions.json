@@ -1,0 +1,27 @@
+{
+  "roster": [
+    "STATE_FAST_R15",
+    "FOOD_NORM_SHIFT_R24",
+    "FOOD_ECM_R27",
+    "FOOD_ECM_PPI_R27",
+    "FOOD_ECM_A002_R27",
+    "FOOD_ECM_A005_R27",
+    "FOOD_ECM_A010_R27",
+    "FOOD_ECM_A015_R27"
+  ],
+  "primary_calendar": "Original R16 annual-headline969row support, not filtered by a new model.",
+  "errors": "Forecast minus actual in percentage points. Show failures separately; matched comparisons require identical finite support.",
+  "core": "Monthly core and cumulative log core h1..h, original frozen target. Underlying bands subtract own-origin saved R15 seasonality.",
+  "bootstrap": "Circular blocks on consecutive monthly origins: 12 months from 48 observations, 6 from 24, no interval below 24; 2000 draws, seed 1509.",
+  "sustained": "Bands1to3 change>=.5pp annualized, without opposite adjacent>=.5pp. Additional to strict exact-turn test.",
+  "cnb": "Both clocks; same-origin quarter means;0.15pp absolute-error materiality; repeated quarters dependent; every-report omission.",
+  "limitations": [
+    "R27: error-correction candidates for the food block on the frozen R24 research path (FAST core with the long-history food drift), original 90 origins and 969 primary keys. Only the food block of h1-6 changes; h0, h7-12, every other block, the wedge and the weights are untouched. Historical research, not a live record.",
+    "The gap is the residual of retail food\u2019s log level on a trend and the producer (and farm) price levels over the food system\u2019s window (at most 96 months), centred by calendar month; the speed is the least-squares response of the centred food rate to the previous month\u2019s gap, clipped to [-0.25, 0]. The correction decays from the last month at which all three levels are published. Four fixed speeds are run for the specificity condition of the R26 rule.",
+    "Every parameter uses observations published by the origin\u2019s clock; no forecast error or outcome after the origin enters. Judged by the R26 promotion rule against the R24 path as baseline, block first.",
+    "Lead tables flag abs(model-CNB)>=0.30pp (0.50 sensitivity) against the immediately next CNB report for the same still-future quarter, with base-rate rows passed through the same rules.",
+    "Defaults show the R24 path with the producer-and-farm candidate; no promotion is implied by the display."
+  ],
+  "cnb_lead": ".30 and .50 ex-ante deviation thresholds; immediate next report, same target beyond next report quarter; .15pp closer CNB revision and separate eventual .15pp absolute-error improvement; first calls deduplicated by model/clock/target/direction streak; base-rate rows flagged is_baseline.",
+  "samples": "full; origins 2019-2021; origins 2022-2023; origins from 2024."
+}

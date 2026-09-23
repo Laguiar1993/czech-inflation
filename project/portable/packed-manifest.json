@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "created_at": "2026-09-22T22:17:13.138639+00:00",
+  "files": [
+    {
+      "target": "output/research_r17/path/evaluation/component_paired_loss_differences.csv",
+      "archive": "portable/packed/r17-component-loss.csv.gz",
+      "sha256": "95333061547aa4621d672d460ad8b82fe5cc13e078cc2360cb6c30cc263ae13d",
+      "archive_sha256": "569135fa6b26d75d1e418608d68f1618671428af43d65e09bff82e4ecbe7a3b5",
+      "bytes": 195989682,
+      "archive_bytes": 22904341
+    },
+    {
+      "target": "output/research_r17/path/evaluation/paired_loss_differences.csv",
+      "archive": "portable/packed/r17-loss.csv.gz",
+      "sha256": "4689d2b1ccef1e40f6e56fddba41c17785950980c6b4f3440ab52f9477bc45c5",
+      "archive_sha256": "b5f40495108486ae43b3c1a38f39558f9df67cda4d1117bcfa5c48a3b2447f48",
+      "bytes": 109177299,
+      "archive_bytes": 23545417
+    },
+    {
+      "target": "portable/local/czechia.duckdb",
+      "archive": "portable/packed/legacy-czechia.duckdb.gz",
+      "sha256": "f1b4bea71535f66bd49f7b95214f3f170f4024278e608cfe72a33f0ff70cd65a",
+      "archive_sha256": "9a75b243bedd1ad3194ad56bd0e72597f867f52cc19989a4b15265c33d44b0e3",
+      "bytes": 108277760,
+      "archive_bytes": 29034336
+    }
+  ]
+}

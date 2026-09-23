@@ -1,0 +1,43 @@
+origins 90 2019-02 2026-07
+
+[C] baseline reproduction: max |100*expm1(log rate) - value_food(STATE_FAST_R15, R21)| over 90 origins x 12 horizons = 0.000e+00
+[C] worst origin: 2019-02  non-finite cells: 0
+[C] control STATE_FAST_R15: rows 1170 vs 1170; columns that differ from the R21 file: ['food_model_status']
+[C] control STABLE_LOCAL_CORE_R14B: rows 1170 vs 1170; columns that differ from the R21 file: ['food_model_status']
+[C] control DAMPED_P95_Q001_R16: rows 1170 vs 1170; columns that differ from the R21 file: ['food_model_status']
+[C] columns only in R24 file: []  only in R21 file: []
+
+[A1] max |stored candidate log rate - (baseline log rate + declared constant)|: {'FOOD_ZERO_DRIFT_R24': 0.0, 'FOOD_ROBUST_WINDOW_R24': 4.440892098500626e-16, 'FOOD_NORM_SHIFT_R24': 4.440892098500626e-16}
+[A1] refit minus shift log rates: mean |d| by horizon (log points a month): {1: 0.0144, 2: 0.0106, 3: 0.0067, 4: 0.005, 5: 0.0039, 6: 0.0029, 7: 0.0023, 8: 0.0019, 9: 0.0015, 10: 0.0012, 11: 0.0009, 12: 0.0007}
+[A1] refit minus shift, cumulative over h1..12: mean 0.027, min -0.098, max 0.297 log points
+
+[A2] FOOD_ZERO_DRIFT_R24: changed columns ['model', 'mm_forecast', 'contribution_food', 'value_food', 'food_model_status', 'food_fallback_used', 'yy_exante', 'cumulative_log_forecast']
+     unexpected changed columns: []; h0 columns changed: []
+     max |value_food - 100*expm1(log rate)| = 0.00e+00; max |d mm_forecast - weight_food*d value_food| = 1.11e-16
+     max |contribution_food - weight_food*value_food| = 0.00e+00; max |sum of six contributions - mm_forecast| = 8.88e-16
+     status values: ['estimated']; fallback used anywhere: False
+     stale derived columns in native rows h>0: yy_exante all NaN = True, cumulative_log_forecast all NaN = True
+
+[A2] FOOD_ROBUST_WINDOW_R24: changed columns ['model', 'mm_forecast', 'contribution_food', 'value_food', 'food_model_status', 'food_fallback_used', 'yy_exante', 'cumulative_log_forecast']
+     unexpected changed columns: []; h0 columns changed: []
+     max |value_food - 100*expm1(log rate)| = 0.00e+00; max |d mm_forecast - weight_food*d value_food| = 2.35e-16
+     max |contribution_food - weight_food*value_food| = 0.00e+00; max |sum of six contributions - mm_forecast| = 8.88e-16
+     status values: ['estimated']; fallback used anywhere: False
+     stale derived columns in native rows h>0: yy_exante all NaN = True, cumulative_log_forecast all NaN = True
+
+[A2] FOOD_NORM_SHIFT_R24: changed columns ['model', 'mm_forecast', 'contribution_food', 'value_food', 'food_model_status', 'food_fallback_used', 'yy_exante', 'cumulative_log_forecast']
+     unexpected changed columns: []; h0 columns changed: []
+     max |value_food - 100*expm1(log rate)| = 0.00e+00; max |d mm_forecast - weight_food*d value_food| = 1.17e-16
+     max |contribution_food - weight_food*value_food| = 0.00e+00; max |sum of six contributions - mm_forecast| = 8.88e-16
+     status values: ['estimated']; fallback used anywhere: False
+     stale derived columns in native rows h>0: yy_exante all NaN = True, cumulative_log_forecast all NaN = True
+
+[A2] FOOD_NORM_REFIT_R24: changed columns ['model', 'mm_forecast', 'contribution_food', 'value_food', 'food_model_status', 'food_fallback_used', 'yy_exante', 'cumulative_log_forecast']
+     unexpected changed columns: []; h0 columns changed: []
+     max |value_food - 100*expm1(log rate)| = 0.00e+00; max |d mm_forecast - weight_food*d value_food| = 2.46e-16
+     max |contribution_food - weight_food*value_food| = 0.00e+00; max |sum of six contributions - mm_forecast| = 8.88e-16
+     status values: ['estimated']; fallback used anywhere: False
+     stale derived columns in native rows h>0: yy_exante all NaN = True, cumulative_log_forecast all NaN = True
+
+[A3] refit contraction < 1 at 0 of 90 origins; max spectral radius 0.8212
+[A3] n_train range 42 96 ; first window 2015-08 2019-01 ; last window 2018-07 2026-06

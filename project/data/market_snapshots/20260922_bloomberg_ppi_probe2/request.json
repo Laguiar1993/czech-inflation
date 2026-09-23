@@ -1,0 +1,60 @@
+{
+  "retrieved_at": "2026-09-22T12:47:45.492910+00:00",
+  "end_date": "2026-09-21",
+  "candidates": {
+    "eurostat_manufacturing_C": [
+      "EPM00CCZ Index",
+      "EPP00CCZ Index",
+      "EPY00CCZ Index",
+      "EPA00CCZ Index",
+      "EPT00CCZ Index",
+      "EPN00CCZ Index",
+      "EPC00CCZ Index",
+      "EPD00CCZ Index",
+      "EPB00CCZ Index",
+      "EPE00CCZ Index"
+    ],
+    "eurostat_bc_and_bd": [
+      "EPM0BCCZ Index",
+      "EPP0BCCZ Index",
+      "EPM0BDCZ Index",
+      "EP30BDCZ Index",
+      "EPA0BCCZ Index",
+      "EPNBC2CZ Index",
+      "EPPBC2CZ Index"
+    ],
+    "oecd_manufacturing": [
+      "OECZPEBQ Index",
+      "OECZPEBR Index",
+      "OECZPEBS Index",
+      "OECZPEBU Index",
+      "OECZPEBV Index"
+    ],
+    "czso_manufacturing": [
+      "CZPPCM Index",
+      "CZPPCY Index",
+      "CZPPCMOM Index",
+      "CZPPCYOY Index"
+    ]
+  },
+  "reference_fields": [
+    "NAME",
+    "SECURITY_DES",
+    "INDX_SOURCE",
+    "SEASONALITY_AND_TRANSFORMATION",
+    "INDX_FREQ",
+    "LAST_UPDATE_DT",
+    "COUNTRY",
+    "DES_NOTES"
+  ],
+  "history": "PX_LAST; MONTHLY periodicity for Index tickers, DAILY for Govt",
+  "history_start": "1990-01-01",
+  "vintage_status": "Current-vintage download; not an original-vintage archive.",
+  "python_executable": "C:\\Users\\luis_\\anaconda3\\python.exe",
+  "versions": {
+    "xbbg": "0.7.7",
+    "blpapi": "3.25.5.1",
+    "pandas": "1.4.4"
+  },
+  "completed_at": "2026-09-22T12:48:04.129519+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "coverage.csv": "84f3a22c6d167a423fef4682a1b3384c3166329a2871ecb45cee75bd08289be5",
+    "daily.csv": "c4717bca6271c78a20c8ca32d36c27a37f6477fb237967843566b11fda2dd185",
+    "errors.json": "7d30688ecd709ac4c10193da86319f0aa95608b0522154713613d5bf7a3b25a3",
+    "metadata.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "raw/services_employment_expectations_next3m_bdh.csv": "50c812f1ca7b9169f29da72df815f0d92bdf14723c1be4b70fa02844b17b9ea7",
+    "raw/services_employment_expectations_next3m_bdp.csv": "016efe6bdbcc9eeca5a709e4dab6f8e7341773aef2b0b9f63c83c84dabb6e093",
+    "request.json": "5b0cd4387d5682f562b576dc85887f4a9154b64990fc56501cf796b2151286ae"
+  },
+  "pull_script_sha256": "0d37a56a06d9ba072f4eaa1704105c588984ea62cd369414ee72243ae7a5dce0"
+}

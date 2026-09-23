@@ -1,0 +1,34 @@
+{
+  "roster": [
+    "STATE_FAST_R15",
+    "STABLE_LOCAL_CORE_R14B",
+    "DAMPED_P95_Q001_R16",
+    "CORE_FEEDBACK_R21",
+    "GAP_CALIBRATION_R23",
+    "GAP_DOMESTIC_R23",
+    "GAP_IMPORTED_R23",
+    "GAP_JOINT_R23",
+    "GAP_FREE_R23",
+    "GAP_ENET_R23",
+    "GAP_HALF_R23"
+  ],
+  "primary_calendar": "Original R16 annual-headline969row support, not filtered by a new model.",
+  "errors": "Forecast minus actual in percentage points. Show failures separately; matched comparisons require identical finite support.",
+  "core": "Monthly core and cumulative log core h1..h, original frozen target. Underlying bands subtract own-origin saved R15 seasonality.",
+  "bootstrap": "12 consecutive calendar-origin blocks;2000draws seed1509; suppress when complete calendar blocks cannot cover all support.",
+  "sustained": "Bands1to3 change>=.5pp annualized, without opposite adjacent>=.5pp. Additional to strict exact-turn test.",
+  "cnb": "Both clocks; same-origin quarter means;0.15pp absolute-error materiality; repeated quarters dependent; every-report omission.",
+  "limitations": [
+    "R23: seven declared quarterly cost-gap candidates, original90 origins and969 primary keys; h0 and noncore unchanged. Historical research, not a live or untouched holdout record.",
+    "Common FAST adaptive core baseline and identical saved R15 seasonality. Existing core state predates each decision. Four direct quarterly-average corrections are interpolated to months while exactly preserving their band means.",
+    "Domestic inputs: quarterly real ULC gap and unemployment tightening. Imported inputs: relative import/PPI gaps and FX news since the import-price reference. These are statistical cost proxies, not causal contributions or exact core subdivisions.",
+    "ULC remains quarterly. Training uses one origin per calendar quarter, only after its whole12-month target is published. Nested regularization uses each validation origin's own information clock; no outer outcome selects its model.",
+    "Positive coefficient restrictions were declared before scoring and compared with free ridge, elastic net and intercept-only calibration. Missing required history falls back to FAST on the original support.",
+    "No survey, CNB forecast or future realised driver enters the independent predictions. Current-vintage histories, assumed publication rules, repeated research and short effective quarterly history remain limitations.",
+    "Both CNB clocks use same-origin quarter averages. Model-CNB difference is not evidence of skill: material accuracy gains require at least0.15pp lower absolute error.",
+    "Separate lead tables flag abs(model-CNB)>=0.30pp, plus0.50 sensitivity; compare the immediately next CNB report for the same still-future target quarter. Confirmed revisions reduce distance to our original forecast by>=0.15pp; eventual material accuracy is a second test.",
+    "All qualifying calls, failures, missing comparisons, unmatured outcomes and first-call episodes are exported. Repeated target quarters are dependent. Leading a later CNB revision is not a causal identification of news or a proven trading signal.",
+    "Defaults illustrate the declared joint and half candidates with FAST; no model promotion is implied. Original controls and every candidate remain selectable."
+  ],
+  "cnb_lead": ".30 and .50 ex-ante deviation thresholds; immediate next report, same target beyond next report quarter; .15pp closer CNB revision and separate eventual .15pp absolute-error improvement; first calls deduplicated by model/clock/target/direction streak."
+}

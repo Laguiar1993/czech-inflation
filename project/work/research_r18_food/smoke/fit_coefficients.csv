@@ -1,0 +1,7 @@
+origin,model,rho,as_of,beta,beta_unbounded,theta,scale,ridge,n_origins,n_rows,status,reason
+2019-02,FOOD_H0_FAST_R18,0.5,2019-03-10T23:59:00+01:00,0.0,0.0,0.0,0.0,1.0,0,0,fallback,fallback_insufficient_mature_origins
+2019-02,FOOD_H0_SLOW_R18,0.9,2019-03-10T23:59:00+01:00,0.0,0.0,0.0,0.0,1.0,0,0,fallback,fallback_insufficient_mature_origins
+2019-03,FOOD_H0_FAST_R18,0.5,2019-04-09T23:59:00+02:00,0.0,0.0,0.0,0.0,1.0,0,0,fallback,fallback_insufficient_mature_origins
+2019-03,FOOD_H0_SLOW_R18,0.9,2019-04-09T23:59:00+02:00,0.0,0.0,0.0,0.0,1.0,0,0,fallback,fallback_insufficient_mature_origins
+2019-04,FOOD_H0_FAST_R18,0.5,2019-05-12T23:59:00+02:00,0.0,0.0,0.0,0.0,1.0,0,0,fallback,fallback_insufficient_mature_origins
+2019-04,FOOD_H0_SLOW_R18,0.9,2019-05-12T23:59:00+02:00,0.0,0.0,0.0,0.0,1.0,0,0,fallback,fallback_insufficient_mature_origins

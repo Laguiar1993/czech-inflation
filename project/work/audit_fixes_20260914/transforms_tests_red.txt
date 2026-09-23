@@ -1,0 +1,130 @@
+FFFFFFFFFFFFFFFF.FF                                                      [100%]
+================================== FAILURES ===================================
+E   AssertionError: Series are different
+    
+    Series values are different (66.66667 %)
+    [index]: [0, 1, 2]
+    [left]:  [nan, 2.0, -1.0]
+    [right]: [nan, 0.019802627296178876, -0.009852296443011]
+    At positional index 1, first diff: 2.0 != 0.019802627296178876
+pandas/_libs/testing.pyx:171: AssertionError: Series are different
+E   AssertionError: Series are different
+    
+    Series values are different (66.66667 %)
+    [index]: [0, 1, 2]
+    [left]:  [nan, 2.0, -1.0]
+    [right]: [nan, 0.019802627296178876, -0.009852296443011]
+    At positional index 1, first diff: 2.0 != 0.019802627296178876
+pandas/_libs/testing.pyx:171: AssertionError: Series are different
+E   AssertionError: Series are different
+    
+    Series values are different (87.5 %)
+    [index]: [0, 1, 2, 3, 4, 5, 6, 7]
+    [left]:  [nan, 1.0, -101.0, 102.0, 2.0, -106.0, 108.0, 2.0]
+    [right]: [nan, 0.009950330853167877, nan, nan, 0.019418085857101808, nan, nan, 0.018692133012153]
+    At positional index 1, first diff: 1.0 != 0.009950330853167877
+pandas/_libs/testing.pyx:171: AssertionError: Series are different
+E   AssertionError: DataFrame.iloc[:, 0] (column name="a6_61") are different
+    
+    DataFrame.iloc[:, 0] (column name="a6_61") values are different (100.0 %)
+    [index]: [2002-05, 2002-06, 2002-07, 2002-08, 2002-09, 2002-10, 2002-11]
+    [left]:  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+    [right]: [0.009661910911736626, 0.009569451016150587, 0.009478743954543845, 0.00938974034983886, 0.00930239266231414, 0.009216655104923532, 0.00913248356327312]
+    At positional index 0, first diff: 1.0 != 0.009661910911736626
+pandas/_libs/testing.pyx:171: AssertionError: DataFrame.iloc[:, 0] (column name="a6_61") are different
+E   AssertionError: DataFrame.iloc[:, 0] (column name="a6_61") are different
+    
+    DataFrame.iloc[:, 0] (column name="a6_61") values are different (96.55172 %)
+    [index]: [2002-05, 2002-06, 2002-07, 2002-08, 2002-09, 2002-10, 2002-11, 2002-12, 2003-01, 2003-02, 2003-03, 2003-04, 2003-05, 2003-06, 2003-07, 2003-08, 2003-09, 2003-10, 2003-11, 2003-12, 2004-01, 2004-02, 2004-03, 2004-04, 2004-05, 2004-06, 2004-07, 2004-08, 2004-09]
+    [left]:  [nan, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+    [right]: [nan, 0.009950330853167877, 0.009950330853167877, 0.009950330853167877, 0.009852296443011, 0.009852296443011, 0.009852296443011, 0.009756174945365181, 0.009756174945365181, 0.009756174945365181, 0.009661910911736626, 0.009661910911736626, 0.009661910911736626, 0.009569451016150587, 0.009569451016150587, 0.009569451016150587, 0.009478743954543845, 0.009478743954543845, 0.009478743954543845, 0.00938974034983886, 0.00938974034983886, 0.00938974034983886, 0.00930239266231414, 0.00930239266231414, 0.00930239266231414, 0.009216655104923532, 0.009216655104923532, 0.009216655104923532, 0.00913248356327312]
+    At positional index 1, first diff: 1.0 != 0.009950330853167877
+pandas/_libs/testing.pyx:171: AssertionError: DataFrame.iloc[:, 0] (column name="a6_61") are different
+E   AssertionError: DataFrame.iloc[:, 0] (column name="a6_61") are different
+    
+    DataFrame.iloc[:, 0] (column name="a6_61") values are different (100.0 %)
+    [index]: [2002-05, 2002-06, 2002-07, 2002-08, 2002-09, 2002-10, 2002-11]
+    [left]:  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+    [right]: [0.009661910911736626, 0.009569451016150587, 0.009478743954543845, 0.00938974034983886, 0.00930239266231414, 0.009216655104923532, 0.00913248356327312]
+    At positional index 0, first diff: 1.0 != 0.009661910911736626
+pandas/_libs/testing.pyx:171: AssertionError: DataFrame.iloc[:, 0] (column name="a6_61") are different
+E   AssertionError: DataFrame.iloc[:, 0] (column name="a6_61") are different
+    
+    DataFrame.iloc[:, 0] (column name="a6_61") values are different (96.55172 %)
+    [index]: [2002-05, 2002-06, 2002-07, 2002-08, 2002-09, 2002-10, 2002-11, 2002-12, 2003-01, 2003-02, 2003-03, 2003-04, 2003-05, 2003-06, 2003-07, 2003-08, 2003-09, 2003-10, 2003-11, 2003-12, 2004-01, 2004-02, 2004-03, 2004-04, 2004-05, 2004-06, 2004-07, 2004-08, 2004-09]
+    [left]:  [nan, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+    [right]: [nan, 0.009950330853167877, 0.009950330853167877, 0.009950330853167877, 0.009852296443011, 0.009852296443011, 0.009852296443011, 0.009756174945365181, 0.009756174945365181, 0.009756174945365181, 0.009661910911736626, 0.009661910911736626, 0.009661910911736626, 0.009569451016150587, 0.009569451016150587, 0.009569451016150587, 0.009478743954543845, 0.009478743954543845, 0.009478743954543845, 0.00938974034983886, 0.00938974034983886, 0.00938974034983886, 0.00930239266231414, 0.00930239266231414, 0.00930239266231414, 0.009216655104923532, 0.009216655104923532, 0.009216655104923532, 0.00913248356327312]
+    At positional index 1, first diff: 1.0 != 0.009950330853167877
+pandas/_libs/testing.pyx:171: AssertionError: DataFrame.iloc[:, 0] (column name="a6_61") are different
+E   assert False
+     +  where False = <function allclose at 0x000001BDCAB29370>(2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_22, dtype: float64, 1.0)
+     +    where <function allclose at 0x000001BDCAB29370> = np.allclose
+     +    and   2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_22, dtype: float64 = dropna()
+     +      where dropna = 2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_22, dtype: float64.dropna
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_paper_panel_transforms.py:62: assert False
+E   assert False
+     +  where False = <function allclose at 0x000001BDCAB29370>(2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_25, dtype: float64, 1.0)
+     +    where <function allclose at 0x000001BDCAB29370> = np.allclose
+     +    and   2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_25, dtype: float64 = dropna()
+     +      where dropna = 2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_25, dtype: float64.dropna
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_paper_panel_transforms.py:62: assert False
+E   assert False
+     +  where False = <function allclose at 0x000001BDCAB29370>(2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_64, dtype: float64, 1.0)
+     +    where <function allclose at 0x000001BDCAB29370> = np.allclose
+     +    and   2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_64, dtype: float64 = dropna()
+     +      where dropna = 2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_64, dtype: float64.dropna
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_paper_panel_transforms.py:62: assert False
+E   assert False
+     +  where False = <function allclose at 0x000001BDCAB29370>(2002-06    0.095310\n2002-07    0.095310\n2002-08    0.095310\n2002-09    0.087011\n2002-10    0.087011\n2002-11    0.08701...67\n2004-09    0.051293\n2004-10    0.051293\n2004-11    0.051293\n2004-12    0.048790\nFreq: M, Name: a6_22, dtype: float64, 1.0)
+     +    where <function allclose at 0x000001BDCAB29370> = np.allclose
+     +    and   2002-06    0.095310\n2002-07    0.095310\n2002-08    0.095310\n2002-09    0.087011\n2002-10    0.087011\n2002-11    0.08701...67\n2004-09    0.051293\n2004-10    0.051293\n2004-11    0.051293\n2004-12    0.048790\nFreq: M, Name: a6_22, dtype: float64 = dropna()
+     +      where dropna = 2002-05         NaN\n2002-06    0.095310\n2002-07    0.095310\n2002-08    0.095310\n2002-09    0.087011\n2002-10    0.08701...67\n2004-09    0.051293\n2004-10    0.051293\n2004-11    0.051293\n2004-12    0.048790\nFreq: M, Name: a6_22, dtype: float64.dropna
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_paper_panel_transforms.py:62: assert False
+E   assert False
+     +  where False = <function allclose at 0x000001BDCAB29370>(2002-06    0.095310\n2002-07    0.095310\n2002-08    0.095310\n2002-09    0.087011\n2002-10    0.087011\n2002-11    0.08701...67\n2004-09    0.051293\n2004-10    0.051293\n2004-11    0.051293\n2004-12    0.048790\nFreq: M, Name: a6_25, dtype: float64, 1.0)
+     +    where <function allclose at 0x000001BDCAB29370> = np.allclose
+     +    and   2002-06    0.095310\n2002-07    0.095310\n2002-08    0.095310\n2002-09    0.087011\n2002-10    0.087011\n2002-11    0.08701...67\n2004-09    0.051293\n2004-10    0.051293\n2004-11    0.051293\n2004-12    0.048790\nFreq: M, Name: a6_25, dtype: float64 = dropna()
+     +      where dropna = 2002-05         NaN\n2002-06    0.095310\n2002-07    0.095310\n2002-08    0.095310\n2002-09    0.087011\n2002-10    0.08701...67\n2004-09    0.051293\n2004-10    0.051293\n2004-11    0.051293\n2004-12    0.048790\nFreq: M, Name: a6_25, dtype: float64.dropna
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_paper_panel_transforms.py:62: assert False
+E   assert False
+     +  where False = <function allclose at 0x000001BDCAB29370>(2002-06    0.095310\n2002-07    0.095310\n2002-08    0.095310\n2002-09    0.087011\n2002-10    0.087011\n2002-11    0.08701...67\n2004-09    0.051293\n2004-10    0.051293\n2004-11    0.051293\n2004-12    0.048790\nFreq: M, Name: a6_64, dtype: float64, 1.0)
+     +    where <function allclose at 0x000001BDCAB29370> = np.allclose
+     +    and   2002-06    0.095310\n2002-07    0.095310\n2002-08    0.095310\n2002-09    0.087011\n2002-10    0.087011\n2002-11    0.08701...67\n2004-09    0.051293\n2004-10    0.051293\n2004-11    0.051293\n2004-12    0.048790\nFreq: M, Name: a6_64, dtype: float64 = dropna()
+     +      where dropna = 2002-05         NaN\n2002-06    0.095310\n2002-07    0.095310\n2002-08    0.095310\n2002-09    0.087011\n2002-10    0.08701...67\n2004-09    0.051293\n2004-10    0.051293\n2004-11    0.051293\n2004-12    0.048790\nFreq: M, Name: a6_64, dtype: float64.dropna
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_paper_panel_transforms.py:62: assert False
+E   assert False
+     +  where False = <function allclose at 0x000001BDCAB29370>(2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_22, dtype: float64, 1.0)
+     +    where <function allclose at 0x000001BDCAB29370> = np.allclose
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_paper_panel_transforms.py:73: assert False
+E   assert False
+     +  where False = <function allclose at 0x000001BDCAB29370>(2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_25, dtype: float64, 1.0)
+     +    where <function allclose at 0x000001BDCAB29370> = np.allclose
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_paper_panel_transforms.py:73: assert False
+E   assert False
+     +  where False = <function allclose at 0x000001BDCAB29370>(2002-05    0.074108\n2002-06    0.068993\n2002-07    0.064539\n2002-08    0.060625\n2002-09    0.057158\n2002-10    0.054067\n2002-11    0.051293\n2002-12    0.048790\nFreq: M, Name: a6_64, dtype: float64, 1.0)
+     +    where <function allclose at 0x000001BDCAB29370> = np.allclose
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_paper_panel_transforms.py:73: assert False
+E   AssertionError: assert ('row 64' in 'T2 undefined for a principal component: T3 of the component re-estimated at each row')
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_paper_panel_transforms.py:94: AssertionError: assert ('row 64' in 'T2 undefined for a principal component: T3 of the component re-estimated at each row')
+E   TypeError: transform() got an unexpected keyword argument 'number'
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_paper_tvwqrf.py:72: TypeError: transform() got an unexpected keyword argument 'number'
+=========================== short test summary info ===========================
+FAILED tests/test_paper_panel_transforms.py::test_appending_nonpositive_level_cannot_change_earlier_log_differences[0.0]
+FAILED tests/test_paper_panel_transforms.py::test_appending_nonpositive_level_cannot_change_earlier_log_differences[-1.0]
+FAILED tests/test_paper_panel_transforms.py::test_nonpositive_levels_only_remove_their_adjacent_log_differences
+FAILED tests/test_paper_panel_transforms.py::test_future_nonpositive_input_cannot_change_earlier_realtime_rows[append-M]
+FAILED tests/test_paper_panel_transforms.py::test_future_nonpositive_input_cannot_change_earlier_realtime_rows[append-Q]
+FAILED tests/test_paper_panel_transforms.py::test_future_nonpositive_input_cannot_change_earlier_realtime_rows[mutate-M]
+FAILED tests/test_paper_panel_transforms.py::test_future_nonpositive_input_cannot_change_earlier_realtime_rows[mutate-Q]
+FAILED tests/test_paper_panel_transforms.py::test_realtime_signed_rows_use_declared_differences_even_when_positive[M-22]
+FAILED tests/test_paper_panel_transforms.py::test_realtime_signed_rows_use_declared_differences_even_when_positive[M-25]
+FAILED tests/test_paper_panel_transforms.py::test_realtime_signed_rows_use_declared_differences_even_when_positive[M-64]
+FAILED tests/test_paper_panel_transforms.py::test_realtime_signed_rows_use_declared_differences_even_when_positive[Q-22]
+FAILED tests/test_paper_panel_transforms.py::test_realtime_signed_rows_use_declared_differences_even_when_positive[Q-25]
+FAILED tests/test_paper_panel_transforms.py::test_realtime_signed_rows_use_declared_differences_even_when_positive[Q-64]
+FAILED tests/test_paper_panel_transforms.py::test_paper_signed_rows_use_the_same_declared_differences[22]
+FAILED tests/test_paper_panel_transforms.py::test_paper_signed_rows_use_the_same_declared_differences[25]
+FAILED tests/test_paper_panel_transforms.py::test_paper_signed_rows_use_the_same_declared_differences[64]
+FAILED tests/test_paper_panel_transforms.py::test_realtime_fuel_component_records_its_fixed_signed_policy
+FAILED tests/test_paper_tvwqrf.py::test_signed_difference_requires_the_declared_row_policy
+18 failed, 1 passed in 1.43s

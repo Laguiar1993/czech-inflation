@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "kind": "observed_category_momentum_inputs",
+  "prepared_at": "2026-09-22T21:11:45.368517+00:00",
+  "as_of": "2026-09-22T21:11:44.408707+00:00",
+  "available_from": "2026-09-22T21:05:12.058703+00:00",
+  "capture_completed_at": "2026-09-22T21:05:12.058703+00:00",
+  "first_month": "2015-01",
+  "last_month": "2026-08",
+  "through": "2026-08",
+  "months": 140,
+  "groups": 37,
+  "source_url": "https://data.csu.gov.cz/opendata/sady/CEN0101E/distribuce/csv",
+  "sources": {
+    "capture": {
+      "path": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\momentum_r35_inputs\\capture_20260922",
+      "manifest_sha256": "6d5962e732969357c9a2ff090c2aff1a78c83de32fadd6b2d2a36d3d4bbc7dcd",
+      "files": {
+        "CEN0101E.csv.gz": "938718dbba20e298d955a392b0241feb0e9bc092a62eee5fa9a960dcf24bfd79",
+        "request.json": "19778b889f1d816a3ff7b75a34b1d482355e84966aed64d638631acbf623f224"
+      },
+      "raw_sha256": "da38ba0d08f5de15435df54c1db8d2c3b25baaadd3739f762992dbf649cec56c",
+      "raw_bytes": 66269310,
+      "source_url": "https://data.csu.gov.cz/opendata/sady/CEN0101E/distribuce/csv",
+      "completed_at": "2026-09-22T21:05:12.058703+00:00"
+    },
+    "frozen_package": {
+      "path": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\data\\research_r18\\categories",
+      "manifest_sha256": "6f7c04b877049aedc96dd078990d83d8b0d554ccdaf7d93ae42d33b995b396c2",
+      "files": {
+        "availability.csv": "2d65a0a901e22431c9822313b62914a63e15c5bd1ea66172d1d057721d8f04f1",
+        "basket_weights_long.csv": "f9a5fb56b46234d388015ecd52e3ea7dd5164dcdbb599728e0328493beb425ce",
+        "metadata.json": "ed37a46f1dde7b283cb05b59b998e1f80bf52c53aaee4de576df0d2f66cb9ac1",
+        "monthly_levels.csv": "ef66fc9b3884d92b7ffa93295c119c659e517f4ff77cc8d5e844ecdd429af051",
+        "primary_monthly_levels.csv": "ea5bc9a31ac303cba271811f0c9bfd7e3cca5e362165b7aeccddcd32bd5b279c",
+        "raw/CEN0101E.csv.gz": "7be74c698f35ced99d087cbf5093d57b5fbc3b17680bc262f2d6691f5e881794",
+        "raw/online_verification/official_source_checks.json": "2e9822cce603a5ccfc6266aecfc7d771982f06b3e22187117ffdc1a997e50863",
+        "raw/online_verification/verification_log.json": "abb2b8bb60443682397efbfc45a792fc999c036fbebe9807c8bf783412ab9602",
+        "raw/previous_basket_audit.json": "1795e8a1fa5b30dd9d630467edfa6c687ea9f5d6303cf9ce56518837fe5bd8c5",
+        "raw/previous_five_group_metadata.json": "32d9fdfc5237c41c44bc43b787dd78fdd9bcdf676b3a4c42a81ab2adbf1a7504",
+        "raw/previous_source_audit.json": "4204d8b3913522dc661191a5e480add6291f8d313d111dccaa90500e58fa9b9b",
+        "raw/release_calendar_cz_cpi.csv": "4e3dc40df53cbfdebf62f3c5f47494881ebbf46e044921c44b2e365fa79f1bc4",
+        "raw/spot_kos2014.xlsx": "24b360baeac7a50f9d785dca90b2e1467642817668ebfeeb6d5ff34b2f615f4c",
+        "raw/spot_kos2016.xlsx": "c1968f89417d9511f4ad2d23ec77467b038996eb551b7403016a87ef31e1a62f",
+        "raw/spot_kos2018.xlsx": "8077cb320c438d50b450560c5eae6eaaf067bc2969e8ca6193645b8149c56cf5",
+        "raw/spot_kos2020.xlsx": "d17124307d324be3a55dfbc83b184e810075a878e49b90fc93ab96b3be799c24",
+        "raw/spot_kos2022.xlsx": "813a1403dd66e1fb8716053e03f49076edd6e086708c3757ec85319f2b85e8c2",
+        "raw/spot_kos2024.xlsx": "08ad65a0c1b9b731db83c9943bfedcee957ba2ac17fd6163dbd33ac57d5e1eb5",
+        "raw/spot_kos2026.xlsx": "f016bab956efde2267e0dc1361192733ddb2a367029127c4dec25d054b172aef",
+        "README.md": "868204e446ab8ed5c5159739cf0326cd7f231d30817406cefc5d420dc222726a",
+        "series_metadata.csv": "72f5b9e9f1b493a6d353167ca4b37dd84d667b0bd9371f1b756b433b14e246a6"
+      },
+      "extractor_path": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\tools\\research_r18\\category_inputs.py",
+      "extractor_sha256": "4d46d69cf5edaf1cb32ee2eb2d24a717e9cd42b1316dcc4abead5523bc519dfe",
+      "raw_sha256": "e81dc0dece758d0e89adc88e6f8c31f3ba97f8a68dfa67795a794dbe3b858880",
+      "created_at": "2026-09-15T06:47:16.362604+00:00",
+      "weight_effective_year": 2026,
+      "weight_basis_year": 2024,
+      "weight_cells": [
+        {
+          "mapped_series": "food",
+          "basket_code": "01.1",
+          "weight_permille": 152.798467,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E7"
+        },
+        {
+          "mapped_series": "nonalcoholic_beverages",
+          "basket_code": "01.2",
+          "weight_permille": 15.785663999999999,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E73"
+        },
+        {
+          "mapped_series": "alcoholic_beverages",
+          "basket_code": "02.1",
+          "weight_permille": 36.718916,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E87"
+        },
+        {
+          "mapped_series": "tobacco",
+          "basket_code": "02.3",
+          "weight_permille": 46.151899,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E94"
+        },
+        {
+          "mapped_series": "clothing",
+          "basket_code": "03.1",
+          "weight_permille": 29.374478999999997,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E99"
+        },
+        {
+          "mapped_series": "footwear",
+          "basket_code": "03.2",
+          "weight_permille": 9.74317,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E162"
+        },
+        {
+          "mapped_series": "actual_rent",
+          "basket_code": "04.1",
+          "weight_permille": 34.497805,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E187"
+        },
+        {
+          "mapped_series": "imputed_rent",
+          "basket_code": "04.2",
+          "weight_permille": 119.295072,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E199"
+        },
+        {
+          "mapped_series": "housing_maintenance",
+          "basket_code": "04.3",
+          "weight_permille": 13.507671,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E203"
+        },
+        {
+          "mapped_series": "water_housing_services",
+          "basket_code": "04.4",
+          "weight_permille": 20.514267999999998,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E226"
+        },
+        {
+          "mapped_series": "household_energy",
+          "basket_code": "04.5",
+          "weight_permille": 81.99593899999999,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E240"
+        },
+        {
+          "mapped_series": "furniture",
+          "basket_code": "05.1",
+          "weight_permille": 18.492493,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E264"
+        },
+        {
+          "mapped_series": "household_textiles",
+          "basket_code": "05.2",
+          "weight_permille": 6.206557999999999,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E287"
+        },
+        {
+          "mapped_series": "household_appliances",
+          "basket_code": "05.3",
+          "weight_permille": 9.508924,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E298"
+        },
+        {
+          "mapped_series": "tableware_utensils",
+          "basket_code": "05.4",
+          "weight_permille": 3.824292,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E327"
+        },
+        {
+          "mapped_series": "house_garden_tools",
+          "basket_code": "05.5",
+          "weight_permille": 3.6953329999999998,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E341"
+        },
+        {
+          "mapped_series": "household_goods_services",
+          "basket_code": "05.6",
+          "weight_permille": 9.504327,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E355"
+        },
+        {
+          "mapped_series": "health",
+          "basket_code": "06",
+          "weight_permille": 25.690503999999997,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E365"
+        },
+        {
+          "mapped_series": "vehicle_purchases",
+          "basket_code": "07.1",
+          "weight_permille": 39.231811,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E400"
+        },
+        {
+          "mapped_series": "vehicle_operation",
+          "basket_code": "07.2",
+          "weight_permille": 49.972974,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E413"
+        },
+        {
+          "mapped_series": "passenger_transport",
+          "basket_code": "07.3",
+          "weight_permille": 8.087484,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E458"
+        },
+        {
+          "mapped_series": "transport_postal_services",
+          "basket_code": "07.4",
+          "weight_permille": 1.8378949999999998,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E491"
+        },
+        {
+          "mapped_series": "ict_equipment",
+          "basket_code": "08.1",
+          "weight_permille": 12.093774,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E501"
+        },
+        {
+          "mapped_series": "ict_services",
+          "basket_code": "08.3",
+          "weight_permille": 35.379689,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E527"
+        },
+        {
+          "mapped_series": "recreation_durables",
+          "basket_code": "09.1",
+          "weight_permille": 0.529366,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E551"
+        },
+        {
+          "mapped_series": "other_recreation_goods",
+          "basket_code": "09.2",
+          "weight_permille": 5.483502,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E555"
+        },
+        {
+          "mapped_series": "garden_pets_goods",
+          "basket_code": "09.3",
+          "weight_permille": 11.848125999999999,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E581"
+        },
+        {
+          "mapped_series": "recreation_services",
+          "basket_code": "09.4",
+          "weight_permille": 28.911613,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E597"
+        },
+        {
+          "mapped_series": "musical_instruments_media",
+          "basket_code": "09.5",
+          "weight_permille": 1.75929,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E616"
+        },
+        {
+          "mapped_series": "cultural_services",
+          "basket_code": "09.6",
+          "weight_permille": 5.338698,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E624"
+        },
+        {
+          "mapped_series": "books_stationery",
+          "basket_code": "09.7",
+          "weight_permille": 6.105766,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E637"
+        },
+        {
+          "mapped_series": "package_holidays",
+          "basket_code": "09.8",
+          "weight_permille": 18.543302,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E679"
+        },
+        {
+          "mapped_series": "education",
+          "basket_code": "10",
+          "weight_permille": 6.103596,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E684"
+        },
+        {
+          "mapped_series": "catering",
+          "basket_code": "11.1",
+          "weight_permille": 60.074047,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E714"
+        },
+        {
+          "mapped_series": "accommodation",
+          "basket_code": "11.2",
+          "weight_permille": 8.090192,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E756"
+        },
+        {
+          "mapped_series": "insurance_financial_services",
+          "basket_code": "12",
+          "weight_permille": 17.831659,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E768"
+        },
+        {
+          "mapped_series": "personal_social_misc",
+          "basket_code": "13",
+          "weight_permille": 45.471435,
+          "source_file": "raw/spot_kos2026.xlsx",
+          "source_sheet": "List1",
+          "source_cell": "E784"
+        }
+      ]
+    }
+  },
+  "selection": {
+    "IndicatorType": "6134",
+    "TYPUDAJE4A": "IZ2015",
+    "EKAKTIOCDS": "0",
+    "UZ02P": "CZ",
+    "reference_month": "YYYY-MM",
+    "classification": "current COICOP2018"
+  },
+  "schema": {
+    "matches_frozen_exactly": true,
+    "columns": [
+      "Ukazatel",
+      "IndicatorType",
+      "Typ indexu",
+      "TYPUDAJE4A",
+      "Klasifikace COICOP 2018-Oddíl",
+      "CZCOICOP2.CZCOP1",
+      "Klasifikace COICOP 2018-Skupina a třída",
+      "CZCOICOP2.CZCOP23",
+      "Skupiny domácností",
+      "EKAKTIOCDS",
+      "Území",
+      "UZ02P",
+      "Měsíce, měsíční kumulace, měsíce klouzavých průměrů, čtvrtletí, roky",
+      "CASMKMQRM12",
+      "Hodnota",
+      "MJ_TEXT",
+      "MJ_SYMBOL"
+    ]
+  },
+  "extractor": "unchanged tools.research_r18.category_inputs.extract_levels",
+  "transformations": "Exact selection/pivot of positive NSA 2015-base index levels; no filling, interpolation, rebasing, seasonal or tax adjustment.",
+  "weights": {
+    "effective_year": 2026,
+    "basis_year": 2024,
+    "sum_permille": 1000.0,
+    "definition": "fixed 2026 national CPI basket weights from frozen official workbook; analytical weights, not official current chain weights"
+  },
+  "use_scope": "current-vintage descriptive analysis only; no retrospective forecast revision or historical real-time claim",
+  "overlap_revision_audit": {
+    "compared_cells": 5143,
+    "first": "2015-01",
+    "last": "2026-07",
+    "changed_cells": 0,
+    "max_abs_level_change": 0.0,
+    "groups_with_revisions": [],
+    "changes": [],
+    "policy": "Record and permit official overlap revisions for current descriptive analysis only; frozen observations and forecasts stay unchanged."
+  },
+  "readiness": {
+    "ready": true,
+    "complete_through": "2026-08",
+    "missing_cells": 0,
+    "duplicate_keys": 0
+  }
+}

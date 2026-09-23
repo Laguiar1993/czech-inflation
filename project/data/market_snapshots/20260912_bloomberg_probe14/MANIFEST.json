@@ -1,0 +1,13 @@
+{
+  "sha256": {
+    "coverage.csv": "838ef5924e34f60bb296deea0d85f19de65f1474f2150bed5c13a4a691657403",
+    "errors.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "history_long.csv": "e62ab19b4fe42e2b03cedc6894605fb26ee5e384d426b763c3b0a29f24449fde",
+    "instrument_search.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "metadata.json": "79b574e3864f9fd382c6384107d17a911636d47e98e365aa8134cad19dedd8c8",
+    "raw/EURCZK_CNB_Curncy.csv": "2b957ac443b3b389d65b26c155130f9e7f861d3f137b7cf795b65dc18f9f95b3",
+    "raw/USDCZK_CNB_Curncy.csv": "df8b6af7fcf018e2dcf1475a76be8d49d133a16824568afd8ef1ff73d520b747",
+    "request.json": "a9f46463b18f90b04bafd77294786163f9ca32c6de3f75ed5302d0fd65ff850a"
+  },
+  "probe_script_sha256": "7d8f53a75df38b84cb95d2b0f6a7c4683f33e79b761f6e80bf132a154936be41"
+}

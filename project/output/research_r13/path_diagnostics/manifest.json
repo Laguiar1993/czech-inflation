@@ -1,0 +1,19 @@
+{
+  "source_hashes": {
+    "path_diagnostics_r13.py": "b649d411d8e7a31f63df749f1e9a8513a0ecf9e0253b259658b432ce256eed49",
+    "evaluation/path_diagnostics_r13.py": "059c9b55e8692d7c6a9b429cf718ac3c6a5c74e9c24ad797d6a41843b8053d5d",
+    "docs/implementation/R13_PATH_DIAGNOSTIC_SPEC.md": "1fb79d1351377de3a8e81d9a291cf3aa7361a542bb79e0c0a8f383446ba19796",
+    "output/research_r12/path/cnb_quarters.csv": "30b64a414f21e23eaa61289a23159970c6cf9bee84436d4512f52037a6a936da",
+    "output/research_r12/path/manifest.json": "68407c757c0b73ff0dd47b88dcac6e6d7934b3218f988f956aebc3b1ee703327",
+    "data/cnb_mpr_cpi_quarterly.csv": "137cce6c715a358b85740302453e969c8313f1b39a6eeaed0b7e8698940f3a27"
+  },
+  "output_hashes": {
+    "rows.csv": "4a834ab8eabf132d6fc537154da823d42c578d44e8f7de014902ff5b5ee49c68",
+    "summary.csv": "142422c638c4b8f8543be028fbd0ede0142acdbc6f5a1b1db3ab7861943ddb4d",
+    "revisions.csv": "e367b35150d01acac97e090c71a9a286b0b9c412498fe98d17585d6a876b9171",
+    "coverage.csv": "d2229c9b60f5bb0ca9ee0877ba5ea2dd8494db6b752d5a31604c2266a826d1bb"
+  },
+  "specification_commit": "b84835a",
+  "created_at": "2026-09-09T12:25:31.310246+00:00",
+  "interpretation": "Agreement and common errors are descriptive, not identified exogenous shocks."
+}

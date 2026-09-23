@@ -1,0 +1,23 @@
+{
+  "retrieved_at": "2026-09-09T13:28:21.209520+00:00",
+  "sources": [
+    {
+      "file": "czso_cpi_1995_2025.csv",
+      "url": "https://csu.gov.cz/docs/107508/cfcf22e1-06b0-92a6-cf41-fb554acc545a/010022-25data011326.csv?version=1.0",
+      "bytes": 2965231,
+      "sha256": "bc8d4139fc6ea3662d8a544f8a2832bb1d5827e62327c67d1782db953077502c"
+    },
+    {
+      "file": "czso_cpi_schema.json",
+      "url": "https://csu.gov.cz/docs/107508/a09a9e70-51a2-a4ad-6c9a-6f95c6ba18cf/010022-25schema011326.json?version=1.0",
+      "bytes": 3160,
+      "sha256": "389ded11457923144286f67c0b6699d12a116e66fd7fb05297c55823c9a6852a"
+    },
+    {
+      "file": "czso_cpi_documentation.docx",
+      "url": "https://csu.gov.cz/docs/107508/808c2eaa-5f53-9fc8-2b5c-dbf07f500e1d/010022-23dds.docx?version=1.0",
+      "bytes": 29884,
+      "sha256": "3303031d482679bced92b9ac35d28665e6ec80edf0a8fcaf1ae60dc17f94222f"
+    }
+  ]
+}

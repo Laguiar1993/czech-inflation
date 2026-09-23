@@ -1,0 +1,34 @@
+{
+  "note": "R33 bounded current raw refresh. Existing configured tickers only; not prepared model frames or original-vintage data.",
+  "candidates": {
+    "headline": [
+      "CZCPMOM Index",
+      "CZCPYOY Index"
+    ],
+    "components": [
+      "CZCPFMOM Index",
+      "CZCPAMOM Index",
+      "CZCIXM Index",
+      "CZCIRM Index",
+      "CP7FCZ Index"
+    ],
+    "pipeline": [
+      "CZEIIMOM Index",
+      "CZPPA10M Index"
+    ],
+    "pumps": [
+      "ECOBETCZ Index",
+      "ECOBOTCZ Index"
+    ],
+    "fx": [
+      "EURCZK CNB Curncy"
+    ]
+  },
+  "daily": [
+    "ECOBETCZ Index",
+    "ECOBOTCZ Index",
+    "EURCZK CNB Curncy"
+  ],
+  "searches": [],
+  "history_start": "2026-01-01"
+}

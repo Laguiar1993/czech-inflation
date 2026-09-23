@@ -1,0 +1,33 @@
+harness: incumbent vs backtest core_pred max|diff| 4.44e-16
+X-13 fallbacks: 0 
+clock B vs A identical for S: max|diff| 0.00e+00
+
+=== clock A: CORE BLOCK RMSE vs realised core m/m | HEADLINE RMSE vs first release ===
+split            |    inc  inc+E      S    S+E | head inc   inc+E       S     S+E | survey
+all 90           |  0.308  0.308  0.309  0.310 |   0.7307  0.7309  0.7186  0.7186 | 0.3815
+ex-January       |  0.306  0.305  0.311  0.311 |   0.4048  0.4053  0.3966  0.3972 | 0.3801
+2024+            |  0.182  0.181  0.193  0.194 |   0.2141  0.2157  0.2136  0.2139 | 0.2410
+2024+ ex-Jan     |  0.184  0.183  0.192  0.192 |   0.1973  0.1992  0.2087  0.2091 | 0.2315
+2025+ flash era  |  0.140  0.141  0.149  0.149 |   0.1659  0.1671  0.1781  0.1786 | 0.1947
+March+April core RMSE: inc 0.265, inc_E 0.265, S 0.226, S_E 0.225 (n=16)
+  Easter-month core error mean (forecast - actual): inc +0.010, inc_E +0.029, S -0.036, S_E -0.043 (n=8)
+  inc    big-surprise MAE 0.642 (n=23), W-L@0.15 6-3
+  inc_E  big-surprise MAE 0.642 (n=23), W-L@0.15 6-3
+  S      big-surprise MAE 0.615 (n=23), W-L@0.15 8-2
+  S_E    big-surprise MAE 0.616 (n=23), W-L@0.15 8-2
+
+=== clock B: CORE BLOCK RMSE vs realised core m/m | HEADLINE RMSE vs first release ===
+split            |    inc  inc+E      S    S+E | head inc   inc+E       S     S+E | survey
+all 90           |  0.308  0.308  0.309  0.310 |   0.7292  0.7293  0.7172  0.7172 | 0.3815
+ex-January       |  0.306  0.305  0.311  0.311 |   0.4041  0.4046  0.3962  0.3968 | 0.3801
+2024+            |  0.182  0.181  0.193  0.194 |   0.2144  0.2160  0.2148  0.2151 | 0.2410
+2024+ ex-Jan     |  0.184  0.183  0.192  0.192 |   0.1983  0.2002  0.2103  0.2107 | 0.2315
+2025+ flash era  |  0.140  0.141  0.149  0.149 |   0.1650  0.1662  0.1787  0.1792 | 0.1947
+March+April core RMSE: inc 0.265, inc_E 0.265, S 0.226, S_E 0.225 (n=16)
+  Easter-month core error mean (forecast - actual): inc +0.010, inc_E +0.029, S -0.036, S_E -0.043 (n=8)
+  inc    big-surprise MAE 0.642 (n=23), W-L@0.15 6-2
+  inc_E  big-surprise MAE 0.643 (n=23), W-L@0.15 6-3
+  S      big-surprise MAE 0.615 (n=23), W-L@0.15 8-2
+  S_E    big-surprise MAE 0.616 (n=23), W-L@0.15 8-2
+
+ADOPTION: X-13 core (S) passes the 5% rule at B with A not worse: False -> month dummies stay; Easter dummy on inc: False -> no Easter term

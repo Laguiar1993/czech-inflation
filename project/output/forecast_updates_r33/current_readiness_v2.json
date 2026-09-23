@@ -1,0 +1,20 @@
+{
+  "as_of": "2026-09-22T17:50:00.574895+00:00",
+  "command": "readiness",
+  "completed_at": "2026-09-22T17:50:01.459759+00:00",
+  "forecast": null,
+  "mode": "prospective",
+  "model": "HARD_BASE",
+  "model_identity": null,
+  "path": null,
+  "publication": {
+    "status": "not_applicable"
+  },
+  "reason": "Validated component accounting; not causal news attribution. Recorded before first release; latest-vintage/static-input limitations remain.",
+  "recorded_at": "2026-09-22T17:50:00.574895+00:00",
+  "run_directory": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\forecast_updates_r33\\runs\\20260922T175000574895Z_e8be806910d2",
+  "schema_version": "forecast_updates_r33/run-v1",
+  "status": "ready",
+  "target": "2026-09",
+  "units": "mm_pct"
+}

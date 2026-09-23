@@ -1,0 +1,188 @@
+{
+  "raw_sources": {
+    "raw/cnb_fx_2004.txt": {
+      "sha256": "8e2821534bae20f1fd7240d5ae83be840a72a1f4a87a0bd01abbc7fae9f20fdd",
+      "bytes": 52017,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2004",
+      "retrieval_completed_utc": "2026-09-09T13:06:36.520568+00:00"
+    },
+    "raw/cnb_fx_2005.txt": {
+      "sha256": "af0f5712d54b00a9ae7581d73c412e7bdd8545f9aa8ccd37d7c1a0fdd0be5c64",
+      "bytes": 61678,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2005",
+      "retrieval_completed_utc": "2026-09-09T13:06:36.970583+00:00"
+    },
+    "raw/cnb_fx_2006.txt": {
+      "sha256": "062bab88137c835f406efd398d0de6b9078b822b7a68787022928b5dd48d5e12",
+      "bytes": 62741,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2006",
+      "retrieval_completed_utc": "2026-09-09T13:06:37.368774+00:00"
+    },
+    "raw/cnb_fx_2007.txt": {
+      "sha256": "94baf4ed0a2d979d273d502f59aaeb8036dc3f2ae15475e4cd646e833c72ef34",
+      "bytes": 60976,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2007",
+      "retrieval_completed_utc": "2026-09-09T13:06:37.919354+00:00"
+    },
+    "raw/cnb_fx_2008.txt": {
+      "sha256": "a7b7d98b857445fad3660286eb9ac27ef5bb4b47ab2f3cdb961779c2b0889109",
+      "bytes": 60852,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2008",
+      "retrieval_completed_utc": "2026-09-09T13:06:38.287457+00:00"
+    },
+    "raw/cnb_fx_2009.txt": {
+      "sha256": "e40e0a1e52bb18b56e5c0908b3529dd1e0550f1e7cd58be7cb15d83fb5dffee4",
+      "bytes": 59639,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2009",
+      "retrieval_completed_utc": "2026-09-09T13:06:38.666483+00:00"
+    },
+    "raw/cnb_fx_2010.txt": {
+      "sha256": "f367ac3eb3c1a2aeb3ca01cafb5b0b9cec3a91a59d2beb5289516cc55fe0388c",
+      "bytes": 59174,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2010",
+      "retrieval_completed_utc": "2026-09-09T13:06:39.039259+00:00"
+    },
+    "raw/cnb_fx_2011.txt": {
+      "sha256": "6ec8b4c2637869efccebb59000d41fa5706c13f4eb80e1e55e70c6854ca9c560",
+      "bytes": 59116,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2011",
+      "retrieval_completed_utc": "2026-09-09T13:06:39.430759+00:00"
+    },
+    "raw/cnb_fx_2012.txt": {
+      "sha256": "156f9fe1f63c733f7c897ceb2a7b57c47595ff03d500de5c63bdb3203bdfcbc2",
+      "bytes": 58820,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2012",
+      "retrieval_completed_utc": "2026-09-09T13:06:39.953793+00:00"
+    },
+    "raw/cnb_fx_2013.txt": {
+      "sha256": "1c67861014c396ba274baa5c81310171ebc4f393e8063e021015f334a5cff653",
+      "bytes": 58615,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2013",
+      "retrieval_completed_utc": "2026-09-09T13:06:40.339433+00:00"
+    },
+    "raw/cnb_fx_2014.txt": {
+      "sha256": "551ca0ae7ec9777b60aad0f311652bc640c417f9bd97514a54c20f2fca46ff34",
+      "bytes": 56673,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2014",
+      "retrieval_completed_utc": "2026-09-09T13:06:40.725446+00:00"
+    },
+    "raw/cnb_fx_2015.txt": {
+      "sha256": "ece74c37477793e17de96b8eb4d83db32ecd40ccc7354fa9b0cacd17f6606a9d",
+      "bytes": 54952,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2015",
+      "retrieval_completed_utc": "2026-09-09T13:06:41.102773+00:00"
+    },
+    "raw/cnb_fx_2016.txt": {
+      "sha256": "b27691de0921e91593793d476b723af14a4c9341b63650f20cf6b7a00798df25",
+      "bytes": 55150,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2016",
+      "retrieval_completed_utc": "2026-09-09T13:06:41.484128+00:00"
+    },
+    "raw/cnb_fx_2017.txt": {
+      "sha256": "e616457e0cf546e3549129a4a9c15a754bdb29429a5d595b3b7169d93f23d6de",
+      "bytes": 54714,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2017",
+      "retrieval_completed_utc": "2026-09-09T13:06:41.841084+00:00"
+    },
+    "raw/cnb_fx_2018.txt": {
+      "sha256": "d9ed4352f69648879176923ff4ab885613b0b5c052dcf86dbdecc2d2739f6e46",
+      "bytes": 56472,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2018",
+      "retrieval_completed_utc": "2026-09-09T13:06:42.185480+00:00"
+    },
+    "raw/cnb_fx_2019.txt": {
+      "sha256": "12dc8b571783261fddbc446f3390bf181a64bf6caeaaff2894a109b45081d60f",
+      "bytes": 56697,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2019",
+      "retrieval_completed_utc": "2026-09-09T13:06:42.559900+00:00"
+    },
+    "raw/cnb_fx_2020.txt": {
+      "sha256": "f632fd57aca61e18e8617684e96f3ca1087ad8a2d5adcc7765d5a57f4579ffd2",
+      "bytes": 56697,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2020",
+      "retrieval_completed_utc": "2026-09-09T13:06:42.915501+00:00"
+    },
+    "raw/cnb_fx_2021.txt": {
+      "sha256": "64f341a689007fe3db0c0af89b08327a082adb5a40f338e73bde0640bc59d786",
+      "bytes": 56922,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2021",
+      "retrieval_completed_utc": "2026-09-09T13:06:43.268888+00:00"
+    },
+    "raw/cnb_fx_2022.txt": {
+      "sha256": "cf466f56343e2a8b8fa957a5a62c5ad88e7a3c75ceb59b8528979628e98a7002",
+      "bytes": 55666,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2022",
+      "retrieval_completed_utc": "2026-09-09T13:06:43.616281+00:00"
+    },
+    "raw/cnb_fx_2023.txt": {
+      "sha256": "6dae8f689541e6e38c1cd4c019883ac21cee893785f25ceea62dbe07c9157955",
+      "bytes": 53208,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2023",
+      "retrieval_completed_utc": "2026-09-09T13:06:43.969708+00:00"
+    },
+    "raw/cnb_fx_2024.txt": {
+      "sha256": "7b98535526469b5374d958e810ce58d666c17e2438ae0e1fdf67c6dc790e7f67",
+      "bytes": 53886,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2024",
+      "retrieval_completed_utc": "2026-09-09T13:06:44.335140+00:00"
+    },
+    "raw/cnb_fx_2025.txt": {
+      "sha256": "a2b73dc83569d19df712a5b0348ee0c614915c9a246ad81bbf41d6fc9251a2e1",
+      "bytes": 53673,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2025",
+      "retrieval_completed_utc": "2026-09-09T13:06:44.752637+00:00"
+    },
+    "raw/cnb_fx_2026.txt": {
+      "sha256": "0ffe273d7316451dc256052c9e48d7d1da0c8aac99274a228939256777a694d8",
+      "bytes": 36048,
+      "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/year.txt?year=2026",
+      "retrieval_completed_utc": "2026-09-09T13:06:44.935954+00:00"
+    },
+    "raw/ec_czech_methodology.pdf": {
+      "sha256": "1a2bf8bfa8c8f82ee69418272aed9dcbdb019dfb51a302fd99d6784f76965755",
+      "bytes": 269208,
+      "url": "https://energy.ec.europa.eu/document/download/2b6efb04-9c48-4ef5-a5b1-c2e8183d3c08_en?filename=CZECHIA+2022.pdf",
+      "retrieval_completed_utc": "2026-09-09T13:04:59.168487+00:00"
+    },
+    "raw/ec_weekly_oil_history.xlsx": {
+      "sha256": "666a6d642de81789085ebd3bac38d565e183dedc4026a085963abcfad670e090",
+      "bytes": 4459467,
+      "url": "https://energy.ec.europa.eu/document/download/906e60ca-8b6a-44e7-8589-652854d2fd3f_en?filename=Weekly_Oil_Bulletin_Prices_History_maticni_4web.xlsx",
+      "retrieval_completed_utc": "2026-09-09T13:04:48.453437+00:00"
+    },
+    "raw/eia_brent_daily.xls": {
+      "sha256": "ba7aa32a1e1dd6154179c581ee140e4b9bccbbc191ed521346142a14bc1701a7",
+      "bytes": 492032,
+      "url": "https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xls",
+      "retrieval_completed_utc": "2026-09-09T13:04:57.968414+00:00"
+    }
+  },
+  "prepared": {
+    "brent_daily.csv": "22625942a193652b5eb120b8371e0384ac53430ba2d005577a1a6c6f0afe4415",
+    "excise_schedule.csv": "f216334ede2e9f3e45600c5480393cc973b596b6fcc16c5ec6f71f773373c6cd",
+    "fixture_overlap_audit.csv": "44dcf01c9f24f182ec153e3212daa466380d03fc08fbc1582875b53d23bd7e11",
+    "fx_daily.csv": "cc7e334d2c69ff3d862fc227c9a58752bf094ef03c740867b3a7cf12acde7e39",
+    "pump_weekly.csv": "f9317b3b2d97d775fd1de122e04fcd8b4300a2aa2636e59f9769424c08dfd959",
+    "tax_identity_audit.csv": "eb92dabcbe1d6ae1e007b5f5e2474fa16253012d3896253e0ff61dd24481f973",
+    "vat_schedule.csv": "596ab0ece41f558ad08d5cf43a6ac280288dbb8ef36c21f8a1b5e7903d16ebc3"
+  },
+  "parser_sha256": "3a189079d3edd584243f689e72857f5b0d310db43afc127941f109240256f0c1",
+  "vintage": "Latest retrieved histories; reconstructed availability, no archived vintages.",
+  "pump_lag_days": 7,
+  "oil_lag_days": 14,
+  "fx_prague_time": "14:30",
+  "pump_units": "CZK/litre; source EUR/1000litres divided by source EUR/CZK and1000",
+  "oil_units": "USD/barrel",
+  "fx_units": "CZK per one USD or EUR",
+  "pump_start": "2005-01-03",
+  "pump_end": "2026-08-31",
+  "missing_pump_dates": [
+    "2013-04-01"
+  ],
+  "overlap_n": 526,
+  "max_overlap_difference": {
+    "petrol95_difference": 0.4759999999999991,
+    "diesel_difference": 1.0960000000000036
+  },
+  "max_tax_identity_difference": 2.3462004375999896
+}

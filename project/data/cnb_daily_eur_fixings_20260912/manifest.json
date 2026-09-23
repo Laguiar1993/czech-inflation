@@ -1,0 +1,115 @@
+{
+  "source": "CNB daily exchange rates, year file (kurzy devizov\u00e9ho trhu, rok.txt)",
+  "column": "1 EUR",
+  "publication_rule": "fixing published around 14:30 Prague on its date; the nowcast uses only fixings dated before the call day",
+  "files": [
+    {
+      "file": "raw/rok_2018.txt",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/rok.txt?rok=2018",
+      "year": 2018,
+      "retrieved_utc": "2026-09-12T14:38:24.931074+00:00",
+      "http_status": 200,
+      "encoding": "UTF-8",
+      "sha256": "ee4277a46765306a00b0efd8d9b78f57436a83398414bb18015db1a4c0427489",
+      "first": "2018-01-02",
+      "last": "2018-12-31",
+      "n": 250
+    },
+    {
+      "file": "raw/rok_2019.txt",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/rok.txt?rok=2019",
+      "year": 2019,
+      "retrieved_utc": "2026-09-12T14:38:25.586795+00:00",
+      "http_status": 200,
+      "encoding": "UTF-8",
+      "sha256": "fb1e113379a0f8cc0d775ba00770515125980ab2dda578ac122878961b8e0b48",
+      "first": "2019-01-02",
+      "last": "2019-12-31",
+      "n": 251
+    },
+    {
+      "file": "raw/rok_2020.txt",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/rok.txt?rok=2020",
+      "year": 2020,
+      "retrieved_utc": "2026-09-12T14:38:26.121183+00:00",
+      "http_status": 200,
+      "encoding": "UTF-8",
+      "sha256": "1bf360008bebd17d69c2414eead5c73bdf31e349095de2e382fa9be7155f107c",
+      "first": "2020-01-02",
+      "last": "2020-12-31",
+      "n": 251
+    },
+    {
+      "file": "raw/rok_2021.txt",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/rok.txt?rok=2021",
+      "year": 2021,
+      "retrieved_utc": "2026-09-12T14:38:26.641696+00:00",
+      "http_status": 200,
+      "encoding": "UTF-8",
+      "sha256": "be9f18cf110db6ae83b8a665ed0d4a6d2b979bbc27f8c67b4932d96dc2f68c3c",
+      "first": "2021-01-04",
+      "last": "2021-12-31",
+      "n": 252
+    },
+    {
+      "file": "raw/rok_2022.txt",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/rok.txt?rok=2022",
+      "year": 2022,
+      "retrieved_utc": "2026-09-12T14:38:27.154813+00:00",
+      "http_status": 200,
+      "encoding": "UTF-8",
+      "sha256": "002f094bfb57d44b6303c1451279f7e4a18a99c531ca83e6b903044c38a51295",
+      "first": "2022-01-03",
+      "last": "2022-12-30",
+      "n": 252
+    },
+    {
+      "file": "raw/rok_2023.txt",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/rok.txt?rok=2023",
+      "year": 2023,
+      "retrieved_utc": "2026-09-12T14:38:27.670969+00:00",
+      "http_status": 200,
+      "encoding": "UTF-8",
+      "sha256": "6679dc94e15487bd0abfc08755e3206f550fcb8e8a2e48f67de1ced71597a614",
+      "first": "2023-01-02",
+      "last": "2023-12-29",
+      "n": 250
+    },
+    {
+      "file": "raw/rok_2024.txt",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/rok.txt?rok=2024",
+      "year": 2024,
+      "retrieved_utc": "2026-09-12T14:38:28.031465+00:00",
+      "http_status": 200,
+      "encoding": "UTF-8",
+      "sha256": "b0e9a3173b351aebdf088ef1271202e3e1295eddc7ac64747767b99282c72861",
+      "first": "2024-01-02",
+      "last": "2024-12-31",
+      "n": 252
+    },
+    {
+      "file": "raw/rok_2025.txt",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/rok.txt?rok=2025",
+      "year": 2025,
+      "retrieved_utc": "2026-09-12T14:38:28.380442+00:00",
+      "http_status": 200,
+      "encoding": "UTF-8",
+      "sha256": "594bbfdd11f059e18b7e4a2330abf3f3d96eb3b2ec2d14144d5586ca5d2e71e1",
+      "first": "2025-01-02",
+      "last": "2025-12-31",
+      "n": 251
+    },
+    {
+      "file": "raw/rok_2026.txt",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/rok.txt?rok=2026",
+      "year": 2026,
+      "retrieved_utc": "2026-09-12T14:38:28.728759+00:00",
+      "http_status": 200,
+      "encoding": "UTF-8",
+      "sha256": "4a304dd294d5648efaf7ef12a42f0fd42d0d71a113d29327823ddc61abb7b4f4",
+      "first": "2026-01-02",
+      "last": "2026-09-11",
+      "n": 176
+    }
+  ]
+}

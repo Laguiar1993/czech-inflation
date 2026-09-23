@@ -1,0 +1,37 @@
+month,series,mean,last,nobs,first_quote_date,last_quote_date,calendar_month_complete,period_status,available_from_assumed,availability_basis,availability_timezone,snapshot_end_date,retrieved_at
+2026-09,FSBTY1 Index,82.0775,85.47,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,TTFGCY1 Index,55.15262499999999,60.287,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,TTFGDAHD BCFV Index,75.061,82.713,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,BCOMAGSP Index,431.6754142857143,432.9387,7,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,BCOMINSP Index,370.92064285714287,366.0297,7,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CO1 Comdty,98.23,107.63,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,USDCZK Curncy,20.8443125,20.8864,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,EURCZK Curncy,24.209000000000003,24.253,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CO7 Comdty,82.69375,86.53,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CO13 Comdty,77.53625,78.79,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,PRIB03M Index,3.8614285714285717,3.86,7,2026-09-01,2026-09-09,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CKFR0CF Curncy,4.125125,4.153,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CKFR0FI Curncy,4.45975,4.563,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CKFR0I1 Curncy,4.58925,4.7,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CKFR011C Curncy,4.687125000000001,4.81,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CKFR1C1F Curncy,4.7121249999999995,4.833,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CKFR1F1I Curncy,4.735874999999999,4.858,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CKFR1I2 Curncy,4.754874999999999,4.87,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CZIPITN Index,,,0,,,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CZGRIDX Index,,,0,,,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,LCTQCZI Index,,,0,,,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,LCTOCZI Index,,,0,,,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,EUS3CZ Index,,,0,,,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,EUS5CZ Index,,,0,,,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,EUB3CZ Index,,,0,,,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,GRCPHCPI Index,,,0,,,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,UMRTDE Index,,,0,,,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,CZEII Index,,,0,,,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,LONSCZNF Index,,,0,,,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,brent_front_usd,98.23,107.63,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,brent_y1_usd,82.0775,85.47,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,gas_y1_eur,55.15262499999999,60.287,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,usdczk,20.8443125,20.8864,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,eurczk,24.209000000000003,24.253,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,brent_y1_czk,1710.87370575,1785.160608,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00
+2026-09,gas_y1_czk,1335.251317375,1462.140611,8,2026-09-01,2026-09-10,False,month_to_date,,assumed_not_documented_vintage,Europe/Prague,2026-09-10,2026-09-11T06:46:42.465042+00:00

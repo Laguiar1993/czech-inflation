@@ -1,0 +1,28 @@
+{
+  "origin": "2026-07",
+  "clock": "2026-08-04T21:59:00+00:00",
+  "reference": "FOOD_ECM_R27 original input lane",
+  "h0_contributions": "synthetic allocation only for checking unchanged h0; future forecast/weights unaffected",
+  "max_abs": 2.220446049250313e-16,
+  "fields": {
+    "mm_forecast": 5.551115123125783e-17,
+    "yy_exante": 0.0,
+    "contribution_core": 0.0,
+    "contribution_food": 4.163336342344337e-17,
+    "contribution_administered": 0.0,
+    "contribution_alcohol_tobacco": 0.0,
+    "contribution_fuel": 0.0,
+    "contribution_wedge": 0.0,
+    "value_core": 0.0,
+    "value_food": 2.220446049250313e-16,
+    "value_fuel": 0.0,
+    "value_administered": 0.0,
+    "value_alcohol_tobacco": 0.0,
+    "value_wedge": 0.0,
+    "weight_food": 0.0,
+    "weight_fuel": 0.0,
+    "weight_alc": 0.0,
+    "weight_administered": 0.0,
+    "weight_core": 0.0
+  }
+}

@@ -1,0 +1,1161 @@
+{
+  "status": "research",
+  "primary_model": "BRIDGE_HARD",
+  "origin": "2026-07",
+  "as_of": "2026-08-04T23:59:00+02:00",
+  "h0_model": "HARD_BASE",
+  "h0": 0.44767252748945857,
+  "monthly": [
+    {
+      "model": "TARGET_ML",
+      "target": "2026-07",
+      "h": 0,
+      "mm_pct": 0.44767252748945857,
+      "yoy_pct": 1.541593368596006
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2026-08",
+      "h": 1,
+      "mm_pct": -0.13844711691830036,
+      "yoy_pct": 1.336094538875017
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2026-09",
+      "h": 2,
+      "mm_pct": -0.34762232395214787,
+      "yoy_pct": 1.5690526674057947
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2026-10",
+      "h": 3,
+      "mm_pct": 0.15139944445370926,
+      "yoy_pct": 1.201506302826672
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2026-11",
+      "h": 4,
+      "mm_pct": -0.010383664140792809,
+      "yoy_pct": 1.5161617532370495
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2026-12",
+      "h": 5,
+      "mm_pct": 0.012289835142220179,
+      "yoy_pct": 1.7903096693812934
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2027-01",
+      "h": 6,
+      "mm_pct": 1.2234084886976553,
+      "yoy_pct": 2.1797340112886334
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2027-02",
+      "h": 7,
+      "mm_pct": 0.13514473112581452,
+      "yoy_pct": 2.3832451420078606
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2027-03",
+      "h": 8,
+      "mm_pct": -0.011465923409408468,
+      "yoy_pct": 1.7857821472256932
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2027-04",
+      "h": 9,
+      "mm_pct": 0.16226294379443665,
+      "yoy_pct": 1.4992613617552033
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2027-05",
+      "h": 10,
+      "mm_pct": 0.17079914977069816,
+      "yoy_pct": 1.4799378109612746
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2027-06",
+      "h": 11,
+      "mm_pct": 0.1349124718900361,
+      "yoy_pct": 1.9388267733175746
+    },
+    {
+      "model": "TARGET_ML",
+      "target": "2027-07",
+      "h": 12,
+      "mm_pct": 0.33171924332859093,
+      "yoy_pct": 1.8211521527867987
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2026-07",
+      "h": 0,
+      "mm_pct": 0.44767252748945857,
+      "yoy_pct": 1.541593368596006
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2026-08",
+      "h": 1,
+      "mm_pct": -0.12179887554402485,
+      "yoy_pct": 1.3529886058417588
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2026-09",
+      "h": 2,
+      "mm_pct": -0.3296762783441828,
+      "yoy_pct": 1.6042798338145883
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2026-10",
+      "h": 3,
+      "mm_pct": 0.16764347883711012,
+      "yoy_pct": 1.253026042454451
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2026-11",
+      "h": 4,
+      "mm_pct": 0.0034558476532546845,
+      "yoy_pct": 1.5818996310589202
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2026-12",
+      "h": 5,
+      "mm_pct": 0.022508190068394912,
+      "yoy_pct": 1.8666318262424086
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2027-01",
+      "h": 6,
+      "mm_pct": 1.2311715206419194,
+      "yoy_pct": 2.2641904079075146
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2027-02",
+      "h": 7,
+      "mm_pct": 0.14050267709742761,
+      "yoy_pct": 2.473352513662542
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2027-03",
+      "h": 8,
+      "mm_pct": -0.007177982513283887,
+      "yoy_pct": 1.8797325487254695
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2027-04",
+      "h": 9,
+      "mm_pct": 0.16618866686284062,
+      "yoy_pct": 1.5969290953767208
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2027-05",
+      "h": 10,
+      "mm_pct": 0.17424161194561438,
+      "yoy_pct": 1.5810777582218585
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2027-06",
+      "h": 11,
+      "mm_pct": 0.14042840862082626,
+      "yoy_pct": 2.0460449740482627
+    },
+    {
+      "model": "TARGET_FX_ML",
+      "target": "2027-07",
+      "h": 12,
+      "mm_pct": 0.33761628487403517,
+      "yoy_pct": 1.9342374627240482
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2026-07",
+      "h": 0,
+      "mm_pct": 0.44767252748945857,
+      "yoy_pct": 1.541593368596006
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2026-08",
+      "h": 1,
+      "mm_pct": -0.11296222333166092,
+      "yoy_pct": 1.3619557388188286
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2026-09",
+      "h": 2,
+      "mm_pct": -0.31742523508497,
+      "yoy_pct": 1.625759061280722
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2026-10",
+      "h": 3,
+      "mm_pct": 0.18187960231292666,
+      "yoy_pct": 1.2888244379960925
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2026-11",
+      "h": 4,
+      "mm_pct": 0.018764250585138226,
+      "yoy_pct": 1.6333698280071272
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2026-12",
+      "h": 5,
+      "mm_pct": 0.03849086838290225,
+      "yoy_pct": 1.9345318930604805
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2027-01",
+      "h": 6,
+      "mm_pct": 1.2473797583681756,
+      "yoy_pct": 2.3487400203056015
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2027-02",
+      "h": 7,
+      "mm_pct": 0.15676963208914757,
+      "yoy_pct": 2.57473472496891
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2027-03",
+      "h": 8,
+      "mm_pct": 0.008895980946343057,
+      "yoy_pct": 1.9969209504027752
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2027-04",
+      "h": 9,
+      "mm_pct": 0.18194121123558574,
+      "yoy_pct": 1.7297881257734447
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2027-05",
+      "h": 10,
+      "mm_pct": 0.18967194089401987,
+      "yoy_pct": 1.7295835522544383
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2027-06",
+      "h": 11,
+      "mm_pct": 0.15521077102967773,
+      "yoy_pct": 2.210316208622689
+    },
+    {
+      "model": "TARGET_U_FX_ML",
+      "target": "2027-07",
+      "h": 12,
+      "mm_pct": 0.3519695591934745,
+      "yoy_pct": 2.1129338561449913
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2026-07",
+      "h": 0,
+      "mm_pct": 0.44767252748945857,
+      "yoy_pct": 1.541593368596006
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2026-08",
+      "h": 1,
+      "mm_pct": -0.2794964153296443,
+      "yoy_pct": 1.1929625263457435
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2026-09",
+      "h": 2,
+      "mm_pct": -0.46783292755926315,
+      "yoy_pct": 1.3032419830027056
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2026-10",
+      "h": 3,
+      "mm_pct": 0.0010110321589022198,
+      "yoy_pct": 0.7850899392554114
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2026-11",
+      "h": 4,
+      "mm_pct": -0.15564204662869754,
+      "yoy_pct": 0.951581444462264
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2026-12",
+      "h": 5,
+      "mm_pct": -0.14810146181106812,
+      "yoy_pct": 1.0618698278500331
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2027-01",
+      "h": 6,
+      "mm_pct": 1.065393880193347,
+      "yoy_pct": 1.2901413419335663
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2027-02",
+      "h": 7,
+      "mm_pct": -0.005825197820474389,
+      "yoy_pct": 1.3490007357068001
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2027-03",
+      "h": 8,
+      "mm_pct": -0.15133044748574737,
+      "yoy_pct": 0.616632870169384
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2027-04",
+      "h": 9,
+      "mm_pct": 0.030522871242783925,
+      "yoy_pct": 0.20143800123608907
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2027-05",
+      "h": 10,
+      "mm_pct": 0.0092197020059499,
+      "yoy_pct": 0.020763433263585714
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2027-06",
+      "h": 11,
+      "mm_pct": -0.08561349399174255,
+      "yoy_pct": 0.25178340556611745
+    },
+    {
+      "model": "BVAR_U_FX",
+      "target": "2027-07",
+      "h": 12,
+      "mm_pct": 0.15375648665923772,
+      "yoy_pct": -0.04155945169788733
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2026-07",
+      "h": 0,
+      "mm_pct": 0.44767252748945857,
+      "yoy_pct": 1.541593368596006
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2026-08",
+      "h": 1,
+      "mm_pct": 0.11058735264885611,
+      "yoy_pct": 1.5888062164216554
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2026-09",
+      "h": 2,
+      "mm_pct": -0.20218634180405856,
+      "yoy_pct": 1.9709482000986995
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2026-10",
+      "h": 3,
+      "mm_pct": 0.28825549777522985,
+      "yoy_pct": 1.7407857175161776
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2026-11",
+      "h": 4,
+      "mm_pct": 0.12869377521816788,
+      "yoy_pct": 2.1990710602186105
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2026-12",
+      "h": 5,
+      "mm_pct": 0.14688933226131184,
+      "yoy_pct": 2.6129771669702424
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2027-01",
+      "h": 6,
+      "mm_pct": 1.1908871414201427,
+      "yoy_pct": 2.972454911136796
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2027-02",
+      "h": 7,
+      "mm_pct": 0.2090425589725672,
+      "yoy_pct": 3.253687963340568
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2027-03",
+      "h": 8,
+      "mm_pct": 0.1864154889862323,
+      "yoy_pct": 2.8542962817180357
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2027-04",
+      "h": 9,
+      "mm_pct": 0.28667185291860664,
+      "yoy_pct": 2.69216069095959
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2027-05",
+      "h": 10,
+      "mm_pct": 0.19830094488791863,
+      "yoy_pct": 2.7007986994177005
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2027-06",
+      "h": 11,
+      "mm_pct": 0.08148869578123943,
+      "yoy_pct": 3.1101678613697343
+    },
+    {
+      "model": "RF_U_FX",
+      "target": "2027-07",
+      "h": 12,
+      "mm_pct": 0.3003826277064306,
+      "yoy_pct": 2.958973852501524
+    },
+    {
+      "model": "NAIVE",
+      "target": "2026-07",
+      "h": 0,
+      "mm_pct": 0.44767252748945857,
+      "yoy_pct": 1.541593368596006
+    },
+    {
+      "model": "NAIVE",
+      "target": "2026-08",
+      "h": 1,
+      "mm_pct": 0.33094280231949824,
+      "yoy_pct": 1.8124154036944045
+    },
+    {
+      "model": "NAIVE",
+      "target": "2026-09",
+      "h": 2,
+      "mm_pct": -0.1472828706596463,
+      "yoy_pct": 2.2516210232112366
+    },
+    {
+      "model": "NAIVE",
+      "target": "2026-10",
+      "h": 3,
+      "mm_pct": 0.09803670413460974,
+      "yoy_pct": 1.8273200295492749
+    },
+    {
+      "model": "NAIVE",
+      "target": "2026-11",
+      "h": 4,
+      "mm_pct": 0.23073391349818895,
+      "yoy_pct": 2.3902337832195055
+    },
+    {
+      "model": "NAIVE",
+      "target": "2026-12",
+      "h": 5,
+      "mm_pct": -0.1007038958122286,
+      "yoy_pct": 2.5507494340976
+    },
+    {
+      "model": "NAIVE",
+      "target": "2027-01",
+      "h": 6,
+      "mm_pct": 2.8193305106029327,
+      "yoy_pct": 4.566118013232182
+    },
+    {
+      "model": "NAIVE",
+      "target": "2027-02",
+      "h": 7,
+      "mm_pct": 0.45935867515890294,
+      "yoy_pct": 5.113616797952984
+    },
+    {
+      "model": "NAIVE",
+      "target": "2027-03",
+      "h": 8,
+      "mm_pct": 0.5146429716743395,
+      "yoy_pct": 5.050068571847053
+    },
+    {
+      "model": "NAIVE",
+      "target": "2027-04",
+      "h": 9,
+      "mm_pct": 0.5139306130685739,
+      "yoy_pct": 5.122149443899332
+    },
+    {
+      "model": "NAIVE",
+      "target": "2027-05",
+      "h": 10,
+      "mm_pct": 0.5483043792026132,
+      "yoy_pct": 5.498225706028548
+    },
+    {
+      "model": "NAIVE",
+      "target": "2027-06",
+      "h": 11,
+      "mm_pct": 0.31937931631266014,
+      "yoy_pct": 6.170511115405919
+    },
+    {
+      "model": "NAIVE",
+      "target": "2027-07",
+      "h": 12,
+      "mm_pct": 0.7920711437007322,
+      "yoy_pct": 6.534531268292812
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2026-07",
+      "h": 0,
+      "mm_pct": 0.44767252748945857,
+      "yoy_pct": 1.541593368596006
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2026-08",
+      "h": 1,
+      "mm_pct": 0.10510147545126715,
+      "yoy_pct": 1.583239335532327
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2026-09",
+      "h": 2,
+      "mm_pct": -0.41378783726150037,
+      "yoy_pct": 1.749163029606779
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2026-10",
+      "h": 3,
+      "mm_pct": 0.3585818949250545,
+      "yoy_pct": 1.5906909457693488
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2026-11",
+      "h": 4,
+      "mm_pct": 0.11793420857623989,
+      "yoy_pct": 2.037334352953458
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2026-12",
+      "h": 5,
+      "mm_pct": -0.09453282623189767,
+      "yoy_pct": 2.203609792382504
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2027-01",
+      "h": 6,
+      "mm_pct": 1.1114480145766956,
+      "yoy_pct": 2.4811381885937753
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2027-02",
+      "h": 7,
+      "mm_pct": 0.25467183807905824,
+      "yoy_pct": 2.8078206851043452
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2027-03",
+      "h": 8,
+      "mm_pct": 0.1477832718959413,
+      "yoy_pct": 2.37066394785654
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2027-04",
+      "h": 9,
+      "mm_pct": 0.3775516312280276,
+      "yoy_pct": 2.301912792138471
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2027-05",
+      "h": 10,
+      "mm_pct": 0.3928752394801994,
+      "yoy_pct": 2.50919396694958
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2027-06",
+      "h": 11,
+      "mm_pct": 0.2718017057243354,
+      "yoy_pct": 3.1135058685057873
+    },
+    {
+      "model": "BRIDGE_HARD",
+      "target": "2027-07",
+      "h": 12,
+      "mm_pct": 0.5191643189386719,
+      "yoy_pct": 3.1868950180167532
+    }
+  ],
+  "complete_quarters_yoy": {
+    "TARGET_ML": {
+      "2026Q3": 1.4822468582922725,
+      "2026Q4": 1.5026592418150049,
+      "2027Q1": 2.116253766840729,
+      "2027Q2": 1.639341982011351
+    },
+    "TARGET_FX_ML": {
+      "2026Q3": 1.4996206027507843,
+      "2026Q4": 1.5671858332519266,
+      "2027Q1": 2.2057584900985088,
+      "2027Q2": 1.741350609215614
+    },
+    "TARGET_U_FX_ML": {
+      "2026Q3": 1.5097693895651856,
+      "2026Q4": 1.6189087196879,
+      "2027Q1": 2.3067985652257623,
+      "2027Q2": 1.8898959622168572
+    },
+    "BVAR_U_FX": {
+      "2026Q3": 1.345932625981485,
+      "2026Q4": 0.9328470705225694,
+      "2027Q1": 1.0852583159365834,
+      "2027Q2": 0.1579949466885974
+    },
+    "RF_U_FX": {
+      "2026Q3": 1.7004492617054536,
+      "2026Q4": 2.1842779815683433,
+      "2027Q1": 3.0268130520651333,
+      "2027Q2": 2.8343757505823413
+    },
+    "NAIVE": {
+      "2026Q3": 1.8685432651672158,
+      "2026Q4": 2.2561010822887937,
+      "2027Q1": 4.90993446101074,
+      "2027Q2": 5.5969620884446
+    },
+    "BRIDGE_HARD": {
+      "2026Q3": 1.624665244578371,
+      "2026Q4": 1.94387836370177,
+      "2027Q1": 2.5532076071848873,
+      "2027Q2": 2.6415375425312795
+    }
+  },
+  "diagnostics": {
+    "TARGET_ML": {
+      "level": 0.15246429298406083,
+      "gap": -0.06795060004381294,
+      "phi": 0.5524165556147178,
+      "rho": 0.9696661094157402,
+      "gamma": [],
+      "converged": true,
+      "n": 425,
+      "fallback_used": false,
+      "fit_diagnostics": {
+        "status": "converged",
+        "converged": true,
+        "fallback_used": false,
+        "attempts": [
+          {
+            "method": "lbfgs",
+            "converged": true,
+            "warnings": [],
+            "finite": true,
+            "llf": -416.14400885940194
+          }
+        ]
+      },
+      "projection_diagnostics": {
+        "status": "finite"
+      },
+      "driver_scenario": "known_then_zero",
+      "bias_m": NaN,
+      "sd_eta": 0.07407764301131875,
+      "sd_eps": 0.2279688209390692,
+      "sd_e": 0.5377556826152531,
+      "status": "converged",
+      "elapsed_seconds": 0.053675899747759104
+    },
+    "TARGET_FX_ML": {
+      "level": 0.15478713031311098,
+      "gap": -0.06283750924800743,
+      "phi": 0.5492597301935679,
+      "rho": 0.9722513729653293,
+      "gamma": [
+        -0.003273651288889154
+      ],
+      "converged": true,
+      "n": 425,
+      "fallback_used": false,
+      "fit_diagnostics": {
+        "status": "converged",
+        "converged": true,
+        "fallback_used": false,
+        "attempts": [
+          {
+            "method": "lbfgs",
+            "converged": true,
+            "warnings": [],
+            "finite": true,
+            "llf": -415.9531889817222
+          }
+        ]
+      },
+      "projection_diagnostics": {
+        "status": "finite"
+      },
+      "driver_scenario": "explicit_future",
+      "bias_m": NaN,
+      "sd_eta": 0.06710149310972399,
+      "sd_eps": 0.2397640997006518,
+      "sd_e": 0.5345202693017372,
+      "status": "converged",
+      "elapsed_seconds": 0.08528420003131032
+    },
+    "TARGET_U_FX_ML": {
+      "level": 0.17561579347094608,
+      "gap": -0.08186540646598746,
+      "phi": 0.5511473318614557,
+      "rho": 0.9770885450463738,
+      "gamma": [
+        -0.08938473799993324,
+        -0.0028622914591226747
+      ],
+      "converged": true,
+      "n": 425,
+      "fallback_used": false,
+      "fit_diagnostics": {
+        "status": "converged",
+        "converged": true,
+        "fallback_used": false,
+        "attempts": [
+          {
+            "method": "lbfgs",
+            "converged": true,
+            "warnings": [],
+            "finite": true,
+            "llf": -415.86065008023695
+          }
+        ]
+      },
+      "projection_diagnostics": {
+        "status": "finite"
+      },
+      "driver_scenario": "explicit_future",
+      "bias_m": NaN,
+      "sd_eta": 0.057286967981095116,
+      "sd_eps": 0.2512576033505118,
+      "sd_e": 0.5316484909643678,
+      "status": "converged",
+      "elapsed_seconds": 0.1593137001618743
+    },
+    "BVAR_U_FX": {
+      "status": "estimated",
+      "converged": true,
+      "fallback_used": false,
+      "horizon_details": {
+        "0": {
+          "forecast": 0.04850580839559016,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 422,
+          "h": 1
+        },
+        "1": {
+          "forecast": -0.008562659030784615,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 421,
+          "h": 2
+        },
+        "2": {
+          "forecast": 0.021919209483586843,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 420,
+          "h": 3
+        },
+        "3": {
+          "forecast": -0.0027804862675118447,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 419,
+          "h": 4
+        },
+        "4": {
+          "forecast": 0.005522225586729234,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 418,
+          "h": 5
+        },
+        "5": {
+          "forecast": -0.007716008384277311,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 417,
+          "h": 6
+        },
+        "6": {
+          "forecast": -0.004154937234335871,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 416,
+          "h": 7
+        },
+        "7": {
+          "forecast": 0.0136775668826051,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 415,
+          "h": 8
+        },
+        "8": {
+          "forecast": 0.01534767987841045,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 414,
+          "h": 9
+        },
+        "9": {
+          "forecast": 0.023909658054502306,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 413,
+          "h": 10
+        },
+        "10": {
+          "forecast": -0.005566256762735426,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 412,
+          "h": 11
+        },
+        "11": {
+          "forecast": -0.06419392346825085,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 411,
+          "h": 12
+        },
+        "12": {
+          "forecast": -0.021340087104354998,
+          "status": "estimated",
+          "fallback_used": false,
+          "n": 410,
+          "h": 13
+        }
+      },
+      "elapsed_seconds": 0.03175360010936856
+    },
+    "RF_U_FX": {
+      "status": "estimated",
+      "converged": true,
+      "fallback_used": false,
+      "horizon_details": {
+        "1": {
+          "status": "estimated",
+          "n": 412,
+          "last_training_origin": "2026-05",
+          "last_training_target": "2026-06"
+        },
+        "2": {
+          "status": "estimated",
+          "n": 411,
+          "last_training_origin": "2026-04",
+          "last_training_target": "2026-06"
+        },
+        "3": {
+          "status": "estimated",
+          "n": 410,
+          "last_training_origin": "2026-03",
+          "last_training_target": "2026-06"
+        },
+        "4": {
+          "status": "estimated",
+          "n": 409,
+          "last_training_origin": "2026-02",
+          "last_training_target": "2026-06"
+        },
+        "5": {
+          "status": "estimated",
+          "n": 408,
+          "last_training_origin": "2026-01",
+          "last_training_target": "2026-06"
+        },
+        "6": {
+          "status": "estimated",
+          "n": 407,
+          "last_training_origin": "2025-12",
+          "last_training_target": "2026-06"
+        },
+        "7": {
+          "status": "estimated",
+          "n": 406,
+          "last_training_origin": "2025-11",
+          "last_training_target": "2026-06"
+        },
+        "8": {
+          "status": "estimated",
+          "n": 405,
+          "last_training_origin": "2025-10",
+          "last_training_target": "2026-06"
+        },
+        "9": {
+          "status": "estimated",
+          "n": 404,
+          "last_training_origin": "2025-09",
+          "last_training_target": "2026-06"
+        },
+        "10": {
+          "status": "estimated",
+          "n": 403,
+          "last_training_origin": "2025-08",
+          "last_training_target": "2026-06"
+        },
+        "11": {
+          "status": "estimated",
+          "n": 402,
+          "last_training_origin": "2025-07",
+          "last_training_target": "2026-06"
+        },
+        "12": {
+          "status": "estimated",
+          "n": 401,
+          "last_training_origin": "2025-06",
+          "last_training_target": "2026-06"
+        }
+      },
+      "elapsed_seconds": 1.4457228002138436
+    },
+    "NAIVE": {
+      "status": "seasonal_mean_last_five",
+      "converged": true,
+      "fallback_used": false
+    }
+  },
+  "bridge_diagnostics": {
+    "status": "estimated",
+    "fallback_used": false,
+    "as_of_utc": "2026-08-04T21:59:00+00:00",
+    "target": "2026-07",
+    "h0_method": "supplied HARD_BASE",
+    "core_columns": [
+      "eurczk_mm",
+      "services_l1",
+      "import_l2",
+      "core_l1",
+      "core_l2",
+      "core_l12",
+      "state",
+      "eurczk_mm_x_state",
+      "import_l2_x_state",
+      "mon_2",
+      "mon_3",
+      "mon_4",
+      "mon_5",
+      "mon_6",
+      "mon_7",
+      "mon_8",
+      "mon_9",
+      "mon_10",
+      "mon_11",
+      "mon_12"
+    ],
+    "food_columns": [
+      "food_l1",
+      "food_l12",
+      "agri_l0",
+      "agri_l1",
+      "food_ppi_l1"
+    ],
+    "headline_edge": "2026-06",
+    "core_edge": "2026-06",
+    "horizon_details": {
+      "1": {
+        "food": {
+          "method": "x13",
+          "history_end": "2026-06",
+          "n_obs": 137,
+          "x13_error": ""
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      },
+      "2": {
+        "food": {
+          "method": "x13",
+          "history_end": "2026-06",
+          "n_obs": 137,
+          "x13_error": ""
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      },
+      "3": {
+        "food": {
+          "method": "x13",
+          "history_end": "2026-06",
+          "n_obs": 137,
+          "x13_error": ""
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      },
+      "4": {
+        "food": {
+          "method": "seasonal_mean_last_five",
+          "history_end": "2026-06"
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      },
+      "5": {
+        "food": {
+          "method": "seasonal_mean_last_five",
+          "history_end": "2026-06"
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      },
+      "6": {
+        "food": {
+          "method": "seasonal_mean_last_five",
+          "history_end": "2026-06"
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      },
+      "7": {
+        "food": {
+          "method": "seasonal_mean_last_five",
+          "history_end": "2026-06"
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      },
+      "8": {
+        "food": {
+          "method": "seasonal_mean_last_five",
+          "history_end": "2026-06"
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      },
+      "9": {
+        "food": {
+          "method": "seasonal_mean_last_five",
+          "history_end": "2026-06"
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      },
+      "10": {
+        "food": {
+          "method": "seasonal_mean_last_five",
+          "history_end": "2026-06"
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      },
+      "11": {
+        "food": {
+          "method": "seasonal_mean_last_five",
+          "history_end": "2026-06"
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      },
+      "12": {
+        "food": {
+          "method": "seasonal_mean_last_five",
+          "history_end": "2026-06"
+        },
+        "status": "estimated",
+        "fallback_used": false,
+        "nonfinite_blocks": []
+      }
+    },
+    "future_weights": "current unless future regime basket was already published",
+    "vintage_label": "cached historical statistical inputs and publication rules; no forecast expectations"
+  },
+  "inputs": {
+    "origin": "2026-07",
+    "as_of_utc": "2026-08-04T21:59:00+00:00",
+    "headline_end": "2026-06",
+    "headline_n": 425,
+    "unemployment_end": "2026-06",
+    "unemployment_adjustments": [
+      "trend_cycle"
+    ],
+    "unemployment_vintage_mode": "historical_release",
+    "fx_end": "2026-07",
+    "fx_availability": "completed_month_assumption",
+    "unemployment_unknown_driver_rows": 37,
+    "fx_initial_missing_driver_rows": 109,
+    "future_scenario": "FX last observed level held; unpublished U changes zero",
+    "destination_lags": {
+      "unemployment_change": 1,
+      "fx_twelve_month_pct": 3
+    }
+  },
+  "production_certified": false
+}

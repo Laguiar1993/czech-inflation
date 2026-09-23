@@ -1,0 +1,9 @@
+# Administered-price announcement file — hand-maintained (see README §2, §6)
+# effect_month: YYYY-MM the change enters the CPI
+# item: short label; weight_pp: CPI basket weight of the item in percentage points
+# announced_change_pct: announced price change of the item, %
+# mm_impact_pp = weight_pp/ admin_weight * announced_change_pct  (computed by loader)
+# source: ERÚ decision / gazette / ministry release URL
+effect_month,item,weight_pp,announced_change_pct,source,notes
+2026-01,electricity_tariff,,,https://www.eru.cz,EXAMPLE ROW - fill from ERU November price decision
+2026-01,gas_tariff,,,https://www.eru.cz,EXAMPLE ROW

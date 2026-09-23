@@ -1,0 +1,827 @@
+{
+  "Czech core inflation": [
+    {
+      "security": "OEEOCZCI<index>",
+      "description": "OECD Eco Outlook Czech Rep Core Inflation Index"
+    },
+    {
+      "security": "JFORCZCF<index>",
+      "description": "JPMorgan Czechia Core Inflation Forecast History Index (FHICC)"
+    },
+    {
+      "security": "JFORCZCH<index>",
+      "description": "JPMorgan Czechia Core Inflation Actual History Index (AHICC)"
+    },
+    {
+      "security": "JFORCZCR<index>",
+      "description": "JPMorgan Czechia Core Inflation Forecast Revision Index (FRICC)"
+    },
+    {
+      "security": "CPEXCZY<index>",
+      "description": "Eurostat Czech Republic Core HICP YoY NSA"
+    },
+    {
+      "security": "CPEXCZM<index>",
+      "description": "Eurostat Czech Republic Core HICP MoM NSA"
+    },
+    {
+      "security": "OEEOCZIN<index>",
+      "description": "OECD Eco Outlook Czech Rep Core Inflation"
+    },
+    {
+      "security": "RR10CCZ<index>",
+      "description": "Real 10 Year Yield Based on Core CPI Czech Republic"
+    },
+    {
+      "security": "RR2YCCZ<index>",
+      "description": "Real 2 Year Yield Based on Core CPI Czech Republic"
+    },
+    {
+      "security": "CPEXCZ<index>",
+      "description": "Eurostat Czech Republic Core HICP NSA"
+    }
+  ],
+  "Czech Republic core CPI": [
+    {
+      "security": "CPEXCZY<index>",
+      "description": "Eurostat Czech Republic Core HICP YoY NSA"
+    },
+    {
+      "security": "CPEXCZM<index>",
+      "description": "Eurostat Czech Republic Core HICP MoM NSA"
+    },
+    {
+      "security": "CPEXCZ<index>",
+      "description": "Eurostat Czech Republic Core HICP NSA"
+    },
+    {
+      "security": "OEEOCZCI<index>",
+      "description": "OECD Eco Outlook Czech Rep Core Inflation Index"
+    },
+    {
+      "security": "OEEOCZIN<index>",
+      "description": "OECD Eco Outlook Czech Rep Core Inflation"
+    },
+    {
+      "security": "RR10CCZ<index>",
+      "description": "Real 10 Year Yield Based on Core CPI Czech Republic"
+    },
+    {
+      "security": "RR2YCCZ<index>",
+      "description": "Real 2 Year Yield Based on Core CPI Czech Republic"
+    },
+    {
+      "security": "JFORCZCF<index>",
+      "description": "JPMorgan Czechia Core Inflation Forecast History Index (FHICC)"
+    },
+    {
+      "security": "JFORCZCH<index>",
+      "description": "JPMorgan Czechia Core Inflation Actual History Index (AHICC)"
+    },
+    {
+      "security": "JFORCZCR<index>",
+      "description": "JPMorgan Czechia Core Inflation Forecast Revision Index (FRICC)"
+    }
+  ],
+  "Czech administered prices": [
+    {
+      "security": "CPAFCZ<index>",
+      "description": "EU CPI Fully Administered Prices Czech Republic"
+    },
+    {
+      "security": "CPAFCZMM<index>",
+      "description": "EU CPI Fully Administered Prices Czech Republic MoM"
+    },
+    {
+      "security": "CPAFCZYY<index>",
+      "description": "EU CPI Fully Administered Prices Czech Republic YoY"
+    },
+    {
+      "security": "CPAPCZ<index>",
+      "description": "EU CPI Administered Prices Czech Republic"
+    },
+    {
+      "security": "CPAPCZMM<index>",
+      "description": "EU CPI Administered Prices Czech Republic MoM"
+    },
+    {
+      "security": "CPAPCZYY<index>",
+      "description": "EU CPI Administered Prices Czech Republic YoY"
+    },
+    {
+      "security": "CPMPCZ<index>",
+      "description": "EU CPI Mainly Administered Prices Czech Republic"
+    },
+    {
+      "security": "CPMPCZMM<index>",
+      "description": "EU CPI Mainly Administered Prices Czech Republic MoM"
+    },
+    {
+      "security": "CPMPCZYY<index>",
+      "description": "EU CPI Mainly Administered Prices Czech Republic YoY"
+    },
+    {
+      "security": "CPX1CZ<index>",
+      "description": "EU CPI All Items Excluding Administered Prices Czech Republic"
+    },
+    {
+      "security": "CPX1CZMM<index>",
+      "description": "EU CPI All Items Excluding Administered Prices Czech Republic MoM"
+    },
+    {
+      "security": "CPX1CZYY<index>",
+      "description": "EU CPI All Items Excluding Administered Prices Czech Republic YoY"
+    },
+    {
+      "security": "CPX2CZ<index>",
+      "description": "EU CPI All Items Excluding Fully Administered Prices  Czech Republic"
+    },
+    {
+      "security": "CPX2CZMM<index>",
+      "description": "EU CPI All Items Excluding Fully Administered Prices  Czech Republic MoM"
+    },
+    {
+      "security": "CPX2CZYY<index>",
+      "description": "EU CPI All Items Excluding Fully Administered Prices  Czech Republic YoY"
+    }
+  ],
+  "Czech regulated prices": [
+    {
+      "security": "CZCIRCM<index>",
+      "description": "Czech Inflation Regulated Prices Contribution MoM"
+    },
+    {
+      "security": "CZCIRCY<index>",
+      "description": "Czech Inflation Regulated Prices Contribution YoY"
+    },
+    {
+      "security": "CZCIRM<index>",
+      "description": "Czech Inflation Regulated Prices MoM"
+    },
+    {
+      "security": "CZCIRY<index>",
+      "description": "Czech Inflation Regulated Prices YoY"
+    }
+  ],
+  "Czech CPI services": [
+    {
+      "security": "OECZGSHA<index>",
+      "description": "OECD Czech Rep CPI Services Rent Index"
+    },
+    {
+      "security": "OECZGSJM<index>",
+      "description": "OECD Czech Rep CPI Services Less Housing Index"
+    },
+    {
+      "security": "CZCPC13M<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services MoM"
+    },
+    {
+      "security": "CZCP12<index>",
+      "description": "Czech CPI Insurance And Financial Services"
+    },
+    {
+      "security": "CZCP12Y<index>",
+      "description": "Czech CPI Insurance And Financial Services YoY"
+    },
+    {
+      "security": "CZCP13<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services"
+    },
+    {
+      "security": "CZCPC12<index>",
+      "description": "Czech Contribution to Change in CPI Insurance And Financial Services"
+    },
+    {
+      "security": "CZCPC13Y<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services YoY"
+    },
+    {
+      "security": "CZCPI12M<index>",
+      "description": "Czech CPI Insurance And Financial Services MoM"
+    },
+    {
+      "security": "CP1GCZYY<index>",
+      "description": "EU CPI Other Services NEC Czech Republic YoY"
+    },
+    {
+      "security": "CP1ACZ<index>",
+      "description": "EU CPI Accommodation Services Czech Republic"
+    },
+    {
+      "security": "CP1ACZMM<index>",
+      "description": "EU CPI Accommodation Services Czech Republic MoM"
+    },
+    {
+      "security": "CP1ACZYY<index>",
+      "description": "EU CPI Accommodation Services Czech Republic YoY"
+    },
+    {
+      "security": "CP1FCZ<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic"
+    },
+    {
+      "security": "CP1FCZMM<index>",
+      "description": "EU CPI Financial Services NEC Czech Republic MoM"
+    }
+  ],
+  "Czech CPI goods": [
+    {
+      "security": "OECZGGCU<index>",
+      "description": "OECD Czech Rep CPI Goods Food Excluding Restaurants Growth Rate"
+    },
+    {
+      "security": "OECZGGCV<index>",
+      "description": "OECD Czech Rep CPI Goods Food Excluding Restaurants YoY"
+    },
+    {
+      "security": "OECZGGCW<index>",
+      "description": "OECD Czech Rep CPI Goods Food Excluding Restaurants Index"
+    },
+    {
+      "security": "CZCPC13M<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services MoM"
+    },
+    {
+      "security": "CZCP13<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services"
+    },
+    {
+      "security": "CZCPC13Y<index>",
+      "description": "Czech CPI Personal Care Social Protection And Miscella. Goods And Services YoY"
+    },
+    {
+      "security": "CP56CZ<index>",
+      "description": "EU CPI Goods & Services for Routine Household Maintenance Czech Republic"
+    },
+    {
+      "security": "CP56CZYY<index>",
+      "description": "EU CPI Goods & Services for Routine Household Maintenance Czech Republic YoY"
+    },
+    {
+      "security": "CP5NCZ<index>",
+      "description": "EU CPI Non Durable Household Goods Czech Republic"
+    },
+    {
+      "security": "CP5NCZYY<index>",
+      "description": "EU CPI Non Durable Household Goods Czech Republic YoY"
+    },
+    {
+      "security": "CPIGCZ<index>",
+      "description": "EU CPI Industrial Goods Czech Republic"
+    },
+    {
+      "security": "CPIGCZMM<index>",
+      "description": "EU CPI Industrial Goods Czech Republic MoM"
+    },
+    {
+      "security": "CPIGCZYY<index>",
+      "description": "EU CPI Industrial Goods Czech Republic YoY"
+    },
+    {
+      "security": "CPNDCZ<index>",
+      "description": "EU CPI Non Energy Industrial Goods Durables Only Czech Republic"
+    },
+    {
+      "security": "CPNDCZMM<index>",
+      "description": "EU CPI Non Energy Industrial Goods Durables Only Czech Republic MoM"
+    }
+  ],
+  "Czech CPI fuels": [
+    {
+      "security": "CP4FCZ<index>",
+      "description": "EU CPI Solid Fuels Czech Republic"
+    },
+    {
+      "security": "CP4FCZMM<index>",
+      "description": "EU CPI Solid Fuels Czech Republic MoM"
+    },
+    {
+      "security": "CP4FCZYY<index>",
+      "description": "EU CPI Solid Fuels Czech Republic YoY"
+    },
+    {
+      "security": "CP4LCZ<index>",
+      "description": "EU CPI Liquid Fuels Czech Republic"
+    },
+    {
+      "security": "CP4LCZMM<index>",
+      "description": "EU CPI Liquid Fuels Czech Republic MoM"
+    },
+    {
+      "security": "CP4LCZYY<index>",
+      "description": "EU CPI Liquid Fuels Czech Republic YoY"
+    },
+    {
+      "security": "CP7FCZ<index>",
+      "description": "EU CPI Fuels & Lubricants for Personal Transport Equipment Czech Republic"
+    },
+    {
+      "security": "CP7FCZMM<index>",
+      "description": "EU CPI Fuels & Lubricants for Personal Transport Equipment Czech Republic MoM"
+    },
+    {
+      "security": "CP7FCZYY<index>",
+      "description": "EU CPI Fuels & Lubricants for Personal Transport Equipment Czech Republic YoY"
+    },
+    {
+      "security": "CPFUCZ<index>",
+      "description": "EU CPI Liquid Fuels & Fuels & Lubricants for Pers Transp Equip Czech Republic"
+    },
+    {
+      "security": "CPFUCZMM<index>",
+      "description": "EU CPI Liquid Fuels & Fuels & Lubricants for Pers Transp Equip Czech Republic MM"
+    },
+    {
+      "security": "CPFUCZYY<index>",
+      "description": "EU CPI Liquid Fuels & Fuels & Lubricants for Pers Transp Equip Czech Republic YY"
+    },
+    {
+      "security": "CPLGCZ<index>",
+      "description": "EU CPI Electricity Gas Solid Fuels & Heat Energy Czech Republic"
+    },
+    {
+      "security": "CPLGCZMM<index>",
+      "description": "EU CPI Electricity Gas Solid Fuels & Heat Energy Czech Republic MoM"
+    },
+    {
+      "security": "CPLGCZYY<index>",
+      "description": "EU CPI Electricity Gas Solid Fuels & Heat Energy Czech Republic YoY"
+    }
+  ],
+  "Czech Republic CPI fuel": [
+    {
+      "security": "CZCPHOMM<index>",
+      "description": "Czech Republic CPI Housing Water Energy Fuel MoM"
+    },
+    {
+      "security": "CZCPHOYY<index>",
+      "description": "Czech Republic CPI Housing Water Energy Fuel YoY"
+    },
+    {
+      "security": "CZCPH<index>",
+      "description": "Czech Republic CPI Housing Water Energy Fuel"
+    },
+    {
+      "security": "CZCPH15<index>",
+      "description": "Czech Republic CPI Housing Water Energy Fuel COICOP 1999"
+    },
+    {
+      "security": "CP4FCZ<index>",
+      "description": "EU CPI Solid Fuels Czech Republic"
+    },
+    {
+      "security": "CP4FCZMM<index>",
+      "description": "EU CPI Solid Fuels Czech Republic MoM"
+    },
+    {
+      "security": "CP4FCZYY<index>",
+      "description": "EU CPI Solid Fuels Czech Republic YoY"
+    },
+    {
+      "security": "CP4LCZ<index>",
+      "description": "EU CPI Liquid Fuels Czech Republic"
+    },
+    {
+      "security": "CP4LCZMM<index>",
+      "description": "EU CPI Liquid Fuels Czech Republic MoM"
+    },
+    {
+      "security": "CP4LCZYY<index>",
+      "description": "EU CPI Liquid Fuels Czech Republic YoY"
+    },
+    {
+      "security": "CP7FCZ<index>",
+      "description": "EU CPI Fuels & Lubricants for Personal Transport Equipment Czech Republic"
+    },
+    {
+      "security": "CP7FCZMM<index>",
+      "description": "EU CPI Fuels & Lubricants for Personal Transport Equipment Czech Republic MoM"
+    },
+    {
+      "security": "CP7FCZYY<index>",
+      "description": "EU CPI Fuels & Lubricants for Personal Transport Equipment Czech Republic YoY"
+    },
+    {
+      "security": "CPFUCZ<index>",
+      "description": "EU CPI Liquid Fuels & Fuels & Lubricants for Pers Transp Equip Czech Republic"
+    },
+    {
+      "security": "CPFUCZMM<index>",
+      "description": "EU CPI Liquid Fuels & Fuels & Lubricants for Pers Transp Equip Czech Republic MM"
+    }
+  ],
+  "CNB fixing EUR CZK": [],
+  "Czech National Bank exchange rate fixing": [],
+  "Czech Republic gasoline price": [
+    {
+      "security": "ECOBETCZ<index>",
+      "description": "Czech Republic Euro-super 95 Gasoline Pump Price in CZK Including Tax"
+    },
+    {
+      "security": "ECOBEFCZ<index>",
+      "description": "Czech Republic Euro-super 95 Gasoline Pump Price in CZK Excluding Tax"
+    },
+    {
+      "security": "ECOBGTCZ<index>",
+      "description": "Czech Republic Euro-super 95 Gasoline Pump Price Including Tax"
+    },
+    {
+      "security": "ECOBGFCZ<index>",
+      "description": "Czech Republic Euro-super 95 Gasoline Pump Price Excluding Tax"
+    }
+  ],
+  "Czech Republic diesel price": [
+    {
+      "security": "ECNEABCZ<index>",
+      "description": "European Commission Czech Republic Diesel Pump Price with Tax"
+    },
+    {
+      "security": "ECOBATCZ<index>",
+      "description": "Czech Republic Automotive Gas oil (Diesel)  Pump Price Including Tax"
+    },
+    {
+      "security": "ECOBAFCZ<index>",
+      "description": "Czech Republic Automotive Gas oil (Diesel)  Pump Price Excluding Tax"
+    },
+    {
+      "security": "ECOBOFCZ<index>",
+      "description": "Czech Republic Automotive Gas oil (Diesel)  Pump Price in CZK Excluding Tax"
+    },
+    {
+      "security": "ECOBOTCZ<index>",
+      "description": "Czech Republic Automotive Gas oil (Diesel)  Pump Price in CZK Including Tax"
+    }
+  ],
+  "Czech repo rate": [
+    {
+      "security": "CZARANN<index>",
+      "description": "Czech Republic Ceska Narodni Banka 2 Week Limit Repo Rate Announcement"
+    },
+    {
+      "security": "CZBRREPO<index>",
+      "description": "Czech Republic Ceska Narodni Banka 2 Week Limit Repo Rate"
+    },
+    {
+      "security": "CZRR14D<index>",
+      "description": "Czech Republic Repo Rates 14 day Average Czech National Bank"
+    },
+    {
+      "security": "CZRRTOTV<index>",
+      "description": "Czech Republic Repo Rates Total Volume Czech National Bank"
+    },
+    {
+      "security": "CZRR14DM<index>",
+      "description": "Czech Republic Repo Rates 14 day Maximum Czech National Bank"
+    },
+    {
+      "security": "RDNHRNCZ<index>",
+      "description": "ECB Hhlds & Nn-Fnc Corp Interest Rate: New Repurchase Agreements Dep: Czech Rep"
+    },
+    {
+      "security": "CZRR14DL<index>",
+      "description": "Czech Republic Repo Rates 14 day low Czech National Bank"
+    },
+    {
+      "security": "9356585<index>",
+      "description": "IMF Czech Republic Repurchase Agreement in Percent per Annu"
+    },
+    {
+      "security": "9356R001<index>",
+      "description": "IMF Czech Rep Repurchase Agreement Rate End of Period"
+    },
+    {
+      "security": "CZBDHRER<index>",
+      "description": "Czech Republic Interest Rates on Households & Npish - Repos"
+    },
+    {
+      "security": "CZBDNRER<index>",
+      "description": "Czech Republic Interest Rates on Non-Financial Corps - Repos"
+    },
+    {
+      "security": "CZNDNRER<index>",
+      "description": "Czech Republic Interest Rates on Non-Financial Corps - Repos"
+    },
+    {
+      "security": "CZNDREPR<index>",
+      "description": "Czech Republic Interest Rates on Households & Npish - Repos"
+    }
+  ],
+  "Czech National Bank 2 week repo": [],
+  "Czech Republic real effective exchange rate": [
+    {
+      "security": "BISBCZR<index>",
+      "description": "Czech Republic Real Effective Exchange Rate Broad"
+    },
+    {
+      "security": "BRERCZ<index>",
+      "description": "Bloomberg Economics Czech Rep Real Effective Exchange Rate CPI"
+    },
+    {
+      "security": "935.028<index>",
+      "description": "IMF Czech Rep Real Effective Exchange Rate CPI"
+    },
+    {
+      "security": "OECZFRAA<index>",
+      "description": "OECD Czech Rep Real Effective Exchange Rates Overall Economy CPI Index 2010=100"
+    },
+    {
+      "security": "OECZFRAB<index>",
+      "description": "OECD Czech Rep Real Effective Exchange Rates Overall Economy ULC Index 2010=100"
+    },
+    {
+      "security": "OEEOCZXA<index>",
+      "description": "OECD Eco Outlook Czech Rep Real Effective Exchange Rate Constant Trade Weights"
+    },
+    {
+      "security": "JBDCCZK<index>",
+      "description": "J.P. Morgan Czech Republic CPI-Based Real Broad Effective Exchange Rate"
+    },
+    {
+      "security": "BREERCZK<index>",
+      "description": "Bloomberg Intelligence REER Index - Czech Republic"
+    },
+    {
+      "security": "JBDPCZK<index>",
+      "description": "J.P. Morgan Czech Republic PPI-Based Real Broad Effective Exchange Rate"
+    },
+    {
+      "security": "JBMCCZK<index>",
+      "description": "J.P. Morgan Czech Republic CPI-Based Real Broad Effective Exchange Rate"
+    },
+    {
+      "security": "JBMPCZK<index>",
+      "description": "J.P. Morgan Czech Republic PPI-Based Real Broad Effective Exchange Rate"
+    },
+    {
+      "security": "OECZK004<index>",
+      "description": "OECD Czech Republic Currency Conversions Real Effective Exchange Rates"
+    }
+  ],
+  "Czech Republic trade balance": [
+    {
+      "security": "9357979<index>",
+      "description": "IMF Czech Republic Trade Balance in Millions of USD"
+    },
+    {
+      "security": "ECOYBCZN<index>",
+      "description": "Czech Republic Trade Balance (Billion USD) NSA"
+    },
+    {
+      "security": "ECOYBCZS<index>",
+      "description": "Czech Republic Trade Balance (Billion USD) SA"
+    },
+    {
+      "security": "ECTBCZ<index>",
+      "description": "Czech Republic Trade Balance Forecast (% GDP)"
+    },
+    {
+      "security": "EHTBCZ<index>",
+      "description": "Czech Republic Trade Balance (% GDP)"
+    },
+    {
+      "security": "UKTMFKMN<index>",
+      "description": "UK Trade in Goods with Non EU Partners Czech Republic Trade Balance SA"
+    },
+    {
+      "security": "CZTBNAL<index>",
+      "description": "Czech Republic Foreign Trade Balance National Concept"
+    },
+    {
+      "security": "CZCMTRBA<index>",
+      "description": "Czech Republic BoP Current Account Trade Balance CZK Monthly"
+    },
+    {
+      "security": "AGTBCZEE<index>",
+      "description": "Argentina Trade Balance Exports to Czech Republ"
+    },
+    {
+      "security": "AGTBCZEI<index>",
+      "description": "Argentina Trade Balance Imports from Czech Repu"
+    },
+    {
+      "security": "CZCATRBA<index>",
+      "description": "Czech Republic Balance of Payments Current Account Trade Balance EUR"
+    },
+    {
+      "security": "CZQBTRBA<index>",
+      "description": "Czech Republic Balance of Payments Current Account Trade Balance"
+    },
+    {
+      "security": "CZTBAL<index>",
+      "description": "Czech Republic Foreign Trade Balance"
+    },
+    {
+      "security": "EHTBCZY<index>",
+      "description": "Czech Republic Annual Trade Balance (% GDP)"
+    },
+    {
+      "security": "IBNECZ<index>",
+      "description": "Trade Balance with European Union Countries Czech Republic"
+    }
+  ],
+  "Czech agricultural producer prices": [
+    {
+      "security": "CZPPAMOM<index>",
+      "description": "Czech Republic PPI Agricultural YoY"
+    },
+    {
+      "security": "CZPPK83M<index>",
+      "description": "Czech Republic PPI Agricultural & Forestry Machinery MoM"
+    },
+    {
+      "security": "CZPPK83Y<index>",
+      "description": "Czech Republic PPI Agricultural & Forestry Machinery YoY"
+    },
+    {
+      "security": "CZPPAYOY<index>",
+      "description": "Czech Republic PPI Agricultural MoM"
+    }
+  ],
+  "Czech Republic household loans": [
+    {
+      "security": "GDDI935S<index>",
+      "description": "IMF GDD Czech Republic Household Debt Loans And Debt Securities % GDP"
+    },
+    {
+      "security": "LONSCZHH<index>",
+      "description": "Czech Republic Household & Non-Profit Institutions Outstanding Amounts"
+    },
+    {
+      "security": "LDHHLHCZ<index>",
+      "description": "ECB MFIs Statistics for Households: Lending for House Purchase Czech Repub"
+    },
+    {
+      "security": "HHFLLNCZ<index>",
+      "description": "ECB MFI Loans to Household and NPISH - Czech Rep - Flow"
+    },
+    {
+      "security": "CZHHCDTV<index>",
+      "description": "Czech Republic Volume of Households & Npish - Credit Card Total"
+    },
+    {
+      "security": "CZHHHHTV<index>",
+      "description": "Czech Republic Volume of Households & Npish - Total"
+    },
+    {
+      "security": "CZNPOTHH<index>",
+      "description": "Czech Republic Non-Performing Loans to Households - Other Households"
+    },
+    {
+      "security": "CZBLO5OR<index>",
+      "description": "Czech Republic Interest Rates on Households & Npish - Other Loans - Over 5 Years"
+    },
+    {
+      "security": "CZBLO5OV<index>",
+      "description": "Czech Republic Volume of Households & Npish - Other Loans - Over 5 Years"
+    },
+    {
+      "security": "CZBLOL1R<index>",
+      "description": "Czech Republic Interest Rates on Households & Npish - Other Loans - up to 1 Year"
+    },
+    {
+      "security": "CZBLOL1V<index>",
+      "description": "Czech Republic Volume of Households & Npish - Other Loans - up to 1 Year"
+    },
+    {
+      "security": "CZBLOLTR<index>",
+      "description": "Czech Republic Interest Rates on Households & Npish - Other Loans - Total"
+    },
+    {
+      "security": "CZBLOLTV<index>",
+      "description": "Czech Republic Volume of Households & Npish - Other Loans - Total"
+    },
+    {
+      "security": "CZFSNPLC<index>",
+      "description": "Czech Republic Non-Performing Loans / Total Loans - Households Consumer Credit"
+    },
+    {
+      "security": "CZFSNPLH<index>",
+      "description": "Czech Republic Non-Performing Loans / Total Loans - Households"
+    }
+  ],
+  "Czech inflation expectations": [
+    {
+      "security": "MSCPICZ<index>",
+      "description": "Morgan Stanley 1Y Ahead CPI Expectations - Czech"
+    },
+    {
+      "security": "ECPICZ<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ 26<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ 27<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ Q127<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ Q327<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ 03<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ 04<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ 05<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ 09<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ 10<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ 11<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ 12<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ 13<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    },
+    {
+      "security": "ECPICZ 14<index>",
+      "description": "Czech Republic CPI Economic Forecast (YoY %)"
+    }
+  ],
+  "Czech Republic import prices": [
+    {
+      "security": "CZEII<index>",
+      "description": "Czech Republic Import Prices"
+    },
+    {
+      "security": "CZEIIYOY<index>",
+      "description": "Czech Republic Import Prices YoY"
+    },
+    {
+      "security": "CZEIIMOM<index>",
+      "description": "Czech Republic Import Prices MoM"
+    },
+    {
+      "security": "CZEIIB<index>",
+      "description": "Czech Republic Import Prices Beverages"
+    },
+    {
+      "security": "CZEIIBMM<index>",
+      "description": "Czech Republic Import Prices Beverages MoM"
+    },
+    {
+      "security": "CZEIIBYY<index>",
+      "description": "Czech Republic Import Prices Beverages YoY"
+    },
+    {
+      "security": "CZEIIC<index>",
+      "description": "Czech Republic Import Prices Chemicals"
+    },
+    {
+      "security": "CZEIICMM<index>",
+      "description": "Czech Republic Import Prices Chemicals MoM"
+    },
+    {
+      "security": "CZEIICYY<index>",
+      "description": "Czech Republic Import Prices Chemicals YoY"
+    },
+    {
+      "security": "CZEIIF<index>",
+      "description": "Czech Republic Import Prices Food"
+    },
+    {
+      "security": "CZEIIFMM<index>",
+      "description": "Czech Republic Import Prices Food MoM"
+    },
+    {
+      "security": "CZEIIFYY<index>",
+      "description": "Czech Republic Import Prices Food YoY"
+    },
+    {
+      "security": "CZEIIG<index>",
+      "description": "Czech Republic Import Prices Goods"
+    },
+    {
+      "security": "CZEIIGMM<index>",
+      "description": "Czech Republic Import Prices Goods MoM"
+    },
+    {
+      "security": "CZEIIGYY<index>",
+      "description": "Czech Republic Import Prices Goods YoY"
+    }
+  ]
+}

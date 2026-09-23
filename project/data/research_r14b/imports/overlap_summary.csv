@@ -1,0 +1,4 @@
+reference,n,first,last,max_abs_difference,n_exceeding_0_1pp
+official_cpa,138,2015-01,2026-06,0.0,0
+prior_cache,222,2008-01,2026-06,0.0,0
+frozen_core,137,2015-01,2026-05,2.886579864025407e-15,0

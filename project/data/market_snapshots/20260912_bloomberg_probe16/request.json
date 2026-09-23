@@ -1,0 +1,68 @@
+{
+  "retrieved_at": "2026-09-12T17:57:42.039807+00:00",
+  "end_date": "2026-09-11",
+  "candidates": {
+    "cnb_paper_surveys": [
+      "EUI6CZ Index",
+      "EUI1CZ Index",
+      "EUS1CZ Index",
+      "EUS2CZ Index",
+      "EUR1CZ Index",
+      "EUB1CZ Index",
+      "EUB5F4CZ Index",
+      "EUB5F5CZ Index",
+      "EUB5F7CZ Index",
+      "EUA2CZ Index",
+      "EUICDE Index",
+      "EUSCDE Index",
+      "EURTDE Index",
+      "EUCODE Index",
+      "EURTPL Index",
+      "EUA8EMU Index",
+      "EUA7EMU Index",
+      "EUICCZ Index",
+      "EUS3CZ Index",
+      "EUS5CZ Index",
+      "EUSCCZ Index",
+      "EUR3CZ Index",
+      "EUR4CZ Index",
+      "EUR5CZ Index",
+      "EURTCZ Index",
+      "EUB3CZ Index",
+      "EUCOCZ Index",
+      "EUA1CZ Index",
+      "EUA0CZ Index",
+      "EUAUCZ Index",
+      "EUA6CZ Index",
+      "EUI5CZ Index",
+      "EUB4CZ Index"
+    ],
+    "cnb_paper_hard": [
+      "UMRTDE Index",
+      "GRCPHCPI Index"
+    ],
+    "surveys": [
+      "EUESCZ Index"
+    ]
+  },
+  "reference_fields": [
+    "NAME",
+    "SECURITY_DES",
+    "INDX_SOURCE",
+    "SEASONALITY_AND_TRANSFORMATION",
+    "INDX_FREQ",
+    "LAST_UPDATE_DT",
+    "COUNTRY",
+    "DES_NOTES"
+  ],
+  "history": "PX_LAST; MONTHLY periodicity for Index tickers, DAILY for Govt",
+  "history_start": "1980-01-01",
+  "vintage_status": "Current-vintage download; not an original-vintage archive.",
+  "python_executable": "C:\\Users\\luis_\\anaconda3\\python.exe",
+  "versions": {
+    "xbbg": "0.7.7",
+    "blpapi": "3.25.5.1",
+    "pandas": "1.4.4"
+  },
+  "completed_at": "2026-09-12T17:58:02.629928+00:00"
+}

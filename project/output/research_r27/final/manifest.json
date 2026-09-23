@@ -1,0 +1,37 @@
+{
+  "inputs": {
+    "models/food_ecm_r27.py": "7181827e56b60560e5f485a7f055a84641d11696cb0b098410a35c953499e32f",
+    "models/food_stable_r14b.py": "90166a6e65648fe6af1c811b9f7e84c8c2a4467d06e881dda82d914b94b144bf",
+    "models/food_path_r14.py": "dffc5151cdbdcf41f3bd6bf64451c40a8f27e54a467477849bb9df16cb95fc83",
+    "r17_common.py": "b0cb5bf5702deec25e3ac5fd053d6dda788bea03e35156cc2ee4f3df0cb95f0e",
+    "tools/research_r27/run.py": "47c6860fd1ae760c435fcc304f06e2d313e64bf6e95477ba03e2c06f079c6afb",
+    "docs/implementation/R27_FOOD_ERROR_CORRECTION_SPEC_2026-09-18.md": "cb041a88a32673ac57df1bca549d2b4a00b636cfa9eca503d1e0432d9ad6fb9d",
+    "output/research_r24/final/native_forecasts.csv": "1313155a31572f262f486afa09aaed26ddd8f72c470f9e5bde2c1e74a9222585",
+    "output/research_r24/final/manifest.json": "b586a08f5ad03fe3c019f40ccdfe6b29acdc1f2771dbbcc0570a0d266b2b07aa",
+    "data/research_r14/food/input_manifest.json": "36d7611f8b06156d749ef49bf5cf822d2fd4c5d63178fd3812fda37627a7a1c2",
+    "data/research_r14/food/pipeline_log_levels.csv": "11b95512b1feef65bdd835d4b4c6cf3789dd6bd176733f59e2a0738fc4462069",
+    "data/research_r14/food/pipeline_available_from.csv": "5f392e03580ddffb49cd3301bb7596b8a73c9d51484572b0f34ddd357763f713"
+  },
+  "controls": [
+    "STATE_FAST_R15",
+    "FOOD_NORM_SHIFT_R24"
+  ],
+  "models": [
+    "FOOD_ECM_R27",
+    "FOOD_ECM_PPI_R27",
+    "FOOD_ECM_A002_R27",
+    "FOOD_ECM_A005_R27",
+    "FOOD_ECM_A010_R27",
+    "FOOD_ECM_A015_R27"
+  ],
+  "origin_count": 90,
+  "notes": "R27 food error-correction candidates (two estimated speeds, four fixed speeds) on the R24 research path; only the food block of h1-6 changes.",
+  "outputs": {
+    "ecm_audit.csv": "9601b278ad1d3937794c73bef35a188f40aaf7b59f9c5d244bf432ca3ebcb3fa",
+    "food_log_rates.csv": "22e1f3853f89ce8887da8edbfff19976e2dade8467a258961b2cb25fb0ccb4e1",
+    "forecasts.csv": "3d651fb180949a95b5e3be3557f525f7ccb1ff6c7ba9e1b5dec8659919324cbf",
+    "native_forecasts.csv": "5352e2b85eb575ebfccb795250fc9d92b4cb6fd8f178bf8d29b4bc05a0413b4a",
+    "status.csv": "cd268496365b04555a3278a301b20248ea394f279bb4af4300f626527b3088b4",
+    "fits.jsonl": "c4a1d9b661fc4442b0e6afbc747861a367d748dc7af6a79a25c6da64d1f653eb"
+  }
+}

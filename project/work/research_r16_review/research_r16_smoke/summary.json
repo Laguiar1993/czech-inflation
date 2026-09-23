@@ -1,0 +1,16 @@
+{
+  "experiment": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\research_r16_smoke",
+  "verified_hashes": 59,
+  "feature_max_error": 3.469446951953614e-18,
+  "generated_design_max_error": 0.0,
+  "label_max_error": 0.0,
+  "ridge_selections_replayed": 3048,
+  "slope_selections_replayed": 2,
+  "selection_max_loss_error": 6.938893903907228e-18,
+  "slope_paths_replayed": 444,
+  "slope_max_error": 2.220446049250313e-16,
+  "independent_ridge_refits": 20,
+  "ridge_max_error": 7.141856550596515e-15,
+  "native_rows_protected": 260,
+  "blend_max_error": 0.0
+}

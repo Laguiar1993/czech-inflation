@@ -1,0 +1,2 @@
+ticker,name,security_des,indx_source,des_notes,px_last,last_update_dt,last_update,seasonality_and_transformation,country
+EUS3CZ Index,EU Services Evolution of Deman,EU Services Evolution of Deman,European Commission,This concept tracks business sentiment within the services industries. The results are based on a survey conducted among a representative sample of businesses in the services sector.,21.9,2026-08-31,2026-08-31,% Balance/Diffusion Index SA,CZ

@@ -1,0 +1,14 @@
+{
+  "note": "22 Sep 2026: Czech producer-price aggregates from the Terminal's ECST screen (Industry - NACE, special aggregates, main industrial groupings) and the CZSO import and export price families by SITC, to test which, if any, reproduces the manufacturing (NACE C) domestic PPI used by the R29B phase (Eurostat sts_inppd_m PRC_PRR_DOM C, A6 row 47).",
+  "candidates": {
+    "ppi_nace_and_aggregates": ["PPTXCZ Index", "EPPBE4CZ Index", "EPP0BDCZ Index", "EPPIGKCZ Index", "PPIGCZ Index", "PPENCZ Index", "EPENBCZ Index",
+                                "PPCGCZ Index", "EPP0CGCZ Index", "EPPCG1CZ Index", "PPDGCZ Index", "PPNGCZ Index", "PPXECZ Index", "EPPBC3CZ Index",
+                                "EPP00BCZ Index", "EPP00CCZ Index", "EPP00DCZ Index", "EPP036CZ Index", "EPP0CCZ Index", "EPPCCZ Index", "PPMFCZ Index", "CZPPCM Index"],
+    "import_prices_sitc": ["CZEII Index", "CZEIIF Index", "CZEIIB Index", "CZEIII Index", "CZEIIL Index", "CZEIIO Index", "CZEIIC Index", "CZEIIG Index", "CZEIIT Index", "CZEIIM Index"],
+    "export_prices_sitc": ["CZEIE Index", "CZEIEF Index", "CZEIEB Index", "CZEIEI Index", "CZEIEL Index", "CZEIEO Index", "CZEIEC Index", "CZEIEG Index", "CZEIET Index", "CZEIEM Index"]
+  },
+  "daily": [],
+  "searches": ["Czech producer prices manufacturing", "Czech PPI manufacturing domestic", "Czech Republic industrial producer prices NACE C"],
+  "max_results": 15,
+  "history_start": "1990-01-01"
+}

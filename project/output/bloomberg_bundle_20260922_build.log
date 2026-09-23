@@ -1,0 +1,197 @@
+{
+ "nowcast/headline.cpi_mm": {
+  "ticker": "CZCPMOM Index",
+  "months_from_bloomberg": 138,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 0.07246376811594203,
+  "max_abs_gap": 0.10089197224973906
+ },
+ "nowcast/components.food": {
+  "ticker": "CZCPFMOM Index",
+  "months_from_bloomberg": 138,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 0.06521739130434782,
+  "max_abs_gap": 0.1051881993896166
+ },
+ "nowcast/components.fuel": {
+  "ticker": null,
+  "months_kept_from_previous_source": 138
+ },
+ "nowcast/core.core": {
+  "ticker": "CZCIXM Index",
+  "months_from_bloomberg": 235,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 1.0,
+  "max_abs_gap": 0.0
+ },
+ "nowcast/regulated": {
+  "ticker": "CZCIRM Index",
+  "months_from_bloomberg": 235,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 1.0,
+  "max_abs_gap": 0.0
+ },
+ "nowcast/alcohol.alcohol_tobacco": {
+  "ticker": "CZCPAMOM Index",
+  "months_from_bloomberg": 138,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 0.050724637681159424,
+  "max_abs_gap": 0.10535183349850086
+ },
+ "nowcast/features.eurczk_mm": {
+  "ticker": "EURCZK CNB Curncy",
+  "months_from_bloomberg": 236,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 0.8432203389830508,
+  "max_abs_gap": 0.08904015980155644
+ },
+ "nowcast/features.core_l1": {
+  "ticker": "CZCIXM Index",
+  "months_from_bloomberg": 234,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 1.0,
+  "max_abs_gap": 0.0
+ },
+ "nowcast/features.core_l2": {
+  "ticker": "CZCIXM Index",
+  "months_from_bloomberg": 233,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 1.0,
+  "max_abs_gap": 0.0
+ },
+ "nowcast/features.core_l12": {
+  "ticker": "CZCIXM Index",
+  "months_from_bloomberg": 223,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 1.0,
+  "max_abs_gap": 0.0
+ },
+ "nowcast/features.import_l2": {
+  "ticker": "CZEIIMOM Index",
+  "months_from_bloomberg": 137,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 0.9854014598540146,
+  "max_abs_gap": 0.10000000000000564
+ },
+ "nowcast/features.state": {
+  "ticker": "CZCIPY Index (to 2014), CZCPYOY Index (2015-)",
+  "months_from_bloomberg": 235,
+  "months_kept_from_previous_source": 1,
+  "exact_share": 0.9957446808510638,
+  "max_abs_gap": 1.0
+ },
+ "nowcast/features.exp12": {
+  "ticker": null,
+  "months_kept_from_previous_source": 235
+ },
+ "nowcast/features.exp36": {
+  "ticker": null,
+  "months_kept_from_previous_source": 235
+ },
+ "nowcast/features.household_exp": {
+  "ticker": null,
+  "months_kept_from_previous_source": 236
+ },
+ "nowcast/features.esi": {
+  "ticker": null,
+  "months_kept_from_previous_source": 235
+ },
+ "nowcast/features.services_l1": {
+  "ticker": null,
+  "months_kept_from_previous_source": 137
+ },
+ "nowcast/food_features.food_l1": {
+  "ticker": "CZCPFMOM Index",
+  "months_from_bloomberg": 137,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 0.06569343065693431,
+  "max_abs_gap": 0.1051881993896166
+ },
+ "nowcast/food_features.food_l12": {
+  "ticker": "CZCPFMOM Index",
+  "months_from_bloomberg": 126,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 0.06349206349206349,
+  "max_abs_gap": 0.1051881993896166
+ },
+ "nowcast/food_features.food_ppi_l1": {
+  "ticker": "CZPPA10M Index",
+  "months_from_bloomberg": 137,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 0.06569343065693431,
+  "max_abs_gap": 0.10039840637450209
+ },
+ "nowcast/food_features.agri_l0": {
+  "ticker": null,
+  "months_kept_from_previous_source": 197
+ },
+ "nowcast/food_features.agri_l1": {
+  "ticker": null,
+  "months_kept_from_previous_source": 196
+ },
+ "nowcast/weekly_fuel_variant_b.petrol95": {
+  "ticker": "ECOBETCZ Index",
+  "weeks_from_bloomberg": 528,
+  "exact_share": 0.032196969696969696,
+  "max_abs_gap": 0.48099999999999454
+ },
+ "nowcast/weekly_fuel_variant_b.diesel": {
+  "ticker": "ECOBOTCZ Index",
+  "weeks_from_bloomberg": 528,
+  "exact_share": 0.01893939393939394,
+  "max_abs_gap": 1.0960000000000036
+ },
+ "nowcast/weekly_fuel.petrol95": {
+  "ticker": null
+ },
+ "nowcast/weekly_fuel.diesel": {
+  "ticker": null
+ },
+ "path/headline_mm": {
+  "ticker": "CZCIPM Index (2007-2014), CZCPMOM Index (2015-)",
+  "months_from_bloomberg": 235,
+  "months_kept_from_previous_source": 191,
+  "exact_share": 0.0851063829787234,
+  "max_abs_gap": 0.1314994606256617
+ },
+ "path/food_levels.food": {
+  "ticker": "CZCPF Index",
+  "months_from_bloomberg": 139,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 0.007194244604316547,
+  "max_abs_gap": 0.14684541185671662
+ },
+ "path/food_levels.agri4": {
+  "ticker": null,
+  "months_kept_from_previous_source": 139
+ },
+ "path/food_levels.food_ppi": {
+  "ticker": null,
+  "months_kept_from_previous_source": 139
+ },
+ "path/food_available_from": {
+  "ticker": null
+ },
+ "path/alcohol_mm": {
+  "ticker": "CZCPAMOM Index",
+  "months_from_bloomberg": 138,
+  "months_kept_from_previous_source": 0,
+  "exact_share": 0.050724637681159424,
+  "max_abs_gap": 0.10535183349850086
+ },
+ "path/pump_weekly.gross_petrol95": {
+  "ticker": "ECOBETCZ Index",
+  "weeks_from_bloomberg": 1081,
+  "exact_share": 0.1267345050878816,
+  "max_abs_gap": 5.759999964993767e-06
+ },
+ "path/pump_weekly.gross_diesel": {
+  "ticker": "ECOBOTCZ Index",
+  "weeks_from_bloomberg": 1081,
+  "exact_share": 0.12580943570767808,
+  "max_abs_gap": 5.000000015797923e-06
+ },
+ "path/pump_weekly.net_and_tax_columns": {
+  "ticker": null
+ }
+}

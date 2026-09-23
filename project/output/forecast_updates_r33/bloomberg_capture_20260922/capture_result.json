@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-09-22T17:25:42.852697+00:00",
+  "command": [
+    "C:/Users/luis_/anaconda3/python.exe",
+    "-B",
+    "-m",
+    "tools.market_data.probe_bloomberg_candidates",
+    "--config",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\tools\\forecast_updates_r33\\bloomberg_current_config.json",
+    "--end-date",
+    "2026-09-21",
+    "--output",
+    "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\forecast_updates_r33\\bloomberg_capture_20260922\\snapshot"
+  ],
+  "timeout_seconds": 90,
+  "config_sha256": "ecd5a090b594a8b70f3faedd89db19f1cec77d8c6b4e1ff5b87936379e6f4dab",
+  "script_sha256": "beb8b6fe12ee0493a9b0bc9901b628914dd9ff696d737a532e570b5d943639dd",
+  "status": "failed",
+  "returncode": 1,
+  "completed_at": "2026-09-22T17:25:43.100727+00:00",
+  "snapshot_is_prepared_bundle": false,
+  "limitation": "Fresh raw capture does not extend frozen fixture monthly frames; no current forecast is implied."
+}

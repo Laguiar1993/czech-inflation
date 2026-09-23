@@ -1,0 +1,206 @@
+{
+  "schema": "momentum_r35_x13/v1",
+  "name": "vehicle_operation",
+  "status": "ok",
+  "method": "X13 log-autoARIMA AO/LS/TC X11 D11",
+  "reason": null,
+  "failure_stage": null,
+  "quality_flags": [
+    "residual_seasonality_spectrum",
+    "identifiable_seasonality_not_detected",
+    "x13_warning"
+  ],
+  "warnings": [
+    {
+      "file": "series.err",
+      "message": "WARNING: At least one visually significant seasonal peak has been found\n          in the estimated spectrum of the regARIMA residuals.\n  \n WARNING: At least one visually significant seasonal peak has been\n          found in one or more of the estimated spectra."
+    },
+    {
+      "file": "stdout.txt",
+      "message": "WARNING: At least one visually significant seasonal peak has been found\n          in the estimated spectrum of the regARIMA residuals.\n  \n WARNING: At least one visually significant seasonal peak has been\n          found in one or more of the estimated spectra."
+    }
+  ],
+  "settings": {
+    "version": "momentum_r35_fixed_v1",
+    "period": 12,
+    "minimum_observations": 96,
+    "transform": "log",
+    "automdl": "installed binary defaults; no manual model selection or retries",
+    "outlier_types": [
+      "ao",
+      "ls",
+      "tc"
+    ],
+    "outlier_effects_retained": true,
+    "x11_mode": "mult",
+    "x11_final": "omitted: retain AO/LS/TC effects in D11",
+    "return_table": "d11",
+    "save_tables": [
+      "d10",
+      "d11",
+      "d12",
+      "d13"
+    ],
+    "append_forecasts": false,
+    "append_backcasts": false,
+    "calendar_regressors": [],
+    "easter_policy": "none for all groups; no pre-established robust holiday specification",
+    "spectrum_logqs": true,
+    "spectrum_robustsa": false,
+    "qs_flag_p_value_below": 0.01,
+    "timeout_seconds": 120,
+    "other_options": "installed X13 defaults, executable SHA256 and effective .udg archived"
+  },
+  "created_at_utc": "2026-09-22T21:39:20.539389+00:00",
+  "output_dir": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\momentum_r35\\final\\x13\\full\\vehicle_operation",
+  "binary_path": "C:\\Users\\luis_\\x13as\\x13as\\x13as.exe",
+  "binary_sha256": "2e43194361ee096797f0431765193c316196ea6776f11535e76281a413d49669",
+  "binary_sha256_after": "2e43194361ee096797f0431765193c316196ea6776f11535e76281a413d49669",
+  "process_returncode": 0,
+  "residual_seasonality": {
+    "status": "flagged",
+    "qs_tests": {
+      "qsori": {
+        "statistic": 0.0,
+        "p_value": 1.0,
+        "series": "original, full sample"
+      },
+      "qssori": {
+        "statistic": 0.0,
+        "p_value": 1.0,
+        "series": "original, last up to 96 months"
+      },
+      "qsrsd": {
+        "statistic": 0.0,
+        "p_value": 1.0,
+        "series": "regARIMA residuals, full sample"
+      },
+      "qssrsd": {
+        "statistic": 1.16107,
+        "p_value": 0.5596,
+        "series": "regARIMA residuals, last up to 96 months"
+      },
+      "qssadj": {
+        "statistic": 0.0,
+        "p_value": 1.0,
+        "series": "log D11, full sample"
+      },
+      "qsssadj": {
+        "statistic": 0.0,
+        "p_value": 1.0,
+        "series": "log D11, last up to 96 months"
+      },
+      "qssadjevadj": {
+        "statistic": 0.0,
+        "p_value": 1.0,
+        "series": "log extreme-value-adjusted SA, full sample"
+      },
+      "qsssadjevadj": {
+        "statistic": 0.0,
+        "p_value": 1.0,
+        "series": "log extreme-value-adjusted SA, last up to 96 months"
+      }
+    },
+    "nonparametric_sa": {
+      "npsadj": "no",
+      "npssadj": "no"
+    },
+    "spectral": {
+      "spcsa.tukey.m": "79",
+      "spcsa.median": "-0.3247538400E+02",
+      "spcsa.range": "0.1322727541E+02",
+      "spcsa.t1": "nopeak",
+      "spcsa.t2": "nopeak",
+      "spcsa.t.dom": "no",
+      "spcsa.s1": "nopeak",
+      "spcsa.s2": "nopeak",
+      "spcsa.s3": "nopeak",
+      "spcsa.s4": "9.3 +",
+      "spcsa.s5": "nopeak",
+      "spcsa.s.dom": "s4",
+      "spcsa.dom": "no",
+      "spcsa.tukey.s1": "0.6873",
+      "spcsa.tukey.s2": "0.7893",
+      "spcsa.tukey.s3": "0.2640",
+      "spcsa.tukey.s4": "0.8739",
+      "spcsa.tukey.s5": "0.7778",
+      "spcsa.tukey.s6": "0.6004",
+      "spcsa.tukey.td": "0.3702",
+      "peaks.seas": "rsd sa",
+      "peaks.td": "none",
+      "peaks.tukey.seas": "none",
+      "peaks.tukey.td": "none",
+      "peaks.tukey.p90.seas": "ori",
+      "peaks.tukey.p90.td": "none"
+    },
+    "qs_threshold": 0.01,
+    "full_start": "2015-01",
+    "recent_start": "2018-09",
+    "end": "2026-08",
+    "spectrum_start_as_reported": "9th month,2018",
+    "interpretation": "Diagnostics are warnings, not proof of valid adjustment or calibrated uncertainty. D11 retains shocks."
+  },
+  "limitations": [
+    "Current-vintage descriptive adjustment; historical values revise.",
+    "Parent builder owns endpoint comparison; wrapper processes one supplied sample.",
+    "No Easter or trading-day regressors, including travel-sensitive groups.",
+    "Exactly deterministic series may fail automatic outlier detection with zero residual variance."
+  ],
+  "input": {
+    "n": 140,
+    "start": "2015-01",
+    "end": "2026-08"
+  },
+  "command": [
+    "C:\\Users\\luis_\\x13as\\x13as\\x13as.exe",
+    "series",
+    "-s"
+  ],
+  "effective_model": {
+    "version": "1.1",
+    "build": "62",
+    "arimamdl": "(0 1 1)",
+    "converged": "yes",
+    "seasonalma": "MSR   MSR   MSR   MSR   MSR   MSR   MSR   MSR   MSR   MSR   MSR   MSR",
+    "finaltrendma": "9",
+    "outlier.ao": "0",
+    "outlier.ls": "4",
+    "outlier.tc": "1",
+    "finalreg01": "Automatically Identified Outliers"
+  },
+  "x11_quality_statistics": {
+    "d11.f": "0.73572      70.24960",
+    "d11.3y.f": "0.76023      67.38874",
+    "f2.idseasonal": "no",
+    "f3.m01": "0.860",
+    "f3.m02": "0.101",
+    "f3.m03": "0.000",
+    "f3.m04": "1.801",
+    "f3.m05": "0.093",
+    "f3.m06": "0.509",
+    "f3.m07": "2.091",
+    "f3.m08": "1.927",
+    "f3.m09": "0.942",
+    "f3.m10": "2.096",
+    "f3.m11": "1.842",
+    "f3.q": "1.04",
+    "f3.qm2": "1.15",
+    "f3.fail": "5"
+  },
+  "quality_status": "flagged",
+  "archive_files": {
+    "input.csv": "f4961b93d3a8106db5de4337d50d87379f5a0626e3de3b4248b9018057cea901",
+    "series.d10": "992f1eb9c48a7abb9fd2d4a418da74e4ee93c1eb0c7afc965e2c94d7586d69c8",
+    "series.d11": "9c64db133c13e58c5f435445a5fb5ded35175199f3093ab90fdfadf97e42451d",
+    "series.d12": "12cd5b13921bb684d83acc86336395a41e368a90a2bb37ace02142f2bb3e5e68",
+    "series.d13": "0f3e7698c74bce94f5d08eb6f61bdc58f67ec3e3673e66942c7ca2b2e3c10a53",
+    "series.err": "842efc2cc09cd84a97b4897b0ec34b58eba4ece40ce71c773839d14195168269",
+    "series.log": "a11f89df8e619b0c6bf68cf28038d168ef1f12531c54c87b60cde4a2a5b9fd5d",
+    "series.out": "640c3687e93d64817900d0698c5616cf874d6f07d91a8b989bab0e0749a36d40",
+    "series.spc": "c387e519eb20e92aa25bd95d8fc3b5c3b810dafda644f635882d9d9bb60318a5",
+    "series.udg": "4adf06617ca4f2d0d95e10dd369b4d0765b01a0eaf38d23df56f14c8182a3a9e",
+    "settings.json": "7dac0817972b1059e115d3a184a506b26b8bcdf3f6a28f35f9425c948b6ec95e",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "ab799e6e44d78d250e0d9c1129f7044d7fd0fd120672c2e0e90a757435ad9fc4"
+  }
+}

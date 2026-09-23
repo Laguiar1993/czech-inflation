@@ -1,0 +1,378 @@
+date: Sep 22, 2026  
+time: 22.39.24 
+version: 1.1
+build: 62
+output: out
+srstit: R35 monthly CPI index
+srsnam: series                                                          
+freq:    12
+span:  1st month,2015 to  7th month,2026
+nobs:   139
+constant:     0.0000000000E+00
+transform: Log(y)
+nfcst:    12
+ciprob:     0.950000
+lognormal: no
+mvval:     0.1000000000E+10
+iqtype: ljungbox
+samode: multiplicative seasonal adjustment
+siglim:     1.500000     2.500000
+adjtot: no
+seasonalma: MSR   MSR   MSR   MSR   MSR   MSR   MSR   MSR   MSR   MSR   MSR   MSR 
+trendma: default
+x11regress: no
+x11otl: stderr
+shrink: none
+spectrum: yes
+startspec:  8th month,2018
+spectype: AR-spectrum
+decibel: yes
+specrobustsa: no
+specseries: adjoriginal
+showseasonalfreq: no
+specmaxar:    30
+altfreq: no
+saveallspecfreq: no
+nspecfreq:    61
+ntdfreq:     2
+t1.freq:   0.34820000
+t1.index:    42
+t2.freq:   0.43200000
+t2.index:    52
+nsfreq:     5
+s1.freq:   0.08333333
+s1.index:    10
+s2.freq:   0.16666667
+s2.index:    20
+s3.freq:   0.25000000
+s3.index:    30
+s4.freq:   0.33333333
+s4.index:    40
+s5.freq:   0.41666667
+s5.index:    50
+peaklocal:     0.2000000000E-02
+peakwd:     1
+siglevel:     6.000000
+mdg: yes
+modelspan:  1st month,2015 to  7th month,2026
+nobsmodelspan:    139
+outlierspan:  1st month,2015 to  7th month,2026
+nobsoutlierspan:    139
+aictest: none
+automodeltype: automdl
+maxorder:     2    1
+maxdiff:     2    1
+acceptdefault: no
+checkmu: yes
+balanced: no
+mixed: yes
+exactdiff: first
+idnonseasonaldiff.first:   1
+idseasonaldiff.first:   0
+automdl.best5.mdl1: (0 1 0)(1 0 0)
+automdl.best5.bic1:     -6.745
+automdl.best5.mdl2: (1 1 1)(1 0 0)
+automdl.best5.bic2:     -6.744
+automdl.best5.mdl3: (2 1 0)(1 0 0)
+automdl.best5.bic3:     -6.738
+automdl.best5.mdl4: (0 1 2)(1 0 0)
+automdl.best5.bic4:     -6.734
+automdl.best5.mdl5: (2 1 1)(1 0 0)
+automdl.best5.bic5:     -6.724
+automdl.first: (0 1 0)(1 0 0)
+idnonseasonaldiff.first:   1
+idseasonaldiff.first:   0
+automdl.best5.mdl1: (1 1 1)(1 0 0)
+automdl.best5.bic1:     -6.894
+automdl.best5.mdl2: (1 1 1)(0 0 1)
+automdl.best5.bic2:     -6.890
+automdl.best5.mdl3: (1 1 2)(1 0 0)
+automdl.best5.bic3:     -6.873
+automdl.best5.mdl4: (2 1 1)(1 0 0)
+automdl.best5.bic4:     -6.872
+automdl.best5.mdl5: (1 1 1)
+automdl.best5.bic5:     -6.867
+finalur: nonseasonal
+automean: no
+idnonseasonaldiff:     2
+idseasonaldiff:     0
+tcrate:   0.700000
+aocrit:  3.328 -
+lscrit:  3.328 -
+tccrit:  3.328 -
+reducecv:   0.142860
+automdl: (0 2 1)(1 0 0)
+arimamdl: (0 2 1)(1 0 0)
+maxiter:   1500
+tol:  0.100000E-04
+aape.mode: withinsample
+aape.0:       1.2966
+aape.1:       2.6311
+aape.2:       0.6899
+aape.3:       0.5687
+steplength:  0.00000000000000E+00
+converged: yes
+niter:   8
+nfev:  68
+nreg:   6
+AutoOutlier$LS2015.Dec: +0.249090258297124E-01 +0.537245441882697E-02 +0.463643316217303E+01        
+AutoOutlier$LS2021.Sep: +0.200139819543115E-01 +0.527885513260035E-02 +0.379134896707283E+01        
+AutoOutlier$LS2024.Sep: +0.242705109824015E-01 +0.528036295342175E-02 +0.459637172605225E+01        
+AutoOutlier$TC2024.Nov: -0.173908869724707E-01 +0.480953054637662E-02 -0.361592192933935E+01        
+AutoOutlier$TC2025.Nov: -0.374415515214700E-01 +0.488634483074470E-02 -0.766248654533940E+01        
+AutoOutlier$AO2026.Jan: -0.174440867434588E-01 +0.365404381443676E-02 -0.477391285636449E+01        
+nonseasonaldiff:   2
+seasonaldiff:   0
+nmodel:   2
+AR$Seasonal$12$12: +0.17133740730889E+00 +0.89422050957623E-01 +0.19160532047078E+01        
+MA$Nonseasonal$01$01: +0.83800675297971E+00 +0.47837491190703E-01 +0.17517782227312E+02        
+variance$mle:  0.31332931535451E-04
+variance$se:  0.37857832378736E-05
+outlier.ao:  1
+outlier.ls:  3
+outlier.tc:  2
+outlier.so:  0
+outlier.rp:  0
+outlier.tls:  0
+outlier.total:  6
+autoout:  6
+nefobs:    137
+loglikelihood:     515.2443
+aic:     206.1328
+aicc:     207.5501
+bic:     232.4126
+hq:     216.8123
+roots.ar.seasonal.01: +0.583643709629126E+01	+0.000000000000000E+00	+0.583643709629126E+01	+0.000000000000000E+00
+roots.ma.nonseasonal.01: +0.119330780622506E+01	+0.000000000000000E+00	+0.119330780622506E+01	+0.000000000000000E+00
+qlimit:  0.0500
+nlbq:   0
+lblags: 0
+nbpq:   0
+bplags: 0
+acflimit:  1.6000
+nsigacf:   2
+sigacf$14:  0.1579      0.0887    1.7801
+sigacf$15: -0.1538      0.0907   -1.6949
+sigacflags: 14 15 
+nsigpacf:   1
+sigpacf$17: -0.1419      0.0854   -1.6611
+sigpacflags: 17 
+acf2q$12:  10.526      10      0.396
+acf2q$24:  14.277      22      0.891
+skewness:   -0.1236  
+a:    0.7878  
+kurtosis:    2.8661  
+durbinwatson:  0.21450578E+01
+friedman:  0.12860140E+02  11  0.30256485E+00
+spcrsd.tukey.m:    79
+spcrsd.median:    -0.4587653614E+02
+spcrsd.range:     0.1613666928E+02
+spcrsd.t1: nopeak
+spcrsd.t2: nopeak
+spcrsd.t.dom: no
+spcrsd.s1: nopeak
+spcrsd.s2: nopeak
+spcrsd.s3: nopeak
+spcrsd.s4: nopeak
+spcrsd.s5: nopeak
+spcrsd.s.dom: no
+spcrsd.dom: no
+nforctval:   0
+nfinalreg:   1
+finalreg01: Automatically Identified Outliers
+prioradj: none
+d7trendma:   9
+autosf.msr01:   3.79
+sfmsr: 3x5
+d8b.01: 2016- 2026# 
+d8b.02: none
+d8b.03: none
+d8b.04: 2019z 2021* 2024* 2026* 
+d8b.05: 2021* 2024* 2025* 2026z 
+d8b.06: 2016* 2021* 
+d8b.07: none
+d8b.08: 2016z 2021- 2022* 2024- 2025* 
+d8b.09: 2015* 2019* 2021# 2024# 
+d8b.10: 2016z 2017z 2021- 2024- 
+d8b.11: 2015- 2022* 2023z 2024# 2025& 
+d8b.12: 2015# 
+d9a.01:  0.1976451677E+00  0.5648858845E-01  0.3498851240E+01
+d9a.02:  0.3338822698E+00  0.8611517483E-01  0.3877159519E+01
+d9a.03:  0.1809240670E+00  0.6943075766E-01  0.2605820145E+01
+d9a.04:  0.2561709508E+00  0.7336738214E-01  0.3491619073E+01
+d9a.05:  0.3242890416E+00  0.5771869985E-01  0.5618439819E+01
+d9a.06:  0.2236846027E+00  0.6440877194E-01  0.3472890352E+01
+d9a.07:  0.2532211729E+00  0.7903227158E-01  0.3204022456E+01
+d9a.08:  0.2171973836E+00  0.6885961821E-01  0.3154205458E+01
+d9a.09:  0.1890789758E+00  0.8797743521E-01  0.2149175813E+01
+d9a.10:  0.1158683180E+00  0.2563970281E-01  0.4519097543E+01
+d9a.11:  0.1742900420E+00  0.2394770626E-01  0.7277943036E+01
+d9a.12:  0.1538213529E+00  0.1727247884E-01  0.8905574831E+01
+finaltrendma:   9
+d11.f:        0.26359      99.11288
+d11.3y.f:        1.51452      19.04099
+chsd.e5:  0.88835090384403E+00
+chsd.e6:  0.82862650023372E+00
+chsd.e7:  0.61084651331465E+00
+chsd.e8:  0.88835090384403E+00
+f2.a01:  0.55534652E+00  0.52746233E+00  0.28278358E+00  0.44304528E+00  0.18860629E+00  0.14191304E+00  0.00000000E+00  0.63568094E+00  0.52651558E+00  0.49416866E+00  0.22612341E+00
+f2.a02:  0.96638297E+00  0.93435152E+00  0.29400009E+00  0.88593753E+00  0.23200390E+00  0.23331633E+00  0.00000000E+00  0.10846344E+01  0.95438859E+00  0.92167976E+00  0.24238841E+00
+f2.a03:  0.13860700E+01  0.13535001E+01  0.26060688E+00  0.13212231E+01  0.29590968E+00  0.32179072E+00  0.00000000E+00  0.15016880E+01  0.13839381E+01  0.13538626E+01  0.20356378E+00
+f2.a04:  0.18095893E+01  0.17730091E+01  0.25786755E+00  0.17505092E+01  0.32717529E+00  0.37983528E+00  0.00000000E+00  0.18665688E+01  0.18140232E+01  0.17808256E+01  0.19787534E+00
+f2.a05:  0.22271400E+01  0.21928560E+01  0.25111863E+00  0.21727676E+01  0.33353526E+00  0.43306634E+00  0.00000000E+00  0.22354537E+01  0.22315222E+01  0.22006447E+01  0.20048346E+00
+f2.a06:  0.26498771E+01  0.26092178E+01  0.26258317E+00  0.25867332E+01  0.36058764E+00  0.48111495E+00  0.00000000E+00  0.26520992E+01  0.26542541E+01  0.26170658E+01  0.20836910E+00
+f2.a07:  0.30610391E+01  0.30219270E+01  0.26362846E+00  0.30027947E+01  0.31730157E+00  0.50925734E+00  0.00000000E+00  0.30577205E+01  0.30656876E+01  0.30300379E+01  0.20766769E+00
+f2.a08:  0.34663148E+01  0.34285270E+01  0.26160168E+00  0.34167832E+01  0.30509291E+00  0.54235817E+00  0.00000000E+00  0.34504704E+01  0.34711730E+01  0.34369029E+01  0.20214019E+00
+f2.a09:  0.38591385E+01  0.38406181E+01  0.26257849E+00  0.38330999E+01  0.26639637E+00  0.56351809E+00  0.00000000E+00  0.38522312E+01  0.38693537E+01  0.38491757E+01  0.20788216E+00
+f2.a10:  0.42558550E+01  0.42622756E+01  0.29439583E+00  0.42467459E+01  0.20229595E+00  0.60816176E+00  0.00000000E+00  0.42841090E+01  0.42629529E+01  0.42709507E+01  0.23210729E+00
+f2.a11:  0.46629453E+01  0.46656696E+01  0.23567897E+00  0.46530235E+01  0.18375603E+00  0.64827141E+00  0.00000000E+00  0.47045796E+01  0.46679368E+01  0.46743748E+01  0.18108551E+00
+f2.a12:  0.50632338E+01  0.50647326E+01  0.27672357E+00  0.50466263E+01  0.55004945E-01  0.66132852E+00  0.00000000E+00  0.51381332E+01  0.50684651E+01  0.50736927E+01  0.22832130E+00
+f2.b01:    16.87   64.75   11.73    6.64    0.00  100.00  109.35
+f2.b02:     6.17   82.45    5.65    5.72    0.00  100.00  104.51
+f2.b03:     2.09   88.24    4.43    5.23    0.00  100.00  103.28
+f2.b04:     1.17   91.34    3.19    4.30    0.00  100.00  101.95
+f2.b05:     0.79   93.30    2.20    3.71    0.00  100.00  101.61
+f2.b06:     0.61   94.29    1.83    3.26    0.00  100.00  100.72
+f2.b07:     0.46   95.72    1.07    2.75    0.00  100.00  100.23
+f2.b08:     0.34   96.46    0.77    2.43    0.00  100.00  100.44
+f2.b09:     0.29   97.15    0.47    2.10    0.00  100.00  101.02
+f2.b10:     0.29   97.49    0.22    2.00    0.00  100.00  101.80
+f2.b11:     0.15   97.80    0.15    1.90    0.00  100.00  101.60
+f2.b12:     0.20   98.10    0.01    1.68    0.00  100.00  101.06
+f2.c01: -0.93692116E-01  0.67999923E+00 -0.39376440E-03  0.36509374E+00 -0.91079498E-01  0.48817779E+00 -0.24087079E-02  0.23205290E+00 -0.91375409E-01  0.62502161E+00 -0.41376871E-01  0.82759279E+00
+f2.c02: -0.18715055E+00  0.11275596E+01  0.26521264E-03  0.38723042E+00 -0.18179451E+00  0.97209548E+00 -0.61032635E-02  0.28828731E+00 -0.18122265E+00  0.10747822E+01 -0.81658046E-01  0.12921432E+01
+f2.c03: -0.28203772E+00  0.15854107E+01 -0.53552485E-02  0.35877253E+00 -0.27246173E+00  0.14476745E+01 -0.50018135E-02  0.37343124E+00 -0.27736805E+00  0.15195803E+01 -0.12842689E+00  0.17545531E+01
+f2.c04: -0.36506646E+00  0.20331186E+01 -0.23149970E-02  0.35488190E+00 -0.36361745E+00  0.19142199E+01  0.49084393E-04  0.42692563E+00 -0.36544508E+00  0.19705850E+01 -0.16834467E+00  0.21949641E+01
+f2.c05: -0.45421124E+00  0.24732577E+01 -0.30533341E-02  0.34027805E+00 -0.45628672E+00  0.23731840E+01  0.43139524E-02  0.44861131E+00 -0.45894394E+00  0.24130970E+01 -0.21502040E+00  0.26345185E+01
+f2.c06: -0.54369252E+00  0.29187436E+01 -0.25647910E-02  0.34768348E+00 -0.55127950E+00  0.28267889E+01  0.93041994E-02  0.47337782E+00 -0.55350272E+00  0.28594679E+01 -0.26513543E+00  0.30752679E+01
+f2.c07: -0.64168034E+00  0.33556849E+01 -0.36870084E-02  0.35060226E+00 -0.64827058E+00  0.32769904E+01  0.92795014E-02  0.43011844E+00 -0.65158247E+00  0.33059054E+01 -0.33591617E+00  0.35066939E+01
+f2.c08: -0.73885394E+00  0.37912086E+01 -0.39834090E-02  0.34696160E+00 -0.74632937E+00  0.37242515E+01  0.10429112E-01  0.40076849E+00 -0.74994943E+00  0.37485751E+01 -0.39955069E+00  0.39336347E+01
+f2.c09: -0.84052962E+00  0.42245602E+01 -0.43734871E-02  0.35476865E+00 -0.84462097E+00  0.41670242E+01  0.73156709E-02  0.34135321E+00 -0.84853842E+00  0.41912903E+01 -0.47182486E+00  0.43580855E+01
+f2.c10: -0.93781464E+00  0.46513036E+01 -0.25733605E-02  0.37892177E+00 -0.94314686E+00  0.46027255E+01  0.67764749E-02  0.25661806E+00 -0.94520020E+00  0.46283616E+01 -0.51119223E+00  0.48208043E+01
+f2.c11: -0.10404133E+01  0.50601738E+01 -0.34562108E-02  0.32334552E+00 -0.10424231E+01  0.50295660E+01  0.47124315E-02  0.21981533E+00 -0.10454626E+01  0.50469686E+01 -0.55373298E+00  0.52579767E+01
+f2.c12: -0.11481563E+01  0.54605989E+01 -0.47791669E-02  0.36279085E+00 -0.11432637E+01  0.54466364E+01 -0.31043070E-03  0.68034850E-01 -0.11478591E+01  0.54599980E+01 -0.61722496E+00  0.56877954E+01
+f2.d:    3.29    1.55   17.25    3.00
+f2.e:    0.64    0.33    0.20    0.15    0.12    0.10    0.09    0.08    0.07    0.07    0.05    0.05
+f2.mcd:       1
+f2.f:    0.04   87.96    0.07    3.30    0.00   91.36
+f2.g:   -0.10   -0.23   -0.07   -0.05    0.05    0.01   -0.00    0.02   -0.02   -0.16    0.17   -0.05   -0.05    0.22
+f2.ic:        0.50
+f2.is:        3.69
+f2.fsb1:      0.799   64.04
+f2.fsd8:      2.007    3.28
+f2.kw:     16.952   10.93
+f2.msf:      2.798    0.40
+f2.idseasonal: no 
+f3.m01:  0.221
+f3.m02:  0.004
+f3.m03:  0.000
+f3.m04:  0.262
+f3.m05:  0.000
+f3.m06:  0.126
+f3.m07:  1.958
+f3.m08:  2.173
+f3.m09:  1.808
+f3.m10:  2.913
+f3.m11:  2.805
+f3.q:  0.92
+f3.qm2:  1.03
+f3.fail:  5
+qslog: yes
+qsori:        17.30351    0.00017
+qsorievadj:         5.80674    0.05484
+qsrsd:         0.75223    0.68652
+qssadj:         4.42703    0.10932
+qssadjevadj:         0.00000    1.00000
+qsirr:         0.00000    1.00000
+qsirrevadj:         0.00000    1.00000
+qssori:        18.83492    0.00008
+qssorievadj:        10.53852    0.00515
+qssrsd:         1.17376    0.55606
+qsssadj:         8.96171    0.01132
+qsssadjevadj:         0.00000    1.00000
+qssirr:         0.59038    0.74439
+qssirrevadj:         0.00000    1.00000
+diffspec: yes
+diffspecorder:    1
+diffspecstart: no
+spcori.tukey.m:    79
+spcsa.tukey.m:    79
+spcirr.tukey.m:    79
+spcsa.median:    -0.4276445819E+02
+spcsa.range:     0.2002212625E+02
+spcsa.t1:    7.7 +
+spcsa.t2: nopeak
+spcsa.t.dom: t1
+spcsa.s1: nopeak
+spcsa.s2:    1.3 +
+spcsa.s3: nopeak
+spcsa.s4: nopeak
+spcsa.s5: nopeak
+spcsa.s.dom: s2
+spcsa.dom: no
+spcirr.median:    -0.5417985740E+02
+spcirr.range:     0.1872583069E+02
+spcirr.t1: nopeak
+spcirr.t2:   19.7 +
+spcirr.t.dom: t2
+spcirr.s1: nopeak
+spcirr.s2: nopeak
+spcirr.s3: nopeak
+spcirr.s4:    0.1 +
+spcirr.s5: nopeak
+spcirr.s.dom: s4
+spcirr.dom: no
+spcori.median:    -0.4647789407E+02
+spcori.range:     0.2044999160E+02
+spcori.t1: nopeak
+spcori.t2: nopeak
+spcori.t.dom: no
+spcori.s1: nopeak
+spcori.s2: nopeak
+spcori.s3: nopeak
+spcori.s4: nopeak
+spcori.s5: nopeak
+spcori.s.dom: no
+spcori.dom: no
+spcrsd.tukey.s1:    0.9318
+spcrsd.tukey.s2:    0.0379
+spcrsd.tukey.s3:    0.5850
+spcrsd.tukey.s4:    0.0991
+spcrsd.tukey.s5:    0.3753
+spcrsd.tukey.s6:    0.8966
+spcrsd.tukey.td:    0.3348
+spcori.tukey.s1:    0.8220
+spcori.tukey.s2:    0.2784
+spcori.tukey.s3:    0.3427
+spcori.tukey.s4:    0.3876
+spcori.tukey.s5:    0.9076
+spcori.tukey.s6:    0.9172
+spcori.tukey.td:    0.9164
+spcsa.tukey.s1:    0.2535
+spcsa.tukey.s2:    0.8176
+spcsa.tukey.s3:    0.5409
+spcsa.tukey.s4:    0.8761
+spcsa.tukey.s5:    0.8456
+spcsa.tukey.s6:    0.6611
+spcsa.tukey.td:    0.9658
+spcirr.tukey.s1:    0.1967
+spcirr.tukey.s2:    0.2873
+spcirr.tukey.s3:    0.0156
+spcirr.tukey.s4:    0.5548
+spcirr.tukey.s5:    0.1234
+spcirr.tukey.s6:    0.5523
+spcirr.tukey.td:    0.9540
+nplog: yes
+npsadj: no
+npsadjevadj: no
+npssadj: no
+npssadjevadj: no
+peaks.seas: none
+peaks.td: sa irr
+peaks.tukey.seas: none
+peaks.tukey.td: none
+peaks.tukey.p90.seas: rsd ori
+peaks.tukey.p90.td: ori sa irr
+history: no
+sspans: no
+historysa: no

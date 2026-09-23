@@ -1,0 +1,27 @@
+signal: 236 months A / 236 months B, 2007-01..2026-08; weeks unrecorded pub date: 9085 of 9913 rows
+harness: incumbent vs backtest food_pred max|diff| A 2.22e-16  B 2.22e-16
+
+FOOD BLOCK RMSE (MAE) vs realised food m/m
+split              n |  A incumbent    A +szif      d% |  B incumbent    B +szif      d%
+all 90            90 |  0.913 (0.678)  0.924 (0.689)   +1.2% |  0.913 (0.678)  0.923 (0.687)   +1.1%
+ex-January        83 |  0.782 (0.598)  0.784 (0.603)   +0.2% |  0.782 (0.598)  0.785 (0.603)   +0.4%
+2024+             31 |  0.780 (0.617)  0.795 (0.630)   +1.9% |  0.780 (0.617)  0.793 (0.629)   +1.6%
+2024+ ex-Jan      28 |  0.682 (0.567)  0.687 (0.574)   +0.7% |  0.682 (0.567)  0.685 (0.572)   +0.4%
+2025+ flash era   19 |  0.567 (0.464)  0.567 (0.469)   -0.0% |  0.567 (0.464)  0.565 (0.468)   -0.3%
+
+HEADLINE RMSE vs first release (recombined with the origin's food weight)
+split              n |  A STRUCT   A +szif      d% |  B STRUCT   B +szif      d% | survey
+all 90            90 |    0.7341    0.7366   +0.3% |    0.7325    0.7336   +0.1% | 0.3817
+ex-January        83 |    0.4058    0.4012   -1.1% |    0.4051    0.4016   -0.9% | 0.3793
+2024+             31 |    0.2076    0.2068   -0.4% |    0.2076    0.2066   -0.5% | 0.2322
+2024+ ex-Jan      28 |    0.1893    0.1901   +0.4% |    0.1898    0.1902   +0.2% | 0.2208
+2025+ flash era   19 |    0.1707    0.1695   -0.7% |    0.1694    0.1675   -1.1% | 0.1913
+BASE_RIDGE B   big-surprise MAE 0.726 (n=19), material W-L@0.15 8-13
++szif B        big-surprise MAE 0.723 (n=19), material W-L@0.15 11-14
+
+DIAGNOSTICS (not used for adoption)
+corr(szif_A, food actual) +0.048; corr(szif_B, food actual) +0.062; corr(szif_A, incumbent error A) -0.034
+weeks used at A: mean 3.43 of 4.34; at B: 4.26
+mean |aug-inc| A 0.076 pp, B 0.068 pp
+
+ADOPTION RULE: clock-B block >=5% on all and 2024+ with headline not worse: False; clock-A block not worse: False -> RECORD AND CLOSE

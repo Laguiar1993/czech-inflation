@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 12 Sep 2026 12:16:04 GMT
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Content-Length: 161292
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Last-Modified: Fri, 04 Sep 2026 07:11:21 GMT
+Content-Disposition: attachment; filename="bvzcr090726_06.xlsx"
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: Sat, 12 Sep 2026 12:16:03 GMT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: false
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: microphone=(), payment=(), sync-xhr=(self), geolocation=(self)
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self' https://scitani.gov.cz https://csu.gov.cz *.csu.gov.cz https://chatbot-cdn.scitani.cz https://www.czso.cz https://vdb.czso.cz https://data.statistika.cz https://www.youtube.com *.googleapis.com *.gstatic.com https://maps.google.cz https://www.google.com https://europa.eu https://ec.europa.eu https://ota.czso.gov.cz https://lag-angujs-vm05.ab.czso.cz; connect-src 'self' https://scitani.gov.cz https://csu.gov.cz *.csu.gov.cz https://chatbot-cdn.scitani.cz https://www.czso.cz https://apl.czso.cz https://vdb.czso.cz https://data.statistika.cz https://api.mapy.cz *.googleapis.com *.gstatic.com https://maps.google.cz https://www.google.com https://europa.eu https://ec.europa.eu https://ota.czso.gov.cz; img-src 'self' data: https://scitani.gov.cz https://csu.gov.cz *.csu.gov.cz https://apl.czso.cz https://chatbot-cdn.scitani.cz https://www.youtube.com https://api.mapy.cz *.googleapis.com *.gstatic.com https://maps.google.cz https://www.google.com https://europa.eu https://ec.europa.eu https://ota.czso.gov.cz; frame-src 'self' formapps: https://www.youtube.com https://export.highcharts.com https://apl.czso.cz *.googleapis.com *.gstatic.com https://vdb.czso.cz https://lag-angujs-vm05.ab.czso.cz;  child-src 'self' *.googleapis.com *.gstatic.com https://maps.google.cz https://www.google.com https://europa.eu https://ec.europa.eu https://ota.czso.gov.cz; worker-src 'self' *.googleapis.com *.gstatic.com https://maps.google.cz https://www.google.com https://europa.eu https://ec.europa.eu https://ota.czso.gov.cz; script-src 'self' 'unsafe-inline' 'unsafe-eval' data: https://d3js.org http://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://scitani.gov.cz https://csu.gov.cz *.csu.gov.cz https://chatbot-cdn.scitani.cz https://www.czso.cz https://apl.czso.cz https://vdb.czso.cz https://data.statistika.cz https://www.youtube.com https://api.mapy.cz *.googleapis.com *.gstatic.com https://maps.google.cz https://www.google.com https://europa.eu https://ec.europa.eu https://ota.czso.gov.cz; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://chatbot-cdn.scitani.cz https://apl.czso.cz https://api.mapy.cz *.googleapis.com *.gstatic.com https://maps.google.cz https://www.google.com https://europa.eu https://ec.europa.eu https://ota.czso.gov.cz;  font-src 'self' https://stackpath.bootstrapcdn.com https://api.mapy.cz *.googleapis.com *.gstatic.com https://maps.google.cz https://www.google.com https://europa.eu https://ec.europa.eu https://ota.czso.gov.cz;  frame-ancestors 'self' *.googleapis.com *.gstatic.com https://maps.google.cz https://www.google.com https://europa.eu https://ec.europa.eu https://ota.czso.gov.cz; form-action 'self' https://export.highcharts.com *.googleapis.com *.gstatic.com https://maps.google.cz https://www.google.com https://europa.eu https://ec.europa.eu https://ota.czso.gov.cz;  object-src 'none';
+xkey: purgeable
+X-Cache-time: 60.000
+Age: 0
+Accept-Ranges: bytes
+X-Cache-Action: MISS
+Via: pdi-cache
+Connection: keep-alive
+Strict-Transport-Security: max-age=157680000
+

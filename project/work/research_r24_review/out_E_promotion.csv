@@ -1,0 +1,5 @@
+model,c1_food_h12,c2_food_h3_h6,c3_headline_h12,c4_bias_2024,all_four,food_h12_full,food_h12_2024,food_h3_pct,food_h6_pct,yy_h12_full,yy_h12_2024,bias_2024
+FOOD_ZERO_DRIFT_R24,False,False,False,False,False,8.497 vs 7.842,4.217 vs 4.129,8.52,7.54,5.0051 vs 4.8695,0.7085 vs 0.8580,-2.501 vs +2.305
+FOOD_ROBUST_WINDOW_R24,True,True,True,True,True,7.400 vs 7.842,3.063 vs 4.129,-0.97,-2.65,4.7962 vs 4.8695,0.6608 vs 0.8580,+0.746 vs +2.305
+FOOD_NORM_SHIFT_R24,True,True,True,True,True,7.357 vs 7.842,3.373 vs 4.129,-2.01,-3.94,4.8008 vs 4.8695,0.6646 vs 0.8580,+0.187 vs +2.305
+FOOD_NORM_REFIT_R24,True,True,True,True,True,7.380 vs 7.842,3.412 vs 4.129,-1.88,-3.66,4.8032 vs 4.8695,0.6712 vs 0.8580,+0.235 vs +2.305

@@ -1,0 +1,61 @@
+##### F mutation check of the test suite
+[PASS] unmutated modules: every test function passes when called directly :: {'r23b': [], 'diag': []}
+[KILLED  ] cost_pressure_r23b     ULC compares with the previous three quarters, not the same quarter of three years  <- test_same_quarter_gap_is_seasonally_neutral_where_the_r23_gap_is_not (AssertionError)
+[SURVIVED] cost_pressure_r23b     ULC uses the mean of the three earlier quarters, not the median
+[SURVIVED] cost_pressure_r23b     ULC reference quarter may be the unfinished current quarter
+[KILLED  ] cost_pressure_r23b     momentum window of seven months  <- test_momentum_needs_exactly_its_six_published_changes (AssertionError)
+[KILLED  ] cost_pressure_r23b     import momentum ignores the publication mask  <- test_momentum_needs_exactly_its_six_published_changes (AssertionError)
+[KILLED  ] cost_pressure_r23b     core change not subtracted from momentum  <- test_momentum_needs_exactly_its_six_published_changes (AssertionError)
+[KILLED  ] cost_pressure_r23b     ULC read without its publication mask  <- test_momentum_needs_exactly_its_six_published_changes (ValueError) (+1)
+[KILLED  ] cost_pressure_r23b     PPI read without its publication mask  <- test_momentum_needs_exactly_its_six_published_changes (AssertionError) (+1)
+[SURVIVED] cost_pressure_r23b     label maturity off by one month (s+3b <= t)
+[SURVIVED] cost_pressure_r23b     label release date not checked
+[KILLED  ] cost_pressure_r23b     BOTH label-maturity rules removed (month and release)  <- test_band_specific_maturity_for_outer_rows_and_inner_folds (AssertionError) (+1)
+[KILLED  ] cost_pressure_r23b     inner folds built with the OUTER origin and clock (full label look-ahead inside validation)  <- test_band_specific_maturity_for_outer_rows_and_inner_folds (AssertionError)
+[KILLED  ] run                    band-2 label needs only its own three releases, not all six  <- test_targets_are_band_means_of_log_errors_and_mature_with_their_own_last_release (AssertionError)
+[KILLED  ] run                    label is the band SUM, not the band mean  <- test_targets_are_band_means_of_log_errors_and_mature_with_their_own_last_release (AssertionError)
+[KILLED  ] cost_pressure_r23b     band-2 maturity applied to band 1 too (R23-style single rule)  <- test_band_specific_maturity_for_outer_rows_and_inner_folds (AssertionError)
+[KILLED  ] cost_pressure_r23b     cap of 40 training rows removed  <- test_band_specific_maturity_for_outer_rows_and_inner_folds (AssertionError)
+[SURVIVED] cost_pressure_r23b     earliest eight folds instead of the latest eight
+[KILLED  ] cost_pressure_r23b     ties go to applying a correction (<=)  <- test_do_no_harm_rule_applies_a_correction_only_when_validation_beats_none (AssertionError)
+[SURVIVED] cost_pressure_r23b     ties among penalties favour the weaker one
+[SURVIVED] cost_pressure_r23b     do-no-harm ignored when the path is built
+[KILLED  ] cost_pressure_r23b     predictors centred before scaling (an implicit intercept-free demeaning)  <- test_zero_pressure_gives_zero_correction_and_there_is_no_intercept (AssertionError)
+[SURVIVED] cost_pressure_r23b     standard-deviation scaling instead of RMS
+[SURVIVED] cost_pressure_r23b     ridge penalty not scaled by n (sum of squares objective)
+[SURVIVED] cost_pressure_r23b     inner folds need only 4 rows
+[SURVIVED] cost_pressure_r23b     inner folds scored at the OUTER clock (label look-ahead inside validation)
+[SURVIVED] cost_pressure_r23b     fewer than four folds still selects
+[KILLED  ] cost_pressure_r23b     far bands receive the band-2 correction  <- test_run_origin_reports_fallbacks_and_builds_every_candidate (AssertionError)
+[KILLED  ] bootstrap              non-circular blocks (clipped at the end)  <- test_circular_bootstrap_weights_every_origin_equally_and_contains_its_mean (AssertionError)
+[KILLED  ] bootstrap              block rule 12 from 24 observations  <- test_block_length_rule_and_no_interval_for_short_panels (AssertionError)
+[SURVIVED] attribution            h0 contribution NOT dropped at h12
+[SURVIVED] attribution            months before the origin skipped instead of counted as zero
+[SURVIVED] attribution            dominant block ignores the direction of the error
+[SURVIVED] benchmarks             seasonal naive may use the origin month itself
+[SURVIVED] benchmarks             seasonal naive ignores publication dates
+[SURVIVED] lead_baselines         base rates treat the origin month as known history
+[KILLED  ] lead_baselines         random walk carries the origin-month rate (unknown at the clock)  <- test_lead_baselines_use_known_history_only_and_previous_reports (AssertionError)
+[SURVIVED] gates                  needed-vs-applied correlation on active rows only
+[PASS] modules restored: the unmutated tests pass again :: {'r23b': [], 'diag': []}
+[FAIL] every one of the 37 behaviour-changing mutants is caught by some test :: 19 survive
+   untested behaviour: ULC uses the mean of the three earlier quarters, not the median
+   untested behaviour: ULC reference quarter may be the unfinished current quarter
+   untested behaviour: label maturity off by one month (s+3b <= t)
+   untested behaviour: label release date not checked
+   untested behaviour: earliest eight folds instead of the latest eight
+   untested behaviour: ties among penalties favour the weaker one
+   untested behaviour: do-no-harm ignored when the path is built
+   untested behaviour: standard-deviation scaling instead of RMS
+   untested behaviour: ridge penalty not scaled by n (sum of squares objective)
+   untested behaviour: inner folds need only 4 rows
+   untested behaviour: inner folds scored at the OUTER clock (label look-ahead inside validation)
+   untested behaviour: fewer than four folds still selects
+   untested behaviour: h0 contribution NOT dropped at h12
+   untested behaviour: months before the origin skipped instead of counted as zero
+   untested behaviour: dominant block ignores the direction of the error
+   untested behaviour: seasonal naive may use the origin month itself
+   untested behaviour: seasonal naive ignores publication dates
+   untested behaviour: base rates treat the origin month as known history
+   untested behaviour: needed-vs-applied correlation on active rows only
+##### F mutation check of the test suite: 2 passed, 1 failed, 0 notes

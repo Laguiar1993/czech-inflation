@@ -1,0 +1,16 @@
+series,value,observation_date,available_from_assumed,asof_date,age_days,max_age_days,is_stale,availability_status,availability_basis,availability_timezone
+FSBTY1 Index,82.54,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+TTFGCY1 Index,56.138,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+CO1 Comdty,97.92,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+USDCZK Curncy,20.8119,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+EURCZK Curncy,24.192,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+CO7 Comdty,83.25,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+CO13 Comdty,77.94,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+PRIB03M Index,3.87,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+CKFR0CF Curncy,4.083,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+CKFR0FI Curncy,4.403,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+CKFR0I1 Curncy,4.508,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+CKFR011C Curncy,4.603,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+CKFR1C1F Curncy,4.63,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+CKFR1F1I Curncy,4.645,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague
+CKFR1I2 Curncy,4.668,2026-09-08,2026-09-09,2026-09-09,1,7,False,available,assumed_not_documented_vintage,Europe/Prague

@@ -1,0 +1,54 @@
+{
+  "verified_hash_counts": {
+    "output/current_path_r34/final": 185,
+    "output/inflation_dashboard_r34": 85,
+    "output/inflation_dashboard_r33": 96,
+    "output/inflation_dashboard_r32": 23,
+    "output/current_path_r34_inputs/bloomberg_capture_20260922": 11,
+    "output/current_path_r34_inputs/farm_capture_20260922": 2,
+    "output/current_path_r34_inputs/prepared_20260922_v1": 7,
+    "output/current_path_r34_inputs/prepared_20260922_v2": 7,
+    "output/forecast_updates_r33/FINAL_DELIVERY_MANIFEST.json": 163
+  },
+  "rows": 39,
+  "canonical_record": {
+    "mode": "prospective",
+    "origin": "2026-09",
+    "as_of": "2026-09-22T19:23:51.218335+00:00",
+    "completed_at": "2026-09-22T19:23:52.422624+00:00",
+    "h0": -0.2042311894134946,
+    "h0_as_of": "2026-09-22T17:50:01.527361+00:00"
+  },
+  "historical_replay_unchanged": true,
+  "july_archive_unchanged": true,
+  "scenario_js_python_error": 0.0,
+  "august_to_december": {
+    "start_yy": 1.8867924528301439,
+    "end_yy": 2.9377829889453864,
+    "old_month_removal_pp": 0.7161133353988651,
+    "new_months_pp": 0.3348772007163774
+  },
+  "unit_tests_passed": 70,
+  "browser_verification": {
+    "status": "passed",
+    "page_errors": [],
+    "desktop": "1440x1100",
+    "mobile": "390x844",
+    "offline": true,
+    "controls": [
+      "forecast vintage",
+      "current CNB quarter",
+      "historical report and cutoff",
+      "model visibility",
+      "component charts",
+      "historical error sample",
+      "scenarios and reset",
+      "source panel",
+      "dated briefing"
+    ]
+  },
+  "independent_review": {
+    "runner": "Four findings resolved; 10 regression probes pass; see tools/current_path_r34/RUN_REVIEW.md",
+    "dashboard": "Independent bounded review found no remaining material issues in aggregation, error units, seasonal interpretation, base effects or scenarios."
+  }
+}

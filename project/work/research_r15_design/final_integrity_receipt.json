@@ -1,0 +1,12 @@
+{
+  "model_input_hashes": 26,
+  "model_output_hashes": 12,
+  "evaluation_input_hashes": 12,
+  "evaluation_output_hashes": 33,
+  "artifact_behavior_hash_matches": true,
+  "result_doc_links_exist": true,
+  "models": 14,
+  "origins": 90,
+  "horizons": "h0..12",
+  "report_sha256": "28f28b7ead5429034b16cc2bac7e7e80befeb4615f4fed7d84b469ca89e0550c"
+}

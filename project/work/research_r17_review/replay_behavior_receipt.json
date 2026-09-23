@@ -1,0 +1,18 @@
+{
+  "artifact": "output/research_r17/path/evaluation/cnb_rounds_replayed_r17.html",
+  "sha256": "0d39d0fdab01c7f250f71d9a0aee9d423ee7112f0f4ce08d7244a1d4e7dc6425",
+  "report_rounds": 19,
+  "cutoff_rounds": 19,
+  "checks": [
+    "all rounds both clocks",
+    "individual round selection",
+    "all models",
+    "checkbox off/on",
+    "reset",
+    "tooltip enter/leave",
+    "finite SVG geometry",
+    "score restore",
+    "no external resources"
+  ],
+  "limitation": "DOM-contract and SVG string checks; not browser layout or visual pixel inspection"
+}

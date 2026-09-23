@@ -1,0 +1,1028 @@
+[
+  {
+    "origin": "2016-02",
+    "as_of": "2016-03-08T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2016-02",
+    "as_of": "2016-03-08T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-02",
+    "as_of": "2016-03-08T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-03",
+    "as_of": "2016-04-10T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2016-03",
+    "as_of": "2016-04-10T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-03",
+    "as_of": "2016-04-10T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-04",
+    "as_of": "2016-05-09T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2016-04",
+    "as_of": "2016-05-09T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-04",
+    "as_of": "2016-05-09T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-05",
+    "as_of": "2016-06-08T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2016-05",
+    "as_of": "2016-06-08T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-05",
+    "as_of": "2016-06-08T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-06",
+    "as_of": "2016-07-11T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2016-06",
+    "as_of": "2016-07-11T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-06",
+    "as_of": "2016-07-11T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-07",
+    "as_of": "2016-08-08T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2016-07",
+    "as_of": "2016-08-08T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-07",
+    "as_of": "2016-08-08T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-08",
+    "as_of": "2016-09-08T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2016-08",
+    "as_of": "2016-09-08T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-08",
+    "as_of": "2016-09-08T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-09",
+    "as_of": "2016-10-09T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2016-09",
+    "as_of": "2016-10-09T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-09",
+    "as_of": "2016-10-09T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-10",
+    "as_of": "2016-11-08T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2016-10",
+    "as_of": "2016-11-08T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-10",
+    "as_of": "2016-11-08T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-11",
+    "as_of": "2016-12-08T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2016-11",
+    "as_of": "2016-12-08T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-11",
+    "as_of": "2016-12-08T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-12",
+    "as_of": "2017-01-09T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2016-12",
+    "as_of": "2017-01-09T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2016-12",
+    "as_of": "2017-01-09T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-01",
+    "as_of": "2017-02-09T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-01",
+    "as_of": "2017-02-09T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-01",
+    "as_of": "2017-02-09T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-02",
+    "as_of": "2017-03-08T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-02",
+    "as_of": "2017-03-08T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-02",
+    "as_of": "2017-03-08T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-03",
+    "as_of": "2017-04-09T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-03",
+    "as_of": "2017-04-09T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-03",
+    "as_of": "2017-04-09T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-04",
+    "as_of": "2017-05-09T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-04",
+    "as_of": "2017-05-09T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-04",
+    "as_of": "2017-05-09T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-05",
+    "as_of": "2017-06-08T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-05",
+    "as_of": "2017-06-08T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-05",
+    "as_of": "2017-06-08T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-06",
+    "as_of": "2017-07-11T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-06",
+    "as_of": "2017-07-11T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-06",
+    "as_of": "2017-07-11T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-07",
+    "as_of": "2017-08-08T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-07",
+    "as_of": "2017-08-08T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-07",
+    "as_of": "2017-08-08T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-08",
+    "as_of": "2017-09-10T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-08",
+    "as_of": "2017-09-10T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-08",
+    "as_of": "2017-09-10T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-09",
+    "as_of": "2017-10-08T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-09",
+    "as_of": "2017-10-08T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-09",
+    "as_of": "2017-10-08T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-10",
+    "as_of": "2017-11-08T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-10",
+    "as_of": "2017-11-08T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-10",
+    "as_of": "2017-11-08T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-11",
+    "as_of": "2017-12-10T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-11",
+    "as_of": "2017-12-10T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-11",
+    "as_of": "2017-12-10T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-12",
+    "as_of": "2018-01-09T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2017-12",
+    "as_of": "2018-01-09T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2017-12",
+    "as_of": "2018-01-09T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-01",
+    "as_of": "2018-02-13T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-01",
+    "as_of": "2018-02-13T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-01",
+    "as_of": "2018-02-13T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-02",
+    "as_of": "2018-03-08T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-02",
+    "as_of": "2018-03-08T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-02",
+    "as_of": "2018-03-08T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-03",
+    "as_of": "2018-04-09T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-03",
+    "as_of": "2018-04-09T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-03",
+    "as_of": "2018-04-09T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-04",
+    "as_of": "2018-05-09T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-04",
+    "as_of": "2018-05-09T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-04",
+    "as_of": "2018-05-09T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-05",
+    "as_of": "2018-06-10T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-05",
+    "as_of": "2018-06-10T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-05",
+    "as_of": "2018-06-10T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-06",
+    "as_of": "2018-07-10T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-06",
+    "as_of": "2018-07-10T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-06",
+    "as_of": "2018-07-10T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-07",
+    "as_of": "2018-08-08T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-07",
+    "as_of": "2018-08-08T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-07",
+    "as_of": "2018-08-08T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-08",
+    "as_of": "2018-09-09T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-08",
+    "as_of": "2018-09-09T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-08",
+    "as_of": "2018-09-09T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-09",
+    "as_of": "2018-10-08T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-09",
+    "as_of": "2018-10-08T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-09",
+    "as_of": "2018-10-08T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-10",
+    "as_of": "2018-11-08T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-10",
+    "as_of": "2018-11-08T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-10",
+    "as_of": "2018-11-08T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-11",
+    "as_of": "2018-12-09T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-11",
+    "as_of": "2018-12-09T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-11",
+    "as_of": "2018-12-09T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-12",
+    "as_of": "2019-01-09T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2018-12",
+    "as_of": "2019-01-09T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2018-12",
+    "as_of": "2019-01-09T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2019-01",
+    "as_of": "2019-02-12T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2019-01",
+    "as_of": "2019-02-12T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2019-01",
+    "as_of": "2019-02-12T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2019-02",
+    "as_of": "2019-03-10T23:59:00+01:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2019-02",
+    "as_of": "2019-03-10T23:59:00+01:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2019-02",
+    "as_of": "2019-03-10T23:59:00+01:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2019-03",
+    "as_of": "2019-04-09T23:59:00+02:00",
+    "family": "own",
+    "penalty": 0.1,
+    "status": "fixed_own_penalty"
+  },
+  {
+    "origin": "2019-03",
+    "as_of": "2019-04-09T23:59:00+02:00",
+    "family": "symmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  },
+  {
+    "origin": "2019-03",
+    "as_of": "2019-04-09T23:59:00+02:00",
+    "family": "asymmetric",
+    "penalty": 1.0,
+    "status": "default_insufficient_mature_validation",
+    "validation_origins": [],
+    "n_validation": 0,
+    "mean_path_losses": {}
+  }
+]

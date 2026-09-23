@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-12T09:08:42.983843+00:00",
+  "input_folder": "data\\paper_replication\\raw_bcs\\nace2_ecfin_2608",
+  "geos": [
+    "CZ",
+    "DE",
+    "PL",
+    "EA",
+    "EU"
+  ],
+  "input_archives": {
+    "building_total_nsa_nace2.zip": "344b396e108492020facfd8095314234be9884e9bc2d8d9c45e18a33af537a59",
+    "building_total_sa_nace2.zip": "b5457d2b426e085e0d27527fd1d9a33e594e0a6cf0a5280266933bcfd6a92408",
+    "consumer_inflation_nace2.zip": "f2377ce8575bdfe24a7def0b9bb934cf26d9030239d0179b6288820871f98fe2",
+    "consumer_total_nsa_nace2.zip": "7630b504431005f81e88cc475a78805233af81c766d91ff2c187fb51203d33d6",
+    "consumer_total_sa_nace2.zip": "80ad283b87fa9108c7fe757d16669390714beb39b43e41483b945799487e0551",
+    "industry_total_nsa_nace2.zip": "53883d04a384eaa8858ad40508f792a3fc4776197740fe88bf7da2818900761b",
+    "industry_total_sa_nace2.zip": "445d43c4701ca2f37a362a68b45d6a0685de5f54e4f032ef1e7f8d7deefb2a7b",
+    "main_indicators_sa_nace2.zip": "f875bfb15bec95d725ebac96d300764b57734d098e1875511f10d52ca8f2cb53",
+    "retail_total_nsa_nace2.zip": "45781efc7334ffeaaa1aa45e76fe8ebd5f011c1c0f7564b96f926fde759cc7f0",
+    "retail_total_sa_nace2.zip": "8414ecdf2d4f2e31f5e727c6654d810d40fe84d1704c73fbae924cb0d71574a8",
+    "services_total_nsa_nace2.zip": "9b0f933625c710dc3ff38899530feeb3bcef31b6442d71661855a93fe91c0f3a",
+    "services_total_sa_nace2.zip": "8fe5bc822925c4af507c67bd2886215e44149b0162b734b1b3890e1e83a243c9"
+  },
+  "outputs": {
+    "long": {
+      "file": "ecfin_bcs_long.csv",
+      "sha256": "8f6a0cde9497f36009cf3618d370e2efb5ae64e131d3ef4993ef0ee90fcf285a"
+    },
+    "catalog": {
+      "file": "ecfin_question_catalog.csv",
+      "sha256": "1529d7b5358462b9d2f0f02d2f5fd6173b7fe46ce0e0c7048133f5dd99cbb7d7"
+    },
+    "notes": {
+      "file": "ecfin_revision_notes.csv",
+      "sha256": "9ccaaca49c4eac82b14e7cca4270ac3c5cd0bfd9bbbb9949e8c56e3ca526f7e9"
+    }
+  },
+  "rows": 226197,
+  "series": 685,
+  "module_sha256": "783679bf9e51db347737378e585313c2689060900880647f4f7efc56188531d6"
+}

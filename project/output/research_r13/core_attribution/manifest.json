@@ -1,0 +1,17 @@
+{
+  "inputs": {
+    "tools/r13_review/attribute_core_path.py": "7d4d1f25fabc06a8fc5bb0fbd1532daf27b5ebf6dde98feb69208d4b06be387d",
+    "evaluation/core_path_attribution_r13.py": "0a1d04eb6b4ee98b4823f2830f81df40b5adcc5de57152d391ca3b7530eecf8b",
+    "models/path_inputs.py": "7a649deac6f702981e7a680493513c8baf6750caf6eb11e5fc71314ea99e778e",
+    "output/research_r13/core_path/native_forecasts.csv": "5339da8d0529e0aee2c180f13e7728f8385bf9ff1a82dffee01a6a7012974204",
+    "output/research_r13/core_path/forecasts.csv": "1c8421b45352e9c1e4781a28ecdf46ab2103f42a39282c2514eae71e457821b6",
+    "output/independent_bridge_forecasts.csv": "b1377d1c45373b7571a47edd3c373a6b149cae49e9efbd37853566ded00a88d8",
+    "output/independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+    "tests/fixtures/cleanup/cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28"
+  },
+  "outputs": {
+    "rows.csv": "ee911529d56ea66f6da62438b5faa4c1ca27e0efce23ccb55db449a41a9af7f6",
+    "summary.csv": "0a2dd777703bff6c7cdb17b0be1dea16f8d314dea62ed84bf43b2c6e4948f81d"
+  },
+  "status": "post-fit descriptive diagnostic; perfect future core is evaluation-only"
+}

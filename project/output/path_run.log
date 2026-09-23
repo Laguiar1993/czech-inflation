@@ -1,0 +1,45 @@
+FMIE columns: ['survey_date', 'target', 'horizon_kind', 'horizon_value', 'metric', 'value_pct', 'n_respondents', 'source', 'source_kind', 'fetched_at']
+
+year-on-year in log points x100 (close to pp); origins 2019-02..2026-07, release-eve clock
+ h   n |   model nowcast+naive   naive  RW y/y | skill part (cum m/m):   model  now+nv   naive | base share of y/y var | m/m RMSE model   naive
+ 0  90 |   0.406         0.406   0.837   0.899 |                         0.406   0.406   0.837 |                 0.89 |          0.408   0.854
+ 1  89 |   0.815         0.926   1.344   1.430 |                         0.815   0.926   1.344 |                 0.77 |          0.698   0.858
+ 2  88 |   1.179         1.449   1.862   1.978 |                         1.179   1.449   1.862 |                 0.67 |          0.699   0.863
+ 3  87 |   1.435         1.897   2.299   2.414 |                         1.435   1.897   2.299 |                 0.56 |          0.809   0.868
+ 4  86 |   1.741         2.343   2.748   2.874 |                         1.741   2.343   2.748 |                 0.46 |          0.806   0.871
+ 5  85 |   2.095         2.805   3.207   3.329 |                         2.095   2.805   3.207 |                 0.36 |          0.850   0.876
+ 6  84 |   2.443         3.264   3.668   3.783 |                         2.443   3.264   3.668 |                 0.28 |          0.867   0.881
+ 7  83 |   2.938         3.734   4.114   4.224 |                         2.938   3.734   4.114 |                 0.21 |          0.956   0.887
+ 8  82 |   3.316         4.181   4.562   4.659 |                         3.316   4.181   4.562 |                 0.15 |          0.894   0.891
+ 9  81 |   3.893         4.648   4.993   5.091 |                         3.893   4.648   4.993 |                 0.09 |          0.937   0.897
+10  80 |   4.476         5.091   5.437   5.508 |                         4.476   5.091   5.437 |                 0.04 |          0.930   0.902
+11  79 |   4.986         5.541   5.868   5.906 |                         4.986   5.541   5.868 |                 0.00 |          0.903   0.907
+12  78 |   5.431         5.961   5.961   6.244 |                         5.431   5.961   5.961 |                 0.00 |          0.985   0.952
+
+splits (y/y RMSE): h | window | model | nowcast+naive | naive | RW
+  3 | ex-January targets n=80 | 1.422 |         1.850 | 2.282 | 2.408
+  3 | 2024+ targets      n=31 | 0.496 |         1.474 | 1.757 | 1.842
+  3 | 2022-2023 targets  n=24 | 2.424 |         3.022 | 3.732 | 3.911
+  6 | ex-January targets n=77 | 2.450 |         3.263 | 3.670 | 3.787
+  6 | 2024+ targets      n=31 | 0.766 |         2.499 | 2.844 | 2.722
+  6 | 2022-2023 targets  n=24 | 4.073 |         5.220 | 5.872 | 6.196
+ 12 | ex-January targets n=72 | 5.340 |         5.897 | 5.897 | 6.152
+ 12 | 2024+ targets      n=31 | 1.651 |         4.445 | 4.445 | 5.758
+ 12 | 2022-2023 targets  n=24 | 8.632 |         9.334 | 9.334 | 9.065
+
+Diebold-Mariano (squared errors, HAC lag h-1), model vs naive and vs nowcast+naive; negative favours the model:
+  h= 3 vs naive         : mean sq-err diff -3.408, DM -2.43 (n=84)
+  h= 3 vs nowcast+naive : mean sq-err diff -1.666, DM -2.07 (n=84)
+  h= 6 vs naive         : mean sq-err diff -8.469, DM -2.53 (n=78)
+  h= 6 vs nowcast+naive : mean sq-err diff -5.465, DM -2.53 (n=78)
+  h=12 vs naive         : mean sq-err diff -12.251, DM -3.14 (n=66)
+  h=12 vs nowcast+naive : mean sq-err diff -12.251, DM -3.14 (n=66)
+
+block m/m forecast (weighted, pp of headline) averaged over origins, by horizon: core | food | admin | alc | fuel | wedge
+  h= 1: +0.186 | +0.058 | +0.057 | +0.032 | +0.011 | -0.007   (mean realised m/m +0.446, model +0.341)
+  h= 3: +0.208 | +0.067 | +0.022 | +0.032 | +0.011 | -0.006   (mean realised m/m +0.453, model +0.336)
+  h= 6: +0.117 | +0.052 | +0.022 | +0.033 | +0.010 | -0.006   (mean realised m/m +0.455, model +0.234)
+  h=12: +0.089 | +0.045 | +0.021 | +0.032 | +0.011 | -0.006   (mean realised m/m +0.465, model +0.196)
+
+RULE: beats naive by >=10% at h=3,6,12: False; beats RW y/y at h=6,12: True -> NOT publishable yet
+gain over nowcast+naive by horizon (%): [12.0, 18.7, 24.4, 25.7, 25.3, 25.1, 21.3, 20.7, 16.2, 12.1, 10.0, 8.9] -> horizon blocks add something

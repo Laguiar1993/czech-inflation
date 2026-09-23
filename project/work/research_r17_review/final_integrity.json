@@ -1,0 +1,221 @@
+{
+  "manifests": {
+    "research_r15/manifest.json": {
+      "inputs": 26,
+      "outputs": 12,
+      "sha256": "4cdc5124633b5f73b481306669d531f1417b9d104e52f81009c464f05a5a07e1"
+    },
+    "research_r15/evaluation/input_manifest.json": {
+      "inputs": 12,
+      "outputs": 33,
+      "sha256": "fcfae8dc4004162c5dc70a52b01d012d50d1cc803c53363f4dc76f1bb3dcc94a"
+    },
+    "research_r16/manifest.json": {
+      "inputs": 43,
+      "outputs": 16,
+      "sha256": "25aba5e8a45921e3950a4c99b2234b101a7b60054db39c29d9b64f1d29877ab2"
+    },
+    "research_r16/evaluation/input_manifest.json": {
+      "inputs": 64,
+      "outputs": 44,
+      "sha256": "a661856439b07d0bad3cc7d43de878639d59ace2fe04864d0341c61ff7f85ec2"
+    },
+    "research_r16/attribution/manifest.json": {
+      "inputs": 10,
+      "outputs": 9,
+      "sha256": "bca9b12522358d48f669c4a6f841b71c354ec9845092befe40cb1ea3613dc412"
+    },
+    "research_r16/interpretation/manifest.json": {
+      "inputs": 6,
+      "outputs": 2,
+      "sha256": "3b8d28e6ff5b107600397d642fcb2519bb0ba5e23e8746a82d37d634d71a50ae"
+    },
+    "research_r17_core/manifest.json": {
+      "inputs": 65,
+      "outputs": 8,
+      "sha256": "57e1dbd42889396692c6b9b158ae097ea3d2cea227ca2cc9118ac0fdf578865e"
+    },
+    "research_r17_food/manifest.json": {
+      "inputs": 75,
+      "outputs": 14,
+      "sha256": "a465a4979a3318ac7f1861e8dcec48da47ee2df11bd309fef9f8f32c8d94ba39"
+    },
+    "research_r17_monthly/manifest.json": {
+      "inputs": 94,
+      "outputs": 21,
+      "sha256": "c50fd4d340d8532a062cb3bd34d021e579866ebc5ffc19decc94c9fd004aa9e9"
+    },
+    "research_r17_energy/manifest.json": {
+      "inputs": 254,
+      "outputs": 12,
+      "sha256": "0a0e421d448383936db59faaf1e838411275d68337450fd9615c782ba3538e39"
+    },
+    "research_r17/path/manifest.json": {
+      "inputs": 366,
+      "outputs": 6,
+      "sha256": "e884b00b19a93f69f3e6b9d2211089dad7492b2c5bdbda77360f530177ec9273"
+    },
+    "research_r17/path/evaluation/input_manifest.json": {
+      "inputs": 379,
+      "outputs": 33,
+      "sha256": "469f9f36feef865296eb885b565bb242ce2d31a92f9f0330c42db5340d1efa08"
+    },
+    "research_r17/attribution/manifest.json": {
+      "inputs": 8,
+      "outputs": 5,
+      "sha256": "cfe26523cca25fdacd8fd79e8a31ea40ceeb6cdabcefc2628c6d841a87b70f54"
+    },
+    "research_r17/primary_uncertainty/manifest.json": {
+      "inputs": 4,
+      "outputs": 2,
+      "sha256": "dbde83c9ef8437a9afa0b693ec9528691e1506e91d709cd250e32d59d49956c6"
+    }
+  },
+  "documents": {
+    "R17_RESULTS_2026-09-14.md": {
+      "local_links_verified": 26,
+      "sha256": "7fbac23e6fb6ee46fe79bf516adc40c4d7846186b91d1ee2356b03468f9fc3ca"
+    },
+    "work/research_r17_review/R17_VERIFICATION_2026-09-14.md": {
+      "local_links_verified": 1,
+      "sha256": "0f0d45162f1134de80644158a7ba5b9fb80caecc9776fac31b982fbe97e541ca"
+    },
+    "README.md": {
+      "local_links_verified": 3,
+      "sha256": "21e4e743a349523072231d4aba0747c214927724fea96af2f81a1c6549ec95f2"
+    },
+    "docs/MODELS.md": {
+      "local_links_verified": 2,
+      "sha256": "cf27489347337d68fda32843f868f67d5a2b517b6bad5dcf8a13cc138d9cfd34"
+    }
+  },
+  "review_receipts": {
+    "FINAL_REVIEW_RECEIPT.json": "c515e4d2818d69579ca5971ae18af90d754ed3cd29cd28b28055d1ffe69256f8",
+    "ENERGY_FULL_REVIEW_RECEIPT.json": "2ee9e9092c43beb71b1fb198eacdf7e3cec4919384e1bfb4f39a366103f1a5da",
+    "COMBINATION_FINAL_REVIEW_RECEIPT.json": "0545e676eba718749651a9e818346520da2ed5850425e62a5272b9d22a549d7b"
+  },
+  "artifact": {
+    "artifact": "output/research_r17/path/evaluation/cnb_rounds_replayed_r17.html",
+    "sha256": "0d39d0fdab01c7f250f71d9a0aee9d423ee7112f0f4ce08d7244a1d4e7dc6425",
+    "report_rounds": 19,
+    "cutoff_rounds": 19,
+    "checks": [
+      "all rounds both clocks",
+      "individual round selection",
+      "all models",
+      "checkbox off/on",
+      "reset",
+      "tooltip enter/leave",
+      "finite SVG geometry",
+      "score restore",
+      "no external resources"
+    ],
+    "limitation": "DOM-contract and SVG string checks; not browser layout or visual pixel inspection",
+    "checker_sha256": "e3883ba6ec5fb515704c3023ab31c9fd5f89dc45d66c466840040443b04641ec"
+  },
+  "tests": {
+    "tests_new_final.log": {
+      "passed": 69,
+      "sha256": "71dd20d168a6100ac7ec75678a40930cfcc328b767905f5dd007ec30a74f18ed"
+    },
+    "tests_regression.log": {
+      "passed": 278,
+      "sha256": "94b82969baaead708928609f530e7f1ca3d3c95ec10eed1747d444003225d5f0"
+    }
+  },
+  "headline_table": {
+    "STATE_FAST_R15": {
+      "full": {
+        "n": 75,
+        "rmse": 4.869472205001029
+      },
+      "origins_2024plus": {
+        "n": 19,
+        "rmse": 0.8579638828422467
+      }
+    },
+    "STABLE_LOCAL_CORE_R14B": {
+      "full": {
+        "n": 75,
+        "rmse": 5.397208838300782
+      },
+      "origins_2024plus": {
+        "n": 19,
+        "rmse": 0.7076852773291331
+      }
+    },
+    "DAMPED_P95_Q001_R16": {
+      "full": {
+        "n": 75,
+        "rmse": 4.810145946520235
+      },
+      "origins_2024plus": {
+        "n": 19,
+        "rmse": 0.7158989707447333
+      }
+    },
+    "CORE_ROBUST_R17": {
+      "full": {
+        "n": 75,
+        "rmse": 4.82900811903848
+      },
+      "origins_2024plus": {
+        "n": 19,
+        "rmse": 0.7152906329821075
+      }
+    },
+    "CORE_NEWS_R17": {
+      "full": {
+        "n": 75,
+        "rmse": 4.770534742219518
+      },
+      "origins_2024plus": {
+        "n": 19,
+        "rmse": 0.8425197647057863
+      }
+    },
+    "FUEL_ANNUAL_R17": {
+      "full": {
+        "n": 75,
+        "rmse": 4.913284933546205
+      },
+      "origins_2024plus": {
+        "n": 19,
+        "rmse": 0.7639342688649413
+      }
+    },
+    "COMBO_ALL_R17": {
+      "full": {
+        "n": 75,
+        "rmse": 5.020880834608253
+      },
+      "origins_2024plus": {
+        "n": 19,
+        "rmse": 0.7940826717338304
+      }
+    },
+    "PATH_POOL_R17": {
+      "full": {
+        "n": 75,
+        "rmse": 4.956789656577065
+      },
+      "origins_2024plus": {
+        "n": 19,
+        "rmse": 0.7903526843786288
+      }
+    },
+    "PATH_FAST_CURRENT_HALF_R17": {
+      "full": {
+        "n": 75,
+        "rmse": 5.114004943940545
+      },
+      "origins_2024plus": {
+        "n": 19,
+        "rmse": 0.7670190086117741
+      }
+    }
+  },
+  "verified_at_utc": "2026-09-15T07:27:54.797162+00:00",
+  "verifier_sha256": "5397289e6f0ce6190341f430be54091450db5dc45de54f7da9081d3676a70f50",
+  "status": "pass"
+}

@@ -1,0 +1,12 @@
+rule,text
+market_next_day,Daily quote usable from the next calendar day in Prague (snapshot request rule); a month mean is usable from the first day after the month.
+ec_bcs_next_month,EC business and consumer survey results for month M are published in the last days of M; usable from the first day of M+1.
+czso_t41,"CZSO industry/construction release: 37th day after the period plus at most 3 days of exceptions (2026 release rules), 09:00; usable from period end + 41 days."
+czso_import_prices_t45,CZSO import-price release: 41st day after the period plus at most 3 days of exceptions (2026 release rules); usable from period end + 45 days.
+eurostat_lfs_t32,Monthly unemployment rate published about 30 days after the period; usable from period end + 32 days.
+destatis_hicp_m1d16,German HICP final value for M published in mid M+1 (the flash is later revised into the current-vintage value); usable from day 16 of M+1.
+eurostat_ulc_q75,Quarterly nominal unit labour cost published about 65 days after the quarter; usable from quarter end + 75 days.
+ecb_mfi_t31,Czech MFI loan stock for M published about four weeks after month end; usable from period end + 31 days.
+cnb_rushin_week_plus7,Weekly Rushin estimate usable 7 days after its observation date; a monthly aggregate is usable 7 days after the last week in the month.
+annual_benchmark,Annual benchmark only; never used as a monthly input.
+none,No data returned.

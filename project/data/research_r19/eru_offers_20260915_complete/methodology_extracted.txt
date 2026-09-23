@@ -1,0 +1,262 @@
+ 
+ 
+Energetický regulační úřad 
+Úsek Rady ERÚ  1/8 
+Jankovcova 1566/2b, 170 00 Praha 7 – Holešovice    
+T: +420 724 060 790, E: tiskove@eru.gov.cz  eru.gov.cz 
+Metodika stanovení Indikativního pásma 
+nabídkových cen 
+1. Popis stanovení indikativního nákladu 
+profilu 
+1.1. Účel a základní cíl metodiky 
+Cílem metodiky je stanovit indikativní náklad profilu pro typové zákazníky na maloodběru (NN/DOM 
+MO) na základě ocenění TDD . Výsledný indikativní náklad slouží jako benchmark pro porovnání 
+cenových nabídek obchodníků s energiemi (dodavatel). 
+Indikativní náklad (IN): 
+• je počítán pro každý obchodní den na základě burzovních cen, 
+• vychází z hodinové/denní cenové křivky – HPFC/DPFC křivky odvozené z cen denního trhu, 
+• je využíván pro srovnání s platnými nabídkami v daném měsíci a rozdílu mezi platnými nabídkami 
+k odhadu ostatních nákladů dodávek, 
+• umožňuje výpočet 25. a 50. kvantilu přirážky mezi IN a pozorovanými nabídkami dodavatelů, 
+• neobsahuje rizikové přirážky ani hrubou marži dodavatelů, 
+• je stanovován pro fixované produkty na 12, 24 a 36 měsíců. 
+2. Vytvoření koeficientů HPFC/DPFC 
+2.1. Vstupní data 
+Koeficienty pro vnitroměsíční průběh ceny  HPFC (elektřina) a DPFC (zemní plyn) jsou vypočítány 
+z historických cen denního trhu (Denní trh ČR OTE pro elektřinu  / EEX Next Day Index CZ VTP pro 
+plyn) v ČR za období klouzavého jednoho roku: 
+• od listopadu roku R−2 do října roku R-1, 
+• aktualizace probíhá na konci roku R-1. 
+ 
+ 
+Energetický regulační úřad 
+Úsek Rady ERÚ  2/8 
+Jankovcova 1566/2b, 170 00 Praha 7 – Holešovice    
+T: +420 724 060 790, E: tiskove@eru.gov.cz  eru.gov.cz 
+2.2. Výpočet koeficientů 
+Pro každý měsíc a jednotlivé typy hodin/dnů je pro každou hodiny/den stanoven poměr: 
+• cena DT daného typu hodiny/dne v daném měsíci 
+• ku průměrné ceně DT za celý daný měsíce. 
+Typy hodin/typy dnů: 
+Typ hodiny pro Elektřinu Popis 
+1 Pracovní den 8:00–20:00 (Peak) 
+2 Pracovní den 6:00–8:00, 20:00–23:00 
+3 Pracovní den 23:00–6:00 
+4 Víkend + svátek 8:00–23:00 
+5 Víkend + svátek 23:00–8:00 
+ 
+Typ dne pro Plyn Popis 
+1 Pracovní dny 
+2 Svátky + víkendy 
+ 
+Tyto poměry jsou v rámci stejného měsíce v roce zprůměrovány. 
+Výsledkem je sada: 
+• 60 hodinových koeficientů pro elektřinu (5 typů x 12 měsíců), 
+• 24 denních koeficientů pro zemní plyn (2 typy x 12 měsíců). 
+3. Vytvoření kaskádovacích koeficientů 
+3.1. Vstupní období 
+Stejné klouzavé období jako u vnitroměsíčních koeficientů HPFC/DPFC: 
+• listopad R−2 až říjen R-1, 
+• aktualizace na konci roku R-1. 
+3.2. Princip kaskádování 
+Kaskádovací koeficienty vyjadřují vztah mezi souběžně obchodovanými produkty:  
+ 
+ 
+Energetický regulační úřad 
+Úsek Rady ERÚ  3/8 
+Jankovcova 1566/2b, 170 00 Praha 7 – Holešovice    
+T: +420 724 060 790, E: tiskove@eru.gov.cz  eru.gov.cz 
+• CAL R+ X ↔ Q(1-4) R+ X, 
+• Q (1-4) R+ X ↔ M(1-12) R+ X. 
+• Např. 
+CAL R+1 Q1 R+1 
+  Q2 R+1 
+  Q3 R+1 
+  Q4  R+1 
+ 
+Q1 R M1 
+  M2 
+  M3 
+Q2 R M4 
+  M5 
+  M6 
+Q3 R M7 
+  M8 
+  M9 
+Q4 R M10 
+  M11 
+  M12 
+Q1 R+1 M1 
+  M2 
+  M3 
+Q2 R+1 M4 
+  M5 
+  M6 
+Q3 R+1 M7 
+  M8 
+  M9 
+Q4 R+1 M10 
+  M11 
+  M12 
+ 
+Koeficienty jsou odvozovány pro každý obchodní den burzy. 
+3.3. Rozsah produktů 
+• Průběžný rok (Y): 
+o např. M4/Y až M12/Y vůči příslušným kvartálům. 
+ 
+ 
+Energetický regulační úřad 
+Úsek Rady ERÚ  4/8 
+Jankovcova 1566/2b, 170 00 Praha 7 – Holešovice    
+T: +420 724 060 790, E: tiskove@eru.gov.cz  eru.gov.cz 
+• Rok Y+1: 
+o kvartály vůči CAL+1, 
+o měsíce vůči příslušným kvartálům. 
+3.4. Agregace a úpravy 
+Jednotlivé denní koeficienty jsou zprůměrovány dle typu produktové dvojice [např. CAL+1 (2027) a 
+2027Q1]. 
+Pro rok Y jsou chybějící koeficienty převzaty z roku Y+1, to je způsobeno omezenou délkou 
+forwardové křivky, kdy v aktuálním roce už některé páry produktů nejsou obchodovány (zejména CAL 
+R a Q1, Q1 a M1 až M3). 
+Pro roky Y+2 a dále jsou použity koeficienty roku Y+1. 
+Následně je provedeno odstranění arbitráží mezi produkty s ohledem na odpovídající počet hodin 
+(M/Q/Y). 
+4. Vytvoření plného burzovního ceníku 
+• Na dostupné závěrkové ceny produktů burzy EEX jsou aplikovány kaskádovací koeficienty. 
+• Chybějící produkty jsou dopočteny pomocí koeficientů po první krok odstranění arbitráže. 
+• Stejně jako při konstrukci koeficientů je provedeno odstranění arbitráží mezi produkty M/Q/Y 
+(druhý krok). 
+Výsledkem předešlých kroků je konzistentní plný burzovní ceník daného dne. 
+5. Konstrukce HPFC/DPFC křivky 
+• Pro každou hodinu (EE) nebo den (ZP) kalendáře na 4 roky dopředu je přiřazen typ hodiny/dne. 
+• Pro každý kalendářní měsíc je vytvořen vektor koeficientů HPFC/DPFC. 
+• Každá hodina/den jsou oceněny jako: 
+o měsíční BASE cena z plného burzovního ceníku * příslušný HPFC/DPFC koeficient. 
+Výsledkem je hodinová/denní cenová křivka HPFC/DPFC. 
+6. Normování HPFC křivky (pouze elektřina 
+z důvodu existence BASE a PEAK produktů) 
+Normování je provedeno na základě produktů roku Y+1 a následně aplikováno na všechny roky. 
+ 
+ 
+Energetický regulační úřad 
+Úsek Rady ERÚ  5/8 
+Jankovcova 1566/2b, 170 00 Praha 7 – Holešovice    
+T: +420 724 060 790, E: tiskove@eru.gov.cz  eru.gov.cz 
+6.1. Výpočet offPEAK 
+Z ročních produktů jsou dopočteny hodnoty offPEAK z cen BASE a PEAK. 
+6.2. Kalibrace křivky 
+1. Normování peakových hodin HPFC křivky na poměr PEAK/offPEAK. 
+2. Celkové normování všech hodin tak, aby ocenění rovného profilu odpovídalo ceně BASE 
+z ceníku pro rok Y+1. 
+7. Ocenění TDD a IN 
+• Na výsledné HPFC/DPFC cenové křivce lze ocenit libovolný odběrový profil. 
+• Pro výpočet IN jsou používány: 
+o TDD 1–8 pro elektřinu, 
+o TDD 4 pro zemní plyn. 
+Výsledkem je indikativní náklad profilu , který slouží jako referenční hodnota pro porovnání tržních 
+nabídek. 
+8. Popis stanovení rozmezí Indikativního 
+pásma nabídkových cen 
+Indikativní pásmo nabídkových cen bude prezentován o jako pásmo cen vycházejících z  reálných 
+nabídek na trhu, kombinované s  IN vycházejícím ze situace na velkoobchodním trhu. Cílem práce 
+s pásmem je dosáhnout časově stabilního odhadu hrubých marží založeného na empirických datech. 
+Namísto subjektivního expertního odhadu metodika využívá skutečné ceny pozorované na trhu. 
+Zavedení pásma slouží k explicitnímu zachycení nejistoty modelu IN a jde o intervalový odhad. 
+Použití klouzavého průměru dále umožňuje do jisté míry potlačit vliv rozdílné volatility cenových vstupů, 
+zejména vysoké volatility velkoobchodních cen ve srovnání s relativně nízkou volatilitou cen 
+maloobchodních. 
+8.1. Zdroj dat a výběr cenových nabídek 
+Data o cenových nabídkách dodavatelů jsou získávána z databáze cen poskytovaných  dodavateli pro 
+Srovnávač nabídek dodavatelů elektřiny a plynu (Srovnávač) dle vyhlášky č. 346/2025 Sb. , 
+o předkládání informací pro monitorování v oblasti trhu s elektřinou a s plynem, o způsobu stanovení 
+hodnoty indexu zajištění obchodníka a o poskytování informací o nabídkách dodávek elektřiny nebo 
+plynu porovnávaných srovnávacím nástrojem (monitorovací vyhláška). 
+ 
+ 
+Energetický regulační úřad 
+Úsek Rady ERÚ  6/8 
+Jankovcova 1566/2b, 170 00 Praha 7 – Holešovice    
+T: +420 724 060 790, E: tiskove@eru.gov.cz  eru.gov.cz 
+Pro určení rozpětí Indikativního pásma nabídkových cen  jsou používány výhradně cenové nabídky 
+produktů s pevnou cenou a s délkou trvání závazku 12, 24 nebo 36 měsíců  a s jedním cenovým 
+rámcem. 
+8.2. Vstupní data a platnost cen 
+Pro každou podskupinu cen dodavatelů se v rámci daného kalendářního měsíce stanovují kvartilové 
+hodnoty nabídek. Do výpočtu jsou zahrnuty pouze nabídky, jejichž ceník je platný k 15. dni daného  
+měsíce. 
+V případě elektřiny je vytvořena syntetická cena z  ceny vysokého a nízkého tarifu dle poměru spotřeb 
+v tarifní statistice dostupné v poslední zveřejněné Roční zprávě o provozu elektrizační soustavy ČR.  
+Podskupinami jsou nabídky členěné dle: 
+• měsíce platnosti nabídky dodavatelů, 
+• komodity – Elektřina a Zemní plyn, 
+• období pevné ceny (12M/24M/36M) – nejsou zahrnuty tzv. schodovité produkty (více cenových 
+rámců), 
+• dle distribuční sazby/vybraných typových velikostí spotřeb u ZP (Byt – Vaření / Byt – Vaření, ohřev 
+vody a topení / Rodinný dům). 
+8.3. Definice kvartilů 
+• Q25 (1. kvartil / 25. percentil) představuje hodnotu, pod kterou se nachází 25 % cenových nabídek 
+dodavatelů v dané podskupině. 
+• Q50 (2. kavrtil / 50. percentil / medián) představuje hodnotu, pod kterou se nachází 50 % 
+cenových nabídek dodavatelů v dané podskupině. 
+8.4. Výpočet vztažného indikativního nákladu (VIN) 
+Pro každý kalendářní měsíc se stanoví vztažný indikativní náklad jako aritmetický průměr indikativních 
+nákladů vypočtených v průběhu prvních 15 pracovních dnů předchozího kalendářního měsíce. 
+8.5. Výpočet rozdílu nabídek dodavatelů a VIN 
+Pro každý měsíc se vypočítají rozdíly mezi kvartilovými hodnotami nabídek dodavatelů a VIN, 
+konkrétně: 
+• rozdíl Q25 – VIN, 
+• rozdíl Q50 – VIN. 
+Tyto rozdíly vyjadřují odchylku tržních nabídek dodavatelů od VIN. 
+8.6. Výpočet klouzavého průměru rozdílů (MA) 
+Z měsíčních rozdílů Q25 – VIN a Q50 – VIN se vypočítají klouzavé průměry MA25 a MA50. 
+ 
+ 
+Energetický regulační úřad 
+Úsek Rady ERÚ  7/8 
+Jankovcova 1566/2b, 170 00 Praha 7 – Holešovice    
+T: +420 724 060 790, E: tiskove@eru.gov.cz  eru.gov.cz 
+Pro období 01.10.2025 do 30. 09.2026 se z  důvodu omezené dostupnosti dat počítají kumulované 
+průměry dle počtu dostupných měsíců fungování Srovnávače (např. pro leden jako 3měsíční průměr za 
+říjen 2025 až prosinec 2025) – jedná se tedy do data 30.09.2026 o tzv. kumulativní průměr. 
+Po 30.09.2026 je klouzavý průměr definován jako 12měsíční klouzavý průměr, tj. aritmetický průměr 
+posledních dvanácti měsíčních hodnot příslušného rozdílu. 
+8.7. Stanovení rozmezí Indikativních pásem nabídkových 
+cen 
+Hodnoty MA25 a MA50 se přičtou k  VIN vzniklému jako aritmetický průměr indikativních nákladů 
+vypočtených v průběhu prvních 15 pracovních dnů předchozího kalendářního měsíce. Tímto postupem 
+se stanoví dolní a horní hranice rozmezí Indikativního pásma nabídkových cen, odpovídající 25. a 50. 
+percentilu nabídek dodavatelů na základě dlouhodobého (12měsíčního) vývoje  (od 01.10.2026). 
+9. Indikativní stálý plat 
+Indikativním stálým platem je medián stálých platů na podskupinách. 
+Podskupinami jsou nabídky členěné dle: 
+• měsíce platnosti nabídky dodavatelů, 
+• komodity – Elektřina a Zemní plyn, 
+• produkty s pevnou cenou bez rozlišení délky fixace – nejsou zahrnuty tzv. schodovité produkty 
+(více cenových rámců), 
+• není zahrnuto členění dle distribuční sazby / vybraných typových velikostí spotřeb u ZP (Byt – 
+Vaření / Byt – Vaření, ohřev vody a topení / Rodinný dům). 
+10. Scénáře Indikativních pásem nabídkových 
+cen 
+Prezentace Indikativních pásem nabídkových cen bude probíhat v rámci interaktivního grafu. 
+Zde si uživatel bude moci zvolit svůj individuální charakter spotřeby a jednu z délek fixace ceny nabídek 
+(12, 24, 36 měsíců). 
+Charakter spotřeby elektřiny představují jednotlivé distribuční sazby, které podávají informaci o typu 
+spotřeby uživatelů. Co se týká charakteristických spotřeb u plynu, zvolili jsme tři základní hodnoty 
+spotřeby: 
+ 
+ 
+Energetický regulační úřad 
+Úsek Rady ERÚ  8/8 
+Jankovcova 1566/2b, 170 00 Praha 7 – Holešovice    
+T: +420 724 060 790, E: tiskove@eru.gov.cz  eru.gov.cz 
+Typ spotřeby Hodnota spotřeby 
+Byt – vaření 0,85 MWh/rok (4 osoby) 
+Byt – vaření, ohřev vody a vytápění 10,84 MWh/rok (4 osoby, byt 65 m2) 
+Rodinný dům – vaření, ohřev vody a vytápění 20,96 MWh/rok (4 osoby, rodinný dům 200 m2) 
+ 
+Tyto dvě charakteristiky  nabídek (délka fixace a charakter spotřeby)  jsou také nejvýznamnějším 
+cenotvorným vstupem při ocenění. 
+V interaktivním grafu bude také možnost zvolit si zobrazení rozmezí bez zahrnutí DPH  / se zahrnutím 
+DPH. 
+11. Harmonogram výpočtu a zveřejnění 
+První pracovní den měsíce. 

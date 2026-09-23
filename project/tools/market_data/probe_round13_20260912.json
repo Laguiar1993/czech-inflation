@@ -1,0 +1,8 @@
+{
+  "note": "Round 13 of the 12 Sep 2026 probe: searches for the CNB EUR/CZK fixing under other names (EURCZKF Curncy resolved to the 6-month forward EURCZK6M on this Terminal) and for the Eurostat domestic manufacturing PPI index (CNB-paper row 47; EPP00CCZ is invalid). EUPPCZ Index is a pattern probe.",
+  "candidates": {"ppi": ["EUPPCZ Index"]},
+  "daily": [],
+  "searches": ["Czech Republic Official Exchange Rate", "Czech National Bank Exchange Rate", "CZK Official Rate",
+               "Czech Central Bank EUR Rate", "Eurostat Domestic PPI Manufacturing Czech", "Eurostat Dom PPI Manufacturing Czech Rep"],
+  "max_results": 40
+}

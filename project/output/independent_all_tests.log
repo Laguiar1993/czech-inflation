@@ -1,0 +1,34 @@
+........................................................................ [ 31%]
+........................................................................ [ 62%]
+........................................................................ [ 93%]
+..............                                                           [100%]
+============================== warnings summary ===============================
+test_independent_bridge_r9.py::test_expectation_poisoning_cannot_change_any_bridge_horizon
+  C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\x13.py:192: X13Warning: WARNING: Automatic transformation selection cannot be done on a
+            series with zero or negative values.
+    
+   WARNING: At least one visually significant seasonal peak has been found
+            in the estimated spectrum of the regARIMA residuals.
+    warn(errors, X13Warning)
+
+test_independent_bridge_r9.py::test_short_food_history_is_reported_as_failure_and_fallback
+  C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\x13.py:192: X13Warning: WARNING: Automatic transformation selection cannot be done on a
+            series with zero or negative values.
+    warn(errors, X13Warning)
+
+test_timing_r6.py::test_food_forecast_reports_method_and_history
+  C:\Users\luis_\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\statsmodels\tsa\x13.py:192: X13Warning: WARNING: Automatic transformation selection cannot be done on a
+            series with zero or negative values.
+  
+   WARNING: Estimation was terminated because no further improvement in
+            the likelihood was possible.  Check iteration output to 
+            confirm that model estimation really converged.
+  
+  
+    
+   WARNING: At least one visually significant seasonal peak has been found
+            in the estimated spectrum of the regARIMA residuals.
+    warn(errors, X13Warning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+230 passed, 3 warnings in 17.72s

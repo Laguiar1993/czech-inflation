@@ -1,0 +1,173 @@
+Frozen baseline and cost source mapping verified.
+2019-02: 1/90 origins constructed; 29.5s
+2019-03: 2/90 origins constructed; 30.4s
+2019-04: 3/90 origins constructed; 31.3s
+2019-05: 4/90 origins constructed; 32.2s
+2019-06: 5/90 origins constructed; 33.0s
+2019-07: 6/90 origins constructed; 33.9s
+2019-08: 7/90 origins constructed; 34.8s
+2019-09: 8/90 origins constructed; 35.7s
+2019-10: 9/90 origins constructed; 36.6s
+2019-11: 10/90 origins constructed; 37.6s
+2019-12: 11/90 origins constructed; 38.5s
+2020-01: 12/90 origins constructed; 39.4s
+2020-02: 13/90 origins constructed; 40.3s
+2020-03: 14/90 origins constructed; 41.3s
+2020-04: 15/90 origins constructed; 42.3s
+2020-05: 16/90 origins constructed; 43.2s
+2020-06: 17/90 origins constructed; 44.2s
+2020-07: 18/90 origins constructed; 45.2s
+2020-08: 19/90 origins constructed; 46.2s
+2020-09: 20/90 origins constructed; 47.2s
+2020-10: 21/90 origins constructed; 48.2s
+2020-11: 22/90 origins constructed; 49.3s
+2020-12: 23/90 origins constructed; 50.3s
+2021-01: 24/90 origins constructed; 51.4s
+2021-02: 25/90 origins constructed; 52.5s
+2021-03: 26/90 origins constructed; 53.6s
+2021-04: 27/90 origins constructed; 54.7s
+2021-05: 28/90 origins constructed; 55.8s
+2021-06: 29/90 origins constructed; 56.8s
+2021-07: 30/90 origins constructed; 57.9s
+2021-08: 31/90 origins constructed; 58.9s
+2021-09: 32/90 origins constructed; 60.0s
+2021-10: 33/90 origins constructed; 61.1s
+2021-11: 34/90 origins constructed; 62.2s
+2021-12: 35/90 origins constructed; 63.4s
+2022-01: 36/90 origins constructed; 64.5s
+2022-02: 37/90 origins constructed; 65.7s
+2022-03: 38/90 origins constructed; 66.8s
+2022-04: 39/90 origins constructed; 68.0s
+2022-05: 40/90 origins constructed; 69.2s
+2022-06: 41/90 origins constructed; 70.5s
+2022-07: 42/90 origins constructed; 71.7s
+2022-08: 43/90 origins constructed; 72.9s
+2022-09: 44/90 origins constructed; 74.1s
+2022-10: 45/90 origins constructed; 75.4s
+2022-11: 46/90 origins constructed; 76.6s
+2022-12: 47/90 origins constructed; 77.8s
+2023-01: 48/90 origins constructed; 79.1s
+2023-02: 49/90 origins constructed; 80.4s
+2023-03: 50/90 origins constructed; 81.6s
+2023-04: 51/90 origins constructed; 82.9s
+2023-05: 52/90 origins constructed; 84.2s
+2023-06: 53/90 origins constructed; 85.3s
+2023-07: 54/90 origins constructed; 86.5s
+2023-08: 55/90 origins constructed; 87.7s
+2023-09: 56/90 origins constructed; 88.9s
+2023-10: 57/90 origins constructed; 90.1s
+2023-11: 58/90 origins constructed; 91.3s
+2023-12: 59/90 origins constructed; 92.5s
+2024-01: 60/90 origins constructed; 93.7s
+2024-02: 61/90 origins constructed; 94.9s
+2024-03: 62/90 origins constructed; 96.0s
+2024-04: 63/90 origins constructed; 97.2s
+2024-05: 64/90 origins constructed; 98.4s
+2024-06: 65/90 origins constructed; 99.6s
+2024-07: 66/90 origins constructed; 100.9s
+2024-08: 67/90 origins constructed; 102.2s
+2024-09: 68/90 origins constructed; 103.4s
+2024-10: 69/90 origins constructed; 104.6s
+2024-11: 70/90 origins constructed; 105.9s
+2024-12: 71/90 origins constructed; 107.1s
+2025-01: 72/90 origins constructed; 108.3s
+2025-02: 73/90 origins constructed; 109.6s
+2025-03: 74/90 origins constructed; 110.8s
+2025-04: 75/90 origins constructed; 112.1s
+2025-05: 76/90 origins constructed; 113.4s
+2025-06: 77/90 origins constructed; 114.6s
+2025-07: 78/90 origins constructed; 115.9s
+2025-08: 79/90 origins constructed; 117.2s
+2025-09: 80/90 origins constructed; 118.5s
+2025-10: 81/90 origins constructed; 119.8s
+2025-11: 82/90 origins constructed; 121.1s
+2025-12: 83/90 origins constructed; 122.4s
+2026-01: 84/90 origins constructed; 123.7s
+2026-02: 85/90 origins constructed; 125.0s
+2026-03: 86/90 origins constructed; 126.3s
+2026-04: 87/90 origins constructed; 127.6s
+2026-05: 88/90 origins constructed; 129.0s
+2026-06: 89/90 origins constructed; 130.3s
+2026-07: 90/90 origins constructed; 131.7s
+        sample  h                 model  n_common  yy_rmse   yy_bias  mm_rmse  cumulative_log_rmse
+          full  1        FOOD_TREND_R12        88 0.910737 -0.119112 0.691030             0.677036
+          full  1         FOOD_COST_R12        88 0.910737 -0.119112 0.691030             0.677036
+          full  1    DIRECT_MONTHLY_R12        88 0.962338 -0.012453 0.777020             0.762134
+          full  1 DIRECT_CUMULATIVE_R12        88 0.962338 -0.012453 0.777020             0.762134
+          full  1    INDEPENDENT_BRIDGE        88 0.910737 -0.119112 0.691030             0.677036
+          full  1               RF_U_FX        88 0.975062 -0.086855 0.778961             0.763114
+          full  1             BVAR_U_FX        88 0.946086 -0.220095 0.763558             0.747264
+          full  1                 NAIVE        88 1.039596 -0.101299 0.864791             0.848153
+          full  1           LAST_YOY_RW        88 1.570972  0.026985 0.924805             0.908687
+          full  6        FOOD_TREND_R12        81 2.573899 -0.636038 0.837454             2.235933
+          full  6         FOOD_COST_R12        81 2.582704 -0.622969 0.836011             2.243288
+          full  6    DIRECT_MONTHLY_R12        81 3.159737  0.043439 0.864490             2.812846
+          full  6 DIRECT_CUMULATIVE_R12        81 3.162657  0.032163 0.861848             2.814024
+          full  6    INDEPENDENT_BRIDGE        81 2.516379 -0.683358 0.821327             2.185918
+          full  6               RF_U_FX        81 2.817061 -0.513162 0.791575             2.504148
+          full  6             BVAR_U_FX        81 3.166214 -1.460371 0.818472             2.843946
+          full  6                 NAIVE        81 3.632857 -0.577316 0.898406             3.287229
+          full  6           LAST_YOY_RW        81 4.226579  0.086142 0.962552             3.409732
+          full 12        FOOD_TREND_R12        75 5.691348 -1.395078 0.955728             5.198064
+          full 12         FOOD_COST_R12        75 5.714753 -1.369328 0.956414             5.217313
+          full 12    DIRECT_MONTHLY_R12        75 6.588405  0.119321 1.003012             6.026749
+          full 12 DIRECT_CUMULATIVE_R12        75 6.563285  0.088035 0.998729             6.005111
+          full 12    INDEPENDENT_BRIDGE        75 5.394839 -1.563595 0.924642             4.928536
+          full 12               RF_U_FX        75 5.601622 -1.150451 0.904108             5.138971
+          full 12             BVAR_U_FX        75 6.223439 -3.048393 0.922452             5.743526
+          full 12                 NAIVE        75 6.571929 -1.354142 0.970643             6.076223
+          full 12           LAST_YOY_RW        75 6.969297  0.174342 1.182155             6.365123
+recent_targets  1        FOOD_TREND_R12        31 0.365046  0.009063 0.321107             0.320315
+recent_targets  1         FOOD_COST_R12        31 0.365046  0.009063 0.321107             0.320315
+recent_targets  1    DIRECT_MONTHLY_R12        31 0.417243  0.058671 0.346865             0.345325
+recent_targets  1 DIRECT_CUMULATIVE_R12        31 0.417243  0.058671 0.346865             0.345325
+recent_targets  1    INDEPENDENT_BRIDGE        31 0.365046  0.009063 0.321107             0.320315
+recent_targets  1               RF_U_FX        31 0.336944  0.052337 0.271029             0.270601
+recent_targets  1             BVAR_U_FX        31 0.437439 -0.094438 0.354708             0.354084
+recent_targets  1                 NAIVE        31 0.730363  0.416116 0.659523             0.650560
+recent_targets  1           LAST_YOY_RW        31 1.365858  0.352211 0.895481             0.868738
+recent_targets  6        FOOD_TREND_R12        31 0.748949  0.138766 0.306926             0.667228
+recent_targets  6         FOOD_COST_R12        31 0.749541  0.127177 0.306952             0.669072
+recent_targets  6    DIRECT_MONTHLY_R12        31 1.547451  0.927584 0.362301             1.415997
+recent_targets  6 DIRECT_CUMULATIVE_R12        31 1.536791  0.926147 0.363485             1.406088
+recent_targets  6    INDEPENDENT_BRIDGE        31 0.747834  0.326731 0.297531             0.667327
+recent_targets  6               RF_U_FX        31 1.344728  0.881808 0.297717             1.220564
+recent_targets  6             BVAR_U_FX        31 1.004762 -0.565995 0.317704             0.918282
+recent_targets  6                 NAIVE        31 2.606426  2.450343 0.659523             2.480973
+recent_targets  6           LAST_YOY_RW        31 2.862822  1.413254 0.895481             2.386900
+recent_targets 12        FOOD_TREND_R12        31 2.342335  0.972151 0.387261             2.246932
+recent_targets 12         FOOD_COST_R12        31 2.353579  0.960172 0.387231             2.257470
+recent_targets 12    DIRECT_MONTHLY_R12        31 5.799999  3.868943 0.532225             5.383282
+recent_targets 12 DIRECT_CUMULATIVE_R12        31 5.732882  3.845670 0.505194             5.325703
+recent_targets 12    INDEPENDENT_BRIDGE        31 1.892132  1.180037 0.359150             1.825662
+recent_targets 12               RF_U_FX        31 3.413666  2.710851 0.446224             3.249829
+recent_targets 12             BVAR_U_FX        31 4.042153 -0.083928 0.372055             3.737459
+recent_targets 12                 NAIVE        31 4.647634  4.626027 0.611766             4.444556
+recent_targets 12           LAST_YOY_RW        31 6.222444  3.816930 1.266721             5.757720
+recent_origins  1        FOOD_TREND_R12        30 0.370684  0.012494 0.319385             0.318745
+recent_origins  1         FOOD_COST_R12        30 0.370684  0.012494 0.319385             0.318745
+recent_origins  1    DIRECT_MONTHLY_R12        30 0.411944  0.042190 0.349113             0.347643
+recent_origins  1 DIRECT_CUMULATIVE_R12        30 0.411944  0.042190 0.349113             0.347643
+recent_origins  1    INDEPENDENT_BRIDGE        30 0.370684  0.012494 0.319385             0.318745
+recent_origins  1               RF_U_FX        30 0.334352  0.040511 0.274539             0.274132
+recent_origins  1             BVAR_U_FX        30 0.444586 -0.096014 0.355721             0.355205
+recent_origins  1                 NAIVE        30 0.677565  0.374574 0.622151             0.614463
+recent_origins  1           LAST_YOY_RW        30 1.047556  0.197581 0.384340             0.383534
+recent_origins  6        FOOD_TREND_R12        25 0.691854  0.057557 0.280668             0.630700
+recent_origins  6         FOOD_COST_R12        25 0.696534  0.050212 0.281410             0.634937
+recent_origins  6    DIRECT_MONTHLY_R12        25 0.716287  0.422042 0.314593             0.688257
+recent_origins  6 DIRECT_CUMULATIVE_R12        25 0.716246  0.422654 0.314186             0.689227
+recent_origins  6    INDEPENDENT_BRIDGE        25 0.677710  0.253582 0.260548             0.632190
+recent_origins  6               RF_U_FX        25 0.768021  0.504658 0.298417             0.741226
+recent_origins  6             BVAR_U_FX        25 1.034800 -0.672258 0.319775             0.939219
+recent_origins  6                 NAIVE        25 2.467487  2.293811 0.637385             2.396105
+recent_origins  6           LAST_YOY_RW        25 1.106208  0.311690 0.353229             0.544101
+recent_origins 12        FOOD_TREND_R12        19 1.313203  0.112939 0.304440             1.284884
+recent_origins 12         FOOD_COST_R12        19 1.320293  0.103643 0.304480             1.292004
+recent_origins 12    DIRECT_MONTHLY_R12        19 1.252347  1.076579 0.350258             1.216339
+recent_origins 12 DIRECT_CUMULATIVE_R12        19 1.253923  1.079812 0.352632             1.217823
+recent_origins 12    INDEPENDENT_BRIDGE        19 1.347309  0.729989 0.297480             1.310651
+recent_origins 12               RF_U_FX        19 1.614145  1.459644 0.328850             1.565242
+recent_origins 12             BVAR_U_FX        19 1.604359 -1.317605 0.327059             1.583217
+recent_origins 12                 NAIVE        19 4.705267  4.687063 0.717532             4.502341
+recent_origins 12           LAST_YOY_RW        19 1.174739  0.483055 1.112812             1.131002

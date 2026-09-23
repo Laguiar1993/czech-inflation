@@ -1,0 +1,6 @@
+project/.venv/
+project/portable/local/
+**/__pycache__/
+**/.pytest_cache/
+project/output/research_r17/path/evaluation/component_paired_loss_differences.csv
+project/output/research_r17/path/evaluation/paired_loss_differences.csv

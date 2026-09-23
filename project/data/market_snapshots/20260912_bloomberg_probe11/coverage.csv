@@ -1,0 +1,4 @@
+group,ticker,retrieved_at,name,source,adjustment,frequency,last_update,status,periodicity,observations,first_date,last_date,last_value
+usdczk_fixings,USDCZK F143 Curncy,2026-09-12T17:28:14.220261+00:00,USD-CZK X-RATE,,,,2026-09-11,ok,DAILY,5064,2007-02-28,2026-09-11,20.91166
+usdczk_fixings,USDCZK BFIX Curncy,2026-09-12T17:28:15.212526+00:00,USD-CZK X-RATE,,,,2026-09-11,ok,DAILY,5085,2007-02-28,2026-09-11,20.8977
+ppi,EUPPCZM Index,2026-09-12T17:28:16.005518+00:00,Eurostat PPI Czech Republic In,Eurostat,MoM% NSA,Monthly,2026-07-31,ok,MONTHLY,438,1990-02-28,2026-07-31,0.4

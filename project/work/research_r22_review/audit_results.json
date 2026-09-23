@@ -1,0 +1,130 @@
+{
+  "input_samples": {
+    "core": {
+      "first": "2015-02",
+      "last": "2026-07",
+      "nonfinite": 1
+    },
+    "services": {
+      "first": "2015-02",
+      "last": "2026-07",
+      "nonfinite": 1
+    },
+    "housing": {
+      "first": "2015-02",
+      "last": "2026-07",
+      "nonfinite": 1
+    },
+    "goods": {
+      "first": "2015-02",
+      "last": "2026-07",
+      "nonfinite": 1
+    },
+    "unemployment": {
+      "first": "2015-02",
+      "last": "2026-07",
+      "nonfinite": 1
+    },
+    "ulc": {
+      "first": "2015-02",
+      "last": "2026-05",
+      "nonfinite": 3
+    },
+    "ip": {
+      "first": "2015-02",
+      "last": "2026-05",
+      "nonfinite": 3
+    },
+    "imports": {
+      "first": "2015-02",
+      "last": "2026-06",
+      "nonfinite": 2
+    },
+    "ppi": {
+      "first": "2015-02",
+      "last": "2026-07",
+      "nonfinite": 1
+    },
+    "fx": {
+      "first": "2015-02",
+      "last": "2026-08",
+      "nonfinite": 0
+    },
+    "brent": {
+      "first": "2015-02",
+      "last": "2026-08",
+      "nonfinite": 0
+    },
+    "metals": {
+      "first": "2015-02",
+      "last": "2026-08",
+      "nonfinite": 0
+    }
+  },
+  "chronology": [
+    {
+      "origin": "2019-02",
+      "asof": "2019-03-10T22:59:00+00:00",
+      "status": "estimated",
+      "n_train": 40,
+      "anchor": "2018-11",
+      "known_h0": [
+        "fx",
+        "brent",
+        "metals"
+      ],
+      "raw_radius": 0.9534345154300189,
+      "n_distinct_ulc_quarters": 14,
+      "max_abs_core_forecast": 0.7392151019306427
+    },
+    {
+      "origin": "2021-08",
+      "asof": "2021-09-09T21:59:00+00:00",
+      "status": "estimated",
+      "n_train": 70,
+      "anchor": "2021-05",
+      "known_h0": [
+        "fx",
+        "brent",
+        "metals"
+      ],
+      "raw_radius": 0.9374530272371058,
+      "n_distinct_ulc_quarters": 24,
+      "max_abs_core_forecast": 0.8525516932374202
+    },
+    {
+      "origin": "2024-02",
+      "asof": "2024-03-10T22:59:00+00:00",
+      "status": "estimated",
+      "n_train": 96,
+      "anchor": "2023-11",
+      "known_h0": [
+        "fx",
+        "brent",
+        "metals"
+      ],
+      "raw_radius": 0.9080665524379627,
+      "n_distinct_ulc_quarters": 32,
+      "max_abs_core_forecast": 0.9145036004987452
+    },
+    {
+      "origin": "2026-07",
+      "asof": "2026-08-04T21:59:00+00:00",
+      "status": "estimated",
+      "n_train": 96,
+      "anchor": "2026-05",
+      "known_h0": [
+        "fx",
+        "brent",
+        "metals"
+      ],
+      "raw_radius": 0.8944154600116155,
+      "n_distinct_ulc_quarters": 32,
+      "max_abs_core_forecast": 1.248667089521917
+    }
+  ],
+  "checks": [
+    "Four real origins: exact hidden-input poison invariance; common training dates; independently reconstructed h1..h12 paths; bounded radii; exact macro h0 observations.",
+    "Quarterly pressure uses maximum old/new endpoint date and fails closed on missing quarterly values."
+  ]
+}

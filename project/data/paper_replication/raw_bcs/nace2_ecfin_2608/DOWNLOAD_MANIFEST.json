@@ -1,0 +1,127 @@
+{
+  "source": "European Commission DG ECFIN, BCS time series (NACE Rev. 2)",
+  "vintage_folder": "nace2_ecfin_2608",
+  "vintage_status": "current vintage of the monthly archive; balances are revised",
+  "archives": {
+    "building_total_nsa_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/building_total_nsa_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:35Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:01 GMT",
+      "etag": "\"f8166-659e1da0c0b40\"",
+      "content_type": "application/zip",
+      "bytes": 1016166,
+      "sha256": "344b396e108492020facfd8095314234be9884e9bc2d8d9c45e18a33af537a59"
+    },
+    "building_total_sa_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/building_total_sa_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:34Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:01 GMT",
+      "etag": "\"1001de-659e1da0c0b40\"",
+      "content_type": "application/zip",
+      "bytes": 1049054,
+      "sha256": "b5457d2b426e085e0d27527fd1d9a33e594e0a6cf0a5280266933bcfd6a92408"
+    },
+    "consumer_inflation_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/consumer_inflation_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:37Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:08 GMT",
+      "etag": "\"1ac4a46-659e1da76db00\"",
+      "content_type": "application/zip",
+      "bytes": 28068422,
+      "sha256": "f2377ce8575bdfe24a7def0b9bb934cf26d9030239d0179b6288820871f98fe2"
+    },
+    "consumer_total_nsa_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/consumer_total_nsa_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:36Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:00 GMT",
+      "etag": "\"113f7a-659e1d9fcc900\"",
+      "content_type": "application/zip",
+      "bytes": 1130362,
+      "sha256": "7630b504431005f81e88cc475a78805233af81c766d91ff2c187fb51203d33d6"
+    },
+    "consumer_total_sa_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/consumer_total_sa_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:36Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:00 GMT",
+      "etag": "\"116951-659e1d9fcc900\"",
+      "content_type": "application/zip",
+      "bytes": 1141073,
+      "sha256": "80ad283b87fa9108c7fe757d16669390714beb39b43e41483b945799487e0551"
+    },
+    "industry_total_nsa_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/industry_total_nsa_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:32Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:02 GMT",
+      "etag": "\"1069b2-659e1da1b4d80\"",
+      "content_type": "application/zip",
+      "bytes": 1075634,
+      "sha256": "53883d04a384eaa8858ad40508f792a3fc4776197740fe88bf7da2818900761b"
+    },
+    "industry_total_sa_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/industry_total_sa_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:31Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:02 GMT",
+      "etag": "\"10b710-659e1da1b4d80\"",
+      "content_type": "application/zip",
+      "bytes": 1095440,
+      "sha256": "445d43c4701ca2f37a362a68b45d6a0685de5f54e4f032ef1e7f8d7deefb2a7b"
+    },
+    "main_indicators_sa_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/main_indicators_sa_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:41Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:03 GMT",
+      "etag": "\"ac16e-659e1da2a8fc0\"",
+      "content_type": "application/zip",
+      "bytes": 704878,
+      "sha256": "f875bfb15bec95d725ebac96d300764b57734d098e1875511f10d52ca8f2cb53"
+    },
+    "retail_total_nsa_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/retail_total_nsa_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:34Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:04 GMT",
+      "etag": "\"994ee-659e1da39d200\"",
+      "content_type": "application/zip",
+      "bytes": 627950,
+      "sha256": "45781efc7334ffeaaa1aa45e76fe8ebd5f011c1c0f7564b96f926fde759cc7f0"
+    },
+    "retail_total_sa_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/retail_total_sa_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:33Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:04 GMT",
+      "etag": "\"9b3e8-659e1da39d200\"",
+      "content_type": "application/zip",
+      "bytes": 635880,
+      "sha256": "8414ecdf2d4f2e31f5e727c6654d810d40fe84d1704c73fbae924cb0d71574a8"
+    },
+    "services_total_nsa_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/services_total_nsa_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:33Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:05 GMT",
+      "etag": "\"924f0-659e1da491440\"",
+      "content_type": "application/zip",
+      "bytes": 599280,
+      "sha256": "9b0f933625c710dc3ff38899530feeb3bcef31b6442d71661855a93fe91c0f3a"
+    },
+    "services_total_sa_nace2.zip": {
+      "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2608/services_total_sa_nace2.zip",
+      "retrieved_at_utc": "2026-09-12T08:53:32Z",
+      "http_status": "HTTP/1.1 200 OK",
+      "last_modified": "Tue, 25 Aug 2026 16:47:05 GMT",
+      "etag": "\"96813-659e1da491440\"",
+      "content_type": "application/zip",
+      "bytes": 616467,
+      "sha256": "8fe5bc822925c4af507c67bd2886215e44149b0162b734b1b3890e1e83a243c9"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+ticker,alias,requested_start,requested_end,retrieved_at,status,observations,first_date,last_date,last_value,lag_calendar_days,maximum_quote_gap_days,null_rows
+EUI6CZ Index,production_observed_past3m,2000-01-01,2026-09-09,2026-09-10T14:22:16.545814+00:00,ok,320,2000-01-31,2026-08-31,15.6,9,31,0
+EUI1CZ Index,production_expected_next3m,2000-01-01,2026-09-09,2026-09-10T14:22:17.435127+00:00,ok,320,2000-01-31,2026-08-31,3.0,9,31,0
+EUS1CZ Index,services_business_situation_past3m,2000-01-01,2026-09-09,2026-09-10T14:22:18.063272+00:00,ok,292,2002-05-31,2026-08-31,57.6,9,31,0
+EUS2CZ Index,services_demand_past3m,2000-01-01,2026-09-09,2026-09-10T14:22:18.739857+00:00,ok,292,2002-05-31,2026-08-31,18.8,9,31,0
+EUR1CZ Index,retail_sales_past3m,2000-01-01,2026-09-09,2026-09-10T14:22:19.478447+00:00,ok,320,2000-01-31,2026-08-31,27.8,9,31,0
+EUB1CZ Index,building_activity_past3m,2000-01-01,2026-09-09,2026-09-10T14:22:20.121144+00:00,ok,320,2000-01-31,2026-08-31,30.5,9,31,0
+EUB5F4CZ Index,building_constraint_labour,2000-01-01,2026-09-09,2026-09-10T14:22:20.813765+00:00,ok,320,2000-01-31,2026-08-31,37.9,9,31,0
+EUB5F5CZ Index,building_constraint_material_equipment,2000-01-01,2026-09-09,2026-09-10T14:22:21.433217+00:00,ok,320,2000-01-31,2026-08-31,4.2,9,31,0
+EUB5F6CZ Index,building_constraint_other_diagnostic,2000-01-01,2026-09-09,2026-09-10T14:22:22.108548+00:00,ok,320,2000-01-31,2026-08-31,19.3,9,31,0
+EUB5F7CZ Index,building_constraint_financial,2000-01-01,2026-09-09,2026-09-10T14:22:22.656952+00:00,ok,320,2000-01-31,2026-08-31,2.4,9,31,0
+EUCCCZ Index,consumer_financial_situation_next12m,2000-01-01,2026-09-09,2026-09-10T14:22:23.334035+00:00,ok,320,2000-01-31,2026-08-31,-8.1,9,31,0
+UMRTCZ Index,unemployment_rate,2000-01-01,2026-09-09,2026-09-10T14:22:23.971794+00:00,ok,319,2000-01-31,2026-07-31,3.3,40,31,0
+CZRUSHIN Index,rushin_weekly,2000-01-01,2026-09-09,2026-09-10T14:22:25.144141+00:00,ok,946,2008-06-30,2026-08-10,0.64,30,7,0

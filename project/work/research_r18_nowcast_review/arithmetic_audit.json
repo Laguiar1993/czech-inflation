@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "origins": 90,
+  "models": 4,
+  "own_scales_verified": 360,
+  "laws_verified": 1080,
+  "estimated_laws_verified": 792,
+  "eligible_dates_per_model_family": [
+    66
+  ],
+  "score_rows_verified": 72,
+  "alert_rows_verified": 144,
+  "maximum_absolute_differences": {
+    "support": 1.7763568394002505e-15,
+    "weights": 5.551115123125783e-17,
+    "metrics": 9.237055564881302e-14,
+    "summaries": 4.440892098500626e-16,
+    "alerts": 0.0
+  },
+  "limitations": [
+    "Release clocks and source vintages remain reconstructed assumptions; no live prospective claim.",
+    "False alarm here means alert on non-big outcome, not necessarily negative material gain; material wins/losses are separately reported.",
+    "Empirical probabilities and intervals are experimental and not guaranteed calibrated or conformal."
+  ]
+}

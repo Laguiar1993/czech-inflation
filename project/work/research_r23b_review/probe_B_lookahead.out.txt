@@ -1,0 +1,33 @@
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\pythonlibs\scipy\optimize\_lsq\trf_linear.py:116: RuntimeWarning: invalid value encountered in multiply
+  r_h = p_h + r_h * r_stride
+##### B look-ahead
+   2019-02 clock 2019-03-10 23:59:00: poisoned cells {'core': 90, 'fx': 90, 11: 90, 17: 30, 26: 90, 47: 90}; bit-identical=True; features=[4.9906, 0.6, -1.5012, -1.5975, -0.4073, -3.2699, -1.6922]
+   2021-06 clock 2021-07-12 23:59:00: poisoned cells {'core': 62, 'fx': 62, 11: 62, 17: 20, 26: 62, 47: 62}; bit-identical=True; features=[1.2362, -0.6, 0.4583, 5.015, -1.8296, -2.5864, -0.1226]
+   2023-01 clock 2023-02-09 23:59:00: poisoned cells {'core': 43, 'fx': 43, 11: 43, 17: 14, 26: 43, 47: 43}; bit-identical=True; features=[-8.3743, -0.1, -5.5017, -8.3535, -1.6927, -0.8395, 1.1811]
+   2026-07 clock 2026-08-04 23:59:00: poisoned cells {'core': 1, 'fx': 1, 11: 1, 17: 0, 26: 1, 47: 1}; bit-identical=True; features=[4.3622, -0.3, 4.1829, 2.442, -0.4245, -2.092, -1.5863]
+[PASS] B1 features bit-identical under 1e12 poison of every unpublished/future source cell, all 199 origins :: []
+[PASS] B1 features_at on the frozen inputs reproduces features.csv bit for bit, all 199 origins :: []
+[PASS] B1 poison is live: moving origin and clock three months forward over the same poisoned inputs contaminates the features :: 196 of 196 origins
+[PASS] B2 training.csv: last_target = training origin + 3*band
+[PASS] B2 training.csv: last target month <= origin-1 for every outer row (band-specific maturity)
+[PASS] B2 training.csv: label release <= decision clock for every outer row
+[PASS] B2 training.csv: recorded release equals the calendar release of the last target month
+[PASS] B2 training.csv: as_of equals the origin clock in feature_clocks.csv
+[PASS] B2 training.csv: only quarter-end training origins, 24..40 rows per origin-band, no duplicates
+   months between the newest outer label's last target and t-1, by band: {1: {0: 30, 1: 30, 2: 30}, 2: {0: 30, 1: 30, 2: 30}}
+   smallest gap (days) between decision clock and newest used label release: 21 days 14:59:00
+[PASS] B2 inner_validation.csv: every validation origin is one of that origin-band's outer training rows
+[PASS] B2 inner: validation label matured at the OUTER clock (target month <= t-1 and released)
+[PASS] B2 inner: last inner training target = last inner origin + 3*band and <= validation origin - 1
+[PASS] B2 inner: newest inner label release <= the validation origin's own clock
+[PASS] B2 inner: validation clock equals that origin's clock in feature_clocks.csv
+[PASS] B2 inner: 16..40 inner rows, exactly 8 folds x 5 penalties per origin-model-band
+[PASS] B2 inner: validation label release strictly after the validation origin's own clock (genuinely out of sample)
+[PASS] B3 2019-02: run_origin with 180 unmatured labels and all later feature rows poisoned equals fits.jsonl exactly
+[PASS] B3 2021-06: run_origin with 124 unmatured labels and all later feature rows poisoned equals fits.jsonl exactly
+[PASS] B3 2023-01: run_origin with 86 unmatured labels and all later feature rows poisoned equals fits.jsonl exactly
+[PASS] B3 2026-07: run_origin with 2 unmatured labels and all later feature rows poisoned equals fits.jsonl exactly
+[PASS] B3 2020-03: run_origin with 154 unmatured labels and all later feature rows poisoned equals fits.jsonl exactly
+[PASS] B3 2024-12: run_origin with 40 unmatured labels and all later feature rows poisoned equals fits.jsonl exactly
+[PASS] B3 per-fold: poisoning every label not matured at the fold's own clock leaves that fold's saved losses unchanged :: 960 fold-penalty losses, max abs diff=0.000e+00
+##### B look-ahead: 23 passed, 0 failed, 0 notes

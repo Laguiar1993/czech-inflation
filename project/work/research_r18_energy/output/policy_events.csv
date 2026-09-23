@@ -1,0 +1,2 @@
+event_id,policy_id,action,effective_month,item,products,kind,value,unit,published_at,treatment_known_at,available_from,source,assumption
+POZE_ZERO_2026,POZE_ZERO,start,2026-01,electricity,(),levy_waiver,1.0,fraction,2025-12-29 23:59:59+00:00,2025-12-29 23:59:59+00:00,2025-12-29 23:59:59+00:00,https://eru.gov.cz/kopie-z-energeticky-regulacni-vestnik-192025,Dated adopted zero POZE; R17 original decree archive. Base levy cap binding is assumed.

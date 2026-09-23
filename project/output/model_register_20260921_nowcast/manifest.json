@@ -1,0 +1,41 @@
+{
+ "created_at_utc": "2026-09-21T08:34:51.375813+00:00",
+ "inputs": {
+  "forecasts": "77ac26bc05906616a07d8f4b33ab6f2eb10b97141295022e172d53461f3e6e98",
+  "evidence": "ea4ffcb4b83d0ae05dcf16e55c35fc7d7b0ba12d79566546868ab6f338c1b4a5",
+  "fixtures": {
+   "alcohol_tobacco.csv": "1a3f7cfd8eeb3419077359f8a12968182d997495007b462418f5261c187fe115",
+   "cnb_core_mm.csv": "720f615c3acbcad1027753d49792c4b9c023dda3d1b38a5279cce6ecfbf7ee28",
+   "cnb_regulated_mm.csv": "74773b38a1fea1f1ebb09d220aa90409eb3318a697b35ec2b8e1f20e781850db",
+   "component_food_fuel_mm.csv": "21699e9cd2bc1c87848834113ff2933ab587901adc40616f3ba63384441a419b",
+   "core_features.csv": "09bdfeb3353eaaa2ab3b08d815480198ab1dde0d12f59fac08c8651e59dddf23",
+   "food_block_features.csv": "a34a50e425650eda7b9ca400f51cb191bba633e6ead07a12b46a75e4184c9537",
+   "fuel_weekly.csv": "a017a7bfd2054097752c0d18ab0d9c42a9a589280c22ae9fce87c6c1ddac8995",
+   "headline_extended_and_states.csv": "dab64ba59634410ee2a183724b5ee2463e24a8c20bb188dab0ab4bab2ad89e94",
+   "slow_block_features_h6h12.csv": "ea1bdff7aed5325193c91e34cd61c5ab40ca91a498e50e38e0a0213d89e99af3",
+   "smooth_features.csv": "96a2d7f4cfbf87410c4f2f692b688d3dbd313cda41e2f1cb0f854f601268703b",
+   "target_headline_cpi_mm.csv": "0f5f17def39668352b95d3e63278eec66016251d2d4296fb03e59b8a37e5c6eb"
+  },
+  "runtime": {
+   "python": "3.12.14",
+   "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "statsmodels": "0.15.0",
+    "quantile-forest": "1.4.2"
+   },
+   "x13_sha256": "2e43194361ee096797f0431765193c316196ea6776f11535e76281a413d49669"
+  }
+ },
+ "code": "80228280c6283db16c3ee0379b82e671250de4103b5cc2ae9806e27b6f76d9da",
+ "outputs": {
+  "bloomberg_run.csv": "45e3e364e468da8de92274063bb4f7a0c96ffbbaa746b7577bc0b2ccf580a476",
+  "comparison.csv": "7712f4ab36ef714c57b2eefab32c7511c3f37e8b31c66b26d0a91e3783e3f4c8",
+  "frozen_run.csv": "8dfb271d714892108c486123d2961f4c27f051b30b3e88941259724aa7b61db4",
+  "scores.csv": "9c0442d460fb6f66b2b65220fdc25e7f4f1bcbd636622b2f2808ffa2e9f81835",
+  "substitutions.csv": "f46ad5baefb4afe59dde199db34977efd4a3e04e07a629aeec4a652182f88076",
+  "summary.json": "780861bd9682247b16418eee090f6c170b90433efee7e4bb9550dac5f7f6048f"
+ }
+}

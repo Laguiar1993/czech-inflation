@@ -1,0 +1,155 @@
+{
+  "Czech Republic CPI Actual Rentals for Housing": [
+    {
+      "security": "CP41CZ<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic"
+    },
+    {
+      "security": "CP41CZMM<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic MoM"
+    },
+    {
+      "security": "CP41CZYY<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic YoY"
+    }
+  ],
+  "Czech Republic CPI Imputed Rentals": [],
+  "Czech Republic CPI Catering Services": [
+    {
+      "security": "CP1SCZ<index>",
+      "description": "EU CPI Catering Services Czech Republic"
+    },
+    {
+      "security": "CP1SCZMM<index>",
+      "description": "EU CPI Catering Services Czech Republic MoM"
+    },
+    {
+      "security": "CP1SCZYY<index>",
+      "description": "EU CPI Catering Services Czech Republic YoY"
+    }
+  ],
+  "Czech Republic CPI Accommodation Services": [
+    {
+      "security": "CP1ACZ<index>",
+      "description": "EU CPI Accommodation Services Czech Republic"
+    },
+    {
+      "security": "CP1ACZMM<index>",
+      "description": "EU CPI Accommodation Services Czech Republic MoM"
+    },
+    {
+      "security": "CP1ACZYY<index>",
+      "description": "EU CPI Accommodation Services Czech Republic YoY"
+    },
+    {
+      "security": "CPHACZ<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic"
+    },
+    {
+      "security": "CPHACZMM<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic MoM"
+    },
+    {
+      "security": "CPHACZYY<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic YoY"
+    }
+  ],
+  "Czech Republic CPI Package Holidays": [
+    {
+      "security": "CP96CZ<index>",
+      "description": "EU CPI Package Holidays Czech Republic"
+    },
+    {
+      "security": "CP96CZMM<index>",
+      "description": "EU CPI Package Holidays Czech Republic MoM"
+    },
+    {
+      "security": "CP96CZYY<index>",
+      "description": "EU CPI Package Holidays Czech Republic YoY"
+    },
+    {
+      "security": "CPHACZ<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic"
+    },
+    {
+      "security": "CPHACZMM<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic MoM"
+    },
+    {
+      "security": "CPHACZYY<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic YoY"
+    }
+  ],
+  "Czech CPI Rentals": [
+    {
+      "security": "CP41CZ<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic"
+    },
+    {
+      "security": "CP41CZMM<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic MoM"
+    },
+    {
+      "security": "CP41CZYY<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic YoY"
+    }
+  ],
+  "Czech Republic CPI Restaurants": [
+    {
+      "security": "CZCPRH15<index>",
+      "description": "Czech Republic CPI Restaurants & Hotels COICOP 1999"
+    },
+    {
+      "security": "CZCPSH<index>",
+      "description": "Czech Republic CPI Restaurants & Hotels"
+    },
+    {
+      "security": "CZCPSMOM<index>",
+      "description": "Czech Republic CPI Restaurants & Hotels MoM"
+    },
+    {
+      "security": "CZCPSYOY<index>",
+      "description": "Czech Republic CPI Restaurants & Hotels YoY"
+    },
+    {
+      "security": "OECZGGCU<index>",
+      "description": "OECD Czech Rep CPI Goods Food Excluding Restaurants Growth Rate"
+    },
+    {
+      "security": "OECZGGCV<index>",
+      "description": "OECD Czech Rep CPI Goods Food Excluding Restaurants YoY"
+    },
+    {
+      "security": "OECZGGCW<index>",
+      "description": "OECD Czech Rep CPI Goods Food Excluding Restaurants Index"
+    },
+    {
+      "security": "CP1RCZ<index>",
+      "description": "EU CPI Restaurants Cafes & the Like Czech Republic"
+    },
+    {
+      "security": "CP1RCZMM<index>",
+      "description": "EU CPI Restaurants Cafes & the Like Czech Republic MoM"
+    },
+    {
+      "security": "CP1RCZYY<index>",
+      "description": "EU CPI Restaurants Cafes & the Like Czech Republic YoY"
+    },
+    {
+      "security": "CPHRCZ<index>",
+      "description": "Eurostat Czech Republic HICP Restaurants & Hotels NSA"
+    },
+    {
+      "security": "CPHRCZM<index>",
+      "description": "Eurostat Czech Republic HICP Restaurants & Hotels MoM NSA"
+    },
+    {
+      "security": "CPHRCZY<index>",
+      "description": "Eurostat Czech Republic HICP Restaurants & Hotels YoY NSA"
+    },
+    {
+      "security": "CZCPHOTL<index>",
+      "description": "Czech Contribution to Change in CPI Restaurants & Hotels YoY"
+    }
+  ]
+}

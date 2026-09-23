@@ -1,0 +1,18 @@
+
+ X-13ARIMA-SEATS Seasonal Adjustment Program
+ Version Number 1.1 Build 62
+ Execution began  Sep 22, 2026  22.39.30 
+
+  Reading input spec file from series.spc
+  Storing any program output into series.out
+  Storing any program error messages into series.err
+  Storing any diagnostics output into series.udg
+
+  
+ WARNING: At least one visually significant trading day peak has been
+          found in the estimated spectrum of the regARIMA residuals.
+  
+ WARNING: At least one visually significant trading day peak has been
+          found in one or more of the estimated spectra.
+
+ Execution complete for series.spc at  Sep 22, 2026  22.39.31 

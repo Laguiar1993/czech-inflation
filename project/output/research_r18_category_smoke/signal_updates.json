@@ -1,0 +1,62 @@
+[
+  {
+    "origin": "2019-02",
+    "status": "fallback_insufficient_labels",
+    "correction": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "h": 1,
+    "n": 0
+  },
+  {
+    "origin": "2019-03",
+    "status": "fallback_insufficient_labels",
+    "correction": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "h": 1,
+    "n": 0
+  },
+  {
+    "origin": "2019-04",
+    "status": "fallback_insufficient_labels",
+    "correction": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "h": 1,
+    "n": 1
+  }
+]

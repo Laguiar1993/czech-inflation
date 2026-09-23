@@ -1,0 +1,7 @@
+{
+  "note": "Round 12 of the 12 Sep 2026 probe: the CNB fixing tickers named by the user (EURCZKF Curncy) and its USD analogue (USDCZKF Curncy, a pattern probe), daily, to test against the CNB daily fixing files.",
+  "candidates": {"cnb_fixing": ["EURCZKF Curncy", "USDCZKF Curncy"]},
+  "daily": ["EURCZKF Curncy", "USDCZKF Curncy"],
+  "searches": [],
+  "max_results": 15
+}

@@ -1,0 +1,20 @@
+{
+  "note": "Round 2 of the 12 Sep 2026 probe: tickers found by the round-1 instrument search, plus published m/m and y/y series.",
+  "candidates": {
+    "headline_published": ["CZCPMOM Index", "CZCPYOY Index"],
+    "regulated_prices": ["CZCIRM Index", "CZCIRY Index", "CZCIRCM Index"],
+    "hicp_core_administered_fuel": ["CPEXCZ Index", "CPEXCZM Index", "CPAPCZ Index", "CPAPCZMM Index", "CP7FCZ Index", "CP7FCZMM Index"],
+    "import_prices_published": ["CZEIIMOM Index", "CZEIIYOY Index"],
+    "pump_prices_ec_oil_bulletin": ["ECOBETCZ Index", "ECOBOTCZ Index", "ECOBEFCZ Index", "ECOBOFCZ Index"],
+    "repo_rate": ["CZBRREPO Index"],
+    "real_effective_exchange_rate": ["BISBCZR Index", "OECZFRAA Index", "BRERCZ Index"],
+    "trade_balance_bop": ["CZCMTRBA Index"],
+    "agricultural_ppi": ["CZPPAYOY Index"],
+    "household_loans": ["LONSCZHH Index", "CZHHHHTV Index"]
+  },
+  "daily": ["ECOBETCZ Index", "ECOBOTCZ Index", "ECOBEFCZ Index", "ECOBOFCZ Index", "CZBRREPO Index"],
+  "searches": ["Czech Inflation", "Czech Inflation Core", "Czech core inflation MoM", "Czech CPI Food MoM",
+               "Czech CPI Alcoholic Beverages MoM", "Czech Inflation Food", "Czech Inflation Fuel", "Czech services inflation",
+               "Czech koruna fixing", "CZK fixing rate", "Czech Republic CPI MoM"],
+  "max_results": 40
+}

@@ -1,0 +1,13 @@
+{
+  "note": "22 Sep 2026, second PPI probe: the Eurostat manufacturing (NACE C) family found by the Terminal's instrument search, in every concept letter the naming pattern implies (P domestic level, M domestic m/m, Y domestic y/y, A total m/m, T total level, N non-domestic level, C/D non-domestic changes), plus the OECD manufacturing PPI candidates and the CZSO manufacturing PPI m/m and y/y tickers.",
+  "candidates": {
+    "eurostat_manufacturing_C": ["EPM00CCZ Index", "EPP00CCZ Index", "EPY00CCZ Index", "EPA00CCZ Index", "EPT00CCZ Index", "EPN00CCZ Index", "EPC00CCZ Index", "EPD00CCZ Index", "EPB00CCZ Index", "EPE00CCZ Index"],
+    "eurostat_bc_and_bd": ["EPM0BCCZ Index", "EPP0BCCZ Index", "EPM0BDCZ Index", "EP30BDCZ Index", "EPA0BCCZ Index", "EPNBC2CZ Index", "EPPBC2CZ Index"],
+    "oecd_manufacturing": ["OECZPEBQ Index", "OECZPEBR Index", "OECZPEBS Index", "OECZPEBU Index", "OECZPEBV Index"],
+    "czso_manufacturing": ["CZPPCM Index", "CZPPCY Index", "CZPPCMOM Index", "CZPPCYOY Index"]
+  },
+  "daily": [],
+  "searches": ["Eurostat Domestic PPI Manufacturing Czech", "Eurostat PPI Manufacturing Czech Rep"],
+  "max_results": 15,
+  "history_start": "1990-01-01"
+}

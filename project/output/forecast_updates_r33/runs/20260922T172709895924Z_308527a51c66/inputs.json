@@ -1,0 +1,11 @@
+{
+  "bundle_manifest_sha256": "3ab4d5971aa24bc6c2d9fd5d6650349c8b0b2584d2869497ac89355e6ccb00d5",
+  "live_calendar_sha256": null,
+  "source_hashes": {
+    "cz_struct.py": "276e69f480d32b9cad72003fb0e88cfc174d1126a72c70a56711ad18b8f48307",
+    "forecast_independent.py": "113a724c6a2bfeba2ca908b12ce9df5628093ad702d6ffd8d6fbc8e4353cfec0",
+    "tools/live_bundle_r32/adapter.py": "5a59901a96da38e9073f63703ee86f2465660f81743ba67aa46c8d023b064855",
+    "tools/live_bundle_r32/cli.py": "12522e4c51af506d7c60911d01d7289075a86b896c65080ca4d989ad4e4e48dc",
+    "tools/live_bundle_r32/runner.py": "290770471a5452628a2eb5f2863af6c6f751cf323dfc4dc29f35b269030b5eae"
+  }
+}

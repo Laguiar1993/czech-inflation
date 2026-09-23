@@ -1,0 +1,26 @@
+{
+  "roster": [
+    "STATE_FAST_R15",
+    "FOOD_ECM_R27",
+    "CORE_LEVELPHASE_FIXED040_R29B",
+    "CORE_LEVELPHASE_FIXED060_R29B",
+    "CORE_LEVELPHASE_FIXED080_R29B",
+    "CORE_LEVELPHASE_PANEL_R29B"
+  ],
+  "primary_calendar": "Original R16 annual-headline969row support, not filtered by a new model.",
+  "errors": "Forecast minus actual in percentage points. Show failures separately; matched comparisons require identical finite support.",
+  "core": "Monthly core and cumulative log core h1..h, original frozen target. Underlying bands subtract own-origin saved R15 seasonality.",
+  "bootstrap": "Circular blocks on consecutive monthly origins: 12 months from 48 observations, 6 from 24, no interval below 24; 2000 draws, seed 1509.",
+  "sustained": "Bands1to3 change>=.5pp annualized, without opposite adjacent>=.5pp. Additional to strict exact-turn test.",
+  "cnb": "Both clocks; same-origin quarter means;0.15pp absolute-error materiality; repeated quarters dependent; every-report omission.",
+  "limitations": [
+    "R29B: core persistence conditioned on the level of upstream producer-price momentum (building above 2% a year), on the research roster frame, original 90 origins and 969 primary keys. Only the core block of h1-12 changes. Historical research, not a live record.",
+    "The phase at an origin is read from the last published producer-price month: six-month momentum above 1.0 log point (2% a year) is building, otherwise fading. Fixed weight pairs (1.0 building; 0.4, 0.6, 0.8 fading) are candidates; the panel pair uses pooled slopes on the frozen R25 EU-panel rows split by the same phase and is scored only if the panel separates the phases.",
+    "The Czech core path becomes norm + weight x (FAST - norm) band by band, with a fixed 2%-a-year norm or the own-history norm, converted back with the origin\u2019s own seasonal pattern as in R25. Fixed weight pairs (1.0 building; 0.4, 0.6, 0.8 fading) are run for the specificity condition.",
+    "Judged by the R26 promotion rule against FAST\u2019s core block, block first. No survey, expectations series or CNB forecast enters any candidate.",
+    "Lead tables flag abs(model-CNB)>=0.30pp (0.50 sensitivity) against the immediately next CNB report for the same still-future quarter, with base-rate rows passed through the same rules.",
+    "Defaults show the roster frame with the phase-conditioned 2%-norm candidate; no promotion is implied by the display."
+  ],
+  "cnb_lead": ".30 and .50 ex-ante deviation thresholds; immediate next report, same target beyond next report quarter; .15pp closer CNB revision and separate eventual .15pp absolute-error improvement; first calls deduplicated by model/clock/target/direction streak; base-rate rows flagged is_baseline.",
+  "samples": "full; origins 2019-2021; origins 2022-2023; origins from 2024."
+}

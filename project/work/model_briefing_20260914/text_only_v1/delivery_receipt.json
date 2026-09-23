@@ -1,0 +1,14 @@
+{
+  "vectorized_turn_rows_verified": 5580,
+  "corrected_nowcast_parity_rows": 24,
+  "status": "pass",
+  "sources_unchanged": true,
+  "quarterly_actual_reconstruction_max_pp": 3.907985046680551e-14,
+  "briefing_sha256": "b66285d551050a1092ada59a8d7c915982285867ec382201d163612fcbfa124c",
+  "pdf_sha256": "5a379aec6d418d3f610a91b55ed0e1812e4f678d491cce14691e9281245b3541",
+  "pdf_pages": 10,
+  "pdf_visual_review": "All 10 rendered pages inspected: legible tables, no clipping or overlapping text",
+  "local_links_verified": 8,
+  "analysis_manifest_sha256": "233a287bedbff2fe1f526f404d2da20f7f0b8743170c6951cc28a5ff130f9b57",
+  "prior_r15_r16_r17_integrity": "passed"
+}

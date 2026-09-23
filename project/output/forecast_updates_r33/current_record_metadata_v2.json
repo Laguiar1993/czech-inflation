@@ -1,0 +1,59 @@
+{
+  "bundle": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\forecast_updates_r33\\current_bundle_20260922_v2",
+  "calendar": {
+    "available_from": "2026-09-22T17:50:00.528349+00:00",
+    "detail_release_dt": "2026-10-13T09:00:00+02:00",
+    "first_release_dt": "2026-10-06T09:00:00+02:00",
+    "source": "https://csu.gov.cz/statistika/information_for_media | https://csu.gov.cz/rychle-informace/consumer-price-indices-inflation-august-2026",
+    "target_month": "2026-09"
+  },
+  "forecast_as_of": "2026-09-22T17:50:01.527361+00:00",
+  "forecast_run": "C:\\Users\\luis_\\Documents\\Codex\\2026-09-05\\c-users-luis-appdata-local-temp\\work\\cpi-independent\\output\\forecast_updates_r33\\runs\\20260922T175001527361Z_7c5389d7016a",
+  "limitations": [
+    "Latest-vintage Bloomberg data with publication rules; historical clocks are reconstructed replay, not a prospective archive.",
+    "Readiness never extrapolates missing monthly observations or invents release dates.",
+    "Farm prices, documented energy announcements, basket weights and X13 remain external/static requirements.",
+    "This entry point calculates h0 only; it does not refresh sources or extend the monthly path."
+  ],
+  "manual_inputs": [
+    {
+      "available_from": "2026-09-22T17:43:58.430957+00:00",
+      "observation_month": "2026-08",
+      "series": "core",
+      "source": "https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes?snList=&periodFrom=1735689600000&periodTo=1790099025959&roleId=U&type=single&setParams=&chartData=SCPIMZM09MOMPECNA%3A0 ; sha256=7bbb3a3a1216e41b68d03b19f88b8c2ef4e8e931d22780c90e699cbc378d29f3",
+      "units": "mm_pct",
+      "value": "0.3"
+    },
+    {
+      "available_from": "2026-09-22T17:43:58.430957+00:00",
+      "observation_month": "2026-08",
+      "series": "regulated",
+      "source": "https://www.cnb.cz/aradb/api/v13/indicators-data-by-codes?snList=&periodFrom=1735689600000&periodTo=1790099025959&roleId=U&type=single&setParams=&chartData=SCPIMZM02MOMPECNA%3A0 ; sha256=1654fa44e93e002447227cca6dccd80311edb4472f96f2649de4d9d085b3f107",
+      "units": "mm_pct",
+      "value": "0"
+    }
+  ],
+  "mode": "prospective",
+  "model": "HARD_BASE",
+  "model_identity": "875bfacfa4355febadfbe80423967d84b651227e9efc264ed8397653e3dea782",
+  "point": -0.2042311894134946,
+  "raw_capture_completed_at": "2026-09-22T17:26:40.547842+00:00",
+  "recorded_at": "2026-09-22T17:53:33.089371+00:00",
+  "recording_completed_at": "2026-09-22T17:50:14.588539+00:00",
+  "recording_started_at": "2026-09-22T17:50:01.527361+00:00",
+  "source_gates": {
+    "as_of_not_future_at_recording": true,
+    "calendar_known_by_as_of": true,
+    "completed_before_first_release": true,
+    "component_conservation": true,
+    "manual_observations_available_by_as_of": true,
+    "no_hard_residual_fallback": true,
+    "prospective_recording_within_300_seconds": true,
+    "published": true,
+    "real_model_ready": true,
+    "snapshot_completed_by_as_of": true,
+    "x13_no_food_fallback": true
+  },
+  "target": "2026-09",
+  "units": "mm_pct"
+}

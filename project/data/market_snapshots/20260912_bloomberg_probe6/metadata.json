@@ -1,0 +1,105 @@
+{
+  "OECZRUAX Index": {
+    "name": "OECD Czech Rep Labour Force Su",
+    "security_des": "OECD Czech Rep Labour Force Su",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2024-09-30",
+    "country": "CZ"
+  },
+  "OECZRUAW Index": {
+    "name": "OECD Czech Rep Labour Force Su",
+    "security_des": "OECD Czech Rep Labour Force Su",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2024-09-30",
+    "country": "CZ"
+  },
+  "OECZFRAB Index": {
+    "name": "OECD Czech Rep Real Effective",
+    "security_des": "OECD Czech Rep Real Effective",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2026-06-30",
+    "country": "CZ"
+  },
+  "OEEOCZXA Index": {
+    "name": "OECD Eco Outlook Czech Rep Rea",
+    "security_des": "OECD Eco Outlook Czech Rep Rea",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Quarterly",
+    "last_update_dt": "2027-12-31",
+    "country": "CZ"
+  },
+  ".REER_CZK G Index": {
+    "name": "Czech Koruna REER (BIS)",
+    "security_des": ".REER_CZK",
+    "last_update_dt": "2010-09-30"
+  },
+  "CP1SCZ Index": {
+    "name": "EU CPI Catering Services Czech",
+    "security_des": "EU CPI Catering Services Czech",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP1SCZMM Index": {
+    "name": "EU CPI Catering Services Czech",
+    "security_des": "EU CPI Catering Services Czech",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP1ACZ Index": {
+    "name": "EU CPI Accommodation Services",
+    "security_des": "EU CPI Accommodation Services",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "Index NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "CP1ACZMM Index": {
+    "name": "EU CPI Accommodation Services",
+    "security_des": "EU CPI Accommodation Services",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "MoM% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  },
+  "OECZGSJM Index": {
+    "name": "OECD Czech Rep CPI Services Le",
+    "security_des": "OECD Czech Rep CPI Services Le",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2018-05-31",
+    "country": "CZ"
+  },
+  "OECZGSHA Index": {
+    "name": "OECD Czech Rep CPI Services Re",
+    "security_des": "OECD Czech Rep CPI Services Re",
+    "indx_source": "Organisation for Economic Co-o",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2018-05-31",
+    "country": "CZ"
+  },
+  "CPNGCZYY Index": {
+    "name": "EU CPI Non Energy Industrial G",
+    "security_des": "EU CPI Non Energy Industrial G",
+    "indx_source": "Eurostat",
+    "seasonality_and_transformation": "YoY% NSA",
+    "indx_freq": "Monthly",
+    "last_update_dt": "2026-07-31",
+    "country": "CZ",
+    "des_notes": "The harmonised index of consumer prices (HICP), used primarily within the European Union, is a measure of prices paid by consumers for a market basket of goods and services. It is calculated using the same methodology across countries to allow for comparable measures of inflation. The yearly (or monthly) growth rates represent the inflation rate."
+  }
+}

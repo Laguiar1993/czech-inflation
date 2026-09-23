@@ -1,0 +1,75 @@
+CNB pairs, stored summary (context only):
+model                                   DAMPED_P95_Q001_R16  FOOD_NORM_REFIT_R24  FOOD_NORM_SHIFT_R24  FOOD_ROBUST_WINDOW_R24  FOOD_ZERO_DRIFT_R24  STABLE_LOCAL_CORE_R14B  STATE_FAST_R15    cnb
+sample           clock  quarters_ahead                                                                                                                                                           
+full             cutoff 3                             1.298                1.425                1.423                   1.440                1.469                   1.726           1.488  1.109
+                        4                             1.674                1.455                1.452                   1.478                1.460                   2.169           1.657  1.484
+                        all                           1.276                1.262                1.260                   1.271                1.287                   1.540           1.335  1.061
+                 report 3                             1.270                1.296                1.295                   1.316                1.358                   1.577           1.354  1.109
+                        4                             1.723                1.508                1.508                   1.532                1.534                   2.060           1.661  1.484
+                        all                           1.246                1.206                1.206                   1.217                1.241                   1.432           1.260  1.061
+reports_2024plus cutoff 3                             0.445                0.412                0.408                   0.415                0.399                   0.368           0.514  0.319
+                        4                             0.461                0.399                0.392                   0.380                0.464                   0.426           0.572  0.371
+                        all                           0.336                0.313                0.308                   0.303                0.343                   0.278           0.384  0.287
+                 report 3                             0.449                0.401                0.401                   0.404                0.522                   0.352           0.446  0.319
+                        4                             0.575                0.459                0.457                   0.441                0.632                   0.391           0.542  0.371
+                        all                           0.362                0.322                0.321                   0.313                0.411                   0.275           0.346  0.287
+model                                   DAMPED_P95_Q001_R16  FOOD_NORM_REFIT_R24  FOOD_NORM_SHIFT_R24  FOOD_ROBUST_WINDOW_R24  FOOD_ZERO_DRIFT_R24  STABLE_LOCAL_CORE_R14B  STATE_FAST_R15   cnb
+sample           clock  quarters_ahead                                                                                                                                                          
+full             cutoff 3                              16.0                 16.0                 16.0                    16.0                 16.0                    16.0            16.0  16.0
+                        4                              15.0                 15.0                 15.0                    15.0                 15.0                    15.0            15.0  15.0
+                        all                            66.0                 66.0                 66.0                    66.0                 66.0                    66.0            66.0  66.0
+                 report 3                              16.0                 16.0                 16.0                    16.0                 16.0                    16.0            16.0  16.0
+                        4                              15.0                 15.0                 15.0                    15.0                 15.0                    15.0            15.0  15.0
+                        all                            66.0                 66.0                 66.0                    66.0                 66.0                    66.0            66.0  66.0
+reports_2024plus cutoff 3                               8.0                  8.0                  8.0                     8.0                  8.0                     8.0             8.0   8.0
+                        4                               7.0                  7.0                  7.0                     7.0                  7.0                     7.0             7.0   7.0
+                        all                            34.0                 34.0                 34.0                    34.0                 34.0                    34.0            34.0  34.0
+                 report 3                               8.0                  8.0                  8.0                     8.0                  8.0                     8.0             8.0   8.0
+                        4                               7.0                  7.0                  7.0                     7.0                  7.0                     7.0             7.0   7.0
+                        all                            34.0                 34.0                 34.0                    34.0                 34.0                    34.0            34.0  34.0
+['model', 'clock', 'threshold', 'sample', 'scope', 'considered_pairs', 'all_calls', 'calls_without_eligible_revision', 'n_pairs', 'n_reports', 'n_target_quarters', 'calls', 'revision_direction_matches', 'revision_confirmations', 'mature_calls', 'material_gains', 'material_losses', 'joint_successes', 'unconfirmed_calls', 'mean_abs_error_gain']
+                 model  clock           sample  calls  revision_confirmations  mature_calls  material_gains  material_losses  joint_successes  mean_abs_error_gain
+          CNB_MOMENTUM cutoff             full     28                       3            19               6               11                1             0.045759
+               CONST_2 cutoff             full     28                       9            19               6               12                3            -0.876227
+   DAMPED_P95_Q001_R16 cutoff             full     15                       7            14               3               11                2            -0.140580
+   FOOD_NORM_REFIT_R24 cutoff             full     17                       7            16               6               10                3            -0.220724
+   FOOD_NORM_SHIFT_R24 cutoff             full     18                       7            17               6               11                3            -0.213480
+FOOD_ROBUST_WINDOW_R24 cutoff             full     18                       7            17               6               10                3            -0.244707
+   FOOD_ZERO_DRIFT_R24 cutoff             full     24                       8            21               6               14                5            -0.257672
+              PREV_CNB cutoff             full     28                      11            19               3               15                1            -1.127079
+                 RW_YY cutoff             full     39                      19            28               7               19                6            -2.692347
+STABLE_LOCAL_CORE_R14B cutoff             full     20                       7            18               6               12                1            -0.666778
+        STATE_FAST_R15 cutoff             full     20                       6            19               5               11                2            -0.288840
+          CNB_MOMENTUM report             full     28                       3            19               6               11                1             0.045759
+               CONST_2 report             full     28                       9            19               6               12                3            -0.876227
+   DAMPED_P95_Q001_R16 report             full     18                      10            17               3               13                2            -0.184171
+   FOOD_NORM_REFIT_R24 report             full     17                       9            17               6               11                3            -0.136113
+   FOOD_NORM_SHIFT_R24 report             full     19                      10            19               6               12                3            -0.129821
+FOOD_ROBUST_WINDOW_R24 report             full     20                      10            19               6               11                3            -0.138409
+   FOOD_ZERO_DRIFT_R24 report             full     21                      10            20               5               14                4            -0.205720
+              PREV_CNB report             full     28                      11            19               3               15                1            -1.127079
+                 RW_YY report             full     36                      18            25               7               17                6            -2.981972
+STABLE_LOCAL_CORE_R14B report             full     17                       6            16               6                9                1            -0.584557
+        STATE_FAST_R15 report             full     21                       8            19               4               13                2            -0.280883
+          CNB_MOMENTUM cutoff reports_2024plus     14                       0             5               1                4                0            -0.432638
+               CONST_2 cutoff reports_2024plus     15                       7             6               2                3                1            -0.038739
+   DAMPED_P95_Q001_R16 cutoff reports_2024plus      4                       1             3               0                3                0            -0.424911
+   FOOD_NORM_REFIT_R24 cutoff reports_2024plus      6                       2             5               2                3                0            -0.109503
+   FOOD_NORM_SHIFT_R24 cutoff reports_2024plus      6                       2             5               2                3                0            -0.106389
+FOOD_ROBUST_WINDOW_R24 cutoff reports_2024plus      7                       2             6               2                3                0            -0.116547
+   FOOD_ZERO_DRIFT_R24 cutoff reports_2024plus     11                       4             8               2                6                2            -0.173068
+              PREV_CNB cutoff reports_2024plus     14                       8             5               1                3                0            -0.241190
+                 RW_YY cutoff reports_2024plus     25                      11            14               3                9                2            -0.207513
+STABLE_LOCAL_CORE_R14B cutoff reports_2024plus      8                       3             6               2                4                1            -0.073669
+        STATE_FAST_R15 cutoff reports_2024plus      8                       1             7               1                4                0            -0.200983
+          CNB_MOMENTUM report reports_2024plus     14                       0             5               1                4                0            -0.432638
+               CONST_2 report reports_2024plus     15                       7             6               2                3                1            -0.038739
+   DAMPED_P95_Q001_R16 report reports_2024plus      7                       4             6               0                5                0            -0.464514
+   FOOD_NORM_REFIT_R24 report reports_2024plus      6                       3             6               2                4                0            -0.251927
+   FOOD_NORM_SHIFT_R24 report reports_2024plus      7                       4             7               2                4                0            -0.218499
+FOOD_ROBUST_WINDOW_R24 report reports_2024plus      9                       4             8               2                4                0            -0.155447
+   FOOD_ZERO_DRIFT_R24 report reports_2024plus      9                       4             8               1                6                1            -0.400611
+              PREV_CNB report reports_2024plus     14                       8             5               1                3                0            -0.241190
+                 RW_YY report reports_2024plus     22                      10            11               3                7                2            -0.238371
+STABLE_LOCAL_CORE_R14B report reports_2024plus      6                       1             5               3                2                1             0.006833
+        STATE_FAST_R15 report reports_2024plus     10                       3             8               1                5                0            -0.260439

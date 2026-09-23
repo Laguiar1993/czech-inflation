@@ -1,0 +1,19 @@
+.....FF.                                                                 [100%]
+================================== FAILURES ===================================
+E   assert (-0.09565938000000002 == -0.09565938000000002 Â± 9.6e-08
+      
+      comparison failed
+      Obtained: -0.09565938000000002
+      Expected: -0.09565938000000002 Â± 9.6e-08 and False)
+     +  where False = all(<generator object test_correction_decays_from_the_last_gap_month_and_stops_at_h6.<locals>.<genexpr> at 0x000001E30A702810>)
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_food_ecm_r27.py:77: assert (-0.09565938000000002 == -0.09565938000000002 Â± 9.6e-08
+E   assert (False)
+     +  where False = <function allclose at 0x000001E37EEE9CB0>(array([0.26392577, 0.26083917, 0.2584367 , 0.25656673, 0.25511123,\n       0.25397834]), array([0.25, 0.25, 0.25, 0.25, 0.25, 0.25]))
+     +    where <function allclose at 0x000001E37EEE9CB0> = np.allclose
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_food_ecm_r27.py:86: assert (False)
+=========================== short test summary info ===========================
+FAILED tests/test_food_ecm_r27.py::test_correction_decays_from_the_last_gap_month_and_stops_at_h6
+FAILED tests/test_food_ecm_r27.py::test_candidates_reproduce_baseline_when_speed_is_zero_and_shift_only_h1_to_h6
+2 failed, 6 passed in 0.16s
+
+--- stderr ---

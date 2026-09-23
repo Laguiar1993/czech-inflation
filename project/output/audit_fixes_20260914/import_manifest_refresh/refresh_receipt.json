@@ -1,0 +1,20 @@
+{
+  "old_manifest": "data\\research_r14b\\imports\\manifest.pre_audit_20260914.json",
+  "old_sha256": "970d4c9c1c6096a3a819ded4185a3055aca3c19c944ebe628b4c97680c113cf7",
+  "replay_manifest": "output\\audit_fixes_20260914\\import_manifest_refresh\\manifest.json",
+  "new_sha256": "09e8b137cf0034449e912b0481c6a714fe58235df78ac6fcad0f9ddc2bb833cc",
+  "changed_inputs": {
+    "data/local_adapter.py": {
+      "old": "4243ba91f3395f61d37f53be312e3a32aa84f53dcdc239cedad20e9a7a49e6d3",
+      "new": "d1f89400048babb5487708af9c9f2617329edf6a50ca88b8870e4eda696bdc7d"
+    }
+  },
+  "byte_identical_outputs": {
+    "overlap_comparison.csv": "46b92a742583e0862958b8ff5472e9bc6a437c25a980e42c93901d8be5aecb88",
+    "overlap_summary.csv": "a0775520d2925c8ac8dd4493ae18824d96d461febd128d627a95a7a76e81d4c9",
+    "imports_monthly_verified.csv": "941dedb4df493f6951a309fff2755a78d49a3871836d89645f5ac3ed705cdfd3",
+    "core_features_extended.csv": "c7976f19b6a28916a67859432193817828eff53ac3e53a83fc44e69708f032ab",
+    "core_feature_extension.csv": "6d59028b5ecb62584bca611fd765c389835bd0157730346eec6ead6642d57a1e"
+  },
+  "reason": "Existing NFC total-plus-maturity double-count correction changed the adapter hash. Unmodified import preparer reproduced all five CSVs exactly offline. The strict runtime hash guard remains unchanged; this records a verified regeneration."
+}

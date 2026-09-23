@@ -1,0 +1,34 @@
+{
+  "sources": {
+    "data\\paper_replication\\paper_model_panel_20260912_luci\\target_cpi_mm.csv": "f969a55e7750d3310b1d938fe96269669b51041bafed037622ffe7d055d1df35",
+    "output\\independent_path_frozen_inputs.csv": "14ca55d0c0b85d3f1a844e09d54b39dfe047e727912daec9e1fabee700f28fac",
+    "output\\independent_nowcast_forecasts.csv": "77ac26bc05906616a07d8f4b33ab6f2eb10b97141295022e172d53461f3e6e98",
+    "output\\paper_tvwqrf_20260912\\realtime_full_luci\\forecasts.csv": "e6d654baef21708844d965dc42c4ce350e496b057d7c5f5897e425dcdb991d39",
+    "output\\paper_tvwqrf_20260912\\realtime_full_luci\\quantiles.csv": "8ea9a7a56e5d6534eadd60daeb208001b30ee9476f7a3ada49510c476174b099",
+    "output\\paper_tvwqrf_20260912\\realtime_full_luci\\manifest.json": "d95c2ba1a6cc5196ca9c82a6c915a89742e15b89737c4fbdc6013003b113371b",
+    "output\\paper_tvwqrf_20260912\\path_scores_luci\\board_a_forecasts.csv": "17224dda1176b5c1e86f42b290deb5e2ad2d9bf3b15db6944c802bf0fe3facfb",
+    "output\\paper_tvwqrf_20260912\\realtime_full_luci_month\\forecasts.csv": "63e19fa31619707398dd1e59aa6cf5e519406865290ebf070aa95d8ab89c0799",
+    "output\\paper_tvwqrf_20260912\\realtime_full_luci_month\\quantiles.csv": "b5a42e04037db473a0f7954cf0c05f7839627f6609a8b97823f875992b478002",
+    "output\\paper_tvwqrf_20260912\\realtime_full_luci_month\\manifest.json": "18033f7fa8f1d49730cd8be26240c4170ebf59bed3b62a2fc1bf79e01105eef3",
+    "output\\paper_tvwqrf_20260912\\path_scores_luci_month\\board_a_forecasts.csv": "a48de9978c4744c4554a7775fcc685298f84f921c89c55dc43e577f92d9b0d2e"
+  },
+  "engine_sha256": "bb82e1a1c0c93190b8c7d2891db0509f725c040b2c4c3109d7c65aad1d099515",
+  "script_sha256": "1d3867129d70336d6178a0e6ca98a6a4193222c72b0301b7895fa089f62d84cc",
+  "method": "Saved own-origin quantiles, 12 consecutive matured targets, fixed feasible weights during incomplete warmup",
+  "unchanged_forecasts": "Every non-TVW row remains exactly unchanged",
+  "limitations": "Frozen current-vintage input conventions retained; no full forest refit in this weight-only replay",
+  "outputs": {
+    "monthly_scores.csv": "d885288f59ea84c715b07a4667159c3a73368e557c1ecd7d9879771013fb5430",
+    "path_scores.csv": "dcb3af1ea0f67073710606b084f5108b63fed8516ce2ea83078e1cde6b91ac59",
+    "realtime_full_luci\\calibration.csv": "a813d3dc3bec3c4b976729f971534d388276849e73eebf63a2d7080eb61a5f91",
+    "realtime_full_luci\\forecasts.csv": "f596f18a0bd84f0b2127977c4142d304265300369e9a95d5afb89d5139c1171c",
+    "realtime_full_luci\\paired_monthly.csv": "e29faa030c71c4ecebde678fe11423885a3ff041f050c14f9e06fc44b610eedd",
+    "realtime_full_luci\\paired_paths.csv": "a6a4f75dce60c9d57430a6392402835a2d1dc6c077de7da30c529a318fb0b389",
+    "realtime_full_luci\\tvw_weights.csv": "e617716aa8cbaea6112890357e1ee0500a338d7b6e42f58a1a35791ee00ffc0d",
+    "realtime_full_luci_month\\calibration.csv": "a813d3dc3bec3c4b976729f971534d388276849e73eebf63a2d7080eb61a5f91",
+    "realtime_full_luci_month\\forecasts.csv": "2de7c3ecba0d5c3a3d6d47597468e755a5708ec6988db08be65e6763c93dc9c3",
+    "realtime_full_luci_month\\paired_monthly.csv": "17ff5254edc826511d64c95adf0650e58a22a75aafc8ea8f1c8d587ff9e7c815",
+    "realtime_full_luci_month\\paired_paths.csv": "7d1968a421b31d0389ffeab44a1527b9e43e13c7f6d3d3ad1ceeec6685c40c6c",
+    "realtime_full_luci_month\\tvw_weights.csv": "c0b42fd4744157052331f95573763c01abd4da88cb94935bf87333e84506f4ea"
+  }
+}

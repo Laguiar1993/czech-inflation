@@ -1,0 +1,395 @@
+FFFFFFFFFFFFFFF                                                          [100%]
+================================== FAILURES ===================================
+___________ test_wrong_way_october_alert_retains_magnitude_only_hit ___________
+
+scored_nowcasts = (             model       frame  n  ...  missed_big  big_precision  big_recall
+0        HARD_BASE         all  4  ... ...ue  False       0.000000
+19  2024-03       CONSENSUS     0.1  ...  False  False            NaN
+
+[20 rows x 12 columns])
+
+    def test_wrong_way_october_alert_retains_magnitude_only_hit(scored_nowcasts):
+        board, events = scored_nowcasts
+        event = events[(events.model == "HARD_BASE") & (events.period == "2022-10")].iloc[0]
+        assert event.big and event.alert
+>       assert not event.directional_big_hit
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_audit_scoring_20260914.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = period             2022-10
+model            HARD_BASE
+actual                -1.4
+consensus              0.9
+forecast  ...         -0.273
+big                   True
+alert                 True
+capture_ratio    -0.118696
+Name: 0, dtype: object
+name = 'directional_big_hit'
+
+    @final
+    def __getattr__(self, name: str):
+        """
+        After regular attribute access, try looking up the name
+        This allows simpler access to columns for interactive use.
+        """
+        # Note: obj.x will always call obj.__getattribute__('x') prior to
+        # calling obj.__getattr__('x').
+        if (
+            name not in self._internal_names_set
+            and name not in self._metadata
+            and name not in self._accessors
+            and self._info_axis._can_hold_identifiers_and_holds_name(name)
+        ):
+            return self[name]
+>       return object.__getattribute__(self, name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'Series' object has no attribute 'directional_big_hit'
+
+C:\Users\luis_\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pandas\core\generic.py:6206: AttributeError
+___________________ test_float_boundary_is_a_large_surprise ___________________
+
+scored_nowcasts = (             model       frame  n  ...  missed_big  big_precision  big_recall
+0        HARD_BASE         all  4  ... ...ue  False       0.000000
+19  2024-03       CONSENSUS     0.1  ...  False  False            NaN
+
+[20 rows x 12 columns])
+
+    def test_float_boundary_is_a_large_surprise(scored_nowcasts):
+        _, events = scored_nowcasts
+        event = events[(events.model == "HARD_BASE") & (events.period == "2024-01")].iloc[0]
+        assert .6 - .2 < .4
+>       assert event.big and event.alert and event.material_big_hit
+                                             ^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_audit_scoring_20260914.py:53: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = period             2024-01
+model            HARD_BASE
+actual                 0.6
+consensus              0.2
+forecast  ...            0.2
+big                   True
+alert                 True
+capture_ratio          0.5
+Name: 1, dtype: object
+name = 'material_big_hit'
+
+    @final
+    def __getattr__(self, name: str):
+        """
+        After regular attribute access, try looking up the name
+        This allows simpler access to columns for interactive use.
+        """
+        # Note: obj.x will always call obj.__getattribute__('x') prior to
+        # calling obj.__getattr__('x').
+        if (
+            name not in self._internal_names_set
+            and name not in self._metadata
+            and name not in self._accessors
+            and self._info_axis._can_hold_identifiers_and_holds_name(name)
+        ):
+            return self[name]
+>       return object.__getattribute__(self, name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'Series' object has no attribute 'material_big_hit'
+
+C:\Users\luis_\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pandas\core\generic.py:6206: AttributeError
+______________ test_review_uses_shared_large_surprise_threshold _______________
+
+    def test_review_uses_shared_large_surprise_threshold():
+        source = (Path(__file__).resolve().parents[1] / "tools/review/nowcast_vs_consensus_20260914.py").read_text()
+>       assert "is_big_surprise(" in source
+E       assert 'is_big_surprise(' in '"""Nowcast against the Bloomberg consensus: accuracy by frame, surprise regressions, out-of-sample consensus shrink."...\n        print(f"  DM sq-error model-consensus {name}: mean d={d.mean():+.4f} t={t:+.2f} (positive = model worse)")\n'
+
+tests\test_audit_scoring_20260914.py:58: AssertionError
+______ test_offline_scoring_import_does_not_load_live_data_dependencies _______
+
+    def test_offline_scoring_import_does_not_load_live_data_dependencies():
+        result = subprocess.run([sys.executable, "-c", "import sys; sys.modules['requests'] = None; import independent_nowcast_experiment"],
+                                capture_output=True, text=True)
+>       assert result.returncode == 0, result.stderr
+E       AssertionError: Traceback (most recent call last):
+E           File "<string>", line 1, in <module>
+E           File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\independent_nowcast_experiment.py", line 13, in <module>
+E             import cz_struct as s
+E           File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\cz_struct.py", line 41, in <module>
+E             from data.struct_inputs import load_services_cpi_mm, load_agri_price_mm
+E           File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\data\struct_inputs.py", line 11, in <module>
+E             from data import local_adapter as la
+E           File "C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\data\local_adapter.py", line 25, in <module>
+E             import requests
+E         ModuleNotFoundError: import of requests halted; None in sys.modules
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['C:\\Users\\luis_\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python....py", line 25, in <module>\n    import requests\nModuleNotFoundError: import of requests halted; None in sys.modules\n').returncode
+
+tests\test_audit_scoring_20260914.py:65: AssertionError
+_______________ test_template_labels_simulated_historical_clock _______________
+
+    def test_template_labels_simulated_historical_clock():
+        source = rounds.TEMPLATE.read_text(encoding="utf-8")
+>       assert "simulated cutoff" in source.lower()
+E       assert 'simulated cutoff' in '<title>cnb rounds replayed</title>\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<link rel="... data.method.map(p => `<p>${p}</p>`).join("");\n  renderchips();\n  buildplates();\n  renderall();\n})();\n</script>\n'
+E        +  where '<title>cnb rounds replayed</title>\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<link rel="... data.method.map(p => `<p>${p}</p>`).join("");\n  renderchips();\n  buildplates();\n  renderall();\n})();\n</script>\n' = <built-in method lower of str object at 0x000001AF2A07D1D0>()
+E        +    where <built-in method lower of str object at 0x000001AF2A07D1D0> = '<title>CNB Rounds Replayed</title>\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<link rel="... DATA.method.map(p => `<p>${p}</p>`).join("");\n  renderChips();\n  buildPlates();\n  renderAll();\n})();\n</script>\n'.lower
+
+tests\test_audit_scoring_20260914.py:70: AssertionError
+____________ test_artifact_does_not_substitute_realised_month_zero ____________
+
+artifact_inputs = (WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/audi...  2024-12  2024-02-01T22:59:00+00:00    1.00000
+12  BRIDGE  2024-01  12  2025-01  2024-02-01T22:59:00+00:00    1.00000)
+
+    def test_artifact_does_not_substitute_realised_month_zero(artifact_inputs):
+        root, _ = artifact_inputs
+        rounds.main()
+        payload = artifact_payload(root / "original.html")
+>       assert payload["f_object"] == "a"
+E       AssertionError: assert 'b' == 'a'
+E         
+E         - a
+E         + b
+
+tests\test_audit_scoring_20260914.py:125: AssertionError
+---------------------------- Captured stdout call -----------------------------
+path_step2 object (a) coverage from 2019-02: 0.00 -> using object (b)
+forest vs scored board: 13 of 13 scored months rebuilt, max |difference| 0.00e+00; 13 forest points in total
+2024-02-08 Winter 2024 origin 2024-01 | CNB 2024Q1..2024Q1 | forest points [13] | scored 1 | best [(0.0, 'FOREST'), (1.0, 'BRIDGE'), (2.0, 'cnb')]
+wrote C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\work\audit_fixes_20260914\pytest_scoring_red2\test_artifact_does_not_substit0\original.html (30 KB), 1 reports
+__________________ test_artifact_scores_unrounded_forecasts ___________________
+
+artifact_inputs = (WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/audi...  2024-12  2024-02-01T22:59:00+00:00    1.00000
+12  BRIDGE  2024-01  12  2025-01  2024-02-01T22:59:00+00:00    1.00000)
+
+    def test_artifact_scores_unrounded_forecasts(artifact_inputs):
+        root, _ = artifact_inputs
+        rounds.main()
+        score = artifact_payload(root / "original.html")["reports"][0]["score"]
+>       assert score["mae"]["BRIDGE"] == pytest.approx(1.001)
+E       assert 1.0 == 1.001 � 1.0e-06
+E         
+E         comparison failed
+E         Obtained: 1.0
+E         Expected: 1.001 � 1.0e-06
+
+tests\test_audit_scoring_20260914.py:134: AssertionError
+---------------------------- Captured stdout call -----------------------------
+path_step2 object (a) coverage from 2019-02: 0.00 -> using object (b)
+forest vs scored board: 13 of 13 scored months rebuilt, max |difference| 0.00e+00; 13 forest points in total
+2024-02-08 Winter 2024 origin 2024-01 | CNB 2024Q1..2024Q1 | forest points [13] | scored 1 | best [(0.0, 'FOREST'), (1.0, 'BRIDGE'), (2.0, 'cnb')]
+wrote C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\work\audit_fixes_20260914\pytest_scoring_red2\test_artifact_scores_unrounded0\original.html (30 KB), 1 reports
+______________ test_artifact_output_override_preserves_original _______________
+
+artifact_inputs = (WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/audi...  2024-12  2024-02-01T22:59:00+00:00    1.00000
+12  BRIDGE  2024-01  12  2025-01  2024-02-01T22:59:00+00:00    1.00000)
+
+    def test_artifact_output_override_preserves_original(artifact_inputs):
+        root, _ = artifact_inputs
+        original = root / "original.html"
+        original.write_text("original archived artifact")
+        destination = root / "corrected/page.html"
+>       rounds.main(output=destination)
+E       TypeError: main() got an unexpected keyword argument 'output'
+
+tests\test_audit_scoring_20260914.py:142: TypeError
+______________ test_artifact_rejects_ambiguous_board[duplicate] _______________
+
+artifact_inputs = (WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/audi...  2024-12  2024-02-01T22:59:00+00:00    1.00000
+12  BRIDGE  2024-01  12  2025-01  2024-02-01T22:59:00+00:00    1.00000)
+defect = 'duplicate'
+
+    @pytest.mark.parametrize("defect", ["duplicate", "clock"])
+    def test_artifact_rejects_ambiguous_board(artifact_inputs, defect):
+        root, board = artifact_inputs
+        if defect == "duplicate":
+            board = pd.concat([board, board.iloc[[0]]], ignore_index=True)
+        else:
+            board.loc[1, "as_of_utc"] = "2024-02-02T22:59:00+00:00"
+        board.to_csv(root / "output/research_r14b/integration/forecasts.csv", index=False)
+>       with pytest.raises(ValueError, match="duplicate|clock"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+tests\test_audit_scoring_20260914.py:155: Failed
+---------------------------- Captured stdout call -----------------------------
+path_step2 object (a) coverage from 2019-02: 0.00 -> using object (b)
+forest vs scored board: 13 of 13 scored months rebuilt, max |difference| 0.00e+00; 13 forest points in total
+2024-02-08 Winter 2024 origin 2024-01 | CNB 2024Q1..2024Q1 | forest points [13] | scored 1 | best [(0.0, 'FOREST'), (1.0, 'BRIDGE'), (2.0, 'cnb')]
+wrote C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\work\audit_fixes_20260914\pytest_scoring_red2\test_artifact_rejects_ambiguou0\original.html (30 KB), 1 reports
+________________ test_artifact_rejects_ambiguous_board[clock] _________________
+
+artifact_inputs = (WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/audi...  2024-12  2024-02-01T22:59:00+00:00    1.00000
+12  BRIDGE  2024-01  12  2025-01  2024-02-01T22:59:00+00:00    1.00000)
+defect = 'clock'
+
+    @pytest.mark.parametrize("defect", ["duplicate", "clock"])
+    def test_artifact_rejects_ambiguous_board(artifact_inputs, defect):
+        root, board = artifact_inputs
+        if defect == "duplicate":
+            board = pd.concat([board, board.iloc[[0]]], ignore_index=True)
+        else:
+            board.loc[1, "as_of_utc"] = "2024-02-02T22:59:00+00:00"
+        board.to_csv(root / "output/research_r14b/integration/forecasts.csv", index=False)
+>       with pytest.raises(ValueError, match="duplicate|clock"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+tests\test_audit_scoring_20260914.py:155: Failed
+---------------------------- Captured stdout call -----------------------------
+path_step2 object (a) coverage from 2019-02: 0.00 -> using object (b)
+forest vs scored board: 13 of 13 scored months rebuilt, max |difference| 0.00e+00; 13 forest points in total
+2024-02-08 Winter 2024 origin 2024-01 | CNB 2024Q1..2024Q1 | forest points [13] | scored 1 | best [(0.0, 'FOREST'), (1.0, 'BRIDGE'), (2.0, 'cnb')]
+wrote C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\work\audit_fixes_20260914\pytest_scoring_red2\test_artifact_rejects_ambiguou1\original.html (30 KB), 1 reports
+______________ test_forest_reconciliation_fails_closed[missing] _______________
+
+artifact_inputs = (WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/audi...  2024-12  2024-02-01T22:59:00+00:00    1.00000
+12  BRIDGE  2024-01  12  2025-01  2024-02-01T22:59:00+00:00    1.00000)
+defect = 'missing'
+
+    @pytest.mark.parametrize("defect", ["missing", "mismatch", "empty", "duplicate"])
+    def test_forest_reconciliation_fails_closed(artifact_inputs, defect):
+        _, _ = artifact_inputs
+        board = pd.read_csv(rounds.FOREST_BOARD)
+        if defect == "missing":
+            board.loc[0, "target"] = "2099-01"
+        elif defect == "mismatch":
+            board.loc[0, "yy_exante"] = 2e-10
+        elif defect == "empty":
+            board = board.iloc[:0]
+        else:
+            board = pd.concat([board, board.iloc[[0]]], ignore_index=True)
+        board.to_csv(rounds.FOREST_BOARD, index=False)
+>       with pytest.raises(ValueError, match="forest|duplicate"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+tests\test_audit_scoring_20260914.py:172: Failed
+---------------------------- Captured stdout call -----------------------------
+path_step2 object (a) coverage from 2019-02: 0.00 -> using object (b)
+forest vs scored board: 12 of 13 scored months rebuilt, max |difference| 0.00e+00; 13 forest points in total
+2024-02-08 Winter 2024 origin 2024-01 | CNB 2024Q1..2024Q1 | forest points [13] | scored 1 | best [(0.0, 'FOREST'), (1.0, 'BRIDGE'), (2.0, 'cnb')]
+wrote C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\work\audit_fixes_20260914\pytest_scoring_red2\test_forest_reconciliation_fai0\original.html (30 KB), 1 reports
+______________ test_forest_reconciliation_fails_closed[mismatch] ______________
+
+artifact_inputs = (WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/audi...  2024-12  2024-02-01T22:59:00+00:00    1.00000
+12  BRIDGE  2024-01  12  2025-01  2024-02-01T22:59:00+00:00    1.00000)
+defect = 'mismatch'
+
+    @pytest.mark.parametrize("defect", ["missing", "mismatch", "empty", "duplicate"])
+    def test_forest_reconciliation_fails_closed(artifact_inputs, defect):
+        _, _ = artifact_inputs
+        board = pd.read_csv(rounds.FOREST_BOARD)
+        if defect == "missing":
+            board.loc[0, "target"] = "2099-01"
+        elif defect == "mismatch":
+            board.loc[0, "yy_exante"] = 2e-10
+        elif defect == "empty":
+            board = board.iloc[:0]
+        else:
+            board = pd.concat([board, board.iloc[[0]]], ignore_index=True)
+        board.to_csv(rounds.FOREST_BOARD, index=False)
+>       with pytest.raises(ValueError, match="forest|duplicate"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+tests\test_audit_scoring_20260914.py:172: Failed
+---------------------------- Captured stdout call -----------------------------
+path_step2 object (a) coverage from 2019-02: 0.00 -> using object (b)
+forest vs scored board: 13 of 13 scored months rebuilt, max |difference| 2.00e-10; 13 forest points in total
+2024-02-08 Winter 2024 origin 2024-01 | CNB 2024Q1..2024Q1 | forest points [13] | scored 1 | best [(0.0, 'FOREST'), (1.0, 'BRIDGE'), (2.0, 'cnb')]
+wrote C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\work\audit_fixes_20260914\pytest_scoring_red2\test_forest_reconciliation_fai1\original.html (30 KB), 1 reports
+_______________ test_forest_reconciliation_fails_closed[empty] ________________
+
+artifact_inputs = (WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/audi...  2024-12  2024-02-01T22:59:00+00:00    1.00000
+12  BRIDGE  2024-01  12  2025-01  2024-02-01T22:59:00+00:00    1.00000)
+defect = 'empty'
+
+    @pytest.mark.parametrize("defect", ["missing", "mismatch", "empty", "duplicate"])
+    def test_forest_reconciliation_fails_closed(artifact_inputs, defect):
+        _, _ = artifact_inputs
+        board = pd.read_csv(rounds.FOREST_BOARD)
+        if defect == "missing":
+            board.loc[0, "target"] = "2099-01"
+        elif defect == "mismatch":
+            board.loc[0, "yy_exante"] = 2e-10
+        elif defect == "empty":
+            board = board.iloc[:0]
+        else:
+            board = pd.concat([board, board.iloc[[0]]], ignore_index=True)
+        board.to_csv(rounds.FOREST_BOARD, index=False)
+>       with pytest.raises(ValueError, match="forest|duplicate"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'forest|duplicate'
+E         Actual message: 'max() iterable argument is empty'
+
+tests\test_audit_scoring_20260914.py:172: AssertionError
+---------------------------- Captured stdout call -----------------------------
+path_step2 object (a) coverage from 2019-02: 0.00 -> using object (b)
+_____________ test_forest_reconciliation_fails_closed[duplicate] ______________
+
+artifact_inputs = (WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/audi...  2024-12  2024-02-01T22:59:00+00:00    1.00000
+12  BRIDGE  2024-01  12  2025-01  2024-02-01T22:59:00+00:00    1.00000)
+defect = 'duplicate'
+
+    @pytest.mark.parametrize("defect", ["missing", "mismatch", "empty", "duplicate"])
+    def test_forest_reconciliation_fails_closed(artifact_inputs, defect):
+        _, _ = artifact_inputs
+        board = pd.read_csv(rounds.FOREST_BOARD)
+        if defect == "missing":
+            board.loc[0, "target"] = "2099-01"
+        elif defect == "mismatch":
+            board.loc[0, "yy_exante"] = 2e-10
+        elif defect == "empty":
+            board = board.iloc[:0]
+        else:
+            board = pd.concat([board, board.iloc[[0]]], ignore_index=True)
+        board.to_csv(rounds.FOREST_BOARD, index=False)
+>       with pytest.raises(ValueError, match="forest|duplicate"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+tests\test_audit_scoring_20260914.py:172: Failed
+---------------------------- Captured stdout call -----------------------------
+path_step2 object (a) coverage from 2019-02: 0.00 -> using object (b)
+forest vs scored board: 14 of 14 scored months rebuilt, max |difference| 0.00e+00; 13 forest points in total
+2024-02-08 Winter 2024 origin 2024-01 | CNB 2024Q1..2024Q1 | forest points [13] | scored 1 | best [(0.0, 'FOREST'), (1.0, 'BRIDGE'), (2.0, 'cnb')]
+wrote C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\work\audit_fixes_20260914\pytest_scoring_red2\test_forest_reconciliation_fai3\original.html (30 KB), 1 reports
+____________ test_forest_run_rejects_duplicate_model_edge_horizon _____________
+
+artifact_inputs = (WindowsPath('C:/Users/luis_/Documents/Codex/2026-09-05/c-users-luis-appdata-local-temp/work/cpi-independent/work/audi...  2024-12  2024-02-01T22:59:00+00:00    1.00000
+12  BRIDGE  2024-01  12  2025-01  2024-02-01T22:59:00+00:00    1.00000)
+
+    def test_forest_run_rejects_duplicate_model_edge_horizon(artifact_inputs):
+        run = pd.read_csv(rounds.FOREST_RUNS[0])
+        pd.concat([run, run.iloc[[0]]], ignore_index=True).to_csv(rounds.FOREST_RUNS[0], index=False)
+>       with pytest.raises(ValueError, match="duplicate"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+tests\test_audit_scoring_20260914.py:179: Failed
+---------------------------- Captured stdout call -----------------------------
+path_step2 object (a) coverage from 2019-02: 0.00 -> using object (b)
+forest vs scored board: 13 of 13 scored months rebuilt, max |difference| 0.00e+00; 13 forest points in total
+2024-02-08 Winter 2024 origin 2024-01 | CNB 2024Q1..2024Q1 | forest points [13] | scored 1 | best [(0.0, 'FOREST'), (1.0, 'BRIDGE'), (2.0, 'cnb')]
+wrote C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\work\audit_fixes_20260914\pytest_scoring_red2\test_forest_run_rejects_duplic0\original.html (30 KB), 1 reports
+=========================== short test summary info ===========================
+FAILED tests/test_audit_scoring_20260914.py::test_wrong_way_october_alert_retains_magnitude_only_hit
+FAILED tests/test_audit_scoring_20260914.py::test_float_boundary_is_a_large_surprise
+FAILED tests/test_audit_scoring_20260914.py::test_review_uses_shared_large_surprise_threshold
+FAILED tests/test_audit_scoring_20260914.py::test_offline_scoring_import_does_not_load_live_data_dependencies
+FAILED tests/test_audit_scoring_20260914.py::test_template_labels_simulated_historical_clock
+FAILED tests/test_audit_scoring_20260914.py::test_artifact_does_not_substitute_realised_month_zero
+FAILED tests/test_audit_scoring_20260914.py::test_artifact_scores_unrounded_forecasts
+FAILED tests/test_audit_scoring_20260914.py::test_artifact_output_override_preserves_original
+FAILED tests/test_audit_scoring_20260914.py::test_artifact_rejects_ambiguous_board[duplicate]
+FAILED tests/test_audit_scoring_20260914.py::test_artifact_rejects_ambiguous_board[clock]
+FAILED tests/test_audit_scoring_20260914.py::test_forest_reconciliation_fails_closed[missing]
+FAILED tests/test_audit_scoring_20260914.py::test_forest_reconciliation_fails_closed[mismatch]
+FAILED tests/test_audit_scoring_20260914.py::test_forest_reconciliation_fails_closed[empty]
+FAILED tests/test_audit_scoring_20260914.py::test_forest_reconciliation_fails_closed[duplicate]
+FAILED tests/test_audit_scoring_20260914.py::test_forest_run_rejects_duplicate_model_edge_horizon
+15 failed in 4.95s

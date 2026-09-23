@@ -1,0 +1,16 @@
+F.......                                                                 [100%]
+================================== FAILURES ===================================
+E   AssertionError: assert ('2024-05' == '2024-05'
+      
+        2024-05 and '2024-05' == '2024-04'
+      
+      - 2024-04
+      ?       ^
+      + 2024-05
+      ?       ^)
+C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\tests\test_food_ecm_r27.py:30: AssertionError: assert ('2024-05' == '2024-05'
+=========================== short test summary info ===========================
+FAILED tests/test_food_ecm_r27.py::test_last_common_month_respects_each_series_release
+1 failed, 7 passed in 0.15s
+
+--- stderr ---

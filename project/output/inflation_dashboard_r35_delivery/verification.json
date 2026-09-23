@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "hash_counts": {
+    "output/momentum_r35/final": 1133,
+    "output/inflation_dashboard_r35": 46
+  },
+  "x13_archives": 74,
+  "preserved_r34_hashes": 79,
+  "category_month": "2026-08",
+  "categories": 9,
+  "groups": 37,
+  "coverage": 100.0,
+  "preserved_forecast_origin": "2026-09",
+  "retained_forecast_and_replay": true,
+  "analysis_as_of": "2026-09-22T21:38:58.907740+00:00",
+  "analysis_completed_at": "2026-09-22T21:39:50.344212+00:00",
+  "browser": {
+    "status": "passed",
+    "pageErrors": [],
+    "desktop": "1440x1050",
+    "mobile": "390x844",
+    "checks": {
+      "month": "2026-08",
+      "forecast": "2026-09",
+      "h0": -0.2042311894134946,
+      "weight": 1000,
+      "drivers": -3.1081819841169933,
+      "total": -3.1081819841169933,
+      "breadth": 100
+    }
+  },
+  "driver_total_log_pp": -3.1081819841169933,
+  "canonical_matches_rehearsal": true
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "ticker": "EEUR3CZ Index",
+    "stage": "bdh",
+    "error": "ValueError: No historical data returned for EEUR3CZ Index"
+  },
+  {
+    "ticker": "EEUR3CZ Index",
+    "stage": "bdp",
+    "error": "ValueError: No reference data returned for EEUR3CZ Index"
+  }
+]

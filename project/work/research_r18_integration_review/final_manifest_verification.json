@@ -1,0 +1,14 @@
+{
+  "output/research_r18/path_v2": {
+    "inputs": 478,
+    "outputs": 3
+  },
+  "output/research_r18/path_v2/evaluation": {
+    "inputs": 487,
+    "outputs": 33
+  },
+  "output/research_r18/uncertainty_verified": {
+    "inputs": 65,
+    "outputs": 6
+  }
+}

@@ -1,0 +1,4 @@
+model,variant,status,cov80,cov90,cov80_2024,cov90_2024,crps
+BASE_RIDGE,V1,uncalibrated (no variant met the coverage condition; V1 published as such),0.7727272727272727,0.8333333333333334,0.967741935483871,1.0,0.22841749803259995
+PAST_FULL,V1,uncalibrated (no variant met the coverage condition; V1 published as such),0.7727272727272727,0.8181818181818182,0.967741935483871,1.0,0.2404401893558478
+PAST_HALF,V1,uncalibrated (no variant met the coverage condition; V1 published as such),0.7575757575757576,0.8333333333333334,0.967741935483871,1.0,0.2305126605317742

@@ -1,0 +1,44 @@
+R17 evaluation completed C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\research_r28\final\evaluation
+{
+ "ADMIN_ZERO_R28": {
+  "failed": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "6"
+  ],
+  "promotable": false
+ },
+ "ADMIN_JAN_ONLY_R28": {
+  "failed": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "6"
+  ],
+  "promotable": false
+ },
+ "ADMIN_RECENT_R28": {
+  "failed": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "6"
+  ],
+  "promotable": false
+ },
+ "ADMIN_HALF_R28": {
+  "failed": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "6"
+  ],
+  "promotable": false
+ }
+}
+Completed R28 evaluation C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\research_r28\final\evaluation

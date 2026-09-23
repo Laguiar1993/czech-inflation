@@ -1,0 +1,78 @@
+##### H results document cross-check
+[FAIL] score table (lines 39-45): all 42 cells equal own RMSE at three decimals :: [(40, 'Labour cost pressure', 'headline_yy', 6, 'origins_2024plus', '0.680', np.float64(0.6795)), (41, 'Domestic pressure', 'headline_yy', 6, 'full', '2.280', np.float64(2.2795)), (43, 'Joint, free', 'core_cumulative_log', 6, 'full', '1.692', np.float64(1.6915)), (44, 'Joint, signed', 'core_cumulative_log', 6, 'origins_2024plus', '0.509', np.float64(0.5085))]
+[PASS] line 23: seasonal share 0.1% for the labour-cost gap, at most 6.6% for any feature :: ulc [0.0008, 0.001], max 0.0665
+[PASS] line 24: labour-cost gap positive in 93-100% of unrestricted fits :: (93, 100)
+[PASS] line 25: producer-price momentum positive in 100% of unrestricted fits
+[PASS] line 26: import momentum negative in 47-50% (h1-3) and 76-100% (h4-6) :: (47, 50) (76, 100)
+[PASS] line 27: koruna news negative in 71-100% :: (71, 100)
+[PASS] line 28: tightening negative in 61-64%, 18% in the joint near band
+[PASS] line 29: validation applied a correction at 50-79% of origins :: (50, 79)
+[PASS] line 31: signed bounds bind for koruna news 71-100% and import momentum 50-100%
+   line 31 "two of five channels carry the declared sign robustly": wrong-sign ranges by feature over the unrestricted candidates: {'fx_news': (71, 100), 'import_gap': (63, 100), 'import_mom': (47, 100), 'ppi_gap': (28, 93), 'ppi_mom': (0, 0), 'tightening': (18, 64), 'ulc_sameq': (0, 7)}
+[PASS] line 49: labour-cost candidate improves full-sample core by 4% at h3 and 7% at h6 :: 4.34% 7.34%
+[PASS] line 49: needed-against-applied +0.33, +0.42, +0.43 at h3, h6, h12 :: [np.float64(0.3259), np.float64(0.4238), np.float64(0.4256)]
+[PASS] line 49: from 2024 at h6 applied +0.14 against needed +0.06, correlation 0.15
+             metric  h  n  block  mean_loss_difference  ci_low  ci_high  bootstrap_probability_improvement                               status
+           headline_yy  3 28    6.0                0.0432  0.0036   0.0868                             0.0145                                   ok
+   core_cumulative_log  3 28    6.0                0.0179 -0.0060   0.0422                             0.0685                                   ok
+           headline_yy  6 25    6.0                0.1746  0.0502   0.3013                             0.0015                                   ok
+   core_cumulative_log  6 25    6.0                0.1073  0.0072   0.2162                             0.0185                                   ok
+           headline_yy 12 19    NaN                0.1853     NaN      NaN                                NaN too_few_observations_for_an_interval
+   core_cumulative_log 12 19    NaN                0.0192     NaN      NaN                                NaN too_few_observations_for_an_interval
+[FAIL] line 49: 2024+ circular-bootstrap intervals exclude zero on the wrong side at h3 and h6 (both metrics)
+   the same statement for every candidate (ci_low > 0), 2024+:
+metric              core_cumulative_log        headline_yy       
+   h                                     3      6           3      6
+   model                                                            
+   PRESS_DOMESTIC_R23B               False   True        True   True
+   PRESS_JOINT_R23B                  False  False        True   True
+   PRESS_LEVELS_R23B                 False   True        True   True
+   PRESS_MOMENTUM_R23B               False  False       False  False
+   PRESS_SIGNED_R23B                 False  False       False   True
+   PRESS_ULC_R23B                    False   True        True   True
+[PASS] line 50: imported momentum is the ONLY candidate at or below FAST on headline h6 in both samples :: ['PRESS_MOMENTUM_R23B']
+[PASS] line 50: its core h6 is worse in both samples (1.784 v 1.758; 0.430 v 0.394)
+[PASS] line 51: the repaired level-gap control is the worst candidate from 2024 (h6 and h12 headline, h6 core) :: {('core_cumulative_log', 3): 'PRESS_SIGNED_R23B', ('core_cumulative_log', 6): 'PRESS_LEVELS_R23B', ('core_cumulative_log', 12): 'PRESS_LEVELS_R23B', ('headline_yy', 3): 'PRESS_LEVELS_R23B', ('headline_yy', 6): 'PRESS_LEVELS_R23B', ('headline_yy', 12): 'PRESS_LEVELS_R23B'}
+[PASS] line 47: no candidate meets all four declared conditions
+                     headline_full  headline_2024  core_full  core_2024  corr_positive
+   PRESS_DOMESTIC_R23B           True          False       True      False           True
+   PRESS_JOINT_R23B              True          False       True      False           True
+   PRESS_LEVELS_R23B            False          False       True      False           True
+   PRESS_MOMENTUM_R23B           True           True      False      False           True
+   PRESS_SIGNED_R23B             True          False       True      False           True
+   PRESS_ULC_R23B                True          False       True      False           True
+[PASS] lines 61-66: lead table counts (already reproduced with own rules in probe E7) :: {}
+   joint successes by model and report (report clock, 0.30):
+report_date             2022-02-10  2022-05-12  2022-11-10  2023-08-10  2024-08-08  2025-08-14
+   model                                                                                         
+   CNB_MOMENTUM                     0           1           0           0           0           0
+   CONST_2                          0           0           0           2           0           1
+   CORE_FEEDBACK_R21                2           0           0           0           0           0
+   DAMPED_P95_Q001_R16              2           0           0           0           0           0
+   PRESS_DOMESTIC_R23B              2           0           0           0           1           0
+   PRESS_JOINT_R23B                 2           0           0           0           1           0
+   PRESS_LEVELS_R23B                2           0           0           0           1           0
+   PRESS_MOMENTUM_R23B              2           0           0           0           0           0
+   PRESS_SIGNED_R23B                2           0           0           0           1           0
+   PRESS_ULC_R23B                   2           0           0           0           1           0
+   PREV_CNB                         0           0           1           0           0           0
+   RW_YY                            4           0           0           0           2           0
+   STABLE_LOCAL_CORE_R14B           0           0           0           0           1           0
+   STATE_FAST_R15                   2           0           0           0           0           0
+   own rebuild, joint successes by report: {'CONST_2': {'2023-08-10': 2, '2025-08-14': 1}, 'RW_YY': {'2022-02-10': 4, '2024-08-08': 2}}
+     RW_YY joint success: ('2022-02-10', '2023Q1', 5.977, 3.033, 7.857, 16.393)
+     RW_YY joint success: ('2022-02-10', '2023Q2', 5.977, 2.256, 3.786, 11.158)
+     RW_YY joint success: ('2022-02-10', '2023Q3', 5.977, 1.993, 2.663, 8.049)
+     RW_YY joint success: ('2022-02-10', '2023Q4', 5.977, 2.03, 2.221, 7.564)
+     RW_YY joint success: ('2024-08-08', '2025Q2', 2.575, 1.749, 2.567, 2.38)
+     RW_YY joint success: ('2024-08-08', '2025Q3', 2.575, 1.902, 2.634, 2.499)
+[FAIL] line 68: the random walk's six joint successes all come from two 2022 reports :: ['2022-02-10', '2024-08-08']
+   constant-2% joint successes come from reports: ['2023-08-10', '2025-08-14'] (the sentence on line 68 reads as covering both base rates)
+[PASS] line 68: "a constant 2% forecast scores as many joint successes as any model" :: CONST_2 3; models max 3
+[PASS] line 68: FAST's 19 episodes come from 13 reports, losses from 9 and gains from 3
+   model calls in cnb_lead_pairs.csv: 1612; first calls: 1275; first calls that are revision-eligible and matured: 703; rows with a block label: 703
+[FAIL] line 72: "a dominant-block label on every call" :: 703 labelled of 1612 calls: only matured, revision-eligible FIRST calls are labelled
+   line 16 "no correction is learned from labels more than a year old": label origins used are 4 to 126 months before the decision origin; 93% of training rows are older than 12 months. What is true: the NEWEST label is 4-9 months old (R23: 13-15).
+[FAIL] line 16: "no correction is learned from labels more than a year old" (as written) :: 93% of the training labels are more than a year old; the statement holds only for the newest label
+[PASS] lines 72 and 76: 20 new tests, 29 targeted tests :: 20 new, 29 in the three files (29 passed in F_pytest_output.txt)
+##### H results document cross-check: 19 passed, 5 failed, 0 notes

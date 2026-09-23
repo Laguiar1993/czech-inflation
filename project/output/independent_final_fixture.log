@@ -1,0 +1,125 @@
+{
+  "version": "independent-r9-2026-09-09",
+  "target": "2026-07",
+  "as_of": "2026-08-04T23:59:00+02:00",
+  "main_model": "HARD_BASE",
+  "points_mm_pct": {
+    "HARD_BASE": 0.44767252748945857,
+    "HARD_HALF": 0.5124477950466728,
+    "HARD_FULL": 0.577223062603887,
+    "SENTIMENT_BASE": 0.45229025163277303,
+    "SENTIMENT_HALF": 0.5278787512782573,
+    "SENTIMENT_FULL": 0.6034672509237415,
+    "OPTIONAL_EXPECTATIONS_BASE": 0.4380879786787769,
+    "OPTIONAL_EXPECTATIONS_HALF": 0.5082255045536204,
+    "OPTIONAL_EXPECTATIONS_FULL": 0.5783630304284638
+  },
+  "main_contributions_pp": {
+    "core": 0.4172707359470312,
+    "food": -0.09207647901712651,
+    "alcohol_tobacco": 0.016390202777001293,
+    "administered": 0.0,
+    "fuel": 0.11110135346637179,
+    "wedge": -0.0050132856838191915
+  },
+  "weights": {
+    "food": 0.168584131,
+    "fuel": 0.030630713,
+    "alc": 0.082870815,
+    "administered": 0.1789761956026867,
+    "core": 0.5389381453973132
+  },
+  "diagnostics": {
+    "hard": {
+      "core_prediction": 0.7742460605370826,
+      "core_correction": 0.2403810830998461,
+      "core_contribution": 0.4172707359470312,
+      "error_history_sha256": "122af15f8572e2320b32af5e96473b82eabd405f623c23f47fe1ded49d1cf3d2",
+      "residual_forest": {
+        "policy": "hard",
+        "n_errors": 135,
+        "error_end": "2026-06",
+        "status": "ok",
+        "fallback_used": false,
+        "quantile_weights": {
+          "0.1": 0.104,
+          "0.25": 0.35,
+          "0.5": 0.329,
+          "0.75": 0.15,
+          "0.9": 0.067
+        }
+      }
+    },
+    "sentiment": {
+      "core_prediction": 0.7828142500088265,
+      "core_correction": 0.28050899826272013,
+      "core_contribution": 0.42188846009034564,
+      "error_history_sha256": "f5d2e9450b1bb9997bd44f53f75c1679cc421f129bf6ab0f8d42bc59ddd79ecc",
+      "residual_forest": {
+        "policy": "sentiment",
+        "n_errors": 135,
+        "error_end": "2026-06",
+        "status": "ok",
+        "fallback_used": false,
+        "quantile_weights": {
+          "0.1": 0.15,
+          "0.25": 0.252,
+          "0.5": 0.3,
+          "0.75": 0.298,
+          "0.9": 0.0
+        }
+      }
+    }
+  },
+  "food_diagnostics": {
+    "method": "x13",
+    "history_end": "2026-06",
+    "n_obs": 137,
+    "x13_error": ""
+  },
+  "fuel_diagnostics": {
+    "weeks_observed": 4,
+    "fraction_observed": 1.0,
+    "petrol_share": 0.586409,
+    "cur_mean": 40.14,
+    "prev_mean": 38.73,
+    "last_observation": "2026-07-27 00:00:00",
+    "last_due_observation": "2026-07-27 00:00:00",
+    "stale": false
+  },
+  "component_history_edges": {
+    "core": {
+      "latest_released_value": "2026-06",
+      "gap_months": 0
+    },
+    "regulated": {
+      "latest_released_value": "2026-06",
+      "gap_months": 0
+    },
+    "food": {
+      "latest_released_value": "2026-06",
+      "gap_months": 0
+    },
+    "official_fuel": {
+      "latest_released_value": "2026-06",
+      "gap_months": 0
+    },
+    "alcohol_tobacco": {
+      "latest_released_value": "2026-06",
+      "gap_months": 0
+    }
+  },
+  "missing_inputs": [],
+  "ready_for_first_release": true,
+  "before_first_release": true,
+  "detailed_CPI_edge_gap": 0,
+  "limitations": [
+    "latest-vintage inputs with publication rules; prospective archives start with this run",
+    "historical energy mapping remains reconstructed",
+    "no calibrated forecast interval or validated trading position rule"
+  ],
+  "completed_at": "2026-09-09T08:37:55.972792+00:00",
+  "completed_before_first_release": false,
+  "prospective_eligible": false
+}
+Archived inputs and result: C:\Users\luis_\Documents\Codex\2026-09-05\c-users-luis-appdata-local-temp\work\cpi-independent\output\runs\20260909T083745Z_98fbb1c9

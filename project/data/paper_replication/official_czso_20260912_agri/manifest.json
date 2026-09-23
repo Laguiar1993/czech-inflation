@@ -1,0 +1,30 @@
+{
+  "source": "Czech Statistical Office DataStat open data",
+  "started_at": "2026-09-12T10:07:08.081158+00:00",
+  "vintage_status": "current vintage at retrieval",
+  "datasets": {
+    "CEN02032": {
+      "title": "Agricultural producer price indices by main agricultural group (previous period = 100)",
+      "url": "https://data.csu.gov.cz/opendata/sady/CEN02032/distribuce/csv",
+      "retrieved_at": "2026-09-12T10:07:08.081175+00:00",
+      "rows": 5140,
+      "columns": [
+        "Ukazatel",
+        "IndicatorType",
+        "Klasifikace API",
+        "APIZZ",
+        "Typ indexu",
+        "TYPUDAJEZEM4",
+        "Měsíce, jejich kumulace, čtvrtletí, roky",
+        "CASMKMQR",
+        "Území",
+        "Uz0",
+        "Hodnota"
+      ],
+      "sha256": "80537f9571b548b5d42f57e4f93e43d60b7937cb75f9d9c9eb16b4b33b3c70c6"
+    }
+  },
+  "errors": [],
+  "status": "complete",
+  "module_sha256": "89cfdf45e509ab165bb3986b94b5af09fef24b9b9ebd4fbd2b395ed2c6ca6b07"
+}

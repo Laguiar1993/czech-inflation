@@ -1,0 +1,7 @@
+test_benchmarks_r26.py -text
+test_food_ecm_r27.py -text
+test_food_ecm_r27_review.py -text
+test_administered_level_r28.py -text
+test_core_phase_r29.py -text
+test_core_phase_r29b.py -text
+test_excise_steps_r30.py -text

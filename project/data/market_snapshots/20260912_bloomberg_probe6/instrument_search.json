@@ -1,0 +1,77 @@
+{
+  "EU CPI Actual Rentals Czech Republic": [
+    {
+      "security": "CP41CZ<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic"
+    },
+    {
+      "security": "CP41CZMM<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic MoM"
+    },
+    {
+      "security": "CP41CZYY<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic YoY"
+    }
+  ],
+  "EU CPI Package Holidays Czech Republic": [
+    {
+      "security": "CP96CZ<index>",
+      "description": "EU CPI Package Holidays Czech Republic"
+    },
+    {
+      "security": "CP96CZMM<index>",
+      "description": "EU CPI Package Holidays Czech Republic MoM"
+    },
+    {
+      "security": "CP96CZYY<index>",
+      "description": "EU CPI Package Holidays Czech Republic YoY"
+    },
+    {
+      "security": "CPHACZ<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic"
+    },
+    {
+      "security": "CPHACZMM<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic MoM"
+    },
+    {
+      "security": "CPHACZYY<index>",
+      "description": "EU CPI Services Related to Package Holidays & Accommodation Czech Republic YoY"
+    },
+    {
+      "security": "CPXPCZ<index>",
+      "description": "EU CPI Services Rel to Recr & Pers Care Excl Pack Holidays & Accom Czech Rep"
+    },
+    {
+      "security": "CPXPCZMM<index>",
+      "description": "EU CPI Services Rel to Recr & Pers Care Excl Pack Holidays & Accom Czech Rep MoM"
+    },
+    {
+      "security": "CPXPCZYY<index>",
+      "description": "EU CPI Services Rel to Recr & Pers Care Excl Pack Holidays & Accom Czech Rep YoY"
+    }
+  ],
+  "Czech Republic CPI Imputed Rent": [],
+  "Czech Republic CPI Rent": [
+    {
+      "security": "OECZGSHA<index>",
+      "description": "OECD Czech Rep CPI Services Rent Index"
+    },
+    {
+      "security": "CP41CZ<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic"
+    },
+    {
+      "security": "CP41CZMM<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic MoM"
+    },
+    {
+      "security": "CP41CZYY<index>",
+      "description": "EU CPI Actual Rentals for Housing Czech Republic YoY"
+    },
+    {
+      "security": "OCZD04N<index>",
+      "description": "OECD Consumer Price Index Services Rent"
+    }
+  ]
+}

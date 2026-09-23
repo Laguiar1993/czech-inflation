@@ -1,0 +1,242 @@
+database,schema,name,column_names,column_types,temporary
+czechia,cnb,mpr_vintages,"['publication_date' 'season' 'vintage_year' 'series_code'
+ 'series_label_en' 'category' 'period_year' 'value' 'is_forecast'
+ 'unit_note' 'source_url' 'xlsx_url' 'fetched_at']","['DATE' 'VARCHAR' 'INTEGER' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'INTEGER'
+ 'DOUBLE' 'BOOLEAN' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'TIMESTAMP']",False
+czechia,consensus,inflation_expectations,"['survey_date' 'target' 'horizon_kind' 'horizon_value' 'metric'
+ 'value_pct' 'n_respondents' 'source' 'source_kind' 'fetched_at']","['DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'INTEGER'
+ 'VARCHAR' 'VARCHAR' 'TIMESTAMP']",False
+czechia,cpi,cpi_momentum,"['year' 'month' 'code' 'date' 'label' 'idx_nsa' 'idx_sa' 'mom_sa_pct'
+ 'saar_1m' 'saar_3m' 'saar_6m' 'inst_ann' 'yoy_pct']","['INTEGER' 'INTEGER' 'VARCHAR' 'DATE' 'VARCHAR' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,cpi,hicp_index,['year' 'month' 'code' 'label' 'idx_nsa'],['INTEGER' 'INTEGER' 'VARCHAR' 'VARCHAR' 'DOUBLE'],False
+czechia,cpi_czso,cpi_analytical,"['date' 'year' 'month' 'series_code' 'series_label_en' 'base'
+ 'weight_permille' 'idx_value']","['DATE' 'INTEGER' 'INTEGER' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE'
+ 'DOUBLE']",False
+czechia,cpi_czso,cpi_decomposition,['data_month' 'component' 'component_en' 'value_pp'],['DATE' 'VARCHAR' 'VARCHAR' 'DOUBLE'],False
+czechia,cpi_czso,cpi_divisions,"['data_month' 'release_date' 'coicop_code' 'coicop_label_cs'
+ 'coicop_label_en' 'weight_basis_year' 'weight_per_mille' 'mom_idx'
+ 'yoy_idx_m2' 'yoy_idx_m1' 'yoy_idx_m0' 'base2025_idx'
+ 'inflation_rate_pct']","['DATE' 'DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'INTEGER' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,cpi_czso,cpi_goods,['date' 'hh_group_code' 'base' 'weight_sum' 'value'],['DATE' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'DOUBLE'],False
+czechia,cpi_czso,cpi_long,"['date' 'year' 'month' 'coicop_code' 'coicop_label_cs' 'subgroup_code'
+ 'subgroup_label_cs' 'base' 'hh_group_code' 'hh_group_label' 'value'
+ 'period_type']","['DATE' 'INTEGER' 'INTEGER' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'VARCHAR']",False
+czechia,cpi_czso,cpi_momentum,"['year' 'month' 'code' 'date' 'label' 'weight' 'idx_nsa' 'idx_sa'
+ 'mom_sa_pct' 'saar_1m' 'saar_3m' 'saar_6m' 'inst_ann' 'yoy_pct']","['INTEGER' 'INTEGER' 'VARCHAR' 'DATE' 'VARCHAR' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,cpi_czso,cpi_services,['date' 'hh_group_code' 'base' 'weight_sum' 'value'],['DATE' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'DOUBLE'],False
+czechia,cpi_czso,cpi_weights,"['country' 'basis_year' 'coicop_code' 'coicop_label_cs' 'coicop_label_en'
+ 'weight_per_mille' 'first_seen_in_release' 'last_seen_in_release'
+ 'source_url']","['VARCHAR' 'INTEGER' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'DATE' 'DATE'
+ 'VARCHAR']",False
+czechia,cpi_czso,releases,"['data_month' 'release_date' 'release_code' 'title' 'source_url'
+ 'file_urls_json' 'fetched_at']",['DATE' 'DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'TIMESTAMP'],False
+czechia,czso,cen0201a,"['Ukazatel' 'IndicatorType' 'Typ údaje' 'TYPUDAJE5' 'Odvětví' 'HPS'
+ 'Měsíce, jejich kumulace, čtvrtletí, roky' 'CASMKMQR' 'Území' 'Uz0'
+ 'Hodnota' 'period' 'period_freq' 'Hodnota_num']","['VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DATE' 'VARCHAR' 'DOUBLE']",False
+czechia,czso,cen0202a,"['Ukazatel' 'IndicatorType' 'Typ indexu' 'TYPUDAJESTAV'
+ 'Klasifikace stavebních děl' 'STAVDILA' 'Čtvrtletí, kumulace čtvrtletí'
+ 'CASQKQ' 'Území' 'Uz0' 'Hodnota' 'period' 'period_freq' 'Hodnota_num']","['VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DATE' 'VARCHAR' 'DOUBLE']",False
+czechia,czso,confidence_ri,"['data_month' 'indicator' 'base_index' 'release_date' 'source_url'
+ 'xlsx_url' 'fetched_at']",['DATE' 'VARCHAR' 'DOUBLE' 'DATE' 'VARCHAR' 'VARCHAR' 'TIMESTAMP'],False
+czechia,czso,construction_ri,"['release_date' 'data_month' 'code' 'label_cs' 'label_en' 'yoy_index'
+ 'source_url' 'xlsx_url' 'fetched_at']","['DATE' 'DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'VARCHAR' 'VARCHAR'
+ 'TIMESTAMP']",False
+czechia,czso,construction_ri_latest,"['release_date' 'data_month' 'code' 'label_cs' 'label_en' 'yoy_index'
+ 'source_url' 'xlsx_url' 'fetched_at']","['DATE' 'DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'VARCHAR' 'VARCHAR'
+ 'TIMESTAMP']",False
+czechia,czso,hpi,"['quarter_end' 'category' 'region' 'index_type' 'value' 'release_date'
+ 'source_url' 'xlsx_url' 'fetched_at']","['DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'DATE' 'VARCHAR' 'VARCHAR'
+ 'TIMESTAMP']",False
+czechia,czso,ip_ri,"['release_date' 'data_month' 'nace_code' 'nace_label_cs' 'nace_label_en'
+ 'yoy_index' 'source_url' 'xlsx_url' 'fetched_at']","['DATE' 'DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'VARCHAR' 'VARCHAR'
+ 'TIMESTAMP']",False
+czechia,czso,ip_ri_latest,"['data_month' 'nace_code' 'nace_label_cs' 'nace_label_en' 'yoy_index'
+ 'release_date' 'source_url']",['DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'DATE' 'VARCHAR'],False
+czechia,czso,mzd_ri,"['period' 'year' 'quarter' 'avg_wage_czk' 'nom_yoy_pct' 'real_yoy_pct'
+ 'cpi_yoy_pct' 'median_wage_czk' 'source_url' 'fetched_at']","['DATE' 'INTEGER' 'INTEGER' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'VARCHAR' 'TIMESTAMP']",False
+czechia,czso,mzdq1,"['Ukazatel' 'IndicatorType' 'Velikostní skupiny podniků' 'KATPMZD'
+ 'Odvětví ekonomické činnosti' 'CZNACEMZDY' 'Šetření' 'ZJIST'
+ 'Institucionální sektory-Sektor II' 'ISEKTORMZDH.ISEKTOR2'
+ 'Institucionální sektory-Sektor V' 'ISEKTORMZDH.ISEKTOR5' 'Čtvrtletí'
+ 'CasQ' 'ČR, regiony, kraje-Stát' 'Uz0123vm.STAT'
+ 'ČR, regiony, kraje-Region' 'Uz0123vm.REGION' 'ČR, regiony, kraje-Kraj'
+ 'Uz0123vm.KRAJ' 'Hodnota' 'period' 'period_freq' 'Hodnota_num']","['VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'DATE' 'VARCHAR' 'DOUBLE']",False
+czechia,czso,obc01,"['Ukazatel' 'IndicatorType' 'Území' 'Uz0' 'Odvětví (NACE)' 'CZNACEOB'
+ 'Typ ceny' 'TYPCENA' 'Očištění' 'OCIST' 'Typ indexu' 'TYPUDAJVM'
+ 'Roky, čtvrtletí, měsíce-Rok' 'CASRQM.CAS_R'
+ 'Roky, čtvrtletí, měsíce-Čtvrtletí' 'CASRQM.CAS_Q'
+ 'Roky, čtvrtletí, měsíce-Měsíc' 'CASRQM.CAS_M' 'Hodnota' 'period'
+ 'period_freq' 'Hodnota_num']","['VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DATE' 'VARCHAR'
+ 'DOUBLE']",False
+czechia,czso,ppi_ri,"['release_date' 'data_month' 'code' 'label_cs' 'label_en' 'yoy_index'
+ 'source_url' 'xlsx_url' 'fetched_at']","['DATE' 'DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'VARCHAR' 'VARCHAR'
+ 'TIMESTAMP']",False
+czechia,czso,ppi_ri_latest,"['release_date' 'data_month' 'code' 'label_cs' 'label_en' 'yoy_index'
+ 'source_url' 'xlsx_url' 'fetched_at']","['DATE' 'DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'VARCHAR' 'VARCHAR'
+ 'TIMESTAMP']",False
+czechia,czso,pru01,"['Ukazatel' 'IndicatorType' 'Typ indexu' 'TYPUDAJEP' 'Očištění' 'OCIST'
+ 'CZ-NACE-Sekce' 'NACEIPP.NACE1' 'CZ-NACE-Oddíl' 'NACEIPP.NACE2'
+ 'Úhrn 12 měsíců' 'CAS12M' 'Území' 'Uz0' 'Hodnota' 'period' 'period_freq'
+ 'Hodnota_num']","['VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'DATE' 'VARCHAR' 'DOUBLE']",False
+czechia,czso,retail_ri,"['release_date' 'data_month' 'code' 'label_cs' 'label_en' 'yoy_index'
+ 'source_url' 'xlsx_url' 'fetched_at']","['DATE' 'DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'VARCHAR' 'VARCHAR'
+ 'TIMESTAMP']",False
+czechia,czso,retail_ri_latest,"['release_date' 'data_month' 'code' 'label_cs' 'label_en' 'yoy_index'
+ 'source_url' 'xlsx_url' 'fetched_at']","['DATE' 'DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'VARCHAR' 'VARCHAR'
+ 'TIMESTAMP']",False
+czechia,czso,sta01,"['Ukazatel' 'IndicatorType' 'Měsíce' 'CasM' 'Území' 'Uz0' 'Hodnota'
+ 'period' 'period_freq' 'Hodnota_num']","['VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'DATE' 'VARCHAR' 'DOUBLE']",False
+czechia,czso,unemployment_ri,"['data_month' 'adjusted' 'series' 'gender' 'rate_pct' 'release_date'
+ 'source_url' 'xlsx_url' 'fetched_at']","['DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'DATE' 'VARCHAR' 'VARCHAR'
+ 'TIMESTAMP']",False
+czechia,czso,vzoom,"['Ukazatel' 'IndicatorType' 'Měsíce' 'CasM' 'Země' 'CZEMZO' 'Očištění'
+ 'OCIST4' 'Komodity SITC' 'SITC' 'CZCPA' 'CZCPAZO' 'Území' 'Uz0'
+ 'Typ ceny' 'TYPCENA1' 'Hodnota' 'period' 'period_freq' 'Hodnota_num']","['VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DATE' 'VARCHAR' 'DOUBLE']",False
+czechia,czso,wages_headline,"['period' 'year' 'quarter' 'nom_yoy_pct' 'real_yoy_pct' 'avg_wage_czk'
+ 'source']",['DATE' 'INTEGER' 'INTEGER' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'VARCHAR'],False
+czechia,czso,wages_real_yoy,"['year' 'quarter' 'period' 'wage_nom_yoy_pct' 'cpi_yoy_pct'
+ 'wage_real_yoy_pct']",['INTEGER' 'INTEGER' 'DATE' 'DOUBLE' 'DOUBLE' 'DOUBLE'],False
+czechia,energy,day_ahead_daily,"['zone' 'date_utc' 'price_eur_mwh_avg' 'n_points' 'resolution_used'
+ 'source' 'fetched_at']",['VARCHAR' 'DATE' 'DOUBLE' 'INTEGER' 'VARCHAR' 'VARCHAR' 'TIMESTAMP'],False
+czechia,energy,day_ahead_points,['zone' 'ts_utc' 'resolution' 'price_eur_mwh' 'source' 'fetched_at'],['VARCHAR' 'TIMESTAMP' 'VARCHAR' 'DOUBLE' 'VARCHAR' 'TIMESTAMP'],False
+czechia,energy,generation_daily,['zone' 'date_utc' 'psr_type' 'psr_name' 'gen_mwh' 'cons_mwh' 'fetched_at'],['VARCHAR' 'DATE' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'DOUBLE' 'TIMESTAMP'],False
+czechia,eurostat,bcs_survey,['year' 'month' 'indic_code' 'indic_label' 'value'],['INTEGER' 'INTEGER' 'VARCHAR' 'VARCHAR' 'DOUBLE'],False
+czechia,eurostat,construction_monthly,['year' 'month' 'construction_yoy_ca_pct'],['INTEGER' 'INTEGER' 'DOUBLE'],False
+czechia,eurostat,gdp_nominal_qtr,['year' 'quarter' 'gdp_mnac'],['INTEGER' 'INTEGER' 'DOUBLE'],False
+czechia,eurostat,gdp_real_qoq,['year' 'quarter' 'gdp_qoq_sa_pct'],['INTEGER' 'INTEGER' 'DOUBLE'],False
+czechia,eurostat,gov_quarterly,['year' 'quarter' 'na_item' 'value_mnac'],['INTEGER' 'INTEGER' 'VARCHAR' 'DOUBLE'],False
+czechia,eurostat,ip_monthly,['year' 'month' 'ip_yoy_ca_pct'],['INTEGER' 'INTEGER' 'DOUBLE'],False
+czechia,eurostat,primary_balance_qtr,"['year' 'quarter' 'period' 'primary_bal' 'gdp_mnac' 'primary_bal_pct_gdp'
+ 'primary_bal_pct_gdp_4q']",['INTEGER' 'INTEGER' 'TIMESTAMP' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE'],False
+czechia,eurostat,retail_monthly,['year' 'month' 'retail_yoy_ca_pct'],['INTEGER' 'INTEGER' 'DOUBLE'],False
+czechia,eurostat,unemployment_lfs,['year' 'month' 'unemp_sa_pct'],['INTEGER' 'INTEGER' 'DOUBLE'],False
+czechia,fiscal,debt_annual,['year' 'debt_pct_gdp'],['INTEGER' 'DOUBLE'],False
+czechia,fiscal,debt_quarterly,['year' 'quarter' 'debt_mn_nac'],['INTEGER' 'INTEGER' 'DOUBLE'],False
+czechia,fiscal,edp_annual,['year' 'deficit_pct_gdp'],['INTEGER' 'DOUBLE'],False
+czechia,fiscal,fiscal_momentum,"['year' 'quarter' 'code' 'label' 'date' 'value_nsa' 'value_sa'
+ 'qoq_sa_pct' 'saar_1q' 'saar_2q' 'saar_4q' 'inst_ann' 'yoy_pct']","['INTEGER' 'INTEGER' 'VARCHAR' 'VARCHAR' 'DATE' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,fiscal,fiscal_quarterly,['year' 'quarter' 'code' 'label' 'value_mn_nac'],['INTEGER' 'INTEGER' 'VARCHAR' 'VARCHAR' 'DOUBLE'],False
+czechia,fiscal,fiscal_ratios,"['year' 'quarter' 'date' 'rev_t12m_pct_gdp' 'exp_t12m_pct_gdp'
+ 'bal_t12m_pct_gdp' 'debt_pct_gdp_q']",['INTEGER' 'INTEGER' 'DATE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE'],False
+czechia,fiscal,fiscal_tracker,"['year' 'quarter' 'ytd_TR' 'ytd_TE' 'ytd_B9' 'gdp_t12m'
+ 'ytd_balance_pct_gdp_ann' 'implied_fy_balance_pct_gdp'
+ 'weo_target_balance_pct_gdp' 'weo_target_debt_pct_gdp'
+ 'weo_target_primary_balance_pct_gdp' 'balance_vs_target_bp'
+ 'ytd_TR_pct_of_fy' 'ytd_TE_pct_of_fy' 'rev_pace_z' 'rev_pace_pctile'
+ 'rev_pace_signal' 'rev_yoy_growth_pct' 'rev_target_growth_pct'
+ 'rev_growth_gap_pp' 'exp_pace_z' 'exp_pace_pctile' 'exp_pace_signal'
+ 'exp_yoy_growth_pct' 'exp_target_growth_pct' 'exp_growth_gap_pp'
+ 'pace_score']","['INTEGER' 'INTEGER' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'VARCHAR' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'VARCHAR' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,fiscal,gdp_quarterly,['year' 'quarter' 'gdp_nsa_mn_nac' 'gdp_sa_mn_nac'],['INTEGER' 'INTEGER' 'DOUBLE' 'DOUBLE'],False
+czechia,fiscal,weo_fiscal_annual,['year' 'indicator' 'label' 'value'],['INTEGER' 'VARCHAR' 'VARCHAR' 'DOUBLE'],False
+czechia,fiscal_mfcr,bond_holders_mf,"['date' 'sector_code' 'sector_name_cs' 'holdings_czk' 'pct_of_total'
+ 'pct_of_domestic' 'source_url' 'fetched_at']","['DATE' 'VARCHAR' 'VARCHAR' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'VARCHAR'
+ 'TIMESTAMP']",False
+czechia,fiscal_mfcr,bond_holdings,"['date' 'total_outstanding_czkbn' 'non_resident_czkbn' 'fi_czkbn'
+ 'household_czkbn' 'nfc_czkbn' 'intragovt_czkbn' 'non_resident_pct'
+ 'fi_pct' 'household_pct' 'nfc_pct' 'intragovt_pct' 'fi_mfi_czkbn_approx'
+ 'fi_mfi_pct_approx' 'fi_insurers_czkbn_approx' 'fi_insurers_pct_approx'
+ 'fi_pensions_czkbn_approx' 'fi_pensions_pct_approx'
+ 'fi_invfunds_czkbn_approx' 'fi_invfunds_pct_approx'
+ 'fi_other_czkbn_approx' 'fi_other_pct_approx']","['DATE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,fiscal_mfcr,budget_targets,"['fy' 'revenue_approved_czkbn' 'expenditure_approved_czkbn'
+ 'balance_approved_czkbn' 'revenue_revised_czkbn'
+ 'expenditure_revised_czkbn' 'balance_revised_czkbn' 'source']",['INTEGER' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'VARCHAR'],False
+czechia,fiscal_mfcr,chapters,['chapter_code' 'name_cs' 'valid_from' 'valid_to' 'source_url'],['VARCHAR' 'VARCHAR' 'DATE' 'DATE' 'VARCHAR'],False
+czechia,fiscal_mfcr,fiscal_momentum,"['year' 'month' 'code' 'date' 'label' 'value_nsa' 'value_sa' 'mom_sa_pct'
+ 'saar_1m' 'saar_3m' 'saar_6m' 'inst_ann' 'yoy_pct']","['INTEGER' 'INTEGER' 'VARCHAR' 'DATE' 'VARCHAR' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,fiscal_mfcr,fiscal_ratios,"['date' 'year' 'month' 't12m_revenue_czkbn' 't12m_expenditure_czkbn'
+ 't12m_balance_czkbn' 't4q_gdp_czkbn' 'revenue_pct_gdp'
+ 'expenditure_pct_gdp' 'balance_pct_gdp' 'deficit_pct_gdp'
+ 'delta_deficit_pct_gdp_12m']","['DATE' 'INTEGER' 'INTEGER' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,fiscal_mfcr,fiscal_tracker,"['date' 'fy' 'months_into_fy' 'revenue_ytd_czkbn' 'revenue_target_czkbn'
+ 'revenue_pct_of_target' 'revenue_seasonal_pct_3y'
+ 'revenue_seasonal_pct_5y' 'revenue_seasonal_pct_10y'
+ 'implied_fy_revenue_3y_czkbn' 'implied_fy_revenue_5y_czkbn'
+ 'implied_fy_revenue_10y_czkbn' 'rev_pace_z' 'rev_pace_pctile'
+ 'rev_pace_signal' 'rev_yoy_growth_pct' 'rev_target_growth_pct'
+ 'rev_growth_gap_pp' 'expenditure_ytd_czkbn' 'expenditure_target_czkbn'
+ 'expenditure_pct_of_target' 'expenditure_seasonal_pct_3y'
+ 'expenditure_seasonal_pct_5y' 'expenditure_seasonal_pct_10y'
+ 'implied_fy_expenditure_3y_czkbn' 'implied_fy_expenditure_5y_czkbn'
+ 'implied_fy_expenditure_10y_czkbn' 'exp_pace_z' 'exp_pace_pctile'
+ 'exp_pace_signal' 'exp_yoy_growth_pct' 'exp_target_growth_pct'
+ 'exp_growth_gap_pp' 'balance_ytd_czkbn' 'balance_target_czkbn'
+ 'implied_fy_balance_5y_czkbn' 'balance_target_minus_implied_czkbn'
+ 'pace_score']","['DATE' 'INTEGER' 'INTEGER' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'VARCHAR' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'VARCHAR' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,fiscal_mfcr,item_classes,['class_code' 'name_cs' 'side'],['VARCHAR' 'VARCHAR' 'VARCHAR'],False
+czechia,fiscal_mfcr,mfcr_chapter_monthly,"['year' 'month' 'date' 'chapter_code' 'chapter_name' 'item_class'
+ 'item_class_name' 'side' 'budget_approved_czk' 'budget_final_czk'
+ 'actual_czk']","['INTEGER' 'INTEGER' 'DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,fiscal_mfcr,mfcr_monthly,"['year' 'month' 'date' 'revenue_flow_czkbn' 'expenditure_flow_czkbn'
+ 'balance_flow_czkbn' 'source_url']",['INTEGER' 'INTEGER' 'DATE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'VARCHAR'],False
+czechia,fiscal_mfcr,mfcr_ytd,"['year' 'month' 'date' 'revenue_czkbn' 'expenditure_czkbn' 'balance_czkbn'
+ 'press_release_url' 'press_release_date' 'source_url' 'fetched_at']","['INTEGER' 'INTEGER' 'DATE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'VARCHAR' 'DATE'
+ 'VARCHAR' 'TIMESTAMP']",False
+czechia,fiscal_mfcr,state_debt_annual,"['year' 'total_debt_czkbn' 'domestic_total_czkbn' 'domestic_tbills_czkbn'
+ 'domestic_savings_bonds_czkbn' 'domestic_medlt_bonds_czkbn'
+ 'domestic_other_czkbn' 'foreign_total_czkbn' 'foreign_medlt_bonds_czkbn'
+ 'foreign_loans_czkbn' 'source_url']","['INTEGER' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'VARCHAR']",False
+czechia,meta,pulls,"['source' 'dataset_code' 'dataset_version' 'indicator_code'
+ 'indicator_label' 'dimensions_json' 'unit' 'frequency' 'seasonal_adj'
+ 'obs_count' 'obs_first' 'obs_last' 'release_ts' 'revision_ts'
+ 'source_url' 'notes']","['VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'INTEGER' 'DATE' 'DATE' 'TIMESTAMP' 'TIMESTAMP'
+ 'VARCHAR' 'VARCHAR']",False
+czechia,meta,release_calendar,"['schema_name' 'table_name' 'indicator_code' 'reference_date'
+ 'release_date' 'source' 'lag_days' 'fetched_at_cap' 'built_at']","['VARCHAR' 'VARCHAR' 'VARCHAR' 'DATE' 'DATE' 'VARCHAR' 'INTEGER' 'BOOLEAN'
+ 'TIMESTAMP']",False
+czechia,mfcr,mp_output_gap,"['publication_date' 'series_code' 'series_label_cs' 'unit' 'quarter_end'
+ 'value' 'is_forecast' 'source_url' 'xlsx_url' 'fetched_at']","['DATE' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'DATE' 'DOUBLE' 'BOOLEAN' 'VARCHAR'
+ 'VARCHAR' 'TIMESTAMP']",False
+czechia,monetary,arad_data,['indicator_id' 'period' 'snapshot_id' 'value'],['VARCHAR' 'DATE' 'VARCHAR' 'DOUBLE'],False
+czechia,monetary,arad_indicators,"['indicator_id' 'indicator_name' 'frequency_code' 'frequency_name' 'unit'
+ 'unit_mult_code' 'unit_mult_name' 'set_id' 'base_id' 'discovered_at']","['VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR' 'VARCHAR'
+ 'VARCHAR' 'VARCHAR' 'TIMESTAMP']",False
+czechia,monetary,czeonia_daily,['date' 'rate_pct' 'volume' 'trades'],['DATE' 'DOUBLE' 'DOUBLE' 'INTEGER'],False
+czechia,monetary,fx_monthly,['year' 'month' 'currency_code' 'country' 'amount' 'rate' 'czk_per_unit'],['INTEGER' 'INTEGER' 'VARCHAR' 'VARCHAR' 'INTEGER' 'DOUBLE' 'DOUBLE'],False
+czechia,monetary,money_momentum,"['year' 'month' 'code' 'date' 'label' 'level_nsa' 'level_sa' 'mom_sa_pct'
+ 'saar_1m' 'saar_3m' 'saar_6m' 'inst_ann' 'yoy_pct']","['INTEGER' 'INTEGER' 'VARCHAR' 'DATE' 'VARCHAR' 'DOUBLE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,monetary,omo_operations,"['trade_date' 'op_idx' 'operation_type' 'liquidity_impact'
+ 'settlement_date' 'maturity_date' 'marginal_rate_pct' 'avg_bid_rate_pct'
+ 'total_bid_vol_bln' 'total_alloted_bln' 'allotment_pct']","['DATE' 'INTEGER' 'VARCHAR' 'VARCHAR' 'DATE' 'DATE' 'DOUBLE' 'DOUBLE'
+ 'DOUBLE' 'DOUBLE' 'DOUBLE']",False
+czechia,monetary,policy_rate_daily,['date' 'repo_2w_rate_pct' 'deposit_fac_pct' 'lending_fac_pct'],['DATE' 'DOUBLE' 'DOUBLE' 'DOUBLE'],False
+czechia,monetary,pribor_daily,['date' 'term' 'rate_pct'],['DATE' 'VARCHAR' 'DOUBLE'],False
+czechia,weekly_rushin,cz_elec_aim_monthly,['date' 'gwh' 'source' 'fetched_at'],['DATE' 'DOUBLE' 'VARCHAR' 'TIMESTAMP'],False
+czechia,weekly_rushin,cz_load_daily,['date' 'load_mw_avg_daily' 'n_hours_observed' 'source' 'fetched_at'],['DATE' 'DOUBLE' 'INTEGER' 'VARCHAR' 'TIMESTAMP'],False
+czechia,weekly_rushin,google_trends_weekly,['date' 'term' 'score' 'is_partial' 'source' 'fetched_at'],['DATE' 'VARCHAR' 'INTEGER' 'BOOLEAN' 'VARCHAR' 'TIMESTAMP'],False
+czechia,weekly_rushin,lkw_maut_daily,['date' 'index_raw' 'index_cal' 'index_sa' 'source' 'fetched_at'],['DATE' 'DOUBLE' 'DOUBLE' 'DOUBLE' 'VARCHAR' 'TIMESTAMP'],False
+

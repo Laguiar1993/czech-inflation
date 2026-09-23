@@ -1,0 +1,125 @@
+item,form,field,title,description,type,categories,actual_observations_available,source_id,time_semantics
+electricity,mvE1,obdobi,obdobi,Společné,"[{""$ref"": ""#/definitions/dateFormat""}]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,typZakaznika,typZakaznika,Společné,"""string""","[""C"", ""D""]",False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,distribucniSazba,distribucniSazba,Společné,"""string""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,typSmlouvy,typSmlouvy,Společné,"""string""","[""A"", ""B"", ""C"", ""D1"", ""D2"", ""D3"", ""E"", ""F""]",False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,pocetOm,pocetOm,Společné,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,planovanaSpotrebaMwh,planovanaSpotrebaMwh,Společné,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,idProduktu,idProduktu,Pouze A,"""string""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,platnostCenikuOd,platnostCenikuOd,Pouze A,"[{""$ref"": ""#/definitions/dateFormat""}]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,kratkodobyTrh,kratkodobyTrh,Pouze A,"""string""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,prirazkaProcenta,prirazkaProcenta,Pouze A,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,prirazkaAbsolutni,prirazkaAbsolutni,Pouze A,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,prirazkaMinimalni,prirazkaMinimalni,Pouze A,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,stalyPlat,stalyPlat,Pouze A,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,stalyPlatPrumer,stalyPlatPrumer,Pouze B–F,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,stalyPlatMedian,stalyPlatMedian,Pouze B–F,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,obchodniSlozkaCenyPrumer,obchodniSlozkaCenyPrumer,Pouze B–F,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,obchodniSlozkaCenyMedian,obchodniSlozkaCenyMedian,Pouze B–F,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,obchodniSlozkaCenySoucetMocnin,obchodniSlozkaCenySoucetMocnin,Pouze B–F,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,obchodniSlozkaCenyPocetJedinecnych,obchodniSlozkaCenyPocetJedinecnych,Pouze B–F,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE1,sdileniAgregaceVyrobaNeboUkladani,sdileniAgregaceVyrobaNeboUkladani,"Informace, zda je v předávacím místě odběrného místa nebo v místě připojení odběrného místa zohledňováno sdílení elektřiny, registrován agregátor, připojena výrobna elektřiny nebo připojeno zařízení pro ukládání elektřiny. Povolene hodnoty: ano, ne.","""string""","[""ano"", ""ne""]",False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE2,obdobi,obdobi,,"[{""$ref"": ""#/definitions/dateFormat""}]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE2,typZakaznika,typZakaznika,,"""string""","[""C"", ""D""]",False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE2,spotrebniPasmo,spotrebniPasmo,,"""string""","[""do 0,999"", ""od 1,000 do 2,499"", ""od 2,500 do 4,999"", ""od 5,000 do 14,999"", ""od 15,000""]",False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE2,pocetOm,pocetOm,,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE2,dodavkaMwh,dodavkaMwh,,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE2,trzbyObchodniSlozka,trzbyObchodniSlozka,,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE2,trzbyRegulovanaSlozka,trzbyRegulovanaSlozka,,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE2,trzbyDph,trzbyDph,,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE2,trzbyPodporaPoze,trzbyPodporaPoze,,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE2,trzbyDanElektrina,trzbyDanElektrina,,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE2,trzbyOstatniPoplatky,trzbyOstatniPoplatky,,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,obdobi,obdobi,Společné,"""string""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,typZakaznika,typZakaznika,Společné,"""string""","[""C"", ""D""]",False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,distribucniSazba,distribucniSazba,Společné,"""string""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,typSmlouvy,typSmlouvy,Společné,"""string""","[""A"", ""B"", ""C"", ""D1"", ""D2"", ""D3"", ""E"", ""F""]",False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,ruzneCenyVDilcichUsecich,ruzneCenyVDilcichUsecich,Společné,"""string""","[""ano"", ""ne""]",False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,zdrojVahTarifu,zdrojVahTarifu,Společné,"""string""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,pocetOm,pocetOm,Společné,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,idProduktu,idProduktu,Pouze A,"""string""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,platnostCenikuOd,platnostCenikuOd,Pouze A,"[{""$ref"": ""#/definitions/dateFormat""}]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,kratkodobyTrh,kratkodobyTrh,Pouze A,"""string""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,prirazkaProcenta,prirazkaProcenta,Pouze A,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,prirazkaAbsolutni,prirazkaAbsolutni,Pouze A,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,prirazkaMinimalni,prirazkaMinimalni,Pouze A,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,stalyPlat,stalyPlat,Pouze A,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,stalyPlatPrumer,stalyPlatPrumer,Pouze B–F,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,stalyPlatMedian,stalyPlatMedian,Pouze B–F,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,obchodniSlozkaCenyPrumer,obchodniSlozkaCenyPrumer,Pouze B–F,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,obchodniSlozkaCenyMedian,obchodniSlozkaCenyMedian,Pouze B–F,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,obchodniSlozkaCenySoucetMocnin,obchodniSlozkaCenySoucetMocnin,Pouze B–F,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,obchodniSlozkaCenyPocetJedinecnych,obchodniSlozkaCenyPocetJedinecnych,Pouze B–F,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE3,sdileniAgregaceVyrobaNeboUkladani,sdileniAgregaceVyrobaNeboUkladani,"Informace, zda je v předávacím místě odběrného místa nebo v místě připojení odběrného místa zohledňováno sdílení elektřiny, registrován agregátor, připojena výrobna elektřiny nebo připojeno zařízení pro ukládání elektřiny. Povolene hodnoty: ano, ne.","""string""","[""ano"", ""ne""]",False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,obdobi,obdobi,,"[{""$ref"": ""#/definitions/dateFormat""}]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,typZakaznika,typZakaznika,,"""string""","[""C"", ""D""]",False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,pocetZakaznikuPokuta,pocetZakaznikuPokuta,,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,prumernaPokutaKc,prumernaPokutaKc,,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,pocetOmPrvniUpozorneni,pocetOmPrvniUpozorneni,,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,pocetOmPreruseniOmezUkonceni,pocetOmPreruseniOmezUkonceni,,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,pocetOmPreruseniNeplneniPlateb,pocetOmPreruseniNeplneniPlateb,,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,pocetOmZahajenaDodavka,pocetOmZahajenaDodavka,,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,pocetOmZahajenaDistanMimoProstory,pocetOmZahajenaDistanMimoProstory,,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,pocetOmJenOze,pocetOmJenOze,,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,mnozstviMwhJenOze,mnozstviMwhJenOze,,"[""number"", ""null""]",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+electricity,mvE4,pocetOmZmenaProduktuNeboProdlouzeni,pocetOmZmenaProduktuNeboProdlouzeni,,"""integer""",[],False,ERU_E_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,obdobi,obdobi,Společné,"[{""$ref"": ""#/definitions/dateFormat""}]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,typZakaznika,typZakaznika,Společné,"""string""","[""maloodberatel"", ""domacnost""]",False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,spotrebniPasmo,spotrebniPasmo,Společné,"""string""","[""do 1,88"", ""od 1,89 do 5,55"", ""od 5,56 do 7,56"", ""od 7,57 do 15"", ""od 15,01 do 25"", ""od 25,01 do 45"", ""od 45,01 do 55,55"", ""od 55,56 do 63"", ""od 63,01""]",False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,typSmlouvy,typSmlouvy,Společné,"""string""","[""A"", ""B"", ""C"", ""D1"", ""D2"", ""D3"", ""E"", ""F""]",False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,pocetOm,pocetOm,Společné,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,planovanaSpotrebaMwh,planovanaSpotrebaMwh,Společné,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,idProduktu,idProduktu,Pouze A,"""string""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,platnostCenikuOd,platnostCenikuOd,Pouze A,"[{""$ref"": ""#/definitions/dateFormat""}]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,kratkodobyTrh,kratkodobyTrh,Pouze A,"""string""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,prirazkaProcenta,prirazkaProcenta,Pouze A,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,prirazkaAbsolutni,prirazkaAbsolutni,Pouze A,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,prirazkaMinimalni,prirazkaMinimalni,Pouze A,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,stalyPlat,stalyPlat,Pouze A,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,stalyPlatPrumer,stalyPlatPrumer,Pouze B–F,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,stalyPlatMedian,stalyPlatMedian,Pouze B–F,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,obchodniSlozkaCenyPrumer,obchodniSlozkaCenyPrumer,Pouze B–F,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,obchodniSlozkaCenyMedian,obchodniSlozkaCenyMedian,Pouze B–F,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,obchodniSlozkaCenySoucetMocnin,obchodniSlozkaCenySoucetMocnin,Pouze B–F,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG5,obchodniSlozkaCenyPocetJedinecnych,obchodniSlozkaCenyPocetJedinecnych,Pouze B–F,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG6,obdobi,obdobi,,"[{""$ref"": ""#/definitions/dateFormat""}]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG6,typZakaznika,typZakaznika,,"""string""","[""maloodberatel"", ""domacnost""]",False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG6,spotrebniPasmo,spotrebniPasmo,,"""string""","[""do 1,88"", ""od 1,89 do 5,55"", ""od 5,56 do 7,56"", ""od 7,57 do 15"", ""od 15,01 do 25"", ""od 25,01 do 45"", ""od 45,01 do 55,55"", ""od 55,56 do 63"", ""od 63,01""]",False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG6,pocetOm,pocetOm,,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG6,dodavkaMwh,dodavkaMwh,,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG6,trzbyObchodniSlozka,trzbyObchodniSlozka,,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG6,trzbyRegulovanaSlozka,trzbyRegulovanaSlozka,,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG6,trzbyDph,trzbyDph,,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG6,trzbyDanPlyn,trzbyDanPlyn,,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG6,trzbyOstatniPoplatky,trzbyOstatniPoplatky,,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,obdobi,obdobi,Společné,"""string""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,typZakaznika,typZakaznika,Společné,"""string""","[""maloodberatel"", ""domacnost""]",False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,spotrebniPasmo,spotrebniPasmo,Společné,"""string""","[""do 1,88"", ""od 1,89 do 5,55"", ""od 5,56 do 7,56"", ""od 7,57 do 15"", ""od 15,01 do 25"", ""od 25,01 do 45"", ""od 45,01 do 55,55"", ""od 55,56 do 63"", ""od 63,01""]",False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,typSmlouvy,typSmlouvy,Společné,"""string""","[""A"", ""B"", ""C"", ""D1"", ""D2"", ""D3"", ""E"", ""F""]",False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,ruzneCenyVDilcichUsecich,ruzneCenyVDilcichUsecich,Společné,"""string""","[""ano"", ""ne""]",False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,pocetOm,pocetOm,Společné,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,idProduktu,idProduktu,Pouze A,"""string""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,platnostCenikuOd,platnostCenikuOd,Pouze A,"[{""$ref"": ""#/definitions/dateFormat""}]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,kratkodobyTrh,kratkodobyTrh,Pouze A,"""string""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,prirazkaProcenta,prirazkaProcenta,Pouze A,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,prirazkaAbsolutni,prirazkaAbsolutni,Pouze A,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,prirazkaMinimalni,prirazkaMinimalni,Pouze A,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,stalyPlat,stalyPlat,Pouze A,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,stalyPlatPrumer,stalyPlatPrumer,Pouze B–F,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,stalyPlatMedian,stalyPlatMedian,Pouze B–F,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,obchodniSlozkaCenyPrumer,obchodniSlozkaCenyPrumer,Pouze B–F,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,obchodniSlozkaCenyMedian,obchodniSlozkaCenyMedian,Pouze B–F,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,obchodniSlozkaCenySoucetMocnin,obchodniSlozkaCenySoucetMocnin,Pouze B–F,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG7,obchodniSlozkaCenyPocetJedinecnych,obchodniSlozkaCenyPocetJedinecnych,Pouze B–F,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,obdobi,obdobi,,"[{""$ref"": ""#/definitions/dateFormat""}]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,typZakaznika,typZakaznika,,"""string""","[""maloodberatel"", ""domacnost""]",False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,pocetZakaznikuPokuta,pocetZakaznikuPokuta,,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,prumernaPokutaKc,prumernaPokutaKc,,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,pocetOmPrvniUpozorneni,pocetOmPrvniUpozorneni,,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,pocetOmPreruseniOmezUkonceni,pocetOmPreruseniOmezUkonceni,,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,pocetOmPreruseniNeplneniPlateb,pocetOmPreruseniNeplneniPlateb,,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,pocetOmZahajenaDodavka,pocetOmZahajenaDodavka,,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,pocetOmZahajenaDistanMimoProstory,pocetOmZahajenaDistanMimoProstory,,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,pocetOmJenOze,pocetOmJenOze,,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,mnozstviMwhJenOze,mnozstviMwhJenOze,,"[""number"", ""null""]",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots
+gas,mvG8,pocetOmZmenaProduktuNeboProdlouzeni,pocetOmZmenaProduktuNeboProdlouzeni,,"""integer""",[],False,ERU_G_schema,obdobi is HALF-YEAR; not monthly; price fields are end-period snapshots

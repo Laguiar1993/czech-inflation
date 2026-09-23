@@ -1,0 +1,17 @@
+{
+  "files": {
+    "adapter.json": "d535c9ebef8b1a84fd0af36fd5f12fab72d1bd56e45644e44fc9d8defc55cf3c",
+    "adapter.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "adapter.stdout": "6c2c7f0fe95a77e7902fd7ea401f4fc8b6fa7d1e2fa0fe4983041e202d986e4e",
+    "inputs.json": "6dff0b9420d5ae2f68be310af69d289cca70644a201893470eb78fc9156fa302",
+    "request.json": "80d16b32fe24c18a4cf9af093fa3e689130bd9736e402ad68e9fea8cf12517a9",
+    "result.json": "d513afc64bf27e47b03b7fc0e2b07a5769b69c638d5bb5775736bcd6a402b8fb",
+    "scratch/tmpib3056py.d11": "45af47d6f6b88a4081c42d1a04cdc362954d84d881f525d5d7dcf90f13fd1170",
+    "scratch/tmpib3056py.d12": "988936ac80432c4a39f7de1527a97bd7c5a3569490c5c3c02328b062a1774cd4",
+    "scratch/tmpib3056py.d13": "058fcebde878eaa3191e1f7d915b37d1d4ef742bb6ac713d31c9d7675d28c4cd",
+    "scratch/tmpib3056py.err": "df5947e5bd97a6c5127c27ea32a93d3c9f0ed5ab1cd6faa1b64ecd918c19f42f",
+    "scratch/tmpib3056py.log": "f520fa6ced1be342f9697dcef4d740af33d5b4e37c76efc9966620ce4409d79e",
+    "scratch/tmpib3056py.out": "1c17d09047fb745aa58c7563c71776178335c636563d565d523bf4f85d444c59"
+  },
+  "schema_version": "forecast_updates_r33/run-v1"
+}

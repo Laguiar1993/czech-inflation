@@ -1,0 +1,13 @@
+{
+  "origins": 90,
+  "models": [
+    "STATE_FAST_R15",
+    "STABLE_LOCAL_CORE_R14B",
+    "DAMPED_P95_Q001_R16"
+  ],
+  "rows": 3510,
+  "max_abs": 5.329070518200751e-15,
+  "finite_mask_mismatches": 0,
+  "failed_checks": 0,
+  "tolerance": 1e-08
+}

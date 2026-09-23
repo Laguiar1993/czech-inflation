@@ -1,0 +1,57 @@
+{
+  "nowcast_verified_hashes": 15,
+  "path_verified_hashes": 72,
+  "nowcast_rows_and_training_checked": [
+    630,
+    360
+  ],
+  "headline_estimated_origins": 66,
+  "headline_vs_detail_labels_different_months": 86,
+  "historical_mask_cells_checked": 2720,
+  "cells_masked_on_frozen_eves": 0,
+  "path_contribution_max_abs_error": 8.881784197001252e-16,
+  "path_ledger_rows_independently_rebuilt": 50792,
+  "path_forecast_rows_compounded_independently": 10530,
+  "pool_global_objective_checks": [
+    {
+      "origin": "2021-01",
+      "model": "POOL_COMPLETE_R21",
+      "objective": 0.9132689200306147,
+      "gap": -3.179789764828911e-12
+    },
+    {
+      "origin": "2021-01",
+      "model": "POOL_PARTIAL_R21",
+      "objective": 0.8574986784748092,
+      "gap": -3.97326616052851e-12
+    },
+    {
+      "origin": "2024-01",
+      "model": "POOL_COMPLETE_R21",
+      "objective": 0.9540598339321058,
+      "gap": -8.088862912813966e-12
+    },
+    {
+      "origin": "2024-01",
+      "model": "POOL_PARTIAL_R21",
+      "objective": 0.9443388407564143,
+      "gap": -2.8855806633032444e-12
+    },
+    {
+      "origin": "2026-07",
+      "model": "POOL_COMPLETE_R21",
+      "objective": 0.9135382390405393,
+      "gap": -7.621792086354162e-12
+    },
+    {
+      "origin": "2026-07",
+      "model": "POOL_PARTIAL_R21",
+      "objective": 0.9338789269556356,
+      "gap": -5.901279465092557e-12
+    }
+  ],
+  "bias_diagnostics_checked": 360,
+  "component_error_rows_rebuilt": 180,
+  "publication_hole_poison_invariant": true,
+  "delayed_headline_label_and_training_feature_poison_invariant": true
+}

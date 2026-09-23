@@ -1,0 +1,18 @@
+# Czech Inflation Monitor — 2026-09-22
+
+**Headline 1.9% y/y (2026-08, flash), core 3.0% (2026-07; 2.5% a year ago), regulated -1.2%. CZSO services 4.6%, goods 0.4%, food -3.1%.** Peak: headline 18.0% and core 14.6% in 2022-09.
+
+**What holds headline up (2026-07, contributions with 2026 weights):** rents (imputed & actual) +0.89 pp (5.8% y/y); other services & mixed +0.81 pp (3.4% y/y); vehicle operation incl. fuel +0.62 pp (12.4% y/y); alcohol & tobacco +0.30 pp (3.6% y/y).
+**What holds it down:** household energy -0.55 pp (-6.7% y/y); food & non-alcoholic beverages -0.52 pp (-3.1% y/y). Residual of the fixed-weight sum against the published y/y: -0.22 pp.
+
+**Since the peak (2022-09 → 2026-07):** the largest falls in contribution are household energy -4.5 pp, food & non-alcoholic beverages -4.1 pp, core goods -2.3 pp, other services & mixed -1.7 pp.
+
+**Base effects (next six months, last known m/m 2026-08; published months used where known, the roster path's m/m after):** with normal seasonal m/m headline y/y would read 2026-09 2.2, 2026-10 2.1, 2026-11 2.5, 2026-12 2.9, 2027-01 2.8, 2027-02 3.1; with the roster path 2026-09 2.1, 2026-10 1.9, 2026-11 2.3, 2026-12 2.5, 2027-01 2.7, 2027-02 2.9. Months whose move is mostly drop-out arithmetic: 2026-11, 2026-12, 2027-02, 2027-03, 2027-04, 2027-05, 2027-06.
+
+**Pipeline (y/y):** farm prices -19.9%, food PPI -5.8%, domestic PPI +4.0%, import prices +4.5%. Farm and food-PPI lead food CPI by 1–3 months in every sample; PPI → core goods only inside the 2021–23 shock (see the lead-lag table).
+
+**CNB (Summer 2026 report, 2026-08-13) vs roster path (origin 2026-07), quarterly y/y:** 2026Q3 CNB 1.9 / roster 1.8; 2026Q4 CNB 2.4 / roster 2.1; 2027Q1 CNB 2.8 / roster 2.5; 2027Q2 CNB 2.4 / roster 2.2.
+
+**Last prints (m/m):** 2026-06 actual -0.3, consensus 0.0, BASE -0.06; 2026-07 actual 0.6, consensus 0.6, BASE 0.45; 2026-08 actual 0.3, consensus 0.3, BASE not recorded (live lane pending).
+
+Method: contributions = 2026 basket weight × group y/y (fixed weights; the residual is shown, not absorbed); the roster-path column differs from the rounds page because the published July and August prints replace the values the path had for them; momentum = annualised three-month excess over the calendar-month median m/m of 2015–2019 and 2024–2025, plus the annual norm; base effect = norm minus the m/m dropping out; core and regulated y/y compounded from the CNB monthly series.

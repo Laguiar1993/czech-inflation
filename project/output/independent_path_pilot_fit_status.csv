@@ -1,0 +1,9 @@
+model,status,converged,fallback_used,origins
+BVAR_U_FX,estimated,True,False,1
+F1B_STORED_REF,stored_legacy_reference,,,1
+NAIVE,seasonal_mean_last_five,True,False,1
+RF_U_FX,estimated,True,False,1
+SURVEY_TREND_STORED_REF,stored_legacy_reference,,,1
+TARGET_FX_ML,converged,True,False,1
+TARGET_ML,converged,True,False,1
+TARGET_U_FX_ML,converged,True,False,1

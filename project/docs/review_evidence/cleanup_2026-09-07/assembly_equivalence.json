@@ -1,0 +1,12 @@
+[
+  {
+    "gapped": false,
+    "all_eight_assembly_outputs_exact": true,
+    "edge_plus_one_and_two": true
+  },
+  {
+    "gapped": true,
+    "all_eight_assembly_outputs_exact": true,
+    "edge_plus_one_and_two": true
+  }
+]

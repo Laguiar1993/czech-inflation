@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "counts": {
+    "hashes": 160,
+    "monthly_component_sum": 2304,
+    "annual_product": 192,
+    "join_targets_errors": 768,
+    "unchanged_administered": 2304,
+    "unchanged_alcohol_tobacco": 2304,
+    "unchanged_wedge": 2304,
+    "unchanged_base_core": 576,
+    "paired_metrics": 196,
+    "h0_future_invariance": 24,
+    "h0_annual_invariance": 24,
+    "core_clock_bands": 192,
+    "component_clock_origins": 24
+  },
+  "max_abs_differences": {
+    "monthly_component_sum": 0,
+    "annual_product": 9.636735853746359e-14,
+    "join_targets_errors": 3.241851231905457e-14,
+    "unchanged_administered": 0,
+    "unchanged_alcohol_tobacco": 0,
+    "unchanged_wedge": 0,
+    "unchanged_base_core": 0,
+    "paired_metrics": 0,
+    "h0_future_invariance": 0,
+    "h0_annual_invariance": 0
+  },
+  "models": [
+    "INDEPENDENT_BRIDGE",
+    "PIPELINE_FOOD_FUEL_R14",
+    "PIPELINE_GAP_RF_R14",
+    "PIPELINE_GAP_RIDGE_R14",
+    "STABLE_LOCAL_CORE_R14B",
+    "STABLE_LONG_CORE_R14B",
+    "STABLE_LONG_GAP_R14B",
+    "STABLE_PIPELINE_R14B"
+  ],
+  "rows": 192,
+  "summary_rows": 28,
+  "interpretation": "All24document-date clocks retained; no survey values enterforecast construction. FMIE respondent cutoff and actualwebpublicationtime remainunknown."
+}

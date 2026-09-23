@@ -1,0 +1,7 @@
+[
+  {
+    "ticker": "EPP00CCZ Index",
+    "stage": "bdp",
+    "error": "ValueError: no reference data (ticker probably invalid)"
+  }
+]

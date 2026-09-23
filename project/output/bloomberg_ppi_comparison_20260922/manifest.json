@@ -1,0 +1,13 @@
+{
+ "created_at_utc": "2026-09-22T12:49:09.266416+00:00",
+ "snapshots": {
+  "data/market_snapshots/20260922_bloomberg_ppi_probe": "4e6c3711baff839c6c4d8035fdf520130bfa96cc63b44a9b2b7c4cbb0d98b879",
+  "data/market_snapshots/20260922_bloomberg_ppi_probe2": "0deee1c03b654d190c89ba88e9dfa74a33f3362061add8d8c301c92c334a340e"
+ },
+ "r29b_native": "273b2abfb8be0cb4c8c4d1296be935aa9614a56e1a583706a9a1cfebb95af5b3",
+ "code": "fa8d3fdf2b868a7f57adadd3be95aa7a146712dd34dcaab9f3d92750f2759a63",
+ "outputs": {
+  "anchors.json": "7971d2205c77a2a2ecc90fca2f52fac0607c827c9927c78514c8093ccf869fbd",
+  "comparison_vs_row47_manufacturing.csv": "0c09b7bc992afd5cddf02af6039e79b6433d4e5ec9a9c33ab57cb4006bc5bcdc"
+ }
+}

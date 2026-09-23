@@ -1,0 +1,620 @@
+<title>CNB Rounds Replayed</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root {
+  color-scheme: light;
+  --ground: #F2F4F6;
+  --surface: #FFFFFF;
+  --ink: #15202C;
+  --ink-soft: #3A4654;
+  --muted: #647183;
+  --rule: #D5DBE2;
+  --grid: #E8ECF1;
+  --band: #E4ECF4;
+  --band-edge: #B9C8D8;
+  --cnb: #C2132F;
+  --realised: #15202C;
+  --s-bridge: #1F5DB4;
+  --s-local: #0E8378;
+  --s-pipeline: #3FA394;
+  --s-longcore: #4D7383;
+  --s-longgap: #8298A3;
+  --s-f1b: #7A4DB0;
+  --s-f2: #A688D4;
+  --s-tvw3: #D4700C;
+  --s-qrfmean: #E09F45;
+  --chip-off: #E9EDF1;
+  --focus: #1F5DB4;
+  --tip-bg: #15202C;
+  --tip-ink: #F2F4F6;
+  --font-display: "Barlow Semi Condensed", "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #0E1318;
+    --surface: #151C24;
+    --ink: #E6EBF1;
+    --ink-soft: #C3CCD6;
+    --muted: #8E9AA8;
+    --rule: #2A3440;
+    --grid: #1E2731;
+    --band: #1A2530;
+    --band-edge: #36485A;
+    --cnb: #FF5B72;
+    --realised: #E6EBF1;
+    --s-bridge: #6FA6FF;
+    --s-local: #3CC3B2;
+    --s-pipeline: #7FD8CB;
+    --s-longcore: #7FA3B3;
+    --s-longgap: #A7B8C1;
+    --s-f1b: #B596EA;
+    --s-f2: #D2BEF2;
+    --s-tvw3: #FF9E3D;
+    --s-qrfmean: #F2C27E;
+    --chip-off: #1B232C;
+    --focus: #6FA6FF;
+    --tip-bg: #E6EBF1;
+    --tip-ink: #0E1318;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0E1318;
+  --surface: #151C24;
+  --ink: #E6EBF1;
+  --ink-soft: #C3CCD6;
+  --muted: #8E9AA8;
+  --rule: #2A3440;
+  --grid: #1E2731;
+  --band: #1A2530;
+  --band-edge: #36485A;
+  --cnb: #FF5B72;
+  --realised: #E6EBF1;
+  --s-bridge: #6FA6FF;
+  --s-local: #3CC3B2;
+  --s-pipeline: #7FD8CB;
+  --s-longcore: #7FA3B3;
+  --s-longgap: #A7B8C1;
+  --s-f1b: #B596EA;
+  --s-f2: #D2BEF2;
+  --s-tvw3: #FF9E3D;
+  --s-qrfmean: #F2C27E;
+  --chip-off: #1B232C;
+  --focus: #6FA6FF;
+  --tip-bg: #E6EBF1;
+  --tip-ink: #0E1318;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.page {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 36px 28px 72px;
+  display: grid;
+  gap: 26px;
+}
+.eyebrow {
+  font-family: var(--font-data);
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.masthead { display: grid; gap: 12px; }
+h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(34px, 5vw, 50px);
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+  margin: 0;
+  text-wrap: balance;
+}
+.lede {
+  max-width: 66ch;
+  margin: 0;
+  font-size: 16.5px;
+  color: var(--ink-soft);
+}
+.key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+}
+.key span { display: inline-flex; align-items: center; gap: 8px; }
+.key svg { flex: none; }
+
+.switchboard {
+  display: grid;
+  gap: 10px;
+  padding: 12px 0 14px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  background: var(--ground);
+  z-index: 5;
+}
+@media (min-width: 900px) {
+  .switchboard { position: sticky; top: 0; }
+}
+.switch-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.actions { display: flex; gap: 14px; }
+.textbtn {
+  font: 600 13px/1 var(--font-body);
+  color: var(--ink-soft);
+  background: none;
+  border: 0;
+  padding: 4px 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 4px;
+}
+.textbtn:hover { text-decoration-color: var(--ink-soft); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  font: 500 13.5px/1 var(--font-body);
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 7px 12px 7px 9px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.chip:hover { border-color: var(--muted); }
+.chip[aria-pressed="false"] { background: var(--chip-off); color: var(--muted); }
+.chip[aria-pressed="false"] svg { opacity: 0.3; }
+.chip:focus-visible, .textbtn:focus-visible, .method summary:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.rounds {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr));
+  gap: 22px;
+}
+.year {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding-top: 10px;
+}
+.year h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1;
+  margin: 0;
+}
+.year .count { font-family: var(--font-data); font-size: 12px; color: var(--muted); }
+
+.plate {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 18px 18px 16px;
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+.plate header { display: grid; gap: 3px; }
+.plate h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.1;
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.plate h3 .cs {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+  color: var(--muted);
+}
+.meta {
+  font-size: 13px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.meta b { font-weight: 600; color: var(--ink-soft); }
+
+.chart { position: relative; }
+.chart svg { display: block; width: 100%; height: auto; touch-action: pan-y; }
+.chart .tick {
+  font-family: var(--font-data);
+  font-size: 10px;
+  fill: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background: var(--tip-bg);
+  color: var(--tip-ink);
+  font: 12px/1.4 var(--font-data);
+  padding: 8px 10px;
+  border-radius: 6px;
+  min-width: 190px;
+  box-shadow: 0 6px 20px rgba(8, 16, 26, 0.22);
+  display: grid;
+  gap: 2px;
+  font-variant-numeric: tabular-nums;
+}
+.tip-head { font-weight: 500; margin-bottom: 3px; }
+.tip .row { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto; gap: 7px; align-items: center; }
+.tip .sw { width: 12px; height: 3px; border-radius: 2px; }
+.tip em { font-style: normal; opacity: 0.7; }
+.tip-sub { margin-top: 5px; padding-top: 5px; border-top: 1px solid var(--muted); }
+.tip-note { opacity: 0.7; }
+
+.score {
+  display: grid;
+  gap: 8px;
+  border-top: 1px solid var(--grid);
+  padding-top: 10px;
+}
+.caption { margin: 0; font-size: 12.5px; color: var(--muted); }
+.misses {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 20px;
+}
+@media (max-width: 640px) {
+  .misses { grid-template-columns: 1fr; }
+}
+.misses li {
+  display: grid;
+  grid-template-columns: 12px minmax(0, 1fr) 56px 36px;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+.misses .sw { width: 12px; height: 3px; border-radius: 2px; }
+.misses .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.misses .bar { height: 6px; border-radius: 3px; background: var(--grid); overflow: hidden; }
+.misses .bar i { display: block; height: 100%; border-radius: 3px; }
+.misses .val { text-align: right; font-family: var(--font-data); font-size: 12px; font-variant-numeric: tabular-nums; }
+.misses .best .name, .misses .best .val { color: var(--ink); font-weight: 600; }
+
+.method {
+  border-top: 1px solid var(--rule);
+  padding-top: 14px;
+  color: var(--ink-soft);
+}
+.method summary {
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--ink);
+}
+.method-body { display: grid; gap: 10px; max-width: 72ch; padding-top: 10px; font-size: 14.5px; }
+.method-body p { margin: 0; }
+.method code { font-family: var(--font-data); font-size: 12.5px; }
+</style>
+
+<div class="page">
+  <header class="masthead">
+    <div class="eyebrow" id="eyebrow">Czech CPI · CNB Monetary Policy Reports</div>
+    <h1>CNB Rounds Replayed</h1>
+    <p class="lede">Each panel freezes one CNB report. The red points are the bank's forecast of quarterly average inflation, out to the last quarter in that report. The coloured lines are our models' twelve-month paths from their last run before the report came out, and the dark line is inflation as it actually came in.</p>
+    <div class="key" aria-label="How to read the charts">
+      <span><svg width="26" height="12" aria-hidden="true"><rect x="0" y="2" width="26" height="8" style="fill:var(--band)"/><line x1="0" y1="6" x2="26" y2="6" style="stroke:var(--band-edge);stroke-dasharray:3 3"/></svg>CNB target, 2 % ± 1 pp</span>
+      <span><svg width="26" height="12" aria-hidden="true"><line x1="1" y1="6" x2="25" y2="6" style="stroke:var(--cnb);stroke-width:3;opacity:0.35"/><circle cx="13" cy="6" r="3.3" style="fill:var(--cnb)"/></svg>CNB forecast: quarterly average, bar spans its three months</span>
+      <span><svg width="26" height="12" aria-hidden="true"><circle cx="13" cy="6" r="3.4" style="fill:var(--surface);stroke:var(--realised);stroke-width:1.3"/></svg>Realised quarterly average</span>
+      <span><svg width="26" height="12" aria-hidden="true"><line x1="2" y1="6" x2="24" y2="6" style="stroke:var(--s-bridge);stroke-width:2"/><circle cx="13" cy="6" r="3.2" style="fill:var(--s-bridge);stroke:var(--surface);stroke-width:1.1"/></svg>Model quarterly average, in the model's colour</span>
+      <span><svg width="26" height="12" aria-hidden="true"><line x1="13" y1="0" x2="13" y2="12" style="stroke:var(--ink);stroke-dasharray:1.5 2.5"/></svg>Report published</span>
+    </div>
+  </header>
+
+  <section class="switchboard" aria-label="Series shown on every chart">
+    <div class="switch-head">
+      <span class="eyebrow">Series on every chart</span>
+      <span class="actions">
+        <button type="button" class="textbtn" data-action="all">Show all</button>
+        <button type="button" class="textbtn" data-action="default">Reset</button>
+      </span>
+    </div>
+    <div class="chips" id="chips"></div>
+  </section>
+
+  <main class="rounds" id="rounds"></main>
+
+  <details class="method">
+    <summary>How these panels are built</summary>
+    <div class="method-body" id="method"></div>
+  </details>
+</div>
+
+<script>
+(() => {
+  const DATA = /*__DATA__*/null;
+  const SERIES = DATA.series;
+  const byId = Object.fromEntries(SERIES.map(s => [s.id, s]));
+  const STORE = "cnb-rounds-visible-v1";
+  const defaults = () => new Set(SERIES.filter(s => s.default).map(s => s.id));
+  let visible = defaults();
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORE) || "null");
+    if (Array.isArray(saved)) visible = new Set(saved.filter(id => byId[id]));
+  } catch (e) { /* storage unavailable: keep defaults */ }
+  const save = () => { try { localStorage.setItem(STORE, JSON.stringify([...visible])); } catch (e) { /* ignore */ } };
+
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const mi = s => { const [y, m] = s.split("-").map(Number); return y * 12 + (m - 1); };
+  const ms = i => `${Math.floor(i / 12)}-${String((i % 12) + 1).padStart(2, "0")}`;
+  const mLabel = i => `${MONTHS[i % 12]} ${Math.floor(i / 12)}`;
+  const qOf = i => `${Math.floor(i / 12)}Q${Math.floor((i % 12) / 3) + 1}`;
+  const qStart = q => Number(q.slice(0, 4)) * 12 + (Number(q.slice(5)) - 1) * 3;
+  const qLabel = q => `${q.slice(5)}Q${q.slice(2, 4)}`;
+  const dLabel = s => { const [y, m, d] = s.slice(0, 10).split("-").map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
+  const clockLabel = s => { const [d, t] = s.split(" "); return `${dLabel(d)}, ${t} Prague`; };
+  const esc = t => String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const num = (v, dec) => `${v < 0 ? "−" : ""}${Math.abs(v).toFixed(dec)}`;
+
+  function nice(lo, hi) {
+    const span = hi - lo;
+    const step = [0.5, 1, 2, 2.5, 5, 10].find(s => span / s <= 7) || 20;
+    return { min: Math.floor(lo / step) * step, max: Math.ceil(hi / step) * step, step };
+  }
+
+  function swatch(s, w = 26) {
+    if (s.kind === "cnb") {
+      return `<svg width="${w}" height="12" aria-hidden="true"><line x1="0" y1="6" x2="${w}" y2="6" style="stroke:var(${s.color});stroke-width:1.5"/><circle cx="${w / 2}" cy="6" r="3.3" style="fill:var(${s.color})"/></svg>`;
+    }
+    return `<svg width="${w}" height="12" aria-hidden="true"><line x1="2" y1="6" x2="${w - 2}" y2="6" style="stroke:var(${s.color});stroke-width:${Math.max(s.width, 2)};stroke-dasharray:${s.dash || "none"};stroke-linecap:round"/></svg>`;
+  }
+
+  const chips = document.getElementById("chips");
+  function renderChips() {
+    chips.innerHTML = SERIES.map(s =>
+      `<button type="button" class="chip" data-id="${s.id}" aria-pressed="${visible.has(s.id)}">${swatch(s)}<span>${esc(s.label)}</span></button>`
+    ).join("");
+  }
+  chips.addEventListener("click", e => {
+    const b = e.target.closest(".chip");
+    if (!b) return;
+    const id = b.dataset.id;
+    if (visible.has(id)) visible.delete(id); else visible.add(id);
+    b.setAttribute("aria-pressed", String(visible.has(id)));
+    save();
+    renderAll();
+  });
+  document.querySelector(".switch-head").addEventListener("click", e => {
+    const a = e.target.closest("[data-action]");
+    if (!a) return;
+    visible = a.dataset.action === "all" ? new Set(SERIES.map(s => s.id)) : defaults();
+    save();
+    renderChips();
+    renderAll();
+  });
+
+  const W = 640, H = 330, M = { l: 38, r: 12, t: 26, b: 28 };
+  const PW = W - M.l - M.r, PH = H - M.t - M.b;
+  const rounds = document.getElementById("rounds");
+
+  function buildPlates() {
+    const perYear = {};
+    DATA.reports.forEach(r => { const y = r.report_date.slice(0, 4); perYear[y] = (perYear[y] || 0) + 1; });
+    let html = "", year = null;
+    DATA.reports.forEach((r, k) => {
+      const y = r.report_date.slice(0, 4);
+      if (y !== year) {
+        year = y;
+        html += `<div class="year"><h2>${y}</h2><span class="count">${perYear[y]} report${perYear[y] > 1 ? "s" : ""}</span></div>`;
+      }
+      html += `<article class="plate" id="r-${r.id}">
+        <header>
+          <div class="eyebrow">Monetary Policy Report · published ${dLabel(r.report_date)}</div>
+          <h3>${esc(r.season)} ${r.year} <span class="cs" lang="cs">${esc(r.season_cs)} ${r.year}</span></h3>
+          <div class="meta">CNB data cut-off <b>${dLabel(r.cutoff_date)}</b> · our paths: the <b>${mLabel(mi(r.origin))}</b> run, made ${esc(clockLabel(r.origin_clock))}</div>
+        </header>
+        <div class="chart" data-k="${k}"></div>
+        <div class="score" data-k="${k}"></div>
+      </article>`;
+    });
+    rounds.innerHTML = html;
+    rounds.querySelectorAll(".chart").forEach(host => {
+      host.addEventListener("pointermove", onMove);
+      host.addEventListener("pointerleave", onLeave);
+    });
+  }
+
+  function renderChart(rep, host) {
+    const start = mi(rep.window.start), end = mi(rep.window.end), n = end - start + 1;
+    const X = i => M.l + ((i - start + 0.5) / n) * PW;
+    const XE = i => M.l + ((i - start) / n) * PW;
+    const realised = [];
+    for (let i = start; i <= end; i++) {
+      const v = DATA.realised[ms(i)];
+      if (v != null) realised.push([i, v]);
+    }
+    const models = SERIES.filter(s => s.kind === "model" && visible.has(s.id) && rep.paths[s.id] && rep.paths[s.id].length);
+    const vals = [];
+    if (visible.has("realised")) realised.forEach(p => vals.push(p[1]));
+    if (visible.has("cnb")) rep.cnb.forEach(q => vals.push(q.value));
+    models.forEach(s => rep.paths[s.id].forEach(p => vals.push(p[1])));
+    if (!vals.length) realised.forEach(p => vals.push(p[1]));
+    const sc = nice(Math.min(1, ...vals) - 0.35, Math.max(3, ...vals) + 0.35);
+    const Y = v => M.t + ((sc.max - v) / (sc.max - sc.min)) * PH;
+    const P = [];
+
+    P.push(`<rect x="${M.l}" y="${Y(3).toFixed(1)}" width="${PW}" height="${(Y(1) - Y(3)).toFixed(1)}" style="fill:var(--band)"/>`);
+    const steps = Math.round((sc.max - sc.min) / sc.step);
+    const dec = sc.step < 1 ? 1 : 0;
+    for (let k = 0; k <= steps; k++) {
+      const v = sc.min + k * sc.step, yy = Y(v).toFixed(1);
+      P.push(`<line x1="${M.l}" x2="${M.l + PW}" y1="${yy}" y2="${yy}" style="stroke:var(--grid);stroke-width:1"/>`);
+      P.push(`<text x="${M.l - 6}" y="${(Y(v) + 3.5).toFixed(1)}" text-anchor="end" class="tick">${num(v, dec)}</text>`);
+    }
+    P.push(`<line x1="${M.l}" x2="${M.l + PW}" y1="${Y(2).toFixed(1)}" y2="${Y(2).toFixed(1)}" style="stroke:var(--band-edge);stroke-width:1;stroke-dasharray:3 3"/>`);
+    for (let i = start; i <= end + 1; i++) {
+      if (i % 3 !== 0) continue;
+      const xx = XE(i).toFixed(1);
+      P.push(`<line x1="${xx}" x2="${xx}" y1="${M.t}" y2="${M.t + PH}" style="stroke:var(${i % 12 === 0 ? "--rule" : "--grid"});stroke-width:1"/>`);
+    }
+    P.push(`<line x1="${M.l}" x2="${M.l + PW}" y1="${M.t + PH}" y2="${M.t + PH}" style="stroke:var(--rule);stroke-width:1"/>`);
+    const perQuarter = PW / (n / 3);
+    for (let i = start; i <= end; i++) {
+      if (i % 3 !== 1) continue;
+      const q = qOf(i);
+      if (perQuarter < 30 && Number(q.slice(5)) % 2 === 0) continue;
+      P.push(`<text x="${X(i).toFixed(1)}" y="${H - 9}" text-anchor="middle" class="tick">${qLabel(q)}</text>`);
+    }
+    P.push(`<text x="${M.l - 6}" y="${M.t - 12}" text-anchor="end" class="tick">% y/y</text>`);
+
+    const [ry, rm, rd] = rep.report_date.split("-").map(Number);
+    const ri = ry * 12 + (rm - 1);
+    if (ri >= start && ri <= end) {
+      const xr = (M.l + ((ri - start + (rd - 1) / new Date(ry, rm, 0).getDate()) / n) * PW).toFixed(1);
+      P.push(`<line x1="${xr}" x2="${xr}" y1="${M.t - 6}" y2="${M.t + PH}" style="stroke:var(--ink);stroke-width:1;stroke-dasharray:1.5 3;opacity:0.6"/>`);
+      P.push(`<text x="${(Number(xr) + 5).toFixed(1)}" y="${M.t - 12}" class="tick">published ${rd} ${MONTHS[rm - 1]}</text>`);
+    }
+
+    const pts = list => list.map(p => `${X(typeof p[0] === "string" ? mi(p[0]) : p[0]).toFixed(1)},${Y(p[1]).toFixed(1)}`).join(" ");
+    [...models].reverse().forEach(s => {
+      P.push(`<polyline points="${pts(rep.paths[s.id])}" style="fill:none;stroke:var(${s.color});stroke-width:${s.width};stroke-dasharray:${s.dash || "none"};stroke-linejoin:round;stroke-linecap:round"/>`);
+    });
+    if (visible.has("realised") && realised.length) {
+      P.push(`<polyline points="${pts(realised)}" style="fill:none;stroke:var(--realised);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>`);
+      rep.realised_quarters.forEach(q => {
+        P.push(`<circle cx="${X(qStart(q.quarter) + 1).toFixed(1)}" cy="${Y(q.value).toFixed(1)}" r="3.5" style="fill:var(--surface);stroke:var(--realised);stroke-width:1.3"/>`);
+      });
+    }
+    [...models].reverse().forEach(s => {
+      (rep.quarter_points[s.id] || []).forEach(([q, v]) => {
+        P.push(`<circle cx="${X(qStart(q) + 1).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="3.2" style="fill:var(${s.color});stroke:var(--surface);stroke-width:1.1"/>`);
+      });
+    });
+    if (visible.has("cnb") && rep.cnb.length) {
+      rep.cnb.forEach(q => {
+        const y0 = Y(q.value).toFixed(1);
+        P.push(`<line x1="${XE(qStart(q.quarter)).toFixed(1)}" x2="${XE(qStart(q.quarter) + 3).toFixed(1)}" y1="${y0}" y2="${y0}" style="stroke:var(--cnb);stroke-width:3;opacity:0.3"/>`);
+      });
+      P.push(`<polyline points="${rep.cnb.map(q => `${X(qStart(q.quarter) + 1).toFixed(1)},${Y(q.value).toFixed(1)}`).join(" ")}" style="fill:none;stroke:var(--cnb);stroke-width:1.5;stroke-linejoin:round"/>`);
+      rep.cnb.forEach(q => {
+        P.push(`<circle cx="${X(qStart(q.quarter) + 1).toFixed(1)}" cy="${Y(q.value).toFixed(1)}" r="3.4" style="fill:var(--cnb);stroke:var(--surface);stroke-width:1.2"/>`);
+      });
+    }
+    P.push(`<line class="cross" x1="0" x2="0" y1="${M.t}" y2="${M.t + PH}" style="stroke:var(--ink);stroke-width:1;opacity:0"/>`);
+
+    const first = rep.cnb[0], last = rep.cnb[rep.cnb.length - 1];
+    const aria = `${rep.season} ${rep.year} report. CNB forecast from ${qLabel(first.quarter)} at ${num(first.value, 1)} % to ${qLabel(last.quarter)} at ${num(last.value, 1)} %. Model paths start from the ${mLabel(mi(rep.origin))} run.`;
+    host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(aria)}">${P.join("")}</svg><div class="tip" hidden></div>`;
+    host._ctx = {
+      start, end, n, X,
+      maps: Object.fromEntries(models.map(s => [s.id, new Map(rep.paths[s.id])])),
+      qpoints: Object.fromEntries(models.map(s => [s.id, new Map(rep.quarter_points[s.id] || [])])),
+      cnb: new Map(rep.cnb.map(q => [q.quarter, q.value])),
+      realisedQ: new Map(rep.realised_quarters.map(q => [q.quarter, q.value])),
+    };
+  }
+
+  function onMove(e) {
+    const host = e.currentTarget, ctx = host._ctx;
+    const svg = host.querySelector("svg");
+    if (!ctx || !svg) return;
+    const r = svg.getBoundingClientRect();
+    const vx = ((e.clientX - r.left) / r.width) * W;
+    if (vx < M.l || vx > M.l + PW) { onLeave(e); return; }
+    const i = Math.min(ctx.end, Math.max(ctx.start, ctx.start + Math.floor(((vx - M.l) / PW) * ctx.n)));
+    const cx = ctx.X(i);
+    const cross = svg.querySelector(".cross");
+    cross.setAttribute("x1", cx);
+    cross.setAttribute("x2", cx);
+    cross.style.opacity = "0.35";
+    const m = ms(i), q = qOf(i), monthRows = [], quarterRows = [];
+    if (visible.has("realised") && DATA.realised[m] != null) monthRows.push([byId.realised, DATA.realised[m]]);
+    SERIES.forEach(s => {
+      if (s.kind === "model" && ctx.maps[s.id] && ctx.maps[s.id].has(m)) monthRows.push([s, ctx.maps[s.id].get(m)]);
+    });
+    if (visible.has("realised") && ctx.realisedQ.has(q)) quarterRows.push([byId.realised, ctx.realisedQ.get(q)]);
+    if (visible.has("cnb") && ctx.cnb.has(q)) quarterRows.push([byId.cnb, ctx.cnb.get(q)]);
+    SERIES.forEach(s => {
+      if (s.kind === "model" && ctx.qpoints[s.id] && ctx.qpoints[s.id].has(q)) quarterRows.push([s, ctx.qpoints[s.id].get(q)]);
+    });
+    const rowsHtml = list => list.map(([s, v]) => `<div class="row"><span class="sw" style="background:var(${s.color})"></span><span>${esc(s.short || s.label)}</span><span>${num(v, 1)}</span></div>`).join("");
+    const tip = host.querySelector(".tip");
+    tip.innerHTML = `<div class="tip-head">${mLabel(i)}</div>`
+      + (monthRows.length ? rowsHtml(monthRows) : `<div class="tip-note">No monthly values</div>`)
+      + (quarterRows.length ? `<div class="tip-head tip-sub">${qLabel(q)} quarterly average</div>${rowsHtml(quarterRows)}` : "");
+    tip.hidden = false;
+    const hostR = host.getBoundingClientRect();
+    const px = (cx / W) * r.width + (r.left - hostR.left);
+    const tw = tip.offsetWidth;
+    tip.style.left = `${px + 14 + tw > hostR.width ? Math.max(0, px - 14 - tw) : px + 14}px`;
+    tip.style.top = `${((M.t + 4) / H) * r.height}px`;
+  }
+
+  function onLeave(e) {
+    const host = e.currentTarget;
+    const tip = host.querySelector(".tip");
+    const cross = host.querySelector(".cross");
+    if (tip) tip.hidden = true;
+    if (cross) cross.style.opacity = "0";
+  }
+
+  function renderScore(rep, host) {
+    const sc = rep.score;
+    if (!sc || !sc.n) {
+      host.innerHTML = `<p class="caption">None of this report's forecast quarters has fully come in yet, so there is nothing to score.</p>`;
+      return;
+    }
+    const items = SERIES.filter(s => s.kind !== "realised" && visible.has(s.id) && sc.mae[s.id] != null)
+      .map(s => [s, sc.mae[s.id]]).sort((a, b) => a[1] - b[1]);
+    if (!items.length) {
+      host.innerHTML = `<p class="caption">Switch on the CNB forecast or a model to compare misses.</p>`;
+      return;
+    }
+    const span = sc.quarters.length > 1 ? `${qLabel(sc.quarters[0])}–${qLabel(sc.quarters[sc.quarters.length - 1])}` : qLabel(sc.quarters[0]);
+    const max = Math.max(...items.map(x => x[1]));
+    host.innerHTML = `<p class="caption">Average miss on quarterly average inflation, ${span} (${sc.n} quarter${sc.n > 1 ? "s" : ""}), in percentage points</p>
+      <ol class="misses">${items.map(([s, v], k) => `<li${k === 0 ? ' class="best"' : ""}><span class="sw" style="background:var(${s.color})"></span><span class="name" title="${esc(s.label)}">${esc(s.label)}</span><span class="bar"><i style="width:${Math.max(3, (v / max) * 100).toFixed(1)}%;background:var(${s.color})"></i></span><span class="val">${v.toFixed(2)}</span></li>`).join("")}</ol>`;
+  }
+
+  function renderAll() {
+    rounds.querySelectorAll(".chart").forEach(host => renderChart(DATA.reports[Number(host.dataset.k)], host));
+    rounds.querySelectorAll(".score").forEach(host => renderScore(DATA.reports[Number(host.dataset.k)], host));
+  }
+
+  const reports = DATA.reports;
+  document.getElementById("eyebrow").textContent =
+    `Czech CPI · ${reports.length} CNB Monetary Policy Reports · ${reports[0].season} ${reports[0].year} to ${reports[reports.length - 1].season} ${reports[reports.length - 1].year}`;
+  document.getElementById("method").innerHTML = DATA.method.map(p => `<p>${p}</p>`).join("");
+  renderChips();
+  buildPlates();
+  renderAll();
+})();
+</script>

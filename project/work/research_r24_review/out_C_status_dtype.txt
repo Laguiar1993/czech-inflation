@@ -1,0 +1,15 @@
+STATE_FAST_R15 R24 dtype str values <ArrowStringArray>
+[nan]
+Length: 1, dtype: str | R21 dtype float64 values <ArrowStringArray>
+[nan]
+Length: 1, dtype: str | same after astype(str): False
+STABLE_LOCAL_CORE_R14B R24 dtype str values <ArrowStringArray>
+[nan]
+Length: 1, dtype: str | R21 dtype float64 values <ArrowStringArray>
+[nan]
+Length: 1, dtype: str | same after astype(str): False
+DAMPED_P95_Q001_R16 R24 dtype str values <ArrowStringArray>
+[nan]
+Length: 1, dtype: str | R21 dtype float64 values <ArrowStringArray>
+[nan]
+Length: 1, dtype: str | same after astype(str): False
