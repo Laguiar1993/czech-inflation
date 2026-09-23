@@ -1,0 +1,85 @@
+{
+  "profile": "compact-working",
+  "zip": "czech-inflation-small-r35.zip",
+  "bytes": 118508777,
+  "sha256": "253cb11e0386fdbd88c5f8b6543a1e0bde27b58c9a04034023c6a64ca8253ab2",
+  "source_project_files": 3410,
+  "model_source_files": 57,
+  "full_model_source_files": 57,
+  "dashboard_sha256": "14c0cbdb4802fd668d4eae73e0aeaef2854430e4c3be5db0c2939afe27ee02c4",
+  "omitted_files": 4048,
+  "manifest_generated_for_subset": true,
+  "verification": {
+    "restore": {
+      "restored": 3,
+      "already_present": 0
+    },
+    "tree": {
+      "status": "verified",
+      "files": 3412,
+      "source_commit": "ae8181b8212e9e70995003f0d7db71e34d7cf30f"
+    },
+    "r35": {
+      "status": "passed",
+      "hash_counts": {
+        "output/momentum_r35/final": 1133,
+        "output/inflation_dashboard_r35": 46
+      },
+      "x13_archives": 74,
+      "preserved_r34_hashes": 79,
+      "category_month": "2026-08",
+      "categories": 9,
+      "groups": 37,
+      "coverage": 100.0,
+      "preserved_forecast_origin": "2026-09",
+      "retained_forecast_and_replay": true,
+      "analysis_as_of": "2026-09-22T21:38:58.907740+00:00",
+      "analysis_completed_at": "2026-09-22T21:39:50.344212+00:00",
+      "browser": {
+        "status": "passed",
+        "pageErrors": [],
+        "desktop": "1440x1050",
+        "mobile": "390x844",
+        "checks": {
+          "month": "2026-08",
+          "forecast": "2026-09",
+          "h0": -0.2042311894134946,
+          "weight": 1000,
+          "drivers": -3.1081819841169933,
+          "total": -3.1081819841169933,
+          "breadth": 100
+        }
+      },
+      "driver_total_log_pp": -3.1081819841169933
+    },
+    "path": {
+      "origin": "2026-09",
+      "rows": 39,
+      "h0": -0.2042311894134946
+    },
+    "offline_models": {
+      "status": "passed",
+      "mode": "offline_reproduction_only",
+      "origin": "2026-09",
+      "nowcast_absolute_errors": {
+        "HARD_BASE": 0.0,
+        "HARD_FULL": 0.0,
+        "HARD_HALF": 0.0
+      },
+      "path_max_absolute_error": 0.0,
+      "path_rows": 39,
+      "forecast_published": false
+    }
+  },
+  "preparation_check": {
+    "nowcast": "prepared",
+    "path": "prepared",
+    "momentum": "prepared",
+    "forecast_published": false
+  },
+  "page_only": {
+    "name": "czech-inflation-page-r35.zip",
+    "bytes": 566952,
+    "sha256": "abbf8f668be4c58db7d4a1c1ef6c55dc0f4356df7c3dce319f63a9423fc8cea1"
+  }
+}
