@@ -31,7 +31,7 @@ edit model code or data files, and do not "repair" a refusal by changing a hash,
 
 ## Monthly order (guide section 3)
 
-0. `cpi freshness --target <M> --snapshot … --farm … --calendar … --momentum … --consensus … --outcomes …` at the start and at the end of the session. Report every `STALE` and `MISSING` line verbatim and refresh those inputs before running; never describe a run as "up to date" while that list is non-empty.
+0. `cpi ledger show` first. It lists every series the models read with the day its last figure actually reached us and whether its own rhythm says a newer one should exist. Report every `OVERDUE` line verbatim and refresh those before running anything. `MANUAL_DOWNLOADS.md` says how to obtain each by-hand input. Then `cpi freshness --target <M> --snapshot … --farm … --calendar … --momentum … --consensus … --outcomes …` at the start and at the end of the session. Report every `STALE` and `MISSING` line verbatim and refresh those inputs before running; never describe a run as "up to date" while that list is non-empty.
 1. Captures (nowcast, path, calendar); farm download and stage; CNB observations only if needed.
 2. `cpi prepare-nowcast` → `cpi readiness` → `cpi nowcast` (before the flash of the target month; a released target is refused). Resolve a `blocked` readiness by obtaining the input, never by changing a hash or a date.
 3. `cpi prepare-path` → `cpi run-path --nowcast-run <the run from step 2>`.
@@ -51,4 +51,4 @@ edit model code or data files, and do not "repair" a refusal by changing a hash,
 
 ## What to report back after each session
 
-The JSON printed by `readiness`, `nowcast`, `run-path`, `rounds add`, `pageverify`; any `errors.json`; the `analysis.md` beside the rebuilt page; and every `blocked` reason verbatim. Say what you staged, with source URLs and hashes, and what you did not manage to obtain.
+The `cpi ledger show` table at the start and at the end; the JSON printed by `readiness`, `nowcast`, `run-path`, `rounds add`, `pageverify`; any `errors.json`; the `analysis.md` beside the rebuilt page; and every `blocked` reason verbatim. Say what you staged, with source URLs and hashes, and what you did not manage to obtain.
