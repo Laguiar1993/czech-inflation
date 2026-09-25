@@ -16,6 +16,8 @@ The working ZIP was extracted and checked: all 57 model source files retained; e
 
 Download **[czech-inflation-offline-r48.zip](https://github.com/Laguiar1993/czech-inflation/releases/download/r48-offline-2026-09-24/czech-inflation-offline-r48.zip)** from release [r48-offline-2026-09-24](https://github.com/Laguiar1993/czech-inflation/releases/tag/r48-offline-2026-09-24): 150,904,040 bytes, SHA-256 `41f571cf8b0cd0fad71eb3ed0e3c493d173c84e53ba41341b6afa1e19ea76301`, built from commit `1f78769` (3,403 members; `PACKAGE_MANIFEST.json` inside lists every member hash).
 
+**Working with an assistant on that computer?** Paste it **[BLOOMBERG_MACHINE_HANDOFF.md](BLOOMBERG_MACHINE_HANDOFF.md)** first: the rules, clocks, monthly order and what it must not override.
+
 Extract it, read `START_HERE.txt`, then **`OFFLINE_OPERATOR_GUIDE.md`**. New since R45: the page is rebuilt from your runs with a computed overview analysis and no frozen text (guide 3.10); the three-model roster; live CNB rounds appended after each report (3.9); the release calendar captured from Bloomberg (3.3); Python 3.10 supported with its own lock (numpy 2.2.4, pandas 2.2.3, scipy 1.15.2, statsmodels 0.14.4, scikit-learn 1.6.1), on which `portable verify --models` reproduces the main nowcast and the path exactly. Works with Python 3.10, 3.11 or 3.12; no command calls the CNB ARAD API or any AI service.
 
 ## Previous offline package (R45, 23 September 2026)
