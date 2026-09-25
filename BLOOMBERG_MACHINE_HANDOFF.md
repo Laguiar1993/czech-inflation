@@ -25,6 +25,7 @@ edit model code or data files, and do not "repair" a refusal by changing a hash,
 | CNB core and regulated m/m | `manual stage --kind observations` | only when the Bloomberg capture lacks the released month; series `core`/`regulated`, units `mm_pct`, never a rounded y/y |
 | Consensus | `manual stage --kind consensus` | Bloomberg ECO screen median for `CZCPMOM Index`, saved screen beside the JSON with its SHA-256; before the flash; benchmark only, never a model input |
 | Outcomes | `manual stage --kind outcomes` | after the flash and again after the detailed release, separate files, saved release page beside the JSON |
+| CZSO 37-group file (CEN0101E) | browser download, `manual stage --kind categories`, then `prepare-momentum`, `cpi momentum` and `cpi monitor` | after the detailed release; one download feeds the momentum panel and the eight monitor blocks, and `cpi monitor --snapshot <nowcast capture>` carries core and regulated to the panel month. Report the months the run prints; never relabel a figure with a newer month than its source has |
 | CNB report table | `manual stage --kind cnb_report`, then `rounds add` | after each Monetary Policy Report; report date and cut-off date from the report page; the run recorded before report-day midnight (Prague) serves the report clock, the run recorded through the cut-off day serves the cut-off clock; a later run is refused |
 | January energy announcements | `manual stage --kind announcements` | only from January 2027, only approved decisions, `prospective`; the gate fires at 1.1 pp of headline |
 
@@ -36,8 +37,8 @@ edit model code or data files, and do not "repair" a refusal by changing a hash,
 3. `cpi prepare-path` → `cpi run-path --nowcast-run <the run from step 2>`.
 4. Consensus staged; `cycle register --nowcast-run … --path-run … --consensus …`.
 5. After the flash: outcomes staged; `cycle score`; after the detailed release: again with `"stage": "detailed"`.
-6. After a CNB report: stage the table; `rounds add … --report-run … --cutoff-run …`.
-7. Rebuild the page: `roundspage48 --nowcast-run … --path-run … --momentum … --ledger output/cnb_rounds_ledger --calendar … --consensus … --outcomes … --registrations … --output output/inflation_dashboard_live/<date>`, then `pageverify --directory …`. If `pageverify` refuses "stale text", the fix is in the inputs, never in the HTML.
+6. After the detailed release: the CEN0101E download, then `prepare-momentum`, `cpi momentum` and `cpi monitor` (guide 3.8). After a CNB report: stage the table; `rounds add … --report-run … --cutoff-run …`.
+7. Rebuild the page: `roundspage48 --nowcast-run … --path-run … --momentum … --monitor <the cpi monitor run> --ledger output/cnb_rounds_ledger --calendar … --consensus … --outcomes … --registrations … --output output/inflation_dashboard_live/<date>`, then `pageverify --directory …`. If `pageverify` refuses "stale text", the fix is in the inputs, never in the HTML.
 
 ## Rules you must not override
 
