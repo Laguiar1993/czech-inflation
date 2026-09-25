@@ -14,7 +14,7 @@ The working ZIP was extracted and checked: all 57 model source files retained; e
 
 ## Offline operator package (R48d, 25 September 2026) — start here on the Bloomberg computer
 
-Download **[czech-inflation-offline-r48.zip](https://github.com/Laguiar1993/czech-inflation/releases/download/r48d-offline-2026-09-25/czech-inflation-offline-r48.zip)** from release [r48d-offline-2026-09-25](https://github.com/Laguiar1993/czech-inflation/releases/tag/r48d-offline-2026-09-25): 164,262,845 bytes, SHA-256 `d1db4499a09f41f0165f382e4d1b3ae9f9d2e206789200c11f7a06fcc00c2b7d`, built from commit `b1b6280` (3,684 members; `PACKAGE_MANIFEST.json` inside lists every member hash).
+Download **[czech-inflation-offline-r48d.zip](https://github.com/Laguiar1993/czech-inflation/releases/download/r48d-offline-2026-09-25/czech-inflation-offline-r48d.zip)** from release [r48d-offline-2026-09-25](https://github.com/Laguiar1993/czech-inflation/releases/tag/r48d-offline-2026-09-25): 164,262,845 bytes, SHA-256 `d1db4499a09f41f0165f382e4d1b3ae9f9d2e206789200c11f7a06fcc00c2b7d`, built from commit `b1b6280` (3,684 members; `PACKAGE_MANIFEST.json` inside lists every member hash). Every release in this line ships a file named for its own version, so check the name says **r48d** before you extract; the folder inside the ZIP is `czech-inflation-offline-r48` in all of them.
 
 **Working with an assistant on that computer?** Paste it **[BLOOMBERG_MACHINE_HANDOFF.md](BLOOMBERG_MACHINE_HANDOFF.md)** first: the rules, clocks, monthly order and what it must not override.
 
