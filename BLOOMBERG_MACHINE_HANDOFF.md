@@ -21,7 +21,7 @@ edit model code or data files, and do not "repair" a refusal by changing a hash,
 | Bloomberg nowcast capture (12 tickers) | `cpi capture-bloomberg --lane nowcast` | before the forecast decision; `coverage.csv` must show M-1 for the monthly tickers |
 | Bloomberg path capture (5 tickers) | `cpi capture-bloomberg --lane path` | same decision |
 | Release calendar | `cpi capture-bloomberg --lane calendar`, then `manual stage --kind calendar` | Bloomberg `CZCPMOM Index` release dates at stages P (flash) and F (detailed), cross-checked against the future list and the frozen calendar; the capture refuses itself on any mismatch. Repeat when the overlay's last month is behind the target. Never edit `data/release_calendar_cz_cpi.csv`. Fallback: type the two dates from the CZSO release page. |
-| Farm prices (CZSO CEN0203B) | browser download, `manual stage --kind farm` | CZSO publishes month M-1's prices on the 16th or 17th of M inside the producer-price release. The model admits them only from the 26th of M (`agri_l0` rule). A call before the 26th therefore shows `agri_l0: NOT_DUE` in `missing_inputs`: expected, not an error. Do not change that rule; a change is a declared model round done elsewhere. Always stage the latest download anyway. |
+| Farm prices (CZSO CEN0203B) | browser download, `manual stage --kind farm` | CZSO publishes month M-1's prices on the 16th or 17th of M inside the producer-price release. Bundles you prepare carry availability rule v2: the model admits them from the 18th of M. Before the 18th `agri_l0: NOT_DUE` is expected; from the 18th a missing print is `STALE` and blocks the run until you stage the latest download. Recorded bundles from before 25 September 2026 carry rule v1 (the 26th) and replay under it; do not edit either rule. |
 | CNB core and regulated m/m | `manual stage --kind observations` | only when the Bloomberg capture lacks the released month; series `core`/`regulated`, units `mm_pct`, never a rounded y/y |
 | Consensus | `manual stage --kind consensus` | Bloomberg ECO screen median for `CZCPMOM Index`, saved screen beside the JSON with its SHA-256; before the flash; benchmark only, never a model input |
 | Outcomes | `manual stage --kind outcomes` | after the flash and again after the detailed release, separate files, saved release page beside the JSON |
@@ -30,6 +30,7 @@ edit model code or data files, and do not "repair" a refusal by changing a hash,
 
 ## Monthly order (guide section 3)
 
+0. `cpi freshness --target <M> --snapshot … --farm … --calendar … --momentum … --consensus … --outcomes …` at the start and at the end of the session. Report every `STALE` and `MISSING` line verbatim and refresh those inputs before running; never describe a run as "up to date" while that list is non-empty.
 1. Captures (nowcast, path, calendar); farm download and stage; CNB observations only if needed.
 2. `cpi prepare-nowcast` → `cpi readiness` → `cpi nowcast` (before the flash of the target month; a released target is refused). Resolve a `blocked` readiness by obtaining the input, never by changing a hash or a date.
 3. `cpi prepare-path` → `cpi run-path --nowcast-run <the run from step 2>`.
