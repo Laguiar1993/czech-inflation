@@ -12,13 +12,17 @@ These are prebuilt ZIPs. GitHub's **Code → Download ZIP** still downloads the 
 
 The working ZIP was extracted and checked: all 57 model source files retained; exact reproduction of the three saved nowcasts and 39 path rows; new nowcast/path/momentum input preparation passed. [Verification](distribution/SMALL_DOWNLOAD_VERIFICATION.json).
 
-## Offline operator package (R48, 24 September 2026) — start here on the Bloomberg computer
+## Offline operator package (R48b, 25 September 2026) — start here on the Bloomberg computer
 
-Download **[czech-inflation-offline-r48.zip](https://github.com/Laguiar1993/czech-inflation/releases/download/r48-offline-2026-09-24/czech-inflation-offline-r48.zip)** from release [r48-offline-2026-09-24](https://github.com/Laguiar1993/czech-inflation/releases/tag/r48-offline-2026-09-24): 150,904,040 bytes, SHA-256 `41f571cf8b0cd0fad71eb3ed0e3c493d173c84e53ba41341b6afa1e19ea76301`, built from commit `1f78769` (3,403 members; `PACKAGE_MANIFEST.json` inside lists every member hash).
+Download **[czech-inflation-offline-r48.zip](https://github.com/Laguiar1993/czech-inflation/releases/download/r48b-offline-2026-09-25/czech-inflation-offline-r48.zip)** from release [r48b-offline-2026-09-25](https://github.com/Laguiar1993/czech-inflation/releases/tag/r48b-offline-2026-09-25): 157,659,848 bytes, SHA-256 `8b051d16734a80e9edcd5c4bfe993e7083641ededc11e48d4b8a5d28f445011f`, built from commit `96cbb00` (3,627 members; `PACKAGE_MANIFEST.json` inside lists every member hash).
 
 **Working with an assistant on that computer?** Paste it **[BLOOMBERG_MACHINE_HANDOFF.md](BLOOMBERG_MACHINE_HANDOFF.md)** first: the rules, clocks, monthly order and what it must not override.
 
-Extract it, read `START_HERE.txt`, then **`OFFLINE_OPERATOR_GUIDE.md`**. New since R45: the page is rebuilt from your runs with a computed overview analysis and no frozen text (guide 3.10); the three-model roster; live CNB rounds appended after each report (3.9); the release calendar captured from Bloomberg (3.3); Python 3.10 supported with its own lock (numpy 2.2.4, pandas 2.2.3, scipy 1.15.2, statsmodels 0.14.4, scikit-learn 1.6.1), on which `portable verify --models` reproduces the main nowcast and the path exactly. Works with Python 3.10, 3.11 or 3.12; no command calls the CNB ARAD API or any AI service.
+Extract it, read `START_HERE.txt`, then **`OFFLINE_OPERATOR_GUIDE.md`**. New in R48b: `cpi freshness` lists every input against what should exist at your clock under the sourced publication schedules and exits non-zero when anything is stale or missing, and the page opens with the same report as a red alert banner naming each stale input (guide 3.0); farm prices are admitted from the 18th of the month instead of the 26th, because CZSO publishes them with the producer-price release on the 16th or 17th (availability rules are versioned, so recorded bundles replay unchanged); the shipped September call was re-recorded under the new rule with August farm prices, at -0.187% m/m. Carried from R48: the page is rebuilt from your runs with a computed overview analysis and no frozen text (guide 3.10); the three-model roster; live CNB rounds appended after each report (3.9); the release calendar captured from Bloomberg (3.3); Python 3.10 supported with its own lock (numpy 2.2.4, pandas 2.2.3, scipy 1.15.2, statsmodels 0.14.4, scikit-learn 1.6.1), on which `portable verify --models` reproduces the main nowcast and the path exactly. Works with Python 3.10, 3.11 or 3.12; no command calls the CNB ARAD API or any AI service.
+
+## Previous offline package (R48, 24 September 2026)
+
+Release [r48-offline-2026-09-24](https://github.com/Laguiar1993/czech-inflation/releases/tag/r48-offline-2026-09-24) is the same route without the freshness alerts and with farm prices admitted from the 26th. Use R48b above.
 
 ## Previous offline package (R45, 23 September 2026)
 
